@@ -1,0 +1,974 @@
+[
+  {
+    "id": 700000,
+    "name": "Bosch Fridge Freezer KGV33VLEAG",
+    "slug": "bosch-fridge-freezer-kgv33vleag",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "KGV33VLEAG",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-kgv33vleag.jpg"
+      }
+    ],
+    "brands": [
+      "Bosch"
+    ],
+    "description": "Bosch fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700001,
+    "name": "Candy Fridge Freezer CCH1S513EWK-1",
+    "slug": "candy-fridge-freezer-cch1s513ewk-1",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "CCH1S513EWK-1",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-cch1s513ewk1.jpg"
+      }
+    ],
+    "brands": [
+      "Candy"
+    ],
+    "description": "Candy fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700003,
+    "name": "Electrolux Fridge Freezer LNT6ME33KO",
+    "slug": "electrolux-fridge-freezer-lnt6me33ko",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "LNT6ME33KO",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-lnt6me33ko.jpg"
+      }
+    ],
+    "brands": [
+      "Electrolux"
+    ],
+    "description": "Electrolux fridge freezer. Frost Free. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700004,
+    "name": "Electrolux Integrated Fridge Freezer LNT6NE18S",
+    "slug": "electrolux-integrated-fridge-freezer-lnt6ne18s",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "LNT6NE18S",
+    "categories": [
+      {
+        "id": 716,
+        "name": "Integrated"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-lnt6ne18s.jpg"
+      }
+    ],
+    "brands": [
+      "Electrolux"
+    ],
+    "description": "Electrolux integrated fridge freezer. Frost Free, 70/30 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700005,
+    "name": "Haier Fridge Freezer HCR3818ENMG(UK)",
+    "slug": "haier-fridge-freezer-hcr3818enmg-uk",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "HCR3818ENMG(UK)",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-hcr3818enmguk.jpg"
+      }
+    ],
+    "brands": [
+      "Haier"
+    ],
+    "description": "Haier fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700006,
+    "name": "Haier Fridge Freezer HFR5719EWPB",
+    "slug": "haier-fridge-freezer-hfr5719ewpb",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "HFR5719EWPB",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-hfr5719ewpb.jpg"
+      }
+    ],
+    "brands": [
+      "Haier"
+    ],
+    "description": "Haier fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700007,
+    "name": "Haier Fridge Freezer HSW59F18DIMM",
+    "slug": "haier-fridge-freezer-hsw59f18dimm",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "HSW59F18DIMM",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-hsw59f18dimm.jpg"
+      }
+    ],
+    "brands": [
+      "Haier"
+    ],
+    "description": "Haier fridge freezer. Plumbed water & ice. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700008,
+    "name": "Haier Fridge Freezer HTW5618ENMG(UK)",
+    "slug": "haier-fridge-freezer-htw5618enmg-uk",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "HTW5618ENMG(UK)",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-htw5618enmguk.jpg"
+      }
+    ],
+    "brands": [
+      "Haier"
+    ],
+    "description": "Haier fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700009,
+    "name": "Hisense Fridge Freezer RS694N4IBE",
+    "slug": "hisense-fridge-freezer-rs694n4ibe",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "RS694N4IBE",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-rs694n4ibe.jpg"
+      }
+    ],
+    "brands": [
+      "Hisense"
+    ],
+    "description": "Hisense fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700010,
+    "name": "Hoover Fridge Freezer HONFQ2T718EXK",
+    "slug": "hoover-fridge-freezer-honfq2t718exk",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "HONFQ2T718EXK",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-honfq2t718exk.jpg"
+      }
+    ],
+    "brands": [
+      "Hoover"
+    ],
+    "description": "Hoover fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700012,
+    "name": "Hotpoint Fridge Freezer H9C941CW",
+    "slug": "hotpoint-fridge-freezer-h9c941cw",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "H9C941CW",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-h9c941cw.jpg"
+      }
+    ],
+    "brands": [
+      "Hotpoint"
+    ],
+    "description": "Hotpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700014,
+    "name": "Hotpoint Integrated Fridge Freezer HTC18D011A1",
+    "slug": "hotpoint-integrated-fridge-freezer-htc18d011a1",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "HTC18D011A1",
+    "categories": [
+      {
+        "id": 716,
+        "name": "Integrated"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-htc18d011a1.jpg"
+      }
+    ],
+    "brands": [
+      "Hotpoint"
+    ],
+    "description": "Hotpoint integrated fridge freezer. 70/30 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700015,
+    "name": "Indesit Fridge Freezer IB55532BUK",
+    "slug": "indesit-fridge-freezer-ib55532buk",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "IB55532BUK",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-ib55532buk.jpg"
+      }
+    ],
+    "brands": [
+      "Indesit"
+    ],
+    "description": "Indesit fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700016,
+    "name": "Indesit Fridge Freezer IB55532SUK",
+    "slug": "indesit-fridge-freezer-ib55532suk",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "IB55532SUK",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-ib55532suk.jpg"
+      }
+    ],
+    "brands": [
+      "Indesit"
+    ],
+    "description": "Indesit fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700017,
+    "name": "Indesit Fridge Freezer IB55532WUK",
+    "slug": "indesit-fridge-freezer-ib55532wuk",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "IB55532WUK",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-ib55532wuk.jpg"
+      }
+    ],
+    "brands": [
+      "Indesit"
+    ],
+    "description": "Indesit fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700018,
+    "name": "Indesit Integrated Fridge Freezer INC18D011B1",
+    "slug": "indesit-integrated-fridge-freezer-inc18d011b1",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "INC18D011B1",
+    "categories": [
+      {
+        "id": 716,
+        "name": "Integrated"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-inc18d011b1.jpg"
+      }
+    ],
+    "brands": [
+      "Indesit"
+    ],
+    "description": "Indesit integrated fridge freezer. 70/30 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700019,
+    "name": "Indesit Fridge Freezer INK25322S4UKS",
+    "slug": "indesit-fridge-freezer-ink25322s4uks",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "INK25322S4UKS",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-ink25322s4uks.jpg"
+      }
+    ],
+    "brands": [
+      "Indesit"
+    ],
+    "description": "Indesit fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700020,
+    "name": "Indesit Fridge Freezer INK25322W4UKS",
+    "slug": "indesit-fridge-freezer-ink25322w4uks",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "INK25322W4UKS",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-ink25322w4uks.jpg"
+      }
+    ],
+    "brands": [
+      "Indesit"
+    ],
+    "description": "Indesit fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700021,
+    "name": "Indesit Integrated Fridge Freezer KINS1261B4UK",
+    "slug": "indesit-integrated-fridge-freezer-kins1261b4uk",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "KINS1261B4UK",
+    "categories": [
+      {
+        "id": 716,
+        "name": "Integrated"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-kins1261b4uk.jpg"
+      }
+    ],
+    "brands": [
+      "Indesit"
+    ],
+    "description": "Indesit integrated fridge freezer. 50/50 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700022,
+    "name": "Indesit Undercounter Fridge SI81QWDUK",
+    "slug": "indesit-undercounter-fridge-si81qwduk",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "SI81QWDUK",
+    "categories": [
+      {
+        "id": 713,
+        "name": "Undercounter"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-si81qwduk.jpg"
+      }
+    ],
+    "brands": [
+      "Indesit"
+    ],
+    "description": "Indesit undercounter fridge. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700023,
+    "name": "Nordmende Fridge Freezer RFF266WH",
+    "slug": "nordmende-fridge-freezer-rff266wh",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "RFF266WH",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-rff266wh.jpg"
+      }
+    ],
+    "brands": [
+      "Nordmende"
+    ],
+    "description": "Nordmende fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700024,
+    "name": "Nordmende Fridge Freezer RFF317NFIXL",
+    "slug": "nordmende-fridge-freezer-rff317nfixl",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "RFF317NFIXL",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-rff317nfixl.jpg"
+      }
+    ],
+    "brands": [
+      "Nordmende"
+    ],
+    "description": "Nordmende fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700025,
+    "name": "Nordmende Fridge Freezer RFF317NFWH",
+    "slug": "nordmende-fridge-freezer-rff317nfwh",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "RFF317NFWH",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-rff317nfwh.jpg"
+      }
+    ],
+    "brands": [
+      "Nordmende"
+    ],
+    "description": "Nordmende fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700026,
+    "name": "Nordmende Fridge Freezer RFF60405IXL",
+    "slug": "nordmende-fridge-freezer-rff60405ixl",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "RFF60405IXL",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-rff60405ixl.jpg"
+      }
+    ],
+    "brands": [
+      "Nordmende"
+    ],
+    "description": "Nordmende fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700027,
+    "name": "Nordmende Fridge Freezer RFF60405SL",
+    "slug": "nordmende-fridge-freezer-rff60405sl",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "RFF60405SL",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-rff60405sl.jpg"
+      }
+    ],
+    "brands": [
+      "Nordmende"
+    ],
+    "description": "Nordmende fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700028,
+    "name": "Powerpoint Undercounter Fridge P467TTIBMDW",
+    "slug": "powerpoint-undercounter-fridge-p467ttibmdw",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "P467TTIBMDW",
+    "categories": [
+      {
+        "id": 713,
+        "name": "Undercounter"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-p467ttibmdw.jpg"
+      }
+    ],
+    "brands": [
+      "Powerpoint"
+    ],
+    "description": "Powerpoint undercounter fridge. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700029,
+    "name": "Powerpoint Fridge Freezer P74250MLSS-E",
+    "slug": "powerpoint-fridge-freezer-p74250mlss-e",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "P74250MLSS-E",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-p74250mlsse.jpg"
+      }
+    ],
+    "brands": [
+      "Powerpoint"
+    ],
+    "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700030,
+    "name": "Powerpoint Fridge Freezer P74250MLW",
+    "slug": "powerpoint-fridge-freezer-p74250mlw",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "P74250MLW",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-p74250mlw.jpg"
+      }
+    ],
+    "brands": [
+      "Powerpoint"
+    ],
+    "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700031,
+    "name": "Powerpoint Fridge Freezer P74555SKW",
+    "slug": "powerpoint-fridge-freezer-p74555skw",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "P74555SKW",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-p74555skw.jpg"
+      }
+    ],
+    "brands": [
+      "Powerpoint"
+    ],
+    "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700032,
+    "name": "Powerpoint Fridge Freezer P75562ML1W",
+    "slug": "powerpoint-fridge-freezer-p75562ml1w",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "P75562ML1W",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-p75562ml1w.jpg"
+      }
+    ],
+    "brands": [
+      "Powerpoint"
+    ],
+    "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700033,
+    "name": "Powerpoint Fridge Freezer P75562MLIN-E",
+    "slug": "powerpoint-fridge-freezer-p75562mlin-e",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "P75562MLIN-E",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-p75562mline.jpg"
+      }
+    ],
+    "brands": [
+      "Powerpoint"
+    ],
+    "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700034,
+    "name": "Powerpoint Fridge Freezer P9383KSS",
+    "slug": "powerpoint-fridge-freezer-p9383kss",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "P9383KSS",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-p9383kss.jpg"
+      }
+    ],
+    "brands": [
+      "Powerpoint"
+    ],
+    "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700035,
+    "name": "Powerpoint Fridge Freezer P9383WDKBL",
+    "slug": "powerpoint-fridge-freezer-p9383wdkbl",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "P9383WDKBL",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-p9383wdkbl.jpg"
+      }
+    ],
+    "brands": [
+      "Powerpoint"
+    ],
+    "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700036,
+    "name": "Samsung Fridge Freezer RS70F64KEFEU",
+    "slug": "samsung-fridge-freezer-rs70f64kefeu",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "RS70F64KEFEU",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-rs70f64kefeu.jpg"
+      }
+    ],
+    "brands": [
+      "Samsung"
+    ],
+    "description": "Samsung fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700037,
+    "name": "Samsung Fridge Freezer RS70F64KETEU",
+    "slug": "samsung-fridge-freezer-rs70f64keteu",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "RS70F64KETEU",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-rs70f64keteu.jpg"
+      }
+    ],
+    "brands": [
+      "Samsung"
+    ],
+    "description": "Samsung fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  },
+  {
+    "id": 700038,
+    "name": "Samsung Fridge Freezer RS70F65KETEU",
+    "slug": "samsung-fridge-freezer-rs70f65keteu",
+    "price": "",
+    "regular_price": "",
+    "sale_price": "",
+    "stock_status": "instock",
+    "sku": "RS70F65KETEU",
+    "categories": [
+      {
+        "id": 714,
+        "name": "Fridge Freezer"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/img/fridge-rs70f65keteu.jpg"
+      }
+    ],
+    "brands": [
+      "Samsung"
+    ],
+    "description": "Samsung fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+    "short_description": "",
+    "_ean": ""
+  }
+]

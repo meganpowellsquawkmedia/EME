@@ -1,0 +1,4157 @@
+[
+  {
+    "id": 687,
+    "name": "23\" to 32\"",
+    "slug": "23-to-32",
+    "parent": 686,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/687",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/686"
+        }
+      ]
+    }
+  },
+  {
+    "id": 688,
+    "name": "39\" to 55\"",
+    "slug": "39-to-55",
+    "parent": 686,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/688",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/686"
+        }
+      ]
+    }
+  },
+  {
+    "id": 689,
+    "name": "55\" and above",
+    "slug": "55-and-above",
+    "parent": 686,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/689",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/686"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Accessories",
+    "slug": "accessories",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 15,
+    "count": 8,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/20",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "name": "All Products",
+    "slug": "all-products",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 16,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/37",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 715,
+    "name": "American",
+    "slug": "integrated-refrigeration",
+    "parent": 700,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 9,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/715",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/700"
+        }
+      ]
+    }
+  },
+  {
+    "id": 858,
+    "name": "AUDIO &amp; RADIO",
+    "slug": "audio-radio",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/858",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "name": "Bar Stools &amp; Chairs",
+    "slug": "bar-stools-chairs-chairs",
+    "parent": 1097,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 2,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1098",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1097"
+        }
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "name": "Bar Stools &amp; Chairs",
+    "slug": "bar-stools-chairs",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 13,
+    "count": 22,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/59",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1529,
+    "name": "Battery Drill",
+    "slug": "battery-drill",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 8168,
+      "date_created": "2024-04-17T14:58:07",
+      "date_created_gmt": "2024-04-17T14:58:07",
+      "date_modified": "2024-04-17T14:58:07",
+      "date_modified_gmt": "2024-04-17T14:58:07",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/04/964KP_P.webp",
+      "name": "964KP_P",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 2,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1529",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1526,
+    "name": "BBQ",
+    "slug": "bbq",
+    "parent": 1419,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 8299,
+      "date_created": "2024-04-27T15:50:53",
+      "date_created_gmt": "2024-04-27T15:50:53",
+      "date_modified": "2024-04-27T15:50:53",
+      "date_modified_gmt": "2024-04-27T15:50:53",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/04/BBQ-2.jpg",
+      "name": "BBQ 2",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 4,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1526",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1419"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1094,
+    "name": "Bedroom",
+    "slug": "bedroom-2",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 17,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1094",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Bedroom Furniture",
+    "slug": "bedroom",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 1,
+    "count": 25,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/7",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 670,
+    "name": "Beds",
+    "slug": "beds",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/670",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 940,
+    "name": "BLUETOOTH SPEAKERS",
+    "slug": "bluetooth-speakers",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/940",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1453,
+    "name": "Box Freezers",
+    "slug": "box-freezers",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 5,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1453",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 740,
+    "name": "Brands",
+    "slug": "brands",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/740",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 708,
+    "name": "Build in Double Oven",
+    "slug": "build-in-double-oven",
+    "parent": 699,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 12,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/708",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/699"
+        }
+      ]
+    }
+  },
+  {
+    "id": 707,
+    "name": "Built In Single Oven",
+    "slug": "built-in-single-oven",
+    "parent": 699,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 28,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/707",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/699"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1095,
+    "name": "Bunk Beds",
+    "slug": "bunk-beds-bedroom-2",
+    "parent": 1094,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 4,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1095",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1094"
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "name": "Bunk Beds",
+    "slug": "bunk-beds",
+    "parent": 7,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 2,
+    "count": 8,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/39",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/7"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1097,
+    "name": "Chairs",
+    "slug": "chairs",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 2,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1097",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 935,
+    "name": "CLOCK RADIOS",
+    "slug": "clock-radios",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/935",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1296,
+    "name": "Coffee Machines",
+    "slug": "coffee-machines",
+    "parent": 718,
+    "description": "",
+    "display": "both",
+    "image": null,
+    "menu_order": 0,
+    "count": 13,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1296",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/718"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1108,
+    "name": "Coffee Tables",
+    "slug": "coffee-tables-living-room",
+    "parent": 1107,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1108",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1107"
+        }
+      ]
+    }
+  },
+  {
+    "id": 667,
+    "name": "Coffee Tables",
+    "slug": "coffee-tables",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 7,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/667",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1016,
+    "name": "COOKING",
+    "slug": "cooking-2",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1016",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 699,
+    "name": "Cooking",
+    "slug": "cooking",
+    "parent": 696,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 99,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/699",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/696"
+        }
+      ]
+    }
+  },
+  {
+    "id": 742,
+    "name": "Cookware",
+    "slug": "cookware",
+    "parent": 699,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/742",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/699"
+        }
+      ]
+    }
+  },
+  {
+    "id": 766,
+    "name": "Corded &amp; Cordless",
+    "slug": "corded-cordless",
+    "parent": 754,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 7,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/766",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/754"
+        }
+      ]
+    }
+  },
+  {
+    "id": 695,
+    "name": "Dashcam",
+    "slug": "dashcam",
+    "parent": 690,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 7,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/695",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/690"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1405,
+    "name": "Dehumidifier",
+    "slug": "dehumidifier",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 3,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1405",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "name": "Dining",
+    "slug": "dining",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 10,
+    "count": 28,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/33",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1101,
+    "name": "Dining Chairs",
+    "slug": "dining-chairs",
+    "parent": 1099,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1101",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1099"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1099,
+    "name": "Dining Room",
+    "slug": "dining-room",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 10,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1099",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1100,
+    "name": "Dining Tables",
+    "slug": "dining-tables",
+    "parent": 1099,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1100",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1099"
+        }
+      ]
+    }
+  },
+  {
+    "id": 698,
+    "name": "Dishwashers",
+    "slug": "dishwashers",
+    "parent": 696,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 32,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/698",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/696"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1102,
+    "name": "Double beds",
+    "slug": "double-beds-bedroom-2",
+    "parent": 1094,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 2,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1102",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1094"
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "name": "Double beds",
+    "slug": "double-beds",
+    "parent": 7,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 3,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/42",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/7"
+        }
+      ]
+    }
+  },
+  {
+    "id": 711,
+    "name": "Electric Hob",
+    "slug": "electric-hob",
+    "parent": 699,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 11,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/711",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/699"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1451,
+    "name": "Fans",
+    "slug": "fans",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1451",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 724,
+    "name": "Food Preparation",
+    "slug": "food-preparation",
+    "parent": 718,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 16,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/724",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/718"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1036,
+    "name": "FOOD PREPARATION",
+    "slug": "food-preparation-2",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1036",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 704,
+    "name": "Freestanding",
+    "slug": "freestanding",
+    "parent": 698,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 13,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/704",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/698"
+        }
+      ]
+    }
+  },
+  {
+    "id": 710,
+    "name": "Freestanding Double oven",
+    "slug": "freestanding-double-oven",
+    "parent": 699,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 36,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/710",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/699"
+        }
+      ]
+    }
+  },
+  {
+    "id": 709,
+    "name": "Freestanding Single Oven",
+    "slug": "freestanding-single-oven",
+    "parent": 699,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 3,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/709",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/699"
+        }
+      ]
+    }
+  },
+  {
+    "id": 714,
+    "name": "Fridge Freezer",
+    "slug": "fridge-freezer",
+    "parent": 700,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 62,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/714",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/700"
+        }
+      ]
+    }
+  },
+  {
+    "id": 722,
+    "name": "Fryers",
+    "slug": "fryers",
+    "parent": 718,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 21,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/722",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/718"
+        }
+      ]
+    }
+  },
+  {
+    "id": 717,
+    "name": "Furniture",
+    "slug": "furniture",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/717",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 712,
+    "name": "Gas Hob",
+    "slug": "gas-hob",
+    "parent": 699,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 8,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/712",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/699"
+        }
+      ]
+    }
+  },
+  {
+    "id": 878,
+    "name": "HEADPHONES",
+    "slug": "headphones",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/878",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 723,
+    "name": "Heating",
+    "slug": "heating",
+    "parent": 718,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 17,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/723",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/718"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1527,
+    "name": "Hedgecutter",
+    "slug": "hedge-cutter",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 8190,
+      "date_created": "2024-04-17T17:55:55",
+      "date_created_gmt": "2024-04-17T17:55:55",
+      "date_modified": "2024-04-17T17:55:55",
+      "date_modified_gmt": "2024-04-17T17:55:55",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0207.jpeg",
+      "name": "IMG_0207",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 3,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1527",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 918,
+    "name": "HI-FI SYSTEMS",
+    "slug": "hi-fi-systems",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/918",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "name": "Hollywood Mirrors",
+    "slug": "hollywood-mirrors",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 6,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/86",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1419,
+    "name": "Home and Garden",
+    "slug": "home-and-garden",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 16,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1419",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 696,
+    "name": "Home Appliances",
+    "slug": "home-appliances",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 291,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/696",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 876,
+    "name": "Home/Landline Phones",
+    "slug": "home-landline-phones",
+    "parent": 690,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 2,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/876",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/690"
+        }
+      ]
+    }
+  },
+  {
+    "id": 705,
+    "name": "Integrated",
+    "slug": "integrated",
+    "parent": 698,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 15,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/705",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/698"
+        }
+      ]
+    }
+  },
+  {
+    "id": 716,
+    "name": "Integrated",
+    "slug": "integrated-refrigeration-home-appliances",
+    "parent": 700,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 19,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/716",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/700"
+        }
+      ]
+    }
+  },
+  {
+    "id": 985,
+    "name": "IRONING",
+    "slug": "ironing",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/985",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1024,
+    "name": "JUICERS",
+    "slug": "juicers",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 2,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1024",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 721,
+    "name": "Kettle &amp; Toasters",
+    "slug": "kettle-toasters",
+    "parent": 718,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/721",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/718"
+        }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "name": "Kids",
+    "slug": "kids",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 12,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/61",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "name": "Kids Beds",
+    "slug": "kids-beds",
+    "parent": 7,
+    "description": "",
+    "display": "subcategories",
+    "image": {
+      "id": 842,
+      "date_created": "2018-04-02T21:14:31",
+      "date_created_gmt": "2018-04-02T21:14:31",
+      "date_modified": "2018-04-02T21:14:31",
+      "date_modified_gmt": "2018-04-02T21:14:31",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2018/04/Louis-Bunk-bed.jpg",
+      "name": "Louis Bunk bed",
+      "alt": ""
+    },
+    "menu_order": 4,
+    "count": 8,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/38",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/7"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1096,
+    "name": "Kids Beds",
+    "slug": "kids-beds-bedroom-2",
+    "parent": 1094,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 4,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1096",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1094"
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "name": "King beds",
+    "slug": "king-beds",
+    "parent": 7,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 5,
+    "count": 2,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/43",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/7"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1103,
+    "name": "King beds",
+    "slug": "king-beds-bedroom-2",
+    "parent": 1094,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 3,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1103",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1094"
+        }
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "name": "Lamps",
+    "slug": "lamps",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/85",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 727,
+    "name": "Laptops",
+    "slug": "laptops",
+    "parent": 690,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 8,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/727",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/690"
+        }
+      ]
+    }
+  },
+  {
+    "id": 697,
+    "name": "Laundry",
+    "slug": "laundry",
+    "parent": 696,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 62,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/697",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/696"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1525,
+    "name": "Lawnmower",
+    "slug": "lawnmower",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 17,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1525",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1528,
+    "name": "Leafblower",
+    "slug": "leaf-blower",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 8091,
+      "date_created": "2024-04-16T19:38:24",
+      "date_created_gmt": "2024-04-16T19:38:24",
+      "date_modified": "2024-04-16T19:38:24",
+      "date_modified_gmt": "2024-04-16T19:38:24",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0201.jpeg",
+      "name": "IMG_0201",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1528",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "name": "Living",
+    "slug": "living",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 9,
+    "count": 14,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/34",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1107,
+    "name": "Living Room",
+    "slug": "living-room",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1107",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "name": "MATTRESSES",
+    "slug": "mattress",
+    "parent": 0,
+    "description": "",
+    "display": "products",
+    "image": {
+      "id": 2501,
+      "date_created": "2018-05-25T08:24:59",
+      "date_created_gmt": "2018-05-25T08:24:59",
+      "date_modified": "2018-05-25T08:24:59",
+      "date_modified_gmt": "2018-05-25T08:24:59",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2018/05/uno_deluxe_deluxe_firm_14cm_deep_double_matt_size_room_set_3_1_1_1.jpg",
+      "name": "uno_deluxe_deluxe_firm_14cm_deep_double_matt_size_room_set_3_1_1_1",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 9,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/72",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 720,
+    "name": "Microwave",
+    "slug": "microwave",
+    "parent": 718,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 18,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/720",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/718"
+        }
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "name": "Mirrored Furniture",
+    "slug": "mirrored-furniture",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 11,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/84",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "name": "Mirrors",
+    "slug": "mirrors",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 14,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/83",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 875,
+    "name": "Mobile Phones",
+    "slug": "technology-mobile-phones",
+    "parent": 690,
+    "description": "",
+    "display": "products",
+    "image": null,
+    "menu_order": 0,
+    "count": 5,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/875",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/690"
+        }
+      ]
+    }
+  },
+  {
+    "id": 767,
+    "name": "Mobile Phones",
+    "slug": "mobile-phones",
+    "parent": 754,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 32,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/767",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/754"
+        }
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "name": "Occasional",
+    "slug": "occasional",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 5,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/71",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 82,
+    "name": "Office",
+    "slug": "office",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 3,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/82",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 726,
+    "name": "Personal Care",
+    "slug": "personal-care",
+    "parent": 718,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/726",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/718"
+        }
+      ]
+    }
+  },
+  {
+    "id": 969,
+    "name": "PERSONAL CARE",
+    "slug": "personal-care-2",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/969",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 852,
+    "name": "Pocket Radio",
+    "slug": "pocket-radio",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/852",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 923,
+    "name": "RADIOS",
+    "slug": "radios",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/923",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1491,
+    "name": "Record Players",
+    "slug": "record-players",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 19,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1491",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 700,
+    "name": "Refrigeration",
+    "slug": "refrigeration",
+    "parent": 696,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 97,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/700",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/696"
+        }
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "name": "Sales",
+    "slug": "sales",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/62",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1480,
+    "name": "Security",
+    "slug": "security",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 8,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1480",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1106,
+    "name": "Sideboards &amp; Consoles",
+    "slug": "sideboards-consoles-dining-room",
+    "parent": 1099,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 3,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1106",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1099"
+        }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "name": "Sideboards &amp; Consoles",
+    "slug": "sideboards-consoles",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 24,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/66",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 816,
+    "name": "Sim Free",
+    "slug": "sim-free",
+    "parent": 767,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/816",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/767"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "name": "Single beds",
+    "slug": "single-beds",
+    "parent": 7,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 6,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/40",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/7"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1105,
+    "name": "Single beds",
+    "slug": "single-beds-bedroom-2",
+    "parent": 1094,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1105",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1094"
+        }
+      ]
+    }
+  },
+  {
+    "id": 706,
+    "name": "Slim Line",
+    "slug": "slim-line",
+    "parent": 698,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 6,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/706",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/698"
+        }
+      ]
+    }
+  },
+  {
+    "id": 718,
+    "name": "Small Appliances",
+    "slug": "small-appliances",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 108,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/718",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "name": "Small double",
+    "slug": "small-double",
+    "parent": 7,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 7,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/41",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/7"
+        }
+      ]
+    }
+  },
+  {
+    "id": 694,
+    "name": "Smarthome",
+    "slug": "smarthome",
+    "parent": 690,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/694",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/690"
+        }
+      ]
+    }
+  },
+  {
+    "id": 693,
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "parent": 690,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 2,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/693",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/690"
+        }
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "name": "Sofas",
+    "slug": "sofas",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 11,
+    "count": 10,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/58",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1104,
+    "name": "Super king",
+    "slug": "super-king-bedroom-2",
+    "parent": 1094,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1104",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1094"
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "name": "Super king",
+    "slug": "super-king",
+    "parent": 7,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 8,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/44",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/7"
+        }
+      ]
+    }
+  },
+  {
+    "id": 691,
+    "name": "Tablets",
+    "slug": "tablets",
+    "parent": 690,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 3,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/691",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/690"
+        }
+      ]
+    }
+  },
+  {
+    "id": 690,
+    "name": "Technology",
+    "slug": "technology",
+    "parent": 767,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 29,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/690",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/767"
+        }
+      ]
+    }
+  },
+  {
+    "id": 754,
+    "name": "Telephones",
+    "slug": "telephones",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 39,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/754",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 702,
+    "name": "Tumble Dryer",
+    "slug": "tumble-dryer",
+    "parent": 697,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 11,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/702",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/697"
+        }
+      ]
+    }
+  },
+  {
+    "id": 877,
+    "name": "TV AND AUDIO",
+    "slug": "tv-and-audio",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/877",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1109,
+    "name": "TV UNITS",
+    "slug": "tv-units-living-room",
+    "parent": 1107,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1109",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1107"
+        }
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "name": "TV UNITS",
+    "slug": "tv-units",
+    "parent": 34,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 10,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/74",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/34"
+        }
+      ]
+    }
+  },
+  {
+    "id": 686,
+    "name": "TV`'S",
+    "slug": "tvs",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/686",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 713,
+    "name": "Undercounter",
+    "slug": "undercounter",
+    "parent": 700,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 7,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/713",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/700"
+        }
+      ]
+    }
+  },
+  {
+    "id": 725,
+    "name": "Vacuum",
+    "slug": "vacuum",
+    "parent": 718,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 22,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/725",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/718"
+        }
+      ]
+    }
+  },
+  {
+    "id": 703,
+    "name": "Washer Dryer",
+    "slug": "washer-dryer",
+    "parent": 697,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 12,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/703",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/697"
+        }
+      ]
+    }
+  },
+  {
+    "id": 1578,
+    "name": "WASHING",
+    "slug": "washing",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/1578",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 701,
+    "name": "Washing Machines",
+    "slug": "washing-machines",
+    "parent": 697,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 39,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/701",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/697"
+        }
+      ]
+    }
+  },
+  {
+    "id": 692,
+    "name": "Watches",
+    "slug": "watches",
+    "parent": 690,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/692",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories"
+        }
+      ],
+      "up": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wc/v3/products/categories/690"
+        }
+      ]
+    }
+  }
+]

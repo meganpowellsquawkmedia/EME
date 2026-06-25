@@ -1,0 +1,121 @@
+old_path,new_path,type,title
+/product-category/23-to-32/,/category/23-to-32/,category,"23"" to 32"""
+/product-category/39-to-55/,/category/39-to-55/,category,"39"" to 55"""
+/product-category/55-and-above/,/category/55-and-above/,category,"55"" and above"
+/product-category/accessories/,/category/accessories/,category,Accessories
+/product-category/all-products/,/category/all-products/,category,All Products
+/product-category/integrated-refrigeration/,/category/american-fridge-freezers/,category,American
+/product-category/audio-radio/,/category/audio-and-radio/,category,AUDIO & RADIO
+/product-category/bar-stools-chairs-chairs/,/category/chairs-bar-stools-and-chairs/,category,Bar Stools & Chairs
+/product-category/bar-stools-chairs/,/category/bar-stools-and-chairs/,category,Bar Stools & Chairs
+/product-category/battery-drill/,/category/battery-drill/,category,Battery Drill
+/product-category/bbq/,/category/bbq/,category,BBQ
+/product-category/bedroom-2/,/category/bedroom/,category,Bedroom
+/product-category/bedroom/,/category/bedroom-furniture/,category,Bedroom Furniture
+/product-category/beds/,/category/beds/,category,Beds
+/product-category/bluetooth-speakers/,/category/bluetooth-speakers/,category,BLUETOOTH SPEAKERS
+/product-category/box-freezers/,/category/box-freezers/,category,Box Freezers
+/product-category/brands/,/category/brands/,category,Brands
+/product-category/build-in-double-oven/,/category/build-in-double-oven/,category,Build in Double Oven
+/product-category/built-in-single-oven/,/category/built-in-single-oven/,category,Built In Single Oven
+/product-category/bunk-beds-bedroom-2/,/category/bedroom-bunk-beds/,category,Bunk Beds
+/product-category/bunk-beds/,/category/bedroom-furniture-bunk-beds/,category,Bunk Beds
+/product-category/chairs/,/category/chairs/,category,Chairs
+/product-category/clock-radios/,/category/clock-radios/,category,CLOCK RADIOS
+/product-category/coffee-machines/,/category/coffee-machines/,category,Coffee Machines
+/product-category/coffee-tables-living-room/,/category/living-room-coffee-tables/,category,Coffee Tables
+/product-category/coffee-tables/,/category/coffee-tables/,category,Coffee Tables
+/product-category/cooking-2/,/category/cooking/,category,COOKING
+/product-category/cooking/,/category/home-appliances-cooking/,category,Cooking
+/product-category/cookware/,/category/cookware/,category,Cookware
+/product-category/corded-cordless/,/category/landline-and-cordless-phones/,category,Landline & Cordless Phones
+/product-category/dashcam/,/category/dash-cams/,category,Dash Cams
+/product-category/dehumidifier/,/category/dehumidifier/,category,Dehumidifier
+/product-category/dining/,/category/dining/,category,Dining
+/product-category/dining-chairs/,/category/dining-chairs/,category,Dining Chairs
+/product-category/dining-room/,/category/dining-room/,category,Dining Room
+/product-category/dining-tables/,/category/dining-tables/,category,Dining Tables
+/product-category/dishwashers/,/category/dishwashers/,category,Dishwashers
+/product-category/double-beds-bedroom-2/,/category/bedroom-double-beds/,category,Double beds
+/product-category/double-beds/,/category/bedroom-furniture-double-beds/,category,Double beds
+/product-category/electric-hob/,/category/electric-hob/,category,Electric Hob
+/product-category/fans/,/category/fans/,category,Fans
+/product-category/food-preparation/,/category/small-appliances-food-preparation/,category,Food Preparation
+/product-category/food-preparation-2/,/category/food-preparation/,category,FOOD PREPARATION
+/product-category/freestanding/,/category/freestanding-dishwashers/,category,Freestanding
+/product-category/freestanding-double-oven/,/category/freestanding-double-oven/,category,Freestanding Double oven
+/product-category/freestanding-single-oven/,/category/freestanding-single-oven/,category,Freestanding Single Oven
+/product-category/fridge-freezer/,/category/fridge-freezer/,category,Fridge Freezer
+/product-category/fryers/,/category/fryers/,category,Fryers
+/product-category/furniture/,/category/furniture/,category,Furniture
+/product-category/gas-hob/,/category/gas-hob/,category,Gas Hob
+/product-category/headphones/,/category/headphones/,category,HEADPHONES
+/product-category/heating/,/category/heating/,category,Heating
+/product-category/hedge-cutter/,/category/hedgecutter/,category,Hedgecutter
+/product-category/hi-fi-systems/,/category/hi-fi-systems/,category,HI-FI SYSTEMS
+/product-category/hollywood-mirrors/,/category/hollywood-mirrors/,category,Hollywood Mirrors
+/product-category/home-and-garden/,/category/home-and-garden/,category,Home and Garden
+/product-category/home-appliances/,/category/home-appliances/,category,Home Appliances
+/product-category/home-landline-phones/,/category/home-landline-phones/,category,Home/Landline Phones
+/product-category/integrated/,/category/integrated-dishwashers/,category,Integrated
+/product-category/integrated-refrigeration-home-appliances/,/category/integrated-fridge-freezers/,category,Integrated
+/product-category/ironing/,/category/ironing/,category,IRONING
+/product-category/juicers/,/category/juicers/,category,JUICERS
+/product-category/kettle-toasters/,/category/kettle-and-toasters/,category,Kettle & Toasters
+/product-category/kids/,/category/kids/,category,Kids
+/product-category/kids-beds/,/category/bedroom-furniture-kids-beds/,category,Kids Beds
+/product-category/kids-beds-bedroom-2/,/category/bedroom-kids-beds/,category,Kids Beds
+/product-category/king-beds/,/category/bedroom-furniture-king-beds/,category,King beds
+/product-category/king-beds-bedroom-2/,/category/bedroom-king-beds/,category,King beds
+/product-category/lamps/,/category/lamps/,category,Lamps
+/product-category/laptops/,/category/laptops/,category,Laptops
+/product-category/laundry/,/category/laundry/,category,Laundry
+/product-category/lawnmower/,/category/lawnmower/,category,Lawnmower
+/product-category/leaf-blower/,/category/leafblower/,category,Leafblower
+/product-category/living/,/category/living/,category,Living
+/product-category/living-room/,/category/living-room/,category,Living Room
+/product-category/mattress/,/category/mattresses/,category,MATTRESSES
+/product-category/microwave/,/category/microwave/,category,Microwave
+/product-category/mirrored-furniture/,/category/mirrored-furniture/,category,Mirrored Furniture
+/product-category/mirrors/,/category/mirrors/,category,Mirrors
+/product-category/technology-mobile-phones/,/category/technology-mobile-phones/,category,Mobile Phones
+/product-category/mobile-phones/,/category/telephones-mobile-phones/,category,Mobile Phones
+/product-category/occasional/,/category/occasional/,category,Occasional
+/product-category/office/,/category/office/,category,Office
+/product-category/personal-care/,/category/small-appliances-personal-care/,category,Personal Care
+/product-category/personal-care-2/,/category/personal-care/,category,PERSONAL CARE
+/product-category/pocket-radio/,/category/pocket-radio/,category,Pocket Radio
+/product-category/radios/,/category/radios/,category,RADIOS
+/product-category/record-players/,/category/record-players/,category,Record Players
+/product-category/refrigeration/,/category/refrigeration/,category,Refrigeration
+/product-category/sales/,/category/sales/,category,Sales
+/product-category/security/,/category/security/,category,Security
+/product-category/sideboards-consoles-dining-room/,/category/dining-room-sideboards-and-consoles/,category,Sideboards & Consoles
+/product-category/sideboards-consoles/,/category/sideboards-and-consoles/,category,Sideboards & Consoles
+/product-category/sim-free/,/category/sim-free/,category,Sim Free
+/product-category/single-beds/,/category/bedroom-furniture-single-beds/,category,Single beds
+/product-category/single-beds-bedroom-2/,/category/bedroom-single-beds/,category,Single beds
+/product-category/slim-line/,/category/slim-line/,category,Slim Line
+/product-category/small-appliances/,/category/small-appliances/,category,Small Appliances
+/product-category/small-double/,/category/small-double/,category,Small double
+/product-category/smarthome/,/category/smarthome/,category,Smarthome
+/product-category/smartphones/,/category/smartphones/,category,Smartphones
+/product-category/sofas/,/category/sofas/,category,Sofas
+/product-category/super-king-bedroom-2/,/category/bedroom-super-king/,category,Super king
+/product-category/super-king/,/category/bedroom-furniture-super-king/,category,Super king
+/product-category/tablets/,/category/tablets/,category,Tablets
+/product-category/technology/,/category/technology/,category,Technology
+/product-category/telephones/,/category/telephones/,category,Telephones
+/product-category/tumble-dryer/,/category/tumble-dryer/,category,Tumble Dryer
+/product-category/tv-and-audio/,/category/tv-and-audio/,category,TV AND AUDIO
+/product-category/tv-units-living-room/,/category/living-room-tv-units/,category,TV UNITS
+/product-category/tv-units/,/category/living-tv-units/,category,TV UNITS
+/product-category/tvs/,/category/tv-s/,category,TV`'S
+/product-category/undercounter/,/category/undercounter/,category,Undercounter
+/product-category/vacuum/,/category/vacuum/,category,Vacuum
+/product-category/washer-dryer/,/category/washer-dryer/,category,Washer Dryer
+/product-category/washing/,/category/washing/,category,WASHING
+/product-category/washing-machines/,/category/washing-machines/,category,Washing Machines
+/product-category/watches/,/category/watches/,category,Watches
+/product-category/smartwatches/,/category/smartwatches/,category,Smartwatches
+/product-category/baby-monitors/,/category/baby-monitors/,category,Baby Monitors

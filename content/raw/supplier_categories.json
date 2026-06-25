@@ -1,0 +1,16 @@
+[
+  {
+    "id": 990001,
+    "name": "Smartwatches",
+    "slug": "smartwatches",
+    "parent": 0,
+    "count": 0
+  },
+  {
+    "id": 990002,
+    "name": "Baby Monitors",
+    "slug": "baby-monitors",
+    "parent": 0,
+    "count": 0
+  }
+]

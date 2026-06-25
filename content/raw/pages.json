@@ -1,0 +1,1598 @@
+[
+  {
+    "id": 8770,
+    "date": "2026-06-08T19:27:50",
+    "date_gmt": "2026-06-08T19:27:50",
+    "guid": {
+      "rendered": "https://eddiemaguire.ie/?page_id=8770"
+    },
+    "modified": "2026-06-08T19:27:50",
+    "modified_gmt": "2026-06-08T19:27:50",
+    "slug": "refund_returns",
+    "status": "draft",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/?page_id=8770",
+    "title": {
+      "rendered": "Refund and Returns Policy"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\"><b>This is a sample page.</b></p>\n\n\n\n<h2 class=\"wp-block-heading\">Overview</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Our refund and returns policy lasts 30 days. If 30 days have passed since your purchase, we can’t offer you a full refund or exchange.</p>\n\n\n\n<p class=\"wp-block-paragraph\">To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be in the original packaging.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Several types of goods are exempt from being returned. Perishable goods such as food, flowers, newspapers or magazines cannot be returned. We also do not accept products that are intimate or sanitary goods, hazardous materials, or flammable liquids or gases.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Additional non-returnable items:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Gift cards</li>\n<li>Downloadable software products</li>\n<li>Some health and personal care items</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">To complete your return, we require a receipt or proof of purchase.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Please do not send your purchase back to the manufacturer.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There are certain situations where only partial refunds are granted:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Book with obvious signs of use</li>\n<li>CD, DVD, VHS tape, software, video game, cassette tape, or vinyl record that has been opened.</li>\n<li>Any item not in its original condition, is damaged or missing parts for reasons not due to our error.</li>\n<li>Any item that is returned more than 30 days after delivery</li>\n</ul>\n\n\n\n<h2 class=\"wp-block-heading\">Refunds</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you are approved, then your refund will be processed, and a credit will automatically be applied to your credit card or original method of payment, within a certain amount of days.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Late or missing refunds</h3>\n\n\n\n<p class=\"wp-block-paragraph\">If you haven’t received a refund yet, first check your bank account again.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Then contact your credit card company, it may take some time before your refund is officially posted.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Next contact your bank. There is often some processing time before a refund is posted.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you’ve done all of this and you still have not received your refund yet, please contact us at {email address}.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Sale items</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Only regular priced items may be refunded. Sale items cannot be refunded.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Exchanges</h2>\n\n\n\n<p class=\"wp-block-paragraph\">We only replace items if they are defective or damaged. If you need to exchange it for the same item, send us an email at {email address} and send your item to: {physical address}.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Gifts</h2>\n\n\n\n<p class=\"wp-block-paragraph\">If the item was marked as a gift when purchased and shipped directly to you, you’ll receive a gift credit for the value of your return. Once the returned item is received, a gift certificate will be mailed to you.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If the item wasn’t marked as a gift when purchased, or the gift giver had the order shipped to themselves to give to you later, we will send a refund to the gift giver and they will find out about your return.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Shipping returns</h2>\n\n\n\n<p class=\"wp-block-paragraph\">To return your product, you should mail your product to: {physical address}.</p>\n\n\n\n<p class=\"wp-block-paragraph\">You will be responsible for paying for your own shipping costs for returning your item. Shipping costs are non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Depending on where you live, the time it may take for your exchanged product to reach you may vary.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you are returning more expensive items, you may consider using a trackable shipping service or purchasing shipping insurance. We don’t guarantee that we will receive your returned item.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Need help?</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Contact us at {email} for questions related to refunds and returns.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>This is a sample page. Overview Our refund and returns policy lasts 30 days. If 30 days have passed since your purchase, we can’t offer you a full refund or exchange. To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be&#8230;</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-8770",
+      "page",
+      "type-page",
+      "status-draft",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/8770",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=8770"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/8770/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=8770"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 6194,
+    "date": "2021-05-19T13:53:09",
+    "date_gmt": "2021-05-19T13:53:09",
+    "guid": {
+      "rendered": "https://eddiemaguire.ie/?page_id=6194"
+    },
+    "modified": "2021-05-19T13:53:09",
+    "modified_gmt": "2021-05-19T13:53:09",
+    "slug": "",
+    "status": "draft",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/?page_id=6194",
+    "title": {
+      "rendered": "V6 Lite ds"
+    },
+    "content": {
+      "rendered": "<ul>\n<li>10,000PA Vacuum suction</li>\n<li>Motorised brush head with LED lights</li>\n<li>Two power settings</li>\n<li>Turbo function</li>\n<li>22.2v detachable battery</li>\n<li>Up to 50 minutes run time</li>\n<li>One touch operating button</li>\n<li>Motorised mattress &amp; upholstery brush</li>\n<li>2 in 1 Crevice tool</li>\n<li>Long reach crevice tool</li>\n<li>Wall mounting bracket</li>\n</ul>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>10,000PA Vacuum suction Motorised brush head with LED lights Two power settings Turbo function 22.2v detachable battery Up to 50 minutes run time One touch operating button Motorised mattress &amp; upholstery brush 2 in 1 Crevice tool Long reach crevice tool Wall mounting bracket</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-6194",
+      "page",
+      "type-page",
+      "status-draft",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/6194",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=6194"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/6194/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=6194"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4360,
+    "date": "2019-07-10T08:08:43",
+    "date_gmt": "2019-07-10T08:08:43",
+    "guid": {
+      "rendered": "http://eddiemaguire.ie/?page_id=4360"
+    },
+    "modified": "2019-07-10T08:08:43",
+    "modified_gmt": "2019-07-10T08:08:43",
+    "slug": "",
+    "status": "draft",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/?page_id=4360",
+    "title": {
+      "rendered": "Beds"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-4360",
+      "page",
+      "type-page",
+      "status-draft",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/4360",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=4360"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/4360/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 4361,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/4360/revisions/4361"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=4360"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2818,
+    "date": "2018-08-08T22:57:20",
+    "date_gmt": "2018-08-08T22:57:20",
+    "guid": {
+      "rendered": "http://eddiemaguire.ie/?page_id=2818"
+    },
+    "modified": "2018-08-08T22:57:48",
+    "modified_gmt": "2018-08-08T22:57:48",
+    "slug": "sale",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/sale/",
+    "title": {
+      "rendered": "Sale"
+    },
+    "content": {
+      "rendered": "<section class=\"l-section wpb_row height_medium\"><div class=\"l-section-h g-html i-cf\"><div class=\"g-cols offset_small\"><div class=\" full-width\"><div class=\"woocommerce columns-4 \"><ul class=\"products columns-4\">\n<li class=\"tm-no-options product type-product post-8261 status-publish first instock product_cat-record-players product_tag-c62c-bk4 product_tag-crosley-c62c-wa4-c62 has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/crosley-c62c-bk4-c62-turntable-with-built-in-receiver-and-stereo-speakers-walnut-copy/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img fetchpriority=\"high\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246-400x400.jpeg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246-400x400.jpeg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246-100x100.jpeg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246-600x600.jpeg 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246-300x300.jpeg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246-1024x1024.jpeg 1024w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246-150x150.jpeg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246-768x768.jpeg 768w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246-75x75.jpeg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246-350x350.jpeg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0246.jpeg 1280w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Crosley C62C-BK4 C62 Turntable with Built-In Receiver And Stereo Speakers &#8211; Walnut (Copy)</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>349.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;349.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>299.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;299.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=8261\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_8261\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"8261\" data-product_sku=\"Crosley C62C-BK4\" aria-label=\"Add to cart: &ldquo;Crosley C62C-BK4 C62 Turntable with Built-In Receiver And Stereo Speakers - Walnut (Copy)&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Crosley C62C-BK4 C62 Turntable with Built-In Receiver And Stereo Speakers - Walnut (Copy)&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_8261\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-8259 status-publish instock product_cat-record-players product_tag-crosley-c62c-wa4-c62 has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/crosley-c62c-wa4-c62-turntable-with-built-in-receiver-and-stereo-speakers-walnut/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245-400x400.jpeg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245-400x400.jpeg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245-100x100.jpeg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245-600x600.jpeg 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245-300x300.jpeg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245-1024x1024.jpeg 1024w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245-150x150.jpeg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245-768x768.jpeg 768w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245-75x75.jpeg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245-350x350.jpeg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0245.jpeg 1280w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Crosley C62C-WA4 C62 Turntable with Built-In Receiver And Stereo Speakers &#8211; Walnut</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>349.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;349.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>299.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;299.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=8259\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_8259\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"8259\" data-product_sku=\"Crosley C62C-WA4 C62\" aria-label=\"Add to cart: &ldquo;Crosley C62C-WA4 C62 Turntable with Built-In Receiver And Stereo Speakers - Walnut&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Crosley C62C-WA4 C62 Turntable with Built-In Receiver And Stereo Speakers - Walnut&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_8259\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-5721 status-publish instock product_cat-built-in-single-oven product_cat-cooking product_cat-home-appliances has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/dedietrich-dop7200bm/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2020/04/P7200BM-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2020/04/P7200BM-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7200BM-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7200BM-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7200BM-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7200BM-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7200BM-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7200BM.jpg 500w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">De Dietrich DOP7200BM</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>799.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;799.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>529.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;529.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=5721\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_5721\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"5721\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;De Dietrich DOP7200BM&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;De Dietrich DOP7200BM&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_5721\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-5728 status-publish last instock product_cat-built-in-single-oven product_cat-home-appliances has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/dedietrich-dop7340x/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2020/04/P7340X-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2020/04/P7340X-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7340X-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7340X-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7340X-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7340X-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7340X-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2020/04/P7340X.jpg 500w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">De Dietrich DOP7340X</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>999.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;999.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>899.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;899.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=5728\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_5728\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"5728\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;De Dietrich DOP7340X&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;De Dietrich DOP7340X&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_5728\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-5713 status-publish first instock product_cat-built-in-single-oven product_cat-cooking product_cat-home-appliances product_tag-dop8785a has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/de-dietrich-pyrolytic-oven-dop7785a/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600-400x400.png\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600-400x400.png 400w, https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600-100x100.png 100w, https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600-600x600.png 600w, https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600-300x300.png 300w, https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600.png 1024w, https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600-150x150.png 150w, https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600-768x768.png 768w, https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600-1536x1536.png 1536w, https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600-75x75.png 75w, https://eddiemaguire.ie/wp-content/uploads/2020/04/dd_dop7785a_1600x1600-350x350.png 350w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">DE Dietrich DOP8785A</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>1,499.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;1,499.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>1,199.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;1,199.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=5713\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_5713\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"5713\" data-product_sku=\"DOP8785A\" aria-label=\"Add to cart: &ldquo;DE Dietrich DOP8785A&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;DE Dietrich DOP8785A&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_5713\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-7856 status-publish instock product_cat-coffee-machines product_cat-small-appliances product_tag-ec9155mb has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/delonghi-ec9155mb-la-specialista-arte-espresso-machine/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/EC9155MB-1-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/EC9155MB-1-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/EC9155MB-1-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/EC9155MB-1-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/EC9155MB-1-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/EC9155MB-1-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/EC9155MB-1-600x600.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">De&#8217;Longhi EC9155MB La Specialista Arte Espresso Machine</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>569.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;569.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;499.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=7856\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7856\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"7856\" data-product_sku=\"EC9155MB\" aria-label=\"Add to cart: &ldquo;De&#039;Longhi EC9155MB La Specialista Arte Espresso Machine&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;De&#039;Longhi EC9155MB La Specialista Arte Espresso Machine&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7856\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-7849 status-publish instock product_cat-coffee-machines product_cat-small-appliances product_tag-ecam350-15-b has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/delonghi-black-dinamica-bean-to-cup-coffee-machine-ecam350-15-b/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM350.15.B-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM350.15.B-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM350.15.B-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM350.15.B-600x600.jpg 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM350.15.B-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM350.15.B-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM350.15.B-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM350.15.B-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM350.15.B.jpg 608w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">DeLonghi Black Dinamica Bean-to-Cup Coffee Machine | ECAM350.15.B</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>599.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;599.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;499.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=7849\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7849\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"7849\" data-product_sku=\"ECAM350.15.B\" aria-label=\"Add to cart: &ldquo;DeLonghi Black Dinamica Bean-to-Cup Coffee Machine | ECAM350.15.B&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;DeLonghi Black Dinamica Bean-to-Cup Coffee Machine | ECAM350.15.B&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7849\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-7853 status-publish last instock product_cat-coffee-machines product_cat-small-appliances product_tag-ec9355-m has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/delonghi-la-specialista-pump-espresso-coffee-machine-ec9355-m/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/delonghi-la-specialista-pump-espresso-coffee-machine-or-ec9355m__61040-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/delonghi-la-specialista-pump-espresso-coffee-machine-or-ec9355m__61040-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/delonghi-la-specialista-pump-espresso-coffee-machine-or-ec9355m__61040-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/delonghi-la-specialista-pump-espresso-coffee-machine-or-ec9355m__61040-600x600.jpg 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/delonghi-la-specialista-pump-espresso-coffee-machine-or-ec9355m__61040-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/delonghi-la-specialista-pump-espresso-coffee-machine-or-ec9355m__61040-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/delonghi-la-specialista-pump-espresso-coffee-machine-or-ec9355m__61040-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/delonghi-la-specialista-pump-espresso-coffee-machine-or-ec9355m__61040-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/delonghi-la-specialista-pump-espresso-coffee-machine-or-ec9355m__61040.jpg 608w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">DeLonghi La Specialista Pump Espresso Coffee Machine | EC9355.M</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>599.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;599.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=7853\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7853\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"7853\" data-product_sku=\"EC9355.M\" aria-label=\"Add to cart: &ldquo;DeLonghi La Specialista Pump Espresso Coffee Machine | EC9355.M&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;DeLonghi La Specialista Pump Espresso Coffee Machine | EC9355.M&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7853\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-7865 status-publish first instock product_cat-coffee-machines product_cat-small-appliances product_tag-ecam44-660-b has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/delongi-eletta-cappuccino-bean-to-cup-coffee-machine-black-ecam44-660-b/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM44.660.B-1-400x400.webp\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM44.660.B-1-400x400.webp 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM44.660.B-1-100x100.webp 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM44.660.B-1-600x600.webp 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM44.660.B-1-300x300.webp 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM44.660.B-1-150x150.webp 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM44.660.B-1-75x75.webp 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM44.660.B-1-350x350.webp 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ECAM44.660.B-1.webp 650w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">DeLongi Eletta Cappuccino Bean to Cup Coffee Machine &#8211; Black | ECAM44.660.B</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>749.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;749.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>679.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;679.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=7865\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7865\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"7865\" data-product_sku=\"ECAM44.660.B\" aria-label=\"Add to cart: &ldquo;DeLongi Eletta Cappuccino Bean to Cup Coffee Machine - Black | ECAM44.660.B&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;DeLongi Eletta Cappuccino Bean to Cup Coffee Machine - Black | ECAM44.660.B&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7865\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-6247 status-publish outofstock product_cat-home-landline-phones product_cat-technology product_tag-big-button product_tag-cordless product_tag-duo product_tag-easy-to-use product_tag-hearing-aid-compatible product_tag-twin has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/doro-5543-ds/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-1-scaled-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-1-scaled-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-1-scaled-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-1-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-1-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-1-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-1-600x600.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">DORO 5543 ds</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>59.99</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;59.99.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>54.99</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;54.99.</span></span>\n</div></a><a href=\"https://eddiemaguire.ie/product/doro-5543-ds/\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_6247\" data-quantity=\"1\" class=\"button product_type_simple\" data-product_id=\"6247\" data-product_sku=\"\" aria-label=\"Read more about &ldquo;DORO 5543 ds&rdquo;\" rel=\"nofollow\" data-success_message=\"\">Read more</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_6247\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-6238 status-publish instock product_cat-home-landline-phones product_cat-technology product_tag-big-button product_tag-cordless product_tag-doro product_tag-easy-use product_tag-landline has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/doro-5551-ds/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-04-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-04-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-04-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-04-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-04-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-04-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-04-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2021/05/5551-04.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">DORO 5551 ds</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>89.99</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;89.99.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>79.99</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;79.99.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=6238\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_6238\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"6238\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;DORO 5551 ds&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;DORO 5551 ds&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_6238\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-7284 status-publish last instock product_cat-fridge-freezer product_cat-refrigeration product_tag-hbnf55181-b-uk has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/hotpoint-hbnf55181-b-uk-1-50-50-fridge-freezer-black-frost-free/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/03/HBNF55181B--400x400.webp\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/03/HBNF55181B--400x400.webp 400w, https://eddiemaguire.ie/wp-content/uploads/2024/03/HBNF55181B--100x100.webp 100w, https://eddiemaguire.ie/wp-content/uploads/2024/03/HBNF55181B--150x150.webp 150w, https://eddiemaguire.ie/wp-content/uploads/2024/03/HBNF55181B--75x75.webp 75w, https://eddiemaguire.ie/wp-content/uploads/2024/03/HBNF55181B--350x350.webp 350w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">HOTPOINT HBNF55181 B UK 1 50/50 Fridge Freezer &#8211; Black Frost Free</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>549.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;549.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;499.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=7284\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7284\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"7284\" data-product_sku=\"HBNF55181 B UK\" aria-label=\"Add to cart: &ldquo;HOTPOINT HBNF55181 B UK 1 50/50 Fridge Freezer - Black Frost Free&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;HOTPOINT HBNF55181 B UK 1 50/50 Fridge Freezer - Black Frost Free&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7284\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-8122 status-publish first instock product_cat-food-preparation product_tag-fpm810 has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/kenwood-multipro-sense-3-5l-bowl-capacity-food-processor-with-built-in-scales-and-1-5litre-thermoresist-fpm810/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/FPM810-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/FPM810-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/FPM810-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/FPM810-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/FPM810-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/FPM810-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/FPM810-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/FPM810.jpg 500w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">KENWOOD MULTIPRO SENSE 3.5L BOWL CAPACITY FOOD PROCESSOR WITH BUILT IN SCALES AND 1.5LITRE THERMORESIST FPM810</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>399.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;399.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>249.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;249.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=8122\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_8122\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"8122\" data-product_sku=\"FPM810\" aria-label=\"Add to cart: &ldquo;KENWOOD MULTIPRO SENSE 3.5L BOWL CAPACITY FOOD PROCESSOR WITH BUILT IN SCALES AND 1.5LITRE THERMORESIST FPM810&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;KENWOOD MULTIPRO SENSE 3.5L BOWL CAPACITY FOOD PROCESSOR WITH BUILT IN SCALES AND 1.5LITRE THERMORESIST FPM810&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_8122\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-8663 status-publish instock product_cat-fryers product_cat-small-appliances product_tag-af300uk has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/ninja-foodi-7-6l-dual-zone-air-fryer-af300uk/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2026/03/ninja-foodi-dual-zone-air-fryer-or-af300uk__26719-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2026/03/ninja-foodi-dual-zone-air-fryer-or-af300uk__26719-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2026/03/ninja-foodi-dual-zone-air-fryer-or-af300uk__26719-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2026/03/ninja-foodi-dual-zone-air-fryer-or-af300uk__26719-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2026/03/ninja-foodi-dual-zone-air-fryer-or-af300uk__26719-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2026/03/ninja-foodi-dual-zone-air-fryer-or-af300uk__26719-350x350.jpg 350w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Ninja Foodi 7.6L Dual Zone Air Fryer | AF300UK</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>239.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;239.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>179.99</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;179.99.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=8663\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_8663\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"8663\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;Ninja Foodi 7.6L Dual Zone Air Fryer | AF300UK&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Ninja Foodi 7.6L Dual Zone Air Fryer | AF300UK&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_8663\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-7731 status-publish instock product_cat-fryers product_cat-small-appliances product_tag-ag551uk has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/ninja-foodi-max-health-grill-air-fryer-ag551uk/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/ninja-ag551eu-foodi-grill-max-heissluftfritteuse-grausilber-001-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/ninja-ag551eu-foodi-grill-max-heissluftfritteuse-grausilber-001-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ninja-ag551eu-foodi-grill-max-heissluftfritteuse-grausilber-001-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ninja-ag551eu-foodi-grill-max-heissluftfritteuse-grausilber-001-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ninja-ag551eu-foodi-grill-max-heissluftfritteuse-grausilber-001-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ninja-ag551eu-foodi-grill-max-heissluftfritteuse-grausilber-001-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ninja-ag551eu-foodi-grill-max-heissluftfritteuse-grausilber-001-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/ninja-ag551eu-foodi-grill-max-heissluftfritteuse-grausilber-001.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Ninja Foodi MAX Health Grill &#038; Air Fryer | AG551UK</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>299.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;299.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>239.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;239.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=7731\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7731\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"7731\" data-product_sku=\"AG551UK\" aria-label=\"Add to cart: &ldquo;Ninja Foodi MAX Health Grill &amp; Air Fryer | AG551UK&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Ninja Foodi MAX Health Grill &amp; Air Fryer | AG551UK&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7731\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-7759 status-publish last outofstock product_cat-fryers product_cat-small-appliances product_tag-ag651uk has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/ninja-foodi-max-pro-health-grill-ag651uk/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/AG651UK-400x400.jpeg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/AG651UK-400x400.jpeg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/AG651UK-100x100.jpeg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/AG651UK-300x300.jpeg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/AG651UK-150x150.jpeg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/AG651UK-75x75.jpeg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/AG651UK-350x350.jpeg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/AG651UK.jpeg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Ninja Foodi MAX Pro Health Grill – AG651UK</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>359.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;359.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>279.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;279.00.</span></span>\n</div></a><a href=\"https://eddiemaguire.ie/product/ninja-foodi-max-pro-health-grill-ag651uk/\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7759\" data-quantity=\"1\" class=\"button product_type_simple\" data-product_id=\"7759\" data-product_sku=\"AG651UK\" aria-label=\"Read more about &ldquo;Ninja Foodi MAX Pro Health Grill – AG651UK&rdquo;\" rel=\"nofollow\" data-success_message=\"\">Read more</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7759\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-7781 status-publish first instock product_cat-bbq product_cat-fryers product_cat-small-appliances product_tag-og701uk has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/ninja-woodfire-electric-bbq-smoker-og701uk/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/Ninja-Woodfire-Electric-BBQ-Grill-Smoker-OG701UK-1-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/Ninja-Woodfire-Electric-BBQ-Grill-Smoker-OG701UK-1-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/Ninja-Woodfire-Electric-BBQ-Grill-Smoker-OG701UK-1-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/Ninja-Woodfire-Electric-BBQ-Grill-Smoker-OG701UK-1-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/Ninja-Woodfire-Electric-BBQ-Grill-Smoker-OG701UK-1-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/Ninja-Woodfire-Electric-BBQ-Grill-Smoker-OG701UK-1-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/Ninja-Woodfire-Electric-BBQ-Grill-Smoker-OG701UK-1-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/Ninja-Woodfire-Electric-BBQ-Grill-Smoker-OG701UK-1-600x600.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Ninja Woodfire Electric BBQ &#038; Smoker | OG701UK</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>419.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;419.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>359.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;359.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=7781\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7781\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"7781\" data-product_sku=\"OG701UK\" aria-label=\"Add to cart: &ldquo;Ninja Woodfire Electric BBQ &amp; Smoker | OG701UK&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Ninja Woodfire Electric BBQ &amp; Smoker | OG701UK&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7781\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-7487 status-publish instock product_cat-home-appliances product_cat-integrated-refrigeration-home-appliances product_cat-refrigeration product_tag-riff70304nf has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/nordmende-built-in-70-30-no-frost-fridge-freezer-with-wine-rack-riff70303nf/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/RIFF70303NF-400x400.jpeg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/RIFF70303NF-400x400.jpeg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/RIFF70303NF-100x100.jpeg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/RIFF70303NF-600x600.jpeg 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/RIFF70303NF-300x300.jpeg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/RIFF70303NF-150x150.jpeg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/RIFF70303NF-75x75.jpeg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/RIFF70303NF-350x350.jpeg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/RIFF70303NF.jpeg 650w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">NordMende Built-in 70/30 No Frost Fridge Freezer with Wine Rack | RIFF70304NF</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>599.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;599.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>529.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;529.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=7487\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7487\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"7487\" data-product_sku=\"RIFF70304NF\" aria-label=\"Add to cart: &ldquo;NordMende Built-in 70/30 No Frost Fridge Freezer with Wine Rack | RIFF70304NF&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;NordMende Built-in 70/30 No Frost Fridge Freezer with Wine Rack | RIFF70304NF&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7487\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-7868 status-publish instock product_cat-coffee-machines product_cat-small-appliances product_tag-ses875btr2guk1 has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/sage-the-barista-express-bean-to-cup-coffee-machine-black-truffle-ses875btr2guk1/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/SES875-400x400.webp\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/SES875-400x400.webp 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/SES875-100x100.webp 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/SES875-600x600.webp 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/SES875-300x300.webp 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/SES875-150x150.webp 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/SES875-768x768.webp 768w, https://eddiemaguire.ie/wp-content/uploads/2024/04/SES875-75x75.webp 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/SES875-350x350.webp 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/SES875.webp 823w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Sage The Barista Express Bean To Cup Coffee Machine – Black Truffle | SES875BTR2GUK1</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>599.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;599.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>549.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;549.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=7868\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7868\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"7868\" data-product_sku=\"SES875BTR2GUK1\" aria-label=\"Add to cart: &ldquo;Sage The Barista Express Bean To Cup Coffee Machine – Black Truffle | SES875BTR2GUK1&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Sage The Barista Express Bean To Cup Coffee Machine – Black Truffle | SES875BTR2GUK1&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7868\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-8721 status-publish last instock product_cat-tablets product_cat-technology product_tag-sm-x230nzareub has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/samsung-galaxy-tab-a11-wi-fi-tablet-11-grey-sm-x230nzareub/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2026/03/samsung-galaxy-tab-a11-wi-fi-tablet-11-grey-or-sm-x230nzareub__44335-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2026/03/samsung-galaxy-tab-a11-wi-fi-tablet-11-grey-or-sm-x230nzareub__44335-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2026/03/samsung-galaxy-tab-a11-wi-fi-tablet-11-grey-or-sm-x230nzareub__44335-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2026/03/samsung-galaxy-tab-a11-wi-fi-tablet-11-grey-or-sm-x230nzareub__44335-600x600.jpg 600w, https://eddiemaguire.ie/wp-content/uploads/2026/03/samsung-galaxy-tab-a11-wi-fi-tablet-11-grey-or-sm-x230nzareub__44335-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2026/03/samsung-galaxy-tab-a11-wi-fi-tablet-11-grey-or-sm-x230nzareub__44335-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2026/03/samsung-galaxy-tab-a11-wi-fi-tablet-11-grey-or-sm-x230nzareub__44335-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2026/03/samsung-galaxy-tab-a11-wi-fi-tablet-11-grey-or-sm-x230nzareub__44335-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2026/03/samsung-galaxy-tab-a11-wi-fi-tablet-11-grey-or-sm-x230nzareub__44335.jpg 608w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Samsung Galaxy Tab A11+ Wi-Fi Tablet 11&#8243; – Grey | SM-X230NZAREUB</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>289.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;289.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>229.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;229.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=8721\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_8721\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"8721\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;Samsung Galaxy Tab A11+ Wi-Fi Tablet 11&quot; – Grey | SM-X230NZAREUB&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Samsung Galaxy Tab A11+ Wi-Fi Tablet 11&quot; – Grey | SM-X230NZAREUB&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_8721\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-8011 status-publish first instock product_cat-vacuum product_tag-wd210uk has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/shark-hydrovac-cordless-hard-floor-cleaner-wd210uk/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0161-400x400.jpeg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0161-400x400.jpeg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0161-100x100.jpeg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0161-150x150.jpeg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0161-75x75.jpeg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0161-350x350.jpeg 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0161-600x600.jpeg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Shark HydroVac Cordless Hard Floor Cleaner | WD210UK</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>399.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;399.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>239.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;239.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=8011\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_8011\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"8011\" data-product_sku=\"WD210UK\" aria-label=\"Add to cart: &ldquo;Shark HydroVac Cordless Hard Floor Cleaner | WD210UK&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Shark HydroVac Cordless Hard Floor Cleaner | WD210UK&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_8011\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-8717 status-publish outofstock product_cat-technology-mobile-phones product_cat-technology product_tag-mzb0itweu has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/xiaomi-15-512gb-5g-smartphone-green-mzb0itweu/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2026/03/xiaomi-15-512gb-5g-smartphone-green-or-mzb0itweu__26714-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2026/03/xiaomi-15-512gb-5g-smartphone-green-or-mzb0itweu__26714-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2026/03/xiaomi-15-512gb-5g-smartphone-green-or-mzb0itweu__26714-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2026/03/xiaomi-15-512gb-5g-smartphone-green-or-mzb0itweu__26714-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2026/03/xiaomi-15-512gb-5g-smartphone-green-or-mzb0itweu__26714-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2026/03/xiaomi-15-512gb-5g-smartphone-green-or-mzb0itweu__26714-350x350.jpg 350w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Xiaomi 15 512GB 5G Smartphone &#8211; Green | MZB0ITWEU</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>1,099.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;1,099.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>599.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;599.00.</span></span>\n</div></a><a href=\"https://eddiemaguire.ie/product/xiaomi-15-512gb-5g-smartphone-green-mzb0itweu/\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_8717\" data-quantity=\"1\" class=\"button product_type_simple\" data-product_id=\"8717\" data-product_sku=\"\" aria-label=\"Read more about &ldquo;Xiaomi 15 512GB 5G Smartphone - Green | MZB0ITWEU&rdquo;\" rel=\"nofollow\" data-success_message=\"\">Read more</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_8717\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-1621 status-publish instock product_cat-bunk-beds product_cat-kids-beds product_tag-alex product_tag-bunkbed product_tag-storage has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/tam-tam-bunk-bed-in-acacia-2/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/2498_LISU_2329_TIRO_CHARLY_retouche-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/2498_LISU_2329_TIRO_CHARLY_retouche-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2018/05/2498_LISU_2329_TIRO_CHARLY_retouche-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2018/05/2498_LISU_2329_TIRO_CHARLY_retouche-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2018/05/2498_LISU_2329_TIRO_CHARLY_retouche-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2018/05/2498_LISU_2329_TIRO_CHARLY_retouche-600x600.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Alex Storage Bunk</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>799.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;799.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;499.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=1621\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_1621\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"1621\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;Alex Storage Bunk&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Alex Storage Bunk&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1621\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-2808 status-publish last instock product_cat-dining product_tag-4chairs product_tag-atlanta product_tag-dining product_tag-table has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/atlanta-table-4-chairs/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/07/CAMBOURNE_STOWAWAY_DINING_SET-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/07/CAMBOURNE_STOWAWAY_DINING_SET-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2018/07/CAMBOURNE_STOWAWAY_DINING_SET-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2018/07/CAMBOURNE_STOWAWAY_DINING_SET-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2018/07/CAMBOURNE_STOWAWAY_DINING_SET-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2018/07/CAMBOURNE_STOWAWAY_DINING_SET-600x600.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Atlanta Table &#038; 4 Chairs</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>399.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;399.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>349.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;349.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=2808\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_2808\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"2808\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;Atlanta Table &amp; 4 Chairs&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Atlanta Table &amp; 4 Chairs&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_2808\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-2682 status-publish first instock product_cat-hollywood-mirrors product_cat-mirrors product_tag-hollywood product_tag-mirror has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/hollywood-mirror/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/06/HOLLYWOOD-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/06/HOLLYWOOD-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2018/06/HOLLYWOOD-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2018/06/HOLLYWOOD-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2018/06/HOLLYWOOD-350x350.jpg 350w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Hollywood Mirror</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>299.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;299.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>249.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;249.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=2682\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_2682\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"2682\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;Hollywood Mirror&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Hollywood Mirror&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_2682\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-2421 status-publish instock product_cat-mattress product_tag-imperial product_tag-luxury product_tag-mattress product_tag-super has-post-thumbnail sale taxable shipping-taxable purchasable product-type-variable\">\n\t<a href=\"https://eddiemaguire.ie/product/imperial-super-luxury-mattress/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/Imperial-Super-Luxury-Mattress-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/Imperial-Super-Luxury-Mattress-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Imperial-Super-Luxury-Mattress-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Imperial-Super-Luxury-Mattress-600x600.jpg 600w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Imperial-Super-Luxury-Mattress-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Imperial-Super-Luxury-Mattress-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Imperial-Super-Luxury-Mattress-768x768.jpg 768w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Imperial-Super-Luxury-Mattress-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Imperial-Super-Luxury-Mattress-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Imperial-Super-Luxury-Mattress.jpg 1000w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Imperial Super Luxury Mattress</h2>\n\t<span class=\"price\"><span class=\"woocommerce-Price-amount amount\" aria-hidden=\"true\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>349.00</bdi></span> <span aria-hidden=\"true\">&ndash;</span> <span class=\"woocommerce-Price-amount amount\" aria-hidden=\"true\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>599.00</bdi></span><span class=\"screen-reader-text\">Price range: &euro;349.00 through &euro;599.00</span></span>\n</div></a><a href=\"https://eddiemaguire.ie/product/imperial-super-luxury-mattress/\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_2421\" data-quantity=\"1\" class=\"button product_type_variable add_to_cart_button\" data-product_id=\"2421\" data-product_sku=\"\" aria-label=\"Select options for &ldquo;Imperial Super Luxury Mattress&rdquo;\" rel=\"nofollow\">Select options</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_2421\" class=\"screen-reader-text\">\n\t\tThis product has multiple variants. The options may be chosen on the product page\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-4085 status-publish instock product_cat-accessories product_cat-bedroom product_cat-kids product_tag-beauty-bar product_tag-lucy product_tag-white has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/lucy-beauty-bar-white/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/10/7530_COIF_PIMPANTE_0118_TABO_SITTY_2-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/10/7530_COIF_PIMPANTE_0118_TABO_SITTY_2-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2018/10/7530_COIF_PIMPANTE_0118_TABO_SITTY_2-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2018/10/7530_COIF_PIMPANTE_0118_TABO_SITTY_2-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2018/10/7530_COIF_PIMPANTE_0118_TABO_SITTY_2-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2018/10/7530_COIF_PIMPANTE_0118_TABO_SITTY_2-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2018/10/7530_COIF_PIMPANTE_0118_TABO_SITTY_2-600x600.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Lucy Beauty Bar White</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>169.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;169.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>149.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;149.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=4085\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_4085\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"4085\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;Lucy Beauty Bar White&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Lucy Beauty Bar White&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_4085\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-2391 status-publish last instock product_cat-mattress product_tag-manhattan product_tag-mattress has-post-thumbnail sale taxable shipping-taxable purchasable product-type-variable\">\n\t<a href=\"https://eddiemaguire.ie/product/manhattan-mattress/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/Manhattan-Mattress-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/Manhattan-Mattress-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Manhattan-Mattress-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Manhattan-Mattress-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Manhattan-Mattress-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Manhattan-Mattress-600x600.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Manhattan Mattress</h2>\n\t<span class=\"price\"><span class=\"woocommerce-Price-amount amount\" aria-hidden=\"true\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>149.00</bdi></span> <span aria-hidden=\"true\">&ndash;</span> <span class=\"woocommerce-Price-amount amount\" aria-hidden=\"true\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>249.00</bdi></span><span class=\"screen-reader-text\">Price range: &euro;149.00 through &euro;249.00</span></span>\n</div></a><a href=\"https://eddiemaguire.ie/product/manhattan-mattress/\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_2391\" data-quantity=\"1\" class=\"button product_type_variable add_to_cart_button\" data-product_id=\"2391\" data-product_sku=\"\" aria-label=\"Select options for &ldquo;Manhattan Mattress&rdquo;\" rel=\"nofollow\">Select options</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_2391\" class=\"screen-reader-text\">\n\t\tThis product has multiple variants. The options may be chosen on the product page\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-1708 status-publish first instock product_cat-bedroom product_tag-beauty-bar product_tag-parisot product_tag-vanity product_tag-white has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/parisot-corner-beauty-bar-white-2/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/7365_coif_volage_0118_tabo_-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/7365_coif_volage_0118_tabo_-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2018/05/7365_coif_volage_0118_tabo_-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2018/05/7365_coif_volage_0118_tabo_-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2018/05/7365_coif_volage_0118_tabo_-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2018/05/7365_coif_volage_0118_tabo_-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2018/05/7365_coif_volage_0118_tabo_.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Parisot Corner Beauty Bar &#8211; White</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>399.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;399.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>349.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;349.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=1708\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_1708\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"1708\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;Parisot Corner Beauty Bar - White&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Parisot Corner Beauty Bar - White&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1708\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-4817 status-publish instock product_cat-mattress product_tag-luxury product_tag-mattress product_tag-regency has-post-thumbnail sale taxable shipping-taxable purchasable product-type-variable\">\n\t<a href=\"https://eddiemaguire.ie/product/dingle-firm-mattress/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2019/08/Dingle-Mattress-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"dingle firm mattress\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2019/08/Dingle-Mattress-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2019/08/Dingle-Mattress-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2019/08/Dingle-Mattress-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2019/08/Dingle-Mattress-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2019/08/Dingle-Mattress-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2019/08/Dingle-Mattress-600x600.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Dingle Firm Mattress</h2>\n\t<span class=\"price\"><span class=\"woocommerce-Price-amount amount\" aria-hidden=\"true\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>249.00</bdi></span> <span aria-hidden=\"true\">&ndash;</span> <span class=\"woocommerce-Price-amount amount\" aria-hidden=\"true\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>399.00</bdi></span><span class=\"screen-reader-text\">Price range: &euro;249.00 through &euro;399.00</span></span>\n</div></a><a href=\"https://eddiemaguire.ie/product/dingle-firm-mattress/\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_4817\" data-quantity=\"1\" class=\"button product_type_variable add_to_cart_button\" data-product_id=\"4817\" data-product_sku=\"\" aria-label=\"Select options for &ldquo;Dingle Firm Mattress&rdquo;\" rel=\"nofollow\">Select options</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_4817\" class=\"screen-reader-text\">\n\t\tThis product has multiple variants. The options may be chosen on the product page\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-5117 status-publish instock product_cat-bunk-beds product_cat-kids-beds product_tag-bunkbed product_tag-tamtam product_tag-white has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/tam-tam-bunk-bed-white-with-2-free-mattress/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/Leo-Bunkbed-White-Pink-1-480x400-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/Leo-Bunkbed-White-Pink-1-480x400-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Leo-Bunkbed-White-Pink-1-480x400-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Leo-Bunkbed-White-Pink-1-480x400-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Leo-Bunkbed-White-Pink-1-480x400-350x350.jpg 350w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Tam Tam Bunk Bed White With 2 Mattress</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>895.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;895.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>670.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;670.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=5117\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_5117\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"5117\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;Tam Tam Bunk Bed White With 2 Mattress&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Tam Tam Bunk Bed White With 2 Mattress&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_5117\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-2799 status-publish last instock product_cat-bunk-beds product_cat-kids-beds product_tag-daybed product_tag-sarah product_tag-white has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/sarah-day-bed-white/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/07/2338_L290_TIRO_SLEEP_O_mastic-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/07/2338_L290_TIRO_SLEEP_O_mastic-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2018/07/2338_L290_TIRO_SLEEP_O_mastic-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2018/07/2338_L290_TIRO_SLEEP_O_mastic-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2018/07/2338_L290_TIRO_SLEEP_O_mastic-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2018/07/2338_L290_TIRO_SLEEP_O_mastic-600x600.jpg 600w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Sarah Day Bed White</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>599.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;599.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>399.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;399.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=2799\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_2799\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"2799\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;Sarah Day Bed White&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Sarah Day Bed White&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_2799\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n</ul>\n</div></div></div></div></section>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "Sale! Crosley C62C-BK4 C62 Turntable with Built-In Receiver And Stereo Speakers &#8211; Walnut (Copy) &euro;349.00 Original price was: &euro;349.00.&euro;299.00Current price is: &euro;299.00. Add to cart Sale! Crosley C62C-WA4 C62 Turntable with Built-In Receiver And Stereo Speakers &#8211; Walnut &euro;349.00 Original price was: &euro;349.00.&euro;299.00Current price is: &euro;299.00. Add to cart Sale! De Dietrich DOP7200BM &euro;799.00 Original...",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-2818",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/2818",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=2818"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/2818/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2820,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/2818/revisions/2820"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=2818"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 450,
+    "date": "2017-12-09T06:33:20",
+    "date_gmt": "2017-12-09T06:33:20",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=450"
+    },
+    "modified": "2020-04-12T09:06:37",
+    "modified_gmt": "2020-04-12T09:06:37",
+    "slug": "returns-replacements",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/returns-replacements/",
+    "title": {
+      "rendered": "Returns &#038; Replacements"
+    },
+    "content": {
+      "rendered": "<p>Beds &amp; Mattresses can only be returned if they are unopened. Mattresses &amp; Beds, which have been opened and slept on, cannot be returned (for hygiene reasons). If you wish to test a product(s) that you are unsure of, please keep it sealed in its original packaging and inform foreverfurniture.ie drivers, that you want the product to remain sealed. You have (14) days to inform Eddie Maguire Ltd, if you want the product uplifted. Returning your product(s) will incur a charge of up to 150 Euros per item and the item will be checked to ensure that it has remained sealed and is still in it&#8217;s original condition. This charge will be deducted from your refund.</p>\n<p>We are committed to customer satisfaction and offer a full returns service on faulty goods. If the goods are found to be faulty on delivery, the item(s) should be returned with the driver and reported to Eddie Maguire Ltd while the driver is still present.<br />\nYou should be aware that:</p>\n<p>All sizes given are approximate and stated bed and mattress sizes refer to the sleeping surface only;<br />\nMattress sizes may vary slightly from their stated dimensions due to manufacturing tolerances; and<br />\nComfort grading is for guidance only and are supplied to us by the manufacture.</p>\n<p>When placing a mattress on a bedstead please note that there might be a gap around the edges; this is to allow for rotation &amp; bedding. This is not classed a “A Fault”</p>\n<p>We are happy to guarantee that for 12 months from the date of Delivery, the Goods will:</p>\n<p>(a) Be of satisfactory quality;<br />\n(b) Be fit for the purpose for which they are designed and supplied;<br />\n(c) Be free from material defects in design, material and workmanship; and<br />\n(d) Comply with all applicable statutory and regulatory requirements for selling the Goods in the Northern Ireland.<br />\n(e) All warranty’s and guarantees are supplied to us by the manufactures; you must allow time for us to confer with said companies to try and resolve any issues that you may have, replacement parts will have to shipped from the manufactures premises.</p>\n<p>Unless stated the Guarantee covers normal domestic home use only and does not apply to any defect in the Goods arising from fair wear and tear, wilful damage, accident, negligence by You, commercial use, failure to follow our written instructions regarding care of the goods, or any alteration or repair to the goods which you carry out without Our prior written approval.</p>\n<p>If you inform us that the Goods have breached the Guarantee, within one year of purchase, please e-mail us at the contacts below, stating your order reference, nature of the problem and attaching/enclosing clear photographs depicting the problem. We are sorry but foreverfurniture.ie are unable to look into such claims if photographic evidence is not supplied.</p>\n<p>We may at our own discretion arrange an inspection to verify this. If this inspection finds that the Goods have not breached the Guarantee, We will decline any further action, but provide full details of the reasons for the decision. You will have direct access to any reports completed by the inspection specialist.<br />\nIf you would prefer to use an inspection service of your choosing, then this must be done at your cost. Any inspection service used must be a recognised, independent specialist and we must agree in writing to them carrying out the inspection. We do not have to accept the finding of your specialist.</p>\n<p>In the rare event that Goods are found to have breached the Guarantee, We will follow a fair and fast process. We have the right to either repair or replace the Goods free of charge. No items may be returned to us without prior agreement.<br />\nYou may cancel your order in writing or email within seven (7) days from day of delivery for a full refund of the purchase value. Any Items that are not stocked by foreverfurniture.ie which includes special sizes or colours can only be cancelled if we are able to cancel said item(s) with the manufacturer.<br />\nThere will be no returns made for personalised goods.</p>\n<p>We (Eddie Maguire Ltd) will not be liable for any damage caused to your property or house contents, if due responsibly has been taken by the employees of Eddie Maguire Ltd. The customer should ensure that the entrance and area where the product(s) is directed, are clear of any obstructions and that there is reasonable room to build (if necessary) and manoeuvre the product(s) &#8211; path ways must be clear of pictures/mirrors/lamps/lightshades etc.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Beds &amp; Mattresses can only be returned if they are unopened. Mattresses &amp; Beds, which have been opened and slept on, cannot be returned (for hygiene reasons). If you wish to test a product(s) that you are unsure of, please keep it sealed in its original packaging and inform foreverfurniture.ie drivers, that you want the&#8230;</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-450",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/450",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=450"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 6,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/450/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 5251,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/450/revisions/5251"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=450"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 289,
+    "date": "2017-11-09T05:20:38",
+    "date_gmt": "2017-11-09T05:20:38",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=289"
+    },
+    "modified": "2020-04-12T09:05:00",
+    "modified_gmt": "2020-04-12T09:05:00",
+    "slug": "delivery-returns",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/delivery-returns/",
+    "title": {
+      "rendered": "Delivery Information"
+    },
+    "content": {
+      "rendered": "<p>We aim to deliver within 7 working days. Please message us before placing order so we can check stock do there is no delay in delivery.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We aim to deliver within 7 working days. Please message us before placing order so we can check stock do there is no delay in delivery.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-289",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/289",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=289"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 4,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/289/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 5250,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/289/revisions/5250"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=289"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 288,
+    "date": "2017-11-09T05:20:24",
+    "date_gmt": "2017-11-09T05:20:24",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=288"
+    },
+    "modified": "2020-04-12T09:03:00",
+    "modified_gmt": "2020-04-12T09:03:00",
+    "slug": "terms-and-conditions",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/terms-and-conditions/",
+    "title": {
+      "rendered": "Terms and Conditions"
+    },
+    "content": {
+      "rendered": "<p>Terms and Conditions of Use Agreement</p>\n<p>PLEASE READ THE TERMS AND CONDITIONS OF USE CAREFULLY BEFORE USING THIS SITE.</p>\n<p>We maintain this web site as a service to our customers, and by using our site you are agreeing to comply with and be bound by the following terms of use. Please review the following terms and conditions carefully, and check them periodically for changes. If you do not agree to the terms and conditions, you should not review information or obtain goods, services or products from this site.</p>\n<p>1. Acceptance of Agreement. You agree to the terms and conditions outlined in this Terms and Conditions of use Agreement (&#8220;Agreement&#8221;) with respect to our site ForeverFurniture.ie. This Agreement constitutes the entire and only agreement between us and you, and supersedes all prior or contemporaneous agreements, representations, warranties and understandings with respect to the Site, the content, products or services provided by or through the Site, and the subject matter of this Agreement. This Agreement may be amended by us at any time and from time to time without specific notice to you. The latest Agreement will be posted on the Site, and you should review this Agreement prior to using the Site.</p>\n<p>2. Copyright. The content, organization, graphics, design, compilation, magnetic translation, digital conversion and other matters related to the Site are protected under applicable copyrights, trademarks, registered trademarks and other proprietary (including but not limited to intellectual property) rights. The copying, redistribution, use or publication by you of any such matters or any part of the Site, except as allowed by Section 4, is strictly prohibited. You do not acquire ownership rights to any content, document or other materials viewed through the Site. The posting of information or materials on the Site does not constitute a waiver of any right in such information and materials.</p>\n<p>3. Fraud: By becoming a member, you confirm that the information provided in this form is true and that you agree to abide by the Terms and Conditions of use of this site. Please note that your membership can be cancelled without notice if it is determined that false or misleading information has been provided, the Terms and Conditions of use have been violated, or other abuses have occurred as determined by Forever Furniture in its sole discretion. If membership has been revoked, Forever Furniture reserves the right to refuse application or readmission to the membership program.</p>\n<p>4. Limited Right to Use. The viewing, printing or downloading of any content, graphic, form or document from the Site grants you only a limited, nonexclusive license for use solely by you for your own personal use and not for republication, distribution, assignment, sublicense, sale, preparation of derivative works or other use. No part of any content, form or document may be reproduced in any form or incorporated into any information retrieval system, electronic or mechanical, other than for your personal use (but not for resale or redistribution).</p>\n<p>5. Editing, Deleting and Modification. We reserve the right in our sole discretion to edit or delete any documents, information or other content appearing on the Site, including this Agreement, without further notice to users of the Site.</p>\n<p>6. Indemnification. You agree to indemnify, defend and hold us and our partners, attorneys, staff and affiliates (collectively, &#8220;Affiliated Parties&#8221;) harmless from any liability, loss, claim and expense, including reasonable attorney&#8217;s fees, related to your violation of this Agreement or use of the Site.</p>\n<p>7. Nontransferable. Your right to use the Site is not transferable. Any password or right given to you to obtain information or documents is not transferable and may only be used by you.</p>\n<p>8. Disclaimer. THE INFORMATION FROM OR THROUGH THE SITE ARE PROVIDED &#8220;AS-IS,&#8221; &#8220;AS AVAILABLE,&#8221; AND ALL WARRANTIES, EXPRESS OR IMPLIED, ARE DISCLAIMED (INCLUDING BUT NOT LIMITED TO THE DISCLAIMER OF ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE). THE INFORMATION AND SERVICES MAY CONTAIN BUGS, ERRORS, PROBLEMS OR OTHER LIMITATIONS. WE AND OUR AFFILIATED PARTIES HAVE NO LIABILITY WHATSOEVER FOR YOUR USE OF ANY INFORMATION OR SERVICE. IN PARTICULAR, BUT NOT AS A LIMITATION, WE AND OUR AFFILIATED PARTIES ARE NOT LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING DAMAGES FOR LOSS OF BUSINESS, LOSS OF PROFITS, LITIGATION, OR THE LIKE), WHETHER BASED ON BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR OTHERWISE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE NEGATION OF DAMAGES SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN US. THIS SITE AND THE INFORMATION WOULD NOT BE PROVIDED WITHOUT SUCH LIMITATIONS. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM US THROUGH THE SITE SHALL CREATE ANY WARRANTY, REPRESENTATION OR GUARANTEE NOT EXPRESSLY STATED IN THIS AGREEMENT.</p>\n<p>9. Limits. All responsibility or liability for any damages caused by viruses contained within the electronic file containing the form or document is disclaimed. WE WILL NOT BE LIABLE TO YOU FOR ANY INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES OF ANY KIND THAT MAY RESULT FROM USE OF OR INABILITY TO USE OUR SITE. Our maximum liability to you under all circumstances will be equal to the purchase price you pay for any goods, services or information.</p>\n<p>10. Use of Information. We reserve the right, and you authorize us, to the use and assignment of all information regarding Site uses by you and all information provided by you in any manner consistent with our Privacy Policy.</p>\n<p>11. Privacy Policy. Our Privacy Policy , as it may change from time to time, is a part of this Agreement.</p>\n<p>12. Payments. You represent and warrant that if you are purchasing something from us that (i) any credit card information you supply is true, correct and complete, (i) charges incurred by you will be honored by your credit card company, and (iii) you will pay the charges incurred by you at the posted prices, including any shipping fees and applicable taxes.</p>\n<p>13. Securities Laws. This Site may include statements concerning our operations, prospects, strategies, financial condition, future economic performance and demand for our products or services, as well as our intentions, plans and objectives, that are forward-looking statements. These statements are based upon a number of assumptions and estimates which are subject to significant uncertainties, many of which are beyond our control. When used on our Site, words like &#8220;anticipates,&#8221; &#8220;expects,&#8221; &#8220;believes,&#8221; &#8220;estimates,&#8221; &#8220;seeks,&#8221; &#8220;plans,&#8221; &#8220;intends&#8221; and similar expressions are intended to identify forward-looking statements designed to fall within securities law safe harbors for forward-looking statements. The Site and the information contained herein does not constitute an offer or a solicitation of an offer for sale of any securities. None of the information contained herein is intended to be, and shall not be deemed to be, incorporated into any of our securities-related filings or documents.</p>\n<p>15. Submissions. All suggestions, ideas, notes, concepts and other information you may from time to time send to us (collectively, &#8220;Submissions&#8221;) shall be deemed and shall remain our sole property and shall not be subject to any obligation of confidence on our part. Without limiting the foregoing, we shall be deemed to own all known and hereafter existing rights of every kind and nature regarding the Submissions and shall be entitled to unrestricted use of the Submissions for any purpose, without compensation to the provider of the Submissions.</p>\n<p>16. Return Policy. In the unlikely event that you would like to return an item to us, we offer a 7 day return policy starting from the day of delivery, Please note mattresses once opened cannot be returned.</p>\n<p>17. Eddie Maguire Ltd accepts no responsibility for loss or damages caused during the delivery process. By allowing our employees or any representative of the company onto their premises the customer is accepting full responsibility without restriction for any loss or damage to their premises or their person. Specifically it is at your own risk that you permit our company representatives onto your premises.</p>\n<p>18. Insofar as is permitted by law, our only liability to you under these terms and conditions will be, at our sole discretion, to make good any shortage or non-delivery, to replace or repair any goods which are received by you in a damaged or defective state or to refund to you any sums actually paid by you for the goods in question. We will not be liable to you for any indirect or consequential loss or damage arising out of any problem you notify to us and will have no liability to you for any failure or delay in delivering goods or any damage or defect in goods delivered which is caused by any event or circumstance which is beyond our reasonable control. Nothing in this Clause affects your statutory rights as a consumer.</p>\n<p>19. Verify Members&#8217; Address: Eddie Maguire Ltd reserves the right to contact a Member via email to verify the accuracy of account information (including the Member&#8217;s correct name and address) that is needed to provide the Member with the information he or she requested from Eddie Maguire Ltd.</p>\n<p>20. Lapsed Accounts: In order to keep Eddie Maguire Ltd membership roster current, if a Member does not access his or her account for a period of 365 days or more, Forever Furniture may, in its sole discretion, terminate such Member&#8217;s account. Forever Furniture will endeavor to notify a Member of Forever Furniture intent to terminate such Member&#8217;s account by notice to such Member&#8217;s provided email address at least 14 days prior to deactivation. If the Member fails to respond to such email notice within 14 days after the day it is sent by Forever Furniture, such Member&#8217;s account will be terminated as noted above. Therefore, Forever Furniture strongly recommends that all Members keep their accounts and contact data current and in use. While Forever Furniture desires to prevent active accounts from being terminated prematurely, Forever Furniture has no obligation to maintain accounts that appear to Forever Furniture to have been abandoned. Each Member agrees that failure to access his or her account for 365 days or more conclusively indicates that such Member&#8217;s account has been abandoned and that the account may therefore be terminated.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Terms and Conditions of Use Agreement PLEASE READ THE TERMS AND CONDITIONS OF USE CAREFULLY BEFORE USING THIS SITE. We maintain this web site as a service to our customers, and by using our site you are agreeing to comply with and be bound by the following terms of use. Please review the following terms&#8230;</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-288",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/288",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=288"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 5,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/288/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 5249,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/288/revisions/5249"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=288"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 287,
+    "date": "2017-11-09T05:20:14",
+    "date_gmt": "2017-11-09T05:20:14",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=287"
+    },
+    "modified": "2018-03-10T12:02:18",
+    "modified_gmt": "2018-03-10T12:02:18",
+    "slug": "privacy-policy",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/privacy-policy/",
+    "title": {
+      "rendered": "Privacy Policy"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-287",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/287",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=287"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/287/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 640,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/287/revisions/640"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=287"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "date": "2017-05-02T16:04:08",
+    "date_gmt": "2017-05-02T16:04:08",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=125"
+    },
+    "modified": "2020-01-06T08:41:01",
+    "modified_gmt": "2020-01-06T08:41:01",
+    "slug": "about-us",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/about-us/",
+    "title": {
+      "rendered": "About us"
+    },
+    "content": {
+      "rendered": "<section class=\"l-section wpb_row height_medium\"><div class=\"l-section-h g-html i-cf\"><div class=\"g-cols offset_small\"><div class=\" full-width\"><div class=\"wpb_text_column \"><div class=\"wpb_wrapper\"><p>Eddie McGuire Furniture is 100% Irish owned family business. We been have been in the furniture industry since 1970.</p>\n<p>We aim to provide our customers with the best quality products at the best possible price.</p>\n<p>If you have any questions do not hesitate to contact us by phone or email and our friendly staff will do there very best to assist you.</p></div> </div> </div></div></div></section>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "Eddie McGuire Furniture is 100% Irish owned family business. We been have been in the furniture industry since 1970. We aim to provide our customers with the best quality products at the best possible price. If you have any questions do not hesitate to contact us by phone or email and our friendly staff will...",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-125",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/125",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=125"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 5,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/125/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 5247,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/125/revisions/5247"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=125"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "date": "2016-09-26T18:41:40",
+    "date_gmt": "2016-09-26T18:41:40",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=32"
+    },
+    "modified": "2020-04-12T08:58:56",
+    "modified_gmt": "2020-04-12T08:58:56",
+    "slug": "contact-us",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/contact-us/",
+    "title": {
+      "rendered": "Contact"
+    },
+    "content": {
+      "rendered": "<section class=\"l-section wpb_row height_medium\"><div class=\"l-section-h g-html i-cf\"><div class=\"g-cols offset_small\"><div class=\" one-half\"><div class=\"wpb_text_column \"><div class=\"wpb_wrapper\"></p>\n<h2 class=\"font_2\">Get in Touch</h2>\n<p class=\"font_7\">We’re here to help! Contact us with any question and we will do our best to reply as soon as we can.</p>\n<div id=\"i0mfsvvh\" class=\"txtNew\">\n<p class=\"font_7\"><strong>Call us: 0429332043</strong><br />\n<strong>Email:</strong><a href=\"mailto:info@eddiemaguire.ie\"> info@eddiemaguire.ie</a></p>\n</div>\n<p></div> </div> </div><div class=\" one-half\"><div class=\"w-form for_cform align_left\" id=\"us_form_1\">\r\n\t<form class=\"w-form-h\" autocomplete=\"off\" action=\"https://eddiemaguire.ie/wp-json/wp/v2/pages?per_page=100&amp;page=1&amp;status=publish,draft,private\" method=\"post\">\r\n\t\t\t\t\t\t\t<div class=\"w-form-row for_name required\">\r\n\t<div class=\"w-form-row-label\">\r\n\t\t<label for=\"us_form_1_name\"></label>\r\n\t</div>\r\n\t<div class=\"w-form-row-field\">\r\n\t\t\t\t<input type=\"text\" name=\"name\" id=\"us_form_1_name\" value=\"\"\r\n\t\t       placeholder=\"Name *\" data-required=\"true\" aria-required=\"true\"/>\r\n\t\t<span class=\"w-form-row-field-bar\"></span>\r\n\t\t\t</div>\r\n\t<div class=\"w-form-row-state\"></div>\r\n\t</div>\r\n\t\t\t\t\t<div class=\"w-form-row for_email required\">\r\n\t<div class=\"w-form-row-label\">\r\n\t\t<label for=\"us_form_1_email\"></label>\r\n\t</div>\r\n\t<div class=\"w-form-row-field\">\r\n\t\t\t\t<input type=\"email\" name=\"email\" id=\"us_form_1_email\" value=\"\"\r\n\t\t       placeholder=\"Email *\" data-required=\"true\" aria-required=\"true\"/>\r\n\t\t<span class=\"w-form-row-field-bar\"></span>\r\n\t\t\t</div>\r\n\t<div class=\"w-form-row-state\"></div>\r\n\t</div>\r\n\t\t\t\t\t<div class=\"w-form-row for_phone required\">\r\n\t<div class=\"w-form-row-label\">\r\n\t\t<label for=\"us_form_1_phone\"></label>\r\n\t</div>\r\n\t<div class=\"w-form-row-field\">\r\n\t\t\t\t<input type=\"text\" name=\"phone\" id=\"us_form_1_phone\" value=\"\"\r\n\t\t       placeholder=\"Phone Number *\" data-required=\"true\" aria-required=\"true\"/>\r\n\t\t<span class=\"w-form-row-field-bar\"></span>\r\n\t\t\t</div>\r\n\t<div class=\"w-form-row-state\"></div>\r\n\t</div>\r\n\t\t\t\t\t<div class=\"w-form-row for_message required\">\r\n\t<div class=\"w-form-row-label\">\r\n\t\t<label for=\"us_form_1_message\"></label>\r\n\t</div>\r\n\t<div class=\"w-form-row-field\">\r\n\t\t\t\t<textarea name=\"message\" id=\"us_form_1_message\" cols=\"30\" rows=\"10\" placeholder=\"Message *\"\r\n\t\t\t data-required=\"true\" aria-required=\"true\"></textarea>\r\n\t\t<span class=\"w-form-row-field-bar\"></span>\r\n\t\t\t</div>\r\n\t<div class=\"w-form-row-state\"></div>\r\n\t</div>\r\n\t\t\t\t\t<input type=\"hidden\" name=\"action\" value=\"us_ajax_cform\"/>\r\n\t\t\t\t\t<input type=\"hidden\" name=\"post_id\" value=\"32\"/>\r\n\t\t\t\t\t<input type=\"hidden\" name=\"form_index\" value=\"1\"/>\r\n\t\t\t\t\t<div class=\"w-form-row for_submit\">\r\n\t<div class=\"w-form-row-field\">\r\n\t\t<button class=\"w-btn size_medium color_primary style_solid\" type=\"submit\"><span class=\"g-preloader type_1\"></span><span class=\"w-btn-label\">Send Message</span></button>\r\n\t</div>\r\n</div>\r\n\t\t\t\t<div class=\"w-form-message\"></div>\r\n\t\t\t</form>\r\n\t\t\t<div class=\"w-form-json hidden\" onclick='return {\"ajaxurl\":\"https:\\/\\/eddiemaguire.ie\\/wp-admin\\/admin-ajax.php\",\"success\":\"Thank you! Your message was sent.\",\"errors\":{\"name\":\"Please enter your Name\",\"email\":\"Please enter your Email\",\"phone\":\"Please enter your Phone Number\",\"message\":\"Please enter a Message\"}}'></div>\r\n\t</div>\r\n</div></div></div></section>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "Get in Touch We’re here to help! Contact us with any question and we will do our best to reply as soon as we can. Call us: 0429332043 Email: info@eddiemaguire.ie Send Message",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-32",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/32",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=32"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 7,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/32/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 5248,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/32/revisions/5248"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=32"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "date": "2016-09-26T16:36:33",
+    "date_gmt": "2016-09-26T16:36:33",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=7"
+    },
+    "modified": "2016-09-26T16:36:33",
+    "modified_gmt": "2016-09-26T16:36:33",
+    "slug": "my-account",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/my-account/",
+    "title": {
+      "rendered": "My Account"
+    },
+    "content": {
+      "rendered": "<div class=\"woocommerce\"></div>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-7",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/7",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=7"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/7/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=7"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "date": "2016-09-26T16:36:33",
+    "date_gmt": "2016-09-26T16:36:33",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=6"
+    },
+    "modified": "2016-09-26T16:36:33",
+    "modified_gmt": "2016-09-26T16:36:33",
+    "slug": "checkout",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/checkout/",
+    "title": {
+      "rendered": "Checkout"
+    },
+    "content": {
+      "rendered": "<div class=\"woocommerce\"></div>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-6",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/6",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=6"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/6/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 5541,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/6/revisions/5541"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=6"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "date": "2016-09-26T16:36:32",
+    "date_gmt": "2016-09-26T16:36:32",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=5"
+    },
+    "modified": "2016-09-26T16:36:32",
+    "modified_gmt": "2016-09-26T16:36:32",
+    "slug": "cart",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/cart/",
+    "title": {
+      "rendered": "Cart"
+    },
+    "content": {
+      "rendered": "<p></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-5",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/5",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=5"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/5/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=5"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "date": "2016-09-26T16:36:32",
+    "date_gmt": "2016-09-26T16:36:32",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=4"
+    },
+    "modified": "2020-04-14T09:46:30",
+    "modified_gmt": "2020-04-14T09:46:30",
+    "slug": "products",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/products/",
+    "title": {
+      "rendered": "Products"
+    },
+    "content": {
+      "rendered": "<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-medium wp-image-790\" src=\"http://uhost.ie/demo/david-maguire/wp-content/uploads/2018/03/LOTUS-kendal-300x222.jpg\" alt=\"Lotus Teal Fabric bedframe\" width=\"300\" height=\"222\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/03/LOTUS-kendal-300x222.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2018/03/LOTUS-kendal-600x444.jpg 600w, https://eddiemaguire.ie/wp-content/uploads/2018/03/LOTUS-kendal-768x568.jpg 768w, https://eddiemaguire.ie/wp-content/uploads/2018/03/LOTUS-kendal.jpg 1024w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-4",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/4",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=4"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/4/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 792,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/4/revisions/792"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=4"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "date": "2016-09-26T16:32:37",
+    "date_gmt": "2016-09-26T16:32:37",
+    "guid": {
+      "rendered": "http://uhost.ie/demo/david-maguire/?page_id=2"
+    },
+    "modified": "2025-04-25T13:55:43",
+    "modified_gmt": "2025-04-25T13:55:43",
+    "slug": "home",
+    "status": "publish",
+    "type": "page",
+    "link": "https://eddiemaguire.ie/",
+    "title": {
+      "rendered": "Home"
+    },
+    "content": {
+      "rendered": "<section class=\"l-section wpb_row height_auto color_custom\" style=\"background-color: #f2f2f2;padding-top: 20px !important;padding-bottom: 20px !important;\"><div class=\"l-section-h g-html i-cf\"><div class=\"g-cols offset_small\"><div class=\" full-width\">[vc_raw_html]JTVCd2lkZ2V0JTIwaWQlM0QlMjJ3b29jb21tZXJjZV9wcm9kdWN0X3NlYXJjaC0yJTIyJTVE[/vc_raw_html][rev_slider_vc alias=&#8221;classic-carousel2&#8243;]</div></div></div></section><section class=\"l-section wpb_row height_medium welc3\"><div class=\"l-section-h g-html i-cf\"><div class=\"g-cols offset_small\"><div class=\" one-quarter\">[vc_empty_space height=&#8221;1px&#8221;]</div><div class=\" one-quarter\"></div><div class=\" one-quarter\"><div class=\"w-iconbox iconpos_left size_medium style_default color_primary icontype_img\"><div class=\"w-iconbox-icon\"><img loading=\"lazy\" decoding=\"async\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/03/irish.jpg\" width=\"43\" height=\"36\" alt=\"100% IRISH\"></div><h4 class=\"w-iconbox-title\">100% IRISH</h4></div></div><div class=\" one-quarter\"></div></div></div></section><section class=\"l-section wpb_row height_auto color_custom\" style=\"background-color: #f5f2f2;padding-top: 15px !important;\"><div class=\"l-section-h g-html i-cf\"><div class=\"g-cols offset_small\"><div class=\" full-width\"></div></div></div></section><section class=\"l-section wpb_row height_medium color_custom pres pcat\" style=\"background-color: #f5f2f2;\"><div class=\"l-section-h g-html i-cf\"><div class=\"g-cols offset_small\"><div class=\" one-third\"><div class=\"ult-new-ib ult-ib-effect-style6  ult-ib-resp  \" data-min-width=\"768\" data-max-width=\"900\" style=\"\" data-opacity=\"1\" data-hover-opacity=\"1\" ><img decoding=\"async\" class=\"ult-new-ib-img\" style=\"opacity:1;\" alt=\"null\" src=\"https://eddiemaguire.ie/wp-content/uploads/2020/04/pexels-photo-356056-1600x655-1-scaled.jpeg\"   /><div id=\"interactive-banner-wrap-5298\" class=\"ult-new-ib-desc\" style=\"\"><h4 class=\"ult-new-ib-title ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-5298 .ult-new-ib-title'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\">Technology</h4><div class=\"ult-new-ib-content ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-5298 .ult-new-ib-content'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\"><p>Shop Now</p></div></div><a class=\"ult-new-ib-link\" href=\"?product_cat=technology\"   ></a></div><script type=\"text/javascript\">\n\t\t\t(function($){\n\t\t\t\t$(document).ready(function(){\n\t\t\t\t\t$(\".ult-new-ib\").css(\"opacity\",\"1\");\n\t\t\t\t});\n\t\t\t})(jQuery);\n\t\t\t</script><div class=\"ult-new-ib ult-ib-effect-style6  ult-ib-resp ult-ib2-min-height \" data-min-width=\"768\" data-max-width=\"900\" style=\" opacity:0; \" data-opacity=\"1\" data-hover-opacity=\"1\"  data-min-height=\"200\" ><img decoding=\"async\" class=\"ult-new-ib-img\" style=\"opacity:1;\" alt=\"null\" src=\"https://eddiemaguire.ie/wp-content/uploads/2020/04/black-stainless-steel-appliances.jpeg\"  data-min-height=\"200\"   /><div id=\"interactive-banner-wrap-2458\" class=\"ult-new-ib-desc\" style=\"\"><h4 class=\"ult-new-ib-title ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-2458 .ult-new-ib-title'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\">Home Appliances</h4><div class=\"ult-new-ib-content ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-2458 .ult-new-ib-content'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\"><p>Shop Now</p></div></div><a class=\"ult-new-ib-link\" href=\"?product_cat=home-appliances\"   ></a></div><script type=\"text/javascript\">\n\t\t\t(function($){\n\t\t\t\t$(document).ready(function(){\n\t\t\t\t\t$(\".ult-new-ib\").css(\"opacity\",\"1\");\n\t\t\t\t});\n\t\t\t})(jQuery);\n\t\t\t</script><div class=\"ult-new-ib ult-ib-effect-style6  ult-ib-resp ult-ib2-min-height \" data-min-width=\"768\" data-max-width=\"900\" style=\" opacity:0; \" data-opacity=\"1\" data-hover-opacity=\"1\"  data-min-height=\"200\" ><img decoding=\"async\" class=\"ult-new-ib-img\" style=\"opacity:1;\" alt=\"null\" src=\"https://eddiemaguire.ie/wp-content/uploads/2019/07/thumbnail_3439_grey_jasmine.jpg\"  data-min-height=\"200\"   /><div id=\"interactive-banner-wrap-9474\" class=\"ult-new-ib-desc\" style=\"\"><h4 class=\"ult-new-ib-title ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-9474 .ult-new-ib-title'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\">Bedroom</h4><div class=\"ult-new-ib-content ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-9474 .ult-new-ib-content'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\"><p>Shop Now</p></div></div><a class=\"ult-new-ib-link\" href=\"?product_cat=bedroom\"   ></a></div><script type=\"text/javascript\">\n\t\t\t(function($){\n\t\t\t\t$(document).ready(function(){\n\t\t\t\t\t$(\".ult-new-ib\").css(\"opacity\",\"1\");\n\t\t\t\t});\n\t\t\t})(jQuery);\n\t\t\t</script></div><div class=\" two-thirds\"><div class=\"ult-new-ib ult-ib-effect-style6  ult-ib-resp ult-ib2-min-height \" data-min-width=\"768\" data-max-width=\"900\" style=\" opacity:0; \" data-opacity=\"1\" data-hover-opacity=\"1\"  data-min-height=\"361\" ><img decoding=\"async\" class=\"ult-new-ib-img\" style=\"opacity:1;\" alt=\"null\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/03/living.jpg\"  data-min-height=\"361\"   /><div id=\"interactive-banner-wrap-4781\" class=\"ult-new-ib-desc\" style=\"\"><h4 class=\"ult-new-ib-title ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-4781 .ult-new-ib-title'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\">Living</h4><div class=\"ult-new-ib-content ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-4781 .ult-new-ib-content'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\"><p>Shop Now</p></div></div><a class=\"ult-new-ib-link\" href=\"?product_cat=living\"   ></a></div><script type=\"text/javascript\">\n\t\t\t(function($){\n\t\t\t\t$(document).ready(function(){\n\t\t\t\t\t$(\".ult-new-ib\").css(\"opacity\",\"1\");\n\t\t\t\t});\n\t\t\t})(jQuery);\n\t\t\t</script><div class=\"g-cols wpb_row offset_small vc_inner \"><div class=\" one-half\"><div class=\"ult-new-ib ult-ib-effect-style6  ult-ib-resp ult-ib2-min-height \" data-min-width=\"768\" data-max-width=\"900\" style=\" opacity:0; \" data-opacity=\"1\" data-hover-opacity=\"1\"  data-min-height=\"200\" ><img decoding=\"async\" class=\"ult-new-ib-img\" style=\"opacity:1;\" alt=\"null\" src=\"https://eddiemaguire.ie/wp-content/uploads/2020/04/ZycUa7YygAogyK4uEqaPeh-1200-80-scaled.jpg\"  data-min-height=\"200\"   /><div id=\"interactive-banner-wrap-1731\" class=\"ult-new-ib-desc\" style=\"\"><h4 class=\"ult-new-ib-title ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-1731 .ult-new-ib-title'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\">T.V's</h4><div class=\"ult-new-ib-content ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-1731 .ult-new-ib-content'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\"><p>Shop Now</p></div></div><a class=\"ult-new-ib-link\" href=\"?product_cat=tvs\"   ></a></div><script type=\"text/javascript\">\n\t\t\t(function($){\n\t\t\t\t$(document).ready(function(){\n\t\t\t\t\t$(\".ult-new-ib\").css(\"opacity\",\"1\");\n\t\t\t\t});\n\t\t\t})(jQuery);\n\t\t\t</script></div><div class=\" one-half\"><div class=\"ult-new-ib ult-ib-effect-style6  ult-ib-resp ult-ib2-min-height \" data-min-width=\"768\" data-max-width=\"900\" style=\" opacity:0; \" data-opacity=\"1\" data-hover-opacity=\"1\"  data-min-height=\"200\" ><img decoding=\"async\" class=\"ult-new-ib-img\" style=\"opacity:1;\" alt=\"null\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/03/accessories.jpg\"  data-min-height=\"200\"   /><div id=\"interactive-banner-wrap-8068\" class=\"ult-new-ib-desc\" style=\"\"><h4 class=\"ult-new-ib-title ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-8068 .ult-new-ib-title'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\">Accessories</h4><div class=\"ult-new-ib-content ult-responsive\"  data-ultimate-target='#interactive-banner-wrap-8068 .ult-new-ib-content'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}'  style=\"font-weight:normal;\"><p>Shop Now</p></div></div><a class=\"ult-new-ib-link\" href=\"?product_cat=accessories\"   ></a></div><script type=\"text/javascript\">\n\t\t\t(function($){\n\t\t\t\t$(document).ready(function(){\n\t\t\t\t\t$(\".ult-new-ib\").css(\"opacity\",\"1\");\n\t\t\t\t});\n\t\t\t})(jQuery);\n\t\t\t</script></div></div></div></div></div></section><section class=\"l-section wpb_row height_medium\"><div class=\"l-section-h g-html i-cf\"><div class=\"g-cols offset_small\"><div class=\" full-width\"><div class=\"wpb_text_column \"><div class=\"wpb_wrapper\"></p>\n<h3 style=\"text-align: center;\">Shop Latest Trends</h3>\n<p></div> </div> <div class=\"woocommerce columns-4 \"><ul class=\"products columns-4\">\n<li class=\"tm-no-options product type-product post-7987 status-publish first instock product_cat-microwave product_cat-small-appliances product_tag-r372km has-post-thumbnail taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/sharp-25l-900w-solo-microwave-r372km/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\"><div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0147-400x400.png\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0147-400x400.png 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0147-100x100.png 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0147-600x600.png 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0147-300x300.png 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0147-150x150.png 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0147-768x768.png 768w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0147-75x75.png 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0147-350x350.png 350w, https://eddiemaguire.ie/wp-content/uploads/2024/04/IMG_0147.png 800w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Sharp 25L 900W Solo Microwave | R372KM</h2>\n\t<span class=\"price\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>179.00</bdi></span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=7987\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_7987\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"7987\" data-product_sku=\"R372KM\" aria-label=\"Add to cart: &ldquo;Sharp 25L 900W Solo Microwave | R372KM&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Sharp 25L 900W Solo Microwave | R372KM&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_7987\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-5117 status-publish instock product_cat-bunk-beds product_cat-kids-beds product_tag-bunkbed product_tag-tamtam product_tag-white has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/tam-tam-bunk-bed-white-with-2-free-mattress/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\">\n\t<span class=\"onsale\">Sale!</span>\n\t<div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/Leo-Bunkbed-White-Pink-1-480x400-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2018/05/Leo-Bunkbed-White-Pink-1-480x400-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Leo-Bunkbed-White-Pink-1-480x400-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Leo-Bunkbed-White-Pink-1-480x400-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2018/05/Leo-Bunkbed-White-Pink-1-480x400-350x350.jpg 350w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Tam Tam Bunk Bed White With 2 Mattress</h2>\n\t<span class=\"price\"><del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>895.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &euro;895.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>670.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &euro;670.00.</span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=5117\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_5117\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"5117\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;Tam Tam Bunk Bed White With 2 Mattress&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Tam Tam Bunk Bed White With 2 Mattress&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_5117\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-1746 status-publish instock product_cat-sideboards-consoles-dining-room product_tag-box product_tag-salisbury product_tag-storage has-post-thumbnail taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/salisbury-storage-box-2/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\"><div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2021/06/salisbury-storage-box-400x400.jpg\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2021/06/salisbury-storage-box-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2021/06/salisbury-storage-box-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2021/06/salisbury-storage-box-600x600.jpg 600w, https://eddiemaguire.ie/wp-content/uploads/2021/06/salisbury-storage-box-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2021/06/salisbury-storage-box-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2021/06/salisbury-storage-box-768x768.jpg 768w, https://eddiemaguire.ie/wp-content/uploads/2021/06/salisbury-storage-box-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2021/06/salisbury-storage-box-350x350.jpg 350w, https://eddiemaguire.ie/wp-content/uploads/2021/06/salisbury-storage-box.jpg 800w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">Salisbury Storage Box</h2>\n\t<span class=\"price\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>329.00</bdi></span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=1746\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_1746\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"1746\" data-product_sku=\"G2120\" aria-label=\"Add to cart: &ldquo;Salisbury Storage Box&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;Salisbury Storage Box&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1746\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n<li class=\"tm-no-options product type-product post-8747 status-publish last instock product_cat-built-in-single-oven product_cat-cooking product_cat-home-appliances product_tag-sop527bl has-post-thumbnail taxable shipping-taxable purchasable product-type-simple\">\n\t<a href=\"https://eddiemaguire.ie/product/nordmende-built-in-72l-multifunction-oven-pyro-clean-digital-programmer-black-glass-sop527bl/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><div class=\"product-h\"><div class=\"imagewrapper\"><img loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"400\" src=\"https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0289-400x400.png\" class=\"attachment-shop_catalog size-shop_catalog wp-post-image\" alt=\"\" srcset=\"https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0289-400x400.png 400w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0289-100x100.png 100w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0289-300x300.png 300w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0289-150x150.png 150w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0289-75x75.png 75w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0289-350x350.png 350w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0289.png 500w\" sizes=\"(max-width: 400px) 100vw, 400px\" /></div><div class=\"product-meta\"><h2 class=\"woocommerce-loop-product__title\">NordMende Built In 72L Multifunction Oven Pyro Clean Digital Programmer Black Glass | SOP527BL</h2>\n\t<span class=\"price\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&euro;</span>549.00</bdi></span></span>\n</div></a><a href=\"/wp-json/wp/v2/pages?per_page=100&#038;page=1&#038;status=publish%2Cdraft%2Cprivate&#038;add-to-cart=8747\" aria-describedby=\"woocommerce_loop_add_to_cart_link_describedby_8747\" data-quantity=\"1\" class=\"button product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"8747\" data-product_sku=\"\" aria-label=\"Add to cart: &ldquo;NordMende Built In 72L Multifunction Oven Pyro Clean Digital Programmer Black Glass | SOP527BL&rdquo;\" rel=\"nofollow\" data-success_message=\"&ldquo;NordMende Built In 72L Multifunction Oven Pyro Clean Digital Programmer Black Glass | SOP527BL&rdquo; has been added to your cart\">Add to cart</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_8747\" class=\"screen-reader-text\">\n\t\t\t</span>\n</div></li>\n</ul>\n</div></div></div></div></section><section class=\"l-section wpb_row height_medium\"><div class=\"l-section-h g-html i-cf\"><div class=\"g-cols offset_small\"><div class=\" full-width\"></div></div></div></section>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[vc_raw_html]JTVCd2lkZ2V0JTIwaWQlM0QlMjJ3b29jb21tZXJjZV9wcm9kdWN0X3NlYXJjaC0yJTIyJTVE[/vc_raw_html][rev_slider_vc alias=\"classic-carousel2\"][vc_empty_space height=\"1px\"]100% IRISHTechnologyShop Now (function($){ $(document).ready(function(){ $(\".ult-new-ib\").css(\"opacity\",\"1\"); }); })(jQuery); Home AppliancesShop Now (function($){ $(document).ready(function(){ $(\".ult-new-ib\").css(\"opacity\",\"1\"); }); })(jQuery); BedroomShop Now (function($){ $(document).ready(function(){ $(\".ult-new-ib\").css(\"opacity\",\"1\"); }); })(jQuery); LivingShop Now (function($){ $(document).ready(function(){ $(\".ult-new-ib\").css(\"opacity\",\"1\"); }); })(jQuery); T.V'sShop Now (function($){ $(document).ready(function(){ $(\".ult-new-ib\").css(\"opacity\",\"1\"); }); })(jQuery); AccessoriesShop Now (function($){ $(document).ready(function(){ $(\".ult-new-ib\").css(\"opacity\",\"1\"); }); })(jQuery); Shop Latest Trends Salisbury Vanity Mirror &euro;69.00 Add to...",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "_exactmetrics_skip_tracking": false,
+      "_exactmetrics_sitenote_active": false,
+      "_exactmetrics_sitenote_note": "",
+      "_exactmetrics_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-2",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/2",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/comments?post=2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 48,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/2/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 8517,
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/pages/2/revisions/8517"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/media?parent=2"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
