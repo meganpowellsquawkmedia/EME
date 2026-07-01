@@ -114,6 +114,9 @@ if _sp.exists():
 _fp = RAW / "fridge_products.json"          # rebuilt from EasyRetail stock take + dealer images
 if _fp.exists():
     P += json.load(open(_fp))
+_mp = RAW / "manual_products.json"          # hand-added stock (new lines, awaiting real photo/price)
+if _mp.exists():
+    P += json.load(open(_mp))
 
 # Removed/cleared products. Optional CSV (product_id,...) — these are dropped
 # from the whole catalogue. Used to wipe a category for a fresh rebuild.

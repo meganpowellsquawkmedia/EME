@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Placeholder image, photo to be confirmed">
+  <rect width="600" height="600" fill="#2A1E1A"/>
+  <rect x="150" y="150" width="300" height="300" rx="12" fill="none" stroke="#E8720C" stroke-width="4"/>
+  <path d="M210 360 l55 -55 45 45 60 -70 60 80" fill="none" stroke="#E8720C" stroke-width="4"/>
+  <circle cx="255" cy="245" r="22" fill="#E8720C"/>
+  <text x="300" y="510" fill="#E8E2DC" font-family="Montserrat, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">PLACEHOLDER</text>
+  <text x="300" y="548" fill="#E8E2DC" font-family="Inter, Arial, sans-serif" font-size="20" text-anchor="middle" opacity="0.75">photo to be confirmed</text>
+</svg>

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 990001,
+    "name": "Bosch SMS2HAW00G Freestanding Dishwasher",
+    "slug": "bosch-sms2haw00g-dishwasher",
+    "sku": "SMS2HAW00G",
+    "price": "399",
+    "regular_price": "399",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [{ "id": 698, "name": "Dishwashers" }],
+    "images": [{ "src": "/assets/placeholder-product.svg" }],
+    "short_description": "In stock in store. Photo and price to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo and final price to be confirmed — please enquire for details.</p>"
+  },
+  {
+    "id": 990002,
+    "name": "Bosch SMS4HKW00G Freestanding Dishwasher",
+    "slug": "bosch-sms4hkw00g-dishwasher",
+    "sku": "SMS4HKW00G",
+    "price": "449",
+    "regular_price": "449",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [{ "id": 698, "name": "Dishwashers" }],
+    "images": [{ "src": "/assets/placeholder-product.svg" }],
+    "short_description": "In stock in store. Photo and price to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo and final price to be confirmed — please enquire for details.</p>"
+  },
+  {
+    "id": 990003,
+    "name": "Nordmende DW64X2WH Freestanding Dishwasher",
+    "slug": "nordmende-dw64x2wh-dishwasher",
+    "sku": "DW64X2WH",
+    "price": "349",
+    "regular_price": "349",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [{ "id": 698, "name": "Dishwashers" }],
+    "images": [{ "src": "/assets/placeholder-product.svg" }],
+    "short_description": "In stock in store. Photo and price to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo and final price to be confirmed — please enquire for details.</p>"
+  }
+]
