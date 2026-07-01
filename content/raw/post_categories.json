@@ -1,0 +1,99 @@
+[
+  {
+    "id": 87,
+    "count": 0,
+    "description": "",
+    "link": "https://eddiemaguire.ie/category/hollywoodmirror/",
+    "name": "Hollywood Mirrors",
+    "slug": "hollywoodmirror",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/categories/87",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/posts?categories=87"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 1,
+    "description": "",
+    "link": "https://eddiemaguire.ie/category/uncategorized/",
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/categories/1",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://eddiemaguire.ie/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
