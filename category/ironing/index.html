@@ -6,83 +6,84 @@
 <title>IRONING | Eddie Maguire</title>
 <meta name="description" content="Browse IRONING at Eddie Maguire, Dundalk. 8 products. Buy in store.">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v=763edebf">
+<link rel="stylesheet" href="/EME/assets/site.css?v=d585b94c">
 </head>
 <body><header>
-  <a href="/" class="logo">
+  <a href="/EME/" class="logo">
     <div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div>
   </a>
   <nav>
-    <a href="/category/">Shop</a>
-    <a href="/about-us/">About</a>
-    <a href="/contact-us/">Contact</a>
+    <a href="/EME/category/">Shop</a>
+    <a href="/EME/about-us/">About</a>
+    <a href="/EME/contact-us/">Contact</a>
     <a href="https://wa.me/353899776472" class="nav-cta"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
   </nav>
-  <div class="hamburger" onclick="this.classList.toggle('open')"><span></span><span></span><span></span></div>
+  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
 </header>
 <div class="page-body">
-<div class="crumbs"><a href="/">Home</a><span class="sep">/</span><a href="/category/">Shop</a><span class="sep">/</span><span class="current">IRONING</span></div>
+<div class="crumbs"><a href="/EME/">Home</a><span class="sep">/</span><a href="/EME/category/">Shop</a><span class="sep">/</span><span class="current">IRONING</span></div>
 <div class="page-head"><h1>IRONING</h1><div class="count">8 products</div></div>
 
 <div class="filters">
-  <div class="f-group"><span class="f-label">Brand</span><div class="brand-chips"><button type="button" class="brand-chip" data-b="joseph joseph">Joseph Joseph</button><button type="button" class="brand-chip" data-b="philips">Philips</button></div></div>
-  <div class="f-group"><span class="f-label">Colour</span><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="white">White</button></div></div>
-  <div class="f-group"><span class="f-label">Price €</span><input type="number" class="f-price" id="fmin" placeholder="39" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="190" min="0"></div>
-  <div class="f-group"><span class="f-label">Sort</span><select id="fsort"><option value="">Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Brand<span class="fdrop-n" data-count="b"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-b="joseph joseph">Joseph Joseph</button><button type="button" class="brand-chip" data-b="philips">Philips</button></div></div></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Colour<span class="fdrop-n" data-count="c"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="white">White</button></div></div></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
+    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="39" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="190" min="0"></div></div>
+  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
   <button type="button" id="fclear" class="f-clear">Clear</button>
   <span class="f-count" id="fcount"></span>
 </div>
-<div class="product-grid" id="grid"><a href="/product/joseph-joseph-50005jj-glide-easy-store-ironing-board-grey-yellow/" class="product-card" data-brand="joseph joseph" data-colour="" data-price="159.99" data-name="50005jj glide easy-store ironing board - grey/yellow">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/a5e7d9311ed8d9.jpg" alt="50005JJ Glide Easy-store Ironing Board - Grey/Yellow" loading="lazy"></div></div>
+<div class="product-grid" id="grid"><a href="/EME/product/joseph-joseph-50005jj-glide-easy-store-ironing-board-grey-yellow/" class="product-card" data-brand="joseph joseph" data-colour="" data-price="159.99" data-name="50005jj glide easy-store ironing board - grey/yellow">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/a5e7d9311ed8d9.jpg" alt="50005JJ Glide Easy-store Ironing Board - Grey/Yellow" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Joseph Joseph</div>
     <div class="product-name">50005JJ Glide Easy-store Ironing Board - Grey/Yellow</div>
     <div class="product-price-row"><span class="product-price">€159.99 </span></div>
   </div>
-</a><a href="/product/joseph-joseph-50006jj-glide-plus-easy-store-ironing-board-with-advanced-cover-black-blue/" class="product-card" data-brand="joseph joseph" data-colour="black" data-price="179.95" data-name="50006jj glide plus easy-store ironing board with advanced cover - black/blue">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/3ec6bd4c6599ec.jpg" alt="50006JJ Glide Plus Easy-store Ironing Board with Advanced Cover - Black/Blue" loading="lazy"></div></div>
+</a><a href="/EME/product/joseph-joseph-50006jj-glide-plus-easy-store-ironing-board-with-advanced-cover-black-blue/" class="product-card" data-brand="joseph joseph" data-colour="black" data-price="179.95" data-name="50006jj glide plus easy-store ironing board with advanced cover - black/blue">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/3ec6bd4c6599ec.jpg" alt="50006JJ Glide Plus Easy-store Ironing Board with Advanced Cover - Black/Blue" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Joseph Joseph</div>
     <div class="product-name">50006JJ Glide Plus Easy-store Ironing Board with Advanced Cover - Black/Blue</div>
     <div class="product-price-row"><span class="product-price">€179.95 </span></div>
   </div>
-</a><a href="/product/joseph-joseph-50009jj-pocket-folding-table-top-ironing-board/" class="product-card" data-brand="joseph joseph" data-colour="" data-price="103.99" data-name="50009jj pocket folding table top ironing board">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/b55d892503ffcf.jpg" alt="50009JJ Pocket Folding Table Top Ironing Board" loading="lazy"></div></div>
+</a><a href="/EME/product/joseph-joseph-50009jj-pocket-folding-table-top-ironing-board/" class="product-card" data-brand="joseph joseph" data-colour="" data-price="103.99" data-name="50009jj pocket folding table top ironing board">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/b55d892503ffcf.jpg" alt="50009JJ Pocket Folding Table Top Ironing Board" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Joseph Joseph</div>
     <div class="product-name">50009JJ Pocket Folding Table Top Ironing Board</div>
     <div class="product-price-row"><span class="product-price">€103.99 </span></div>
   </div>
-</a><a href="/product/philips-dst3041-89-3000-series-2600w-steam-iron/" class="product-card" data-brand="philips" data-colour="" data-price="49.99" data-name="dst3041-89 3000 series 2600w steam iron">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/5415b5f1f7002c.jpg" alt="DST3041-89 3000 Series 2600W Steam Iron" loading="lazy"></div></div>
+</a><a href="/EME/product/philips-dst3041-89-3000-series-2600w-steam-iron/" class="product-card" data-brand="philips" data-colour="" data-price="49.99" data-name="dst3041-89 3000 series 2600w steam iron">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/5415b5f1f7002c.jpg" alt="DST3041-89 3000 Series 2600W Steam Iron" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Philips</div>
     <div class="product-name">DST3041-89 3000 Series 2600W Steam Iron</div>
     <div class="product-price-row"><span class="product-price">€49.99 </span></div>
   </div>
-</a><a href="/product/philips-dst7040-80-7000-series-hv-steam-iron-black-gold/" class="product-card" data-brand="philips" data-colour="black" data-price="89.99" data-name="dst7040/80 7000 series hv steam iron | black/gold">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/532ea841fc8068.jpg" alt="DST7040/80 7000 Series HV Steam Iron | Black/Gold" loading="lazy"></div></div>
+</a><a href="/EME/product/philips-dst7040-80-7000-series-hv-steam-iron-black-gold/" class="product-card" data-brand="philips" data-colour="black" data-price="89.99" data-name="dst7040/80 7000 series hv steam iron | black/gold">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/532ea841fc8068.jpg" alt="DST7040/80 7000 Series HV Steam Iron | Black/Gold" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Philips</div>
     <div class="product-name">DST7040/80 7000 Series HV Steam Iron | Black/Gold</div>
     <div class="product-price-row"><span class="product-price">€89.99 </span></div>
   </div>
-</a><a href="/product/philips-gc7842-46-perfectcare-compact-steam-generator-iron/" class="product-card" data-brand="philips" data-colour="" data-price="189.99" data-name="gc7842/46 perfectcare compact steam generator iron">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/24642ab13e5198.jpg" alt="GC7842/46 PerfectCare Compact Steam Generator Iron" loading="lazy"></div></div>
+</a><a href="/EME/product/philips-gc7842-46-perfectcare-compact-steam-generator-iron/" class="product-card" data-brand="philips" data-colour="" data-price="189.99" data-name="gc7842/46 perfectcare compact steam generator iron">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/24642ab13e5198.jpg" alt="GC7842/46 PerfectCare Compact Steam Generator Iron" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Philips</div>
     <div class="product-name">GC7842/46 PerfectCare Compact Steam Generator Iron</div>
     <div class="product-price-row"><span class="product-price">€189.99 </span></div>
   </div>
-</a><a href="/product/philips-psg2000-20-2000-series-steam-generator-blue-white/" class="product-card" data-brand="philips" data-colour="white" data-price="119.99" data-name="psg2000/20 2000 series steam generator | blue/white">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/1473a6dc1eef28.jpg" alt="PSG2000/20 2000 Series Steam Generator | Blue/White" loading="lazy"></div></div>
+</a><a href="/EME/product/philips-psg2000-20-2000-series-steam-generator-blue-white/" class="product-card" data-brand="philips" data-colour="white" data-price="119.99" data-name="psg2000/20 2000 series steam generator | blue/white">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/1473a6dc1eef28.jpg" alt="PSG2000/20 2000 Series Steam Generator | Blue/White" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Philips</div>
     <div class="product-name">PSG2000/20 2000 Series Steam Generator | Blue/White</div>
     <div class="product-price-row"><span class="product-price">€119.99 </span></div>
   </div>
-</a><a href="/product/philips-sth3010-76-3000-series-handheld-steamer/" class="product-card" data-brand="philips" data-colour="" data-price="39.99" data-name="sth3010/76 3000 series handheld steamer">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/77db8b37e3cf5c.jpg" alt="STH3010/76 3000 Series Handheld Steamer" loading="lazy"></div></div>
+</a><a href="/EME/product/philips-sth3010-76-3000-series-handheld-steamer/" class="product-card" data-brand="philips" data-colour="" data-price="39.99" data-name="sth3010/76 3000 series handheld steamer">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/77db8b37e3cf5c.jpg" alt="STH3010/76 3000 Series Handheld Steamer" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Philips</div>
     <div class="product-name">STH3010/76 3000 Series Handheld Steamer</div>
@@ -90,21 +91,21 @@
   </div>
 </a></div>
 </div>
-<script src="/assets/filters.js?v=c942cbb1" defer></script>
+<script src="/EME/assets/filters.js?v=bb907590" defer></script>
 <footer>
   <div class="footer-top">
     <div class="footer-brand">
-      <a href="/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
+      <a href="/EME/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
       <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
     </div>
-    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/category/home-appliances/">Home Appliances</a></li><li><a href="/category/small-appliances/">Small Appliances</a></li><li><a href="/category/telephones/">Telephones</a></li><li><a href="/category/record-players/">Record Players</a></li><li><a href="/category/dining/">Dining</a></li><li><a href="/category/bedroom-furniture/">Bedroom Furniture</a></li><li><a href="/category/">All categories</a></li></ul></div>
+    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances/">Home Appliances</a></li><li><a href="/EME/category/small-appliances/">Small Appliances</a></li><li><a href="/EME/category/telephones/">Telephones</a></li><li><a href="/EME/category/record-players/">Record Players</a></li><li><a href="/EME/category/dining/">Dining</a></li><li><a href="/EME/category/bedroom-furniture/">Bedroom Furniture</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
     <div class="footer-col"><h4>Company</h4><ul>
-      <li><a href="/about-us/">About Us</a></li>
-      <li><a href="/contact-us/">Contact</a></li>
-      <li><a href="/delivery-returns/">Delivery</a></li>
-      <li><a href="/returns-replacements/">Returns</a></li>
-      <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
-      <li><a href="/privacy-policy/">Privacy Policy</a></li>
+      <li><a href="/EME/about-us/">About Us</a></li>
+      <li><a href="/EME/contact-us/">Contact</a></li>
+      <li><a href="/EME/delivery-returns/">Delivery</a></li>
+      <li><a href="/EME/returns-replacements/">Returns</a></li>
+      <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
+      <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
     </ul></div>
     <div class="footer-col"><h4>Visit Us</h4><ul>
       <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>

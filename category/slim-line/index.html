@@ -6,69 +6,70 @@
 <title>Slim Line | Eddie Maguire</title>
 <meta name="description" content="Browse Slim Line at Eddie Maguire, Dundalk. 6 products. Buy in store.">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v=763edebf">
+<link rel="stylesheet" href="/EME/assets/site.css?v=d585b94c">
 </head>
 <body><header>
-  <a href="/" class="logo">
+  <a href="/EME/" class="logo">
     <div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div>
   </a>
   <nav>
-    <a href="/category/">Shop</a>
-    <a href="/about-us/">About</a>
-    <a href="/contact-us/">Contact</a>
+    <a href="/EME/category/">Shop</a>
+    <a href="/EME/about-us/">About</a>
+    <a href="/EME/contact-us/">Contact</a>
     <a href="https://wa.me/353899776472" class="nav-cta"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
   </nav>
-  <div class="hamburger" onclick="this.classList.toggle('open')"><span></span><span></span><span></span></div>
+  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
 </header>
 <div class="page-body">
-<div class="crumbs"><a href="/">Home</a><span class="sep">/</span><a href="/category/">Shop</a><span class="sep">/</span><a href="/category/home-appliances/">Home Appliances</a><span class="sep">/</span><a href="/category/dishwashers/">Dishwashers</a><span class="sep">/</span><span class="current">Slim Line</span></div>
+<div class="crumbs"><a href="/EME/">Home</a><span class="sep">/</span><a href="/EME/category/">Shop</a><span class="sep">/</span><a href="/EME/category/home-appliances/">Home Appliances</a><span class="sep">/</span><a href="/EME/category/dishwashers/">Dishwashers</a><span class="sep">/</span><span class="current">Slim Line</span></div>
 <div class="page-head"><h1>Slim Line</h1><div class="count">6 products</div></div>
 
 <div class="filters">
-  <div class="f-group"><span class="f-label">Brand</span><div class="brand-chips"><button type="button" class="brand-chip" data-b="beko">Beko</button><button type="button" class="brand-chip" data-b="indesit">Indesit</button><button type="button" class="brand-chip" data-b="whirlpool">Whirlpool</button></div></div>
-  <div class="f-group"><span class="f-label">Colour</span><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="white">White</button><button type="button" class="brand-chip" data-c="silver">Silver</button></div></div>
-  <div class="f-group"><span class="f-label">Price €</span><input type="number" class="f-price" id="fmin" placeholder="329" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="500" min="0"></div>
-  <div class="f-group"><span class="f-label">Sort</span><select id="fsort"><option value="">Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Brand<span class="fdrop-n" data-count="b"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-b="beko">Beko</button><button type="button" class="brand-chip" data-b="indesit">Indesit</button><button type="button" class="brand-chip" data-b="whirlpool">Whirlpool</button></div></div></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Colour<span class="fdrop-n" data-count="c"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="white">White</button><button type="button" class="brand-chip" data-c="silver">Silver</button></div></div></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
+    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="329" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="500" min="0"></div></div>
+  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
   <button type="button" id="fclear" class="f-clear">Clear</button>
   <span class="f-count" id="fcount"></span>
 </div>
-<div class="product-grid" id="grid"><a href="/product/beko-10-place-setting-freestanding-dishwasher-silver-dvs04020s/" class="product-card" data-brand="beko" data-colour="silver" data-price="369.0" data-name="10 place setting freestanding dishwasher - silver dvs04020s">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/bd03b4ec6b345d.jpg" alt="10 PLACE SETTING FREESTANDING DISHWASHER - SILVER DVS04020S" loading="lazy"></div></div>
+<div class="product-grid" id="grid"><a href="/EME/product/beko-10-place-setting-freestanding-dishwasher-silver-dvs04020s/" class="product-card" data-brand="beko" data-colour="silver" data-price="369.0" data-name="10 place setting freestanding dishwasher - silver dvs04020s">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/bd03b4ec6b345d.jpg" alt="10 PLACE SETTING FREESTANDING DISHWASHER - SILVER DVS04020S" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Beko</div>
     <div class="product-name">10 PLACE SETTING FREESTANDING DISHWASHER - SILVER DVS04020S</div>
     <div class="product-price-row"><span class="product-price">€369 </span></div>
   </div>
-</a><a href="/product/beko-white-slimline-dishwasher-dvs04x20w/" class="product-card" data-brand="beko" data-colour="white" data-price="329.0" data-name="white slimline dishwasher dvs04x20w">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/da382260a8962a.jpeg" alt="White Slimline Dishwasher DVS04X20W" loading="lazy"></div></div>
+</a><a href="/EME/product/beko-white-slimline-dishwasher-dvs04x20w/" class="product-card" data-brand="beko" data-colour="white" data-price="329.0" data-name="white slimline dishwasher dvs04x20w">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/da382260a8962a.jpeg" alt="White Slimline Dishwasher DVS04X20W" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Beko</div>
     <div class="product-name">White Slimline Dishwasher DVS04X20W</div>
     <div class="product-price-row"><span class="product-price">€329 </span></div>
   </div>
-</a><a href="/product/fs-slimline-dishwasher-10-place-set-11-5-l-6-progs-model-code-in2fe10cs90wuk/" class="product-card" data-brand="" data-colour="" data-price="369.0" data-name="fs slimline dishwasher 10 place set 11.5 l 6 progs model code in2fe10cs90wuk">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fae391645f2fac.jpeg" alt="FS Slimline Dishwasher 10 Place Set 11.5 L 6 Progs Model Code IN2FE10CS90WUK" loading="lazy"></div></div>
+</a><a href="/EME/product/fs-slimline-dishwasher-10-place-set-11-5-l-6-progs-model-code-in2fe10cs90wuk/" class="product-card" data-brand="" data-colour="" data-price="369.0" data-name="fs slimline dishwasher 10 place set 11.5 l 6 progs model code in2fe10cs90wuk">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fae391645f2fac.jpeg" alt="FS Slimline Dishwasher 10 Place Set 11.5 L 6 Progs Model Code IN2FE10CS90WUK" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">FS Slimline Dishwasher 10 Place Set 11.5 L 6 Progs Model Code IN2FE10CS90WUK</div>
     <div class="product-price-row"><span class="product-price">€369 </span></div>
   </div>
-</a><a href="/product/indesit-slimline-df9e1b10-uk-freestanding-dishwasher-white/" class="product-card" data-brand="indesit" data-colour="white" data-price="369.0" data-name="slimline df9e1b10 uk freestanding dishwasher - white">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/151bf83b7b4995.jpeg" alt="Slimline DF9E1B10 UK Freestanding Dishwasher - White" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-slimline-df9e1b10-uk-freestanding-dishwasher-white/" class="product-card" data-brand="indesit" data-colour="white" data-price="369.0" data-name="slimline df9e1b10 uk freestanding dishwasher - white">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/151bf83b7b4995.jpeg" alt="Slimline DF9E1B10 UK Freestanding Dishwasher - White" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">Slimline DF9E1B10 UK Freestanding Dishwasher - White</div>
     <div class="product-price-row"><span class="product-price">€369 </span></div>
   </div>
-</a><a href="/product/powerpoint-45cm-10-place-dishwasher-black-p24510m6bl/" class="product-card" data-brand="" data-colour="black" data-price="329.0" data-name="powerpoint 45cm 10 place dishwasher black | m24510m6bl">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/35dcd4d8de1556.jpeg" alt="PowerPoint 45cm 10 Place Dishwasher Black | M24510M6BL" loading="lazy"></div></div>
+</a><a href="/EME/product/powerpoint-45cm-10-place-dishwasher-black-p24510m6bl/" class="product-card" data-brand="" data-colour="black" data-price="329.0" data-name="powerpoint 45cm 10 place dishwasher black | m24510m6bl">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/35dcd4d8de1556.jpeg" alt="PowerPoint 45cm 10 Place Dishwasher Black | M24510M6BL" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">PowerPoint 45cm 10 Place Dishwasher Black | M24510M6BL</div>
     <div class="product-price-row"><span class="product-price">€329 </span></div>
   </div>
-</a><a href="/product/whirlpool-supremeclean-wsfe2b19-x-uk-n-dishwasher-a-10-place-stainless-steel/" class="product-card" data-brand="whirlpool" data-colour="silver" data-price="499.0" data-name="supremeclean wsfe2b19 x uk n dishwasher a+++ 10 place - stainless steel">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/6e220492ffe586.jpeg" alt="SupremeClean WSFE2B19 X UK N Dishwasher A+++ 10 Place - Stainless Steel" loading="lazy"></div></div>
+</a><a href="/EME/product/whirlpool-supremeclean-wsfe2b19-x-uk-n-dishwasher-a-10-place-stainless-steel/" class="product-card" data-brand="whirlpool" data-colour="silver" data-price="499.0" data-name="supremeclean wsfe2b19 x uk n dishwasher a+++ 10 place - stainless steel">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/6e220492ffe586.jpeg" alt="SupremeClean WSFE2B19 X UK N Dishwasher A+++ 10 Place - Stainless Steel" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Whirlpool</div>
     <div class="product-name">SupremeClean WSFE2B19 X UK N Dishwasher A+++ 10 Place - Stainless Steel</div>
@@ -76,21 +77,21 @@
   </div>
 </a></div>
 </div>
-<script src="/assets/filters.js?v=c942cbb1" defer></script>
+<script src="/EME/assets/filters.js?v=bb907590" defer></script>
 <footer>
   <div class="footer-top">
     <div class="footer-brand">
-      <a href="/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
+      <a href="/EME/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
       <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
     </div>
-    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/category/home-appliances/">Home Appliances</a></li><li><a href="/category/small-appliances/">Small Appliances</a></li><li><a href="/category/telephones/">Telephones</a></li><li><a href="/category/record-players/">Record Players</a></li><li><a href="/category/dining/">Dining</a></li><li><a href="/category/bedroom-furniture/">Bedroom Furniture</a></li><li><a href="/category/">All categories</a></li></ul></div>
+    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances/">Home Appliances</a></li><li><a href="/EME/category/small-appliances/">Small Appliances</a></li><li><a href="/EME/category/telephones/">Telephones</a></li><li><a href="/EME/category/record-players/">Record Players</a></li><li><a href="/EME/category/dining/">Dining</a></li><li><a href="/EME/category/bedroom-furniture/">Bedroom Furniture</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
     <div class="footer-col"><h4>Company</h4><ul>
-      <li><a href="/about-us/">About Us</a></li>
-      <li><a href="/contact-us/">Contact</a></li>
-      <li><a href="/delivery-returns/">Delivery</a></li>
-      <li><a href="/returns-replacements/">Returns</a></li>
-      <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
-      <li><a href="/privacy-policy/">Privacy Policy</a></li>
+      <li><a href="/EME/about-us/">About Us</a></li>
+      <li><a href="/EME/contact-us/">Contact</a></li>
+      <li><a href="/EME/delivery-returns/">Delivery</a></li>
+      <li><a href="/EME/returns-replacements/">Returns</a></li>
+      <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
+      <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
     </ul></div>
     <div class="footer-col"><h4>Visit Us</h4><ul>
       <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>
