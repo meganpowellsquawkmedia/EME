@@ -677,15 +677,41 @@ def build_pages():
             n += 1
     print(f"  content pages: {n} pages (about, delivery, returns, terms, contact, legal)")
 
-# REDIRECT MAP (old category url -> new)
+# REDIRECT STUBS (old WooCommerce category url -> new)
+# GitHub Pages can't do server-side 301s, so we emit a static stub at each old
+# path that instantly forwards to the new URL. Google treats an instant
+# meta-refresh + rel=canonical as a permanent redirect, preserving rankings.
+REDIRECT_STUB = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Page moved</title>
+<link rel="canonical" href="{new}">
+<meta http-equiv="refresh" content="0; url={new}">
+<meta name="robots" content="noindex, follow">
+<script>location.replace(document.querySelector('link[rel=canonical]').href)</script>
+</head>
+<body>
+<p>This page has moved. <a href="{new}">Continue to {title}</a>.</p>
+</body>
+</html>
+"""
+
 def build_redirects():
     rows = [["old_path", "new_path", "type", "title"]]
+    n = 0
     for c in C:
-        rows.append([f"/product-category/{c['slug']}/", cat_url(c["id"]), "category", html.unescape(c["name"])])
-    # products keep their slug -> no redirect needed, but record for completeness
+        old_path = f"/product-category/{c['slug']}/"
+        new = cat_url(c["id"])
+        name = html.unescape(c["name"])
+        rows.append([old_path, new, "category", name])
+        # products keep their slug -> no redirect needed, but record for completeness
+        write(f"product-category/{c['slug']}/index.html",
+              REDIRECT_STUB.format(new=new, title=esc(name)))
+        n += 1
     with open(ROOT / "content" / "redirects.csv", "w", newline="") as f:
         csv.writer(f).writerows(rows)
-    print(f"  redirects: {len(rows)-1} category mappings -> content/redirects.csv")
+    print(f"  redirects: {n} category stubs -> /product-category/... (map: content/redirects.csv)")
 
 def apply_base(base):
     """Prefix all root-relative internal links (href/src/url()) with a base path,
@@ -695,17 +721,18 @@ def apply_base(base):
         return
     a = re.compile(r'((?:href|src)=")/(?!/)')
     u = re.compile(r"""(url\(\s*['"]?)/(?!/)""")
+    m = re.compile(r'(content="\d+;\s*url=)/(?!/)')  # meta-refresh redirect target
     n = 0
     for f in ROOT.rglob("*.html"):
         t = f.read_text(encoding="utf-8")
-        t2 = u.sub(rf"\1{base}/", a.sub(rf"\1{base}/", t))
+        t2 = m.sub(rf"\1{base}/", u.sub(rf"\1{base}/", a.sub(rf"\1{base}/", t)))
         if t2 != t:
             f.write_text(t2, encoding="utf-8"); n += 1
     print(f"  base path '{base}' applied to {n} pages")
 
 if __name__ == "__main__":
     # clean previous generated output (keep raw, tools, assets)
-    for d in ("product", "category", "about-us", "contact-us",
+    for d in ("product", "category", "product-category", "about-us", "contact-us",
               "delivery-returns", "returns-replacements", "terms-and-conditions",
               "privacy-policy"):
         shutil.rmtree(ROOT / d, ignore_errors=True)
