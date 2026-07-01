@@ -16,11 +16,11 @@
     ],
     "images": [
       {
-        "src": "/assets/placeholder-product.svg"
+        "src": "/assets/img/sms26ai08g.jpg"
       }
     ],
-    "short_description": "In stock in store. Photo to be confirmed.",
-    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 please enquire.</p>"
+    "short_description": "In stock in store at 29 Church St, Dundalk.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>"
   },
   {
     "id": 990005,
@@ -39,11 +39,11 @@
     ],
     "images": [
       {
-        "src": "/assets/placeholder-product.svg"
+        "src": "/assets/img/sms2hvw67g.png"
       }
     ],
-    "short_description": "In stock in store. Photo to be confirmed.",
-    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 please enquire.</p>"
+    "short_description": "In stock in store at 29 Church St, Dundalk.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>"
   },
   {
     "id": 990006,
@@ -62,10 +62,10 @@
     ],
     "images": [
       {
-        "src": "/assets/placeholder-product.svg"
+        "src": "/assets/img/hfc3c26wuk.jpg"
       }
     ],
-    "short_description": "In stock in store. Photo to be confirmed.",
-    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 please enquire.</p>"
+    "short_description": "In stock in store at 29 Church St, Dundalk.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>"
   }
 ]
