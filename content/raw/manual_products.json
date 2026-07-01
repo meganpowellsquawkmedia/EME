@@ -1,44 +1,71 @@
 [
   {
-    "id": 990001,
-    "name": "Bosch SMS2HAW00G Freestanding Dishwasher",
-    "slug": "bosch-sms2haw00g-dishwasher",
-    "sku": "SMS2HAW00G",
-    "price": "399",
-    "regular_price": "399",
+    "id": 990004,
+    "name": "Bosch SMS26A108G Freestanding Dishwasher",
+    "slug": "bosch-sms26a108g-dishwasher",
+    "sku": "SMS26A108G",
+    "price": "499",
+    "regular_price": "499",
     "sale_price": "",
     "stock_status": "instock",
-    "categories": [{ "id": 698, "name": "Dishwashers" }],
-    "images": [{ "src": "/assets/placeholder-product.svg" }],
-    "short_description": "In stock in store. Photo and price to be confirmed.",
-    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo and final price to be confirmed — please enquire for details.</p>"
+    "categories": [
+      {
+        "id": 698,
+        "name": "Dishwashers"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 please enquire.</p>"
   },
   {
-    "id": 990002,
-    "name": "Bosch SMS4HKW00G Freestanding Dishwasher",
-    "slug": "bosch-sms4hkw00g-dishwasher",
-    "sku": "SMS4HKW00G",
+    "id": 990005,
+    "name": "Bosch SMS2HVW67G Freestanding Dishwasher",
+    "slug": "bosch-sms2hvw67g-dishwasher",
+    "sku": "SMS2HVW67G",
+    "price": "599",
+    "regular_price": "599",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 698,
+        "name": "Dishwashers"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 please enquire.</p>"
+  },
+  {
+    "id": 990006,
+    "name": "Hotpoint HFC3C26WUK Freestanding Dishwasher",
+    "slug": "hotpoint-hfc3c26wuk-dishwasher",
+    "sku": "HFC3C26WUK",
     "price": "449",
     "regular_price": "449",
     "sale_price": "",
     "stock_status": "instock",
-    "categories": [{ "id": 698, "name": "Dishwashers" }],
-    "images": [{ "src": "/assets/placeholder-product.svg" }],
-    "short_description": "In stock in store. Photo and price to be confirmed.",
-    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo and final price to be confirmed — please enquire for details.</p>"
-  },
-  {
-    "id": 990003,
-    "name": "Nordmende DW64X2WH Freestanding Dishwasher",
-    "slug": "nordmende-dw64x2wh-dishwasher",
-    "sku": "DW64X2WH",
-    "price": "349",
-    "regular_price": "349",
-    "sale_price": "",
-    "stock_status": "instock",
-    "categories": [{ "id": 698, "name": "Dishwashers" }],
-    "images": [{ "src": "/assets/placeholder-product.svg" }],
-    "short_description": "In stock in store. Photo and price to be confirmed.",
-    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo and final price to be confirmed — please enquire for details.</p>"
+    "categories": [
+      {
+        "id": 698,
+        "name": "Dishwashers"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 please enquire.</p>"
   }
 ]
