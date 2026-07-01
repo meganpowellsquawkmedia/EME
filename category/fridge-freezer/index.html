@@ -6,356 +6,357 @@
 <title>Fridge Freezer | Eddie Maguire</title>
 <meta name="description" content="Browse Fridge Freezer at Eddie Maguire, Dundalk. 47 products. Buy in store.">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v=763edebf">
+<link rel="stylesheet" href="/EME/assets/site.css?v=d585b94c">
 </head>
 <body><header>
-  <a href="/" class="logo">
+  <a href="/EME/" class="logo">
     <div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div>
   </a>
   <nav>
-    <a href="/category/">Shop</a>
-    <a href="/about-us/">About</a>
-    <a href="/contact-us/">Contact</a>
+    <a href="/EME/category/">Shop</a>
+    <a href="/EME/about-us/">About</a>
+    <a href="/EME/contact-us/">Contact</a>
     <a href="https://wa.me/353899776472" class="nav-cta"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
   </nav>
-  <div class="hamburger" onclick="this.classList.toggle('open')"><span></span><span></span><span></span></div>
+  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
 </header>
 <div class="page-body">
-<div class="crumbs"><a href="/">Home</a><span class="sep">/</span><a href="/category/">Shop</a><span class="sep">/</span><a href="/category/home-appliances/">Home Appliances</a><span class="sep">/</span><a href="/category/refrigeration/">Refrigeration</a><span class="sep">/</span><span class="current">Fridge Freezer</span></div>
+<div class="crumbs"><a href="/EME/">Home</a><span class="sep">/</span><a href="/EME/category/">Shop</a><span class="sep">/</span><a href="/EME/category/home-appliances/">Home Appliances</a><span class="sep">/</span><a href="/EME/category/refrigeration/">Refrigeration</a><span class="sep">/</span><span class="current">Fridge Freezer</span></div>
 <div class="page-head"><h1>Fridge Freezer</h1><div class="count">47 products</div></div>
 
 <div class="filters">
-  <div class="f-group"><span class="f-label">Brand</span><div class="brand-chips"><button type="button" class="brand-chip" data-b="beko">Beko</button><button type="button" class="brand-chip" data-b="bosch">Bosch</button><button type="button" class="brand-chip" data-b="candy">Candy</button><button type="button" class="brand-chip" data-b="electrolux">Electrolux</button><button type="button" class="brand-chip" data-b="haier">Haier</button><button type="button" class="brand-chip" data-b="hisense">Hisense</button><button type="button" class="brand-chip" data-b="hoover">Hoover</button><button type="button" class="brand-chip" data-b="hotpoint">Hotpoint</button><button type="button" class="brand-chip" data-b="indesit">Indesit</button><button type="button" class="brand-chip" data-b="nordmende">Nordmende</button><button type="button" class="brand-chip" data-b="powerpoint">Powerpoint</button><button type="button" class="brand-chip" data-b="samsung">Samsung</button></div></div>
-  <div class="f-group"><span class="f-label">Colour</span><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="white">White</button><button type="button" class="brand-chip" data-c="silver">Silver</button></div></div>
-  <div class="f-group"><span class="f-label">Price €</span><input type="number" class="f-price" id="fmin" placeholder="279" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="1765" min="0"></div>
-  <div class="f-group"><span class="f-label">Sort</span><select id="fsort"><option value="">Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Brand<span class="fdrop-n" data-count="b"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-b="beko">Beko</button><button type="button" class="brand-chip" data-b="bosch">Bosch</button><button type="button" class="brand-chip" data-b="candy">Candy</button><button type="button" class="brand-chip" data-b="electrolux">Electrolux</button><button type="button" class="brand-chip" data-b="haier">Haier</button><button type="button" class="brand-chip" data-b="hisense">Hisense</button><button type="button" class="brand-chip" data-b="hoover">Hoover</button><button type="button" class="brand-chip" data-b="hotpoint">Hotpoint</button><button type="button" class="brand-chip" data-b="indesit">Indesit</button><button type="button" class="brand-chip" data-b="nordmende">Nordmende</button><button type="button" class="brand-chip" data-b="powerpoint">Powerpoint</button><button type="button" class="brand-chip" data-b="samsung">Samsung</button></div></div></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Colour<span class="fdrop-n" data-count="c"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="white">White</button><button type="button" class="brand-chip" data-c="silver">Silver</button></div></div></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
+    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="279" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="1765" min="0"></div></div>
+  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
   <button type="button" id="fclear" class="f-clear">Clear</button>
   <span class="f-count" id="fcount"></span>
 </div>
-<div class="product-grid" id="grid"><a href="/product/beko-pro-harvestfresh-cnb3g4686dvps-60-40-fridge-freezer-stainless-steel/" class="product-card" data-brand="beko" data-colour="silver" data-price="649.0" data-name="pro harvestfresh cnb3g4686dvps 60/40 fridge freezer - stainless steel">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/8a0476fddba12f.jpg" alt="Pro HarvestFresh CNB3G4686DVPS 60/40 Fridge Freezer - Stainless Steel" loading="lazy"></div></div>
+<div class="product-grid" id="grid"><a href="/EME/product/beko-pro-harvestfresh-cnb3g4686dvps-60-40-fridge-freezer-stainless-steel/" class="product-card" data-brand="beko" data-colour="silver" data-price="649.0" data-name="pro harvestfresh cnb3g4686dvps 60/40 fridge freezer - stainless steel">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/8a0476fddba12f.jpg" alt="Pro HarvestFresh CNB3G4686DVPS 60/40 Fridge Freezer - Stainless Steel" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Beko</div>
     <div class="product-name">Pro HarvestFresh CNB3G4686DVPS 60/40 Fridge Freezer - Stainless Steel</div>
     <div class="product-price-row"><span class="product-price">€649 </span></div>
   </div>
-</a><a href="/product/beko-50-50-frost-free-fridge-freezer-cfg4552s-silver/" class="product-card" data-brand="beko" data-colour="silver" data-price="439.0" data-name="50/50 frost free fridge freezer  cfg4552s silver">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/585755a12b6b3c.jpg" alt="50/50 Frost Free Fridge Freezer  CFG4552S Silver" loading="lazy"></div></div>
+</a><a href="/EME/product/beko-50-50-frost-free-fridge-freezer-cfg4552s-silver/" class="product-card" data-brand="beko" data-colour="silver" data-price="439.0" data-name="50/50 frost free fridge freezer  cfg4552s silver">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/585755a12b6b3c.jpg" alt="50/50 Frost Free Fridge Freezer  CFG4552S Silver" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Beko</div>
     <div class="product-name">50/50 Frost Free Fridge Freezer  CFG4552S Silver</div>
     <div class="product-price-row"><span class="product-price">€439 </span></div>
   </div>
-</a><a href="/product/beko-50-50-frost-free-fridge-freezer-white-cfg4552b-black/" class="product-card" data-brand="beko" data-colour="black" data-price="449.0" data-name="50/50 frost free fridge freezer cfg4552b black">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/81e1d177a96195.jpg" alt="50/50 Frost Free Fridge Freezer CFG4552B Black" loading="lazy"></div></div>
+</a><a href="/EME/product/beko-50-50-frost-free-fridge-freezer-white-cfg4552b-black/" class="product-card" data-brand="beko" data-colour="black" data-price="449.0" data-name="50/50 frost free fridge freezer cfg4552b black">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/81e1d177a96195.jpg" alt="50/50 Frost Free Fridge Freezer CFG4552B Black" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Beko</div>
     <div class="product-name">50/50 Frost Free Fridge Freezer CFG4552B Black</div>
     <div class="product-price-row"><span class="product-price">€449 </span></div>
   </div>
-</a><a href="/product/beko-freestanding-frost-free-fridge-freezer-with-harvestfresh-white-cfg4686vw/" class="product-card" data-brand="beko" data-colour="white" data-price="499.0" data-name="freestanding frost free fridge freezer with harvestfresh - white | cfg4686vw">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/df3a51f076da00.webp" alt="Freestanding Frost Free Fridge Freezer with HarvestFresh - White | CFG4686VW" loading="lazy"></div></div>
+</a><a href="/EME/product/beko-freestanding-frost-free-fridge-freezer-with-harvestfresh-white-cfg4686vw/" class="product-card" data-brand="beko" data-colour="white" data-price="499.0" data-name="freestanding frost free fridge freezer with harvestfresh - white | cfg4686vw">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/df3a51f076da00.webp" alt="Freestanding Frost Free Fridge Freezer with HarvestFresh - White | CFG4686VW" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Beko</div>
     <div class="product-name">Freestanding Frost Free Fridge Freezer with HarvestFresh - White | CFG4686VW</div>
     <div class="product-price-row"><span class="product-price">€499 </span></div>
   </div>
-</a><a href="/product/bosch-fridge-freezer-kgv33vleag/" class="product-card" data-brand="bosch" data-colour="" data-price="529.0" data-name="fridge freezer kgv33vleag">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-kgv33vleag.jpg" alt="Fridge Freezer KGV33VLEAG" loading="lazy"></div></div>
+</a><a href="/EME/product/bosch-fridge-freezer-kgv33vleag/" class="product-card" data-brand="bosch" data-colour="" data-price="529.0" data-name="fridge freezer kgv33vleag">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-kgv33vleag.jpg" alt="Fridge Freezer KGV33VLEAG" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Bosch</div>
     <div class="product-name">Fridge Freezer KGV33VLEAG</div>
     <div class="product-price-row"><span class="product-price">€529 </span></div>
   </div>
-</a><a href="/product/bosch-series-4-freestanding-fridge-freezer-kgv336weag/" class="product-card" data-brand="bosch" data-colour="" data-price="499.0" data-name="series 4 freestanding fridge freezer | kgv336weag">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/d0afbf06ca4581.jpg" alt="Series 4 Freestanding Fridge Freezer | KGV336WEAG" loading="lazy"></div></div>
+</a><a href="/EME/product/bosch-series-4-freestanding-fridge-freezer-kgv336weag/" class="product-card" data-brand="bosch" data-colour="" data-price="499.0" data-name="series 4 freestanding fridge freezer | kgv336weag">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/d0afbf06ca4581.jpg" alt="Series 4 Freestanding Fridge Freezer | KGV336WEAG" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Bosch</div>
     <div class="product-name">Series 4 Freestanding Fridge Freezer | KGV336WEAG</div>
     <div class="product-price-row"><span class="product-price">€499 </span></div>
   </div>
-</a><a href="/product/candy-fridge-freezer-cch1s513ewk-1/" class="product-card" data-brand="candy" data-colour="" data-price="339.0" data-name="fridge freezer cch1s513ewk-1">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-cch1s513ewk1.jpg" alt="Fridge Freezer CCH1S513EWK-1" loading="lazy"></div></div>
+</a><a href="/EME/product/candy-fridge-freezer-cch1s513ewk-1/" class="product-card" data-brand="candy" data-colour="" data-price="339.0" data-name="fridge freezer cch1s513ewk-1">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-cch1s513ewk1.jpg" alt="Fridge Freezer CCH1S513EWK-1" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Candy</div>
     <div class="product-name">Fridge Freezer CCH1S513EWK-1</div>
     <div class="product-price-row"><span class="product-price">€339 </span></div>
   </div>
-</a><a href="/product/electrolux-60-40-freestanding-frost-free-fridge-freezer-stainless-steel-lnt6me32u2/" class="product-card" data-brand="electrolux" data-colour="silver" data-price="679.0" data-name="60/40 freestanding frost free fridge freezer - stainless steel | lnt6me32u2">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/0e0e72db414885.webp" alt="60/40 Freestanding Frost Free Fridge Freezer - Stainless Steel | LNT6ME32U2" loading="lazy"></div></div>
+</a><a href="/EME/product/electrolux-60-40-freestanding-frost-free-fridge-freezer-stainless-steel-lnt6me32u2/" class="product-card" data-brand="electrolux" data-colour="silver" data-price="679.0" data-name="60/40 freestanding frost free fridge freezer - stainless steel | lnt6me32u2">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/0e0e72db414885.webp" alt="60/40 Freestanding Frost Free Fridge Freezer - Stainless Steel | LNT6ME32U2" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Electrolux</div>
     <div class="product-name">60/40 Freestanding Frost Free Fridge Freezer - Stainless Steel | LNT6ME32U2</div>
     <div class="product-price-row"><span class="product-price">€679 </span></div>
   </div>
-</a><a href="/product/electrolux-fridge-freezer-lnt6me33ko/" class="product-card" data-brand="electrolux" data-colour="" data-price="699.0" data-name="fridge freezer lnt6me33ko">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-lnt6me33ko.jpg" alt="Fridge Freezer LNT6ME33KO" loading="lazy"></div></div>
+</a><a href="/EME/product/electrolux-fridge-freezer-lnt6me33ko/" class="product-card" data-brand="electrolux" data-colour="" data-price="699.0" data-name="fridge freezer lnt6me33ko">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-lnt6me33ko.jpg" alt="Fridge Freezer LNT6ME33KO" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Electrolux</div>
     <div class="product-name">Fridge Freezer LNT6ME33KO</div>
     <div class="product-price-row"><span class="product-price">€699 </span></div>
   </div>
-</a><a href="/product/electrolux-frost-free-fridge-freezer-lnt6me36u2/" class="product-card" data-brand="electrolux" data-colour="" data-price="699.0" data-name="frost free fridge freezer lnt6me36u2">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/8362a2b1e826d0.jpg" alt="Frost Free Fridge Freezer LNT6ME36U2" loading="lazy"></div></div>
+</a><a href="/EME/product/electrolux-frost-free-fridge-freezer-lnt6me36u2/" class="product-card" data-brand="electrolux" data-colour="" data-price="699.0" data-name="frost free fridge freezer lnt6me36u2">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/8362a2b1e826d0.jpg" alt="Frost Free Fridge Freezer LNT6ME36U2" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Electrolux</div>
     <div class="product-name">Frost Free Fridge Freezer LNT6ME36U2</div>
     <div class="product-price-row"><span class="product-price">€699 </span></div>
   </div>
-</a><a href="/product/electrolux-integrated-fridge-freezer-lns5le18s5/" class="product-card" data-brand="electrolux" data-colour="" data-price="649.0" data-name="integrated fridge freezer lns5le18s5">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/3d156eaa9c8062.jpg" alt="Integrated Fridge Freezer LNS5LE18S5" loading="lazy"></div></div>
+</a><a href="/EME/product/electrolux-integrated-fridge-freezer-lns5le18s5/" class="product-card" data-brand="electrolux" data-colour="" data-price="649.0" data-name="integrated fridge freezer lns5le18s5">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/3d156eaa9c8062.jpg" alt="Integrated Fridge Freezer LNS5LE18S5" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Electrolux</div>
     <div class="product-name">Integrated Fridge Freezer LNS5LE18S5</div>
     <div class="product-price-row"><span class="product-price">€649 </span></div>
   </div>
-</a><a href="/product/hotpoint-dual-no-frost-60-40-fridge-freezer-with-evenflow-dark-silver-model-code-hpk26363xbr5uk/" class="product-card" data-brand="hotpoint" data-colour="silver" data-price="699.0" data-name="dual no frost 60/40 fridge freezer with evenflow - dark silver model code hpk26363xbr5uk">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/12ba627fab30ef.avif" alt="Dual No Frost 60/40 Fridge Freezer with EvenFlow - Dark Silver Model Code HPK26363XBR5UK" loading="lazy"></div></div>
+</a><a href="/EME/product/hotpoint-dual-no-frost-60-40-fridge-freezer-with-evenflow-dark-silver-model-code-hpk26363xbr5uk/" class="product-card" data-brand="hotpoint" data-colour="silver" data-price="699.0" data-name="dual no frost 60/40 fridge freezer with evenflow - dark silver model code hpk26363xbr5uk">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/12ba627fab30ef.avif" alt="Dual No Frost 60/40 Fridge Freezer with EvenFlow - Dark Silver Model Code HPK26363XBR5UK" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Hotpoint</div>
     <div class="product-name">Dual No Frost 60/40 Fridge Freezer with EvenFlow - Dark Silver Model Code HPK26363XBR5UK</div>
     <div class="product-price-row"><span class="product-price">€699 </span></div>
   </div>
-</a><a href="/product/haier-fridge-freezer-hcr3818enmg-uk/" class="product-card" data-brand="haier" data-colour="" data-price="899.0" data-name="fridge freezer hcr3818enmg(uk)">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-hcr3818enmguk.jpg" alt="Fridge Freezer HCR3818ENMG(UK)" loading="lazy"></div></div>
+</a><a href="/EME/product/haier-fridge-freezer-hcr3818enmg-uk/" class="product-card" data-brand="haier" data-colour="" data-price="899.0" data-name="fridge freezer hcr3818enmg(uk)">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-hcr3818enmguk.jpg" alt="Fridge Freezer HCR3818ENMG(UK)" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Haier</div>
     <div class="product-name">Fridge Freezer HCR3818ENMG(UK)</div>
     <div class="product-price-row"><span class="product-price">€899 </span></div>
   </div>
-</a><a href="/product/haier-fridge-freezer-hfr5719ewpb/" class="product-card" data-brand="haier" data-colour="" data-price="904.0" data-name="fridge freezer hfr5719ewpb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-hfr5719ewpb.jpg" alt="Fridge Freezer HFR5719EWPB" loading="lazy"></div></div>
+</a><a href="/EME/product/haier-fridge-freezer-hfr5719ewpb/" class="product-card" data-brand="haier" data-colour="" data-price="904.0" data-name="fridge freezer hfr5719ewpb">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-hfr5719ewpb.jpg" alt="Fridge Freezer HFR5719EWPB" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Haier</div>
     <div class="product-name">Fridge Freezer HFR5719EWPB</div>
     <div class="product-price-row"><span class="product-price">€904 </span></div>
   </div>
-</a><a href="/product/haier-fridge-freezer-hsw59f18dimm/" class="product-card" data-brand="haier" data-colour="" data-price="1304.0" data-name="fridge freezer hsw59f18dimm">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-hsw59f18dimm.jpg" alt="Fridge Freezer HSW59F18DIMM" loading="lazy"></div></div>
+</a><a href="/EME/product/haier-fridge-freezer-hsw59f18dimm/" class="product-card" data-brand="haier" data-colour="" data-price="1304.0" data-name="fridge freezer hsw59f18dimm">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-hsw59f18dimm.jpg" alt="Fridge Freezer HSW59F18DIMM" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Haier</div>
     <div class="product-name">Fridge Freezer HSW59F18DIMM</div>
     <div class="product-price-row"><span class="product-price">€1,304 </span></div>
   </div>
-</a><a href="/product/haier-fridge-freezer-htw5618enmg-uk/" class="product-card" data-brand="haier" data-colour="" data-price="699.0" data-name="fridge freezer htw5618enmg(uk)">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-htw5618enmguk.jpg" alt="Fridge Freezer HTW5618ENMG(UK)" loading="lazy"></div></div>
+</a><a href="/EME/product/haier-fridge-freezer-htw5618enmg-uk/" class="product-card" data-brand="haier" data-colour="" data-price="699.0" data-name="fridge freezer htw5618enmg(uk)">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-htw5618enmguk.jpg" alt="Fridge Freezer HTW5618ENMG(UK)" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Haier</div>
     <div class="product-name">Fridge Freezer HTW5618ENMG(UK)</div>
     <div class="product-price-row"><span class="product-price">€699 </span></div>
   </div>
-</a><a href="/product/hisense-fridge-freezer-rs694n4ibe/" class="product-card" data-brand="hisense" data-colour="" data-price="1094.0" data-name="fridge freezer rs694n4ibe">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-rs694n4ibe.jpg" alt="Fridge Freezer RS694N4IBE" loading="lazy"></div></div>
+</a><a href="/EME/product/hisense-fridge-freezer-rs694n4ibe/" class="product-card" data-brand="hisense" data-colour="" data-price="1094.0" data-name="fridge freezer rs694n4ibe">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-rs694n4ibe.jpg" alt="Fridge Freezer RS694N4IBE" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Hisense</div>
     <div class="product-name">Fridge Freezer RS694N4IBE</div>
     <div class="product-price-row"><span class="product-price">€1,094 </span></div>
   </div>
-</a><a href="/product/hoover-fridge-freezer-honfq2t718exk/" class="product-card" data-brand="hoover" data-colour="" data-price="649.0" data-name="fridge freezer honfq2t718exk">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-honfq2t718exk.jpg" alt="Fridge Freezer HONFQ2T718EXK" loading="lazy"></div></div>
+</a><a href="/EME/product/hoover-fridge-freezer-honfq2t718exk/" class="product-card" data-brand="hoover" data-colour="" data-price="649.0" data-name="fridge freezer honfq2t718exk">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-honfq2t718exk.jpg" alt="Fridge Freezer HONFQ2T718EXK" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Hoover</div>
     <div class="product-name">Fridge Freezer HONFQ2T718EXK</div>
     <div class="product-price-row"><span class="product-price">€649 </span></div>
   </div>
-</a><a href="/product/hotpoint-fridge-freezer-h9c941cw/" class="product-card" data-brand="hotpoint" data-colour="" data-price="804.0" data-name="fridge freezer h9c941cw">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-h9c941cw.jpg" alt="Fridge Freezer H9C941CW" loading="lazy"></div></div>
+</a><a href="/EME/product/hotpoint-fridge-freezer-h9c941cw/" class="product-card" data-brand="hotpoint" data-colour="" data-price="804.0" data-name="fridge freezer h9c941cw">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-h9c941cw.jpg" alt="Fridge Freezer H9C941CW" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Hotpoint</div>
     <div class="product-name">Fridge Freezer H9C941CW</div>
     <div class="product-price-row"><span class="product-price">€804 </span></div>
   </div>
-</a><a href="/product/indesit-freestanding-fride-freezer-ib55732wuk/" class="product-card" data-brand="indesit" data-colour="" data-price="399.0" data-name="freestanding fride freezer - ib55732wuk">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/5917d20a686e1d.jpeg" alt="FREESTANDING FRIDE FREEZER - IB55732WUK" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-freestanding-fride-freezer-ib55732wuk/" class="product-card" data-brand="indesit" data-colour="" data-price="399.0" data-name="freestanding fride freezer - ib55732wuk">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/5917d20a686e1d.jpeg" alt="FREESTANDING FRIDE FREEZER - IB55732WUK" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">FREESTANDING FRIDE FREEZER - IB55732WUK</div>
     <div class="product-price-row"><span class="product-price">€399 </span></div>
   </div>
-</a><a href="/product/indesit-freestanding-fridge-freezer-ib55-732-b-uk/" class="product-card" data-brand="indesit" data-colour="" data-price="449.0" data-name="freestanding fridge freezer - ib55 732 b uk">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/bd1a30c248a12e.jpg" alt="Freestanding fridge freezer - IB55 732 B UK" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-freestanding-fridge-freezer-ib55-732-b-uk/" class="product-card" data-brand="indesit" data-colour="" data-price="449.0" data-name="freestanding fridge freezer - ib55 732 b uk">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/bd1a30c248a12e.jpg" alt="Freestanding fridge freezer - IB55 732 B UK" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">Freestanding fridge freezer - IB55 732 B UK</div>
     <div class="product-price-row"><span class="product-price">€449 </span></div>
   </div>
-</a><a href="/product/indesit-fridge-freezer-ib55532buk/" class="product-card" data-brand="indesit" data-colour="" data-price="429.0" data-name="fridge freezer ib55532buk">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-ib55532buk.jpg" alt="Fridge Freezer IB55532BUK" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-fridge-freezer-ib55532buk/" class="product-card" data-brand="indesit" data-colour="" data-price="429.0" data-name="fridge freezer ib55532buk">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-ib55532buk.jpg" alt="Fridge Freezer IB55532BUK" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">Fridge Freezer IB55532BUK</div>
     <div class="product-price-row"><span class="product-price">€429 </span></div>
   </div>
-</a><a href="/product/indesit-fridge-freezer-ib55532suk/" class="product-card" data-brand="indesit" data-colour="" data-price="429.0" data-name="fridge freezer ib55532suk">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-ib55532suk.jpg" alt="Fridge Freezer IB55532SUK" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-fridge-freezer-ib55532suk/" class="product-card" data-brand="indesit" data-colour="" data-price="429.0" data-name="fridge freezer ib55532suk">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-ib55532suk.jpg" alt="Fridge Freezer IB55532SUK" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">Fridge Freezer IB55532SUK</div>
     <div class="product-price-row"><span class="product-price">€429 </span></div>
   </div>
-</a><a href="/product/indesit-fridge-freezer-ib55532wuk/" class="product-card" data-brand="indesit" data-colour="" data-price="399.0" data-name="fridge freezer ib55532wuk">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-ib55532wuk.jpg" alt="Fridge Freezer IB55532WUK" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-fridge-freezer-ib55532wuk/" class="product-card" data-brand="indesit" data-colour="" data-price="399.0" data-name="fridge freezer ib55532wuk">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-ib55532wuk.jpg" alt="Fridge Freezer IB55532WUK" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">Fridge Freezer IB55532WUK</div>
     <div class="product-price-row"><span class="product-price">€399 </span></div>
   </div>
-</a><a href="/product/indesit-fridge-freezer-ink25322s4uks/" class="product-card" data-brand="indesit" data-colour="" data-price="499.0" data-name="fridge freezer ink25322s4uks">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-ink25322s4uks.jpg" alt="Fridge Freezer INK25322S4UKS" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-fridge-freezer-ink25322s4uks/" class="product-card" data-brand="indesit" data-colour="" data-price="499.0" data-name="fridge freezer ink25322s4uks">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-ink25322s4uks.jpg" alt="Fridge Freezer INK25322S4UKS" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">Fridge Freezer INK25322S4UKS</div>
     <div class="product-price-row"><span class="product-price">€499 </span></div>
   </div>
-</a><a href="/product/indesit-fridge-freezer-ink25322w4uks/" class="product-card" data-brand="indesit" data-colour="" data-price="499.0" data-name="fridge freezer ink25322w4uks">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-ink25322w4uks.jpg" alt="Fridge Freezer INK25322W4UKS" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-fridge-freezer-ink25322w4uks/" class="product-card" data-brand="indesit" data-colour="" data-price="499.0" data-name="fridge freezer ink25322w4uks">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-ink25322w4uks.jpg" alt="Fridge Freezer INK25322W4UKS" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">Fridge Freezer INK25322W4UKS</div>
     <div class="product-price-row"><span class="product-price">€499 </span></div>
   </div>
-</a><a href="/product/indesit-inkf8251-s4uk-no-frost-70-30-fridge-freezer-silver/" class="product-card" data-brand="indesit" data-colour="silver" data-price="449.0" data-name="inkf8251 s4uk no frost 70/30 fridge freezer - silver">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/31902104026777.avif" alt="INKF8251 S4UK No Frost 70/30 Fridge Freezer - Silver" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-inkf8251-s4uk-no-frost-70-30-fridge-freezer-silver/" class="product-card" data-brand="indesit" data-colour="silver" data-price="449.0" data-name="inkf8251 s4uk no frost 70/30 fridge freezer - silver">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/31902104026777.avif" alt="INKF8251 S4UK No Frost 70/30 Fridge Freezer - Silver" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">INKF8251 S4UK No Frost 70/30 Fridge Freezer - Silver</div>
     <div class="product-price-row"><span class="product-price">€449 </span></div>
   </div>
-</a><a href="/product/indesit-inkf8251-w4uk-no-frost-70-30-fridge-freezer-white/" class="product-card" data-brand="indesit" data-colour="white" data-price="449.0" data-name="inkf8251 w4uk no frost 70/30 fridge freezer - white">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/97ae2ffc61c882.avif" alt="INKF8251 W4UK No Frost 70/30 Fridge Freezer - White" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-inkf8251-w4uk-no-frost-70-30-fridge-freezer-white/" class="product-card" data-brand="indesit" data-colour="white" data-price="449.0" data-name="inkf8251 w4uk no frost 70/30 fridge freezer - white">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/97ae2ffc61c882.avif" alt="INKF8251 W4UK No Frost 70/30 Fridge Freezer - White" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">INKF8251 W4UK No Frost 70/30 Fridge Freezer - White</div>
     <div class="product-price-row"><span class="product-price">€449 </span></div>
   </div>
-</a><a href="/product/indesit-inks8261-s4uk-60-40-fridge-freezer-silver/" class="product-card" data-brand="indesit" data-colour="silver" data-price="399.0" data-name="inks8261 s4uk 60/40 fridge freezer - silver">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/f6f57b6e74f093.avif" alt="INKS8261 S4UK 60/40 Fridge Freezer - Silver" loading="lazy"></div></div>
+</a><a href="/EME/product/indesit-inks8261-s4uk-60-40-fridge-freezer-silver/" class="product-card" data-brand="indesit" data-colour="silver" data-price="399.0" data-name="inks8261 s4uk 60/40 fridge freezer - silver">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/f6f57b6e74f093.avif" alt="INKS8261 S4UK 60/40 Fridge Freezer - Silver" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Indesit</div>
     <div class="product-name">INKS8261 S4UK 60/40 Fridge Freezer - Silver</div>
     <div class="product-price-row"><span class="product-price">€399 </span></div>
   </div>
-</a><a href="/product/nordmende-fridge-freezer-rff266wh/" class="product-card" data-brand="nordmende" data-colour="" data-price="329.0" data-name="fridge freezer rff266wh">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-rff266wh.jpg" alt="Fridge Freezer RFF266WH" loading="lazy"></div></div>
+</a><a href="/EME/product/nordmende-fridge-freezer-rff266wh/" class="product-card" data-brand="nordmende" data-colour="" data-price="329.0" data-name="fridge freezer rff266wh">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-rff266wh.jpg" alt="Fridge Freezer RFF266WH" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Nordmende</div>
     <div class="product-name">Fridge Freezer RFF266WH</div>
     <div class="product-price-row"><span class="product-price">€329 </span></div>
   </div>
-</a><a href="/product/nordmende-fridge-freezer-rff317nfixl/" class="product-card" data-brand="nordmende" data-colour="" data-price="349.0" data-name="fridge freezer rff317nfixl">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-rff317nfixl.jpg" alt="Fridge Freezer RFF317NFIXL" loading="lazy"></div></div>
+</a><a href="/EME/product/nordmende-fridge-freezer-rff317nfixl/" class="product-card" data-brand="nordmende" data-colour="" data-price="349.0" data-name="fridge freezer rff317nfixl">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-rff317nfixl.jpg" alt="Fridge Freezer RFF317NFIXL" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Nordmende</div>
     <div class="product-name">Fridge Freezer RFF317NFIXL</div>
     <div class="product-price-row"><span class="product-price">€349 </span></div>
   </div>
-</a><a href="/product/nordmende-fridge-freezer-rff317nfwh/" class="product-card" data-brand="nordmende" data-colour="" data-price="499.0" data-name="fridge freezer rff317nfwh">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-rff317nfwh.jpg" alt="Fridge Freezer RFF317NFWH" loading="lazy"></div></div>
+</a><a href="/EME/product/nordmende-fridge-freezer-rff317nfwh/" class="product-card" data-brand="nordmende" data-colour="" data-price="499.0" data-name="fridge freezer rff317nfwh">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-rff317nfwh.jpg" alt="Fridge Freezer RFF317NFWH" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Nordmende</div>
     <div class="product-name">Fridge Freezer RFF317NFWH</div>
     <div class="product-price-row"><span class="product-price">€499 </span></div>
   </div>
-</a><a href="/product/nordmende-fridge-freezer-rff60405ixl/" class="product-card" data-brand="nordmende" data-colour="" data-price="549.0" data-name="fridge freezer rff60405ixl">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-rff60405ixl.jpg" alt="Fridge Freezer RFF60405IXL" loading="lazy"></div></div>
+</a><a href="/EME/product/nordmende-fridge-freezer-rff60405ixl/" class="product-card" data-brand="nordmende" data-colour="" data-price="549.0" data-name="fridge freezer rff60405ixl">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-rff60405ixl.jpg" alt="Fridge Freezer RFF60405IXL" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Nordmende</div>
     <div class="product-name">Fridge Freezer RFF60405IXL</div>
     <div class="product-price-row"><span class="product-price">€549 </span></div>
   </div>
-</a><a href="/product/nordmende-fridge-freezer-rff60405sl/" class="product-card" data-brand="nordmende" data-colour="" data-price="449.0" data-name="fridge freezer rff60405sl">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-rff60405sl.jpg" alt="Fridge Freezer RFF60405SL" loading="lazy"></div></div>
+</a><a href="/EME/product/nordmende-fridge-freezer-rff60405sl/" class="product-card" data-brand="nordmende" data-colour="" data-price="449.0" data-name="fridge freezer rff60405sl">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-rff60405sl.jpg" alt="Fridge Freezer RFF60405SL" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Nordmende</div>
     <div class="product-name">Fridge Freezer RFF60405SL</div>
     <div class="product-price-row"><span class="product-price">€449 </span></div>
   </div>
-</a><a href="/product/nordmende-rff266sl-55cm-freestanding-fridge-freezer-silver/" class="product-card" data-brand="nordmende" data-colour="silver" data-price="349.0" data-name="rff266sl 55cm freestanding fridge freezer silver">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/6b53e5df02378c.jpg" alt="RFF266SL 55cm Freestanding Fridge Freezer Silver" loading="lazy"></div></div>
+</a><a href="/EME/product/nordmende-rff266sl-55cm-freestanding-fridge-freezer-silver/" class="product-card" data-brand="nordmende" data-colour="silver" data-price="349.0" data-name="rff266sl 55cm freestanding fridge freezer silver">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/6b53e5df02378c.jpg" alt="RFF266SL 55cm Freestanding Fridge Freezer Silver" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Nordmende</div>
     <div class="product-name">RFF266SL 55cm Freestanding Fridge Freezer Silver</div>
     <div class="product-price-row"><span class="product-price">€349 </span></div>
   </div>
-</a><a href="/product/nordmende-rff60405bl-60-40-black-freestanding-fridge-freezer/" class="product-card" data-brand="nordmende" data-colour="black" data-price="449.0" data-name="rff60405bl 60 40 black freestanding fridge freezer">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/533f849c1c4e14.png" alt="RFF60405BL 60 40 Black Freestanding Fridge Freezer" loading="lazy"></div></div>
+</a><a href="/EME/product/nordmende-rff60405bl-60-40-black-freestanding-fridge-freezer/" class="product-card" data-brand="nordmende" data-colour="black" data-price="449.0" data-name="rff60405bl 60 40 black freestanding fridge freezer">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/533f849c1c4e14.png" alt="RFF60405BL 60 40 Black Freestanding Fridge Freezer" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Nordmende</div>
     <div class="product-name">RFF60405BL 60 40 Black Freestanding Fridge Freezer</div>
     <div class="product-price-row"><span class="product-price">€449 </span></div>
   </div>
-</a><a href="/product/powerpoint-fridge-freezer-p64864msfw/" class="product-card" data-brand="" data-colour="" data-price="279.0" data-name="powerpoint fridge freezer p64864msfw">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/94b9325a5db0b3.jpeg" alt="PowerPoint Fridge Freezer P64864MSFW" loading="lazy"></div></div>
+</a><a href="/EME/product/powerpoint-fridge-freezer-p64864msfw/" class="product-card" data-brand="" data-colour="" data-price="279.0" data-name="powerpoint fridge freezer p64864msfw">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/94b9325a5db0b3.jpeg" alt="PowerPoint Fridge Freezer P64864MSFW" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">PowerPoint Fridge Freezer P64864MSFW</div>
     <div class="product-price-row"><span class="product-price">€279 </span></div>
   </div>
-</a><a href="/product/powerpoint-fridge-freezer-p74250mlss-e/" class="product-card" data-brand="powerpoint" data-colour="" data-price="279.0" data-name="fridge freezer p74250mlss-e">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-p74250mlsse.jpg" alt="Fridge Freezer P74250MLSS-E" loading="lazy"></div></div>
+</a><a href="/EME/product/powerpoint-fridge-freezer-p74250mlss-e/" class="product-card" data-brand="powerpoint" data-colour="" data-price="279.0" data-name="fridge freezer p74250mlss-e">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-p74250mlsse.jpg" alt="Fridge Freezer P74250MLSS-E" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Powerpoint</div>
     <div class="product-name">Fridge Freezer P74250MLSS-E</div>
     <div class="product-price-row"><span class="product-price">€279 </span></div>
   </div>
-</a><a href="/product/powerpoint-fridge-freezer-p74250mlw/" class="product-card" data-brand="powerpoint" data-colour="" data-price="279.0" data-name="fridge freezer p74250mlw">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-p74250mlw.jpg" alt="Fridge Freezer P74250MLW" loading="lazy"></div></div>
+</a><a href="/EME/product/powerpoint-fridge-freezer-p74250mlw/" class="product-card" data-brand="powerpoint" data-colour="" data-price="279.0" data-name="fridge freezer p74250mlw">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-p74250mlw.jpg" alt="Fridge Freezer P74250MLW" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Powerpoint</div>
     <div class="product-name">Fridge Freezer P74250MLW</div>
     <div class="product-price-row"><span class="product-price">€279 </span></div>
   </div>
-</a><a href="/product/powerpoint-fridge-freezer-p74555skw/" class="product-card" data-brand="powerpoint" data-colour="" data-price="314.99" data-name="fridge freezer p74555skw">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-p74555skw.jpg" alt="Fridge Freezer P74555SKW" loading="lazy"></div></div>
+</a><a href="/EME/product/powerpoint-fridge-freezer-p74555skw/" class="product-card" data-brand="powerpoint" data-colour="" data-price="314.99" data-name="fridge freezer p74555skw">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-p74555skw.jpg" alt="Fridge Freezer P74555SKW" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Powerpoint</div>
     <div class="product-name">Fridge Freezer P74555SKW</div>
     <div class="product-price-row"><span class="product-price">€314.99 </span></div>
   </div>
-</a><a href="/product/powerpoint-fridge-freezer-p75562ml1w/" class="product-card" data-brand="powerpoint" data-colour="" data-price="299.0" data-name="fridge freezer p75562ml1w">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-p75562ml1w.jpg" alt="Fridge Freezer P75562ML1W" loading="lazy"></div></div>
+</a><a href="/EME/product/powerpoint-fridge-freezer-p75562ml1w/" class="product-card" data-brand="powerpoint" data-colour="" data-price="299.0" data-name="fridge freezer p75562ml1w">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-p75562ml1w.jpg" alt="Fridge Freezer P75562ML1W" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Powerpoint</div>
     <div class="product-name">Fridge Freezer P75562ML1W</div>
     <div class="product-price-row"><span class="product-price">€299 </span></div>
   </div>
-</a><a href="/product/powerpoint-fridge-freezer-p75562mlin-e/" class="product-card" data-brand="powerpoint" data-colour="" data-price="339.0" data-name="fridge freezer p75562mlin-e">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-p75562mline.jpg" alt="Fridge Freezer P75562MLIN-E" loading="lazy"></div></div>
+</a><a href="/EME/product/powerpoint-fridge-freezer-p75562mlin-e/" class="product-card" data-brand="powerpoint" data-colour="" data-price="339.0" data-name="fridge freezer p75562mlin-e">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-p75562mline.jpg" alt="Fridge Freezer P75562MLIN-E" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Powerpoint</div>
     <div class="product-name">Fridge Freezer P75562MLIN-E</div>
     <div class="product-price-row"><span class="product-price">€339 </span></div>
   </div>
-</a><a href="/product/powerpoint-fridge-freezer-p9383kss/" class="product-card" data-brand="powerpoint" data-colour="" data-price="699.0" data-name="fridge freezer p9383kss">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-p9383kss.jpg" alt="Fridge Freezer P9383KSS" loading="lazy"></div></div>
+</a><a href="/EME/product/powerpoint-fridge-freezer-p9383kss/" class="product-card" data-brand="powerpoint" data-colour="" data-price="699.0" data-name="fridge freezer p9383kss">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-p9383kss.jpg" alt="Fridge Freezer P9383KSS" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Powerpoint</div>
     <div class="product-name">Fridge Freezer P9383KSS</div>
     <div class="product-price-row"><span class="product-price">€699 </span></div>
   </div>
-</a><a href="/product/powerpoint-fridge-freezer-p9383wdkbl/" class="product-card" data-brand="powerpoint" data-colour="" data-price="699.0" data-name="fridge freezer p9383wdkbl">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-p9383wdkbl.jpg" alt="Fridge Freezer P9383WDKBL" loading="lazy"></div></div>
+</a><a href="/EME/product/powerpoint-fridge-freezer-p9383wdkbl/" class="product-card" data-brand="powerpoint" data-colour="" data-price="699.0" data-name="fridge freezer p9383wdkbl">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-p9383wdkbl.jpg" alt="Fridge Freezer P9383WDKBL" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Powerpoint</div>
     <div class="product-name">Fridge Freezer P9383WDKBL</div>
     <div class="product-price-row"><span class="product-price">€699 </span></div>
   </div>
-</a><a href="/product/samsung-fridge-freezer-rs70f64kefeu/" class="product-card" data-brand="samsung" data-colour="" data-price="1764.0" data-name="fridge freezer rs70f64kefeu">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-rs70f64kefeu.jpg" alt="Fridge Freezer RS70F64KEFEU" loading="lazy"></div></div>
+</a><a href="/EME/product/samsung-fridge-freezer-rs70f64kefeu/" class="product-card" data-brand="samsung" data-colour="" data-price="1764.0" data-name="fridge freezer rs70f64kefeu">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-rs70f64kefeu.jpg" alt="Fridge Freezer RS70F64KEFEU" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Samsung</div>
     <div class="product-name">Fridge Freezer RS70F64KEFEU</div>
     <div class="product-price-row"><span class="product-price">€1,764 </span></div>
   </div>
-</a><a href="/product/samsung-fridge-freezer-rs70f64keteu/" class="product-card" data-brand="samsung" data-colour="" data-price="1754.0" data-name="fridge freezer rs70f64keteu">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-rs70f64keteu.jpg" alt="Fridge Freezer RS70F64KETEU" loading="lazy"></div></div>
+</a><a href="/EME/product/samsung-fridge-freezer-rs70f64keteu/" class="product-card" data-brand="samsung" data-colour="" data-price="1754.0" data-name="fridge freezer rs70f64keteu">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-rs70f64keteu.jpg" alt="Fridge Freezer RS70F64KETEU" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Samsung</div>
     <div class="product-name">Fridge Freezer RS70F64KETEU</div>
     <div class="product-price-row"><span class="product-price">€1,754 </span></div>
   </div>
-</a><a href="/product/samsung-fridge-freezer-rs70f65keteu/" class="product-card" data-brand="samsung" data-colour="" data-price="1499.0" data-name="fridge freezer rs70f65keteu">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/fridge-rs70f65keteu.jpg" alt="Fridge Freezer RS70F65KETEU" loading="lazy"></div></div>
+</a><a href="/EME/product/samsung-fridge-freezer-rs70f65keteu/" class="product-card" data-brand="samsung" data-colour="" data-price="1499.0" data-name="fridge freezer rs70f65keteu">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/fridge-rs70f65keteu.jpg" alt="Fridge Freezer RS70F65KETEU" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Samsung</div>
     <div class="product-name">Fridge Freezer RS70F65KETEU</div>
@@ -363,21 +364,21 @@
   </div>
 </a></div>
 </div>
-<script src="/assets/filters.js?v=c942cbb1" defer></script>
+<script src="/EME/assets/filters.js?v=bb907590" defer></script>
 <footer>
   <div class="footer-top">
     <div class="footer-brand">
-      <a href="/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
+      <a href="/EME/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
       <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
     </div>
-    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/category/home-appliances/">Home Appliances</a></li><li><a href="/category/small-appliances/">Small Appliances</a></li><li><a href="/category/telephones/">Telephones</a></li><li><a href="/category/record-players/">Record Players</a></li><li><a href="/category/dining/">Dining</a></li><li><a href="/category/bedroom-furniture/">Bedroom Furniture</a></li><li><a href="/category/">All categories</a></li></ul></div>
+    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances/">Home Appliances</a></li><li><a href="/EME/category/small-appliances/">Small Appliances</a></li><li><a href="/EME/category/telephones/">Telephones</a></li><li><a href="/EME/category/record-players/">Record Players</a></li><li><a href="/EME/category/dining/">Dining</a></li><li><a href="/EME/category/bedroom-furniture/">Bedroom Furniture</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
     <div class="footer-col"><h4>Company</h4><ul>
-      <li><a href="/about-us/">About Us</a></li>
-      <li><a href="/contact-us/">Contact</a></li>
-      <li><a href="/delivery-returns/">Delivery</a></li>
-      <li><a href="/returns-replacements/">Returns</a></li>
-      <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
-      <li><a href="/privacy-policy/">Privacy Policy</a></li>
+      <li><a href="/EME/about-us/">About Us</a></li>
+      <li><a href="/EME/contact-us/">Contact</a></li>
+      <li><a href="/EME/delivery-returns/">Delivery</a></li>
+      <li><a href="/EME/returns-replacements/">Returns</a></li>
+      <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
+      <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
     </ul></div>
     <div class="footer-col"><h4>Visit Us</h4><ul>
       <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>

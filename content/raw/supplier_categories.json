@@ -12,5 +12,12 @@
     "slug": "baby-monitors",
     "parent": 0,
     "count": 0
+  },
+  {
+    "id": 990003,
+    "name": "Larder Fridges",
+    "slug": "larder-fridges",
+    "parent": 700,
+    "count": 0
   }
 ]

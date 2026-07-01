@@ -143,7 +143,7 @@
     inset: 0;
     background:
       linear-gradient(to right, rgba(26,18,16,0.97) 35%, rgba(26,18,16,0.5) 70%, rgba(26,18,16,0.2) 100%),
-      url('/assets/hero.jpg') center/cover no-repeat;
+      url('hero.jpg') center/cover no-repeat;
   }
 
   .hero-bg::after {
@@ -976,3 +976,67 @@
 }
 .poa { font-family: var(--font-body); font-size: 13px; font-weight: 400; color: var(--orange); }
 .poa-now { font-size: 22px !important; color: var(--orange) !important; }
+
+/* ── MOBILE MENU (hamburger opens the nav) ── */
+@media (max-width: 900px) {
+  nav {
+    display: none;
+    position: absolute;
+    top: 72px; left: 0; right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: var(--dark-2);
+    padding: 8px 24px 20px;
+    border-bottom: 1px solid rgba(232,114,12,0.22);
+    box-shadow: 0 24px 44px rgba(0,0,0,0.45);
+  }
+  header.menu-open nav { display: flex; }
+  nav a {
+    opacity: 1;
+    font-size: 16px;
+    padding: 15px 2px;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+  }
+  nav a:last-child { border-bottom: none; }
+  nav .nav-cta {
+    justify-content: center;
+    margin-top: 16px;
+    padding: 15px 20px;
+    border-radius: 4px;
+  }
+  header.menu-open .hamburger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  header.menu-open .hamburger span:nth-child(2) { opacity: 0; }
+  header.menu-open .hamburger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+}
+
+/* ── FILTER DROPDOWNS (menu-style) ── */
+.filters { align-items: center; }
+.fdrop { position: relative; }
+.fdrop-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--dark-3); border: 1px solid rgba(232,114,12,0.22); color: var(--text);
+  border-radius: 6px; padding: 9px 14px; font-size: 13px; cursor: pointer;
+  font-family: var(--font-body); white-space: nowrap; transition: border-color .15s;
+}
+.fdrop-btn:hover, .fdrop.open .fdrop-btn { border-color: var(--orange); }
+.fdrop .caret { font-size: 10px; color: var(--muted); transition: transform .2s; }
+.fdrop.open .caret { transform: rotate(180deg); }
+.fdrop-n { color: var(--orange); font-weight: 600; }
+.fdrop-panel {
+  display: none; position: absolute; top: calc(100% + 8px); left: 0; z-index: 30;
+  background: var(--dark-2); border: 1px solid rgba(232,114,12,0.28); border-radius: 8px;
+  padding: 14px; box-shadow: 0 18px 44px rgba(0,0,0,0.5); min-width: 220px;
+}
+.fdrop.open .fdrop-panel { display: block; }
+.fdrop-panel .brand-chips { max-height: 260px; overflow-y: auto; margin: 0; }
+.fdrop.open .price-panel { display: flex; align-items: center; gap: 10px; }
+.fsort-inline {
+  background: var(--dark-3); border: 1px solid rgba(232,114,12,0.22); color: var(--text);
+  border-radius: 6px; padding: 9px 12px; font-size: 13px; cursor: pointer; font-family: var(--font-body);
+}
+.fsort-inline:focus { outline: none; border-color: var(--orange); }
+@media (max-width: 900px) {
+  .fdrop-panel { min-width: 200px; }
+  .fdrop-panel.price-panel, .filters .fdrop:nth-last-child(3) .fdrop-panel { left: 0; }
+}

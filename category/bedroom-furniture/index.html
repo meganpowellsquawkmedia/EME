@@ -6,202 +6,203 @@
 <title>Bedroom Furniture | Eddie Maguire</title>
 <meta name="description" content="Browse Bedroom Furniture at Eddie Maguire, Dundalk. 25 products. Buy in store.">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v=763edebf">
+<link rel="stylesheet" href="/EME/assets/site.css?v=d585b94c">
 </head>
 <body><header>
-  <a href="/" class="logo">
+  <a href="/EME/" class="logo">
     <div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div>
   </a>
   <nav>
-    <a href="/category/">Shop</a>
-    <a href="/about-us/">About</a>
-    <a href="/contact-us/">Contact</a>
+    <a href="/EME/category/">Shop</a>
+    <a href="/EME/about-us/">About</a>
+    <a href="/EME/contact-us/">Contact</a>
     <a href="https://wa.me/353899776472" class="nav-cta"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
   </nav>
-  <div class="hamburger" onclick="this.classList.toggle('open')"><span></span><span></span><span></span></div>
+  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
 </header>
 <div class="page-body">
-<div class="crumbs"><a href="/">Home</a><span class="sep">/</span><a href="/category/">Shop</a><span class="sep">/</span><span class="current">Bedroom Furniture</span></div>
+<div class="crumbs"><a href="/EME/">Home</a><span class="sep">/</span><a href="/EME/category/">Shop</a><span class="sep">/</span><span class="current">Bedroom Furniture</span></div>
 <div class="page-head"><h1>Bedroom Furniture</h1><div class="count">25 products</div></div>
-<div style="display:flex;flex-wrap:wrap;gap:14px;padding:8px 48px 0"><a href="/category/bedroom-furniture-bunk-beds/" class="btn-secondary" style="font-size:13px">Bunk Beds</a><a href="/category/bedroom-furniture-kids-beds/" class="btn-secondary" style="font-size:13px">Kids Beds</a><a href="/category/bedroom-furniture-king-beds/" class="btn-secondary" style="font-size:13px">King beds</a></div>
+<div style="display:flex;flex-wrap:wrap;gap:14px;padding:8px 48px 0"><a href="/EME/category/bedroom-furniture-bunk-beds/" class="btn-secondary" style="font-size:13px">Bunk Beds</a><a href="/EME/category/bedroom-furniture-kids-beds/" class="btn-secondary" style="font-size:13px">Kids Beds</a><a href="/EME/category/bedroom-furniture-king-beds/" class="btn-secondary" style="font-size:13px">King beds</a></div>
 <div class="filters">
   
-  <div class="f-group"><span class="f-label">Colour</span><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="white">White</button></div></div>
-  <div class="f-group"><span class="f-label">Price €</span><input type="number" class="f-price" id="fmin" placeholder="149" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="1400" min="0"></div>
-  <div class="f-group"><span class="f-label">Sort</span><select id="fsort"><option value="">Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Colour<span class="fdrop-n" data-count="c"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="white">White</button></div></div></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
+    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="149" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="1400" min="0"></div></div>
+  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
   <button type="button" id="fclear" class="f-clear">Clear</button>
   <span class="f-count" id="fcount"></span>
 </div>
-<div class="product-grid" id="grid"><a href="/product/tam-tam-bunk-bed-in-acacia-2/" class="product-card" data-brand="" data-colour="" data-price="499.0" data-name="alex storage bunk">
-  <div class="product-thumb-wrap"><span class="sale-badge">Sale</span><div class="product-thumb"><img src="/assets/img/eb74190e807501.jpg" alt="Alex Storage Bunk" loading="lazy"></div></div>
+<div class="product-grid" id="grid"><a href="/EME/product/tam-tam-bunk-bed-in-acacia-2/" class="product-card" data-brand="" data-colour="" data-price="499.0" data-name="alex storage bunk">
+  <div class="product-thumb-wrap"><span class="sale-badge">Sale</span><div class="product-thumb"><img src="/EME/assets/img/eb74190e807501.jpg" alt="Alex Storage Bunk" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Alex Storage Bunk</div>
     <div class="product-price-row"><span class="product-price">€499 <span class="was">€799</span></span></div>
   </div>
-</a><a href="/product/bibop-bunk-bed-in-light-acacia-2/" class="product-card" data-brand="" data-colour="" data-price="922.0" data-name="bibop bunk bed in light acacia">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/cc1fc4995f7ca2.jpg" alt="Bibop Bunk Bed in Light Acacia" loading="lazy"></div></div>
+</a><a href="/EME/product/bibop-bunk-bed-in-light-acacia-2/" class="product-card" data-brand="" data-colour="" data-price="922.0" data-name="bibop bunk bed in light acacia">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/cc1fc4995f7ca2.jpg" alt="Bibop Bunk Bed in Light Acacia" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Bibop Bunk Bed in Light Acacia</div>
     <div class="product-price-row"><span class="product-price">€922 </span></div>
   </div>
-</a><a href="/product/gallo-2-drawer-lamp-table/" class="product-card" data-brand="" data-colour="" data-price="470.0" data-name="gallo 2 drawer lamp table">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/e3b1ae735a07ef.jpg" alt="Gallo 2 Drawer Lamp Table" loading="lazy"></div></div>
+</a><a href="/EME/product/gallo-2-drawer-lamp-table/" class="product-card" data-brand="" data-colour="" data-price="470.0" data-name="gallo 2 drawer lamp table">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/e3b1ae735a07ef.jpg" alt="Gallo 2 Drawer Lamp Table" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Gallo 2 Drawer Lamp Table</div>
     <div class="product-price-row"><span class="product-price">€470 </span></div>
   </div>
-</a><a href="/product/kurt-midsleeper-in-acacia-2/" class="product-card" data-brand="" data-colour="" data-price="738.0" data-name="kurt midsleeper in acacia">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/7838b2f5eec496.jpg" alt="KURT Midsleeper in Acacia" loading="lazy"></div></div>
+</a><a href="/EME/product/kurt-midsleeper-in-acacia-2/" class="product-card" data-brand="" data-colour="" data-price="738.0" data-name="kurt midsleeper in acacia">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/7838b2f5eec496.jpg" alt="KURT Midsleeper in Acacia" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">KURT Midsleeper in Acacia</div>
     <div class="product-price-row"><span class="product-price">€738 </span></div>
   </div>
-</a><a href="/product/kurt-midsleeper-in-acacia/" class="product-card" data-brand="" data-colour="" data-price="738.0" data-name="kurt midsleeper in acacia">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/f2272cb991058b.jpg" alt="KURT Midsleeper in Acacia" loading="lazy"></div></div>
+</a><a href="/EME/product/kurt-midsleeper-in-acacia/" class="product-card" data-brand="" data-colour="" data-price="738.0" data-name="kurt midsleeper in acacia">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/f2272cb991058b.jpg" alt="KURT Midsleeper in Acacia" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">KURT Midsleeper in Acacia</div>
     <div class="product-price-row"><span class="product-price">€738 </span></div>
   </div>
-</a><a href="/product/lucy-beauty-bar-white/" class="product-card" data-brand="" data-colour="white" data-price="149.0" data-name="lucy beauty bar white">
-  <div class="product-thumb-wrap"><span class="sale-badge">Sale</span><div class="product-thumb"><img src="/assets/img/10cb390c0bd3fb.jpg" alt="Lucy Beauty Bar White" loading="lazy"></div></div>
+</a><a href="/EME/product/lucy-beauty-bar-white/" class="product-card" data-brand="" data-colour="white" data-price="149.0" data-name="lucy beauty bar white">
+  <div class="product-thumb-wrap"><span class="sale-badge">Sale</span><div class="product-thumb"><img src="/EME/assets/img/10cb390c0bd3fb.jpg" alt="Lucy Beauty Bar White" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Lucy Beauty Bar White</div>
     <div class="product-price-row"><span class="product-price">€149 <span class="was">€169</span></span></div>
   </div>
-</a><a href="/product/parisot-corner-beauty-bar-white-2/" class="product-card" data-brand="" data-colour="white" data-price="349.0" data-name="parisot corner beauty bar - white">
-  <div class="product-thumb-wrap"><span class="sale-badge">Sale</span><div class="product-thumb"><img src="/assets/img/f87cd1301761fd.jpg" alt="Parisot Corner Beauty Bar - White" loading="lazy"></div></div>
+</a><a href="/EME/product/parisot-corner-beauty-bar-white-2/" class="product-card" data-brand="" data-colour="white" data-price="349.0" data-name="parisot corner beauty bar - white">
+  <div class="product-thumb-wrap"><span class="sale-badge">Sale</span><div class="product-thumb"><img src="/EME/assets/img/f87cd1301761fd.jpg" alt="Parisot Corner Beauty Bar - White" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Parisot Corner Beauty Bar - White</div>
     <div class="product-price-row"><span class="product-price">€349 <span class="was">€399</span></span></div>
   </div>
-</a><a href="/product/parisot-corner-beauty-bar-black-and-white/" class="product-card" data-brand="" data-colour="black" data-price="349.0" data-name="parisot corner beauty bar black and white">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/126a13290c12ed.jpg" alt="Parisot Corner Beauty Bar Black and White" loading="lazy"></div></div>
+</a><a href="/EME/product/parisot-corner-beauty-bar-black-and-white/" class="product-card" data-brand="" data-colour="black" data-price="349.0" data-name="parisot corner beauty bar black and white">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/126a13290c12ed.jpg" alt="Parisot Corner Beauty Bar Black and White" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Parisot Corner Beauty Bar Black and White</div>
     <div class="product-price-row"><span class="product-price">€349 </span></div>
   </div>
-</a><a href="/product/salisbury-2-over-3-chest-of-drawers-2/" class="product-card" data-brand="" data-colour="" data-price="589.0" data-name="salisbury 2 over 3 chest of drawers">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/5ef11dc8808769.jpg" alt="Salisbury 2 Over 3 Chest Of Drawers" loading="lazy"></div></div>
+</a><a href="/EME/product/salisbury-2-over-3-chest-of-drawers-2/" class="product-card" data-brand="" data-colour="" data-price="589.0" data-name="salisbury 2 over 3 chest of drawers">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/5ef11dc8808769.jpg" alt="Salisbury 2 Over 3 Chest Of Drawers" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Salisbury 2 Over 3 Chest Of Drawers</div>
     <div class="product-price-row"><span class="product-price">€589 </span></div>
   </div>
-</a><a href="/product/salisbury-3-drawer-chest-2/" class="product-card" data-brand="" data-colour="" data-price="379.0" data-name="salisbury 3 drawer chest">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/a2ecb3291c312c.jpg" alt="Salisbury 3 Drawer Chest" loading="lazy"></div></div>
+</a><a href="/EME/product/salisbury-3-drawer-chest-2/" class="product-card" data-brand="" data-colour="" data-price="379.0" data-name="salisbury 3 drawer chest">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/a2ecb3291c312c.jpg" alt="Salisbury 3 Drawer Chest" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Salisbury 3 Drawer Chest</div>
     <div class="product-price-row"><span class="product-price">€379 </span></div>
   </div>
-</a><a href="/product/salisbury-3-over-4-chest-of-drawers-2/" class="product-card" data-brand="" data-colour="" data-price="679.0" data-name="salisbury 3 over 4 chest of drawers">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/bd7861482e6d28.jpg" alt="Salisbury 3 Over 4 Chest Of Drawers" loading="lazy"></div></div>
+</a><a href="/EME/product/salisbury-3-over-4-chest-of-drawers-2/" class="product-card" data-brand="" data-colour="" data-price="679.0" data-name="salisbury 3 over 4 chest of drawers">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/bd7861482e6d28.jpg" alt="Salisbury 3 Over 4 Chest Of Drawers" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Salisbury 3 Over 4 Chest Of Drawers</div>
     <div class="product-price-row"><span class="product-price">€679 </span></div>
   </div>
-</a><a href="/product/salisbury-5-drawer-chest-2/" class="product-card" data-brand="" data-colour="" data-price="549.0" data-name="salisbury 5 drawer chest">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/0322845965a2e9.jpg" alt="Salisbury 5 Drawer Chest" loading="lazy"></div></div>
+</a><a href="/EME/product/salisbury-5-drawer-chest-2/" class="product-card" data-brand="" data-colour="" data-price="549.0" data-name="salisbury 5 drawer chest">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/0322845965a2e9.jpg" alt="Salisbury 5 Drawer Chest" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Salisbury 5 Drawer Chest</div>
     <div class="product-price-row"><span class="product-price">€549 </span></div>
   </div>
-</a><a href="/product/salisbury-6-drawer-chest-2/" class="product-card" data-brand="" data-colour="" data-price="549.0" data-name="salisbury 6 drawer chest">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/f67c66496f0349.jpg" alt="Salisbury 6 Drawer Chest" loading="lazy"></div></div>
+</a><a href="/EME/product/salisbury-6-drawer-chest-2/" class="product-card" data-brand="" data-colour="" data-price="549.0" data-name="salisbury 6 drawer chest">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/f67c66496f0349.jpg" alt="Salisbury 6 Drawer Chest" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Salisbury 6 Drawer Chest</div>
     <div class="product-price-row"><span class="product-price">€549 </span></div>
   </div>
-</a><a href="/product/salisbury-chest-of-drawers-2-over-2-2/" class="product-card" data-brand="" data-colour="" data-price="499.0" data-name="salisbury chest of drawers 2 over 2">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/7f0706955fb550.jpg" alt="Salisbury Chest Of Drawers 2 Over 2" loading="lazy"></div></div>
+</a><a href="/EME/product/salisbury-chest-of-drawers-2-over-2-2/" class="product-card" data-brand="" data-colour="" data-price="499.0" data-name="salisbury chest of drawers 2 over 2">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/7f0706955fb550.jpg" alt="Salisbury Chest Of Drawers 2 Over 2" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Salisbury Chest Of Drawers 2 Over 2</div>
     <div class="product-price-row"><span class="product-price">€499 </span></div>
   </div>
-</a><a href="/product/salisbury-chest-of-drawers-2-over-4-2/" class="product-card" data-brand="" data-colour="" data-price="729.0" data-name="salisbury chest of drawers 2 over 4">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/86d8c420a1b59b.jpg" alt="Salisbury Chest Of Drawers 2 Over 4" loading="lazy"></div></div>
+</a><a href="/EME/product/salisbury-chest-of-drawers-2-over-4-2/" class="product-card" data-brand="" data-colour="" data-price="729.0" data-name="salisbury chest of drawers 2 over 4">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/86d8c420a1b59b.jpg" alt="Salisbury Chest Of Drawers 2 Over 4" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Salisbury Chest Of Drawers 2 Over 4</div>
     <div class="product-price-row"><span class="product-price">€729 </span></div>
   </div>
-</a><a href="/product/salisbury-gent-3-drawer-wardrobe-2/" class="product-card" data-brand="" data-colour="" data-price="1149.0" data-name="salisbury gent 3 drawer wardrobe">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/d2d0b984aeef83.jpg" alt="Salisbury Gent 3 Drawer Wardrobe" loading="lazy"></div></div>
+</a><a href="/EME/product/salisbury-gent-3-drawer-wardrobe-2/" class="product-card" data-brand="" data-colour="" data-price="1149.0" data-name="salisbury gent 3 drawer wardrobe">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/d2d0b984aeef83.jpg" alt="Salisbury Gent 3 Drawer Wardrobe" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Salisbury Gent 3 Drawer Wardrobe</div>
     <div class="product-price-row"><span class="product-price">€1,149 </span></div>
   </div>
-</a><a href="/product/salisbury-wide-dressing-table-2/" class="product-card" data-brand="" data-colour="" data-price="399.0" data-name="salisbury wide dressing table">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/22f94a8b045b43.jpg" alt="Salisbury Wide Dressing Table" loading="lazy"></div></div>
+</a><a href="/EME/product/salisbury-wide-dressing-table-2/" class="product-card" data-brand="" data-colour="" data-price="399.0" data-name="salisbury wide dressing table">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/22f94a8b045b43.jpg" alt="Salisbury Wide Dressing Table" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Salisbury Wide Dressing Table</div>
     <div class="product-price-row"><span class="product-price">€399 </span></div>
   </div>
-</a><a href="/product/sarah-day-bed-white/" class="product-card" data-brand="" data-colour="white" data-price="399.0" data-name="sarah day bed white">
-  <div class="product-thumb-wrap"><span class="sale-badge">Sale</span><div class="product-thumb"><img src="/assets/img/5e5e0aacce5068.jpg" alt="Sarah Day Bed White" loading="lazy"></div></div>
+</a><a href="/EME/product/sarah-day-bed-white/" class="product-card" data-brand="" data-colour="white" data-price="399.0" data-name="sarah day bed white">
+  <div class="product-thumb-wrap"><span class="sale-badge">Sale</span><div class="product-thumb"><img src="/EME/assets/img/5e5e0aacce5068.jpg" alt="Sarah Day Bed White" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Sarah Day Bed White</div>
     <div class="product-price-row"><span class="product-price">€399 <span class="was">€599</span></span></div>
   </div>
-</a><a href="/product/smoozy-highsleeper-2/" class="product-card" data-brand="" data-colour="" data-price="583.0" data-name="smoozy highsleeper">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/4cd6e3a2fa4e2c.jpg" alt="Smoozy Highsleeper" loading="lazy"></div></div>
+</a><a href="/EME/product/smoozy-highsleeper-2/" class="product-card" data-brand="" data-colour="" data-price="583.0" data-name="smoozy highsleeper">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/4cd6e3a2fa4e2c.jpg" alt="Smoozy Highsleeper" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Smoozy Highsleeper</div>
     <div class="product-price-row"><span class="product-price">€583 </span></div>
   </div>
-</a><a href="/product/sofia-3-drawer-chest/" class="product-card" data-brand="" data-colour="" data-price="929.0" data-name="sofia 3 drawer chest">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/79640e105a8c87.jpg" alt="Sofia 3 Drawer Chest" loading="lazy"></div></div>
+</a><a href="/EME/product/sofia-3-drawer-chest/" class="product-card" data-brand="" data-colour="" data-price="929.0" data-name="sofia 3 drawer chest">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/79640e105a8c87.jpg" alt="Sofia 3 Drawer Chest" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Sofia 3 Drawer Chest</div>
     <div class="product-price-row"><span class="product-price">€929 </span></div>
   </div>
-</a><a href="/product/sofia-dressing-table-stool/" class="product-card" data-brand="" data-colour="" data-price="209.0" data-name="sofia dressing table stool">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/feb9156d0e1c20.jpg" alt="Sofia Dressing Table Stool" loading="lazy"></div></div>
+</a><a href="/EME/product/sofia-dressing-table-stool/" class="product-card" data-brand="" data-colour="" data-price="209.0" data-name="sofia dressing table stool">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/feb9156d0e1c20.jpg" alt="Sofia Dressing Table Stool" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Sofia Dressing Table Stool</div>
     <div class="product-price-row"><span class="product-price">€209 </span></div>
   </div>
-</a><a href="/product/sofia-king-bed-black/" class="product-card" data-brand="" data-colour="black" data-price="1399.0" data-name="sofia king bed black">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/28ee942ea082c9.jpg" alt="Sofia King Bed Black" loading="lazy"></div></div>
+</a><a href="/EME/product/sofia-king-bed-black/" class="product-card" data-brand="" data-colour="black" data-price="1399.0" data-name="sofia king bed black">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/28ee942ea082c9.jpg" alt="Sofia King Bed Black" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Sofia King Bed Black</div>
     <div class="product-price-row"><span class="product-price">€1,399 </span></div>
   </div>
-</a><a href="/product/sofia-king-bed-cream/" class="product-card" data-brand="" data-colour="" data-price="1399.0" data-name="sofia king bed cream">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/ff4fb167910f76.jpg" alt="Sofia King Bed Cream" loading="lazy"></div></div>
+</a><a href="/EME/product/sofia-king-bed-cream/" class="product-card" data-brand="" data-colour="" data-price="1399.0" data-name="sofia king bed cream">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/ff4fb167910f76.jpg" alt="Sofia King Bed Cream" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Sofia King Bed Cream</div>
     <div class="product-price-row"><span class="product-price">€1,399 </span></div>
   </div>
-</a><a href="/product/swan-midsleeper-in-white/" class="product-card" data-brand="" data-colour="white" data-price="738.0" data-name="swan midsleeper in white">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/6e1f6cad097d87.jpg" alt="Swan Midsleeper in White" loading="lazy"></div></div>
+</a><a href="/EME/product/swan-midsleeper-in-white/" class="product-card" data-brand="" data-colour="white" data-price="738.0" data-name="swan midsleeper in white">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/6e1f6cad097d87.jpg" alt="Swan Midsleeper in White" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Swan Midsleeper in White</div>
     <div class="product-price-row"><span class="product-price">€738 </span></div>
   </div>
-</a><a href="/product/tam-tam-bunk-bed-white-with-2-free-mattress/" class="product-card" data-brand="" data-colour="white" data-price="670.0" data-name="tam tam bunk bed white with 2 mattress">
-  <div class="product-thumb-wrap"><span class="sale-badge">Sale</span><div class="product-thumb"><img src="/assets/img/3b4dd504bd43ac.jpg" alt="Tam Tam Bunk Bed White With 2 Mattress" loading="lazy"></div></div>
+</a><a href="/EME/product/tam-tam-bunk-bed-white-with-2-free-mattress/" class="product-card" data-brand="" data-colour="white" data-price="670.0" data-name="tam tam bunk bed white with 2 mattress">
+  <div class="product-thumb-wrap"><span class="sale-badge">Sale</span><div class="product-thumb"><img src="/EME/assets/img/3b4dd504bd43ac.jpg" alt="Tam Tam Bunk Bed White With 2 Mattress" loading="lazy"></div></div>
   <div class="product-info">
     
     <div class="product-name">Tam Tam Bunk Bed White With 2 Mattress</div>
@@ -209,21 +210,21 @@
   </div>
 </a></div>
 </div>
-<script src="/assets/filters.js?v=c942cbb1" defer></script>
+<script src="/EME/assets/filters.js?v=bb907590" defer></script>
 <footer>
   <div class="footer-top">
     <div class="footer-brand">
-      <a href="/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
+      <a href="/EME/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
       <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
     </div>
-    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/category/home-appliances/">Home Appliances</a></li><li><a href="/category/small-appliances/">Small Appliances</a></li><li><a href="/category/telephones/">Telephones</a></li><li><a href="/category/record-players/">Record Players</a></li><li><a href="/category/dining/">Dining</a></li><li><a href="/category/bedroom-furniture/">Bedroom Furniture</a></li><li><a href="/category/">All categories</a></li></ul></div>
+    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances/">Home Appliances</a></li><li><a href="/EME/category/small-appliances/">Small Appliances</a></li><li><a href="/EME/category/telephones/">Telephones</a></li><li><a href="/EME/category/record-players/">Record Players</a></li><li><a href="/EME/category/dining/">Dining</a></li><li><a href="/EME/category/bedroom-furniture/">Bedroom Furniture</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
     <div class="footer-col"><h4>Company</h4><ul>
-      <li><a href="/about-us/">About Us</a></li>
-      <li><a href="/contact-us/">Contact</a></li>
-      <li><a href="/delivery-returns/">Delivery</a></li>
-      <li><a href="/returns-replacements/">Returns</a></li>
-      <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
-      <li><a href="/privacy-policy/">Privacy Policy</a></li>
+      <li><a href="/EME/about-us/">About Us</a></li>
+      <li><a href="/EME/contact-us/">Contact</a></li>
+      <li><a href="/EME/delivery-returns/">Delivery</a></li>
+      <li><a href="/EME/returns-replacements/">Returns</a></li>
+      <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
+      <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
     </ul></div>
     <div class="footer-col"><h4>Visit Us</h4><ul>
       <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>

@@ -6,146 +6,147 @@
 <title>Cookware | Eddie Maguire</title>
 <meta name="description" content="Browse Cookware at Eddie Maguire, Dundalk. 17 products. Buy in store.">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v=763edebf">
+<link rel="stylesheet" href="/EME/assets/site.css?v=d585b94c">
 </head>
 <body><header>
-  <a href="/" class="logo">
+  <a href="/EME/" class="logo">
     <div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div>
   </a>
   <nav>
-    <a href="/category/">Shop</a>
-    <a href="/about-us/">About</a>
-    <a href="/contact-us/">Contact</a>
+    <a href="/EME/category/">Shop</a>
+    <a href="/EME/about-us/">About</a>
+    <a href="/EME/contact-us/">Contact</a>
     <a href="https://wa.me/353899776472" class="nav-cta"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
   </nav>
-  <div class="hamburger" onclick="this.classList.toggle('open')"><span></span><span></span><span></span></div>
+  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
 </header>
 <div class="page-body">
-<div class="crumbs"><a href="/">Home</a><span class="sep">/</span><a href="/category/">Shop</a><span class="sep">/</span><a href="/category/home-appliances/">Home Appliances</a><span class="sep">/</span><a href="/category/home-appliances-cooking/">Cooking</a><span class="sep">/</span><span class="current">Cookware</span></div>
+<div class="crumbs"><a href="/EME/">Home</a><span class="sep">/</span><a href="/EME/category/">Shop</a><span class="sep">/</span><a href="/EME/category/home-appliances/">Home Appliances</a><span class="sep">/</span><a href="/EME/category/home-appliances-cooking/">Cooking</a><span class="sep">/</span><span class="current">Cookware</span></div>
 <div class="page-head"><h1>Cookware</h1><div class="count">17 products</div></div>
 
 <div class="filters">
-  <div class="f-group"><span class="f-label">Brand</span><div class="brand-chips"><button type="button" class="brand-chip" data-b="cole &amp; mason">Cole &amp; Mason</button><button type="button" class="brand-chip" data-b="cygnet">Cygnet</button><button type="button" class="brand-chip" data-b="judge">Judge</button><button type="button" class="brand-chip" data-b="stellar">Stellar</button><button type="button" class="brand-chip" data-b="thermos">Thermos</button></div></div>
-  <div class="f-group"><span class="f-label">Colour</span><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="silver">Silver</button></div></div>
-  <div class="f-group"><span class="f-label">Price €</span><input type="number" class="f-price" id="fmin" placeholder="32" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="180" min="0"></div>
-  <div class="f-group"><span class="f-label">Sort</span><select id="fsort"><option value="">Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Brand<span class="fdrop-n" data-count="b"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-b="cole &amp; mason">Cole &amp; Mason</button><button type="button" class="brand-chip" data-b="cygnet">Cygnet</button><button type="button" class="brand-chip" data-b="judge">Judge</button><button type="button" class="brand-chip" data-b="stellar">Stellar</button><button type="button" class="brand-chip" data-b="thermos">Thermos</button></div></div></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Colour<span class="fdrop-n" data-count="c"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="silver">Silver</button></div></div></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
+    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="32" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="180" min="0"></div></div>
+  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
   <button type="button" id="fclear" class="f-clear">Clear</button>
   <span class="f-count" id="fcount"></span>
 </div>
-<div class="product-grid" id="grid"><a href="/product/cole-and-mason-h321803-regent-concrete-precision-salt-and-pepper-mill-set-18cm/" class="product-card" data-brand="cole &amp; mason" data-colour="" data-price="39.99" data-name="h321803 regent concrete precision+ salt &amp; pepper mill set 18cm">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/826a5072504166.jpg" alt="H321803 Regent Concrete Precision+ Salt &amp; Pepper Mill Set 18cm" loading="lazy"></div></div>
+<div class="product-grid" id="grid"><a href="/EME/product/cole-and-mason-h321803-regent-concrete-precision-salt-and-pepper-mill-set-18cm/" class="product-card" data-brand="cole &amp; mason" data-colour="" data-price="39.99" data-name="h321803 regent concrete precision+ salt &amp; pepper mill set 18cm">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/826a5072504166.jpg" alt="H321803 Regent Concrete Precision+ Salt &amp; Pepper Mill Set 18cm" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Cole &amp; Mason</div>
     <div class="product-name">H321803 Regent Concrete Precision+ Salt &amp; Pepper Mill Set 18cm</div>
     <div class="product-price-row"><span class="product-price">€39.99 </span></div>
   </div>
-</a><a href="/product/cygnet-mfct1010-cygnet-10l-catering-urn-stainless-steel/" class="product-card" data-brand="cygnet" data-colour="silver" data-price="119.99" data-name="mfct1010 cygnet 10l catering urn stainless steel">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/12b9c61e665c37.jpg" alt="MFCT1010 Cygnet 10L Catering Urn Stainless Steel" loading="lazy"></div></div>
+</a><a href="/EME/product/cygnet-mfct1010-cygnet-10l-catering-urn-stainless-steel/" class="product-card" data-brand="cygnet" data-colour="silver" data-price="119.99" data-name="mfct1010 cygnet 10l catering urn stainless steel">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/12b9c61e665c37.jpg" alt="MFCT1010 Cygnet 10L Catering Urn Stainless Steel" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Cygnet</div>
     <div class="product-name">MFCT1010 Cygnet 10L Catering Urn Stainless Steel</div>
     <div class="product-price-row"><span class="product-price">€119.99 </span></div>
   </div>
-</a><a href="/product/cygnet-mfct1020-cygnet-20l-catering-urn-stainless-steel/" class="product-card" data-brand="cygnet" data-colour="silver" data-price="149.99" data-name="mfct1020 cygnet 20l catering urn stainless steel">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/59aa1730533276.jpg" alt="MFCT1020 Cygnet 20L Catering Urn Stainless Steel" loading="lazy"></div></div>
+</a><a href="/EME/product/cygnet-mfct1020-cygnet-20l-catering-urn-stainless-steel/" class="product-card" data-brand="cygnet" data-colour="silver" data-price="149.99" data-name="mfct1020 cygnet 20l catering urn stainless steel">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/59aa1730533276.jpg" alt="MFCT1020 Cygnet 20L Catering Urn Stainless Steel" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Cygnet</div>
     <div class="product-name">MFCT1020 Cygnet 20L Catering Urn Stainless Steel</div>
     <div class="product-price-row"><span class="product-price">€149.99 </span></div>
   </div>
-</a><a href="/product/judge-essentials-hx82-24cm-glass-lid-stockpot-8-5l/" class="product-card" data-brand="judge" data-colour="" data-price="46.99" data-name="essentials hx82 - 24cm glass lid stockpot - 8.5l">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/e02359df5618f0.jpg" alt="Essentials HX82 - 24cm Glass Lid Stockpot - 8.5L" loading="lazy"></div></div>
+</a><a href="/EME/product/judge-essentials-hx82-24cm-glass-lid-stockpot-8-5l/" class="product-card" data-brand="judge" data-colour="" data-price="46.99" data-name="essentials hx82 - 24cm glass lid stockpot - 8.5l">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/e02359df5618f0.jpg" alt="Essentials HX82 - 24cm Glass Lid Stockpot - 8.5L" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Judge</div>
     <div class="product-name">Essentials HX82 - 24cm Glass Lid Stockpot - 8.5L</div>
     <div class="product-price-row"><span class="product-price">€46.99 </span></div>
   </div>
-</a><a href="/product/judge-j206a-18cm-saucepan-1-8l-non-stick/" class="product-card" data-brand="judge" data-colour="" data-price="34.99" data-name="j206a 18cm saucepan, 1.8l, non-stick">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/d26e1303f628d0.jpg" alt="J206A 18cm Saucepan, 1.8L, Non-Stick" loading="lazy"></div></div>
+</a><a href="/EME/product/judge-j206a-18cm-saucepan-1-8l-non-stick/" class="product-card" data-brand="judge" data-colour="" data-price="34.99" data-name="j206a 18cm saucepan, 1.8l, non-stick">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/d26e1303f628d0.jpg" alt="J206A 18cm Saucepan, 1.8L, Non-Stick" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Judge</div>
     <div class="product-name">J206A 18cm Saucepan, 1.8L, Non-Stick</div>
     <div class="product-price-row"><span class="product-price">€34.99 </span></div>
   </div>
-</a><a href="/product/judge-j305ea-16cm-draining-saucepan-1-5l-non-stick/" class="product-card" data-brand="judge" data-colour="" data-price="32.99" data-name="j305ea 16cm draining saucepan, 1.5l, non-stick">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/ef7199bd986858.jpg" alt="J305EA 16cm Draining Saucepan, 1.5L, Non-Stick" loading="lazy"></div></div>
+</a><a href="/EME/product/judge-j305ea-16cm-draining-saucepan-1-5l-non-stick/" class="product-card" data-brand="judge" data-colour="" data-price="32.99" data-name="j305ea 16cm draining saucepan, 1.5l, non-stick">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/ef7199bd986858.jpg" alt="J305EA 16cm Draining Saucepan, 1.5L, Non-Stick" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Judge</div>
     <div class="product-name">J305EA 16cm Draining Saucepan, 1.5L, Non-Stick</div>
     <div class="product-price-row"><span class="product-price">€32.99 </span></div>
   </div>
-</a><a href="/product/judge-ja61-hob-top-teapot/" class="product-card" data-brand="judge" data-colour="" data-price="49.99" data-name="ja61 hob top teapot">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/e4df644bf61dd2.jpg" alt="JA61 Hob Top Teapot" loading="lazy"></div></div>
+</a><a href="/EME/product/judge-ja61-hob-top-teapot/" class="product-card" data-brand="judge" data-colour="" data-price="49.99" data-name="ja61 hob top teapot">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/e4df644bf61dd2.jpg" alt="JA61 Hob Top Teapot" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Judge</div>
     <div class="product-name">JA61 Hob Top Teapot</div>
     <div class="product-price-row"><span class="product-price">€49.99 </span></div>
   </div>
-</a><a href="/product/judge-jh45-24cm-stockpot-7-8l-black/" class="product-card" data-brand="judge" data-colour="black" data-price="41.99" data-name="jh45 24cm stockpot, 7.8l, black">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/d349b599c264b4.jpg" alt="JH45 24cm Stockpot, 7.8L, Black" loading="lazy"></div></div>
+</a><a href="/EME/product/judge-jh45-24cm-stockpot-7-8l-black/" class="product-card" data-brand="judge" data-colour="black" data-price="41.99" data-name="jh45 24cm stockpot, 7.8l, black">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/d349b599c264b4.jpg" alt="JH45 24cm Stockpot, 7.8L, Black" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Judge</div>
     <div class="product-name">JH45 24cm Stockpot, 7.8L, Black</div>
     <div class="product-price-row"><span class="product-price">€41.99 </span></div>
   </div>
-</a><a href="/product/judge-vista-j3c1-5-piece-draining-saucepan-set/" class="product-card" data-brand="judge" data-colour="" data-price="159.99" data-name="vista j3c1 5 piece draining saucepan set">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/6dc106ac538779.jpg" alt="Vista J3C1 5 Piece Draining Saucepan Set" loading="lazy"></div></div>
+</a><a href="/EME/product/judge-vista-j3c1-5-piece-draining-saucepan-set/" class="product-card" data-brand="judge" data-colour="" data-price="159.99" data-name="vista j3c1 5 piece draining saucepan set">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/6dc106ac538779.jpg" alt="Vista J3C1 5 Piece Draining Saucepan Set" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Judge</div>
     <div class="product-name">Vista J3C1 5 Piece Draining Saucepan Set</div>
     <div class="product-price-row"><span class="product-price">€159.99 </span></div>
   </div>
-</a><a href="/product/stellar-bw36-winchester-steak-knife-and-fork-set/" class="product-card" data-brand="stellar" data-colour="" data-price="39.99" data-name="bw36 winchester steak knife &amp; fork set">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/059cfb2e57198e.jpg" alt="BW36 Winchester Steak Knife &amp; Fork Set" loading="lazy"></div></div>
+</a><a href="/EME/product/stellar-bw36-winchester-steak-knife-and-fork-set/" class="product-card" data-brand="stellar" data-colour="" data-price="39.99" data-name="bw36 winchester steak knife &amp; fork set">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/059cfb2e57198e.jpg" alt="BW36 Winchester Steak Knife &amp; Fork Set" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Stellar</div>
     <div class="product-name">BW36 Winchester Steak Knife &amp; Fork Set</div>
     <div class="product-price-row"><span class="product-price">€39.99 </span></div>
   </div>
-</a><a href="/product/stellar-s102c-1000-14cm-milk-sauce-pot/" class="product-card" data-brand="stellar" data-colour="" data-price="36.99" data-name="s102c 1000 14cm milk/sauce pot">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/2898c9c6c7803d.jpg" alt="S102C 1000 14cm Milk/Sauce Pot" loading="lazy"></div></div>
+</a><a href="/EME/product/stellar-s102c-1000-14cm-milk-sauce-pot/" class="product-card" data-brand="stellar" data-colour="" data-price="36.99" data-name="s102c 1000 14cm milk/sauce pot">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/2898c9c6c7803d.jpg" alt="S102C 1000 14cm Milk/Sauce Pot" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Stellar</div>
     <div class="product-name">S102C 1000 14cm Milk/Sauce Pot</div>
     <div class="product-price-row"><span class="product-price">€36.99 </span></div>
   </div>
-</a><a href="/product/stellar-sc52-art-deco-teapot-0-6l/" class="product-card" data-brand="stellar" data-colour="" data-price="44.99" data-name="sc52 art deco teapot 0.6l">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/20df2ac48dab1b.jpg" alt="SC52 Art Deco Teapot 0.6L" loading="lazy"></div></div>
+</a><a href="/EME/product/stellar-sc52-art-deco-teapot-0-6l/" class="product-card" data-brand="stellar" data-colour="" data-price="44.99" data-name="sc52 art deco teapot 0.6l">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/20df2ac48dab1b.jpg" alt="SC52 Art Deco Teapot 0.6L" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Stellar</div>
     <div class="product-name">SC52 Art Deco Teapot 0.6L</div>
     <div class="product-price-row"><span class="product-price">€44.99 </span></div>
   </div>
-</a><a href="/product/stellar-slb2-stay-cool-4-piece-draining-saucepan-set-non-stick/" class="product-card" data-brand="stellar" data-colour="" data-price="179.99" data-name="slb2 stay cool, 4 piece draining saucepan set, non-stick">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/054a5149ea004f.jpg" alt="SLB2 Stay Cool, 4 Piece Draining Saucepan Set, Non-Stick" loading="lazy"></div></div>
+</a><a href="/EME/product/stellar-slb2-stay-cool-4-piece-draining-saucepan-set-non-stick/" class="product-card" data-brand="stellar" data-colour="" data-price="179.99" data-name="slb2 stay cool, 4 piece draining saucepan set, non-stick">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/054a5149ea004f.jpg" alt="SLB2 Stay Cool, 4 Piece Draining Saucepan Set, Non-Stick" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Stellar</div>
     <div class="product-name">SLB2 Stay Cool, 4 Piece Draining Saucepan Set, Non-Stick</div>
     <div class="product-price-row"><span class="product-price">€179.99 </span></div>
   </div>
-</a><a href="/product/stellar-st07-traditional-4-cup-teapot-900ml/" class="product-card" data-brand="stellar" data-colour="" data-price="39.99" data-name="st07 traditional  4 cup teapot 900ml">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/07d293d464c2b8.jpg" alt="ST07 Traditional  4 Cup Teapot 900ml" loading="lazy"></div></div>
+</a><a href="/EME/product/stellar-st07-traditional-4-cup-teapot-900ml/" class="product-card" data-brand="stellar" data-colour="" data-price="39.99" data-name="st07 traditional  4 cup teapot 900ml">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/07d293d464c2b8.jpg" alt="ST07 Traditional  4 Cup Teapot 900ml" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Stellar</div>
     <div class="product-name">ST07 Traditional  4 Cup Teapot 900ml</div>
     <div class="product-price-row"><span class="product-price">€39.99 </span></div>
   </div>
-</a><a href="/product/stellar-st08-traditional-8-cup-teapot-1-5l/" class="product-card" data-brand="stellar" data-colour="" data-price="46.99" data-name="st08 traditional  8 cup teapot 1.5l">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/6f33818c67f3bc.jpg" alt="ST08 Traditional  8 Cup Teapot 1.5L" loading="lazy"></div></div>
+</a><a href="/EME/product/stellar-st08-traditional-8-cup-teapot-1-5l/" class="product-card" data-brand="stellar" data-colour="" data-price="46.99" data-name="st08 traditional  8 cup teapot 1.5l">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/6f33818c67f3bc.jpg" alt="ST08 Traditional  8 Cup Teapot 1.5L" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Stellar</div>
     <div class="product-name">ST08 Traditional  8 Cup Teapot 1.5L</div>
     <div class="product-price-row"><span class="product-price">€46.99 </span></div>
   </div>
-</a><a href="/product/thermos-101514-stainless-king-food-flask-710ml-red/" class="product-card" data-brand="thermos" data-colour="silver" data-price="45.99" data-name="101514 stainless king™ food flask 710ml red">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/d6646d4b13873d.jpg" alt="101514 Stainless King™ Food Flask 710ml Red" loading="lazy"></div></div>
+</a><a href="/EME/product/thermos-101514-stainless-king-food-flask-710ml-red/" class="product-card" data-brand="thermos" data-colour="silver" data-price="45.99" data-name="101514 stainless king™ food flask 710ml red">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/d6646d4b13873d.jpg" alt="101514 Stainless King™ Food Flask 710ml Red" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Thermos</div>
     <div class="product-name">101514 Stainless King™ Food Flask 710ml Red</div>
     <div class="product-price-row"><span class="product-price">€45.99 </span></div>
   </div>
-</a><a href="/product/thermos-183270-stainless-king-food-flask-470ml-w-spoon-midnight-blue/" class="product-card" data-brand="thermos" data-colour="silver" data-price="36.99" data-name="183270 stainless king™ food flask 470ml w/spoon midnight blue">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/assets/img/1e9938fe52408b.jpg" alt="183270 Stainless King™ Food Flask 470ml W/Spoon Midnight Blue" loading="lazy"></div></div>
+</a><a href="/EME/product/thermos-183270-stainless-king-food-flask-470ml-w-spoon-midnight-blue/" class="product-card" data-brand="thermos" data-colour="silver" data-price="36.99" data-name="183270 stainless king™ food flask 470ml w/spoon midnight blue">
+  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/1e9938fe52408b.jpg" alt="183270 Stainless King™ Food Flask 470ml W/Spoon Midnight Blue" loading="lazy"></div></div>
   <div class="product-info">
     <div class="product-brand">Thermos</div>
     <div class="product-name">183270 Stainless King™ Food Flask 470ml W/Spoon Midnight Blue</div>
@@ -153,21 +154,21 @@
   </div>
 </a></div>
 </div>
-<script src="/assets/filters.js?v=c942cbb1" defer></script>
+<script src="/EME/assets/filters.js?v=bb907590" defer></script>
 <footer>
   <div class="footer-top">
     <div class="footer-brand">
-      <a href="/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
+      <a href="/EME/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
       <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
     </div>
-    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/category/home-appliances/">Home Appliances</a></li><li><a href="/category/small-appliances/">Small Appliances</a></li><li><a href="/category/telephones/">Telephones</a></li><li><a href="/category/record-players/">Record Players</a></li><li><a href="/category/dining/">Dining</a></li><li><a href="/category/bedroom-furniture/">Bedroom Furniture</a></li><li><a href="/category/">All categories</a></li></ul></div>
+    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances/">Home Appliances</a></li><li><a href="/EME/category/small-appliances/">Small Appliances</a></li><li><a href="/EME/category/telephones/">Telephones</a></li><li><a href="/EME/category/record-players/">Record Players</a></li><li><a href="/EME/category/dining/">Dining</a></li><li><a href="/EME/category/bedroom-furniture/">Bedroom Furniture</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
     <div class="footer-col"><h4>Company</h4><ul>
-      <li><a href="/about-us/">About Us</a></li>
-      <li><a href="/contact-us/">Contact</a></li>
-      <li><a href="/delivery-returns/">Delivery</a></li>
-      <li><a href="/returns-replacements/">Returns</a></li>
-      <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
-      <li><a href="/privacy-policy/">Privacy Policy</a></li>
+      <li><a href="/EME/about-us/">About Us</a></li>
+      <li><a href="/EME/contact-us/">Contact</a></li>
+      <li><a href="/EME/delivery-returns/">Delivery</a></li>
+      <li><a href="/EME/returns-replacements/">Returns</a></li>
+      <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
+      <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
     </ul></div>
     <div class="footer-col"><h4>Visit Us</h4><ul>
       <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>

@@ -288,7 +288,7 @@ def header():
     <a href="/contact-us/">Contact</a>
     <a href="https://wa.me/{SHOP['wa']}" class="nav-cta">{WA_SVG} Enquire</a>
   </nav>
-  <div class="hamburger" onclick="this.classList.toggle('open')"><span></span><span></span><span></span></div>
+  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
 </header>"""
 
 def footer():
@@ -469,18 +469,23 @@ def build_categories():
             brand_block = ""
             if len(brands_in) >= 2:
                 chips_html = "".join(f'<button type="button" class="brand-chip" data-b="{esc(b.lower())}">{esc(b)}</button>' for b in brands_in)
-                brand_block = f'<div class="f-group"><span class="f-label">Brand</span><div class="brand-chips">{chips_html}</div></div>'
+                brand_block = ('<div class="fdrop"><button type="button" class="fdrop-btn">Brand'
+                               '<span class="fdrop-n" data-count="b"></span><span class="caret">▾</span></button>'
+                               f'<div class="fdrop-panel"><div class="brand-chips">{chips_html}</div></div></div>')
             present_cols = {colour_of(p["name"]) for p in prods}
             colours_in = [col for col in ("Black", "White", "Silver") if col in present_cols]
             colour_block = ""
             if len(colours_in) >= 2:
                 cchips = "".join(f'<button type="button" class="brand-chip" data-c="{col.lower()}">{col}</button>' for col in colours_in)
-                colour_block = f'<div class="f-group"><span class="f-label">Colour</span><div class="brand-chips">{cchips}</div></div>'
+                colour_block = ('<div class="fdrop"><button type="button" class="fdrop-btn">Colour'
+                                '<span class="fdrop-n" data-count="c"></span><span class="caret">▾</span></button>'
+                                f'<div class="fdrop-panel"><div class="brand-chips">{cchips}</div></div></div>')
             filterbar = f'''<div class="filters">
   {brand_block}
   {colour_block}
-  <div class="f-group"><span class="f-label">Price €</span><input type="number" class="f-price" id="fmin" placeholder="{pmin}" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="{pmax}" min="0"></div>
-  <div class="f-group"><span class="f-label">Sort</span><select id="fsort"><option value="">Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select></div>
+  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
+    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="{pmin}" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="{pmax}" min="0"></div></div>
+  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
   <button type="button" id="fclear" class="f-clear">Clear</button>
   <span class="f-count" id="fcount"></span>
 </div>'''
@@ -682,6 +687,22 @@ def build_redirects():
         csv.writer(f).writerows(rows)
     print(f"  redirects: {len(rows)-1} category mappings -> content/redirects.csv")
 
+def apply_base(base):
+    """Prefix all root-relative internal links (href/src/url()) with a base path,
+    e.g. '/EME' for GitHub Pages project sites. Set BASE_PATH env var; empty = root."""
+    base = (base or "").rstrip("/")
+    if not base:
+        return
+    a = re.compile(r'((?:href|src)=")/(?!/)')
+    u = re.compile(r"""(url\(\s*['"]?)/(?!/)""")
+    n = 0
+    for f in ROOT.rglob("*.html"):
+        t = f.read_text(encoding="utf-8")
+        t2 = u.sub(rf"\1{base}/", a.sub(rf"\1{base}/", t))
+        if t2 != t:
+            f.write_text(t2, encoding="utf-8"); n += 1
+    print(f"  base path '{base}' applied to {n} pages")
+
 if __name__ == "__main__":
     # clean previous generated output (keep raw, tools, assets)
     for d in ("product", "category", "about-us", "contact-us",
@@ -695,4 +716,5 @@ if __name__ == "__main__":
     build_products()
     build_pages()
     build_redirects()
+    apply_base(os.environ.get("BASE_PATH", ""))
     print("Done.")
