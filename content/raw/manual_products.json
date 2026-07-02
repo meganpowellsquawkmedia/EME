@@ -67,5 +67,810 @@
     ],
     "short_description": "In stock in store at 29 Church St, Dundalk.",
     "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990007,
+    "name": "Beko FDC6731S \u2014 60cm Freestanding Cooker",
+    "slug": "beko-fdc6731s-cooker",
+    "sku": "FDC6731S",
+    "price": "599",
+    "regular_price": "599",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990008,
+    "name": "Beko KDVC90X \u2014 90cm Range Cooker",
+    "slug": "beko-kdvc90x-cooker",
+    "sku": "KDVC90X",
+    "price": "1044",
+    "regular_price": "1044",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990009,
+    "name": "Belling 110EBLK \u2014 110cm Cookcentre Range Cooker",
+    "slug": "belling-110eblk-cooker",
+    "sku": "110EBLK",
+    "price": "1694",
+    "regular_price": "1694",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990010,
+    "name": "Electrolux EOA5651BAK \u2014 Single Built-In Oven",
+    "slug": "electrolux-eoa5651bak-cooker",
+    "sku": "EOA5651BAK",
+    "price": "478",
+    "regular_price": "478",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990011,
+    "name": "Electrolux LKI655200X \u2014 60cm Freestanding Cooker",
+    "slug": "electrolux-lki655200x-cooker",
+    "sku": "LKI655200X",
+    "price": "999",
+    "regular_price": "999",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990012,
+    "name": "Electrolux LKR655200K \u2014 60cm Freestanding Cooker",
+    "slug": "electrolux-lkr655200k-cooker",
+    "sku": "LKR655200K",
+    "price": "749",
+    "regular_price": "749",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990013,
+    "name": "Electrolux LKR655200X \u2014 60cm Freestanding Cooker",
+    "slug": "electrolux-lkr655200x-cooker",
+    "sku": "LKR655200X",
+    "price": "749",
+    "regular_price": "749",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990014,
+    "name": "Electrolux LKR655210X \u2014 60cm Freestanding Cooker \u2014 Air Fryer",
+    "slug": "electrolux-lkr655210x-cooker",
+    "sku": "LKR655210X",
+    "price": "849",
+    "regular_price": "849",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990015,
+    "name": "Hotpoint HD5V92KCB/UK \u2014 50cm Freestanding Cooker",
+    "slug": "hotpoint-hd5v92kcb-uk-cooker",
+    "sku": "HD5V92KCB/UK",
+    "price": "549",
+    "regular_price": "549",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990016,
+    "name": "Hotpoint HDE6VDCASB1 \u2014 60cm Freestanding Cooker",
+    "slug": "hotpoint-hde6vdcasb1-cooker",
+    "sku": "HDE6VDCASB1",
+    "price": "699",
+    "regular_price": "699",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990017,
+    "name": "Hotpoint HDM67V8D2CX/UK \u2014 60cm Freestanding Cooker",
+    "slug": "hotpoint-hdm67v8d2cx-uk-cooker",
+    "sku": "HDM67V8D2CX/UK",
+    "price": "899",
+    "regular_price": "899",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990018,
+    "name": "Hotpoint HDT67V9H2CB/UK \u2014 60cm Freestanding Cooker",
+    "slug": "hotpoint-hdt67v9h2cb-uk-cooker",
+    "sku": "HDT67V9H2CB/UK",
+    "price": "794",
+    "regular_price": "794",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990019,
+    "name": "Indesit IDE6VMB \u2014 60cm Freestanding Cooker",
+    "slug": "indesit-ide6vmb-cooker",
+    "sku": "IDE6VMB",
+    "price": "499",
+    "regular_price": "499",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990020,
+    "name": "Indesit ITE5VMW \u2014 50cm Freestanding Cooker",
+    "slug": "indesit-ite5vmw-cooker",
+    "sku": "ITE5VMW",
+    "price": "449",
+    "regular_price": "449",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990021,
+    "name": "Leisure BECLA60CEK \u2014 60cm Freestanding Cooker",
+    "slug": "leisure-becla60cek-cooker",
+    "sku": "BECLA60CEK",
+    "price": "619",
+    "regular_price": "619",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990022,
+    "name": "Nordmende CDEC62IX \u2014 60cm Freestanding Cooker",
+    "slug": "nordmende-cdec62ix-cooker",
+    "sku": "CDEC62IX",
+    "price": "519",
+    "regular_price": "519",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990023,
+    "name": "Nordmende CSG100IX \u2014 100cm Dual-Fuel Range Cooker",
+    "slug": "nordmende-csg100ix-cooker",
+    "sku": "CSG100IX",
+    "price": "1099",
+    "regular_price": "1099",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990024,
+    "name": "Nordmende CTEC53BK \u2014 50cm Freestanding Cooker",
+    "slug": "nordmende-ctec53bk-cooker",
+    "sku": "CTEC53BK",
+    "price": "499",
+    "regular_price": "499",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990025,
+    "name": "Nordmende CTEC62WH \u2014 60cm Freestanding Cooker",
+    "slug": "nordmende-ctec62wh-cooker",
+    "sku": "CTEC62WH",
+    "price": "549",
+    "regular_price": "549",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990026,
+    "name": "Powerpoint P06C2MDBL \u2014 60cm Freestanding Cooker",
+    "slug": "powerpoint-p06c2mdbl-cooker",
+    "sku": "P06C2MDBL",
+    "price": "499",
+    "regular_price": "499",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990027,
+    "name": "Powerpoint P06E2T2W \u2014 60cm Freestanding Cooker",
+    "slug": "powerpoint-p06e2t2w-cooker",
+    "sku": "P06E2T2W",
+    "price": "329",
+    "regular_price": "329",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990028,
+    "name": "Hotpoint HDM67G0C2CB \u2014 Gas (NG) Freestanding Cooker",
+    "slug": "hotpoint-hdm67g0c2cb-cooker",
+    "sku": "HDM67G0C2CB",
+    "price": "799",
+    "regular_price": "799",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990029,
+    "name": "Hotpoint HDM67G0C2CX/U \u2014 Gas (NG) Freestanding Cooker \u2014 Convertible",
+    "slug": "hotpoint-hdm67g0c2cx-u-cooker",
+    "sku": "HDM67G0C2CX/U",
+    "price": "799",
+    "regular_price": "799",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990030,
+    "name": "Hotpoint HDM67G8CCB/UK \u2014 60cm Dual-Fuel Freestanding Cooker",
+    "slug": "hotpoint-hdm67g8ccb-uk-cooker",
+    "sku": "HDM67G8CCB/UK",
+    "price": "899",
+    "regular_price": "899",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990031,
+    "name": "Hotpoint HTG5GCB \u2014 Gas (NG) Freestanding Cooker",
+    "slug": "hotpoint-htg5gcb-cooker",
+    "sku": "HTG5GCB",
+    "price": "499",
+    "regular_price": "499",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990032,
+    "name": "Indesit ID67GOMCB/UK \u2014 Gas (NG) Freestanding Cooker",
+    "slug": "indesit-id67gomcb-uk-cooker",
+    "sku": "ID67GOMCB/UK",
+    "price": "699",
+    "regular_price": "699",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990033,
+    "name": "Indesit ID67GOMCW/UK \u2014 Gas (NG) Freestanding Cooker",
+    "slug": "indesit-id67gomcw-uk-cooker",
+    "sku": "ID67GOMCW/UK",
+    "price": "629",
+    "regular_price": "629",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990034,
+    "name": "Indesit KD3G2SA1R \u2014 Gas (NG) Freestanding Cooker",
+    "slug": "indesit-kd3g2sa1r-cooker",
+    "sku": "KD3G2SA1R",
+    "price": "429",
+    "regular_price": "429",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990035,
+    "name": "Indesit KD3G2SLWIR \u2014 Gas (LPG) Freestanding Cooker",
+    "slug": "indesit-kd3g2slwir-cooker",
+    "sku": "KD3G2SLWIR",
+    "price": "399",
+    "regular_price": "399",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990036,
+    "name": "Leisure BECLA60GAK \u2014 Gas (NG) Freestanding Cooker",
+    "slug": "leisure-becla60gak-cooker",
+    "sku": "BECLA60GAK",
+    "price": "769",
+    "regular_price": "769",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990037,
+    "name": "Nordmende CTG51WH \u2014 Gas (NG) Freestanding Cooker",
+    "slug": "nordmende-ctg51wh-cooker",
+    "sku": "CTG51WH",
+    "price": "449",
+    "regular_price": "449",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990038,
+    "name": "Nordmende CTG52LPGBK \u2014 Gas (LPG) Freestanding Cooker",
+    "slug": "nordmende-ctg52lpgbk-cooker",
+    "sku": "CTG52LPGBK",
+    "price": "499",
+    "regular_price": "499",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990039,
+    "name": "Nordmende CTG61BK \u2014 Gas (NG) Freestanding Cooker",
+    "slug": "nordmende-ctg61bk-cooker",
+    "sku": "CTG61BK",
+    "price": "519",
+    "regular_price": "519",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990040,
+    "name": "Nordmende CTG62LPGBK \u2014 Gas (LPG) Freestanding Cooker",
+    "slug": "nordmende-ctg62lpgbk-cooker",
+    "sku": "CTG62LPGBK",
+    "price": "569",
+    "regular_price": "569",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990041,
+    "name": "Nordmende CTG62LPGWH \u2014 Gas (LPG) Freestanding Cooker",
+    "slug": "nordmende-ctg62lpgwh-cooker",
+    "sku": "CTG62LPGWH",
+    "price": "559",
+    "regular_price": "559",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 699,
+        "name": "Cooking"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
   }
 ]
