@@ -135,10 +135,34 @@ P = [p for p in P if p.get("images") and str((p["images"][0] or {}).get("src", "
 _omitted_noimg = _before - len(P)
 
 # ── Category structure fixes (clean up the mis-nested WooCommerce tree) ──
-# Promote subcategories that were wrongly nested under Telephones to top-level,
-# and rename the cordless/landline category for clarity.
-PARENT_FIXES = {727: 0, 691: 0, 695: 0}            # Laptops, Tablets, Dashcam -> top-level
-NAME_FIXES   = {766: "Landline & Cordless Phones", 695: "Dash Cams"}
+# Collapse ~47 scattered top-level departments into 7 clean ones by re-parenting
+# the strays, renaming the ALL-CAPS supplier imports, and hiding utility buckets.
+PARENT_FIXES = {
+    # → Furniture (717)
+    33: 717, 1099: 717, 1094: 717, 7: 717, 670: 717, 34: 717, 1107: 717,
+    58: 717, 66: 717, 59: 717, 667: 717, 71: 717, 85: 717, 83: 717, 84: 717,
+    86: 717, 1097: 717, 82: 717, 61: 717, 72: 717, 20: 717,
+    # → TVs & Audio (877)
+    918: 877, 923: 877, 878: 877, 858: 877, 940: 877, 935: 877, 852: 877,
+    686: 877, 1491: 877,
+    # → Small Appliances (718)
+    985: 718, 1024: 718, 1036: 718, 1451: 718, 1405: 718, 969: 718,
+    # → Technology (690): promote it to top-level, then nest tech under it
+    690: 0, 727: 690, 691: 690, 990001: 690, 695: 690, 1480: 690, 990002: 690,
+    # → Garden & DIY (1419)
+    1525: 1419, 1527: 1419, 1528: 1419, 1529: 1419,
+    # → Home Appliances (696)
+    1453: 696, 1578: 696,
+}
+NAME_FIXES = {
+    766: "Landline & Cordless Phones", 695: "Dash Cams",
+    877: "TVs & Audio", 918: "Hi-Fi Systems", 923: "Radios", 878: "Headphones",
+    858: "Audio & Radio", 940: "Bluetooth Speakers", 935: "Clock Radios",
+    985: "Ironing", 1024: "Juicers", 1036: "Food Preparation", 969: "Personal Care",
+    72: "Mattresses", 1578: "Washing Machines", 686: "TVs", 1419: "Garden & DIY",
+}
+# Utility/meta buckets hidden from the department menus (pages still exist).
+HIDDEN_TOP = {37, 740, 62, 1016}   # All Products, Brands, Sales, duplicate COOKING
 for c in C:
     if c["id"] in PARENT_FIXES: c["parent"] = PARENT_FIXES[c["id"]]
     if c["id"] in NAME_FIXES:   c["name"]   = NAME_FIXES[c["id"]]
@@ -295,7 +319,7 @@ def header():
 </header>"""
 
 def footer():
-    tops = sorted([c for c in children.get(0, []) if cat_total[c["id"]]], key=lambda x: -cat_total[x["id"]])[:6]
+    tops = sorted([c for c in children.get(0, []) if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP], key=lambda x: -cat_total[x["id"]])[:6]
     shoplinks = "".join(f'<li><a href="{cat_url(c["id"])}">{esc(html.unescape(c["name"]))}</a></li>' for c in tops)
     return f"""<footer>
   <div class="footer-top">
@@ -516,7 +540,7 @@ def build_categories():
 
 # CATEGORY INDEX
 def build_category_index():
-    tops = sorted([c for c in children.get(0, []) if cat_total[c["id"]]], key=lambda x: -cat_total[x["id"]])
+    tops = sorted([c for c in children.get(0, []) if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP], key=lambda x: -cat_total[x["id"]])
     chips = ""
     for t in tops:
         chips += f"""<a href="{cat_url(t['id'])}" class="cat-chip">
@@ -535,7 +559,7 @@ def build_category_index():
 
 # HOMEPAGE
 def build_home():
-    tops = sorted([c for c in children.get(0, []) if cat_total[c["id"]]], key=lambda x: -cat_total[x["id"]])[:6]
+    tops = sorted([c for c in children.get(0, []) if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP], key=lambda x: -cat_total[x["id"]])[:6]
     cards = ""
     for i, t in enumerate(tops):
         img = CAT_IMAGES.get(clean[t["id"]]) or CAT_IMAGES.get(t["slug"]) or ""
