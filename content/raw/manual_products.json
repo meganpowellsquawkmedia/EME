@@ -690,29 +690,6 @@
     "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>"
   },
   {
-    "id": 990034,
-    "name": "Indesit KD3G2SA1R \u2014 Gas (NG) Freestanding Cooker",
-    "slug": "indesit-kd3g2sa1r-cooker",
-    "sku": "KD3G2SA1R",
-    "price": "429",
-    "regular_price": "429",
-    "sale_price": "",
-    "stock_status": "instock",
-    "categories": [
-      {
-        "id": 699,
-        "name": "Cooking"
-      }
-    ],
-    "images": [
-      {
-        "src": "/assets/placeholder-product.svg"
-      }
-    ],
-    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
-  },
-  {
     "id": 990035,
     "name": "Indesit KD3G2SLWIR \u2014 Gas (LPG) Freestanding Cooker",
     "slug": "indesit-kd3g2slwir-cooker",
