@@ -20,6 +20,14 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW  = ROOT / "content" / "raw"
 SITE = "https://eddiemaguire.ie"
 
+# Absolute base for canonical/Open-Graph/sitemap URLs. Must be the *live* origin
+# so link previews + crawling work today. When the custom domain is pointed at
+# Pages, change LIVE_ORIGIN to https://eddiemaguire.ie and drop BASE_PATH.
+_BASE = os.environ.get("BASE_PATH", "").rstrip("/")
+LIVE_ORIGIN = "https://meganpowellsquawkmedia.github.io"
+SITE_ABS = LIVE_ORIGIN + _BASE
+OG_IMAGE = "/assets/og-default.png"
+
 # ---- shop details (from existing index.html / live site) ----
 SHOP = {
     "name": "Eddie Maguire",
@@ -289,7 +297,11 @@ for c in C:
 
 # ─────────────────────────────────────────────────────────────────────────────
 # HTML partials
-def head(title, desc, css_path="/assets/site.css"):
+def head(title, desc, css_path="/assets/site.css", path="/", image=None, jsonld=None):
+    canon = SITE_ABS + path
+    img = image or OG_IMAGE
+    if img.startswith("/"): img = SITE_ABS + img          # absolutise local images
+    ld = f'\n<script type="application/ld+json">{jsonld}</script>' if jsonld else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -297,10 +309,55 @@ def head(title, desc, css_path="/assets/site.css"):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
+<link rel="canonical" href="{esc(canon)}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{esc(SHOP['name'])} — {esc(SHOP['tagline'])}">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(desc)}">
+<meta property="og:url" content="{esc(canon)}">
+<meta property="og:image" content="{esc(img)}">
+<meta property="og:locale" content="en_IE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:image" content="{esc(img)}">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{css_path}?v={CSS_VER}">
+<link rel="stylesheet" href="{css_path}?v={CSS_VER}">{ld}
 </head>
 <body>"""
+
+def localbusiness_ld():
+    return json.dumps({
+        "@context": "https://schema.org", "@type": "HomeGoodsStore",
+        "name": SHOP["name"], "image": SITE_ABS + OG_IMAGE,
+        "@id": SITE_ABS + "/", "url": SITE_ABS + "/",
+        "telephone": SHOP["phone_display"], "email": SHOP["email"],
+        "address": {"@type": "PostalAddress", "streetAddress": "29 Church St",
+                    "addressLocality": "Dundalk", "addressRegion": "Co. Louth",
+                    "postalCode": "", "addressCountry": "IE"},
+        "openingHoursSpecification": [
+            {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00"},
+            {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "17:30"},
+        ],
+        "priceRange": "€€",
+        "sameAs": [f"https://wa.me/{SHOP['wa']}"],
+    }, ensure_ascii=False)
+
+def product_ld(p, name, abs_img, price_v):
+    data = {"@context": "https://schema.org", "@type": "Product", "name": name,
+            "image": abs_img, "sku": str(p.get("sku") or p["id"]),
+            "url": SITE_ABS + f"/product/{p['slug']}/"}
+    b = detect_brand(p["name"])
+    if b: data["brand"] = {"@type": "Brand", "name": b}
+    if price_v:
+        data["offers"] = {"@type": "Offer", "priceCurrency": "EUR", "price": str(price_v),
+                          "availability": "https://schema.org/InStock",
+                          "url": SITE_ABS + f"/product/{p['slug']}/",
+                          "seller": {"@type": "Organization", "name": SHOP["name"]}}
+    return json.dumps(data, ensure_ascii=False)
 
 WA_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>'
 
@@ -445,8 +502,11 @@ def build_products():
 </div>
 </div>
 {footer()}"""
+        abs_img = (SITE_ABS + main) if main.startswith("/") else main
         page = head(f"{html.unescape(p['name'])} | {SHOP['name']}",
-                    re.sub('<[^<]+?>', '', html.unescape(p.get('short_description') or p['name']))[:155]) + body
+                    re.sub('<[^<]+?>', '', html.unescape(p.get('short_description') or p['name']))[:155],
+                    path=f"/product/{p['slug']}/", image=abs_img,
+                    jsonld=product_ld(p, html.unescape(p['name']), abs_img, price_v)) + body
         write(f"product/{p['slug']}/index.html", page)
     print(f"  products: {len(P)} pages")
 
@@ -534,7 +594,8 @@ def build_categories():
 <script src="/assets/filters.js?v={JS_VER}" defer></script>
 {footer()}"""
         page = head(f"{html.unescape(c['name'])} | {SHOP['name']}",
-                    f"Browse {html.unescape(c['name'])} at {SHOP['name']}, Dundalk. {len(prods)} products. Buy in store.") + body
+                    f"Browse {html.unescape(c['name'])} at {SHOP['name']}, Dundalk. {len(prods)} products. Buy in store.",
+                    path=cat_url(c["id"])) + body
         write(f"category/{clean[c['id']]}/index.html", page)
     print(f"  categories: {len(C)} pages")
 
@@ -554,7 +615,7 @@ def build_category_index():
 <div class="cat-chip-grid">{chips}</div>
 </div>
 {footer()}"""
-    write("category/index.html", head(f"Shop | {SHOP['name']}", f"Browse all categories at {SHOP['name']}, Dundalk.") + body)
+    write("category/index.html", head(f"Shop | {SHOP['name']}", f"Browse all categories at {SHOP['name']}, Dundalk.", path="/category/") + body)
     print("  category index: 1 page")
 
 # HOMEPAGE
@@ -623,7 +684,8 @@ def build_home():
 </section>
 {footer()}"""
     write("index.html", head(f"{SHOP['name']} — {SHOP['tagline']} | Dundalk",
-        "Electrical, appliances & furniture in Dundalk. Browse our full range online, buy in store. " + str(len(P)) + " products.") + body)
+        "Electrical, appliances & furniture in Dundalk. Browse our full range online, buy in store. " + str(len(P)) + " products.",
+        path="/", jsonld=localbusiness_ld()) + body)
     print("  homepage: 1 page")
 
 # CONTENT PAGES (About, Delivery, Returns, Terms) + bespoke Contact
@@ -647,7 +709,7 @@ def render_prose_page(slug, title, content_html, desc):
 <div class="prose-wrap"><div class="prose">{content_html}</div></div>
 </div>
 {footer()}"""
-    write(f"{slug}/index.html", head(f"{title} | {SHOP['name']}", desc) + body)
+    write(f"{slug}/index.html", head(f"{title} | {SHOP['name']}", desc, path=f"/{slug}/") + body)
 
 def build_contact():
     maps = f"https://www.google.com/maps?q={esc(SHOP['address'])}&output=embed"
@@ -671,7 +733,8 @@ def build_contact():
 </div>
 {footer()}"""
     write("contact-us/index.html", head(f"Contact | {SHOP['name']}",
-        f"Contact {SHOP['name']}, {SHOP['address']}. Call {SHOP['phone_display']} or message us on WhatsApp.") + body)
+        f"Contact {SHOP['name']}, {SHOP['address']}. Call {SHOP['phone_display']} or message us on WhatsApp.",
+        path="/contact-us/", jsonld=localbusiness_ld()) + body)
 
 def build_pages():
     by_slug = {p["slug"]: p for p in PAGES}
@@ -740,6 +803,26 @@ def build_redirects():
         csv.writer(f).writerows(rows)
     print(f"  redirects: {n} category stubs -> /product-category/... (map: content/redirects.csv)")
 
+def build_sitemap():
+    """XML sitemap + robots.txt with absolute live URLs (no base rewrite needed)."""
+    paths = ["/", "/category/"]
+    paths += [f"/{s}/" for s in ("about-us", "contact-us", "delivery-returns",
+              "returns-replacements", "terms-and-conditions", "privacy-policy")]
+    paths += [cat_url(c["id"]) for c in C if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP]
+    paths += [f"/product/{p['slug']}/" for p in P]
+    seen, urls = set(), []
+    for p in paths:
+        if p in seen: continue
+        seen.add(p); urls.append(p)
+    xml = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u in urls:
+        xml.append(f"  <url><loc>{esc(SITE_ABS + u)}</loc></url>")
+    xml.append("</urlset>")
+    write("sitemap.xml", "\n".join(xml) + "\n")
+    write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE_ABS}/sitemap.xml\n")
+    print(f"  sitemap: {len(urls)} urls -> sitemap.xml + robots.txt")
+
 def apply_base(base):
     """Prefix all root-relative internal links (href/src/url()) with a base path,
     e.g. '/EME' for GitHub Pages project sites. Set BASE_PATH env var; empty = root."""
@@ -770,5 +853,6 @@ if __name__ == "__main__":
     build_products()
     build_pages()
     build_redirects()
+    build_sitemap()
     apply_base(os.environ.get("BASE_PATH", ""))
     print("Done.")
