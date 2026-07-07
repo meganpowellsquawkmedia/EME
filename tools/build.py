@@ -611,7 +611,7 @@ def build_category_index():
     body = f"""{header()}
 <div class="page-body">
 <div class="crumbs"><a href="/">Home</a><span class="sep">/</span><span class="current">Shop</span></div>
-<div class="page-head"><h1>Shop by category</h1><div class="count">{len(P)} products across {len(C)} categories</div></div>
+<div class="page-head"><h1>Shop by category</h1><div class="count">{len(P)} products across {sum(1 for c in C if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP)} categories</div></div>
 <div class="cat-chip-grid">{chips}</div>
 </div>
 {footer()}"""
