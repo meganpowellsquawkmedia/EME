@@ -114,8 +114,8 @@ old_path,new_path,type,title
 /product-category/undercounter/,/category/undercounter/,category,Undercounter
 /product-category/vacuum/,/category/vacuum/,category,Vacuum
 /product-category/washer-dryer/,/category/washer-dryer/,category,Washer Dryer
-/product-category/washing/,/category/home-appliances-washing-machines/,category,Washing Machines
-/product-category/washing-machines/,/category/laundry-washing-machines/,category,Washing Machines
+/product-category/washing/,/category/washing/,category,WASHING
+/product-category/washing-machines/,/category/washing-machines/,category,Washing Machines
 /product-category/watches/,/category/watches/,category,Watches
 /product-category/smartwatches/,/category/smartwatches/,category,Smartwatches
 /product-category/baby-monitors/,/category/baby-monitors/,category,Baby Monitors

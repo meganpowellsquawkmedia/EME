@@ -167,7 +167,7 @@ NAME_FIXES = {
     877: "TVs & Audio", 918: "Hi-Fi Systems", 923: "Radios", 878: "Headphones",
     858: "Audio & Radio", 940: "Bluetooth Speakers", 935: "Clock Radios",
     985: "Ironing", 1024: "Juicers", 1036: "Food Preparation", 969: "Personal Care",
-    72: "Mattresses", 1578: "Washing Machines", 686: "TVs", 1419: "Garden & DIY",
+    72: "Mattresses", 686: "TVs", 1419: "Garden & DIY",
 }
 # Utility/meta buckets hidden from the department menus (pages still exist).
 HIDDEN_TOP = {37, 740, 62, 1016}   # All Products, Brands, Sales, duplicate COOKING
