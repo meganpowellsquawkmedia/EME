@@ -1,0 +1,24 @@
+{
+  "id": 700024,
+  "name": "Nordmende Fridge Freezer RFF317NFIXL",
+  "slug": "nordmende-fridge-freezer-rff317nfixl",
+  "sku": "RFF317NFIXL",
+  "price": "349",
+  "regular_price": "349",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-rff317nfixl.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Nordmende fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

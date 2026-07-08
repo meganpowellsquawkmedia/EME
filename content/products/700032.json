@@ -1,0 +1,24 @@
+{
+  "id": 700032,
+  "name": "Powerpoint Fridge Freezer P75562ML1W",
+  "slug": "powerpoint-fridge-freezer-p75562ml1w",
+  "sku": "P75562ML1W",
+  "price": "299",
+  "regular_price": "299",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-p75562ml1w.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

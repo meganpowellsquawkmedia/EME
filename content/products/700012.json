@@ -1,0 +1,24 @@
+{
+  "id": 700012,
+  "name": "Hotpoint Fridge Freezer H9C941CW",
+  "slug": "hotpoint-fridge-freezer-h9c941cw",
+  "sku": "H9C941CW",
+  "price": "804",
+  "regular_price": "804",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-h9c941cw.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Hotpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

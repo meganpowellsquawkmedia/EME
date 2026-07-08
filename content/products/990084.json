@@ -1,0 +1,24 @@
+{
+  "id": 990084,
+  "name": "Hotpoint HHDW90WWIRE — Heat Pump Tumble Dryer",
+  "slug": "hotpoint-hhdw90wwire-tumble-dryer",
+  "sku": "HHDW90WWIRE",
+  "price": "699",
+  "regular_price": "699",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 702,
+      "name": "Tumble Dryer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/hotpoint-hhdw90wwire-tumble-dryer.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

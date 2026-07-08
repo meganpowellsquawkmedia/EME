@@ -1,0 +1,24 @@
+{
+  "id": 700010,
+  "name": "Hoover Fridge Freezer HONFQ2T718EXK",
+  "slug": "hoover-fridge-freezer-honfq2t718exk",
+  "sku": "HONFQ2T718EXK",
+  "price": "649",
+  "regular_price": "649",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-honfq2t718exk.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Hoover fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

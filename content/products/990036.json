@@ -1,0 +1,24 @@
+{
+  "id": 990036,
+  "name": "Leisure BECLA60GAK — Gas (NG) Freestanding Cooker",
+  "slug": "leisure-becla60gak-cooker",
+  "sku": "BECLA60GAK",
+  "price": "769",
+  "regular_price": "769",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 699,
+      "name": "Cooking"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/leisure-becla60gak-cooker.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

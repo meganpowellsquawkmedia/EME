@@ -1,0 +1,40 @@
+# Pages CMS configuration — the visual admin David logs into (app.pagescms.org).
+# Defines one editable "card" per product, backed by content/products/<id>.json.
+# Photos uploaded here land in assets/img and are referenced as /assets/img/...
+
+media:
+  input: assets/img
+  output: /assets/img
+  extensions: [jpg, jpeg, png, webp, gif, svg]
+
+content:
+  - name: products
+    label: Products
+    type: collection
+    path: content/products
+    format: json
+    filename: "{fields.id}.json"
+    # Columns shown in the searchable product list:
+    view:
+      fields: [name, sku, price, hidden]
+      primary: name
+      sort: [name, price]
+    fields:
+      - { name: name, label: Product name, type: string }
+      - { name: sku, label: Model number, type: string }
+      - { name: price, label: Price (€), type: string, description: "Numbers only, e.g. 599 or 129.99" }
+      - name: images
+        label: Photo
+        type: object
+        list: true
+        fields:
+          - { name: src, label: Image, type: image }
+      - { name: description, label: Description, type: rich-text }
+      - { name: hidden, label: Hide from website, type: boolean, default: false }
+      # --- kept so nothing is lost on save; rarely need editing ---
+      - { name: categories, label: Category, type: object, list: true, fields: [ { name: id, label: ID, type: number }, { name: name, label: Name, type: string } ] }
+      - { name: id, label: Internal ID, type: number }
+      - { name: slug, label: URL slug, type: string }
+      - { name: regular_price, type: string }
+      - { name: sale_price, type: string }
+      - { name: stock_status, type: string, default: instock }

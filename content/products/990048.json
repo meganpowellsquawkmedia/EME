@@ -1,0 +1,24 @@
+{
+  "id": 990048,
+  "name": "Electrolux EFI61141B — 10kg Washing Machine",
+  "slug": "electrolux-efi61141b-washing-machines",
+  "sku": "EFI61141B",
+  "price": "499",
+  "regular_price": "499",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 701,
+      "name": "Washing Machines"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/electrolux-efi61141b-washing-machines.png"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

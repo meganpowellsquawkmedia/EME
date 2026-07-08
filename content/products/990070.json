@@ -1,0 +1,24 @@
+{
+  "id": 990070,
+  "name": "Indesit IP1146 — Washing Machine",
+  "slug": "indesit-ip1146-washing-machines",
+  "sku": "IP1146",
+  "price": "449",
+  "regular_price": "449",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 701,
+      "name": "Washing Machines"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/indesit-ip1146-washing-machines.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

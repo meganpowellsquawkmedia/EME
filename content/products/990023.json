@@ -1,0 +1,24 @@
+{
+  "id": 990023,
+  "name": "Nordmende CSG100IX — 100cm Dual-Fuel Range Cooker",
+  "slug": "nordmende-csg100ix-cooker",
+  "sku": "CSG100IX",
+  "price": "1099",
+  "regular_price": "1099",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 699,
+      "name": "Cooking"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/nordmende-csg100ix-cooker.webp"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

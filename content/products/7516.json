@@ -1,0 +1,45 @@
+{
+  "id": 7516,
+  "name": "BEKO 10 PLACE SETTING FREESTANDING DISHWASHER - SILVER DVS04020S",
+  "slug": "beko-10-place-setting-freestanding-dishwasher-silver-dvs04020s",
+  "sku": "DVS04020S",
+  "price": "369",
+  "regular_price": "369",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 698,
+      "name": "Dishwashers",
+      "slug": "dishwashers"
+    },
+    {
+      "id": 696,
+      "name": "Home Appliances",
+      "slug": "home-appliances"
+    },
+    {
+      "id": 706,
+      "name": "Slim Line",
+      "slug": "slim-line"
+    }
+  ],
+  "images": [
+    {
+      "id": 7517,
+      "date_created": "2024-04-05T15:53:23",
+      "date_created_gmt": "2024-04-05T15:53:23",
+      "date_modified": "2024-04-05T15:53:23",
+      "date_modified_gmt": "2024-04-05T15:53:23",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/04/4020S.jpg",
+      "name": "4020S",
+      "alt": "",
+      "srcset": "https://eddiemaguire.ie/wp-content/uploads/2024/04/4020S.jpg 500w, https://eddiemaguire.ie/wp-content/uploads/2024/04/4020S-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/4020S-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/4020S-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/4020S-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/4020S-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/4020S-350x350.jpg 350w",
+      "sizes": "(max-width: 500px) 100vw, 500px",
+      "thumbnail": "https://eddiemaguire.ie/wp-content/uploads/2024/04/4020S-400x400.jpg"
+    }
+  ],
+  "short_description": "<ul>\n<li>Beko dishwasher\n<p>Freestanding</p>\n<p>Slimline silver</p>\n<p>Place setting capacity 10</p>\n<p>Programme control knob</p>\n<p>Display type led</p>\n<p>Number of programmes 4</p>\n<p>Number of wash temperatures 4</p>\n<p>Interior stainless steel</p>\n<p>Anti flood devices overflow safety</p>\n<p>Salt indicator &#8211; light</p>\n<p>Rinse aid indicator &#8211; light</p>\n<p>Adjustable rinse aid dosage</p>\n<p>Drying type static</p>\n<p>Programmes</p>\n<p>&#8211; programme 1 eco</p>\n<p>&#8211; programme 2 intensive</p>\n<p>&#8211; programme 4 quick&amp;shine</p>\n<p>&#8211; programme 5 mini</p>\n<p>Quick wash duration (min) 30</p>\n<p>Eco wash duration (min) 205</p>\n<p>Functions</p>\n<p>Half load</p>\n<p>Tablet function</p>\n<p>Child lock</p>\n<p>Time delay 3-6-9h</p>\n<p>&#8211; function 1 half load</p>\n<p>&#8211; function 2 time delay</p>\n<p>&nbsp;</p>\n<p>Dimensions (mm)</p>\n<p>Width: 448</p>\n<p>Height: 850</p>\n<p>Depth: 600</li>\n</ul>\n",
+  "description": "<p><strong>Freestanding A Slimline 45cm Dishwasher - DVS04020S</strong></p>\n<p>This space-saving, slimline dishwasher comes with 4 programmes to choose from, including Mini 30' programme which washes a full load in 30 minutes. This model also comes with a Half Load function - perfect for days when there's fewer dishes to wash.</p>\n<ul>\n<li>Quick Programmes</li>\n<li>Half load function</li>\n<li>Removeable cutlery basket</li>\n</ul>\n",
+  "hidden": false
+}

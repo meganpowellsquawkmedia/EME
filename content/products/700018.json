@@ -1,0 +1,24 @@
+{
+  "id": 700018,
+  "name": "Indesit Integrated Fridge Freezer INC18D011B1",
+  "slug": "indesit-integrated-fridge-freezer-inc18d011b1",
+  "sku": "INC18D011B1",
+  "price": "499",
+  "regular_price": "499",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 716,
+      "name": "Integrated"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-inc18d011b1.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Indesit integrated fridge freezer. 70/30 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": 700004,
+  "name": "Electrolux Integrated Fridge Freezer LNT6NE18S",
+  "slug": "electrolux-integrated-fridge-freezer-lnt6ne18s",
+  "sku": "LNT6NE18S",
+  "price": "804",
+  "regular_price": "804",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 716,
+      "name": "Integrated"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-lnt6ne18s.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Electrolux integrated fridge freezer. Frost Free, 70/30 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

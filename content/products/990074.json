@@ -1,0 +1,24 @@
+{
+  "id": 990074,
+  "name": "Nordmende WMA1280MBL — Washing Machine",
+  "slug": "nordmende-wma1280mbl-washing-machines",
+  "sku": "WMA1280MBL",
+  "price": "379",
+  "regular_price": "379",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 701,
+      "name": "Washing Machines"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/nordmende-wma1280mbl-washing-machines.png"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

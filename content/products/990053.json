@@ -1,0 +1,24 @@
+{
+  "id": 990053,
+  "name": "Hisense WF5S1245BB — Washing Machine",
+  "slug": "hisense-wf5s1245bb-washing-machines",
+  "sku": "WF5S1245BB",
+  "price": "579",
+  "regular_price": "579",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 701,
+      "name": "Washing Machines"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/hisense-wf5s1245bb-washing-machines.png"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

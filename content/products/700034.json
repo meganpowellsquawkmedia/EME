@@ -1,0 +1,24 @@
+{
+  "id": 700034,
+  "name": "Powerpoint Fridge Freezer P9383KSS",
+  "slug": "powerpoint-fridge-freezer-p9383kss",
+  "sku": "P9383KSS",
+  "price": "699",
+  "regular_price": "699",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-p9383kss.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

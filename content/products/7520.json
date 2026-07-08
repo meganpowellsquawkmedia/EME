@@ -1,0 +1,45 @@
+{
+  "id": 7520,
+  "name": "NORDMENDE 12 PLACE 60CM FULLY INTEGRATED DISHWASHER DF63",
+  "slug": "nordmende-12-place-60cm-fully-integrated-dishwasher-df63",
+  "sku": "DF63",
+  "price": "399",
+  "regular_price": "399",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 698,
+      "name": "Dishwashers",
+      "slug": "dishwashers"
+    },
+    {
+      "id": 696,
+      "name": "Home Appliances",
+      "slug": "home-appliances"
+    },
+    {
+      "id": 705,
+      "name": "Integrated",
+      "slug": "integrated"
+    }
+  ],
+  "images": [
+    {
+      "id": 7521,
+      "date_created": "2024-04-05T16:14:15",
+      "date_created_gmt": "2024-04-05T16:14:15",
+      "date_modified": "2024-04-05T16:14:15",
+      "date_modified_gmt": "2024-04-05T16:14:15",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DF63.jpg",
+      "name": "DF63",
+      "alt": "",
+      "srcset": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DF63.jpg 500w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DF63-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DF63-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DF63-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DF63-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DF63-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DF63-350x350.jpg 350w",
+      "sizes": "(max-width: 500px) 100vw, 500px",
+      "thumbnail": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DF63-400x400.jpg"
+    }
+  ],
+  "short_description": "<ul>\n<li>Nordmende dishwasher\n<p>60cm</p>\n<p>Integrated</p>\n<p>4 programmes</p>\n<p>12 place settings</p>\n<p>12 litre water consumption</p>\n<p>49 db(a) maximum noise level</p>\n<p>Adjustable top basket</p>\n<p>Overflow &amp; leakage protection</p>\n<p>H820 x w600 x d550mm</p>\n<p>3 year warranty</p>\n<p>Subject to registration with nordmende</li>\n</ul>\n",
+  "description": "<p><strong>60cm Integrated Dishwasher Code: DF63</strong></p>\n<p>This Fully Integrated Dishwasher operates quietly at 49dBa noise level. It has 4 programmes, 12 place settings, 12 litre water consumption and an adjustable top basket.</p>\n<p>Key Features:</p>\n<ul>\n<li>Four Programmes</li>\n<li>Twelve Place Settings</li>\n<li>Twelve Litre Water Consumption</li>\n<li>49dBa Maximum Noise Level</li>\n<li>Adjustable Top Basket</li>\n<li>Overflow And Leakage Protection</li>\n<li>Product Dimensions: H820 x W600 x D550 mm</li>\n<li>Three Year Warranty - subject to registration with Nordmende</li>\n</ul>\n",
+  "hidden": false
+}

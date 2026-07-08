@@ -1,0 +1,24 @@
+{
+  "id": 990021,
+  "name": "Leisure BECLA60CEK — 60cm Freestanding Cooker",
+  "slug": "leisure-becla60cek-cooker",
+  "sku": "BECLA60CEK",
+  "price": "619",
+  "regular_price": "619",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 699,
+      "name": "Cooking"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/leisure-becla60cek-cooker.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

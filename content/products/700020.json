@@ -1,0 +1,24 @@
+{
+  "id": 700020,
+  "name": "Indesit Fridge Freezer INK25322W4UKS",
+  "slug": "indesit-fridge-freezer-ink25322w4uks",
+  "sku": "INK25322W4UKS",
+  "price": "499",
+  "regular_price": "499",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-ink25322w4uks.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Indesit fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

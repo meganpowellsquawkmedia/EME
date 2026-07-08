@@ -1,0 +1,24 @@
+{
+  "id": 700005,
+  "name": "Haier Fridge Freezer HCR3818ENMG(UK)",
+  "slug": "haier-fridge-freezer-hcr3818enmg-uk",
+  "sku": "HCR3818ENMG(UK)",
+  "price": "899",
+  "regular_price": "899",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-hcr3818enmguk.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Haier fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

@@ -1,0 +1,50 @@
+{
+  "id": 7518,
+  "name": "PowerPoint 45cm 10 Place Dishwasher Black | M24510M6BL",
+  "slug": "powerpoint-45cm-10-place-dishwasher-black-p24510m6bl",
+  "sku": "P24510M6BL",
+  "price": "349",
+  "regular_price": "349",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 698,
+      "name": "Dishwashers",
+      "slug": "dishwashers"
+    },
+    {
+      "id": 704,
+      "name": "Freestanding",
+      "slug": "freestanding"
+    },
+    {
+      "id": 696,
+      "name": "Home Appliances",
+      "slug": "home-appliances"
+    },
+    {
+      "id": 706,
+      "name": "Slim Line",
+      "slug": "slim-line"
+    }
+  ],
+  "images": [
+    {
+      "id": 7519,
+      "date_created": "2024-04-05T16:06:20",
+      "date_created_gmt": "2024-04-05T16:06:20",
+      "date_modified": "2024-04-05T16:06:20",
+      "date_modified_gmt": "2024-04-05T16:06:20",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/04/P24510M6BL.jpeg",
+      "name": "P24510M6BL",
+      "alt": "",
+      "srcset": "https://eddiemaguire.ie/wp-content/uploads/2024/04/P24510M6BL.jpeg 608w, https://eddiemaguire.ie/wp-content/uploads/2024/04/P24510M6BL-400x400.jpeg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/P24510M6BL-100x100.jpeg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/P24510M6BL-600x600.jpeg 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/P24510M6BL-300x300.jpeg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/P24510M6BL-150x150.jpeg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/P24510M6BL-75x75.jpeg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/P24510M6BL-350x350.jpeg 350w",
+      "sizes": "(max-width: 608px) 100vw, 608px",
+      "thumbnail": "https://eddiemaguire.ie/wp-content/uploads/2024/04/P24510M6BL-400x400.jpeg"
+    }
+  ],
+  "short_description": "<ul>\n<li>Colour Black</li>\n<li>Adjustable Racking</li>\n<li>Audible End of Programme</li>\n<li>Child Lock</li>\n<li>Control Type Buttons</li>\n<li>Cutlery Basket</li>\n<li>Delay Timer</li>\n<li>Display Type LED Indicators</li>\n<li>Half Load / Zone Wash Option</li>\n<li>Height Adjustable Top Basket</li>\n<li>No of Place Settings 10</li>\n<li>Rinse Aid Level Indicator</li>\n<li>Salt Fill Indicator</li>\n<li>Energy Rating A++</li>\n<li>Noise Level  (dB) 49dB</li>\n<li>Annual Energy Consumption 211kwh</li>\n<li>Annual Water Consumption Litres 2520L</li>\n<li>Drying Performance A</li>\n<li>Number of Wash Programmes 6\n<ul>\n<li>Intensive Wash-Pots &amp; Pans</li>\n<li>Normal</li>\n<li>Economy Wash Option</li>\n<li>90 mins</li>\n<li>Rapid</li>\n</ul>\n</li>\n<li>Dimensions (HxWxD cm) 84.5 x 44 x 60</li>\n<li></li>\n</ul>\n",
+  "description": "",
+  "hidden": false
+}

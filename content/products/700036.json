@@ -1,0 +1,24 @@
+{
+  "id": 700036,
+  "name": "Samsung Fridge Freezer RS70F64KEFEU",
+  "slug": "samsung-fridge-freezer-rs70f64kefeu",
+  "sku": "RS70F64KEFEU",
+  "price": "1764",
+  "regular_price": "1764",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-rs70f64kefeu.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Samsung fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

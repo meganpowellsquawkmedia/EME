@@ -1,0 +1,24 @@
+{
+  "id": 990077,
+  "name": "Candy CSEH8A2LE-80 — Tumble Dryer",
+  "slug": "candy-cseh8a2le-80-tumble-dryer",
+  "sku": "CSEH8A2LE-80",
+  "price": "399",
+  "regular_price": "399",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 702,
+      "name": "Tumble Dryer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/candy-cseh8a2le-80-tumble-dryer.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

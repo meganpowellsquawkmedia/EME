@@ -1,0 +1,24 @@
+{
+  "id": 700008,
+  "name": "Haier Fridge Freezer HTW5618ENMG(UK)",
+  "slug": "haier-fridge-freezer-htw5618enmg-uk",
+  "sku": "HTW5618ENMG(UK)",
+  "price": "699",
+  "regular_price": "699",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-htw5618enmguk.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Haier fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

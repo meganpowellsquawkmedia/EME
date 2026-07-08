@@ -1,0 +1,24 @@
+{
+  "id": 990018,
+  "name": "Hotpoint HDT67V9H2CB/UK — 60cm Freestanding Cooker",
+  "slug": "hotpoint-hdt67v9h2cb-uk-cooker",
+  "sku": "HDT67V9H2CB/UK",
+  "price": "794",
+  "regular_price": "794",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 699,
+      "name": "Cooking"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/hotpoint-hdt67v9h2cb-uk-cooker.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

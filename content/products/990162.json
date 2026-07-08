@@ -1,0 +1,24 @@
+{
+  "id": 990162,
+  "name": "Samsung Galaxy S25 256GB",
+  "slug": "samsung-sm-s942bzkgeub",
+  "sku": "SM-S942BZKGEUB",
+  "price": "1079",
+  "regular_price": "1079",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 767,
+      "name": "Mobile Phones"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": 700031,
+  "name": "Powerpoint Fridge Freezer P74555SKW",
+  "slug": "powerpoint-fridge-freezer-p74555skw",
+  "sku": "P74555SKW",
+  "price": "314.99",
+  "regular_price": "314.99",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-p74555skw.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

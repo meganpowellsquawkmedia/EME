@@ -1,0 +1,24 @@
+{
+  "id": 700029,
+  "name": "Powerpoint Fridge Freezer P74250MLSS-E",
+  "slug": "powerpoint-fridge-freezer-p74250mlss-e",
+  "sku": "P74250MLSS-E",
+  "price": "279",
+  "regular_price": "279",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-p74250mlsse.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

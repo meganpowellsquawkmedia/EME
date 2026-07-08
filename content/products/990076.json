@@ -1,0 +1,24 @@
+{
+  "id": 990076,
+  "name": "Bosch WTH85225IE — Tumble Dryer",
+  "slug": "bosch-wth85225ie-tumble-dryer",
+  "sku": "WTH85225IE",
+  "price": "599",
+  "regular_price": "599",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 702,
+      "name": "Tumble Dryer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/bosch-wth85225ie-tumble-dryer.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

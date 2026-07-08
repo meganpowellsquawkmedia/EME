@@ -1,0 +1,24 @@
+{
+  "id": 990164,
+  "name": "Topcom TS-6650",
+  "slug": "topcom-ts-6650",
+  "sku": "TS-6650",
+  "price": "29.99",
+  "regular_price": "29.99",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 766,
+      "name": "Landline & Cordless Phones"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

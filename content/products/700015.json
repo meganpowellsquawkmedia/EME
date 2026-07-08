@@ -1,0 +1,24 @@
+{
+  "id": 700015,
+  "name": "Indesit Fridge Freezer IB55532BUK",
+  "slug": "indesit-fridge-freezer-ib55532buk",
+  "sku": "IB55532BUK",
+  "price": "429",
+  "regular_price": "429",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-ib55532buk.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Indesit fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

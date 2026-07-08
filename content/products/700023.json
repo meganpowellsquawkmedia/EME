@@ -1,0 +1,24 @@
+{
+  "id": 700023,
+  "name": "Nordmende Fridge Freezer RFF266WH",
+  "slug": "nordmende-fridge-freezer-rff266wh",
+  "sku": "RFF266WH",
+  "price": "329",
+  "regular_price": "329",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-rff266wh.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Nordmende fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

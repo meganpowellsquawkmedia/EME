@@ -1,0 +1,24 @@
+{
+  "id": 700001,
+  "name": "Candy Fridge Freezer CCH1S513EWK-1",
+  "slug": "candy-fridge-freezer-cch1s513ewk-1",
+  "sku": "CCH1S513EWK-1",
+  "price": "339",
+  "regular_price": "339",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-cch1s513ewk1.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Candy fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

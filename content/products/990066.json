@@ -1,0 +1,24 @@
+{
+  "id": 990066,
+  "name": "Indesit IDMA8564 MyTime UK — Washer Dryer",
+  "slug": "indesit-idma8564-mytime-uk-washer-dryer",
+  "sku": "IDMA8564 MyTime UK",
+  "price": "469",
+  "regular_price": "469",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 703,
+      "name": "Washer Dryer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

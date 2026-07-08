@@ -1,0 +1,24 @@
+{
+  "id": 990109,
+  "name": "Doro Adaptor 5R",
+  "slug": "doro-adapto5r",
+  "sku": "ADAPTO5R",
+  "price": "34.99",
+  "regular_price": "34.99",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 766,
+      "name": "Landline & Cordless Phones"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": 990088,
+  "name": "Nordmende TDHPE10WH — Heat Pump Tumble Dryer",
+  "slug": "nordmende-tdhpe10wh-tumble-dryer",
+  "sku": "TDHPE10WH",
+  "price": "499",
+  "regular_price": "499",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 702,
+      "name": "Tumble Dryer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

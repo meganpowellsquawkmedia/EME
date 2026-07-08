@@ -1,0 +1,58 @@
+{
+  "id": 8708,
+  "name": "Electrolux Freestanding Dishwasher - White | ESA17210SW",
+  "slug": "electrolux-freestanding-dishwasher-white-esa17210sw",
+  "sku": "",
+  "price": "449",
+  "regular_price": "449",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 698,
+      "name": "Dishwashers",
+      "slug": "dishwashers"
+    },
+    {
+      "id": 704,
+      "name": "Freestanding",
+      "slug": "freestanding"
+    },
+    {
+      "id": 696,
+      "name": "Home Appliances",
+      "slug": "home-appliances"
+    }
+  ],
+  "images": [
+    {
+      "id": 8709,
+      "date_created": "2026-03-17T12:22:32",
+      "date_created_gmt": "2026-03-17T12:22:32",
+      "date_modified": "2026-03-17T12:22:32",
+      "date_modified_gmt": "2026-03-17T12:22:32",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0275.webp",
+      "name": "IMG_0275",
+      "alt": "",
+      "srcset": "https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0275.webp 650w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0275-400x400.webp 400w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0275-100x100.webp 100w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0275-600x600.webp 600w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0275-300x300.webp 300w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0275-150x150.webp 150w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0275-75x75.webp 75w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0275-350x350.webp 350w",
+      "sizes": "(max-width: 650px) 100vw, 650px",
+      "thumbnail": "https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0275-400x400.webp"
+    },
+    {
+      "id": 8710,
+      "date_created": "2026-03-17T12:22:48",
+      "date_created_gmt": "2026-03-17T12:22:48",
+      "date_modified": "2026-03-17T12:22:48",
+      "date_modified_gmt": "2026-03-17T12:22:48",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0276.webp",
+      "name": "IMG_0276",
+      "alt": "",
+      "srcset": "https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0276.webp 650w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0276-400x400.webp 400w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0276-100x100.webp 100w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0276-600x600.webp 600w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0276-300x300.webp 300w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0276-150x150.webp 150w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0276-75x75.webp 75w, https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0276-350x350.webp 350w",
+      "sizes": "(max-width: 650px) 100vw, 650px",
+      "thumbnail": "https://eddiemaguire.ie/wp-content/uploads/2026/03/IMG_0276-400x400.webp"
+    }
+  ],
+  "short_description": "<h2>Features</h2>\n<ul>\n<li>3x better drying with AirDry</li>\n</ul>\n<p>3x better drying with AirDry &#8211; The new AirDry technology uses natural airflow to finish drying, for up to 3x better performance compared to closed-door systems. The door opens 10 cm towards the end of the cycle, letting air circulate for superb drying results.</p>\n<h2>Specification</h2>\n<ul>\n<li>Dimensions (mm) (HxWxD): 850x600x625</li>\n<li>Number of Place Settings: 13</li>\n<li>Noise Rating (dB): C</li>\n</ul>\n",
+  "description": "<h1>Our 300 AirDry Dishwasher finishes each cycle with a breath of fresh air, performing 3x better than closed-door systems. The door opens automatically during the drying phase using fresh air to get plates and cutlery completely dry.</h1>\n<h2>Features</h2>\n<ul>\n<li>3x better drying with AirDry</li>\n</ul>\n<p>3x better drying with AirDry - The new AirDry technology uses natural airflow to finish drying, for up to 3x better performance compared to closed-door systems. The door opens 10 cm towards the end of the cycle, letting air circulate for superb drying results.</p>\n<h2>Specification</h2>\n<ul>\n<li>Dimensions (mm) (HxWxD): 850x600x625</li>\n<li>Number of Place Settings: 13</li>\n<li>Noise Rating (dB): C</li>\n</ul>\n",
+  "hidden": false
+}

@@ -1,0 +1,47 @@
+{
+  "id": 8359,
+  "name": "Electrolux 13 Place Dishwasher | Stainless Steel | ESA17210SX",
+  "slug": "electrolux-13-place-dishwasher-stainless-steel-esa17210sx",
+  "sku": "ESA17210SX",
+  "price": "479",
+  "regular_price": "479",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 698,
+      "name": "Dishwashers"
+    }
+  ],
+  "images": [
+    {
+      "id": 8360,
+      "date_created": "2024-06-12T11:40:40",
+      "date_created_gmt": "2024-06-12T11:40:40",
+      "date_modified": "2024-06-12T11:40:40",
+      "date_modified_gmt": "2024-06-12T11:40:40",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/06/7210SX.jpg",
+      "name": "7210SX",
+      "alt": "",
+      "srcset": "https://eddiemaguire.ie/wp-content/uploads/2024/06/7210SX.jpg 500w, https://eddiemaguire.ie/wp-content/uploads/2024/06/7210SX-400x400.jpg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/06/7210SX-100x100.jpg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/06/7210SX-300x300.jpg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/06/7210SX-150x150.jpg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/06/7210SX-75x75.jpg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/06/7210SX-350x350.jpg 350w",
+      "sizes": "(max-width: 500px) 100vw, 500px",
+      "thumbnail": "https://eddiemaguire.ie/wp-content/uploads/2024/06/7210SX-400x400.jpg"
+    },
+    {
+      "id": 8361,
+      "date_created": "2024-06-12T11:40:59",
+      "date_created_gmt": "2024-06-12T11:40:59",
+      "date_modified": "2024-06-12T11:40:59",
+      "date_modified_gmt": "2024-06-12T11:40:59",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/06/122328.png",
+      "name": "122328",
+      "alt": "",
+      "srcset": "https://eddiemaguire.ie/wp-content/uploads/2024/06/122328.png 700w, https://eddiemaguire.ie/wp-content/uploads/2024/06/122328-400x400.png 400w, https://eddiemaguire.ie/wp-content/uploads/2024/06/122328-100x100.png 100w, https://eddiemaguire.ie/wp-content/uploads/2024/06/122328-600x600.png 600w, https://eddiemaguire.ie/wp-content/uploads/2024/06/122328-300x300.png 300w, https://eddiemaguire.ie/wp-content/uploads/2024/06/122328-150x150.png 150w, https://eddiemaguire.ie/wp-content/uploads/2024/06/122328-75x75.png 75w, https://eddiemaguire.ie/wp-content/uploads/2024/06/122328-350x350.png 350w",
+      "sizes": "(max-width: 700px) 100vw, 700px",
+      "thumbnail": "https://eddiemaguire.ie/wp-content/uploads/2024/06/122328-400x400.png"
+    }
+  ],
+  "short_description": "<ul>\n<li>\n<div class=\"product feature\">BRAND : ELECTROLUX</div>\n</li>\n<li>\n<div class=\"product feature\">PLACE SETTINGS : 13</div>\n</li>\n<li>\n<div class=\"product feature\">QUICK WASH : YES</div>\n</li>\n<li>\n<div class=\"product feature\">DELAY TIMER : YES</div>\n</li>\n<li>\n<div class=\"product feature\">ENERGY RATING : E</div>\n</li>\n<li>\n<div class=\"product feature\">COLOUR : SILVER</div>\n</li>\n<li>\n<div class=\"product feature\">NOISE LEVEL : 45-50DBA</div>\n</li>\n<li>\n<div class=\"product feature\">FULL SIZE : YES</div>\n</li>\n<li>Electrolux dishwasher\n<p>Freestanding 60cm</p>\n<p>13ps</p>\n<p>E energy rating</p>\n<p>49dba</p>\n<p>5 programme</p>\n<p>3 hours delay start</p>\n<p>Basic control</p>\n<p>Airdry</p>\n<p>Silver steel finish</p>\n<p>2 year warranty</p>\n<p>Dimensions (mm) (hxwxd)</p>\n<p>850x600x625</p>\n<p>Dishwasher programs:</p>\n<p>&#8211; 160 minutes</p>\n<p>&#8211; 90 minutes</p>\n<p>&#8211; eco</p>\n<p>&#8211; quick 30 minutes</p>\n<p>&#8211; rinse &amp; hold</li>\n<li>\n<div class=\"product feature\">HEIGHT: 850</div>\n</li>\n<li>\n<div class=\"product feature\">WIDTH: 600</div>\n</li>\n<li>\n<div class=\"product feature\">DEPTH: 625</div>\n</li>\n<li></li>\n</ul>\n",
+  "description": "<h3>Freestanding dishwasher</h3>\n<p>Our 300 AirDry Dishwasher finishes each cycle with a breath of fresh air, performing 3x better than closed-door systems. The door opens automatically during the drying phase using fresh air to get plates and cutlery completely dry.</p>\n",
+  "hidden": false
+}

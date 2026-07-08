@@ -1,0 +1,24 @@
+{
+  "id": 990008,
+  "name": "Beko KDVC90X — 90cm Range Cooker",
+  "slug": "beko-kdvc90x-cooker",
+  "sku": "KDVC90X",
+  "price": "1044",
+  "regular_price": "1044",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 699,
+      "name": "Cooking"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/beko-kdvc90x-cooker.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

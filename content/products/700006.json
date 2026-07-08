@@ -1,0 +1,24 @@
+{
+  "id": 700006,
+  "name": "Haier Fridge Freezer HFR5719EWPB",
+  "slug": "haier-fridge-freezer-hfr5719ewpb",
+  "sku": "HFR5719EWPB",
+  "price": "904",
+  "regular_price": "904",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-hfr5719ewpb.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Haier fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

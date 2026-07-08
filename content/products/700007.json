@@ -1,0 +1,24 @@
+{
+  "id": 700007,
+  "name": "Haier Fridge Freezer HSW59F18DIMM",
+  "slug": "haier-fridge-freezer-hsw59f18dimm",
+  "sku": "HSW59F18DIMM",
+  "price": "1304",
+  "regular_price": "1304",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-hsw59f18dimm.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Haier fridge freezer. Plumbed water & ice. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

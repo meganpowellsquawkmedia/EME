@@ -1,0 +1,24 @@
+{
+  "id": 700003,
+  "name": "Electrolux Fridge Freezer LNT6ME33KO",
+  "slug": "electrolux-fridge-freezer-lnt6me33ko",
+  "sku": "LNT6ME33KO",
+  "price": "699",
+  "regular_price": "699",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-lnt6me33ko.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Electrolux fridge freezer. Frost Free. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

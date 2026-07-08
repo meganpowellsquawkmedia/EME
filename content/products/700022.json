@@ -1,0 +1,24 @@
+{
+  "id": 700022,
+  "name": "Indesit Tall Larder Fridge SI81QWDUK",
+  "slug": "indesit-tall-larder-fridge-si81qwduk",
+  "sku": "SI81QWDUK",
+  "price": "499",
+  "regular_price": "499",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 990003,
+      "name": "Larder Fridges"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-si81qwduk.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Indesit freestanding tall larder fridge (fridge only, no freezer) — 368L, 187cm. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

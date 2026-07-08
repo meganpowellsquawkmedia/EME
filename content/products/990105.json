@@ -1,0 +1,24 @@
+{
+  "id": 990105,
+  "name": "Doro 913C",
+  "slug": "doro-913c",
+  "sku": "913C",
+  "price": "26.99",
+  "regular_price": "26.99",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 766,
+      "name": "Landline & Cordless Phones"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

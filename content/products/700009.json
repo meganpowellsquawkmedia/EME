@@ -1,0 +1,24 @@
+{
+  "id": 700009,
+  "name": "Hisense Fridge Freezer RS694N4IBE",
+  "slug": "hisense-fridge-freezer-rs694n4ibe",
+  "sku": "RS694N4IBE",
+  "price": "1094",
+  "regular_price": "1094",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 714,
+      "name": "Fridge Freezer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-rs694n4ibe.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Hisense fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

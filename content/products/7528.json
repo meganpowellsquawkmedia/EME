@@ -1,0 +1,71 @@
+{
+  "id": 7528,
+  "name": "BI Slimline Dishwasher 10 Place Set 11.5 L 5 Progs Model Code IN2IE10CS80UK",
+  "slug": "indesit-indesit-slimline-di9e-2b10-uk-integrated-dishwasher",
+  "sku": "DI9E 2B10 UK",
+  "price": "399",
+  "regular_price": "399",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 698,
+      "name": "Dishwashers",
+      "slug": "dishwashers"
+    },
+    {
+      "id": 696,
+      "name": "Home Appliances",
+      "slug": "home-appliances"
+    },
+    {
+      "id": 705,
+      "name": "Integrated",
+      "slug": "integrated"
+    }
+  ],
+  "images": [
+    {
+      "id": 7529,
+      "date_created": "2024-04-05T16:44:24",
+      "date_created_gmt": "2024-04-05T16:44:24",
+      "date_modified": "2024-04-05T16:44:24",
+      "date_modified_gmt": "2024-04-05T16:44:24",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK.jpeg",
+      "name": "DI9E2B10UK",
+      "alt": "",
+      "srcset": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK.jpeg 1000w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-400x400.jpeg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-100x100.jpeg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-600x600.jpeg 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-300x300.jpeg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-150x150.jpeg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-768x768.jpeg 768w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-75x75.jpeg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-350x350.jpeg 350w",
+      "sizes": "(max-width: 1000px) 100vw, 1000px",
+      "thumbnail": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-400x400.jpeg"
+    },
+    {
+      "id": 7530,
+      "date_created": "2024-04-05T16:44:40",
+      "date_created_gmt": "2024-04-05T16:44:40",
+      "date_modified": "2024-04-05T16:44:40",
+      "date_modified_gmt": "2024-04-05T16:44:40",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2.jpeg",
+      "name": "DI9E2B10UK 2",
+      "alt": "",
+      "srcset": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2.jpeg 1000w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2-400x400.jpeg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2-100x100.jpeg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2-600x600.jpeg 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2-300x300.jpeg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2-150x150.jpeg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2-768x768.jpeg 768w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2-75x75.jpeg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2-350x350.jpeg 350w",
+      "sizes": "(max-width: 1000px) 100vw, 1000px",
+      "thumbnail": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-2-400x400.jpeg"
+    },
+    {
+      "id": 7531,
+      "date_created": "2024-04-05T16:44:42",
+      "date_created_gmt": "2024-04-05T16:44:42",
+      "date_modified": "2024-04-05T16:44:42",
+      "date_modified_gmt": "2024-04-05T16:44:42",
+      "src": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3.jpeg",
+      "name": "DI9E2B10UK 3",
+      "alt": "",
+      "srcset": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3.jpeg 1000w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3-400x400.jpeg 400w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3-100x100.jpeg 100w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3-600x600.jpeg 600w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3-300x300.jpeg 300w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3-150x150.jpeg 150w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3-768x768.jpeg 768w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3-75x75.jpeg 75w, https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3-350x350.jpeg 350w",
+      "sizes": "(max-width: 1000px) 100vw, 1000px",
+      "thumbnail": "https://eddiemaguire.ie/wp-content/uploads/2024/04/DI9E2B10UK-3-400x400.jpeg"
+    }
+  ],
+  "short_description": "<div id=\"main-container\" class=\"main-container ace-save-state\">\n<div id=\"app\" class=\"main-content\">\n<div class=\"main-content-inner\">\n<div id=\"\" class=\"page-content\">\n<div class=\"row row-tabs\">\n<div class=\"col-xs-12\">\n<div class=\"tab-content\">\n<div id=\"specification\" class=\"tab-pane active\" role=\"tabpanel\">\n<div class=\"col-xs-12 col-md-offset-1 col-md-4\">\n<div>\n<h4>EQUIPMENT</h4>\n<table class=\"table\">\n<tbody>\n<tr>\n<th class=\"product-detail__specification-title\">Presence of cutlery basket</th>\n<td class=\"text-right\">Yes</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Single basket washing</th>\n<td class=\"text-right\">No possibility</td>\n</tr>\n</tbody>\n</table>\n<h4>ENERGY / PERFORMANCE INFORMATION</h4>\n<table class=\"table\">\n<tbody>\n<tr>\n<th class=\"product-detail__specification-title\">Drying performance</th>\n<td class=\"text-right\">A</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Maximum temperature for water intake (Ã?Â?Ã?Â°C)</th>\n<td class=\"text-right\">60</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Energy efficiency class</th>\n<td class=\"text-right\">F</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Energy consumption annual (kWh/annum)</th>\n<td class=\"text-right\">223</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Noise level (dBA)</th>\n<td class=\"text-right\">51</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Cleaning performance</th>\n<td class=\"text-right\">A</td>\n</tr>\n</tbody>\n</table>\n<h4>ELECTRICAL</h4>\n<table class=\"table\">\n<tbody>\n<tr>\n<th class=\"product-detail__specification-title\">Electrical connection rating (W)</th>\n<td class=\"text-right\">1900</td>\n</tr>\n</tbody>\n</table>\n<h4>PROGRAMS</h4>\n<table class=\"table\">\n<tbody>\n<tr>\n<th class=\"product-detail__specification-title\">Eco</th>\n<td class=\"text-right\">Yes</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Self Clean</th>\n<td class=\"text-right\">No</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">List of programmes</th>\n<td class=\"text-right\">Half load permanent, Intensive 65°, Rapid, Eco, Availability of short program, Eco 50</td>\n</tr>\n</tbody>\n</table>\n<h4>WATER EXTRACTION EFFICIENCY (%)</h4>\n<table class=\"table\">\n<tbody>\n<tr>\n<th class=\"product-detail__specification-title\">Water consumption (l)</th>\n<td class=\"text-right\">11.5</td>\n</tr>\n</tbody>\n</table>\n<h4>STRUCTURAL</h4>\n<table class=\"table\">\n<tbody>\n<tr>\n<th class=\"product-detail__specification-title\">Colour</th>\n<td class=\"text-right\">White</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Installation type</th>\n<td class=\"text-right\">Full-integrated</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Salt light indicator</th>\n<td class=\"text-right\">No</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Rinse aid light indicator</th>\n<td class=\"text-right\">No</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Place settings</th>\n<td class=\"text-right\">9</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Basket with handle</th>\n<td class=\"text-right\">No</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Adjustable upper basket</th>\n<td class=\"text-right\">Yes</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Adjustable feet</th>\n<td class=\"text-right\">Yes &#8211; all from front</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">EAN code</th>\n<td class=\"text-right\">8050147672099</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Digital countdown indicator</th>\n<td class=\"text-right\">No</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Construction Type</th>\n<td class=\"text-right\">Built-in</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"footer\">\n<div class=\"footer-inner\">\n<div class=\"footer-content\"></div>\n</div>\n</div>\n",
+  "description": "<p>Make cleaning up after family meals a breeze with Indesit's slimline DI9E 2B10 UK dishwasher. The Rapid 40 cycle is perfect for when you're short on time and with the Delay Start option, you can control the start time to suit your conveniance.</p>\n<div class=\"media media-feature__description\">\n<div class=\"media-left\"><img class=\"media-object\" src=\"https://whirlpool-cdn.thron.com/delivery/public/thumbnail/whirlpool/lo-629828f8-cf03-4fda-93d4-9daa2e2e795a/sckne7/std/500x500/logo.jpg?fill=zoom&amp;fillcolor=rgba:255,255,255&amp;scalemode=product&amp;format=JPEG\" width=\"100\" height=\"100\" /></div>\n<div class=\"media-body\">\n<h4 class=\"media-heading\">Stainless steel</h4>\n<p><span class=\"product-detail__feature-summary\">Stainless steel tub</span></p>\n</div>\n</div>\n<div class=\"media media-feature__description\">\n<div class=\"media-left\"><img class=\"media-object\" src=\"https://whirlpool-cdn.thron.com/delivery/public/thumbnail/whirlpool/lo-f2a9dba4-673a-4e54-aed5-1fdc4a2f83a0/sckne7/std/500x500/logo.jpg?fill=zoom&amp;fillcolor=rgba:255,255,255&amp;scalemode=product&amp;format=JPEG\" width=\"100\" height=\"100\" /></div>\n<div class=\"media-body\">\n<h4 class=\"media-heading\">Energy class F</h4>\n<p><span class=\"product-detail__feature-summary\">Energy savings are ensured at energy class F.</span></p>\n</div>\n</div>\n<div class=\"media media-feature__description\">\n<div class=\"media-left\"><img class=\"media-object\" src=\"https://whirlpool-cdn.thron.com/delivery/public/thumbnail/whirlpool/lo-75a3d8aa-94fa-44fe-a569-5a23e55cec65/sckne7/std/500x500/logo.jpg?fill=zoom&amp;fillcolor=rgba:255,255,255&amp;scalemode=product&amp;format=JPEG\" width=\"100\" height=\"100\" /></div>\n<div class=\"media-body\">\n<h4 class=\"media-heading\">(Auto) Intensive</h4>\n<p><span class=\"product-detail__feature-summary\">The best cleaning results for stubborn, baked-on dirt. Also available with auto clean technology.</span></p>\n</div>\n</div>\n",
+  "hidden": false
+}

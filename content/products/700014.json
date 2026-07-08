@@ -1,0 +1,24 @@
+{
+  "id": 700014,
+  "name": "Hotpoint Integrated Fridge Freezer HTC18D011A1",
+  "slug": "hotpoint-integrated-fridge-freezer-htc18d011a1",
+  "sku": "HTC18D011A1",
+  "price": "599",
+  "regular_price": "599",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 716,
+      "name": "Integrated"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-htc18d011a1.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Hotpoint integrated fridge freezer. 70/30 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

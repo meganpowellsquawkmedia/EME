@@ -1,0 +1,24 @@
+{
+  "id": 990010,
+  "name": "Electrolux EOA5651BAK — Single Built-In Oven",
+  "slug": "electrolux-eoa5651bak-cooker",
+  "sku": "EOA5651BAK",
+  "price": "478",
+  "regular_price": "478",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 699,
+      "name": "Cooking"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/electrolux-eoa5651bak-cooker.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

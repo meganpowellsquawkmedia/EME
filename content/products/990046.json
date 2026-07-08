@@ -1,0 +1,24 @@
+{
+  "id": 990046,
+  "name": "Bosch WGG254Z1GB — Washing Machine",
+  "slug": "bosch-wgg254z1gb-washing-machines",
+  "sku": "WGG254Z1GB",
+  "price": "699",
+  "regular_price": "699",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 701,
+      "name": "Washing Machines"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/bosch-wgg254z1gb-washing-machines.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

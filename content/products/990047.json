@@ -1,0 +1,24 @@
+{
+  "id": 990047,
+  "name": "Candy CS148TWBB4/1-80 — Washing Machine",
+  "slug": "candy-cs148twbb4-1-80-washing-machines",
+  "sku": "CS148TWBB4/1-80",
+  "price": "329",
+  "regular_price": "329",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 701,
+      "name": "Washing Machines"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

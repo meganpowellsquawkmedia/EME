@@ -1,0 +1,24 @@
+{
+  "id": 990093,
+  "name": "Apple iPhone 17 Pro Max 256GB",
+  "slug": "apple-mfyn4qn-a",
+  "sku": "MFYN4QN/A",
+  "price": "1679",
+  "regular_price": "1679",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 767,
+      "name": "Mobile Phones"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": 700028,
+  "name": "Powerpoint Undercounter Fridge P467TTIBMDW",
+  "slug": "powerpoint-undercounter-fridge-p467ttibmdw",
+  "sku": "P467TTIBMDW",
+  "price": "129",
+  "regular_price": "129",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 713,
+      "name": "Undercounter"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/fridge-p467ttibmdw.jpg"
+    }
+  ],
+  "short_description": "",
+  "description": "Powerpoint undercounter fridge. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "hidden": false
+}

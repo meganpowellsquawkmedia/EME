@@ -1,0 +1,24 @@
+{
+  "id": 990019,
+  "name": "Indesit IDE6VMB — 60cm Freestanding Cooker",
+  "slug": "indesit-ide6vmb-cooker",
+  "sku": "IDE6VMB",
+  "price": "499",
+  "regular_price": "499",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 699,
+      "name": "Cooking"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/indesit-ide6vmb-cooker.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

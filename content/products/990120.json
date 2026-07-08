@@ -1,0 +1,24 @@
+{
+  "id": 990120,
+  "name": "Doro Leva L20",
+  "slug": "doro-leva-l20-8744",
+  "sku": "LEVA L20 8744",
+  "price": "109.99",
+  "regular_price": "109.99",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 766,
+      "name": "Landline & Cordless Phones"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

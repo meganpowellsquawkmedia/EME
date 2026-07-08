@@ -1,0 +1,24 @@
+{
+  "id": 990118,
+  "name": "Doro DECT 100W Duo 5551 Twin",
+  "slug": "doro-5551",
+  "sku": "5551",
+  "price": "79.99",
+  "regular_price": "79.99",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 766,
+      "name": "Landline & Cordless Phones"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

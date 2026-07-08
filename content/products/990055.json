@@ -1,0 +1,24 @@
+{
+  "id": 990055,
+  "name": "Hoover HBWR496B8G-80 — Washer Dryer",
+  "slug": "hoover-hbwr496b8g-80-washer-dryer",
+  "sku": "HBWR496B8G-80",
+  "price": "449",
+  "regular_price": "449",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 703,
+      "name": "Washer Dryer"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/placeholder-product.svg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

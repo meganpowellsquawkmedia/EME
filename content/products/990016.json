@@ -1,0 +1,24 @@
+{
+  "id": 990016,
+  "name": "Hotpoint HDE6VDCASB1 — 60cm Freestanding Cooker",
+  "slug": "hotpoint-hde6vdcasb1-cooker",
+  "sku": "HDE6VDCASB1",
+  "price": "699",
+  "regular_price": "699",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 699,
+      "name": "Cooking"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/hotpoint-hde6vdcasb1-cooker.jpg"
+    }
+  ],
+  "short_description": "In stock in store at 29 Church St, Dundalk.",
+  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
+  "hidden": false
+}

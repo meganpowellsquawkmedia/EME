@@ -108,34 +108,25 @@ def money(v):
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Load data
-P = json.load(open(RAW / "products.json"))
+# Products: one JSON file per product in content/products/ (edited via the CMS).
+# This is the single source of truth; the raw WooCommerce/supplier/fridge dumps
+# in content/raw/ are kept only as an archive/seed.
+P = []
+_PRODDIR = ROOT / "content" / "products"
+if _PRODDIR.exists():
+    for _f in sorted(_PRODDIR.glob("*.json")):
+        try:
+            _p = json.load(open(_f, encoding="utf-8"))
+        except Exception:
+            continue
+        if not _p.get("hidden"):
+            P.append(_p)
+
 C = json.load(open(RAW / "product_categories.json"))
 PAGES = json.load(open(RAW / "pages.json"))
-
-# Merge imported supplier (dropship) products + any new categories, if present.
-_sp = RAW / "supplier_products.json"
 _sc = RAW / "supplier_categories.json"
 if _sc.exists():
     C += json.load(open(_sc))
-if _sp.exists():
-    P += json.load(open(_sp))
-_fp = RAW / "fridge_products.json"          # rebuilt from EasyRetail stock take + dealer images
-if _fp.exists():
-    P += json.load(open(_fp))
-_mp = RAW / "manual_products.json"          # hand-added stock (new lines, awaiting real photo/price)
-if _mp.exists():
-    P += json.load(open(_mp))
-
-# Removed/cleared products. Optional CSV (product_id,...) — these are dropped
-# from the whole catalogue. Used to wipe a category for a fresh rebuild.
-REMOVED = set()
-_rmf = ROOT / "content" / "removed_products.csv"
-if _rmf.exists():
-    for _r in csv.DictReader(open(_rmf)):
-        if _r.get("product_id"):
-            REMOVED.add(str(_r["product_id"]))
-if REMOVED:
-    P = [p for p in P if str(p["id"]) not in REMOVED]
 
 # Quality gate: omit any product with no photo — no image, not shown on the site.
 _before = len(P)
@@ -177,25 +168,11 @@ for c in C:
     if c["id"] in PARENT_FIXES: c["parent"] = PARENT_FIXES[c["id"]]
     if c["id"] in NAME_FIXES:   c["name"]   = NAME_FIXES[c["id"]]
 
-# Per-product category overrides (recategorisation). product_id -> category_id.
-# Written by tools/recategorise_phones.py; replaces a product's categories.
+# Price & category are now baked into each content/products/<id>.json file
+# (edited via the CMS), so the old CSV overrides are retired — leaving them on
+# would clobber edits made through the admin.
 CATEGORY_OVERRIDES = {}
-_cof = ROOT / "content" / "category_overrides.csv"
-if _cof.exists():
-    for _r in csv.DictReader(open(_cof)):
-        if _r.get("category_id"):
-            CATEGORY_OVERRIDES[str(_r["product_id"])] = int(_r["category_id"])
-
-# Manual price overrides. Optional CSV: product_id,price (extra columns ignored).
-# Lets you set your own price for any product without editing the raw WP/supplier
-# data — keeps source data canonical and changes reversible. Leave file absent to
-# use each product's own price (WP price, or supplier RRP).
 OVERRIDES = {}
-_ovf = ROOT / "content" / "price_overrides.csv"
-if _ovf.exists():
-    for _r in csv.DictReader(open(_ovf)):
-        if _r.get("price"):
-            OVERRIDES[str(_r["product_id"])] = _r["price"]
 
 # Category image overrides: category slug (clean or original) -> image path/URL.
 # Lets us set a custom hero/card image for any category (e.g. phones -> iPhone).
