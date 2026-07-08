@@ -1976,5 +1976,1776 @@
     ],
     "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
     "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990091,
+    "name": "Amplicomms BigTel 50 Alarm Plus Big-Button Mobile",
+    "slug": "amplicomms-atl1424102",
+    "sku": "ATL1424102",
+    "price": "89.99",
+    "regular_price": "89.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990092,
+    "name": "Apple iPhone 17 Pro Max 256GB",
+    "slug": "apple-mfym4qn-a",
+    "sku": "MFYM4QN/A",
+    "price": "1679",
+    "regular_price": "1679",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990093,
+    "name": "Apple iPhone 17 Pro Max 256GB",
+    "slug": "apple-mfyn4qn-a",
+    "sku": "MFYN4QN/A",
+    "price": "1679",
+    "regular_price": "1679",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990094,
+    "name": "Apple iPhone 17 256GB",
+    "slug": "apple-mg6j4qn-a",
+    "sku": "MG6J4QN/A",
+    "price": "1099",
+    "regular_price": "1099",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990095,
+    "name": "Apple iPhone 17 256GB",
+    "slug": "apple-mg6l4qn-a",
+    "sku": "MG6L4QN/A",
+    "price": "1099",
+    "regular_price": "1099",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990096,
+    "name": "Apple iPhone 17 256GB",
+    "slug": "apple-mg6n4qn-a",
+    "sku": "MG6N4QN/A",
+    "price": "1099",
+    "regular_price": "1099",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990097,
+    "name": "Apple iPhone 17 Pro 256GB",
+    "slug": "apple-mg8h4qn-a",
+    "sku": "MG8H4QN/A",
+    "price": "1499",
+    "regular_price": "1499",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990098,
+    "name": "Apple iPhone 17e 256GB",
+    "slug": "apple-mhrv4qn-a",
+    "sku": "MHRV4QN/A",
+    "price": "829",
+    "regular_price": "829",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990099,
+    "name": "Apple iPhone 17e 256GB",
+    "slug": "apple-mhrx4qn-a",
+    "sku": "MHRX4QN/A",
+    "price": "829",
+    "regular_price": "829",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990100,
+    "name": "Apple MagSafe Wireless Charger",
+    "slug": "apple-mx2e2zm-a",
+    "sku": "MX2E2ZM/A",
+    "price": "29.99",
+    "regular_price": "29.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990101,
+    "name": "Apple iPhone 16 128GB",
+    "slug": "apple-mye73qn-a",
+    "sku": "MYE73QN/A",
+    "price": "929",
+    "regular_price": "929",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990102,
+    "name": "BT Studio 3500 Cordless Phone",
+    "slug": "bt-3500",
+    "sku": "3500",
+    "price": "44.95",
+    "regular_price": "44.95",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990103,
+    "name": "Doro 513C Corded Phone",
+    "slug": "doro-513c",
+    "sku": "513C",
+    "price": "19.95",
+    "regular_price": "19.95",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990104,
+    "name": "Doro 909C",
+    "slug": "doro-909c",
+    "sku": "909C",
+    "price": "16.99",
+    "regular_price": "16.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990105,
+    "name": "Doro 913C",
+    "slug": "doro-913c",
+    "sku": "913C",
+    "price": "26.99",
+    "regular_price": "26.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990106,
+    "name": "Doro 914C",
+    "slug": "doro-914c",
+    "sku": "914C",
+    "price": "34.99",
+    "regular_price": "34.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990107,
+    "name": "Doro DECT 920 Twin Set",
+    "slug": "doro-920",
+    "sku": "920",
+    "price": "59.99",
+    "regular_price": "59.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990108,
+    "name": "Doro Adapto 3 DECT Digital Cordless",
+    "slug": "doro-adapto3",
+    "sku": "ADAPTO3",
+    "price": "29.99",
+    "regular_price": "29.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990109,
+    "name": "Doro Adaptor 5R",
+    "slug": "doro-adapto5r",
+    "sku": "ADAPTO5R",
+    "price": "34.99",
+    "regular_price": "34.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990110,
+    "name": "Doro Congress 205",
+    "slug": "doro-congress205",
+    "sku": "CONGRESS205",
+    "price": "49.99",
+    "regular_price": "49.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990111,
+    "name": "Doro Form 30 DECT Digital Cordless",
+    "slug": "doro-form30",
+    "sku": "FORM30",
+    "price": "49.99",
+    "regular_price": "49.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990112,
+    "name": "Doro Neobio 15R+1",
+    "slug": "doro-neobio-15r-1",
+    "sku": "NEOBIO 15R+1",
+    "price": "59.99",
+    "regular_price": "59.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990113,
+    "name": "Doro Neobio 40",
+    "slug": "doro-neobio-40",
+    "sku": "NEOBIO 40",
+    "price": "59.99",
+    "regular_price": "59.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990114,
+    "name": "Doro WT87 Walkie Talkie",
+    "slug": "doro-wt87",
+    "sku": "WT87",
+    "price": "59.99",
+    "regular_price": "59.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990115,
+    "name": "Doro 311C",
+    "slug": "doro-311c-2685",
+    "sku": "311C 2685",
+    "price": "39.99",
+    "regular_price": "39.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990116,
+    "name": "Doro Comfort 4005 Combo Phone",
+    "slug": "doro-4005",
+    "sku": "4005",
+    "price": "79.99",
+    "regular_price": "79.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990117,
+    "name": "Doro Comfort 3000 Desk Corded",
+    "slug": "doro-comfort3000",
+    "sku": "COMFORT3000",
+    "price": "39.99",
+    "regular_price": "39.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990118,
+    "name": "Doro DECT 100W Duo 5551 Twin",
+    "slug": "doro-5551",
+    "sku": "5551",
+    "price": "79.99",
+    "regular_price": "79.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990119,
+    "name": "Doro DECT 100W 5543",
+    "slug": "doro-5543",
+    "sku": "5543",
+    "price": "49.99",
+    "regular_price": "49.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990120,
+    "name": "Doro Leva L20",
+    "slug": "doro-leva-l20-8744",
+    "sku": "LEVA L20 8744",
+    "price": "109.99",
+    "regular_price": "109.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990121,
+    "name": "Doro Leva L30",
+    "slug": "doro-leva-l30-8747",
+    "sku": "LEVA L30 8747",
+    "price": "124.99",
+    "regular_price": "124.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990122,
+    "name": "Eircom 6000S Single",
+    "slug": "eircom-6000s",
+    "sku": "6000S",
+    "price": "49.95",
+    "regular_price": "49.95",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990123,
+    "name": "Eircom 6000T Twin Set",
+    "slug": "eircom-6000t",
+    "sku": "6000T",
+    "price": "79.95",
+    "regular_price": "79.95",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990124,
+    "name": "Emporia F88001 Flip Phone",
+    "slug": "emporia-f88001uk",
+    "sku": "F88001UK",
+    "price": "54.99",
+    "regular_price": "54.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990125,
+    "name": "Emporia GD61AB DECT Phone",
+    "slug": "emporia-gd61ab-uk",
+    "sku": "GD61AB-UK",
+    "price": "74.99",
+    "regular_price": "74.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990126,
+    "name": "Emporia GD61 DECT Phone",
+    "slug": "emporia-gd61-uk",
+    "sku": "GD61-UK",
+    "price": "69.99",
+    "regular_price": "69.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990127,
+    "name": "Emporia KFT20",
+    "slug": "emporia-kft20-uk",
+    "sku": "KFT20-UK",
+    "price": "59.99",
+    "regular_price": "59.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990128,
+    "name": "Emporia 4G Smart Phone",
+    "slug": "emporia-s3m-001",
+    "sku": "S3M-001",
+    "price": "99.99",
+    "regular_price": "99.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990129,
+    "name": "Emporia TH-21ABB DECT Phone",
+    "slug": "emporia-th-21abb-uk",
+    "sku": "TH-21ABB-UK",
+    "price": "99",
+    "regular_price": "99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990130,
+    "name": "Emporia V27 4G Phone",
+    "slug": "emporia-v27-uk",
+    "sku": "V27-UK",
+    "price": "59.99",
+    "regular_price": "59.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990131,
+    "name": "Lelux 203R Babysitter Phone",
+    "slug": "lelux-phlel203r",
+    "sku": "PHLEL203R",
+    "price": "25",
+    "regular_price": "25",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990132,
+    "name": "Lelux 656 Speakerphone",
+    "slug": "lelux-656",
+    "sku": "656",
+    "price": "24.99",
+    "regular_price": "24.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990133,
+    "name": "Motorola W377 FTC",
+    "slug": "motorola-w377ftc",
+    "sku": "W377FTC",
+    "price": "29",
+    "regular_price": "29",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990134,
+    "name": "Motorola WX160 Simfree",
+    "slug": "motorola-wx160",
+    "sku": "WX160",
+    "price": "29.99",
+    "regular_price": "29.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990135,
+    "name": "Panasonic KX-TG1100 Single",
+    "slug": "panasonic-kx-tg1100",
+    "sku": "KX-TG1100",
+    "price": "49.99",
+    "regular_price": "49.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990136,
+    "name": "Panasonic KX-TG6811 DECT",
+    "slug": "panasonic-kx-tg6811",
+    "sku": "KX-TG6811",
+    "price": "59.99",
+    "regular_price": "59.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990137,
+    "name": "Panasonic KX-TG6813 DECT Triple",
+    "slug": "panasonic-kx-tg6813",
+    "sku": "KX-TG6813",
+    "price": "99",
+    "regular_price": "99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990138,
+    "name": "Panasonic KX-TG6821 DECT",
+    "slug": "panasonic-kx-tg6821",
+    "sku": "KX-TG6821",
+    "price": "74.99",
+    "regular_price": "74.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990139,
+    "name": "Panasonic KX-TG6822 DECT Twin with Answer",
+    "slug": "panasonic-kx-tg6822",
+    "sku": "KX-TG6822",
+    "price": "119.99",
+    "regular_price": "119.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990140,
+    "name": "Panasonic KX-TG6824 DECT Quad",
+    "slug": "panasonic-kx-tg6824",
+    "sku": "KX-TG6824",
+    "price": "149",
+    "regular_price": "149",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990141,
+    "name": "Panasonic KX-TGB610 DECT",
+    "slug": "panasonic-kx-tgb610",
+    "sku": "KX-TGB610",
+    "price": "39.99",
+    "regular_price": "39.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990142,
+    "name": "Panasonic KX-TGB612 DECT Double",
+    "slug": "panasonic-kx-tgb612",
+    "sku": "KX-TGB612",
+    "price": "69.99",
+    "regular_price": "69.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990143,
+    "name": "Panasonic KX-TGC222 DECT",
+    "slug": "panasonic-kx-tgc222",
+    "sku": "KX-TGC222",
+    "price": "69.99",
+    "regular_price": "69.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990144,
+    "name": "Panasonic KX-TGC260 DECT",
+    "slug": "panasonic-kx-tgc260",
+    "sku": "KX-TGC260",
+    "price": "54.99",
+    "regular_price": "54.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990145,
+    "name": "Panasonic KX-TGC262 DECT",
+    "slug": "panasonic-kx-tgc262",
+    "sku": "KX-TGC262",
+    "price": "79.99",
+    "regular_price": "79.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990146,
+    "name": "Panasonic KX-TGE110 DECT",
+    "slug": "panasonic-kx-tge110",
+    "sku": "KX-TGE110",
+    "price": "59.99",
+    "regular_price": "59.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990147,
+    "name": "Panasonic KX-TGE112 DECT",
+    "slug": "panasonic-kx-tge112",
+    "sku": "KX-TGE112",
+    "price": "89.99",
+    "regular_price": "89.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990148,
+    "name": "Panasonic KX-TGF320 DECT & Desk",
+    "slug": "panasonic-kx-tgf320",
+    "sku": "KX-TGF320",
+    "price": "139.99",
+    "regular_price": "139.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990149,
+    "name": "Powerplus 9053",
+    "slug": "powerplus-9053",
+    "sku": "9053",
+    "price": "24.99",
+    "regular_price": "24.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990150,
+    "name": "Redmi Note 14 Pro 5G",
+    "slug": "redmi-mzb018beu",
+    "sku": "MZB018BEU",
+    "price": "349.99",
+    "regular_price": "349.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990151,
+    "name": "Redmi Note 14",
+    "slug": "redmi-mzb0j01eu",
+    "sku": "MZB0J01EU",
+    "price": "199",
+    "regular_price": "199",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990152,
+    "name": "Redmi A5",
+    "slug": "redmi-mzb0jteeu",
+    "sku": "MZB0JTEEU",
+    "price": "109.99",
+    "regular_price": "109.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990153,
+    "name": "Redmi Note 15",
+    "slug": "redmi-mzb0m8geu",
+    "sku": "MZB0M8GEU",
+    "price": "199.99",
+    "regular_price": "199.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990154,
+    "name": "Redmi 12GB 512GB",
+    "slug": "redmi-mzb0mj6eu",
+    "sku": "MZB0MJ6EU",
+    "price": "549",
+    "regular_price": "549",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990155,
+    "name": "Sagem BT On-Air 2100",
+    "slug": "sagem-bt2100",
+    "sku": "BT2100",
+    "price": "49.99",
+    "regular_price": "49.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990156,
+    "name": "Samsung Galaxy A04 32GB",
+    "slug": "samsung-sm-a047fzwueub",
+    "sku": "SM-A047FZWUEUB",
+    "price": "199",
+    "regular_price": "199",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990157,
+    "name": "Samsung Galaxy A16 4GB 128GB",
+    "slug": "samsung-sm-a165fzkbeub",
+    "sku": "SM-A165FZKBEUB",
+    "price": "199",
+    "regular_price": "199",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990158,
+    "name": "Samsung Galaxy A17 5G 4GB 128GB",
+    "slug": "samsung-sm-a176bzkaeub",
+    "sku": "SM-A176BZKAEUB",
+    "price": "259.99",
+    "regular_price": "259.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990159,
+    "name": "Samsung Galaxy A27 6GB 128GB",
+    "slug": "samsung-sm-a276bzkbeub",
+    "sku": "SM-A276BZKBEUB",
+    "price": "379",
+    "regular_price": "379",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990160,
+    "name": "Samsung Galaxy A36 256GB",
+    "slug": "samsung-sm-a366bzkgeub",
+    "sku": "SM-A366BZKGEUB",
+    "price": "479.99",
+    "regular_price": "479.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990161,
+    "name": "Samsung Galaxy A57 8GB 256GB",
+    "slug": "samsung-sm-a576bdbdeub",
+    "sku": "SM-A576BDBDEUB",
+    "price": "649",
+    "regular_price": "649",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990162,
+    "name": "Samsung Galaxy S25 256GB",
+    "slug": "samsung-sm-s942bzkgeub",
+    "sku": "SM-S942BZKGEUB",
+    "price": "1079",
+    "regular_price": "1079",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990163,
+    "name": "Bilbao Tel UK 18008B",
+    "slug": "tel-uk-18008b",
+    "sku": "18008B",
+    "price": "18.99",
+    "regular_price": "18.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990164,
+    "name": "Topcom TS-6650",
+    "slug": "topcom-ts-6650",
+    "sku": "TS-6650",
+    "price": "29.99",
+    "regular_price": "29.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990165,
+    "name": "Uniden CE7203",
+    "slug": "uniden-ce7203",
+    "sku": "CE7203",
+    "price": "24.99",
+    "regular_price": "24.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990166,
+    "name": "Uniden CE8102",
+    "slug": "uniden-ce8102",
+    "sku": "CE8102",
+    "price": "19.99",
+    "regular_price": "19.99",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 766,
+        "name": "Landline & Cordless Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
+  },
+  {
+    "id": 990167,
+    "name": "Xiaomi 15T",
+    "slug": "xiaomi-mzb0ky5eu",
+    "sku": "MZB0KY5EU",
+    "price": "449",
+    "regular_price": "449",
+    "sale_price": "",
+    "stock_status": "instock",
+    "categories": [
+      {
+        "id": 767,
+        "name": "Mobile Phones"
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/placeholder-product.svg"
+      }
+    ],
+    "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
+    "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed \u2014 call or message us to check availability or arrange collection/delivery.</p>"
   }
 ]

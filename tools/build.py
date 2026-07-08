@@ -157,6 +157,8 @@ PARENT_FIXES = {
     985: 718, 1024: 718, 1036: 718, 1451: 718, 1405: 718, 969: 718,
     # → Technology (690): promote it to top-level, then nest tech under it
     690: 0, 727: 690, 691: 690, 990001: 690, 695: 690, 1480: 690, 990002: 690,
+    766: 690,        # Landline & Cordless Phones -> under Technology
+    767: 0,          # Mobile Phones -> its own top-level department
     # → Garden & DIY (1419)
     1525: 1419, 1527: 1419, 1528: 1419, 1529: 1419,
     # → Home Appliances (696)
