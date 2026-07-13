@@ -114,7 +114,7 @@ def money(v):
 P = []
 _PRODDIR = ROOT / "content" / "products"
 if _PRODDIR.exists():
-    for _f in sorted(_PRODDIR.glob("*.json")):
+    for _f in sorted(_PRODDIR.rglob("*.json")):   # recurse category subfolders
         try:
             _p = json.load(open(_f, encoding="utf-8"))
         except Exception:
