@@ -1,6 +1,10 @@
 # Pages CMS configuration — the visual admin David logs into (app.pagescms.org).
-# Defines one editable "card" per product, backed by content/products/<id>.json.
+# One editable "card" per product, backed by content/products/<id>.json.
 # Photos uploaded here land in assets/img and are referenced as /assets/img/...
+#
+# NOTE: the panel's own look (colours/logo/layout) is Pages CMS's hosted app and
+# can't be reskinned. Everything below shapes the *editing experience* — labels,
+# help text, field order, and the product-list view.
 
 media:
   input: assets/img
@@ -10,31 +14,56 @@ media:
 content:
   - name: products
     label: Products
+    description: Every product on the site. Search by name or model, then click to edit.
     type: collection
     path: content/products
     format: json
     filename: "{fields.id}.json"
-    # Columns shown in the searchable product list:
+    # The searchable product list (what David sees first):
     view:
       fields: [name, sku, price, hidden]
       primary: name
-      sort: [name, price]
+      sort: [name, price, sku]
+      search: [name, sku]
     fields:
-      - { name: name, label: Product name, type: string }
-      - { name: sku, label: Model number, type: string }
-      - { name: price, label: Price (€), type: string, description: "Numbers only, e.g. 599 or 129.99" }
+      # ── Everyday edits (top) ─────────────────────────────
+      - name: name
+        label: Product name
+        type: string
+      - name: price
+        label: Price (€)
+        type: string
+        description: "Numbers only — e.g. 599 or 129.99. No € sign."
       - name: images
         label: Photo
         type: object
         list: true
+        description: "Upload the product photo here (one is enough)."
         fields:
           - { name: src, label: Image, type: image }
-      - { name: description, label: Description, type: rich-text }
-      - { name: hidden, label: Hide from website, type: boolean, default: false }
-      # --- kept so nothing is lost on save; rarely need editing ---
-      - { name: categories, label: Category, type: object, list: true, fields: [ { name: id, label: ID, type: number }, { name: name, label: Name, type: string } ] }
-      - { name: id, label: Internal ID, type: number }
-      - { name: slug, label: URL slug, type: string }
-      - { name: regular_price, type: string }
-      - { name: sale_price, type: string }
-      - { name: stock_status, type: string, default: instock }
+      - name: hidden
+        label: Hide from website
+        type: boolean
+        default: false
+        description: "Turn on to take this off the site (e.g. sold out) without deleting it."
+      - name: sku
+        label: Model number
+        type: string
+      - name: description
+        label: Description
+        type: rich-text
+        description: "Optional — appears on the product page."
+      # ── Internal / rarely touched (bottom) ───────────────
+      - name: categories
+        label: Category (advanced)
+        type: object
+        list: true
+        description: "Which section it appears in. Usually leave as-is."
+        fields:
+          - { name: id, label: Category ID, type: number }
+          - { name: name, label: Category name, type: string }
+      - { name: id, label: Internal ID (do not change), type: number }
+      - { name: slug, label: URL slug (do not change), type: string }
+      - { name: regular_price, label: Regular price, type: string }
+      - { name: sale_price, label: Sale price, type: string }
+      - { name: stock_status, label: Stock status, type: string, default: instock }
