@@ -1,0 +1,50 @@
+name: Rebuild & deploy site
+
+# Fires when catalogue data / templates / assets change (e.g. David saves an
+# edit in the admin, which commits to content/products/). Rebuilds the static
+# site and commits the generated pages back so GitHub Pages serves them.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "assets/**"
+      - "tools/**"
+      - ".pages.yml"
+  workflow_dispatch:
+
+# Prevent overlapping runs stomping on each other.
+concurrency:
+  group: site-build
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      # Served from the /EME/ project subpath, so links need the base prefix.
+      - name: Build catalogue
+        run: BASE_PATH=/EME python3 tools/build.py
+
+      - name: Commit generated site
+        run: |
+          git config user.name  "eme-site-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "Rebuild site [skip ci]"
+            git push
+          fi
+        # Pushes made with the default GITHUB_TOKEN do NOT trigger another
+        # workflow run, so this can't loop.
