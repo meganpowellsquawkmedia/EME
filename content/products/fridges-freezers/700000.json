@@ -1,24 +1,22 @@
 {
-  "id": 700000,
-  "name": "Bosch Fridge Freezer KGV33VLEAG",
-  "slug": "bosch-fridge-freezer-kgv33vleag",
-  "sku": "KGV33VLEAG",
+  "name": "Bosch Fridge Freezer KGV33VLEAG ",
   "price": "529",
-  "regular_price": "529",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/fridge-kgv33vleag.jpg"
+    }
+  ],
+  "hidden": false,
+  "sku": "KGV33VLEAG",
+  "description": "Bosch fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
   "categories": [
     {
       "id": 714,
       "name": "Fridge Freezer"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/img/fridge-kgv33vleag.jpg"
-    }
-  ],
-  "short_description": "",
-  "description": "Bosch fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "id": 700000,
+  "slug": "bosch-fridge-freezer-kgv33vleag",
+  "regular_price": "529",
+  "stock_status": "instock"
 }
