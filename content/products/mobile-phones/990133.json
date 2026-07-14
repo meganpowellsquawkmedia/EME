@@ -1,24 +1,22 @@
 {
-  "id": 990133,
   "name": "Motorola W377 FTC",
-  "slug": "motorola-w377ftc",
-  "sku": "W377FTC",
   "price": "29",
-  "regular_price": "29",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/41mCAu-m+YL._AC_UF1000,1000_QL80_.jpg"
+    }
+  ],
+  "hidden": false,
+  "sku": "W377FTC",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990133,
+  "slug": "motorola-w377ftc",
+  "regular_price": "29",
+  "stock_status": "instock"
 }
