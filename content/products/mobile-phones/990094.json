@@ -1,24 +1,22 @@
 {
-  "id": 990094,
-  "name": "Apple iPhone 17 256GB",
-  "slug": "apple-mg6j4qn-a",
-  "sku": "MG6J4QN/A",
+  "name": "Apple iPhone 17 - Silver 256GB",
   "price": "1099",
-  "regular_price": "1099",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/61LFeKye45L._AC_UF1000,1000_QL80_.jpg"
+    }
+  ],
+  "hidden": false,
+  "sku": "MG6J4QN/A",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990094,
+  "slug": "apple-mg6j4qn-a",
+  "regular_price": "1099",
+  "stock_status": "instock"
 }
