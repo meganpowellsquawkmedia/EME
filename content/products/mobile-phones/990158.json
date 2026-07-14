@@ -1,24 +1,22 @@
 {
-  "id": 990158,
-  "name": "Samsung Galaxy A17 5G 4GB 128GB",
-  "slug": "samsung-sm-a176bzkaeub",
-  "sku": "SM-A176BZKAEUB",
+  "name": "Samsung Galaxy A17 | 5G 4GB 128GB",
   "price": "259.99",
-  "regular_price": "259.99",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/samsung-sm-a176bzkaeub.webp"
+    }
+  ],
+  "hidden": false,
+  "sku": "SM-A176BZKAEUB",
+  "description": "In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/img/samsung-sm-a176bzkaeub.webp"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990158,
+  "slug": "samsung-sm-a176bzkaeub",
+  "regular_price": "259.99",
+  "stock_status": "instock"
 }
