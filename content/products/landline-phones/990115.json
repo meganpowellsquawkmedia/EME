@@ -1,24 +1,22 @@
 {
-  "id": 990115,
   "name": "Doro 311C",
-  "slug": "doro-311c-2685",
-  "sku": "311C 2685",
   "price": "39.99",
-  "regular_price": "39.99",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/DORO 311C.jpg"
+    }
+  ],
+  "hidden": false,
+  "sku": "311C 2685",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 766,
       "name": "Landline & Cordless Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990115,
+  "slug": "doro-311c-2685",
+  "regular_price": "39.99",
+  "stock_status": "instock"
 }
