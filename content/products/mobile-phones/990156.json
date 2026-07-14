@@ -1,24 +1,22 @@
 {
-  "id": 990156,
   "name": "Samsung Galaxy A04 32GB",
-  "slug": "samsung-sm-a047fzwueub",
-  "sku": "SM-A047FZWUEUB",
   "price": "199",
-  "regular_price": "199",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/samsung-galaxy-a04s-1673512832.webp"
+    }
+  ],
+  "hidden": false,
+  "sku": "SM-A047FZWUEUB",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990156,
+  "slug": "samsung-sm-a047fzwueub",
+  "regular_price": "199",
+  "stock_status": "instock"
 }
