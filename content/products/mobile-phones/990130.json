@@ -1,24 +1,22 @@
 {
-  "id": 990130,
   "name": "Emporia V27 4G Phone",
-  "slug": "emporia-v27-uk",
-  "sku": "V27-UK",
   "price": "59.99",
-  "regular_price": "59.99",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/emporia-simplicty-v27-v3-negro.jpg"
+    }
+  ],
+  "hidden": false,
+  "sku": "V27-UK",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990130,
+  "slug": "emporia-v27-uk",
+  "regular_price": "59.99",
+  "stock_status": "instock"
 }
