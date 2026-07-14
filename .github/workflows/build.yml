@@ -26,6 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so `git pull --rebase` works on retry
 
       - uses: actions/setup-python@v5
         with:
@@ -35,16 +37,32 @@ jobs:
       - name: Build catalogue
         run: BASE_PATH=/EME python3 tools/build.py
 
-      - name: Commit generated site
+      - name: Commit & publish generated site
         run: |
           git config user.name  "eme-site-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No changes to publish."
-          else
+          # Retry loop: a near-simultaneous CMS edit (or another rebuild run)
+          # can advance main between our checkout and our push, which would
+          # reject the push. On rejection we re-sync to the latest source and
+          # rebuild, so no edit is ever left un-published. The generated site
+          # is a pure function of the source, so rebuilding after a pull is safe.
+          for attempt in 1 2 3 4 5; do
+            git add -A
+            if git diff --cached --quiet; then
+              echo "No changes to publish."
+              exit 0
+            fi
             git commit -m "Rebuild site [skip ci]"
-            git push
-          fi
+            if git push; then
+              echo "Published on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — syncing with origin and rebuilding."
+            git reset --hard HEAD~1
+            git pull --rebase origin main
+            BASE_PATH=/EME python3 tools/build.py
+          done
+          echo "Failed to publish after 5 attempts." >&2
+          exit 1
         # Pushes made with the default GITHUB_TOKEN do NOT trigger another
         # workflow run, so this can't loop.
