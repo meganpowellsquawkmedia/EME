@@ -1,24 +1,22 @@
 {
-  "id": 990099,
-  "name": "Apple iPhone 17e 256GB",
-  "slug": "apple-mhrx4qn-a",
-  "sku": "MHRX4QN/A",
+  "name": "Apple iPhone 17e | Black | 256GB",
   "price": "829",
-  "regular_price": "829",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/iphone-17e-1772517234998067839.webp"
+    }
+  ],
+  "hidden": false,
+  "sku": "MHRX4QN/A",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990099,
+  "slug": "apple-mhrx4qn-a",
+  "regular_price": "829",
+  "stock_status": "instock"
 }
