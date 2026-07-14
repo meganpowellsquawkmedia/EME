@@ -1,24 +1,22 @@
 {
-  "id": 990134,
   "name": "Motorola WX160 Simfree",
-  "slug": "motorola-wx160",
-  "sku": "WX160",
   "price": "29.99",
-  "regular_price": "29.99",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/motorola-wx160-sim-free-unlocked-mobile-phone-400.jpg"
+    }
+  ],
+  "hidden": false,
+  "sku": "WX160",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990134,
+  "slug": "motorola-wx160",
+  "regular_price": "29.99",
+  "stock_status": "instock"
 }
