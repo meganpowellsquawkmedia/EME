@@ -1,24 +1,22 @@
 {
-  "id": 990128,
   "name": "Emporia 4G Smart Phone",
-  "slug": "emporia-s3m-001",
-  "sku": "S3M-001",
   "price": "99.99",
-  "regular_price": "99.99",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/emporiasmart7lite-e7ltv1bk01-easy-to-use-smart-phone-for-seniors-545-inch-display-black.webp"
+    }
+  ],
+  "hidden": false,
+  "sku": "S3M-001",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990128,
+  "slug": "emporia-s3m-001",
+  "regular_price": "99.99",
+  "stock_status": "instock"
 }
