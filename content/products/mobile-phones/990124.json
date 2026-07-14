@@ -1,24 +1,22 @@
 {
-  "id": 990124,
   "name": "Emporia F88001 Flip Phone",
-  "slug": "emporia-f88001uk",
-  "sku": "F88001UK",
   "price": "54.99",
-  "regular_price": "54.99",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/emporia-talkglam-f88-flip-mobile-phone-black-or-f88_001__97755.png"
+    }
+  ],
+  "hidden": false,
+  "sku": "F88001UK",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990124,
+  "slug": "emporia-f88001uk",
+  "regular_price": "54.99",
+  "stock_status": "instock"
 }
