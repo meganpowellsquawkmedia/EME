@@ -1,24 +1,22 @@
 {
-  "id": 990098,
-  "name": "Apple iPhone 17e 256GB",
-  "slug": "apple-mhrv4qn-a",
-  "sku": "MHRV4QN/A",
+  "name": "Apple iPhone 17e | Soft Pink | 256GB",
   "price": "829",
-  "regular_price": "829",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/iphone-17e-1772517226751133214.webp"
+    }
+  ],
+  "hidden": false,
+  "sku": "MHRV4QN/A",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990098,
+  "slug": "apple-mhrv4qn-a",
+  "regular_price": "829",
+  "stock_status": "instock"
 }
