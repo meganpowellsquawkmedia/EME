@@ -1,24 +1,22 @@
 {
-  "id": 990159,
-  "name": "Samsung Galaxy A27 6GB 128GB",
-  "slug": "samsung-sm-a276bzkbeub",
-  "sku": "SM-A276BZKBEUB",
+  "name": "Samsung Galaxy A27 | 6GB 128GB",
   "price": "379",
-  "regular_price": "379",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/SM-A276BZKBEUB.webp"
+    }
+  ],
+  "hidden": false,
+  "sku": "SM-A276BZKBEUB",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990159,
+  "slug": "samsung-sm-a276bzkbeub",
+  "regular_price": "379",
+  "stock_status": "instock"
 }
