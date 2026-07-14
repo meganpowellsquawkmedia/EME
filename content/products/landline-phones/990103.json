@@ -1,24 +1,22 @@
 {
-  "id": 990103,
   "name": "Doro 513C Corded Phone",
-  "slug": "doro-513c",
+  "price": "19.99",
+  "images": [
+    {
+      "src": "/assets/img/Doro 513C Corded Phone .jpg"
+    }
+  ],
+  "hidden": false,
   "sku": "513C",
-  "price": "19.95",
-  "regular_price": "19.95",
-  "sale_price": "",
-  "stock_status": "instock",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 766,
       "name": "Landline & Cordless Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990103,
+  "slug": "doro-513c",
+  "regular_price": "19.95",
+  "stock_status": "instock"
 }
