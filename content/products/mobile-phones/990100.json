@@ -1,24 +1,22 @@
 {
-  "id": 990100,
   "name": "Apple MagSafe Wireless Charger",
-  "slug": "apple-mx2e2zm-a",
-  "sku": "MX2E2ZM/A",
   "price": "29.99",
-  "regular_price": "29.99",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/MGD74.jpeg"
+    }
+  ],
+  "hidden": false,
+  "sku": "MX2E2ZM/A",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990100,
+  "slug": "apple-mx2e2zm-a",
+  "regular_price": "29.99",
+  "stock_status": "instock"
 }
