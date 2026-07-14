@@ -1,24 +1,22 @@
 {
-  "id": 990163,
   "name": "Bilbao Tel UK 18008B",
-  "slug": "tel-uk-18008b",
-  "sku": "18008B",
   "price": "18.99",
-  "regular_price": "18.99",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/ Bilbao Tel UK 18008B.jpg"
+    }
+  ],
+  "hidden": false,
+  "sku": "18008B",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 766,
       "name": "Landline & Cordless Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990163,
+  "slug": "tel-uk-18008b",
+  "regular_price": "18.99",
+  "stock_status": "instock"
 }
