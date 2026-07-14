@@ -1,0 +1,23 @@
+{
+  "name": "cornflakes",
+  "price": "999",
+  "images": [
+    {
+      "src": "/assets/img/Screenshot 2026-07-13 at 9.52.55 PM.png"
+    }
+  ],
+  "hidden": false,
+  "sku": "69420",
+  "description": "- 1\n- 2\n- \n\n",
+  "categories": [
+    {
+      "id": 0,
+      "name": "Dishwashers"
+    }
+  ],
+  "id": 69420,
+  "slug": "cornflakes",
+  "regular_price": "999",
+  "sale_price": "599",
+  "stock_status": "instock"
+}
