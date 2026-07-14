@@ -1040,3 +1040,98 @@
   .fdrop-panel { min-width: 200px; }
   .fdrop-panel.price-panel, .filters .fdrop:nth-last-child(3) .fdrop-panel { left: 0; }
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   LIGHT THEME · iOS liquid-glass  (overrides the dark rules above)
+   ═══════════════════════════════════════════════════════════════════ */
+:root {
+  --dark:   #EBE7DF;   /* page background — warm off-white (not pure white) */
+  --dark-2: #FFFFFF;   /* solid surface fallback */
+  --dark-3: #F1EEE8;   /* subtle surface (inputs/chips) */
+  --cream:  #1E1712;   /* headings — near-black warm */
+  --muted:  #857C71;   /* muted text */
+  --text:   #322B24;   /* body text */
+  --glass:      rgba(255,255,255,0.55);
+  --glass-2:    rgba(255,255,255,0.72);
+  --glass-panel:rgba(255,255,255,0.82);
+  --glass-brd:  rgba(255,255,255,0.8);
+  --hair:       rgba(30,23,18,0.09);
+  --gshadow:    0 10px 34px rgba(80,66,52,0.12);
+}
+body {
+  color: var(--text);
+  background:
+    radial-gradient(60vw 55vh at 10% -5%, rgba(232,114,12,0.08), transparent 55%),
+    radial-gradient(55vw 55vh at 95% 105%, rgba(88,118,196,0.06), transparent 55%),
+    #EBE7DF;
+  background-attachment: fixed;
+}
+header {
+  background: rgba(255,255,255,0.62);
+  backdrop-filter: blur(22px) saturate(180%);
+  -webkit-backdrop-filter: blur(22px) saturate(180%);
+  border-bottom: 1px solid var(--hair);
+  box-shadow: 0 2px 24px rgba(80,66,52,0.07);
+}
+nav a { color: var(--text); }
+.hamburger span { background: var(--text); }
+.phero { background: #EBE7DF; }
+.phero-glow, .phero-img-glow {
+  background: radial-gradient(ellipse at center, rgba(232,114,12,0.5) 0%, rgba(232,114,12,0.2) 40%, rgba(232,114,12,0) 72%);
+}
+.product-card, .cat-chip {
+  background: var(--glass);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border: 1px solid var(--glass-brd);
+  box-shadow: var(--gshadow);
+}
+.product-card:hover, .cat-chip:hover {
+  border-color: rgba(232,114,12,0.45);
+  box-shadow: 0 16px 42px rgba(80,66,52,0.17);
+}
+.product-thumb { background: #fff; }
+.filters { border-bottom: 1px solid var(--hair); }
+.fdrop-btn, .fsort-inline, .f-price, #fsort {
+  background: var(--glass-2);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--hair); color: var(--text);
+}
+.fdrop-btn:hover, .fdrop.open .fdrop-btn { border-color: var(--orange); }
+.fdrop-panel {
+  background: var(--glass-panel);
+  backdrop-filter: blur(24px) saturate(180%); -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid var(--glass-brd); box-shadow: var(--gshadow);
+}
+.brand-chip { background: rgba(255,255,255,0.6); border: 1px solid var(--hair); color: var(--text); }
+.brand-chip:hover { border-color: var(--orange); }
+.brand-chip.on { background: var(--orange); color: #fff; border-color: var(--orange); }
+.f-clear { border: 1px solid var(--hair); color: var(--muted); }
+.f-clear:hover { color: var(--orange); border-color: var(--orange); }
+.cat-card-title, .cat-hero-content h1 { color: #F7F4EF; }
+.cat-hero-content .count { color: rgba(255,255,255,0.85); }
+.pdp-gallery { background: #fff; border: 1px solid var(--glass-brd); box-shadow: var(--gshadow); }
+.pdp-thumbs img { background: #fff; border: 1px solid var(--hair); }
+.note-instore { background: rgba(255,255,255,0.6); border-left: 3px solid var(--orange); color: var(--text); }
+.about { background: rgba(255,255,255,0.45); }
+.about-stats .stat { background: rgba(255,255,255,0.6); }
+.gifts-banner { background: transparent; }
+.gift-panel:first-child { background: rgba(255,255,255,0.5); border-right: 1px solid var(--hair); }
+.gift-panel:last-child { background: rgba(255,255,255,0.4); }
+.gift-panel:hover { background: rgba(232,114,12,0.08); }
+.contact-block { background: rgba(255,255,255,0.55); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid var(--glass-brd); }
+footer {
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(20px) saturate(160%); -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border-top: 1px solid var(--hair);
+}
+.footer-bottom { border-top: 1px solid var(--hair); }
+@media (max-width: 900px) {
+  nav {
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(24px) saturate(180%); -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border-bottom: 1px solid var(--hair);
+    box-shadow: 0 24px 46px rgba(80,66,52,0.16);
+  }
+  nav a { border-bottom: 1px solid var(--hair); }
+}
