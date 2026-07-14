@@ -1,8 +1,10 @@
 {
-  "name": "Apple iPhone 17 256GB",
+  "name": "Apple iPhone 17 - Lavender 256GB",
   "price": "1099",
   "images": [
-    {}
+    {
+      "src": "/assets/img/iphone-17-1757482031693359200.webp"
+    }
   ],
   "hidden": false,
   "sku": "MG6N4QN/A",
