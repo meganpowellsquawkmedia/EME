@@ -1,24 +1,22 @@
 {
-  "id": 990154,
-  "name": "Redmi 12GB 512GB",
-  "slug": "redmi-mzb0mj6eu",
-  "sku": "MZB0MJ6EU",
+  "name": "Redmi Note 15 Pro+ | Mocha Brown | 12GB 512GB",
   "price": "549",
-  "regular_price": "549",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/images (1).jpeg"
+    }
+  ],
+  "hidden": true,
+  "sku": "MZB0MJ6EU",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 767,
       "name": "Mobile Phones"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990154,
+  "slug": "redmi-mzb0mj6eu",
+  "regular_price": "549",
+  "stock_status": "instock"
 }
