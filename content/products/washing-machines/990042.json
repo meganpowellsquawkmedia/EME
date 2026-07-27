@@ -1,24 +1,22 @@
 {
-  "id": 990042,
-  "name": "Beko BM1WT3721S — Washing Machine",
-  "slug": "beko-bm1wt3721s-washing-machines",
-  "sku": "BM1WT3721S",
+  "name": "Beko 7KG 1200 Spin Washing Machine - Silver | BM1WT3721S",
   "price": "429",
-  "regular_price": "429",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/Beko BM1WT3721S — Washing Machine.webp"
+    }
+  ],
+  "hidden": false,
+  "sku": "BM1WT3721S",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 701,
       "name": "Washing Machines"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990042,
+  "slug": "beko-bm1wt3721s-washing-machines",
+  "regular_price": "429",
+  "stock_status": "instock"
 }
