@@ -615,27 +615,54 @@ def build_home():
   <div class="cat-card-content"><span class="cat-card-tag">{esc(tag)}</span><div class="cat-card-title">{esc(html.unescape(t['name']))}</div></div>
   <div class="cat-card-arrow">→</div>
 </a>"""
+    # Circular "browse by category" row — coherent single-type departments only
+    # (no broad "Home Appliances" grab-bag as a destination).
+    FEATURED = [
+        ("cooking",       "Cookers"),
+        ("refrigeration", "Fridges &amp; Freezers"),
+        ("laundry",       "Washing &amp; Drying"),
+        ("dishwashers",   "Dishwashers"),
+        ("mobile-phones", "Phones"),
+    ]
+    browse_items = "".join(
+        f'<a class="browse-item" href="/category/{slug}/">'
+        f'<span class="browse-circle"><img src="/assets/dept/{slug}.png" alt="{lbl}" loading="lazy"></span>'
+        f'<span class="browse-label">{lbl}</span></a>'
+        for slug, lbl in FEATURED
+    ) + ('<a class="browse-item" href="/category/">'
+         '<span class="browse-circle browse-circle--more">→</span>'
+         '<span class="browse-label">All categories</span></a>')
     body = f"""{header()}
-<section class="phero">
-  <div class="phero-inner">
-    <div class="phero-text">
-      <div class="hero-eyebrow">Home Appliances — Dundalk</div>
-      <h1>Big brands for<br>every <span>home.</span></h1>
-      <p>Fridges, cookers, washing machines &amp; dishwashers from the brands you trust — at local prices. Browse online, then call in or message us in store.</p>
-      <div class="hero-actions">
-        <a href="/category/" class="btn-primary">Browse the range →</a>
-        <a href="https://wa.me/{SHOP['wa']}" class="btn-secondary">WhatsApp Us →</a>
+<section class="hero2">
+  <div class="hero2-kicker">
+    <div class="hero-eyebrow">Home Appliances — Dundalk</div>
+    <h1>Big brands for every home.</h1>
+  </div>
+  <div class="hero2-panels">
+    <a class="hpanel hpanel--warm" href="/category/cooking/">
+      <div class="hpanel-text">
+        <div class="hpanel-eyebrow">Cooking</div>
+        <h2>The heart of<br>the home.</h2>
       </div>
-    </div>
-    <div class="phero-img"><div class="phero-img-glow"></div><img src="/assets/hero-appliances.png" alt="Fridges, cookers, washing machines and dishwashers at Eddie Maguire"></div>
+      <img class="hpanel-img" src="/assets/hero-cooker.png" alt="Beko range cooker">
+      <span class="hpanel-cta">Shop Cookers →</span>
+    </a>
+    <a class="hpanel hpanel--cool" href="/category/washing-machines/">
+      <div class="hpanel-text">
+        <div class="hpanel-eyebrow">Laundry</div>
+        <h2>Fresh, sorted.<br>Every load.</h2>
+      </div>
+      <img class="hpanel-img" src="/assets/hero-washer.png" alt="Indesit washing machine">
+      <span class="hpanel-cta">Shop Washing →</span>
+    </a>
   </div>
 </section>
-<section class="categories" id="categories">
-  <div class="categories-header">
-    <div><div class="section-label">What we stock</div><h2 class="section-title">Browse<br>by category</h2></div>
-    <a href="/category/" class="btn-secondary">View all →</a>
+<section class="browse" id="categories">
+  <div class="browse-head">
+    <div class="section-label">What we stock</div>
+    <h2 class="section-title">Browse by category</h2>
   </div>
-  <div class="categories-grid">{cards}</div>
+  <div class="browse-row">{browse_items}</div>
 </section>
 <div class="whatsapp-strip">
   <div><h2>Not sure what you're looking for?</h2><p>Message us on WhatsApp — we're happy to help you find the right product.</p></div>
