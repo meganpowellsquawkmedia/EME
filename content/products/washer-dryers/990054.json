@@ -1,24 +1,25 @@
 {
-  "id": 990054,
-  "name": "Hoover H3DPS41066TAMB80 — Washer Dryer",
-  "slug": "hoover-h3dps41066tamb80-washer-dryer",
-  "sku": "H3DPS41066TAMB80",
+  "name": "Hoover Washer Dryer | H3DPS41066TAMB80",
   "price": "449",
-  "regular_price": "449",
-  "sale_price": "",
-  "stock_status": "instock",
+  "images": [
+    {
+      "src": "/assets/img/H3DPS41066TAMB80-1.webp"
+    },
+    {
+      "src": "/assets/img/H3DPS41066TAMB80-2-1.webp"
+    }
+  ],
+  "hidden": false,
+  "sku": "H3DPS41066TAMB80",
+  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
   "categories": [
     {
       "id": 703,
       "name": "Washer Dryer"
     }
   ],
-  "images": [
-    {
-      "src": "/assets/placeholder-product.svg"
-    }
-  ],
-  "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "id": 990054,
+  "slug": "hoover-h3dps41066tamb80-washer-dryer",
+  "regular_price": "449",
+  "stock_status": "instock"
 }
