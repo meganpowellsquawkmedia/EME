@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "MX2E2ZM/A",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Apple MagSafe Charger snaps magnetically to the back of your iPhone for fast, aligned wireless charging — up to 25W with iPhone 16/17 (Qi2 up to 15W for other phones). Just connect it to a 30W or greater USB-C power adapter.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,31 @@
   "id": 990100,
   "slug": "apple-mx2e2zm-a",
   "regular_price": "29.99",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "Magnetic snap-on alignment",
+    "Up to 25W with iPhone 16/17",
+    "Qi2 up to 15W for other devices",
+    "USB-C connector",
+    "Works through many cases",
+    "Needs a 30W+ USB-C adapter"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "MagSafe wireless charger"
+    },
+    {
+      "label": "Max power",
+      "value": "Up to 25W (iPhone 16/17)"
+    },
+    {
+      "label": "Qi2",
+      "value": "Up to 15W"
+    },
+    {
+      "label": "Connector",
+      "value": "USB-C"
+    }
+  ]
 }

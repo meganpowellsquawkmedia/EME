@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "MG6N4QN/A",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Apple iPhone 17 in Lavender (256GB) has a 6.3-inch Super Retina XDR display with ProMotion up to 120Hz and the A19 chip. A 48MP Dual Fusion camera (with 2× optical-quality telephoto) and a new 18MP Center Stage front camera, plus up to 30 hours of video playback. Apple Intelligence built in.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,44 @@
   "id": 990096,
   "slug": "apple-mg6n4qn-a",
   "regular_price": "1099",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "6.3-inch Super Retina XDR · ProMotion 120Hz",
+    "A19 chip",
+    "48MP Dual Fusion camera · 2× telephoto",
+    "18MP Center Stage front camera",
+    "Up to 30h video playback",
+    "256GB storage",
+    "Lavender"
+  ],
+  "specs": [
+    {
+      "label": "Display",
+      "value": "6.3-inch Super Retina XDR, 120Hz"
+    },
+    {
+      "label": "Chip",
+      "value": "A19"
+    },
+    {
+      "label": "Rear camera",
+      "value": "48MP Dual Fusion (2× zoom)"
+    },
+    {
+      "label": "Front camera",
+      "value": "18MP Center Stage"
+    },
+    {
+      "label": "Storage",
+      "value": "256GB"
+    },
+    {
+      "label": "Colour",
+      "value": "Lavender"
+    },
+    {
+      "label": "Charging",
+      "value": "40W wired / 25W MagSafe"
+    }
+  ]
 }

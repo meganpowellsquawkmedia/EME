@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "MHRX4QN/A",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Apple iPhone 17e in Black (256GB) is the affordable iPhone 17, with a 6.1-inch OLED display and the A19 chip. A 48MP Fusion camera with post-capture Portrait focus and 4K Dolby Vision video, MagSafe/Qi2 wireless charging, Ceramic Shield 2, IP68 and Apple Intelligence.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,40 @@
   "id": 990099,
   "slug": "apple-mhrx4qn-a",
   "regular_price": "829",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "6.1-inch OLED display",
+    "A19 chip",
+    "48MP Fusion camera",
+    "4K Dolby Vision video (60fps)",
+    "MagSafe / Qi2 wireless charging",
+    "Ceramic Shield 2 · IP68",
+    "256GB storage · Black"
+  ],
+  "specs": [
+    {
+      "label": "Display",
+      "value": "6.1-inch OLED"
+    },
+    {
+      "label": "Chip",
+      "value": "A19"
+    },
+    {
+      "label": "Rear camera",
+      "value": "48MP Fusion"
+    },
+    {
+      "label": "Storage",
+      "value": "256GB"
+    },
+    {
+      "label": "Colour",
+      "value": "Black"
+    },
+    {
+      "label": "Durability",
+      "value": "Ceramic Shield 2 · IP68"
+    }
+  ]
 }

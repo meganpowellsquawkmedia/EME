@@ -19,6 +19,49 @@
     }
   ],
   "short_description": "",
-  "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Powerpoint P9383WDKBL is an American-style side-by-side fridge freezer in black with a 372-litre capacity (230L fridge / 142L freezer) and a non-plumbed water dispenser. Total No Frost and a Fast Freeze feature keep everything fresh with no manual defrosting. E energy rated, 2-year warranty.",
+  "hidden": false,
+  "features": [
+    "American side-by-side — 372L (230L / 142L)",
+    "Non-plumbed water dispenser",
+    "Total No Frost",
+    "Fast Freeze",
+    "Salad crisper & dairy compartments",
+    "Black finish",
+    "E energy rating · 2-year warranty"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "American side-by-side"
+    },
+    {
+      "label": "Total capacity",
+      "value": "372 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "230 L / 142 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "171.4 × 78 × 62.8 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Total No Frost"
+    },
+    {
+      "label": "Water dispenser",
+      "value": "Non-plumbed"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

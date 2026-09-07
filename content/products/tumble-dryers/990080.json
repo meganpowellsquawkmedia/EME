@@ -19,6 +19,32 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Electrolux EDHI739U4B is a 9kg heat pump tumble dryer in white with sensor drying to stop at the chosen dryness level and an inverter motor for efficient, quiet operation. Wide programme range including Hygiene and Wool. Reversible door.",
+  "hidden": false,
+  "features": [
+    "9kg capacity — heat pump",
+    "Sensor drying to chosen level",
+    "Inverter motor — efficient & quiet",
+    "Hygiene, Wool & Bed Linen XL programmes",
+    "White LED display",
+    "Reversible door"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "9 kg"
+    },
+    {
+      "label": "Type",
+      "value": "Heat pump"
+    },
+    {
+      "label": "Motor",
+      "value": "Inverter"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

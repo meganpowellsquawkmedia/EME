@@ -19,6 +19,31 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Doro Neobio 15R+1 is a big-button DECT cordless phone (twin handset set) with clear TrueSound audio, a large readable display and hearing-aid compatibility; base handset plus an extra handset.",
+  "hidden": false,
+  "features": [
+    "Big-button DECT cordless — twin handset set",
+    "Clear Doro TrueSound audio",
+    "Large, readable display",
+    "Hearing-aid compatible",
+    "Direct-memory keys"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "DECT cordless (big button)"
+    },
+    {
+      "label": "Handsets",
+      "value": "2"
+    },
+    {
+      "label": "Answering machine",
+      "value": "No"
+    },
+    {
+      "label": "Hearing-aid",
+      "value": "Compatible"
+    }
+  ]
 }

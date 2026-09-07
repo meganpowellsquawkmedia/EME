@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hisense WF5S1245BB (5S Series) is a large 12kg 1400-spin washing machine in black with auto-dosing, Wi-Fi control and a steam setting. A quiet inverter motor and a 76-litre drum handle big family loads. A energy rated.",
+  "hidden": false,
+  "features": [
+    "Large 12kg capacity — 1400 rpm spin",
+    "Auto-dosing detergent",
+    "Wi-Fi connected",
+    "Steam setting",
+    "Inverter motor — quiet (noise class A)",
+    "19 programmes",
+    "Black finish · A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "12 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "84.5 × 59.5 × 64 cm"
+    },
+    {
+      "label": "Drum",
+      "value": "76 L"
+    },
+    {
+      "label": "Programmes",
+      "value": "19"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

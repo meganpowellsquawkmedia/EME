@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "WX160",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Motorola WX160 is a simple, no-frills bar phone for calls and texts, with a 1.3-inch display, Bluetooth and a memory-card slot. A removable battery and an easy, pocketable design.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,31 @@
   "id": 990134,
   "slug": "motorola-wx160",
   "regular_price": "29.99",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "Simple bar phone",
+    "1.3-inch display",
+    "Bluetooth",
+    "Memory-card slot",
+    "Removable 650mAh battery",
+    "Calls & texts"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Bar phone"
+    },
+    {
+      "label": "Display",
+      "value": "1.3-inch"
+    },
+    {
+      "label": "Battery",
+      "value": "650mAh removable"
+    },
+    {
+      "label": "Network",
+      "value": "2G GSM"
+    }
+  ]
 }

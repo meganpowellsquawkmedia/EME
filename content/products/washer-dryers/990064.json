@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Indesit EWDE861483 is an 8kg wash / 6kg dry washer dryer in silver with a Wash&Dry '45 cycle, ThermoSpin faster drying and Water Balance+ saving up to 50% water. Quiet inverter motor, 16 programmes. C energy rated, 10-year parts.",
+  "hidden": false,
+  "features": [
+    "8kg wash / 6kg dry — 1400 rpm spin",
+    "Wash&Dry '45 fast cycle",
+    "ThermoSpin — faster drying",
+    "Water Balance+ — up to 50% water saving",
+    "Quiet inverter motor",
+    "16 programmes",
+    "Silver finish · C energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Wash / dry",
+      "value": "8 kg / 6 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "C"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "85 × 59.5 × 53.5 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "16"
+    },
+    {
+      "label": "Finish",
+      "value": "Silver"
+    }
+  ]
 }

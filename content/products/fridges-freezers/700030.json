@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "",
-  "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Powerpoint P74250ML is a compact 48cm fridge freezer in white with 138 litres (98L fridge / 40L freezer) — a space-saver for smaller homes. Manual defrost, mechanical temperature control, a vegetable crisper and a reversible door. A+ energy rated, 2-year warranty.",
+  "hidden": false,
+  "features": [
+    "Compact 48cm — 138L (98L fridge / 40L freezer)",
+    "Vegetable crisper",
+    "Mechanical temperature control",
+    "Reversible door",
+    "Adjustable legs",
+    "A+ energy rating",
+    "2-year warranty"
+  ],
+  "specs": [
+    {
+      "label": "Total capacity",
+      "value": "138 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "98 L / 40 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A+"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "128.2 × 47.4 × 52.7 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Manual"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

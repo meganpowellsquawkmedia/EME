@@ -8,7 +8,7 @@
   ],
   "hidden": true,
   "sku": "MZB0MJ6EU",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Redmi Note 15 Pro+ 5G (12GB/512GB, Mocha Brown) is a camera flagship with a 6.83-inch quad-curved AMOLED display (120Hz, 3200 nits) and a 4th-gen 200MP main camera on a large 1/1.4\" sensor with 4K video. A huge 6500mAh silicon-carbon battery with 100W HyperCharge, Snapdragon 7s Gen 4 and IP66/IP68 protection.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,44 @@
   "id": 990154,
   "slug": "redmi-mzb0mj6eu",
   "regular_price": "549",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "6.83-inch quad-curved AMOLED · 120Hz · 3200 nits",
+    "200MP main camera (1/1.4\" sensor)",
+    "8MP ultra-wide · 4K video",
+    "32MP front camera",
+    "Huge 6500mAh battery · 100W HyperCharge",
+    "Snapdragon 7s Gen 4",
+    "IP66/IP68 · 12GB/512GB · Mocha Brown"
+  ],
+  "specs": [
+    {
+      "label": "Display",
+      "value": "6.83-inch AMOLED, 120Hz"
+    },
+    {
+      "label": "Chip",
+      "value": "Snapdragon 7s Gen 4"
+    },
+    {
+      "label": "Rear camera",
+      "value": "200MP main + 8MP UW"
+    },
+    {
+      "label": "RAM / storage",
+      "value": "12GB / 512GB"
+    },
+    {
+      "label": "Battery",
+      "value": "6500mAh, 100W"
+    },
+    {
+      "label": "Durability",
+      "value": "IP66/IP68"
+    },
+    {
+      "label": "Colour",
+      "value": "Mocha Brown"
+    }
+  ]
 }

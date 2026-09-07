@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Indesit IP1146 (Push&Go) is a large 11kg 1400-spin washing machine in white with Push&Go Steam technology, five quick programmes under an hour and a Fast Mode that cuts wash time by up to 50%. 15 programmes. A energy rated.",
+  "hidden": false,
+  "features": [
+    "Large 11kg capacity — 1400 rpm spin",
+    "Push&Go Steam technology",
+    "Fast Mode — up to 50% shorter washes",
+    "Five quick cycles under an hour",
+    "15 programmes",
+    "White finish",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "11 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "84.5 × 60 × 58 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "15"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

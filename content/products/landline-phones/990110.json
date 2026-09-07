@@ -19,6 +19,27 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Doro Congress 205 is a big-button corded telephone — easy-to-press keys, hearing-aid compatibility and adjustable handset volume for comfortable, reliable calling; a classic desk phone with big buttons.",
+  "hidden": false,
+  "features": [
+    "Big-button corded phone",
+    "Hearing-aid compatible",
+    "Adjustable handset volume",
+    "Direct-memory keys",
+    "Last-number redial"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Corded phone (big button)"
+    },
+    {
+      "label": "Hearing-aid",
+      "value": "Compatible"
+    },
+    {
+      "label": "Answering machine",
+      "value": "No"
+    }
+  ]
 }

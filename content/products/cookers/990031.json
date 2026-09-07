@@ -19,6 +19,49 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hotpoint HTG5GCB is a compact 50cm double-oven gas cooker in black — a 59L main oven plus a second grill cavity in a small footprint. Four gas burners with auto-ignition, a fast 5-minute preheat and catalytic liners make everyday cooking easy, and it includes an LPG conversion kit. A+ energy rated.",
+  "hidden": false,
+  "features": [
+    "Space-saving 50cm width",
+    "59L main oven + second grill cavity",
+    "Four gas burners with auto-ignition",
+    "Fast Preheat — ready in ~5 minutes",
+    "Catalytic self-cleaning liners",
+    "LPG conversion kit included",
+    "A+ energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 50 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A+"
+    },
+    {
+      "label": "Fuel",
+      "value": "Gas (natural) — LPG kit included"
+    },
+    {
+      "label": "Hob",
+      "value": "4 gas burners"
+    },
+    {
+      "label": "Main oven",
+      "value": "59 L"
+    },
+    {
+      "label": "Second cavity",
+      "value": "Grill"
+    },
+    {
+      "label": "Cleaning",
+      "value": "Catalytic liners"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

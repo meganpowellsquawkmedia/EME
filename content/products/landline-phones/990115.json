@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "311C 2685",
-  "description": "## An easy-to-use telephone with large keypad\n\nWith its accessible design and large, easy-to-use keypad, Doro PhoneEasy® 311c is one of our most popular landline telephones. It’s equipped with shortcut keys, HAC (Hearing Aid Compatibility) and a flashing light for incoming calls.\n\nHighlights:\n\n- Big buttons for easy dialling\n- 3 speed dial memories\n- Easily adjustable handset volume  \n\n- In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.\n\n",
+  "description": "The Doro 311C is a big-button corded telephone — easy-to-press keys, hearing-aid compatibility and adjustable handset volume for comfortable, reliable calling; compact, wall- or desk-mountable.",
   "categories": [
     {
       "id": 766,
@@ -18,5 +18,26 @@
   "id": 990115,
   "slug": "doro-311c-2685",
   "regular_price": "39.99",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "Big-button corded phone",
+    "Hearing-aid compatible",
+    "Adjustable handset volume",
+    "Direct-memory keys",
+    "Last-number redial"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Corded phone (big button)"
+    },
+    {
+      "label": "Hearing-aid",
+      "value": "Compatible"
+    },
+    {
+      "label": "Answering machine",
+      "value": "No"
+    }
+  ]
 }

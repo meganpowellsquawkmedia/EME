@@ -19,6 +19,19 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Lelux 656 is a corded speakerphone for clear hands-free calling, with a built-in loudspeaker, direct-memory keys and last-number redial.",
+  "hidden": false,
+  "features": [
+    "Corded speakerphone",
+    "Hands-free loudspeaker",
+    "Direct-memory keys",
+    "Last-number redial",
+    "Adjustable volume"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Corded speakerphone"
+    }
+  ]
 }

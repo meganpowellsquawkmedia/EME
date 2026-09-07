@@ -19,6 +19,32 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Doro Comfort 4005 is a 2-in-1 combo — a big-button corded desk phone with the DECT base built in, plus a cordless handset on a charging cradle. Both handsets have TrueSound audio with up to +24 dB boost, large keys and a readable backlit display, and there's a 14-minute answering machine.",
+  "hidden": false,
+  "features": [
+    "Corded desk phone + cordless handset",
+    "Answering machine — up to 14 mins",
+    "Audio boost up to +24 dB",
+    "Big buttons on both handsets",
+    "Transfer calls between handsets",
+    "Hearing-aid compatible"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Corded + cordless combo (big button)"
+    },
+    {
+      "label": "Answering machine",
+      "value": "14 mins"
+    },
+    {
+      "label": "Audio boost",
+      "value": "+24 dB"
+    },
+    {
+      "label": "Hearing-aid",
+      "value": "Compatible"
+    }
+  ]
 }

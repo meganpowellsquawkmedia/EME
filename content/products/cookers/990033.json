@@ -19,6 +19,49 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Indesit ID67G0MCW is a 60cm double-oven gas cooker in white with two gas ovens (84L main + 42L top) and a four-burner gas hob with a lid. Mains gas with an LPG conversion kit included, a 10-step flame hob, catalytic liners and a Click&Clean inner door make it easy to run. Central display with minute-minder timer.",
+  "hidden": false,
+  "features": [
+    "Two gas ovens — 84L main + 42L top",
+    "Four-burner gas hob with lid",
+    "Mains gas — LPG conversion kit included",
+    "10-step flame control",
+    "Catalytic self-cleaning liners",
+    "Click&Clean removable door glass",
+    "Central display with minute minder"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A/A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Gas (natural) — LPG kit included"
+    },
+    {
+      "label": "Hob",
+      "value": "4 gas burners"
+    },
+    {
+      "label": "Main oven",
+      "value": "84 L"
+    },
+    {
+      "label": "Second oven",
+      "value": "42 L"
+    },
+    {
+      "label": "Cleaning",
+      "value": "Catalytic liners"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

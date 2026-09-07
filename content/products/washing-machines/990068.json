@@ -19,6 +19,40 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Indesit IMA764 MyTime is a 7kg 1400-spin washing machine in white with five rapid cycles each under an hour and Steam Assistance to reduce creases. Quiet inverter motor. A energy rated, 10-year parts warranty.",
+  "hidden": false,
+  "features": [
+    "7kg capacity — 1400 rpm spin",
+    "Five rapid cycles under an hour",
+    "Steam Assistance — fewer creases",
+    "Quiet inverter motor",
+    "15 programmes · time delay",
+    "A energy rating · 10-yr parts"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "7 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "85 × 60 × 52 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "15"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

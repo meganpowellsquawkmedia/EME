@@ -19,6 +19,37 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hotpoint HHDD90 is a 9kg condenser tumble dryer in black with sensor drying, 15 drying cycles and a rapid programme. The condenser system collects moisture in a tank — no venting needed. B energy rated.",
+  "hidden": false,
+  "features": [
+    "9kg capacity — condenser",
+    "Sensor drying",
+    "15 drying cycles",
+    "Rapid programme",
+    "No venting — water tank",
+    "Black finish",
+    "B energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "9 kg"
+    },
+    {
+      "label": "Type",
+      "value": "Condenser"
+    },
+    {
+      "label": "Energy rating",
+      "value": "B"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "84.6 × 59.7 × 60.1 cm"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hotpoint HBCA123CAREUK (FabricCare) is a large 12kg 1400-spin washing machine in white with Anti-Stain technology (tackles 24 stains), PetHairCare, ColourCare and a Full Load 45' cycle. 15 programmes, LED display and delay start. A energy rated, 10-year parts warranty.",
+  "hidden": false,
+  "features": [
+    "Large 12kg capacity — 1400 rpm spin",
+    "Anti-Stain — tackles 24 common stains",
+    "PetHairCare prewash & rinse",
+    "ColourCare low-temp washing",
+    "Full Load 45' fast cycle",
+    "LED display · delay start",
+    "A energy rating · 10-yr parts"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "12 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "84.5 × 60 × 63 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "15"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

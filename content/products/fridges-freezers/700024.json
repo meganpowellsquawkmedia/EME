@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "",
-  "description": "Nordmende fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Nordmende RFF317NF is a 55cm 50/50 fridge freezer in inox / silver with 240 litres (142L fridge / 98L freezer). The freezer is No Frost and the fridge is auto-defrost, with a recessed chrome handle and reversible doors. E energy rated, 3-year warranty on registration.",
+  "hidden": false,
+  "features": [
+    "55cm 50/50 — 240L (142L / 98L)",
+    "No Frost freezer",
+    "Auto-defrost fridge",
+    "Recessed chrome handle",
+    "Reversible doors",
+    "E energy rating",
+    "3-year warranty (on registration)"
+  ],
+  "specs": [
+    {
+      "label": "Total capacity",
+      "value": "240 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "142 L / 98 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W)",
+      "value": "166 × 55 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "No Frost freezer"
+    },
+    {
+      "label": "Finish",
+      "value": "Inox / silver"
+    }
+  ]
 }

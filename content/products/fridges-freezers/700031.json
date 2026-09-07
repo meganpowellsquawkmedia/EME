@@ -19,6 +19,36 @@
     }
   ],
   "short_description": "",
-  "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Powerpoint P74555SKW is a narrow, compact 44cm fridge freezer in white with 170 litres (120L fridge / 50L freezer) — a great fit where space is tight. Three freezer drawers, adjustable shelves, a salad crisper and low-power LED lighting. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Narrow 44cm — 170L (120L fridge / 50L freezer)",
+    "Three freezer drawers",
+    "Adjustable shelves + salad crisper",
+    "Low-power (2W) LED lighting",
+    "Reversible door",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Total capacity",
+      "value": "170 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "120 L / 50 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "151.8 × 44.4 × 53.6 cm"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

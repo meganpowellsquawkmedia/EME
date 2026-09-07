@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "",
-  "description": "Haier fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Haier HFR5719EWPB (FD 70 Series 5) is a four-door American-style fridge freezer in slate black, with a 444-litre capacity (304L fridge / 140L freezer) and a non-plumbed water dispenser. Total No Frost, an adaptable MyZone® compartment and LED lighting round it off. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Four-door American style — 444L (304L / 140L)",
+    "Non-plumbed water dispenser",
+    "Total No Frost",
+    "Adaptable MyZone® compartment",
+    "LED interior lighting",
+    "Slate black finish",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "American 4-door"
+    },
+    {
+      "label": "Total capacity",
+      "value": "444 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "304 L / 140 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "190 × 70 × 67.5 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Total No Frost"
+    },
+    {
+      "label": "Finish",
+      "value": "Slate black"
+    }
+  ]
 }

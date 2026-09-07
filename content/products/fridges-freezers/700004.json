@@ -19,6 +19,44 @@
     }
   ],
   "short_description": "",
-  "description": "Electrolux integrated fridge freezer. Frost Free, 70/30 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Electrolux LNT6NE18S is a 70/30 integrated fridge freezer from the Series 600 range, built in behind a cabinet door with a 195-litre fridge and a 62-litre frost-free freezer. TwinTech® No Frost keeps produce fresh and the freezer ice-free, and at 35dB it's very quiet. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Integrated 70/30 — fits behind a cabinet door",
+    "195L fridge / 62L freezer",
+    "TwinTech® No Frost dual cooling",
+    "Very quiet — 35dB",
+    "LED lighting",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Integrated (built-in)"
+    },
+    {
+      "label": "Total capacity",
+      "value": "257 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "195 L / 62 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "177.2 × 54.6 × 54.9 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "No Frost"
+    },
+    {
+      "label": "Noise",
+      "value": "35 dB"
+    }
+  ]
 }

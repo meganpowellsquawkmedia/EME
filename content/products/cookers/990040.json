@@ -19,6 +19,50 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Nordmende CTG62LPGBK is a 60cm twin-cavity LPG (bottled-gas) cooker in black, pre-set LPG-ready so no conversion is needed. Four gas burners sit over a 62L main oven with a 33L top grill cavity. Enamel pan supports, easy-clean enamel and button ignition keep it simple. 3-year guarantee.",
+  "hidden": false,
+  "features": [
+    "Pre-set LPG-ready — no conversion needed",
+    "Four gas burners",
+    "62L main oven + 33L top grill cavity",
+    "Button ignition",
+    "Easy-clean enamel & enamel pan supports",
+    "Mechanical timer",
+    "Grill pan & 3 shelves included",
+    "3-year guarantee"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Fuel",
+      "value": "Gas (LPG)"
+    },
+    {
+      "label": "Hob",
+      "value": "4 gas burners"
+    },
+    {
+      "label": "Main oven",
+      "value": "62 L"
+    },
+    {
+      "label": "Top cavity",
+      "value": "33 L grill"
+    },
+    {
+      "label": "Ignition",
+      "value": "Button"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years"
+    }
+  ]
 }

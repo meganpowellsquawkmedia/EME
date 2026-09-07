@@ -19,6 +19,40 @@
     }
   ],
   "short_description": "",
-  "description": "Indesit fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Indesit IB55532 is a 54cm freestanding fridge freezer in white with 229 litres (143L fridge / 86L freezer) and the freezer at the bottom. Low Frost cuts defrosting, a Fresh Zone keeps produce at its best, and the door is reversible. E energy rated.",
+  "hidden": false,
+  "features": [
+    "54cm freestanding — 229L (143L / 86L)",
+    "Low Frost — less defrosting",
+    "Fresh Zone drawer",
+    "Auto defrost fridge",
+    "Reversible door",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Total capacity",
+      "value": "229 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "143 L / 86 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "152.5 × 54 × 57.5 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Low Frost"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

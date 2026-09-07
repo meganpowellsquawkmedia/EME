@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "W377FTC",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Motorola W377 is a classic clamshell (flip) mobile phone — simple calls and texts with a 1.8-inch colour screen, a VGA camera, FM radio and Bluetooth. A removable battery gives up to about 7 hours talk time.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,35 @@
   "id": 990133,
   "slug": "motorola-w377ftc",
   "regular_price": "29",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "Classic flip (clamshell) phone",
+    "1.8-inch colour screen",
+    "VGA camera",
+    "FM radio · Bluetooth",
+    "Removable 850mAh battery",
+    "Simple calls & texts"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Flip phone"
+    },
+    {
+      "label": "Display",
+      "value": "1.8-inch, 128×160"
+    },
+    {
+      "label": "Camera",
+      "value": "VGA"
+    },
+    {
+      "label": "Battery",
+      "value": "850mAh removable"
+    },
+    {
+      "label": "Network",
+      "value": "2G GSM"
+    }
+  ]
 }

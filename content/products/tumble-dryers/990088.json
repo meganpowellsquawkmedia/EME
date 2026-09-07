@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Nordmende TDHPE10WH is a large 10kg heat pump tumble dryer in white with sensor drying (4 dryness levels), 15 programmes, drum-reverse anti-crease and a 1–23 hour delay start. E energy rated, 3-year warranty on registration.",
+  "hidden": false,
+  "features": [
+    "Large 10kg capacity — heat pump",
+    "Sensor drying — 4 dryness levels",
+    "15 programmes",
+    "Two-way tumbling · anti-crease plus",
+    "1–23 hour delay start",
+    "White finish",
+    "E energy rating · 3-yr warranty"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "10 kg"
+    },
+    {
+      "label": "Type",
+      "value": "Heat pump"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "84.5 × 59.6 × 56.3 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "15"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

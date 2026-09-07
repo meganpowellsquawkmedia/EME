@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "MYE73QN/A",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Apple iPhone 16 (128GB) has a 6.1-inch Super Retina XDR display and the A18 chip with a dedicated Camera Control button. A 48MP Fusion main camera with 2× optical telephoto and an ultra-wide, a bigger battery, and Apple Intelligence.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,36 @@
   "id": 990101,
   "slug": "apple-mye73qn-a",
   "regular_price": "929",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "6.1-inch Super Retina XDR",
+    "A18 chip",
+    "Camera Control button",
+    "48MP Fusion camera · 2× telephoto",
+    "Larger battery",
+    "128GB storage",
+    "Apple Intelligence"
+  ],
+  "specs": [
+    {
+      "label": "Display",
+      "value": "6.1-inch Super Retina XDR"
+    },
+    {
+      "label": "Chip",
+      "value": "A18"
+    },
+    {
+      "label": "Rear camera",
+      "value": "48MP Fusion (2× zoom)"
+    },
+    {
+      "label": "Storage",
+      "value": "128GB"
+    },
+    {
+      "label": "Charging",
+      "value": "MagSafe up to 25W"
+    }
+  ]
 }

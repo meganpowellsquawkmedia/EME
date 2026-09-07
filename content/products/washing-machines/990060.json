@@ -19,6 +19,33 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hotpoint NM11046WCAUK (ActiveCare) is a 10kg 1400-spin washing machine in white. ActiveCare technology removes over 100 stains at just 20°C, with a 30-minute quick wash and a start delay. A energy rated.",
+  "hidden": false,
+  "features": [
+    "10kg capacity — 1400 rpm spin",
+    "ActiveCare — 100+ stains at 20°C",
+    "30-minute quick wash",
+    "Start delay timer",
+    "Quiet inverter motor",
+    "White finish",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "10 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

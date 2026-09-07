@@ -19,6 +19,49 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Leisure BECLA60CEK is a 60cm freestanding electric cooker in black from the Classic range. Twin ovens — a 75L main fan oven and a 38L conventional second oven with integrated grill — sit over a four-zone ceramic hob with a hot-hob warning light. A fully programmable timer and catalytic liners make it easy to live with. A energy rated.",
+  "hidden": false,
+  "features": [
+    "Twin ovens — 75L main fan + 38L second with grill",
+    "Four-zone ceramic hob",
+    "Hot-hob warning indicator",
+    "Triple-glazed main oven window & interior light",
+    "Fully programmable timer with LED display",
+    "Catalytic self-cleaning liners",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 59.5 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric"
+    },
+    {
+      "label": "Hob",
+      "value": "4-zone ceramic"
+    },
+    {
+      "label": "Main oven",
+      "value": "75 L fan"
+    },
+    {
+      "label": "Second oven",
+      "value": "38 L conventional"
+    },
+    {
+      "label": "Cleaning",
+      "value": "Catalytic liners"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

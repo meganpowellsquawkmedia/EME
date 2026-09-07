@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "MZB0M8GEU",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Redmi Note 15 has a 6.77-inch curved AMOLED display (120Hz, up to 3200 nits) and a 108MP OIS main camera with 4K video. A big long-life battery and AI imaging features.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,26 @@
   "id": 990153,
   "slug": "redmi-mzb0m8geu",
   "regular_price": "199.99",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "6.77-inch curved AMOLED · 120Hz · 3200 nits",
+    "108MP OIS main camera · 4K video",
+    "20MP front camera",
+    "Large long-life battery · fast charging",
+    "HDR10+ · AI imaging"
+  ],
+  "specs": [
+    {
+      "label": "Display",
+      "value": "6.77-inch AMOLED, 120Hz"
+    },
+    {
+      "label": "Rear camera",
+      "value": "108MP OIS main"
+    },
+    {
+      "label": "Battery",
+      "value": "Large (5000mAh+), fast charge"
+    }
+  ]
 }

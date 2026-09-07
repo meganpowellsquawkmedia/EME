@@ -19,6 +19,50 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Powerpoint P06C2MDBL is a 60cm freestanding electric cooker in black with a double cavity — a 69L fan main oven and a 38L top oven/grill — over a four-zone ceramic hob with hot-surface indicators. A black enamel coating wipes clean easily, and it ships with a tip-over safety bracket. A energy rated.",
+  "hidden": false,
+  "features": [
+    "Double cavity — 69L fan main oven + 38L top/grill",
+    "Four-zone ceramic hob (radiant + highlite)",
+    "Hot-surface & thermostat indicator lights",
+    "Open-door grilling in top cavity",
+    "Easy-clean black enamel",
+    "Tip-over safety bracket included",
+    "Timer control",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric"
+    },
+    {
+      "label": "Hob",
+      "value": "4-zone ceramic"
+    },
+    {
+      "label": "Main oven",
+      "value": "69 L fan"
+    },
+    {
+      "label": "Second oven",
+      "value": "38 L + grill"
+    },
+    {
+      "label": "Weight",
+      "value": "58 kg"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

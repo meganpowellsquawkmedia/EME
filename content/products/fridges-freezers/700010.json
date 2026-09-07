@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "",
-  "description": "Hoover fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Hoover H-FRIDGE 700 (HONFQ2T718EXK) is a four-door French-style fridge freezer in stainless steel with a 402-litre capacity (262L fridge / 140L freezer). Total No Frost, a My Zone drawer (-3°C to +5°C) and LED lighting make it a flexible family fridge. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Four-door French style — 402L (262L / 140L)",
+    "Total No Frost",
+    "My Zone drawer (-3°C to +5°C)",
+    "LED lighting & digital display",
+    "Two freezer drawers + crisper",
+    "Stainless steel finish",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "French door 4-door"
+    },
+    {
+      "label": "Total capacity",
+      "value": "402 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "262 L / 140 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "177.5 × 70 × 68.8 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Total No Frost"
+    },
+    {
+      "label": "Finish",
+      "value": "Stainless steel"
+    }
+  ]
 }

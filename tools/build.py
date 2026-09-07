@@ -40,6 +40,38 @@ SHOP = {
     "hours": "Mon–Fri 9am–6pm · Sat 9am–5:30pm",
 }
 
+# ---- CMS-editable site content (David edits these in the admin) ----
+def _load_json(rel, default):
+    f = ROOT / rel
+    if f.exists():
+        try:
+            return json.load(open(f, encoding="utf-8"))
+        except Exception as _e:
+            print(f"  {rel} load error:", _e)
+    return default
+
+_SET = _load_json("content/settings.json", {})
+SHOP["name"] = _SET.get("name") or SHOP["name"]
+SHOP["tagline"] = _SET.get("tagline") or SHOP["tagline"]
+SHOP["phone_display"] = _SET.get("phone") or SHOP["phone_display"]
+SHOP["phone_tel"] = SHOP["phone_display"].replace(" ", "")
+SHOP["wa"] = _SET.get("whatsapp") or SHOP["wa"]
+SHOP["email"] = _SET.get("email") or SHOP["email"]
+SHOP["address"] = _SET.get("address") or SHOP["address"]
+SHOP["hours"] = _SET.get("hours") or SHOP["hours"]
+NAV = _SET.get("nav") or [{"label": "Electrical", "link": "/category/"},
+                          {"label": "Home", "link": "/category/"},
+                          {"label": "Garden", "link": "/category/"}]
+TOPSTRIP = _SET.get("topstrip") or [{"icon": "🚚", "bold": "Free local delivery", "text": "around Dundalk"},
+                                    {"icon": "🏬", "bold": "Buy in store", "text": "— " + SHOP["address"]},
+                                    {"icon": "💬", "bold": "Ask us anything", "text": "on WhatsApp"}]
+FOOTER_BLURB = _SET.get("footer_blurb") or ("Your local electrical & furniture store in Dundalk. "
+    "Family run, community focused, and always happy to help. Browse online, buy in store.")
+HOME = _load_json("content/homepage.json", {})
+def hp(k, d=""):
+    v = HOME.get(k)
+    return v if v not in (None, "") else d
+
 # Known appliance/furniture brands -> detect from product name start.
 BRANDS = ["INDESIT","HOTPOINT","BOSCH","SAMSUNG","LG","WHIRLPOOL","BEKO","ZANUSSI",
     "AEG","SIEMENS","HISENSE","CANDY","HOOVER","ELECTROLUX","SHARP","PANASONIC",
@@ -275,17 +307,8 @@ for c in C:
     cat_total[c["id"]] = len(seen)
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Currys-style enrichment + helpers
-# Web-sourced, sanity-checked detail (desc / features / specs) keyed by SKU.
-ENRICH = {}
-_enf = ROOT / "content" / "enrich.json"
-if _enf.exists():
-    try:
-        for _k, _v in json.load(open(_enf, encoding="utf-8")).items():
-            ENRICH[_k.upper()] = {"desc": _v["desc"], "features": _v["features"],
-                                  "specs": [tuple(x) for x in _v["specs"]]}
-    except Exception as _e:
-        print("  enrich.json load error:", _e)
+# Product detail helpers. Each product's description / features / specs now live
+# in its own JSON file (CMS-editable); content/enrich.json is the retired seed.
 
 def clean_title(p, brand):
     """Descriptive product title with the leading brand + model stripped, for cards/PDP."""
@@ -449,18 +472,14 @@ def product_ld(p, name, abs_img, price_v):
 WA_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>'
 
 def nav_links():
-    # Top-level shop sections. Only Electrical is stocked today; Home (furniture)
-    # and Garden are coming — point them at the shop for now, retarget when stocked.
-    return ('<a href="/category/">Electrical</a>'
-            '<a href="/category/">Home</a>'
-            '<a href="/category/">Garden</a>'
-            '<a class="cats-enq" href="/enquiry/">Make an Enquiry</a>')
+    # Top-level shop sections (editable in the CMS via content/settings.json).
+    out = "".join(f'<a href="{esc(n.get("link") or "/category/")}">{esc(n.get("label",""))}</a>' for n in NAV)
+    return out + '<a class="cats-enq" href="/enquiry/">Make an Enquiry</a>'
 
 def header():
+    strip = "".join(f'<span>{s.get("icon","")} <b>{esc(s.get("bold",""))}</b> {esc(s.get("text",""))}</span>' for s in TOPSTRIP)
     return f"""<div class="tstrip"><div class="wrap">
-  <span>🚚 <b>Free local delivery</b> around Dundalk</span>
-  <span>🏬 <b>Buy in store</b> — {esc(SHOP['address'])}</span>
-  <span>💬 <b>Ask us anything</b> on WhatsApp</span>
+  {strip}
 </div></div>
 <header class="site"><div class="wrap">
   <a class="brand" href="/">{SHOP['name'].upper()}<small>{SHOP['tagline'].upper()}</small></a>
@@ -478,7 +497,7 @@ def footer():
     return f"""<footer class="site"><div class="wrap">
   <div class="footer-brand">
     <a href="/" class="brand">{SHOP['name'].upper()}</a>
-    <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
+    <p>{esc(FOOTER_BLURB)}</p>
   </div>
   <div><h4>Shop</h4><ul>{shoplinks}<li><a href="/category/">All categories</a></li></ul></div>
   <div><h4>Company</h4><ul>
@@ -584,12 +603,17 @@ def build_products():
         price_html = (f'<div class="price">{price}{was}</div><div class="vat">Price includes VAT'
                       + (f' · model {esc(p.get("sku"))}' if p.get("sku") else '') + '</div>') if price else \
                      '<div class="price"><span class="poa">Price on request</span></div>'
-        # overview + specs + features (enrich > web data, else generated)
-        en = ENRICH.get((p.get("sku") or "").upper())
-        lead_txt = en["desc"] if en else blurb(p, fc, brand2)
-        if en:
-            feats = en["features"]
-            spec = [("Brand", brand2), ("Model number", p.get("sku") or "—"), ("Product type", kind.title())] + list(en["specs"])
+        # overview / features / specs — all CMS-editable per product; fall back to generated.
+        _cms = re.sub(r"<[^>]+>", " ", html.unescape(p.get("description") or ""))
+        _cms = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", _cms).replace("**", "").replace("__", "")
+        _cms = re.sub(r"\s+", " ", _cms).strip()
+        if "call or message" in _cms.lower() or "in stock in store" in _cms.lower() or len(_cms) < 25:
+            _cms = ""   # ignore any old auto boilerplate / trivial text
+        lead_txt = _cms or blurb(p, fc, brand2)
+        p_feats = [x for x in (p.get("features") or []) if str(x).strip()]
+        p_specs = [s for s in (p.get("specs") or []) if s]
+        if p_feats:
+            feats = p_feats
         else:
             feats = []
             if fc.get("Width"): feats.append(f"{fc['Width']} width")
@@ -599,18 +623,21 @@ def build_products():
             if fc.get("Colour"): feats.append(f"{fc['Colour']} finish")
             feats.append(f"{brand2} — model {p.get('sku') or 'see in store'}" if brand2 else "Part of our range at Eddie Maguire, Dundalk")
             feats.append("Local delivery & setup advice available")
-            spec = [("Brand", brand2), ("Model number", p.get("sku") or "—"), ("Product type", kind.title())]
+        spec = [("Brand", brand2), ("Model number", p.get("sku") or "—"), ("Product type", kind.title())]
+        if p_specs:
+            for s in p_specs:
+                if isinstance(s, dict):
+                    spec.append((s.get("label", ""), s.get("value", "")))
+                elif isinstance(s, (list, tuple)) and len(s) == 2:
+                    spec.append((s[0], s[1]))
+        else:
             for kk, lbl in [("Width", "Width"), ("Capacity", "Load capacity"), ("Storage", "Storage"), ("Fuel", "Fuel type"), ("Colour", "Colour")]:
                 if fc.get(kk): spec.append((lbl, fc[kk]))
             spec += [("Guarantee", "Manufacturer guarantee — ask in store")]
-        specnote = "" if en else '<div class="specnote">Specifications shown are compiled from the details we hold; full manufacturer specs are available in store.</div>'
+        specnote = "" if p_specs else '<div class="specnote">Specifications shown are compiled from the details we hold; full manufacturer specs are available in store.</div>'
         feat_html = "".join(f"<li>{esc(x)}</li>" for x in feats)
         spec_html = "".join(f"<tr><td>{esc(k)}</td><td>{esc(v)}</td></tr>" for k, v in spec)
-        # a longer WP prose description (kept below, if it adds anything real)
-        wp = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(p.get("description") or ""))).strip()
         wp_block = ""
-        if wp and "call or message" not in wp.lower() and len(wp) > 80 and wp != lead_txt and not en:
-            wp_block = f'<div class="psection"><h2>Product details</h2><div class="pdp-desc-wp">{p.get("description")}</div></div>'
         # related
         related = [q for q in prods_in.get(cats[0]["id"], []) if q["slug"] != p["slug"]][:4] if cats else []
         rel_html = "".join(product_card(q) for q in related)
@@ -854,7 +881,8 @@ def build_home():
                 if "placeholder" not in s: return p, s
         return None, "/assets/placeholder-product.svg"
     cook_id = slug2id.get("home-appliances-cooking")
-    _, hero_img = pick_photo(cook_id, "range") if cook_id else (None, "/assets/placeholder-product.svg")
+    _, _hero_auto = pick_photo(cook_id, "range") if cook_id else (None, "/assets/placeholder-product.svg")
+    hero_img = hp("hero_image", _hero_auto)
 
     # category tiles (featured, consistent sizing)
     tiles = ""
@@ -883,42 +911,43 @@ def build_home():
     allb = _Counter(brand_of(p) for p in P if brand_of(p))
     brands_row = "".join(f"<span>{esc(b)}</span>" for b, _ in allb.most_common(12))
 
-    VP = [("🚚", "Free Local Delivery", "Around Dundalk"), ("🏬", "Buy In Store", esc(SHOP["address"])),
-          ("💬", "Real Advice", "We know our products"), ("🛠️", "Family Run", "Trusted locally")]
-    valprops = "".join(f'<div class="vp"><span class="ic">{i}</span><div><b>{t}</b><span>{s}</span></div></div>' for i, t, s in VP)
+    _vp = hp("valueprops", [{"icon": "🚚", "title": "Free Local Delivery", "subtitle": "Around Dundalk"},
+                            {"icon": "🏬", "title": "Buy In Store", "subtitle": SHOP["address"]},
+                            {"icon": "💬", "title": "Real Advice", "subtitle": "We know our products"},
+                            {"icon": "🛠️", "title": "Family Run", "subtitle": "Trusted locally"}])
+    valprops = "".join(f'<div class="vp"><span class="ic">{v.get("icon","")}</span><div><b>{esc(v.get("title",""))}</b><span>{esc(v.get("subtitle",""))}</span></div></div>' for v in _vp)
+    hero_title = "<br>".join(esc(x) for x in hp("hero_title", "Big Brands.\nReal Advice.\nLocal Prices.").split("\n"))
+    _stats = hp("stats", [{"number": "100%", "label": "Irish owned"}, {"number": "30+", "label": "Years in business"}, {"number": "1", "label": "Town — Dundalk"}])
+    stats_html = "".join(f'<div class="stat"><div class="n">{esc(s.get("number",""))}</div><div class="l">{esc(s.get("label",""))}</div></div>' for s in _stats)
 
     body = f"""{header()}
 <section class="hero"><div class="wrap">
   <div class="hero-copy">
-    <div class="eyebrow">Home Appliances &amp; Phones — Dundalk</div>
-    <h1>Big Brands.<br>Real Advice.<br>Local Prices.</h1>
-    <p>Your family-run electrical &amp; furniture store on Church St. Browse our full range online, then call in or message us — we'll help you choose.</p>
-    <div class="cta"><a class="bigbtn o" href="#cats">Shop All Categories</a><a class="bigbtn w" href="https://wa.me/{SHOP['wa']}">{WA_SVG} Message Us</a></div>
+    <div class="eyebrow">{esc(hp("hero_eyebrow", "Home Appliances & Phones — Dundalk"))}</div>
+    <h1>{hero_title}</h1>
+    <p>{esc(hp("hero_text", "Your family-run electrical & furniture store on Church St. Browse our full range online, then call in or message us — we'll help you choose."))}</p>
+    <div class="cta"><a class="bigbtn o" href="#cats">{esc(hp("hero_cta_label", "Shop All Categories"))}</a><a class="bigbtn w" href="https://wa.me/{SHOP['wa']}">{WA_SVG} Message Us</a></div>
   </div>
   <div class="hero-visual"><img src="{esc(hero_img)}" alt="Featured appliance"></div>
 </div></section>
 <div class="valprops">{valprops}</div>
-<div class="wrap"><div class="brands-strip"><div class="lab">Trusted Brands We Stock</div><div class="brands-row">{brands_row}</div></div></div>
+<div class="wrap"><div class="brands-strip"><div class="lab">{esc(hp("brands_label", "Trusted Brands We Stock"))}</div><div class="brands-row">{brands_row}</div></div></div>
 <section class="section" id="cats"><div class="wrap">
-  <div class="section-label">What We Stock</div><h2>Shop By Category</h2>
+  <div class="section-label">{esc(hp("category_label", "What We Stock"))}</div><h2>{esc(hp("category_title", "Shop By Category"))}</h2>
   <div class="tiles">{tiles}</div>
 </div></section>
 <section class="section" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap">
-  <div class="section-label">Featured</div><h2>Popular Right Now</h2>
+  <div class="section-label">{esc(hp("popular_label", "Featured"))}</div><h2>{esc(hp("popular_title", "Popular Right Now"))}</h2>
   <div class="banners">{banners}</div>
 </div></section>
 <section class="section"><div class="wrap"><div class="whatsapp-strip">
-  <div><h2>Not Sure What You Need?</h2><p>Message us on WhatsApp — we're happy to help you find the right product for your home and budget.</p></div>
+  <div><h2>{esc(hp("whatsapp_title", "Not Sure What You Need?"))}</h2><p>{esc(hp("whatsapp_text", "Message us on WhatsApp — we're happy to help you find the right product for your home and budget."))}</p></div>
   <a class="bigbtn w" href="https://wa.me/{SHOP['wa']}">{WA_SVG} Message Us On WhatsApp</a>
 </div></div></section>
 <section class="section"><div class="wrap">
-  <div class="section-label">Who We Are</div><h2>A Family Store, Built On Trust</h2>
-  <p style="color:var(--muted);max-width:660px;margin:0 0 24px">Eddie Maguire has served the Dundalk community for years with a carefully chosen range of electrical, appliances and furniture for every home and budget. We're a real shop with real people who know their products.</p>
-  <div class="aboutband">
-    <div class="stat"><div class="n">100%</div><div class="l">Irish owned</div></div>
-    <div class="stat"><div class="n">30+</div><div class="l">Years in business</div></div>
-    <div class="stat"><div class="n">1</div><div class="l">Town — Dundalk</div></div>
-  </div>
+  <div class="section-label">{esc(hp("about_label", "Who We Are"))}</div><h2>{esc(hp("about_title", "A Family Store, Built On Trust"))}</h2>
+  <p style="color:var(--muted);max-width:660px;margin:0 0 24px">{esc(hp("about_text", "Eddie Maguire has served the Dundalk community for years with a carefully chosen range of electrical, appliances and furniture for every home and budget. We're a real shop with real people who know their products."))}</p>
+  <div class="aboutband">{stats_html}</div>
 </div></section>
 {footer()}"""
     write("index.html", head(f"{SHOP['name']} — {SHOP['tagline']} | Dundalk",
@@ -1033,37 +1062,69 @@ function enqSend(how){{
         f"Send an enquiry to {SHOP['name']}, Dundalk — by WhatsApp or email. We'll get back to you.",
         path="/enquiry/") + body)
 
+# ── Minimal Markdown → HTML (stdlib only) for the CMS-editable content pages ──
+def _md_inline(t):
+    t = html.escape(t, quote=False)
+    t = re.sub(r'\[([^\]]+)\]\(([^)\s]+)\)', r'<a href="\2">\1</a>', t)
+    t = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', t)
+    t = re.sub(r'(?<![*\w])\*([^*]+)\*(?![*\w])', r'<em>\1</em>', t)
+    return t
+
+def md_to_html(md):
+    lines = md.replace("\r\n", "\n").split("\n")
+    out, i, n = [], 0, 0
+    n = len(lines)
+    while i < n:
+        s = lines[i].strip()
+        if not s:
+            i += 1; continue
+        m = re.match(r'^(#{1,6})\s+(.*)$', s)
+        if m:
+            lvl = max(2, min(len(m.group(1)) + 1, 4))
+            out.append(f"<h{lvl}>{_md_inline(m.group(2).strip())}</h{lvl}>"); i += 1; continue
+        if re.match(r'^[-*]\s+', s):
+            items = []
+            while i < n and re.match(r'^\s*[-*]\s+', lines[i]):
+                items.append(_md_inline(re.sub(r'^\s*[-*]\s+', '', lines[i]).strip())); i += 1
+            out.append("<ul>" + "".join(f"<li>{x}</li>" for x in items) + "</ul>"); continue
+        if re.match(r'^\d+\.\s+', s):
+            items = []
+            while i < n and re.match(r'^\s*\d+\.\s+', lines[i]):
+                items.append(_md_inline(re.sub(r'^\s*\d+\.\s+', '', lines[i]).strip())); i += 1
+            out.append("<ol>" + "".join(f"<li>{x}</li>" for x in items) + "</ol>"); continue
+        para = [s]; i += 1
+        while i < n and lines[i].strip() and not re.match(r'^(#{1,6}\s|[-*]\s|\d+\.\s)', lines[i].strip()):
+            para.append(lines[i].strip()); i += 1
+        out.append("<p>" + _md_inline(" ".join(para)) + "</p>")
+    return "\n".join(out)
+
 def build_pages():
-    by_slug = {p["slug"]: p for p in PAGES}
-    # prose pages rendered straight from WP content (skip empty Privacy, commerce pages, Home)
-    prose = ["about-us", "delivery-returns", "returns-replacements", "terms-and-conditions"]
+    # Content pages from content/pages/*.md (yaml-frontmatter markdown, CMS-editable).
     n = 0
-    for slug in prose:
-        p = by_slug.get(slug)
-        if not p:
-            continue
-        raw = p["content"]["rendered"]
-        clean = sanitize(raw)
-        if not re.sub(r"<[^>]+>", "", clean).strip():
-            continue  # skip empty
-        title = html.unescape(p["title"]["rendered"])
-        desc = re.sub(r"<[^>]+>", "", html.unescape(raw))[:155].strip()
-        render_prose_page(slug, title, clean, desc or title)
-        n += 1
+    pdir = ROOT / "content" / "pages"
+    order = ["about-us", "delivery-returns", "returns-replacements", "terms-and-conditions", "privacy-policy"]
+    def render_md(f):
+        raw = f.read_text(encoding="utf-8")
+        title = f.stem.replace("-", " ").title()
+        body_md = raw
+        m = re.match(r'^﻿?---\s*\n(.*?)\n---\s*\n(.*)$', raw, re.S)
+        if m:
+            tm = re.search(r'^\s*title:\s*(.+?)\s*$', m.group(1), re.M)
+            if tm: title = tm.group(1).strip().strip('"\'')
+            body_md = m.group(2)
+        content_html = md_to_html(body_md.strip())
+        desc = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", content_html)).strip()[:155]
+        render_prose_page(slugify(f.stem), title, content_html, desc or title)
+    seen = set()
+    if pdir.exists():
+        for slug in order:
+            f = pdir / (slug + ".md")
+            if f.exists(): render_md(f); seen.add(f.name); n += 1
+        for f in sorted(pdir.glob("*.md")):
+            if f.name not in seen: render_md(f); n += 1
     build_contact(); n += 1
     build_enquiry(); n += 1
-    # local legal/info pages from content/legal/*.html (e.g. privacy-policy)
-    legal_dir = ROOT / "content" / "legal"
-    if legal_dir.exists():
-        for f in sorted(legal_dir.glob("*.html")):
-            slug = f.stem
-            title = slug.replace("-", " ").title().replace("And", "and")
-            content_html = f.read_text(encoding="utf-8")
-            desc = re.sub(r"<[^>]+>", " ", content_html)
-            desc = re.sub(r"\s+", " ", desc).strip()[:155]
-            render_prose_page(slug, title, content_html, desc or title)
-            n += 1
-    print(f"  content pages: {n} pages (about, delivery, returns, terms, contact, legal)")
+    print(f"  content pages: {n} pages (content/pages/*.md + contact + enquiry)")
 
 # REDIRECT STUBS (old WooCommerce category url -> new)
 # GitHub Pages can't do server-side 301s, so we emit a static stub at each old

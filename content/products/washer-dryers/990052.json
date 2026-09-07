@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Electrolux EWDK5846B is an 8kg wash / 4kg dry washer dryer in white with a fast 1600-spin, DualCare and SensiCare load sensing, and a SteamRefresh cycle that neutralises odours and reduces wrinkles using 96% less water. D energy rated, 2-year guarantee.",
+  "hidden": false,
+  "features": [
+    "8kg wash / 4kg dry — 1600 rpm spin",
+    "DualCare & SensiCare programmes",
+    "SteamRefresh — 96% less water",
+    "14 programmes · white LED display",
+    "Child lock · delay timer",
+    "White finish",
+    "D energy rating · 2-yr guarantee"
+  ],
+  "specs": [
+    {
+      "label": "Wash / dry",
+      "value": "8 kg / 4 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1600 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "D"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "84.7 × 59.7 × 53.4 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "14"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

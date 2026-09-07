@@ -19,6 +19,37 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Nordmende WMA1280MBL is an 8kg 1200-spin washing machine in matt black with 15 programmes, a 15-minute quick wash, half-load detection and overflow protection. A energy rated, 3-year warranty.",
+  "hidden": false,
+  "features": [
+    "8kg capacity — 1200 rpm spin",
+    "15 programmes · 15-min quick wash",
+    "Half-load detection",
+    "Overflow protection",
+    "1–23 hour delay start",
+    "Matt black finish",
+    "A energy rating · 3-year warranty"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "8 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1200 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Programmes",
+      "value": "15"
+    },
+    {
+      "label": "Finish",
+      "value": "Matt black"
+    }
+  ]
 }

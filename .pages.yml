@@ -1,10 +1,12 @@
 # Pages CMS configuration — David's visual admin (app.pagescms.org).
-# Products are split into one section per category (folders under
-# content/products/). Each product is a JSON file the build reads. Photos
-# uploaded here land in assets/img and are referenced as /assets/img/...
-#
-# NOTE: the panel's own look (colours/logo/layout) is Pages CMS's hosted app and
-# can't be reskinned. Everything below shapes the *editing experience*.
+# Nearly everything on the site is editable here:
+#   • Site Settings  — business name, contact, WhatsApp, hours, top bar, menu.
+#   • Homepage       — hero, value-props, section titles, "who we are", stats.
+#   • Pages          — About, Delivery, Returns, Terms, Privacy (rich text).
+#   • Products       — one section per department; name, price, photo, hide,
+#                      description, key features and the specifications table.
+# Any save commits to the repo and the site auto-rebuilds within ~2 minutes.
+# NOTE: the panel's own look is Pages CMS's hosted app and can't be reskinned.
 
 media:
   input: assets/img
@@ -12,6 +14,91 @@ media:
   extensions: [jpg, jpeg, png, webp, gif, svg]
 
 content:
+  - name: settings
+    label: Site Settings
+    description: Business name, phone, WhatsApp, email, address, opening hours, the top bar and the menu.
+    type: file
+    path: content/settings.json
+    format: json
+    fields:
+      - { name: name, label: Business name, type: string }
+      - { name: tagline, label: Tagline (under the logo), type: string }
+      - { name: phone, label: Phone number, type: string }
+      - { name: whatsapp, label: "WhatsApp number (international, no + or spaces — e.g. 353852414790)", type: string }
+      - { name: email, label: Email, type: string }
+      - { name: address, label: Address, type: string }
+      - { name: hours, label: Opening hours, type: string }
+      - { name: footer_blurb, label: Footer blurb, type: text }
+      - name: topstrip
+        label: Top bar messages
+        type: object
+        list: true
+        description: The small messages in the black bar at the very top.
+        fields:
+          - { name: icon, label: Icon (emoji), type: string }
+          - { name: bold, label: Bold part, type: string }
+          - { name: text, label: Rest of the message, type: string }
+      - name: nav
+        label: Menu sections
+        type: object
+        list: true
+        description: The links in the orange menu bar (Electrical / Home / Garden).
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: link, label: Link (e.g. /category/), type: string }
+
+  - name: homepage
+    label: Homepage
+    description: The hero, value-props, section headings, "who we are" text and the stats on the front page.
+    type: file
+    path: content/homepage.json
+    format: json
+    fields:
+      - { name: hero_eyebrow, label: Hero — small heading, type: string }
+      - { name: hero_title, label: "Hero — big headline (one line each)", type: text }
+      - { name: hero_text, label: Hero — paragraph, type: text }
+      - { name: hero_cta_label, label: Hero — button label, type: string }
+      - { name: hero_image, label: "Hero — image (optional; leave blank for automatic)", type: image }
+      - name: valueprops
+        label: Value bar (delivery / in store / advice / family)
+        type: object
+        list: true
+        fields:
+          - { name: icon, label: Icon (emoji), type: string }
+          - { name: title, label: Title, type: string }
+          - { name: subtitle, label: Subtitle, type: string }
+      - { name: brands_label, label: "Brands strip — heading", type: string }
+      - { name: category_label, label: "Categories — small heading", type: string }
+      - { name: category_title, label: "Categories — heading", type: string }
+      - { name: popular_label, label: "Popular — small heading", type: string }
+      - { name: popular_title, label: "Popular — heading", type: string }
+      - { name: whatsapp_title, label: "WhatsApp strip — heading", type: string }
+      - { name: whatsapp_text, label: "WhatsApp strip — text", type: text }
+      - { name: about_label, label: "Who we are — small heading", type: string }
+      - { name: about_title, label: "Who we are — heading", type: string }
+      - { name: about_text, label: "Who we are — paragraph", type: text }
+      - name: stats
+        label: Stats row
+        type: object
+        list: true
+        fields:
+          - { name: number, label: Number, type: string }
+          - { name: label, label: Label, type: string }
+
+  - name: pages
+    label: Pages (About, Delivery, etc.)
+    description: The wording of About Us, Delivery, Returns, Terms and Privacy.
+    type: collection
+    path: content/pages
+    format: yaml-frontmatter
+    filename: "{fields.title}.md"
+    view:
+      fields: [title]
+      primary: title
+    fields:
+      - { name: title, label: Page title, type: string }
+      - { name: body, label: Page content, type: rich-text }
+
   - name: fridges-freezers
     label: Fridges & Freezers
     description: Fridges & Freezers on the site. Search by name or model, then click Edit.
@@ -49,8 +136,21 @@ content:
         type: string
       - name: description
         label: Description
-        type: rich-text
-        description: "Optional — appears on the product page."
+        type: text
+        description: "The paragraph under Overview. Leave blank for the automatic one."
+      - name: features
+        label: Key features
+        type: string
+        list: true
+        description: "Bullet points under Overview — one per line."
+      - name: specs
+        label: Specifications table
+        type: object
+        list: true
+        description: "Rows of the spec table."
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: value, label: Value, type: string }
       - name: categories
         label: Category (advanced)
         type: object
@@ -102,8 +202,21 @@ content:
         type: string
       - name: description
         label: Description
-        type: rich-text
-        description: "Optional — appears on the product page."
+        type: text
+        description: "The paragraph under Overview. Leave blank for the automatic one."
+      - name: features
+        label: Key features
+        type: string
+        list: true
+        description: "Bullet points under Overview — one per line."
+      - name: specs
+        label: Specifications table
+        type: object
+        list: true
+        description: "Rows of the spec table."
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: value, label: Value, type: string }
       - name: categories
         label: Category (advanced)
         type: object
@@ -155,8 +268,21 @@ content:
         type: string
       - name: description
         label: Description
-        type: rich-text
-        description: "Optional — appears on the product page."
+        type: text
+        description: "The paragraph under Overview. Leave blank for the automatic one."
+      - name: features
+        label: Key features
+        type: string
+        list: true
+        description: "Bullet points under Overview — one per line."
+      - name: specs
+        label: Specifications table
+        type: object
+        list: true
+        description: "Rows of the spec table."
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: value, label: Value, type: string }
       - name: categories
         label: Category (advanced)
         type: object
@@ -208,8 +334,21 @@ content:
         type: string
       - name: description
         label: Description
-        type: rich-text
-        description: "Optional — appears on the product page."
+        type: text
+        description: "The paragraph under Overview. Leave blank for the automatic one."
+      - name: features
+        label: Key features
+        type: string
+        list: true
+        description: "Bullet points under Overview — one per line."
+      - name: specs
+        label: Specifications table
+        type: object
+        list: true
+        description: "Rows of the spec table."
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: value, label: Value, type: string }
       - name: categories
         label: Category (advanced)
         type: object
@@ -261,8 +400,21 @@ content:
         type: string
       - name: description
         label: Description
-        type: rich-text
-        description: "Optional — appears on the product page."
+        type: text
+        description: "The paragraph under Overview. Leave blank for the automatic one."
+      - name: features
+        label: Key features
+        type: string
+        list: true
+        description: "Bullet points under Overview — one per line."
+      - name: specs
+        label: Specifications table
+        type: object
+        list: true
+        description: "Rows of the spec table."
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: value, label: Value, type: string }
       - name: categories
         label: Category (advanced)
         type: object
@@ -314,8 +466,21 @@ content:
         type: string
       - name: description
         label: Description
-        type: rich-text
-        description: "Optional — appears on the product page."
+        type: text
+        description: "The paragraph under Overview. Leave blank for the automatic one."
+      - name: features
+        label: Key features
+        type: string
+        list: true
+        description: "Bullet points under Overview — one per line."
+      - name: specs
+        label: Specifications table
+        type: object
+        list: true
+        description: "Rows of the spec table."
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: value, label: Value, type: string }
       - name: categories
         label: Category (advanced)
         type: object
@@ -367,8 +532,21 @@ content:
         type: string
       - name: description
         label: Description
-        type: rich-text
-        description: "Optional — appears on the product page."
+        type: text
+        description: "The paragraph under Overview. Leave blank for the automatic one."
+      - name: features
+        label: Key features
+        type: string
+        list: true
+        description: "Bullet points under Overview — one per line."
+      - name: specs
+        label: Specifications table
+        type: object
+        list: true
+        description: "Rows of the spec table."
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: value, label: Value, type: string }
       - name: categories
         label: Category (advanced)
         type: object
@@ -420,8 +598,21 @@ content:
         type: string
       - name: description
         label: Description
-        type: rich-text
-        description: "Optional — appears on the product page."
+        type: text
+        description: "The paragraph under Overview. Leave blank for the automatic one."
+      - name: features
+        label: Key features
+        type: string
+        list: true
+        description: "Bullet points under Overview — one per line."
+      - name: specs
+        label: Specifications table
+        type: object
+        list: true
+        description: "Rows of the spec table."
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: value, label: Value, type: string }
       - name: categories
         label: Category (advanced)
         type: object

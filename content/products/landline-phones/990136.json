@@ -19,6 +19,36 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Panasonic KX-TG6811 is a premium DECT cordless phone (single handset) with a dedicated Call Blocker to stop nuisance numbers, Noise Reduction for clearer calls and a bright 1.8-inch backlit display. Power-failure talk keeps you connected in a blackout, and it supports up to six handsets.",
+  "hidden": false,
+  "features": [
+    "DECT cordless — single handset",
+    "Dedicated Call Blocker for nuisance calls",
+    "Noise Reduction — clearer conversations",
+    "1.8-inch backlit display · caller ID",
+    "Power-failure talk mode",
+    "Expandable to 6 handsets"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "DECT cordless"
+    },
+    {
+      "label": "Handsets",
+      "value": "1"
+    },
+    {
+      "label": "Answering machine",
+      "value": "No"
+    },
+    {
+      "label": "Call blocker",
+      "value": "Yes"
+    },
+    {
+      "label": "Display",
+      "value": "1.8-inch backlit"
+    }
+  ]
 }

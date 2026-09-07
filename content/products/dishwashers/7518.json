@@ -45,6 +45,45 @@
     }
   ],
   "short_description": "<ul>\n<li>Colour Black</li>\n<li>Adjustable Racking</li>\n<li>Audible End of Programme</li>\n<li>Child Lock</li>\n<li>Control Type Buttons</li>\n<li>Cutlery Basket</li>\n<li>Delay Timer</li>\n<li>Display Type LED Indicators</li>\n<li>Half Load / Zone Wash Option</li>\n<li>Height Adjustable Top Basket</li>\n<li>No of Place Settings 10</li>\n<li>Rinse Aid Level Indicator</li>\n<li>Salt Fill Indicator</li>\n<li>Energy Rating A++</li>\n<li>Noise Level  (dB) 49dB</li>\n<li>Annual Energy Consumption 211kwh</li>\n<li>Annual Water Consumption Litres 2520L</li>\n<li>Drying Performance A</li>\n<li>Number of Wash Programmes 6\n<ul>\n<li>Intensive Wash-Pots &amp; Pans</li>\n<li>Normal</li>\n<li>Economy Wash Option</li>\n<li>90 mins</li>\n<li>Rapid</li>\n</ul>\n</li>\n<li>Dimensions (HxWxD cm) 84.5 x 44 x 60</li>\n<li></li>\n</ul>\n",
-  "description": "",
-  "hidden": false
+  "description": "The Powerpoint P24510M6BL is a slimline 45cm freestanding dishwasher in black with 10 place settings and six wash programmes (Intensive to Rapid). A height-adjustable top basket, half-load/zone wash, delay timer and child lock. A++ energy rated.",
+  "hidden": false,
+  "features": [
+    "Slimline 45cm — 10 place settings",
+    "Six wash programmes",
+    "Height-adjustable top basket",
+    "Half-load / zone wash",
+    "Delay timer · child lock",
+    "Black finish",
+    "A++ energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Slimline 45cm freestanding"
+    },
+    {
+      "label": "Place settings",
+      "value": "10"
+    },
+    {
+      "label": "Programmes",
+      "value": "6"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A++"
+    },
+    {
+      "label": "Noise",
+      "value": "49 dB"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "84.5 × 44.8 × 60.4 cm"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

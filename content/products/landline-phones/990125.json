@@ -19,6 +19,28 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Emporia GD61AB is a big-button DECT cordless phone for seniors, with large keys, a clear display and a built-in answering machine. Hearing-aid friendly, with an SOS/emergency function and hands-free speakerphone.",
+  "hidden": false,
+  "features": [
+    "Big-button DECT cordless",
+    "Built-in answering machine",
+    "Large keys & clear display",
+    "SOS / emergency function",
+    "Hands-free speakerphone",
+    "Hearing-aid friendly"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "DECT cordless (big button)"
+    },
+    {
+      "label": "Answering machine",
+      "value": "Yes"
+    },
+    {
+      "label": "SOS",
+      "value": "Yes"
+    }
+  ]
 }

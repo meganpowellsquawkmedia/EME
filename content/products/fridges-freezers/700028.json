@@ -19,6 +19,36 @@
     }
   ],
   "short_description": "",
-  "description": "Powerpoint undercounter fridge. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Powerpoint P467TTIBMDW is a large table-top larder fridge in white with a small ice-box compartment — 65 litres in a compact 44.5cm-wide body that fits on a countertop or under a counter. Reversible door, adjustable leg and two fridge shelves. Ideal for a small kitchen, office or bedroom.",
+  "hidden": false,
+  "features": [
+    "Compact table-top / undercounter — 65L",
+    "Small ice-box (1-star) with ice tray",
+    "Two fridge shelves + door bin",
+    "Reversible door",
+    "Adjustable levelling leg",
+    "White finish"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Table-top larder + ice box"
+    },
+    {
+      "label": "Total capacity",
+      "value": "65 L"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "63 × 44.5 × 51 cm"
+    },
+    {
+      "label": "Ice box",
+      "value": "1-star"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

@@ -19,6 +19,20 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Uniden CE7203 is a corded desk phone with caller ID and a clear display — reliable, easy home calling with direct-memory keys and a hands-free speakerphone.",
+  "hidden": false,
+  "features": [
+    "Corded desk phone",
+    "Caller ID · clear display",
+    "Direct-memory keys",
+    "Hands-free speakerphone",
+    "Last-number redial",
+    "Adjustable ringer"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Corded phone"
+    }
+  ]
 }

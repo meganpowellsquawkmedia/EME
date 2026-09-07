@@ -19,6 +19,29 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hotpoint HHDW90WWIRE is a 9kg heat pump tumble dryer in white using up to 77% less energy than a B-class condenser. ColdGuard lets it run in temperatures down to 0°C (garages/outbuildings), a PetHairCare steam cycle lifts pet hair, and HomeWhiz gives app control.",
+  "hidden": false,
+  "features": [
+    "9kg capacity — heat pump",
+    "Up to 77% less energy than B-class condenser",
+    "ColdGuard — runs down to 0°C",
+    "PetHairCare steam cycle",
+    "HomeWhiz app control",
+    "Optional direct drain",
+    "Drum light"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "9 kg"
+    },
+    {
+      "label": "Type",
+      "value": "Heat pump"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

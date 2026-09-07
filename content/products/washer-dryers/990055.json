@@ -12,7 +12,7 @@
   ],
   "hidden": false,
   "sku": "HBWR496B8G-80",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Hoover Pro Wash&Dry Series 3 (HBWR496B8G-80) is a 9kg wash / 6kg dry washer dryer in graphite with Wi-Fi & Bluetooth (hOn app, 60+ cycles), a full wash in 59 minutes, sensor control and steam for easy ironing. Anti-bacterial drawer and gasket. D (wash&dry) / A (wash) rated.",
   "categories": [
     {
       "id": 703,
@@ -22,5 +22,40 @@
   "id": 990055,
   "slug": "hoover-hbwr496b8g-80-washer-dryer",
   "regular_price": "449",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "9kg wash / 6kg dry — 1400 rpm spin",
+    "Wi-Fi & Bluetooth — hOn app (60+ cycles)",
+    "Full wash in 59 minutes",
+    "Steam for easy ironing",
+    "Anti-bacterial drawer & gasket",
+    "Graphite finish",
+    "D wash&dry / A wash rating"
+  ],
+  "specs": [
+    {
+      "label": "Wash / dry",
+      "value": "9 kg / 6 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "D (wash&dry) / A (wash)"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "85 × 59.5 × 60.1 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "16"
+    },
+    {
+      "label": "Finish",
+      "value": "Graphite"
+    }
+  ]
 }

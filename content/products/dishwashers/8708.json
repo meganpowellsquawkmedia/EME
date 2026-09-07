@@ -53,6 +53,45 @@
     }
   ],
   "short_description": "<h2>Features</h2>\n<ul>\n<li>3x better drying with AirDry</li>\n</ul>\n<p>3x better drying with AirDry &#8211; The new AirDry technology uses natural airflow to finish drying, for up to 3x better performance compared to closed-door systems. The door opens 10 cm towards the end of the cycle, letting air circulate for superb drying results.</p>\n<h2>Specification</h2>\n<ul>\n<li>Dimensions (mm) (HxWxD): 850x600x625</li>\n<li>Number of Place Settings: 13</li>\n<li>Noise Rating (dB): C</li>\n</ul>\n",
-  "description": "<h1>Our 300 AirDry Dishwasher finishes each cycle with a breath of fresh air, performing 3x better than closed-door systems. The door opens automatically during the drying phase using fresh air to get plates and cutlery completely dry.</h1>\n<h2>Features</h2>\n<ul>\n<li>3x better drying with AirDry</li>\n</ul>\n<p>3x better drying with AirDry - The new AirDry technology uses natural airflow to finish drying, for up to 3x better performance compared to closed-door systems. The door opens 10 cm towards the end of the cycle, letting air circulate for superb drying results.</p>\n<h2>Specification</h2>\n<ul>\n<li>Dimensions (mm) (HxWxD): 850x600x625</li>\n<li>Number of Place Settings: 13</li>\n<li>Noise Rating (dB): C</li>\n</ul>\n",
-  "hidden": false
+  "description": "The Electrolux ESA17210S is a 60cm freestanding dishwasher in white with 13 place settings. AirDry technology opens the door at the end for up to 3× better drying, five programmes and a quiet inverter motor. E energy rated.",
+  "hidden": false,
+  "features": [
+    "60cm freestanding — 13 place settings",
+    "AirDry — up to 3× better drying",
+    "Five programmes",
+    "Height-adjustable upper basket",
+    "Quiet inverter motor",
+    "White finish",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Freestanding 60cm"
+    },
+    {
+      "label": "Place settings",
+      "value": "13"
+    },
+    {
+      "label": "Programmes",
+      "value": "5"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Water use",
+      "value": "9.9 L"
+    },
+    {
+      "label": "Noise",
+      "value": "48 dB"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

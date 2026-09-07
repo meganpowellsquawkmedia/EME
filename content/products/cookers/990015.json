@@ -19,6 +19,53 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hotpoint HD5V92KCB is a compact 50cm freestanding electric cooker in black — a great fit for smaller kitchens without losing a second oven. A twin-cavity design gives a 67L main fan oven and a 33L top oven (100L total), over a four-zone ceramic hob with residual-heat indicators. Catalytic liners help keep it clean. A energy rated.",
+  "hidden": false,
+  "features": [
+    "Space-saving 50cm width",
+    "Twin cavity — 67L main fan + 33L top (100L)",
+    "Four-zone ceramic hob",
+    "Residual heat indicators",
+    "Catalytic self-cleaning liners",
+    "Easy-wipe ceramic surface",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 50 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric"
+    },
+    {
+      "label": "Hob",
+      "value": "4-zone ceramic"
+    },
+    {
+      "label": "Main oven",
+      "value": "67 L fan"
+    },
+    {
+      "label": "Second oven",
+      "value": "33 L"
+    },
+    {
+      "label": "Total capacity",
+      "value": "100 L"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    },
+    {
+      "label": "Installation",
+      "value": "Hardwired"
+    }
+  ]
 }

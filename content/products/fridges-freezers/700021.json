@@ -19,6 +19,44 @@
     }
   ],
   "short_description": "",
-  "description": "Indesit integrated fridge freezer. 50/50 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Indesit KINS1261B4UK is a 50/50 integrated fridge freezer, built in behind a cabinet door with 265 litres (163L fridge / 102L freezer). Low Frost means less defrosting, with a dedicated Fresh Space for fruit and veg and LED lighting. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Integrated 50/50 — 265L (163L / 102L)",
+    "Fits behind a cabinet door",
+    "Low Frost — less defrosting",
+    "Fresh Space for fruit & veg",
+    "LED lighting",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Integrated (built-in)"
+    },
+    {
+      "label": "Total capacity",
+      "value": "265 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "163 L / 102 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "178 × 54.3 × 54.5 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Low Frost"
+    },
+    {
+      "label": "Noise",
+      "value": "37 dB"
+    }
+  ]
 }

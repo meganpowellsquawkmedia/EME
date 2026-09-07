@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "",
-  "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Powerpoint P9383KSS is an American-style side-by-side fridge freezer in stainless steel with a 372-litre capacity (230L fridge / 142L freezer). Total No Frost, adjustable shelves, a bottle rack and a salad crisper make it a roomy, low-maintenance centrepiece. E energy rated.",
+  "hidden": false,
+  "features": [
+    "American side-by-side — 372L (230L / 142L)",
+    "Total No Frost",
+    "Adjustable shelves + bottle rack",
+    "Salad crisper & dairy compartments",
+    "Recessed handles",
+    "Stainless steel finish",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "American side-by-side"
+    },
+    {
+      "label": "Total capacity",
+      "value": "372 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "230 L / 142 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "171.4 × 78 × 62.8 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Total No Frost"
+    },
+    {
+      "label": "Finish",
+      "value": "Stainless steel"
+    }
+  ]
 }

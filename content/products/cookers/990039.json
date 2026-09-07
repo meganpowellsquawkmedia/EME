@@ -19,6 +19,50 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Nordmende CTG61BK is a 60cm twin-cavity natural-gas cooker in black. Four gas burners sit over a roomy 62L main oven with a 33L top grill cavity. Enamel pan supports, easy-clean enamel and button ignition keep it straightforward, with a mechanical timer. A energy rated, 3-year warranty.",
+  "hidden": false,
+  "features": [
+    "Four gas burners",
+    "Roomy 62L main oven + 33L top grill cavity",
+    "Button ignition",
+    "Enamel pan supports",
+    "Easy-clean enamel interior",
+    "Mechanical timer",
+    "A energy rating",
+    "3-year warranty"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Gas (natural)"
+    },
+    {
+      "label": "Hob",
+      "value": "4 gas burners"
+    },
+    {
+      "label": "Main oven",
+      "value": "62 L"
+    },
+    {
+      "label": "Top cavity",
+      "value": "33 L grill"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years"
+    }
+  ]
 }

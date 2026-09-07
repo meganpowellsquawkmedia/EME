@@ -19,6 +19,54 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Indesit IDE6VMB is a 60cm freestanding electric cooker in black with a double oven — a 69L main oven and a 36L top oven — and a four-zone ceramic hob with residual-heat indicators. Steam&Clean and Click&Clean make upkeep easy, and a smooth enamel interior stops grease sticking. A energy rated, with a 10-year parts guarantee.",
+  "hidden": false,
+  "features": [
+    "Double oven — 69L main + 36L top",
+    "Four-zone ceramic hob",
+    "Residual heat indicators",
+    "Steam&Clean — softens grease in 35 mins",
+    "Click&Clean removable door glass",
+    "Smooth easy-clean enamel",
+    "A energy rating",
+    "10-year parts guarantee"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric"
+    },
+    {
+      "label": "Hob",
+      "value": "4-zone ceramic"
+    },
+    {
+      "label": "Main oven",
+      "value": "69 L"
+    },
+    {
+      "label": "Second oven",
+      "value": "36 L"
+    },
+    {
+      "label": "Cleaning",
+      "value": "Steam&Clean"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    },
+    {
+      "label": "Warranty",
+      "value": "10-year parts"
+    }
+  ]
 }

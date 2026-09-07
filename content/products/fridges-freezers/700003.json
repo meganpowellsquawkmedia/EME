@@ -19,6 +19,40 @@
     }
   ],
   "short_description": "",
-  "description": "Electrolux fridge freezer. Frost Free. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Electrolux LNT6ME33KO is a tall 60/40 frost-free fridge freezer in matt black with a large 230-litre fridge and a 101-litre freezer. TwinTech® dual cooling keeps fridge humidity up so food stays fresh while the freezer stays frost-free. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Large capacity — 230L fridge / 101L freezer",
+    "TwinTech® NoFrost dual cooling",
+    "Frost-free — no manual defrosting",
+    "4-star freezer rating",
+    "Matt black finish",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Total capacity",
+      "value": "331 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "230 L / 101 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "186 × 60 × 65 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "No Frost"
+    },
+    {
+      "label": "Finish",
+      "value": "Matt black"
+    }
+  ]
 }

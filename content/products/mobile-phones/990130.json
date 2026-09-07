@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "V27-UK",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Emporia V27 (Simplicity) is a simple 4G flip phone for seniors — extra-large illuminated keys, a clear 2.3-inch display with adjustable text size, and an SOS emergency button that calls up to five contacts. Answer by opening, hang up by closing. Hearing-aid compatible (M4/T4), with a charging cradle.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,36 @@
   "id": 990130,
   "slug": "emporia-v27-uk",
   "regular_price": "59.99",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "Simple 4G flip phone",
+    "Extra-large illuminated keys",
+    "SOS emergency button (5 contacts)",
+    "Open to answer, close to hang up",
+    "Adjustable text size",
+    "Hearing-aid compatible (M4/T4)",
+    "IP44 · charging cradle"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "4G flip phone (senior)"
+    },
+    {
+      "label": "Display",
+      "value": "2.3-inch"
+    },
+    {
+      "label": "Network",
+      "value": "4G / LTE"
+    },
+    {
+      "label": "SOS",
+      "value": "Yes — 5 contacts"
+    },
+    {
+      "label": "Protection",
+      "value": "IP44"
+    }
+  ]
 }

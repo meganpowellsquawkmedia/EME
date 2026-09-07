@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "SM-A047FZWUEUB",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Samsung Galaxy A04 (32GB) is a budget-friendly phone with a big 6.5-inch display and a large 5000mAh battery for long life between charges. A 50MP main camera and expandable storage.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,31 @@
   "id": 990156,
   "slug": "samsung-sm-a047fzwueub",
   "regular_price": "199",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "6.5-inch display",
+    "50MP main + 2MP depth camera",
+    "5MP front camera",
+    "Large 5000mAh battery",
+    "Expandable storage",
+    "32GB storage"
+  ],
+  "specs": [
+    {
+      "label": "Display",
+      "value": "6.5-inch PLS LCD"
+    },
+    {
+      "label": "Rear camera",
+      "value": "50MP main"
+    },
+    {
+      "label": "Storage",
+      "value": "32GB (expandable)"
+    },
+    {
+      "label": "Battery",
+      "value": "5000mAh"
+    }
+  ]
 }

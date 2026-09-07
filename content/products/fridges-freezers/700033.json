@@ -19,6 +19,44 @@
     }
   ],
   "short_description": "",
-  "description": "Powerpoint fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Powerpoint P75562ML is a 54cm top-mount fridge freezer in inox with around 211 litres (roughly 163L fridge / 44L freezer). Glass shelves, a crystal vegetable crisper, four door bins and a 4-star freezer. A+ energy rated.",
+  "hidden": false,
+  "features": [
+    "54cm top-mount — approx. 211L",
+    "Two glass fridge shelves",
+    "Crystal vegetable crisper",
+    "Four door bins + egg tray",
+    "4-star freezer rating",
+    "A+ energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Top-mount"
+    },
+    {
+      "label": "Total capacity",
+      "value": "~211 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "~163 L / 44 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A+"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "143 × 54 × 57 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Manual"
+    },
+    {
+      "label": "Finish",
+      "value": "Inox"
+    }
+  ]
 }

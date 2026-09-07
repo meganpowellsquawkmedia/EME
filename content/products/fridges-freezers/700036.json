@@ -19,6 +19,49 @@
     }
   ],
   "short_description": "",
-  "description": "Samsung fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Samsung RS70F64KE (Series 6, SpaceMax) is an American-style side-by-side fridge freezer in black with a huge 640-litre capacity (420L fridge / 220L freezer) and a plumbed ice & water dispenser. SpaceMax thin-wall insulation adds room without bulk, and a Digital Inverter compressor keeps it quiet at 36dB. Wi-Fi/SmartThings. E energy rated.",
+  "hidden": false,
+  "features": [
+    "American side-by-side — 640L (420L / 220L)",
+    "Plumbed ice & water dispenser",
+    "SpaceMax™ — more room, same footprint",
+    "Digital Inverter compressor — quiet 36dB",
+    "No Frost",
+    "Wi-Fi / SmartThings app",
+    "Black finish · E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "American side-by-side"
+    },
+    {
+      "label": "Total capacity",
+      "value": "640 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "420 L / 220 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "178.4 × 91.2 × 72.6 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "No Frost"
+    },
+    {
+      "label": "Water/ice",
+      "value": "Plumbed"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

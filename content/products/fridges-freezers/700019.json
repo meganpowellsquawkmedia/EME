@@ -19,6 +19,40 @@
     }
   ],
   "short_description": "",
-  "description": "Indesit fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Indesit INK25322 is a tall 70/30 frost-free fridge freezer in silver with 322 litres (226L fridge / 96L freezer). Total No Frost means no manual defrosting, with height-adjustable shelves and a reversible door. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Tall 70/30 — 322L (226L / 96L)",
+    "Total No Frost — no manual defrosting",
+    "4 fridge shelves (3 adjustable)",
+    "Three freezer compartments",
+    "Reversible door",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Total capacity",
+      "value": "322 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "226 L / 96 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "183.5 × 59.5 × 63.5 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "No Frost"
+    },
+    {
+      "label": "Finish",
+      "value": "Silver"
+    }
+  ]
 }

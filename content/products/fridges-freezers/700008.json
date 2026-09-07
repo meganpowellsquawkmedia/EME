@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "",
-  "description": "Haier fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Haier HTW5618ENMG (3D 60 Series 5) is a 60/40 three-door fridge freezer in stainless steel, with 360 litres (235L fridge / 125L freezer) and easy-access freezer drawers. Total No Frost, a 90%-humidity zone and Wi-Fi/hOn control keep food fresher for longer. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Three-door 60/40 — 360L (235L / 125L)",
+    "Total No Frost",
+    "Humidity Zone (HCS) keeps produce fresh",
+    "Easy-access freezer drawers",
+    "Wi-Fi & hOn app control",
+    "Stainless steel finish",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "3-door bottom freezer"
+    },
+    {
+      "label": "Total capacity",
+      "value": "360 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "235 L / 125 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "185 × 59.5 × 66.7 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Total No Frost"
+    },
+    {
+      "label": "Finish",
+      "value": "Stainless steel"
+    }
+  ]
 }

@@ -19,6 +19,49 @@
     }
   ],
   "short_description": "",
-  "description": "Samsung fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Samsung RS70F65KETEU (Series 6, SpaceMax) is an American-style side-by-side fridge freezer in matt silver with a huge 640-litre capacity (420L fridge / 220L freezer) and a non-plumbed ice & water dispenser — no plumbing needed. SpaceMax insulation maximises space and a Digital Inverter compressor keeps it quiet. Wi-Fi/SmartThings. E energy rated.",
+  "hidden": false,
+  "features": [
+    "American side-by-side — 640L (420L / 220L)",
+    "Non-plumbed ice & water dispenser",
+    "SpaceMax™ — more room, same footprint",
+    "Digital Inverter compressor — quiet 36dB",
+    "No Frost",
+    "Wi-Fi / SmartThings app",
+    "Matt silver finish · E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "American side-by-side"
+    },
+    {
+      "label": "Total capacity",
+      "value": "640 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "420 L / 220 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "178.4 × 91.2 × 72.6 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "No Frost"
+    },
+    {
+      "label": "Water/ice",
+      "value": "Non-plumbed"
+    },
+    {
+      "label": "Finish",
+      "value": "Matt silver"
+    }
+  ]
 }

@@ -19,6 +19,40 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Indesit BIWDIL861485UK is an 8kg wash / 6kg dry integrated washer dryer, built in behind a cabinet door. Push&Go starts a wash-and-dry with one button, and a 45-minute 30°C cycle or Express 60 gets clothes washed and dried fast. 16 programmes. D energy rated, 10-year parts.",
+  "hidden": false,
+  "features": [
+    "Integrated 8kg wash / 6kg dry — 1400 rpm",
+    "Fits behind a cabinet door",
+    "Push&Go one-touch wash & dry",
+    "45-min 30°C & Express 60 cycles",
+    "16 wash programmes",
+    "D energy rating · 10-yr parts"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Integrated (built-in)"
+    },
+    {
+      "label": "Wash / dry",
+      "value": "8 kg / 6 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "D"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "81.5 × 59.5 × 54.5 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "16"
+    }
+  ]
 }

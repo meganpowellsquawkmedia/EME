@@ -19,6 +19,54 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Belling Cookcentre 110EBLK is a 110cm electric range cooker in black — a real kitchen centrepiece. A 65L main fan oven, 61L conventional second oven and separate 31L grill (157L total) pair with a five-zone ceramic hob featuring a dual zone and a warming zone. Defrost and slow-cook functions and a Maxi-Clock programmer add everyday flexibility. A/A energy rated.",
+  "hidden": false,
+  "features": [
+    "110cm range — statement centrepiece",
+    "65L main fan oven + 61L second oven + 31L grill",
+    "Five-zone ceramic hob with dual zone & warming zone",
+    "Defrost and slow-cook functions",
+    "Variable-rate electric grill",
+    "Maxi-Clock™ programmable timer",
+    "Storage compartment",
+    "A/A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90–93 × 109.6 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A/A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric"
+    },
+    {
+      "label": "Hob",
+      "value": "5-zone ceramic (dual + warming)"
+    },
+    {
+      "label": "Main oven",
+      "value": "65 L fan"
+    },
+    {
+      "label": "Second oven",
+      "value": "61 L conventional"
+    },
+    {
+      "label": "Grill",
+      "value": "31 L separate"
+    },
+    {
+      "label": "Total capacity",
+      "value": "157 L"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

@@ -19,6 +19,58 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hotpoint HDE6VDCASB1 is a 60cm freestanding electric cooker in black with a dedicated Air Fry programme and a 75L Multiflow main oven plus a 38L top oven (up to 126L). A fast-heating ceramic hob with a flexible double-ring zone and SteamAssist baking round it off, with catalytic liners for easy cleaning. A energy rated, 10-year parts guarantee.",
+  "hidden": false,
+  "features": [
+    "Dedicated Air Fry programme — little to no oil",
+    "75L Multiflow main oven + 38L top (126L)",
+    "Ceramic hob with flexible double-ring zone",
+    "SteamAssist for lighter pastries & golden crusts",
+    "Catalytic self-cleaning liners",
+    "Modern glass control panel",
+    "A energy rating",
+    "10-year parts / 1-year labour guarantee"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric"
+    },
+    {
+      "label": "Hob",
+      "value": "Ceramic (double-ring zone)"
+    },
+    {
+      "label": "Main oven",
+      "value": "75 L Multiflow"
+    },
+    {
+      "label": "Second oven",
+      "value": "38 L"
+    },
+    {
+      "label": "Total capacity",
+      "value": "126 L"
+    },
+    {
+      "label": "Special",
+      "value": "Air Fry + SteamAssist"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    },
+    {
+      "label": "Warranty",
+      "value": "10yr parts / 1yr labour"
+    }
+  ]
 }

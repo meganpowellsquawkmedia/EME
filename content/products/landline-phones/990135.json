@@ -19,6 +19,24 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Panasonic KX-TG1100 is a straightforward DECT cordless phone (single handset) for reliable everyday calling, with caller ID, a clear display and a hands-free speakerphone.",
+  "hidden": false,
+  "features": [
+    "DECT cordless — single handset",
+    "Caller ID",
+    "Clear display",
+    "Hands-free speakerphone",
+    "Redial & phonebook memory",
+    "Simple, reliable everyday calling"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "DECT cordless"
+    },
+    {
+      "label": "Handsets",
+      "value": "1"
+    }
+  ]
 }

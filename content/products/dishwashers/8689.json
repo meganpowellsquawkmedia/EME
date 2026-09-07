@@ -58,6 +58,45 @@
     }
   ],
   "short_description": "<h4>QUIPMENT</h4>\n<table class=\"table\">\n<tbody>\n<tr>\n<th class=\"product-detail__specification-title\">Presence of cutlery basket</th>\n<td class=\"text-right\">Yes</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Single basket washing</th>\n<td class=\"text-right\">No possibility</td>\n</tr>\n</tbody>\n</table>\n<h4>ENERGY / PERFORMANCE INFORMATION</h4>\n<table class=\"table\">\n<tbody>\n<tr>\n<th class=\"product-detail__specification-title\">Cleaning performance</th>\n<td class=\"text-right\">A</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Maximum temperature for water intake (Ã?Â?Ã?Â°C)</th>\n<td class=\"text-right\">60</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Drying performance</th>\n<td class=\"text-right\">A</td>\n</tr>\n<tr>\n<th class=\"product-detail__specification-title\">Noise level (dBA)</th>\n<td class=\"text-right\">49</td>\n</tr>\n</tbody>\n</table>\n",
-  "description": "<p>If you're limited on kitchen space, this Indesit slimline freestanding dishwasher fits perfectly into a 45cm area. Despite its compact size, it can accommodate up to 10 place settings, making post-meal clean-up a breeze. Adjustable baskets make it simple to fit larger and more awkward items when needed, while the Rapid 40 cycle quickly washes small loads when you're short on time. Plus, you can choose from 6 programmes via an easy-to-use dial control, making clean-up easier than ever.</p>\n<div class=\"media media-feature__description\">\n<div class=\"media-left\"><img class=\"media-object\" src=\"https://digitalassets-cdn.thron.com/api/v1/content-delivery/shares/ivq4cm/contents/lo-00b5929c-4dce-42c6-b3e4-d89c6344d320/image/image.jpg?w=500&amp;h=500&amp;zoom=true&amp;fillColor=ffffff&amp;crop=product\" width=\"100\" height=\"100\" /></div>\n<div class=\"media-body\">\n<h4 class=\"media-heading\">Rapid</h4>\n<p><span class=\"product-detail__feature-summary\">In a hurry? Designed to wash up to 16 items quickly, the rapid wash cycle is perfect when time is not on your side.</span></div>\n</div>\n<div class=\"media media-feature__description\">\n<div class=\"media-left\"><img class=\"media-object\" src=\"https://digitalassets-cdn.thron.com/api/v1/content-delivery/shares/ivq4cm/contents/lo-629828f8-cf03-4fda-93d4-9daa2e2e795a/image/image.jpg?w=500&amp;h=500&amp;zoom=true&amp;fillColor=ffffff&amp;crop=product\" width=\"100\" height=\"100\" /></div>\n<div class=\"media-body\">\n<h4 class=\"media-heading\">Stainless steel</h4>\n<p><span class=\"product-detail__feature-summary\">Stainless steel tub</span></div>\n</div>\n<div class=\"media media-feature__description\">\n<div class=\"media-left\"><img class=\"media-object\" src=\"https://digitalassets-cdn.thron.com/api/v1/content-delivery/shares/ivq4cm/contents/lo-75a3d8aa-94fa-44fe-a569-5a23e55cec65/image/image.jpg?w=500&amp;h=500&amp;zoom=true&amp;fillColor=ffffff&amp;crop=product\" width=\"100\" height=\"100\" /></div>\n<div class=\"media-body\">\n<h4 class=\"media-heading\">(Auto) Intensive</h4>\n<p><span class=\"product-detail__feature-summary\">The best cleaning results for stubborn, baked-on dirt. Also available with auto clean technology.</span></div>\n</div>\n<div class=\"media media-feature__description\">\n<div class=\"media-left\"><img class=\"media-object\" src=\"https://digitalassets-cdn.thron.com/api/v1/content-delivery/shares/ivq4cm/contents/lo-a19d0d0c-0380-4bae-a49b-1dffa0c0631f/image/image.jpg?w=500&amp;h=500&amp;zoom=true&amp;fillColor=ffffff&amp;crop=product\" width=\"100\" height=\"100\" /></div>\n<div class=\"media-body\">\n<h4 class=\"media-heading\">Energy class E</h4>\n<p><span class=\"product-detail__feature-summary\">Savings are always guaranteed with Indesit. At energy class E, enjoy high performances at great energy efficiency.</span></div>\n</div>\n",
-  "hidden": false
+  "description": "The Indesit IN2FE10CS90WUK is a slimline 45cm freestanding dishwasher in white with 10 place settings — a compact fit for smaller kitchens. Six programmes via a simple dial, adjustable baskets and a Rapid 40 quick cycle. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Slimline 45cm freestanding — 10 place settings",
+    "Six programmes · dial control",
+    "Rapid 40 quick cycle",
+    "Adjustable baskets",
+    "Lift-out cutlery basket",
+    "White finish",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Slimline 45cm freestanding"
+    },
+    {
+      "label": "Place settings",
+      "value": "10"
+    },
+    {
+      "label": "Programmes",
+      "value": "6"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Water use",
+      "value": "11.5 L"
+    },
+    {
+      "label": "Noise",
+      "value": "49 dB"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

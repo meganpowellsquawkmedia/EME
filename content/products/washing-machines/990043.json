@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Beko BM3WT3941 is a 9kg 1400-spin washing machine in black with EnergySpin technology for up to 35% energy savings on everyday washes. A ProSmart inverter motor, Steam and Anti-Allergy functions and a 24-hour delay timer round it off. A energy rated.",
+  "hidden": false,
+  "features": [
+    "9kg capacity — 1400 rpm spin",
+    "EnergySpin — up to 35% energy saving",
+    "ProSmart™ inverter motor",
+    "Steam & Anti-Allergy functions",
+    "15 programmes · quick wash",
+    "24-hour delay timer",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "9 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Programmes",
+      "value": "15"
+    },
+    {
+      "label": "Motor",
+      "value": "ProSmart inverter"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

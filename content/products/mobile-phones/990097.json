@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "MG8H4QN/A",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Apple iPhone 17 Pro (256GB) has a 6.3-inch Super Retina XDR display (ProMotion 120Hz, up to 3000 nits) and the A19 Pro chip with an upgraded cooling system. Triple 48MP Pro Fusion cameras with 4× and 8× optical-quality zoom, 4K Dolby Vision video, and Apple Intelligence.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,35 @@
   "id": 990097,
   "slug": "apple-mg8h4qn-a",
   "regular_price": "1499",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "6.3-inch Super Retina XDR · 120Hz · 3000 nits",
+    "A19 Pro chip · upgraded cooling",
+    "Triple 48MP Pro Fusion cameras",
+    "4× and 8× optical-quality zoom",
+    "4K Dolby Vision video",
+    "256GB storage"
+  ],
+  "specs": [
+    {
+      "label": "Display",
+      "value": "6.3-inch Super Retina XDR, 120Hz"
+    },
+    {
+      "label": "Chip",
+      "value": "A19 Pro"
+    },
+    {
+      "label": "Rear camera",
+      "value": "3× 48MP Pro Fusion (8× zoom)"
+    },
+    {
+      "label": "Front camera",
+      "value": "18MP Center Stage"
+    },
+    {
+      "label": "Storage",
+      "value": "256GB"
+    }
+  ]
 }

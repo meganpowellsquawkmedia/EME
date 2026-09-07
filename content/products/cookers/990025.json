@@ -19,6 +19,49 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Nordmende CTEC62WH is a 60cm twin-cavity electric cooker in white. A 58L main fan oven and a 35L top grill cavity give two-oven flexibility, over a four-zone ceramic hob with residual-heat indicators. Easy-clean enamel and a mechanical timer keep it straightforward. A energy rated, 3-year warranty on registration.",
+  "hidden": false,
+  "features": [
+    "Twin cavity — 58L main fan + 35L grill",
+    "Four-zone ceramic hob",
+    "Residual heat indicators",
+    "Mechanical timer",
+    "Easy-clean enamel interior",
+    "A energy rating",
+    "3-year warranty (on registration)"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric"
+    },
+    {
+      "label": "Hob",
+      "value": "4-zone ceramic"
+    },
+    {
+      "label": "Main oven",
+      "value": "58 L fan"
+    },
+    {
+      "label": "Second cavity",
+      "value": "35 L grill"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years (on registration)"
+    }
+  ]
 }

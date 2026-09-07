@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "914C",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Doro 914C is a big-button corded telephone — easy-to-press keys, hearing-aid compatibility and adjustable handset volume for comfortable, reliable calling; with photo direct-memory buttons.",
   "categories": [
     {
       "id": 766,
@@ -18,5 +18,26 @@
   "id": 990106,
   "slug": "doro-914c",
   "regular_price": "34.99",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "Big-button corded phone",
+    "Hearing-aid compatible",
+    "Adjustable handset volume",
+    "Direct-memory keys",
+    "Last-number redial"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Corded phone (big button)"
+    },
+    {
+      "label": "Hearing-aid",
+      "value": "Compatible"
+    },
+    {
+      "label": "Answering machine",
+      "value": "No"
+    }
+  ]
 }

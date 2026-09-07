@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "F88001UK",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Emporia TALKglam (F88001) is a stylish flip phone for seniors with a 2.4-inch colour screen, a large keypad and three speed-dial buttons. A back-mounted emergency button stores four numbers, three status LEDs show missed calls/texts, and it's hearing-aid compatible (M4/T4). Includes a camera.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,32 @@
   "id": 990124,
   "slug": "emporia-f88001uk",
   "regular_price": "54.99",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "Senior flip phone",
+    "2.4-inch colour screen",
+    "Three speed-dial buttons",
+    "Emergency button (4 numbers)",
+    "Status LEDs (calls/texts/battery)",
+    "Camera included",
+    "Hearing-aid compatible (M4/T4)"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Flip phone (senior)"
+    },
+    {
+      "label": "Display",
+      "value": "2.4-inch colour"
+    },
+    {
+      "label": "Emergency",
+      "value": "Back button — 4 numbers"
+    },
+    {
+      "label": "Camera",
+      "value": "Yes"
+    }
+  ]
 }

@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "ATL1424102",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Amplicomms BigTel 50 Alarm Plus is a big-button amplified phone for the hard of hearing, with extra-loud amplification, a bright visual ringer and a built-in emergency alarm that calls stored numbers at the press of a button (with a wearable pendant). Hearing-aid compatible.",
   "categories": [
     {
       "id": 766,
@@ -18,5 +18,27 @@
   "id": 990091,
   "slug": "amplicomms-atl1424102",
   "regular_price": "89.99",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "Big-button amplified phone",
+    "Extra-loud amplification & ringer",
+    "Emergency alarm button + wearable pendant",
+    "Bright visual ring indicator",
+    "Photo direct-memory keys",
+    "Hearing-aid compatible"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Amplified phone with alarm"
+    },
+    {
+      "label": "Emergency alarm",
+      "value": "Yes — with pendant"
+    },
+    {
+      "label": "Hearing-aid",
+      "value": "Compatible"
+    }
+  ]
 }

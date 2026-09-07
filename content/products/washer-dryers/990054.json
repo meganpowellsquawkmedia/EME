@@ -11,7 +11,7 @@
   ],
   "hidden": false,
   "sku": "H3DPS41066TAMB80",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Hoover H-WASH&DRY 350 (H3DPS41066TAMB80) is a large 10kg wash / 6kg dry washer dryer in white with Wi-Fi & Bluetooth (hOn app), an Allergy Care Pro cycle removing 99.9% of allergens, and quick All-in-One '49 and Quick 15 cycles. Eco-Power inverter motor. D (wash&dry) / A (wash) rated.",
   "categories": [
     {
       "id": 703,
@@ -21,5 +21,36 @@
   "id": 990054,
   "slug": "hoover-h3dps41066tamb80-washer-dryer",
   "regular_price": "449",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "10kg wash / 6kg dry — 1400 rpm spin",
+    "Wi-Fi & Bluetooth — hOn app",
+    "Allergy Care Pro — 99.9% allergens",
+    "All-in-One '49 & Quick 15 cycles",
+    "Steam cycle — odours & creases",
+    "Eco-Power inverter motor",
+    "D wash&dry / A wash rating"
+  ],
+  "specs": [
+    {
+      "label": "Wash / dry",
+      "value": "10 kg / 6 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "D (wash&dry) / A (wash)"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "85 × 60 × 58 cm"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

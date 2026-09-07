@@ -19,6 +19,20 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Sagem BT On-Air 2100 is a DECT cordless phone for straightforward home calling, with caller ID, a clear display and a hands-free speakerphone.",
+  "hidden": false,
+  "features": [
+    "DECT cordless phone",
+    "Caller ID",
+    "Clear display",
+    "Hands-free speakerphone",
+    "Phonebook memory",
+    "Simple everyday calling"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "DECT cordless"
+    }
+  ]
 }

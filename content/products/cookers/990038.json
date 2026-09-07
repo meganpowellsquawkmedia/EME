@@ -19,6 +19,50 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Nordmende CTG52LPGBK is a compact 50cm twin-cavity LPG (bottled-gas) cooker in black. Four gas burners over a 53L main oven with a 29L top grill cavity make it a flexible choice where there's no mains gas. Enamel pan supports, easy-clean enamel and button ignition keep it simple. A+ energy rated, 3-year warranty.",
+  "hidden": false,
+  "features": [
+    "Space-saving 50cm width",
+    "Runs on LPG / bottled gas",
+    "Four gas burners",
+    "53L main oven + 29L top grill cavity",
+    "Button ignition",
+    "Easy-clean enamel & enamel pan supports",
+    "A+ energy rating",
+    "3-year warranty"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 50 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A+"
+    },
+    {
+      "label": "Fuel",
+      "value": "Gas (LPG)"
+    },
+    {
+      "label": "Hob",
+      "value": "4 gas burners"
+    },
+    {
+      "label": "Main oven",
+      "value": "53 L"
+    },
+    {
+      "label": "Top cavity",
+      "value": "29 L grill"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years"
+    }
+  ]
 }

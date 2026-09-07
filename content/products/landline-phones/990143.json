@@ -19,6 +19,32 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Panasonic KX-TGC222 is a compact DECT cordless phone (twin handset set) with a dedicated Call Block button, an easy-to-read backlit display and a hands-free speakerphone. An alarm clock and 50-contact phonebook round it off.",
+  "hidden": false,
+  "features": [
+    "DECT cordless — twin handset set",
+    "Dedicated Call Block button",
+    "Backlit display · caller ID",
+    "Hands-free speakerphone",
+    "Alarm clock with snooze",
+    "50-contact phonebook"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "DECT cordless"
+    },
+    {
+      "label": "Handsets",
+      "value": "2"
+    },
+    {
+      "label": "Call block",
+      "value": "Yes"
+    },
+    {
+      "label": "Answering machine",
+      "value": "No"
+    }
+  ]
 }

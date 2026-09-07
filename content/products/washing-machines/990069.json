@@ -19,6 +19,33 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Indesit IMA864 MyTime is an 8kg 1400-spin washing machine in white with Push&Go one-touch starting, six quick programmes under 59 minutes and Steam Assistance. A quick wash runs in just 15 minutes. A energy rated.",
+  "hidden": false,
+  "features": [
+    "8kg capacity — 1400 rpm spin",
+    "Push&Go one-touch cycle",
+    "Six quick programmes under 59 mins",
+    "15-minute quick wash",
+    "Steam Assistance",
+    "Inverter motor",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "8 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

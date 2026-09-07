@@ -19,6 +19,54 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Beko FDC6731S is a 60cm freestanding electric cooker in silver with a double oven and a 4-zone ceramic hob. Beko's AeroPerfect™ airflow keeps oven temperatures even for consistent baking, a full-width grill sits in the top cavity, and SimplySteam™ makes cleaning easier. A energy rating, with a 10-year parts guarantee.",
+  "hidden": false,
+  "features": [
+    "Double oven — 69L main + 36L second cavity",
+    "4-zone ceramic hob",
+    "AeroPerfect™ even-airflow cooking",
+    "Full-width grill in the top oven",
+    "SimplySteam™ easy cleaning",
+    "Touch-control LED display with timer",
+    "A energy rating",
+    "10-year parts guarantee"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Main oven capacity",
+      "value": "69 L"
+    },
+    {
+      "label": "Second cavity",
+      "value": "36 L"
+    },
+    {
+      "label": "Hob",
+      "value": "4-zone ceramic"
+    },
+    {
+      "label": "Display",
+      "value": "Touch LED with timer"
+    },
+    {
+      "label": "Weight",
+      "value": "59.8 kg"
+    },
+    {
+      "label": "Installation",
+      "value": "Hardwired (32A supply)"
+    },
+    {
+      "label": "Warranty",
+      "value": "10yr parts / 1yr labour"
+    }
+  ]
 }

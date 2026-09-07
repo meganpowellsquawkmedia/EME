@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "SM-A165FZKBEUB",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Samsung Galaxy A16 (4GB/128GB) has a 6.7-inch FHD+ Super AMOLED display (90Hz) and a triple camera led by a 50MP main sensor. A 5000mAh battery, IP54 protection and expandable storage.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,31 @@
   "id": 990157,
   "slug": "samsung-sm-a165fzkbeub",
   "regular_price": "199",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "6.7-inch Super AMOLED · 90Hz",
+    "50MP main + 5MP UW + 2MP macro",
+    "13MP front camera",
+    "5000mAh battery",
+    "IP54 protection",
+    "4GB RAM · 128GB storage (expandable)"
+  ],
+  "specs": [
+    {
+      "label": "Display",
+      "value": "6.7-inch Super AMOLED, 90Hz"
+    },
+    {
+      "label": "Rear camera",
+      "value": "50MP + 5MP UW + 2MP macro"
+    },
+    {
+      "label": "RAM / storage",
+      "value": "4GB / 128GB"
+    },
+    {
+      "label": "Battery",
+      "value": "5000mAh"
+    }
+  ]
 }

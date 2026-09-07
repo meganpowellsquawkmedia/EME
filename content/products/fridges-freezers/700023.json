@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "",
-  "description": "Nordmende fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Nordmende RFF266WH is a 54cm top-mount fridge freezer in white with 213 litres (171L fridge / 42L freezer) — freezer on top. It has auto defrost in the fridge, a Fast Freeze setting, reversible doors and LED lighting. E energy rated, 3-year warranty.",
+  "hidden": false,
+  "features": [
+    "54cm top-mount — 213L (171L fridge / 42L freezer)",
+    "Auto defrost fridge",
+    "Fast Freeze setting",
+    "Reversible doors",
+    "LED lighting",
+    "E energy rating",
+    "3-year warranty"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Top-mount"
+    },
+    {
+      "label": "Total capacity",
+      "value": "213 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "171 L / 42 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "145 × 54 × 57 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Low Frost"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

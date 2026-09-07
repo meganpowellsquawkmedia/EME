@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "BM1WT3721S",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Beko BM1WT3721S is a 7kg 1200-spin freestanding washing machine in silver with a ProSmart brushless inverter motor for quiet, durable, efficient washing. 15 programmes including a 28-minute quick wash, plus SteamCure to reduce creases and AddXtra to add forgotten items mid-cycle. B energy rated.",
   "categories": [
     {
       "id": 701,
@@ -18,5 +18,44 @@
   "id": 990042,
   "slug": "beko-bm1wt3721s-washing-machines",
   "regular_price": "429",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "7kg capacity — 1200 rpm spin",
+    "ProSmart™ inverter motor — quiet & durable",
+    "15 programmes · 28-min quick wash",
+    "SteamCure crease reduction",
+    "AddXtra — add items mid-cycle",
+    "Child lock",
+    "B energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "7 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1200 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "B"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "84.5 × 60 × 49.6 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "15"
+    },
+    {
+      "label": "Motor",
+      "value": "ProSmart inverter"
+    },
+    {
+      "label": "Finish",
+      "value": "Silver"
+    }
+  ]
 }

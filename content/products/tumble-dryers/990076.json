@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Bosch WTH85225IE (Series 4) is an 8kg heat pump tumble dryer in white with AutoDry sensor drying to prevent over-drying and AntiVibration design for quiet operation. Uses the eco-friendly R290 refrigerant. A++ energy rated.",
+  "hidden": false,
+  "features": [
+    "8kg capacity — heat pump",
+    "AutoDry sensor drying",
+    "AntiVibration design — quiet",
+    "Super Quick 40 for small loads",
+    "Eco R290 natural refrigerant",
+    "14 programmes",
+    "A++ energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "8 kg"
+    },
+    {
+      "label": "Type",
+      "value": "Heat pump"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A++"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "84.2 × 59.8 × 61.3 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "14"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

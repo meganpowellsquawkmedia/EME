@@ -1,0 +1,20 @@
+{
+  "name": "Eddie Maguire",
+  "tagline": "Electrical & Furniture",
+  "phone": "042 933 2043",
+  "whatsapp": "353852414790",
+  "email": "info@eddiemaguire.ie",
+  "address": "29 Church St, Dundalk",
+  "hours": "Mon–Fri 9am–6pm · Sat 9am–5:30pm",
+  "footer_blurb": "Your local electrical & furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.",
+  "topstrip": [
+    { "icon": "🚚", "bold": "Free local delivery", "text": "around Dundalk" },
+    { "icon": "🏬", "bold": "Buy in store", "text": "— 29 Church St, Dundalk" },
+    { "icon": "💬", "bold": "Ask us anything", "text": "on WhatsApp" }
+  ],
+  "nav": [
+    { "label": "Electrical", "link": "/category/" },
+    { "label": "Home", "link": "/category/" },
+    { "label": "Garden", "link": "/category/" }
+  ]
+}

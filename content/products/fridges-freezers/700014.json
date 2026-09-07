@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "",
-  "description": "Hotpoint integrated fridge freezer. 70/30 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Hotpoint HTC18D011A1 is a 70/30 integrated fridge freezer, built in behind a cabinet door with 268 litres (189L fridge / 79L freezer) — room for around 15 shopping bags. Low Frost means less defrosting, Fast Freeze speeds up freezing, and at 34dB it's very quiet. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Integrated 70/30 — 268L (189L / 79L)",
+    "Fits behind a cabinet door (sliding hinge)",
+    "Low Frost — less defrosting",
+    "Fast Freeze",
+    "Very quiet — 34dB",
+    "4-star freezer rating",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Integrated (built-in)"
+    },
+    {
+      "label": "Total capacity",
+      "value": "268 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "189 L / 79 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "177 × 54 × 54.5 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Low Frost"
+    },
+    {
+      "label": "Noise",
+      "value": "34 dB"
+    }
+  ]
 }

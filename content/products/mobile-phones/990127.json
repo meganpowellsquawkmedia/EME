@@ -19,6 +19,37 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Emporia KFT20 is a big-button corded desk phone for easy calling, with a large illuminated LCD, a +30dB receiver boost button and four one-touch photo memory keys. Caller ID stores up to 66 calls, and it's hearing-aid compatible with a hands-free speakerphone.",
+  "hidden": false,
+  "features": [
+    "Big-button corded desk phone",
+    "+30dB receiver boost button",
+    "Four one-touch photo memory keys",
+    "Large illuminated LCD · caller ID (66)",
+    "Hands-free speakerphone",
+    "Hearing-aid compatible",
+    "Adjustable ring volume"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Corded big-button phone"
+    },
+    {
+      "label": "Boost",
+      "value": "+30 dB receiver"
+    },
+    {
+      "label": "Memory",
+      "value": "4 one-touch keys"
+    },
+    {
+      "label": "Caller ID",
+      "value": "Up to 66 calls"
+    },
+    {
+      "label": "Power",
+      "value": "3 × AA (backup)"
+    }
+  ]
 }

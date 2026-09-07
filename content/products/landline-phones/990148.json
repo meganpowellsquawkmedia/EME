@@ -19,6 +19,32 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Panasonic KX-TGF320 is a home-office combo — a corded desk phone with a tiltable 3.4-inch display plus a cordless handset — with a 40-minute answering machine. Talking Caller ID announces who's calling, a Call Blocker stops nuisance numbers, and AAA backup keeps the base working in a power cut.",
+  "hidden": false,
+  "features": [
+    "Corded desk phone + cordless handset",
+    "Answering machine — up to 40 mins",
+    "Talking Caller ID — announces the caller",
+    "Call Blocker & Do Not Disturb",
+    "Full-duplex speakerphone",
+    "AAA battery backup in a power cut"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Corded + cordless combo"
+    },
+    {
+      "label": "Answering machine",
+      "value": "40 mins"
+    },
+    {
+      "label": "Corded display",
+      "value": "3.4-inch tiltable"
+    },
+    {
+      "label": "Call blocker",
+      "value": "Yes"
+    }
+  ]
 }

@@ -19,6 +19,40 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Electrolux EFI61141B (SensiCare 600) is a 10kg 1400-spin washing machine in white. SensiCare senses the load and adjusts time, water and energy — saving up to 30% per cycle — while a Steam Hygiene programme removes 99.99% of bacteria. Inverter Motor+. A energy rated.",
+  "hidden": false,
+  "features": [
+    "10kg capacity — 1400 rpm spin",
+    "SensiCare — up to 30% resource saving",
+    "Steam Hygiene — 99.99% bacteria removal",
+    "Inverter Motor+ — durable & efficient",
+    "14 programmes",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "10 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Programmes",
+      "value": "14"
+    },
+    {
+      "label": "Motor",
+      "value": "Inverter Motor+"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

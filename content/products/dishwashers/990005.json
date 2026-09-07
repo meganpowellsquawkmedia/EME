@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Bosch SMS2HVW67G (Series 2) is a 60cm freestanding dishwasher in white with 14 place settings and a third cutlery rack. Six programmes including Eco, Intensive 70°C and Silence, plus Extra Dry, Home Connect app and Alexa control. Quiet 46dB on 9L. D energy rated.",
+  "hidden": false,
+  "features": [
+    "60cm freestanding — 14 place settings",
+    "Third cutlery rack",
+    "Six programmes (Eco to Intensive 70°C)",
+    "Extra Dry option",
+    "Home Connect app + Alexa",
+    "Quiet 46dB · 9L",
+    "White finish · D energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Freestanding 60cm"
+    },
+    {
+      "label": "Place settings",
+      "value": "14"
+    },
+    {
+      "label": "Programmes",
+      "value": "6"
+    },
+    {
+      "label": "Energy rating",
+      "value": "D"
+    },
+    {
+      "label": "Water use",
+      "value": "9 L"
+    },
+    {
+      "label": "Noise",
+      "value": "46 dB"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Miele WED665 WCS is an 8kg 1400-spin washing machine in white with Miele's TwinDos automatic two-phase liquid detergent dispensing for perfect dosing every wash. Very quiet (50dB wash) and built to Miele's durability standards. A energy rated.",
+  "hidden": false,
+  "features": [
+    "8kg capacity — 1400 rpm spin",
+    "TwinDos automatic detergent dispensing",
+    "CapDos capsule additives",
+    "Very quiet — 50dB wash",
+    "Delay start up to 24 hours",
+    "Miele build quality",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "8 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "85 × 59.5 × 60 cm"
+    },
+    {
+      "label": "Feature",
+      "value": "TwinDos auto-dosing"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

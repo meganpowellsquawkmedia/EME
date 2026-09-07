@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "",
-  "description": "Hisense fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Hisense RS694N4IBE is an American-style side-by-side fridge freezer in black with a generous 562-litre capacity (371L fridge / 191L freezer) and a plumbed ice & water dispenser. No Frost+ removes manual defrosting, a multi-airflow system keeps temperatures even, and an inverter compressor keeps it quiet. E energy rated.",
+  "hidden": false,
+  "features": [
+    "American side-by-side — 562L (371L / 191L)",
+    "Plumbed ice & water dispenser",
+    "No Frost+ — no manual defrosting",
+    "Multi-Airflow even cooling",
+    "Inverter compressor — quiet & efficient",
+    "Black finish",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "American side-by-side"
+    },
+    {
+      "label": "Total capacity",
+      "value": "562 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "371 L / 191 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "178.6 × 91 × 74.3 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "No Frost+"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

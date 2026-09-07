@@ -19,6 +19,50 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Leisure BECLA60GAK is a 60cm double-oven gas cooker in black from the Classic range. A large 78L main oven, a 34L second conventional oven and a separate full-width gas grill give real flexibility, over four gas burners on cast-iron pan supports with a flame-supervision safety device. LPG-convertible, with an LED display and timer. A energy rated.",
+  "hidden": false,
+  "features": [
+    "Large 78L main oven + 34L second oven",
+    "Separate full-width gas grill",
+    "Four gas burners on cast-iron supports",
+    "Flame supervision safety device (FSD)",
+    "LPG-convertible",
+    "Catalytic cook-clean liners",
+    "LED display with timer & auto-off",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Gas — LPG convertible"
+    },
+    {
+      "label": "Hob",
+      "value": "4 gas burners (cast iron)"
+    },
+    {
+      "label": "Main oven",
+      "value": "78 L"
+    },
+    {
+      "label": "Second oven",
+      "value": "34 L"
+    },
+    {
+      "label": "Grill",
+      "value": "Separate full-width"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

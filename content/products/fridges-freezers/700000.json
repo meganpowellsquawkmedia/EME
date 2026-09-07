@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "KGV33VLEAG",
-  "description": "Bosch fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
+  "description": "The Bosch KGV33VLEAG is a 60/40 freestanding fridge freezer in stainless steel from the Series 4 range, with a generous 287-litre capacity (193L fridge / 94L freezer). Low Frost technology cuts down on ice build-up and defrosting, and at 39dB it runs quietly. E energy rated.",
   "categories": [
     {
       "id": 714,
@@ -18,5 +18,44 @@
   "id": 700000,
   "slug": "bosch-fridge-freezer-kgv33vleag",
   "regular_price": "529",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "Series 4 — 287L total (193L fridge / 94L freezer)",
+    "60/40 split — more fridge space",
+    "Low Frost — less defrosting",
+    "Quiet 39dB operation",
+    "Freezer at the bottom",
+    "Stainless steel finish",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Total capacity",
+      "value": "287 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "193 L / 94 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "176 × 60 × 65 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Low Frost"
+    },
+    {
+      "label": "Noise",
+      "value": "39 dB"
+    },
+    {
+      "label": "Finish",
+      "value": "Stainless steel"
+    }
+  ]
 }

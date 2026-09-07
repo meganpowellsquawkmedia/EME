@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "S3M-001",
-  "description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.",
+  "description": "The Emporia Smart is an easy-to-use 4G Android smartphone designed for seniors, with a clear touchscreen, simplified menus and a dedicated SOS emergency button on the back. Wi-Fi, Bluetooth and a straightforward camera, so staying in touch is simple.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,31 @@
   "id": 990128,
   "slug": "emporia-s3m-001",
   "regular_price": "99.99",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "Senior-friendly 4G Android smartphone",
+    "Simplified, clear menus",
+    "SOS emergency button on the back",
+    "Touchscreen with large icons",
+    "Wi-Fi & Bluetooth",
+    "Front & rear cameras"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "4G Android smartphone (senior)"
+    },
+    {
+      "label": "Network",
+      "value": "4G / LTE"
+    },
+    {
+      "label": "SOS",
+      "value": "Yes — back button"
+    },
+    {
+      "label": "Connectivity",
+      "value": "Wi-Fi · Bluetooth"
+    }
+  ]
 }

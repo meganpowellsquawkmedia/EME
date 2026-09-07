@@ -19,6 +19,54 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hotpoint HDM67G8CCB is a 60cm dual-fuel cooker in black — a four-burner gas hob with two electric ovens (71L multifunction main + 44L top). Multifunction fan cooking, catalytic stay-clean liners and halogen interior lighting make it easy to live with, and the door glass lifts out for cleaning. A/A energy rated.",
+  "hidden": false,
+  "features": [
+    "Dual fuel — gas hob with electric ovens",
+    "Two ovens — 71L multifunction main + 44L top",
+    "Four gas burners",
+    "Multifunction fan-assisted main oven",
+    "Catalytic stay-clean liners",
+    "Halogen interior lighting",
+    "Removable door glass",
+    "A/A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A/A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Dual fuel"
+    },
+    {
+      "label": "Hob",
+      "value": "4 gas burners"
+    },
+    {
+      "label": "Main oven",
+      "value": "71 L multifunction"
+    },
+    {
+      "label": "Second oven",
+      "value": "44 L"
+    },
+    {
+      "label": "Cleaning",
+      "value": "Catalytic liners"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    },
+    {
+      "label": "Weight",
+      "value": "62.4 kg"
+    }
+  ]
 }

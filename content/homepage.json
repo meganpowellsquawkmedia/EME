@@ -1,0 +1,28 @@
+{
+  "hero_eyebrow": "Home Appliances & Phones — Dundalk",
+  "hero_title": "Big Brands.\nReal Advice.\nLocal Prices.",
+  "hero_text": "Your family-run electrical & furniture store on Church St. Browse our full range online, then call in or message us — we'll help you choose.",
+  "hero_cta_label": "Shop All Categories",
+  "hero_image": "",
+  "valueprops": [
+    { "icon": "🚚", "title": "Free Local Delivery", "subtitle": "Around Dundalk" },
+    { "icon": "🏬", "title": "Buy In Store", "subtitle": "29 Church St, Dundalk" },
+    { "icon": "💬", "title": "Real Advice", "subtitle": "We know our products" },
+    { "icon": "🛠️", "title": "Family Run", "subtitle": "Trusted locally" }
+  ],
+  "brands_label": "Trusted Brands We Stock",
+  "category_label": "What We Stock",
+  "category_title": "Shop By Category",
+  "popular_label": "Featured",
+  "popular_title": "Popular Right Now",
+  "whatsapp_title": "Not Sure What You Need?",
+  "whatsapp_text": "Message us on WhatsApp — we're happy to help you find the right product for your home and budget.",
+  "about_label": "Who We Are",
+  "about_title": "A Family Store, Built On Trust",
+  "about_text": "Eddie Maguire has served the Dundalk community for years with a carefully chosen range of electrical, appliances and furniture for every home and budget. We're a real shop with real people who know their products.",
+  "stats": [
+    { "number": "100%", "label": "Irish owned" },
+    { "number": "30+", "label": "Years in business" },
+    { "number": "1", "label": "Town — Dundalk" }
+  ]
+}

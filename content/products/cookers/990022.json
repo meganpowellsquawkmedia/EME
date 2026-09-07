@@ -19,6 +19,49 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Nordmende CDEC62IX is a 60cm freestanding electric cooker in stainless steel with twin cavities — a 63L main fan oven and a 36L top oven with grill — over a four-zone ceramic hob. Residual-heat indicators, child lock and a timer add convenience, and an easy-clean enamel interior keeps upkeep low. A energy rated, 3-year warranty on registration.",
+  "hidden": false,
+  "features": [
+    "Twin cavity — 63L main fan + 36L top with grill",
+    "Four-zone ceramic hob",
+    "Residual heat indicators & child lock",
+    "Auto-off and timer functions",
+    "Easy-clean enamel interior",
+    "A energy rating",
+    "3-year warranty (on registration)"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric"
+    },
+    {
+      "label": "Hob",
+      "value": "4-zone ceramic"
+    },
+    {
+      "label": "Main oven",
+      "value": "63 L fan"
+    },
+    {
+      "label": "Second oven",
+      "value": "36 L + grill"
+    },
+    {
+      "label": "Finish",
+      "value": "Stainless steel"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years (on registration)"
+    }
+  ]
 }

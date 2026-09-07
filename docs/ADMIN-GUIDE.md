@@ -1,8 +1,9 @@
 # Eddie Maguire — Product Admin Guide
 
 The site now has a **visual admin panel** (Pages CMS) where David can edit
-products — change a price, swap a photo, hide something out of stock — with no
-code and no waiting on Megan. Saves go live automatically in ~2 minutes.
+**nearly everything** — product prices and photos, the homepage wording, the
+contact details, the menu, and the About/Delivery/Returns/Terms/Privacy pages —
+with no code and no waiting on Megan. Saves go live automatically in ~2 minutes.
 
 ---
 
@@ -49,8 +50,32 @@ Do these once to switch it on. All in a web browser.
      (e.g. sold out) without deleting it. Toggle off to bring it back.
 4. Click **Save**. Done — the change appears on the live site in ~2 minutes.
 
+   - **Description** — the paragraph on the product page. Leave it blank to use
+     the automatic one, or type your own to replace it.
+   - **Key features** — the bullet points (one per line).
+   - **Specifications table** — the rows of the spec table (label + value).
+4. Click **Save**. Done — the change appears on the live site in ~2 minutes.
+
 **To take a product off the site:** open it, switch **Hide from website** on,
 Save. (Nothing is lost — flip it back any time.)
+
+---
+
+## Part 3 — Editing the rest of the site
+
+The left-hand menu in the admin has three more sections above Products:
+
+- **Site Settings** — business name, phone, WhatsApp number, email, address,
+  opening hours, the black top-bar messages, and the menu (Electrical / Home /
+  Garden). Change your phone number or hours here and it updates everywhere.
+- **Homepage** — the big headline, the paragraph, the value bar (delivery / in
+  store / advice / family), all the section headings, the "Who we are" text and
+  the stats.
+- **Pages** — the wording of **About Us, Delivery, Returns, Terms & Conditions
+  and Privacy Policy**. These use a normal rich-text editor (headings, bold,
+  lists, links).
+
+Edit, Save, and it publishes itself in ~2 minutes — same as products.
 
 ---
 

@@ -19,6 +19,24 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Doro WT87 is a pair of walkie-talkies for licence-free two-way radio — handy around the house, garden or on days out, with a useful range and simple push-to-talk operation.",
+  "hidden": false,
+  "features": [
+    "Pair of licence-free walkie-talkies",
+    "Simple push-to-talk operation",
+    "Useful outdoor range",
+    "Multiple channels",
+    "Belt clips included",
+    "No SIM or line needed"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Walkie-talkie pair"
+    },
+    {
+      "label": "Licence",
+      "value": "Free to use (PMR)"
+    }
+  ]
 }

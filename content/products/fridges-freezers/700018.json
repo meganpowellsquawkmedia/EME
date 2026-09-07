@@ -19,6 +19,44 @@
     }
   ],
   "short_description": "",
-  "description": "Indesit integrated fridge freezer. 70/30 split. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Indesit INC18D011B1 is a 70/30 integrated fridge freezer, built in behind a cabinet door with 273 litres (194L fridge / 79L freezer). Low Frost means less defrosting and the Push&Go button gives a quick cooling boost. Quiet at 34dB. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Integrated 70/30 — 273L (194L / 79L)",
+    "Fits behind a cabinet door (sliding hinge)",
+    "Low Frost — less defrosting",
+    "Push&Go quick-cool boost",
+    "Very quiet — 34dB",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Integrated (built-in)"
+    },
+    {
+      "label": "Total capacity",
+      "value": "273 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "194 L / 79 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "177 × 54 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Low Frost"
+    },
+    {
+      "label": "Noise",
+      "value": "34 dB"
+    }
+  ]
 }

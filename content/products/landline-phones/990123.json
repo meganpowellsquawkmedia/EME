@@ -19,6 +19,24 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Eircom 6000T is a DECT cordless phone (twin handset set) for simple, reliable home calling — caller ID, a clear display, a hands-free speakerphone and a phonebook memory.",
+  "hidden": false,
+  "features": [
+    "DECT cordless — twin handset set",
+    "Caller ID",
+    "Clear display",
+    "Hands-free speakerphone",
+    "Phonebook memory",
+    "Simple, reliable calling"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "DECT cordless"
+    },
+    {
+      "label": "Handsets",
+      "value": "2"
+    }
+  ]
 }

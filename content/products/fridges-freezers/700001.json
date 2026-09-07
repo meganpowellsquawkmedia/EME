@@ -19,6 +19,40 @@
     }
   ],
   "short_description": "",
-  "description": "Candy fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Candy CCH1S513EWK-1 is a slim 55cm 50/50 fridge freezer in white — a space-efficient 185-litre design (114L fridge / 71L freezer) for smaller kitchens. It has an XL salad crisper, three freezer drawers and a reversible door. E energy rated.",
+  "hidden": false,
+  "features": [
+    "Slim 55cm — 185L (114L fridge / 71L freezer)",
+    "50/50 split",
+    "XL salad crisper",
+    "Three clear freezer drawers",
+    "Reversible door",
+    "E energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Total capacity",
+      "value": "185 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "114 L / 71 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "136.2 × 55 × 58 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Manual"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

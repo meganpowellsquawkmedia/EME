@@ -19,6 +19,40 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hotpoint H91 Anti Stain is a 9kg 1400-spin washing machine in white. The Anti-Stain programme removes common stains in a one-hour 40°C cycle with no pre-treating, Full Load 45' washes a full load in 45 minutes, and the inverter motor carries a 25-year certification. A energy rated.",
+  "hidden": false,
+  "features": [
+    "9kg capacity — 1400 rpm spin",
+    "Anti-Stain 1-hour 40°C programme",
+    "Full Load 45' fast cycle",
+    "Inverter motor — 25-year certified",
+    "Steam refresh",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "9 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Feature",
+      "value": "Anti-Stain programme"
+    },
+    {
+      "label": "Motor",
+      "value": "Inverter (25-yr certified)"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

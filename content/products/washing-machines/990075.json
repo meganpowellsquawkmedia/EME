@@ -19,6 +19,37 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Whirlpool FFB8469WVUK (6th Sense) is an 8kg 1400-spin washing machine in white. 6th SENSE sensors adapt water, energy and time to each load, and the inverter motor runs quietly and lasts. A energy rated.",
+  "hidden": false,
+  "features": [
+    "8kg capacity — 1400 rpm spin",
+    "6th SENSE adaptive sensors",
+    "FreshCare+ keeps laundry fresh",
+    "Quiet inverter motor",
+    "Rapid cycles",
+    "White finish",
+    "A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "8 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Motor",
+      "value": "Inverter"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

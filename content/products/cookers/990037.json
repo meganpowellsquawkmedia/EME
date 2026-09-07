@@ -19,6 +19,50 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Nordmende CTG51WH is a compact 50cm twin-cavity natural-gas cooker in white. Four gas burners sit over a 53L main oven with a 29L top grill cavity — flexible cooking for a small kitchen. Enamel pan supports and easy-clean enamel keep upkeep low, with a mechanical timer. A+ energy rated, 3-year warranty.",
+  "hidden": false,
+  "features": [
+    "Space-saving 50cm width",
+    "Four gas burners",
+    "53L main oven + 29L top grill cavity",
+    "Enamel pan supports",
+    "Easy-clean enamel interior",
+    "Mechanical timer",
+    "A+ energy rating",
+    "3-year warranty"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 50 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A+"
+    },
+    {
+      "label": "Fuel",
+      "value": "Gas (natural)"
+    },
+    {
+      "label": "Hob",
+      "value": "4 gas burners"
+    },
+    {
+      "label": "Main oven",
+      "value": "53 L"
+    },
+    {
+      "label": "Top cavity",
+      "value": "29 L grill"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years"
+    }
+  ]
 }

@@ -19,6 +19,41 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk. Photo to be confirmed.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Photo to be confirmed — call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Nordmende TDHPE80 is an 8kg heat pump tumble dryer in dark inox with sensor drying (4 dryness levels), 15 programmes, drum-reverse anti-crease and filter/tank indicators. E energy rated, 3-year warranty on registration.",
+  "hidden": false,
+  "features": [
+    "8kg capacity — heat pump",
+    "Sensor drying — 4 dryness levels",
+    "15 programmes",
+    "Two-way tumbling · anti-crease plus",
+    "Filter & tank indicators",
+    "Dark inox finish",
+    "E energy rating · 3-yr warranty"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "8 kg"
+    },
+    {
+      "label": "Type",
+      "value": "Heat pump"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "85 × 60 × 53 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "15"
+    },
+    {
+      "label": "Finish",
+      "value": "Dark inox"
+    }
+  ]
 }

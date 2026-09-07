@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "",
-  "description": "Haier fridge freezer. In stock at our Dundalk store — call or message us for the current price and to check availability.",
-  "hidden": false
+  "description": "The Haier HCR3818ENMG (Cube 83 Series 3) is a four-door American-style fridge freezer in gentle silver, with a huge 467-litre capacity (311L fridge / 156L freezer). Total No Frost, an adjustable My Zone compartment and an inverter compressor make it a quiet, flexible centrepiece. E energy rated, 10-year parts warranty.",
+  "hidden": false,
+  "features": [
+    "Four-door American style — 467L (311L / 156L)",
+    "Total No Frost",
+    "Adjustable My Zone compartment",
+    "Inverter compressor — quiet & efficient",
+    "Daylight LED lighting",
+    "E energy rating",
+    "10-year parts warranty"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "American 4-door"
+    },
+    {
+      "label": "Total capacity",
+      "value": "467 L"
+    },
+    {
+      "label": "Fridge / freezer",
+      "value": "311 L / 156 L"
+    },
+    {
+      "label": "Energy rating",
+      "value": "E"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "181.5 × 83.3 × 65 cm"
+    },
+    {
+      "label": "Defrost",
+      "value": "Total No Frost"
+    },
+    {
+      "label": "Finish",
+      "value": "Silver / inox"
+    }
+  ]
 }

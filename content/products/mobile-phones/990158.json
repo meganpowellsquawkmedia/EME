@@ -8,7 +8,7 @@
   ],
   "hidden": false,
   "sku": "SM-A176BZKAEUB",
-  "description": "In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.",
+  "description": "The Samsung Galaxy A17 5G (4GB/128GB) has a 6.7-inch Super AMOLED display (90Hz) and a 50MP OIS main camera with ultra-wide and macro. A 5000mAh battery with 25W charging, plus 6 years of OS and security updates.",
   "categories": [
     {
       "id": 767,
@@ -18,5 +18,31 @@
   "id": 990158,
   "slug": "samsung-sm-a176bzkaeub",
   "regular_price": "259.99",
-  "stock_status": "instock"
+  "stock_status": "instock",
+  "features": [
+    "6.7-inch Super AMOLED · 90Hz",
+    "50MP OIS main + 5MP UW + 2MP macro",
+    "13MP front camera",
+    "5000mAh battery · 25W charging",
+    "6 years of updates",
+    "4GB RAM · 128GB storage"
+  ],
+  "specs": [
+    {
+      "label": "Display",
+      "value": "6.7-inch Super AMOLED, 90Hz"
+    },
+    {
+      "label": "Rear camera",
+      "value": "50MP OIS + 5MP UW + 2MP macro"
+    },
+    {
+      "label": "RAM / storage",
+      "value": "4GB / 128GB"
+    },
+    {
+      "label": "Battery",
+      "value": "5000mAh, 25W"
+    }
+  ]
 }

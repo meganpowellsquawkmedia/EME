@@ -19,6 +19,45 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Electrolux EFI61841B is an 8kg 1400-spin washing machine in white with SensiCare load-sensing, Time Manager® and an Inverter Motor+. 14 programmes and a 2-year guarantee. A energy rated.",
+  "hidden": false,
+  "features": [
+    "8kg capacity — 1400 rpm spin",
+    "SensiCare load sensing",
+    "Time Manager® flexible cycle times",
+    "Inverter Motor+",
+    "14 programmes",
+    "Child lock & delay timer",
+    "A energy rating · 2-year guarantee"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "8 kg"
+    },
+    {
+      "label": "Spin speed",
+      "value": "1400 rpm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "84.7 × 59.6 × 54.7 cm"
+    },
+    {
+      "label": "Programmes",
+      "value": "14"
+    },
+    {
+      "label": "Motor",
+      "value": "Inverter Motor+"
+    },
+    {
+      "label": "Finish",
+      "value": "White"
+    }
+  ]
 }

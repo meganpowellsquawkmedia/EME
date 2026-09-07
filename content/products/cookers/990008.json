@@ -19,6 +19,48 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Beko KDVC90X is a 90cm electric range cooker in stainless steel — two fan ovens plus a separate grill give a huge 167-litre combined capacity, ideal for bigger families and batch cooking. Its five-zone ceramic hob has Rapilite fast-heat zones and wipes clean easily, over a grease-proof enamel interior. A/A energy rated.",
+  "hidden": false,
+  "features": [
+    "Two fan ovens plus a separate grill — 167L combined",
+    "Five-zone ceramic hob with Rapilite fast heat",
+    "Extra width for larger pots and pans",
+    "Easy-wipe ceramic surface",
+    "Grease-proof enamel interior",
+    "A/A energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 90 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A/A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric"
+    },
+    {
+      "label": "Hob",
+      "value": "5-zone ceramic (Rapilite)"
+    },
+    {
+      "label": "Ovens",
+      "value": "2 fan ovens + grill"
+    },
+    {
+      "label": "Total capacity",
+      "value": "167 L"
+    },
+    {
+      "label": "Finish",
+      "value": "Stainless steel"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 year"
+    }
+  ]
 }

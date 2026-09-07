@@ -19,6 +19,50 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Hotpoint HDM67G0C2CB is a 60cm double-oven gas cooker in black with two fan ovens (up to 84L of space, six shelf levels). Its four-burner gas hob includes a Triple Crown wok burner that cooks up to 15% faster, with 10-level flame control and a flame-failure safety device. Catalytic liners keep cleaning easy. A+ energy rated.",
+  "hidden": false,
+  "features": [
+    "Two gas fan ovens — up to 84L, six shelf levels",
+    "Four-burner gas hob with Triple Crown wok burner",
+    "10-level flame control",
+    "Flame-failure safety device",
+    "Catalytic self-cleaning liners",
+    "Removable door glass",
+    "Digital display timer",
+    "A+ energy rating"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A+"
+    },
+    {
+      "label": "Fuel",
+      "value": "Gas (natural)"
+    },
+    {
+      "label": "Hob",
+      "value": "4 gas burners (Triple Crown wok)"
+    },
+    {
+      "label": "Ovens",
+      "value": "2 fan ovens"
+    },
+    {
+      "label": "Capacity",
+      "value": "up to 84 L"
+    },
+    {
+      "label": "Cleaning",
+      "value": "Catalytic liners"
+    },
+    {
+      "label": "Finish",
+      "value": "Black"
+    }
+  ]
 }

@@ -19,6 +19,46 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Nordmende CSG100IX is a 100cm dual-fuel range cooker in stainless steel, built around twin fan ovens and a six-burner gas hob with a separate wok burner — plenty of room for family cooking and entertaining. A double grill, generous storage drawer and cast-iron pan supports round it off, and it carries an A energy rating with a 3-year warranty.",
+  "hidden": false,
+  "features": [
+    "Twin fan ovens — cook multiple dishes at once",
+    "Six gas burners plus a dedicated wok burner",
+    "Double grill",
+    "Large storage drawer",
+    "Cast-iron pan supports",
+    "Double-glazed oven doors",
+    "Easy-clean enamel interior",
+    "A energy rating · 3-year warranty"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "90 × 100 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Ovens",
+      "value": "2 fan ovens"
+    },
+    {
+      "label": "Hob",
+      "value": "6 gas burners + wok burner"
+    },
+    {
+      "label": "Grill",
+      "value": "Double grill"
+    },
+    {
+      "label": "Pan supports",
+      "value": "Cast iron"
+    },
+    {
+      "label": "Warranty",
+      "value": "3 years"
+    }
+  ]
 }

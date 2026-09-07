@@ -19,6 +19,46 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Electrolux EOA5651BAK is a built-in single electric oven with a generous 71L cavity and an XL fan with air-guide design for even results on every shelf. A fast heat-up mode, LED display with start/end timer and retractable rotary knobs make it easy to use. A energy rated. (Built-in oven — installs into a tall housing unit; hob not included.)",
+  "hidden": false,
+  "features": [
+    "71L single cavity — generous capacity",
+    "XL fan with air-guide for even cooking",
+    "Fast heat-up mode",
+    "LED display with start/end time selection",
+    "Retractable rotary knobs",
+    "Oven interior light",
+    "A energy rating",
+    "Built-in — fits a standard tall housing"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Built-in single oven"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric"
+    },
+    {
+      "label": "Capacity",
+      "value": "71 L"
+    },
+    {
+      "label": "Fan",
+      "value": "XL with air-guide"
+    },
+    {
+      "label": "Controls",
+      "value": "LED display + retractable knobs"
+    },
+    {
+      "label": "Weight",
+      "value": "37.5 kg"
+    }
+  ]
 }

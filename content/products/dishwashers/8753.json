@@ -53,6 +53,41 @@
     }
   ],
   "short_description": "<p data-eapps-font-size=\"14\" data-eapps-line-height=\"23.799999\">This Semi Integrated Dishwasher operates quietly at 49dBa noise level. It has 4 programmes, 12 place settings, 12 litre water consumption and an adjustable top basket.</p>\n<ul>\n<li>4 Programmes</li>\n<li>12 Place Settings</li>\n<li>12 Litre Water Consumption</li>\n<li>3-6-9 Hour Start Delay</li>\n<li>Adjustable Top Basket</li>\n<li>Overflow &amp; Leakage Protection</li>\n<li>49 db(a) Maximum Noise Level</li>\n<li>H820 x W600 x D570 mm</li>\n<li>3 Year Warranty</li>\n</ul>\n",
-  "description": "<h1 data-eapps-font-size=\"35\" data-eapps-line-height=\"43.75\">NordMende 12 Place Semi Integrated 60cm Dishwasher - Stainless Steel | DSSN63IX</h1>\n<p data-eapps-font-size=\"14\" data-eapps-line-height=\"23.799999\">This Semi Integrated Dishwasher operates quietly at 49dBa noise level. It has 4 programmes, 12 place settings, 12 litre water consumption and an adjustable top basket.</p>\n<ul>\n<li>4 Programmes</li>\n<li>12 Place Settings</li>\n<li>12 Litre Water Consumption</li>\n<li>3-6-9 Hour Start Delay</li>\n<li>Adjustable Top Basket</li>\n<li>Overflow &amp; Leakage Protection</li>\n<li>49 db(a) Maximum Noise Level</li>\n<li>H820 x W600 x D570 mm</li>\n<li>3 Year Warranty</li>\n</ul>\n",
-  "hidden": false
+  "description": "The Nordmende DSSN63IX is a 60cm semi-integrated dishwasher — a stainless-steel control panel on show, the door front integrated into your units — with 12 place settings. Four programmes, an adjustable top basket, a 3/6/9-hour delay and overflow protection. A++ energy rated, 3-year warranty.",
+  "hidden": false,
+  "features": [
+    "Semi-integrated 60cm — 12 place settings",
+    "Stainless-steel control panel",
+    "Four programmes",
+    "Adjustable top basket",
+    "3/6/9-hour start delay",
+    "Overflow & leakage protection",
+    "A++ energy rating · 3-year warranty"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Semi-integrated 60cm"
+    },
+    {
+      "label": "Place settings",
+      "value": "12"
+    },
+    {
+      "label": "Programmes",
+      "value": "4"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A++"
+    },
+    {
+      "label": "Water use",
+      "value": "12 L"
+    },
+    {
+      "label": "Noise",
+      "value": "49 dB"
+    }
+  ]
 }

@@ -19,6 +19,53 @@
     }
   ],
   "short_description": "In stock in store at 29 Church St, Dundalk.",
-  "description": "<p>In stock in store at 29 Church St, Dundalk. Call or message us to check availability or arrange collection/delivery.</p>",
-  "hidden": false
+  "description": "The Electrolux LKI655200X is a 60cm freestanding cooker in stainless steel with a fast, precise induction hob and a double oven (77L main fan + 39L conventional). Induction heats only the base of your pan for quick, efficient and safer cooking, while catalytic liners make the oven easy to keep clean. A energy rated, with up to 5-year warranty on registration.",
+  "hidden": false,
+  "features": [
+    "Four-zone induction hob — fast & precise",
+    "Double oven — 77L main fan + 39L top",
+    "Induction heats only the pan base — safer & efficient",
+    "Catalytic self-cleaning liners",
+    "Minute minder timer",
+    "A energy rating",
+    "2-year warranty (up to 5 years on registration)"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions (H×W×D)",
+      "value": "91.2 × 60 × 60 cm"
+    },
+    {
+      "label": "Energy rating",
+      "value": "A"
+    },
+    {
+      "label": "Fuel",
+      "value": "Electric — induction hob"
+    },
+    {
+      "label": "Hob",
+      "value": "4-zone induction"
+    },
+    {
+      "label": "Main oven",
+      "value": "77 L fan"
+    },
+    {
+      "label": "Second oven",
+      "value": "39 L conventional"
+    },
+    {
+      "label": "Cleaning",
+      "value": "Catalytic liners"
+    },
+    {
+      "label": "Finish",
+      "value": "Stainless steel"
+    },
+    {
+      "label": "Warranty",
+      "value": "2yr (5yr on registration)"
+    }
+  ]
 }
