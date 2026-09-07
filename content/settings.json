@@ -8,13 +8,34 @@
   "hours": "Mon–Fri 9am–6pm · Sat 9am–5:30pm",
   "footer_blurb": "Your local electrical & furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.",
   "topstrip": [
-    { "icon": "🚚", "bold": "Free local delivery", "text": "around Dundalk" },
-    { "icon": "🏬", "bold": "Buy in store", "text": "— 29 Church St, Dundalk" },
-    { "icon": "💬", "bold": "Ask us anything", "text": "on WhatsApp" }
+    {
+      "icon": "🚚",
+      "bold": "FREE LOCAL DELIVERY",
+      "text": "around Dundalk"
+    },
+    {
+      "icon": "🏬",
+      "bold": "BUY IN STORE",
+      "text": "29 Church St, Dundalk"
+    },
+    {
+      "icon": "💬",
+      "bold": "ASK US ANYTHING",
+      "text": "on WhatsApp"
+    }
   ],
   "nav": [
-    { "label": "Electrical", "link": "/category/" },
-    { "label": "Home", "link": "/category/" },
-    { "label": "Garden", "link": "/category/" }
+    {
+      "label": "Electrical",
+      "link": "/category/"
+    },
+    {
+      "label": "Home",
+      "link": "/category/"
+    },
+    {
+      "label": "Garden",
+      "link": "/category/"
+    }
   ]
 }
