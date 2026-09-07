@@ -87,7 +87,8 @@
 .bb-hb{position:relative}
 .bb-zbtn{position:absolute;top:4px;right:4px;width:24px;height:24px;border:0;border-radius:50%;background:rgba(26,18,16,.55);color:#fff;font-size:13px;line-height:24px;text-align:center;cursor:zoom-in;z-index:3;padding:0}
 .bb-zbtn:hover{background:rgba(26,18,16,.85)}
-#bbZoom{position:fixed;inset:0;background:rgba(18,14,12,.9);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:99999;padding:24px;cursor:zoom-out}
+#bbZoom{position:fixed;inset:0;background:rgba(18,14,12,.9);display:none;flex-direction:column;align-items:center;justify-content:center;z-index:99999;padding:24px;cursor:zoom-out}
+#bbZoom:not([hidden]){display:flex}
 #bbZoom img{max-width:94vw;max-height:84vh;border-radius:12px;box-shadow:0 24px 70px rgba(0,0,0,.55);background:#fff;object-fit:contain}
 #bbZoomCap{color:#fff;font-weight:700;font-size:15px;margin-top:16px;letter-spacing:.02em;text-align:center}
 #bbZoomX{position:fixed;top:16px;right:24px;color:#fff;font-size:34px;line-height:1;cursor:pointer;font-weight:300}
