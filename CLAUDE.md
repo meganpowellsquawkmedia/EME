@@ -14,7 +14,7 @@ A static single-file website for **Eddie Maguire's Home & Electrical**, an indep
 - **Address:** 29 Church St, Dundalk, Co. Louth
 - **Phone:** 042 933 2043
 - **Email:** info@eddiemaguire.ie
-- **WhatsApp:** 089 977 6472 (international: +353899776472)
+- **WhatsApp:** 085 241 4790 (international: +353852414790)
 - **Opening hours:** Mon–Fri 9am–6pm | Saturday 9am–5:30pm | Sunday & Bank Holidays: Closed
 - **Part of Expert Ireland network** (but do NOT use Expert branding/logos on the site)
 

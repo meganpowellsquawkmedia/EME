@@ -34,7 +34,7 @@ SHOP = {
     "tagline": "Electrical & Furniture",
     "phone_display": "042 933 2043",
     "phone_tel": "042 933 2043".replace(" ", ""),
-    "wa": "353899776472",
+    "wa": "353852414790",
     "email": "info@eddiemaguire.ie",
     "address": "29 Church St, Dundalk",
     "hours": "Mon–Fri 9am–6pm · Sat 9am–5:30pm",
