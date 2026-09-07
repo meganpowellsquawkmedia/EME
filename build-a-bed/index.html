@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Build Your Bed | Eddie Maguire</title>
-<meta name="description" content="Design your Aurora bed — choose base (ottoman storage or standard with drawers), size and fabric, then enquire. Handcrafted to order, at Eddie Maguire, Dundalk.">
+<meta name="description" content="Design your Aurora bed — choose base (ottoman storage or standard with drawers), size and fabric, and watch it change colour. Handcrafted to order, at Eddie Maguire, Dundalk.">
 <link rel="canonical" href="https://meganpowellsquawkmedia.github.io/EME/build-a-bed/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Eddie Maguire — Electrical &amp; Furniture">
 <meta property="og:title" content="Build Your Bed | Eddie Maguire">
-<meta property="og:description" content="Design your Aurora bed — choose base (ottoman storage or standard with drawers), size and fabric, then enquire. Handcrafted to order, at Eddie Maguire, Dundalk.">
+<meta property="og:description" content="Design your Aurora bed — choose base (ottoman storage or standard with drawers), size and fabric, and watch it change colour. Handcrafted to order, at Eddie Maguire, Dundalk.">
 <meta property="og:url" content="https://meganpowellsquawkmedia.github.io/EME/build-a-bed/">
 <meta property="og:image" content="https://meganpowellsquawkmedia.github.io/EME/assets/og-default.png">
 <meta property="og:locale" content="en_IE">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Build Your Bed | Eddie Maguire">
-<meta name="twitter:description" content="Design your Aurora bed — choose base (ottoman storage or standard with drawers), size and fabric, then enquire. Handcrafted to order, at Eddie Maguire, Dundalk.">
+<meta name="twitter:description" content="Design your Aurora bed — choose base (ottoman storage or standard with drawers), size and fabric, and watch it change colour. Handcrafted to order, at Eddie Maguire, Dundalk.">
 <meta name="twitter:image" content="https://meganpowellsquawkmedia.github.io/EME/assets/og-default.png">
 <link rel="icon" href="/EME/assets/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/EME/assets/favicon.png" sizes="32x32">
@@ -40,8 +40,9 @@
 @media(max-width:900px){.bb{grid-template-columns:1fr}}
 @media(min-width:901px){.bb-preview{position:sticky;top:150px}}
 .bb-stage{position:relative;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;aspect-ratio:1/1}
-.bb-stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
-.bb-tag{position:absolute;left:12px;bottom:12px;background:rgba(26,18,16,.82);color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:20px;letter-spacing:.02em}
+.bb-stage canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.bb-tag{position:absolute;left:12px;bottom:12px;background:rgba(26,18,16,.82);color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:20px;letter-spacing:.02em;z-index:2}
+.bb-feat{position:absolute;right:12px;top:12px;width:34%;max-width:150px;border-radius:10px;border:2px solid #fff;box-shadow:0 4px 12px rgba(0,0,0,.18);z-index:2}
 .bb-chosen{display:flex;gap:14px;align-items:center;margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}
 .bb-swatch{width:72px;height:72px;border-radius:10px;flex:none;border:1px solid rgba(0,0,0,.12);background:var(--img) center/cover,var(--soft)}
 .bb-chosen-name{font-family:Montserrat;font-weight:800;font-size:15px;text-transform:uppercase;letter-spacing:.02em}
@@ -75,20 +76,24 @@
 </style>
 <div class="wrap">
 <div class="crumb"><a href="/EME/">Home</a> / <b>Build Your Bed</b></div>
-<div class="page-head"><h1>Build Your Bed</h1><div class="count">Design your bed — choose the base, size and fabric. Handcrafted to order by Aurora in Ireland; send us your combination and we'll come back with a price.</div></div>
+<div class="page-head"><h1>Build Your Bed</h1><div class="count">Design your bed — choose the base, size and fabric, and watch it change colour. Handcrafted to order by Aurora in Ireland; send us your combination and we'll come back with a price.</div></div>
 <div class="bb">
   <div class="bb-preview">
     <div class="bb-stage">
-      <img id="bbBaseStorage" src="/EME/assets/img/base-ottoman.jpg" alt="Ottoman storage base">
-      <img id="bbBaseDivan" src="/EME/assets/img/base-standard-divan.jpg" alt="Standard divan base" hidden>
-      <img id="bbBaseDrawer" src="/EME/assets/img/base-standard-drawer.jpg" alt="Standard base with drawers" hidden>
+      <canvas id="bbCanvas" width="1000" height="1000"></canvas>
+      <img id="bbFeat" class="bb-feat" src="/EME/assets/img/base-ottoman.jpg" alt="Ottoman lift-up storage">
       <div class="bb-tag" id="bbTag">Ottoman storage base</div>
     </div>
     <div class="bb-chosen">
       <div class="bb-swatch" id="bbSwatch" style="--img:url('/EME/assets/img/swatch-plush-velvet-charcoal.jpg')"></div>
       <div><div class="bb-chosen-name" id="bbName">Plush Velvet — Charcoal</div><div class="bb-chosen-sub" id="bbSub">Ottoman Storage Bed · King 5′</div></div>
     </div>
-    <div class="bb-note">The photos show the Aurora base style; your bed is upholstered to order in the fabric you pick above. Not sure between fabrics? Call in to Church Street and feel the swatches in person.</div>
+    <div class="bb-note">The bed above shows your chosen fabric colour on a real Aurora base; the inset photo shows the ottoman lift. Every bed is upholstered to order — call in to Church Street to feel the swatches in person.</div>
+    <!-- hidden sources for the live recolour (paths get the deploy base path applied) -->
+    <img id="srcDivan" src="/EME/assets/img/base-standard-divan.jpg" hidden alt="">
+    <img id="srcDrawer" src="/EME/assets/img/base-standard-drawer.jpg" hidden alt="">
+    <img id="mskDivan" src="/EME/assets/img/mask-divan.png" hidden alt="">
+    <img id="mskDrawer" src="/EME/assets/img/mask-drawer.png" hidden alt="">
   </div>
   <div class="bb-controls">
     <div class="bb-step"><h3>1 · Choose your base</h3><div class="bb-bases"><button type="button" class="bb-base on" data-kind="storage"><b>Storage</b><span>Ottoman lift-up base</span></button><button type="button" class="bb-base" data-kind="standard"><b>Standard</b><span>Divan, optional drawers</span></button></div></div>
@@ -99,7 +104,7 @@
       <div class="bb-dwr-side"><span class="lab">Right side</span><div class="bb-dwr-row"><button type="button" class="bb-dwr on" data-side="R" data-n="0">0</button><button type="button" class="bb-dwr" data-side="R" data-n="1">1</button><button type="button" class="bb-dwr" data-side="R" data-n="2">2</button></div></div>
     </div>
     <div class="bb-step"><h3><span class="bb-num">2</span> · Choose your size</h3><div class="bb-sizes" id="bbSizes"><button type="button" class="bb-size" data-size="Single 3′">Single 3′</button><button type="button" class="bb-size" data-size="Small Double 4′">Small Double 4′</button><button type="button" class="bb-size" data-size="Double 4′6″">Double 4′6″</button><button type="button" class="bb-size on" data-size="King 5′">King 5′</button><button type="button" class="bb-size" data-size="Super King 6′">Super King 6′</button></div></div>
-    <div class="bb-step"><h3><span class="bb-num">3</span> · Choose your fabric</h3><div class="bb-group"><div class="bb-gh">Plush Velvet</div><div class="bb-grid"><button type="button" class="bb-sw on" style="--img:url('/EME/assets/img/swatch-plush-velvet-charcoal.jpg')" data-name="Plush Velvet — Charcoal"><span class="bb-chip"></span><span class="bb-lbl">Charcoal</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-plush-velvet-china-blue.jpg')" data-name="Plush Velvet — China Blue"><span class="bb-chip"></span><span class="bb-lbl">China Blue</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-plush-velvet-coffee.jpg')" data-name="Plush Velvet — Coffee"><span class="bb-chip"></span><span class="bb-lbl">Coffee</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-plush-velvet-cream.jpg')" data-name="Plush Velvet — Cream"><span class="bb-chip"></span><span class="bb-lbl">Cream</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-plush-velvet-emerald.jpg')" data-name="Plush Velvet — Emerald"><span class="bb-chip"></span><span class="bb-lbl">Emerald</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-plush-velvet-pink.jpg')" data-name="Plush Velvet — Pink"><span class="bb-chip"></span><span class="bb-lbl">Pink</span></button></div></div><div class="bb-group"><div class="bb-gh">Spice Velvet</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-armour.jpg')" data-name="Spice Velvet — Armour"><span class="bb-chip"></span><span class="bb-lbl">Armour</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-beige.jpg')" data-name="Spice Velvet — Beige"><span class="bb-chip"></span><span class="bb-lbl">Beige</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-denim.jpg')" data-name="Spice Velvet — Denim"><span class="bb-chip"></span><span class="bb-lbl">Denim</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-ivory.jpg')" data-name="Spice Velvet — Ivory"><span class="bb-chip"></span><span class="bb-lbl">Ivory</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-petrol.jpg')" data-name="Spice Velvet — Petrol"><span class="bb-chip"></span><span class="bb-lbl">Petrol</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-pink.jpg')" data-name="Spice Velvet — Pink"><span class="bb-chip"></span><span class="bb-lbl">Pink</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-turmeric.jpg')" data-name="Spice Velvet — Turmeric"><span class="bb-chip"></span><span class="bb-lbl">Turmeric</span></button></div></div><div class="bb-group"><div class="bb-gh">Wool</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-wool-clay.jpg')" data-name="Wool — Clay"><span class="bb-chip"></span><span class="bb-lbl">Clay</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-wool-latte.jpg')" data-name="Wool — Latte"><span class="bb-chip"></span><span class="bb-lbl">Latte</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-wool-shadow.jpg')" data-name="Wool — Shadow"><span class="bb-chip"></span><span class="bb-lbl">Shadow</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-wool-steel.jpg')" data-name="Wool — Steel"><span class="bb-chip"></span><span class="bb-lbl">Steel</span></button></div></div><div class="bb-group"><div class="bb-gh">Naples</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-naples-beige.jpg')" data-name="Naples — Beige"><span class="bb-chip"></span><span class="bb-lbl">Beige</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-naples-cream.jpg')" data-name="Naples — Cream"><span class="bb-chip"></span><span class="bb-lbl">Cream</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-naples-silver.jpg')" data-name="Naples — Silver"><span class="bb-chip"></span><span class="bb-lbl">Silver</span></button></div></div><div class="bb-group"><div class="bb-gh">Matiz</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-matiz-beige.jpg')" data-name="Matiz — Beige"><span class="bb-chip"></span><span class="bb-lbl">Beige</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-matiz-silver.jpg')" data-name="Matiz — Silver"><span class="bb-chip"></span><span class="bb-lbl">Silver</span></button></div></div><div class="bb-group"><div class="bb-gh">Alessia</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-alessia-silver.jpg')" data-name="Alessia — Silver"><span class="bb-chip"></span><span class="bb-lbl">Silver</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-alessia-smoke.jpg')" data-name="Alessia — Smoke"><span class="bb-chip"></span><span class="bb-lbl">Smoke</span></button></div></div><div class="bb-group"><div class="bb-gh">Linoso</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-linoso-duck-egg.jpg')" data-name="Linoso — Duck Egg"><span class="bb-chip"></span><span class="bb-lbl">Duck Egg</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-linoso-midnight-blue.jpg')" data-name="Linoso — Midnight Blue"><span class="bb-chip"></span><span class="bb-lbl">Midnight Blue</span></button></div></div><div class="bb-group"><div class="bb-gh">Airforce</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-airforce-blue.jpg')" data-name="Airforce — Blue"><span class="bb-chip"></span><span class="bb-lbl">Blue</span></button></div></div></div>
+    <div class="bb-step"><h3><span class="bb-num">3</span> · Choose your fabric</h3><div class="bb-group"><div class="bb-gh">Plush Velvet</div><div class="bb-grid"><button type="button" class="bb-sw on" style="--img:url('/EME/assets/img/swatch-plush-velvet-charcoal.jpg')" data-slug="plush-velvet-charcoal" data-name="Plush Velvet — Charcoal"><span class="bb-chip"></span><span class="bb-lbl">Charcoal</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-plush-velvet-china-blue.jpg')" data-slug="plush-velvet-china-blue" data-name="Plush Velvet — China Blue"><span class="bb-chip"></span><span class="bb-lbl">China Blue</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-plush-velvet-coffee.jpg')" data-slug="plush-velvet-coffee" data-name="Plush Velvet — Coffee"><span class="bb-chip"></span><span class="bb-lbl">Coffee</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-plush-velvet-cream.jpg')" data-slug="plush-velvet-cream" data-name="Plush Velvet — Cream"><span class="bb-chip"></span><span class="bb-lbl">Cream</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-plush-velvet-emerald.jpg')" data-slug="plush-velvet-emerald" data-name="Plush Velvet — Emerald"><span class="bb-chip"></span><span class="bb-lbl">Emerald</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-plush-velvet-pink.jpg')" data-slug="plush-velvet-pink" data-name="Plush Velvet — Pink"><span class="bb-chip"></span><span class="bb-lbl">Pink</span></button></div></div><div class="bb-group"><div class="bb-gh">Spice Velvet</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-armour.jpg')" data-slug="spice-velvet-armour" data-name="Spice Velvet — Armour"><span class="bb-chip"></span><span class="bb-lbl">Armour</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-beige.jpg')" data-slug="spice-velvet-beige" data-name="Spice Velvet — Beige"><span class="bb-chip"></span><span class="bb-lbl">Beige</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-denim.jpg')" data-slug="spice-velvet-denim" data-name="Spice Velvet — Denim"><span class="bb-chip"></span><span class="bb-lbl">Denim</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-ivory.jpg')" data-slug="spice-velvet-ivory" data-name="Spice Velvet — Ivory"><span class="bb-chip"></span><span class="bb-lbl">Ivory</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-petrol.jpg')" data-slug="spice-velvet-petrol" data-name="Spice Velvet — Petrol"><span class="bb-chip"></span><span class="bb-lbl">Petrol</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-pink.jpg')" data-slug="spice-velvet-pink" data-name="Spice Velvet — Pink"><span class="bb-chip"></span><span class="bb-lbl">Pink</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-spice-velvet-turmeric.jpg')" data-slug="spice-velvet-turmeric" data-name="Spice Velvet — Turmeric"><span class="bb-chip"></span><span class="bb-lbl">Turmeric</span></button></div></div><div class="bb-group"><div class="bb-gh">Wool</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-wool-clay.jpg')" data-slug="wool-clay" data-name="Wool — Clay"><span class="bb-chip"></span><span class="bb-lbl">Clay</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-wool-latte.jpg')" data-slug="wool-latte" data-name="Wool — Latte"><span class="bb-chip"></span><span class="bb-lbl">Latte</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-wool-shadow.jpg')" data-slug="wool-shadow" data-name="Wool — Shadow"><span class="bb-chip"></span><span class="bb-lbl">Shadow</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-wool-steel.jpg')" data-slug="wool-steel" data-name="Wool — Steel"><span class="bb-chip"></span><span class="bb-lbl">Steel</span></button></div></div><div class="bb-group"><div class="bb-gh">Naples</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-naples-beige.jpg')" data-slug="naples-beige" data-name="Naples — Beige"><span class="bb-chip"></span><span class="bb-lbl">Beige</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-naples-cream.jpg')" data-slug="naples-cream" data-name="Naples — Cream"><span class="bb-chip"></span><span class="bb-lbl">Cream</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-naples-silver.jpg')" data-slug="naples-silver" data-name="Naples — Silver"><span class="bb-chip"></span><span class="bb-lbl">Silver</span></button></div></div><div class="bb-group"><div class="bb-gh">Matiz</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-matiz-beige.jpg')" data-slug="matiz-beige" data-name="Matiz — Beige"><span class="bb-chip"></span><span class="bb-lbl">Beige</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-matiz-silver.jpg')" data-slug="matiz-silver" data-name="Matiz — Silver"><span class="bb-chip"></span><span class="bb-lbl">Silver</span></button></div></div><div class="bb-group"><div class="bb-gh">Alessia</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-alessia-silver.jpg')" data-slug="alessia-silver" data-name="Alessia — Silver"><span class="bb-chip"></span><span class="bb-lbl">Silver</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-alessia-smoke.jpg')" data-slug="alessia-smoke" data-name="Alessia — Smoke"><span class="bb-chip"></span><span class="bb-lbl">Smoke</span></button></div></div><div class="bb-group"><div class="bb-gh">Linoso</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-linoso-duck-egg.jpg')" data-slug="linoso-duck-egg" data-name="Linoso — Duck Egg"><span class="bb-chip"></span><span class="bb-lbl">Duck Egg</span></button><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-linoso-midnight-blue.jpg')" data-slug="linoso-midnight-blue" data-name="Linoso — Midnight Blue"><span class="bb-chip"></span><span class="bb-lbl">Midnight Blue</span></button></div></div><div class="bb-group"><div class="bb-gh">Airforce</div><div class="bb-grid"><button type="button" class="bb-sw" style="--img:url('/EME/assets/img/swatch-airforce-blue.jpg')" data-slug="airforce-blue" data-name="Airforce — Blue"><span class="bb-chip"></span><span class="bb-lbl">Blue</span></button></div></div></div>
     <div class="bb-cta">
       <div class="bb-summary">Your bed: <b id="bbSum">Ottoman Storage Bed · King 5′ · Plush Velvet — Charcoal</b></div>
       <a class="ctabig" id="bbWa" href="https://wa.me/353852414790"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire about this bed</a>
@@ -111,37 +116,67 @@
 </div>
 <script>
 (function(){
+  var SW={"plush-velvet-charcoal":[104,109,120],"plush-velvet-china-blue":[47,127,145],"plush-velvet-coffee":[162,151,133],"plush-velvet-cream":[202,201,197],"plush-velvet-emerald":[81,108,90],"plush-velvet-pink":[197,187,188],"spice-velvet-armour":[150,150,152],"spice-velvet-beige":[144,121,112],"spice-velvet-denim":[57,77,112],"spice-velvet-ivory":[199,196,192],"spice-velvet-petrol":[142,155,153],"spice-velvet-pink":[180,131,148],"spice-velvet-turmeric":[152,102,44],"wool-clay":[145,140,138],"wool-latte":[165,148,134],"wool-shadow":[107,106,107],"wool-steel":[134,135,136],"naples-beige":[172,154,136],"naples-cream":[189,179,161],"naples-silver":[174,168,161],"matiz-beige":[136,134,128],"matiz-silver":[130,131,132],"alessia-silver":[171,169,165],"alessia-smoke":[141,140,143],"linoso-duck-egg":[121,141,142],"linoso-midnight-blue":[81,99,114],"airforce-blue":[89,107,122]};
   var DP=40;
-  var kind="storage", size="King 5′", fabric="Plush Velvet — Charcoal", L=0, R=0;
-  var imgStorage=document.getElementById('bbBaseStorage'),
-      imgDivan=document.getElementById('bbBaseDivan'),
-      imgDrawer=document.getElementById('bbBaseDrawer'),
-      tag=document.getElementById('bbTag'),
+  var kind="storage", size="King 5′", fabric="Plush Velvet — Charcoal", fslug="plush-velvet-charcoal", L=0, R=0;
+  var canvas=document.getElementById('bbCanvas'), ctx=canvas.getContext('2d',{willReadFrequently:true});
+  var feat=document.getElementById('bbFeat'), tag=document.getElementById('bbTag'),
       sw=document.getElementById('bbSwatch'), nm=document.getElementById('bbName'),
       sub=document.getElementById('bbSub'), sum=document.getElementById('bbSum'),
       wa=document.getElementById('bbWa'), form=document.getElementById('bbForm'),
       dstep=document.getElementById('bbDrawerStep'), nums=document.querySelectorAll('.bb-num');
-  function drawers(){ return kind==='standard' ? (L+R) : 0; }
+  var bank={};   // baseKey -> {orig, alpha, meanL, w, h}
+  function buildBank(key, imgEl, mskEl){
+    var w=imgEl.naturalWidth, h=imgEl.naturalHeight;
+    var oc=document.createElement('canvas'); oc.width=w; oc.height=h;
+    var octx=oc.getContext('2d',{willReadFrequently:true});
+    octx.drawImage(imgEl,0,0); var orig=octx.getImageData(0,0,w,h);
+    octx.clearRect(0,0,w,h); octx.drawImage(mskEl,0,0,w,h);
+    var md=octx.getImageData(0,0,w,h).data;
+    var alpha=new Float32Array(w*h), lum=new Float32Array(w*h), sumL=0, cnt=0, d=orig.data;
+    for(var i=0,p=0;i<md.length;i+=4,p++){
+      var a=md[i]/255; alpha[p]=a;
+      var l=0.299*d[i]+0.587*d[i+1]+0.114*d[i+2]; lum[p]=l;
+      if(a>0.5){ sumL+=l; cnt++; }
+    }
+    bank[key]={orig:orig, alpha:alpha, lum:lum, meanL:(cnt?sumL/cnt:160), w:w, h:h};
+  }
+  function baseKey(){ return (kind==='standard' && (L+R)>0) ? 'drawer' : 'divan'; }
+  function paint(){
+    var key=baseKey(), b=bank[key]; if(!b) return;
+    if(canvas.width!==b.w){canvas.width=b.w;canvas.height=b.h;}
+    var c=SW[fslug]||[150,150,150];
+    var src=b.orig.data, out=ctx.createImageData(b.w,b.h), o=out.data, al=b.alpha, lum=b.lum, mL=b.meanL;
+    for(var i=0,p=0;i<o.length;i+=4,p++){
+      var a=al[p];
+      if(a<=0.003){ o[i]=src[i];o[i+1]=src[i+1];o[i+2]=src[i+2];o[i+3]=255; continue; }
+      var r=lum[p]/mL; if(r<0.35)r=0.35; if(r>1.7)r=1.7;
+      var nr=c[0]*r, ng=c[1]*r, nb=c[2]*r;
+      o[i]  =src[i]  *(1-a)+ (nr>255?255:nr)*a;
+      o[i+1]=src[i+1]*(1-a)+ (ng>255?255:ng)*a;
+      o[i+2]=src[i+2]*(1-a)+ (nb>255?255:nb)*a;
+      o[i+3]=255;
+    }
+    ctx.putImageData(out,0,0);
+  }
   function refresh(){
-    var storage = kind==='storage', d=drawers();
-    var showDrawerPhoto = (!storage && d>0);
-    imgStorage.hidden = !storage;
-    imgDivan.hidden = !(!storage && d===0);
-    imgDrawer.hidden = !showDrawerPhoto;
-    dstep.hidden = storage;
+    var storage=kind==='storage', d=(kind==='standard'?(L+R):0);
+    dstep.hidden=storage;
+    feat.style.display = storage ? '' : 'none';
     nums.forEach(function(n,idx){ n.textContent = storage ? (idx+2) : (idx+3); });
     var baseLabel = storage ? 'Ottoman Storage Bed' : 'Standard Bed';
     tag.textContent = storage ? 'Ottoman storage base' : (d>0 ? 'Standard base + drawers' : 'Standard divan base');
-    nm.textContent = fabric;
-    sub.textContent = baseLabel+' · '+size;
+    nm.textContent=fabric; sub.textContent=baseLabel+' · '+size;
     var cost=d*DP;
-    var extra = (!storage && d>0) ? (' · '+d+' drawer'+(d>1?'s':'')+' (+€'+cost+')') : (storage ? ' · lift-up storage' : '');
-    sum.textContent = baseLabel+' · '+size+' · '+fabric+extra;
+    var extra=(!storage&&d>0)?(' · '+d+' drawer'+(d>1?'s':'')+' (+€'+cost+')'):(storage?' · lift-up storage':'');
+    sum.textContent=baseLabel+' · '+size+' · '+fabric+extra;
     var msg='Hi, I\'d like a price on this bed:\n'+baseLabel+'\nSize: '+size+'\nFabric: '+fabric;
-    if(!storage) msg += '\nDrawers: '+d+(d>0?(' (+€'+cost+')'):'');
+    if(!storage) msg+='\nDrawers: '+d+(d>0?(' (+€'+cost+')'):'');
     wa.href='https://wa.me/353852414790?text='+encodeURIComponent(msg);
     form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):''));
+    paint();
   }
+  // wire controls
   document.querySelectorAll('.bb-base').forEach(function(b){b.addEventListener('click',function(){
     document.querySelectorAll('.bb-base').forEach(function(x){x.classList.remove('on')}); b.classList.add('on');
     kind=b.dataset.kind;
@@ -150,16 +185,24 @@
   document.querySelectorAll('.bb-dwr').forEach(function(b){b.addEventListener('click',function(){
     var side=b.dataset.side;
     document.querySelectorAll('.bb-dwr[data-side="'+side+'"]').forEach(function(x){x.classList.remove('on')}); b.classList.add('on');
-    if(side==='L') L=+b.dataset.n; else R=+b.dataset.n; refresh();});});
+    if(side==='L')L=+b.dataset.n; else R=+b.dataset.n; refresh();});});
   document.querySelectorAll('.bb-size').forEach(function(b){b.addEventListener('click',function(){
     document.querySelectorAll('.bb-size').forEach(function(x){x.classList.remove('on')}); b.classList.add('on');
     size=b.dataset.size; refresh();});});
   document.querySelectorAll('.bb-sw').forEach(function(b){b.addEventListener('click',function(){
     document.querySelectorAll('.bb-sw').forEach(function(x){x.classList.remove('on')}); b.classList.add('on');
-    fabric=b.dataset.name;
+    fabric=b.dataset.name; fslug=b.dataset.slug;
     sw.style.setProperty('--img', getComputedStyle(b).getPropertyValue('--img'));
     refresh();});});
-  refresh();
+  // load sources then first paint
+  var need=[['divan','srcDivan','mskDivan'],['drawer','srcDrawer','mskDrawer']], ready=0;
+  function whenReady(){ if(++ready>=need.length){ refresh(); } }
+  need.forEach(function(t){
+    var img=document.getElementById(t[1]), msk=document.getElementById(t[2]), n=0;
+    function tryBuild(){ if(++n>=2 && img.naturalWidth && msk.naturalWidth){ buildBank(t[0],img,msk); whenReady(); } }
+    if(img.complete) tryBuild(); else img.onload=tryBuild;
+    if(msk.complete) tryBuild(); else msk.onload=tryBuild;
+  });
 })();
 </script>
 <footer class="site"><div class="wrap">
