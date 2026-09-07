@@ -33,6 +33,8 @@ nav.cats{background:#fff;border-bottom:1px solid var(--line)}
 nav.cats .wrap{display:flex;gap:24px;padding:12px 20px;font-size:13px;font-weight:700;overflow-x:auto}
 nav.cats a{color:#333;white-space:nowrap}
 nav.cats a:hover{color:var(--orange)}
+nav.cats .cats-enq{margin-left:auto;color:var(--orange)}
+nav.cats .cats-enq:hover{color:var(--orange-dk)}
 @media(max-width:720px){
   header.site .wrap{flex-wrap:wrap}
   .search{order:3;max-width:none;width:100%}

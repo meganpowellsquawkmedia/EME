@@ -453,7 +453,8 @@ def nav_links():
     # and Garden are coming — point them at the shop for now, retarget when stocked.
     return ('<a href="/category/">Electrical</a>'
             '<a href="/category/">Home</a>'
-            '<a href="/category/">Garden</a>')
+            '<a href="/category/">Garden</a>'
+            '<a class="cats-enq" href="/enquiry/">Make an Enquiry</a>')
 
 def header():
     return f"""<div class="tstrip"><div class="wrap">
