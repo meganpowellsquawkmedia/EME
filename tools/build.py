@@ -1038,8 +1038,10 @@ def build_enquiry():
 </div>
 <script>
 (function(){{
-  var m = location.search.match(/[?&]product=([^&]*)/);
-  if (m) {{ try {{ document.getElementById('f-product').value = decodeURIComponent(m[1].replace(/\\+/g,' ')); }} catch(e){{}} }}
+  var q=new URLSearchParams(location.search);
+  function set(id,val){{ if(val){{ var el=document.getElementById(id); if(el) el.value=val; }} }}
+  set('f-product', q.get('product')); set('f-name', q.get('name'));
+  set('f-contact', q.get('contact')); set('f-msg', q.get('msg'));
 }})();
 function v(id){{ var el=document.getElementById(id); return el ? (el.value||'').trim() : ''; }}
 function enqBody(){{
@@ -1230,6 +1232,15 @@ def build_bedbuilder():
 .bb-price-total{{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);margin-top:8px;padding-top:8px;font-family:Montserrat;font-weight:800;text-transform:uppercase;letter-spacing:.02em;font-size:14px}}
 .bb-price-total b{{font-size:22px;color:var(--orange)}}
 .bb-price-note{{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.45}}
+.bb-you{{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}}
+@media(max-width:420px){{.bb-you{{grid-template-columns:1fr}}}}
+.bb-in{{width:100%;border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13.5px;font-family:inherit;background:#fff;box-sizing:border-box}}
+.bb-in:focus{{outline:0;border-color:var(--orange)}}
+.bb-cta .ctabig{{padding:12px;font-size:13px;letter-spacing:.05em;border-radius:11px;gap:8px}}
+.bb-cta .ctacall{{padding:10px;font-size:12px;letter-spacing:.05em;border-radius:11px;background:#fff;color:var(--orange);border:1.5px solid var(--orange)}}
+.bb-cta .ctacall:hover{{background:#fff7ef}}
+.bb-cta .ctarsv{{border:0;background:none;padding:8px 4px;margin-top:4px;text-transform:none;letter-spacing:0;font-size:12.5px;font-weight:600;color:var(--muted);text-align:center}}
+.bb-cta .ctarsv:hover{{color:var(--orange)}}
 .bb-cta .ctabig,.bb-cta .ctacall,.bb-cta .ctarsv{{margin-top:8px}}
 .bb-stage{{cursor:zoom-in}}
 .bb-zoomhint{{position:absolute;right:12px;bottom:12px;background:rgba(26,18,16,.72);color:#fff;font-size:11px;font-weight:700;padding:5px 11px;border-radius:20px;z-index:2;pointer-events:none}}
@@ -1296,9 +1307,13 @@ def build_bedbuilder():
         <div class="bb-price-total"><span>Estimated total</span><b id="bbPrTotal">€—</b></div>
         <div class="bb-price-note">Guide price — includes your fabric choice. Delivery quoted separately; confirm final price with us when you enquire.</div>
       </div>
-      <a class="ctabig" id="bbWa" href="https://wa.me/{wa}">{WA_SVG} Enquire about this bed</a>
-      <a class="ctacall" href="tel:{SHOP['phone_tel']}">📞 Call {SHOP['phone_display']}</a>
-      <a class="ctarsv" id="bbForm" href="/enquiry/">Send an enquiry form instead</a>
+      <div class="bb-you">
+        <input id="bbYname" class="bb-in" type="text" autocomplete="name" placeholder="Your name">
+        <input id="bbContact" class="bb-in" type="text" autocomplete="tel" placeholder="Phone or email">
+      </div>
+      <a class="ctabig" id="bbWa" href="https://wa.me/{wa}">{WA_SVG} Enquire on WhatsApp</a>
+      <a class="ctacall" href="tel:{SHOP['phone_tel']}">Call the shop</a>
+      <a class="ctarsv" id="bbForm" href="/enquiry/">Prefer a form? Send an enquiry →</a>
     </div>
   </div>
 </div>
@@ -1319,6 +1334,7 @@ def build_bedbuilder():
       sw=document.getElementById('bbSwatch'), nm=document.getElementById('bbName'),
       sub=document.getElementById('bbSub'), sum=document.getElementById('bbSum'),
       wa=document.getElementById('bbWa'), form=document.getElementById('bbForm'),
+      nameEl=document.getElementById('bbYname'), contactEl=document.getElementById('bbContact'),
       dstep=document.getElementById('bbDrawerStep'), mstep=document.getElementById('bbMount');
   function renumber(){{
     var n=1;
@@ -1388,7 +1404,7 @@ def build_bedbuilder():
       var cv=document.querySelector('.bb-hbcanvas[data-slug="'+s+'"]'); if(cv) recolorInto(cv,b,c,ft);
     }});
   }}
-  function refresh(){{
+  function refresh(skipPaint){{
     var storage=kind==='storage', d=(kind==='standard'?(L+R):0);
     dstep.hidden=storage; feat.style.display=storage?'':'none'; mstep.hidden=(hb==='');
     renumber();
@@ -1415,13 +1431,19 @@ def build_bedbuilder():
       document.getElementById('bbPrDw').textContent=eur(cost); }}
     document.getElementById('bbPrTotal').textContent=eur(total)+(hbNA?' +':'');
     var priceTxt=eur(total)+(hbNA?' + headboard (price on request)':'');
+    var who=(nameEl.value||'').trim(), contact=(contactEl.value||'').trim();
+    var spec=baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):'')+(hb?(' — '+hb+' headboard ('+mount+')'):'');
     var msg='Hi, I\\'m interested in this bed:\\n'+baseLabel+'\\nSize: '+size+'\\nFabric: '+fabric;
     if(!storage) msg+='\\nDrawers: '+d+(d>0?(' (+€'+cost+')'):'');
     msg+='\\nHeadboard: '+(hb?(hb+' ('+mount+')'+(hbNA?' — price on request':'')):'None');
     msg+='\\nEstimated total: '+priceTxt;
+    if(who) msg+='\\nName: '+who;
+    if(contact) msg+='\\nContact: '+contact;
     wa.href='https://wa.me/{wa}?text='+encodeURIComponent(msg);
-    form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):'')+(hb?(' — '+hb+' headboard ('+mount+')'):'')+' — '+priceTxt);
-    paintBase();
+    form.href='/enquiry/?product='+encodeURIComponent(spec)
+      +(who?('&name='+encodeURIComponent(who)):'')+(contact?('&contact='+encodeURIComponent(contact)):'')
+      +'&msg='+encodeURIComponent('Build a Bed — '+spec+'. Estimated total: '+priceTxt+'.');
+    if(!skipPaint) paintBase();
   }}
   // ---- controls ----
   document.querySelectorAll('.bb-size').forEach(function(b){{b.addEventListener('click',function(){{
@@ -1447,6 +1469,7 @@ def build_bedbuilder():
   document.querySelectorAll('.bb-mount').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-mount').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
     mount=b.dataset.mount; refresh();}});}});
+  [nameEl,contactEl].forEach(function(el){{ el.addEventListener('input',function(){{ refresh(true); }}); }});
   // ---- zoom / lightbox ----
   var zoom=document.getElementById('bbZoom'), zoomImg=document.getElementById('bbZoomImg'), zoomCap=document.getElementById('bbZoomCap');
   function openZoom(src,cap){{ zoomImg.src=src; zoomCap.textContent=cap||''; zoom.hidden=false; }}
