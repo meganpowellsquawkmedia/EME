@@ -176,6 +176,7 @@
 <script>
 (function(){
   var SW={"plush-velvet-charcoal":[104,109,120],"plush-velvet-china-blue":[47,127,145],"plush-velvet-coffee":[162,151,133],"plush-velvet-cream":[202,201,197],"plush-velvet-emerald":[81,108,90],"plush-velvet-pink":[197,187,188],"spice-velvet-armour":[150,150,152],"spice-velvet-beige":[144,121,112],"spice-velvet-denim":[57,77,112],"spice-velvet-ivory":[199,196,192],"spice-velvet-petrol":[142,155,153],"spice-velvet-pink":[180,131,148],"spice-velvet-turmeric":[152,102,44],"wool-clay":[145,140,138],"wool-latte":[165,148,134],"wool-shadow":[107,106,107],"wool-steel":[134,135,136],"naples-beige":[172,154,136],"naples-cream":[189,179,161],"naples-silver":[174,168,161],"matiz-beige":[136,134,128],"matiz-silver":[130,131,132],"alessia-silver":[171,169,165],"alessia-smoke":[141,140,143],"linoso-duck-egg":[121,141,142],"linoso-midnight-blue":[81,99,114],"airforce-blue":[89,107,122]}, HBS=["panel","florence","button-top","diamond","malaga","roma","verona","milan","studded","double-studded","winged","framed","sorrento"], DP=40;
+  var HB_FLOOR=['winged','sorrento','framed'];  // floor-standing only — no 27" strutted option
   // Aurora price card (David's in-store prices). Buckets: 3=Single, 46=4'/4'6", 5=King, 6=Super King.
   var PRICE={
     base:{ standard:{'3':149,'46':199,'5':249,'6':279}, storage:{'3':419,'46':649,'5':699,'6':799} },
@@ -272,6 +273,11 @@
   function refresh(skipPaint){
     var storage=kind==='storage', d=(kind==='standard'?(L+R):0);
     dstep.hidden=storage; feat.style.display=(storage&&!hbslug)?'':'none'; mstep.hidden=(hb==='');
+    var floorOnly=HB_FLOOR.indexOf(hbslug)>=0;   // Winged/Sorrento/Framed: floor-standing only
+    var strutBtn=document.querySelector('.bb-mount[data-mount="Strutted"]');
+    if(strutBtn) strutBtn.style.display=floorOnly?'none':'';
+    if(floorOnly && mount!=='Floor-standing 54″'){ mount='Floor-standing 54″';
+      document.querySelectorAll('.bb-mount').forEach(function(x){x.classList.toggle('on',x.dataset.mount===mount);}); }
     renumber();
     var baseLabel=storage?'Ottoman Storage Bed':'Standard Bed';
     tag.textContent=hbslug?(hb+' headboard'):(storage?'Ottoman storage base':(d>0?'Standard base + drawers':'Standard divan base'));
