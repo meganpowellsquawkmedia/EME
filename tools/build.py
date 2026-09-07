@@ -884,8 +884,12 @@ def build_home():
     _, _hero_auto = pick_photo(cook_id, "range") if cook_id else (None, "/assets/placeholder-product.svg")
     hero_img = hp("hero_image", _hero_auto)
 
-    # category tiles (featured, consistent sizing)
-    tiles = ""
+    # category tiles (featured, consistent sizing) — lead with the Build-a-Bed feature
+    tiles = ('<a class="tile" href="/build-a-bed/">'
+             '<div class="tw" style="padding:0;overflow:hidden">'
+             '<img src="/assets/img/aurora-ottoman-1.jpg" alt="Build your bed" loading="lazy" '
+             'style="width:100%;height:100%;object-fit:cover;mix-blend-mode:normal"></div>'
+             '<h3>Build Your Bed</h3><div class="go">Design yours →</div></a>')
     for slug, lbl in FEATURED:
         if slug not in slug2id or not cat_total.get(slug2id[slug]): continue
         cid = slug2id[slug]
@@ -1098,6 +1102,135 @@ def md_to_html(md):
         out.append("<p>" + _md_inline(" ".join(para)) + "</p>")
     return "\n".join(out)
 
+def build_bedbuilder():
+    # "Build Your Bed" configurator — Aurora ottoman base, made to order in any fabric.
+    SIZES = [("Single 3′", "90 × 190 cm"), ("Small Double 4′", "120 × 190 cm"),
+             ("Double 4′6″", "135 × 190 cm"), ("King 5′", "150 × 200 cm"), ("Super King 6′", "180 × 200 cm")]
+    FABRICS = [
+        ("Plush Velvet", "velvet", [("Charcoal", "#3b3d42"), ("China Blue", "#4d6a86"), ("Coffee", "#5c4a3a"),
+                                    ("Emerald", "#1f6b54"), ("Blush Pink", "#cf94a1"), ("Cream", "#e7dcc6")]),
+        ("Spice Velvet", "velvet", [("Petrol", "#2f5560"), ("Armour", "#6c7169"), ("Denim", "#435770"),
+                                    ("Turmeric", "#c68f30"), ("Pink", "#d29aa6"), ("Beige", "#cbbca2"), ("Ivory", "#ece3d1")]),
+        ("Wool", "wool", [("Steel", "#888e96"), ("Shadow", "#56595d"), ("Clay", "#ad846c"), ("Latte", "#c8b39a")]),
+        ("Linen (Linoso)", "linen", [("Duck Egg", "#a7c6c1"), ("Midnight Blue", "#26344c")]),
+        ("Matiz", "weave", [("Silver", "#b7bbbf"), ("Beige", "#c9bda6")]),
+        ("Alessia", "weave", [("Silver", "#b5b9be"), ("Smoke", "#7c7e82")]),
+        ("Naples", "weave", [("Beige", "#c8bda4"), ("Silver", "#b8bcc0"), ("Cream", "#e5dcc7")]),
+        ("Airforce", "velvet", [("Airforce Blue", "#5f7a8c")]),
+    ]
+    size_btns = "".join(
+        f'<button type="button" class="bb-size{" on" if i==3 else ""}" data-size="{esc(nm)}" data-dim="{esc(dim)}">{esc(nm)}</button>'
+        for i, (nm, dim) in enumerate(SIZES))
+    groups = ""
+    for rng, tex, cols in FABRICS:
+        sw = "".join(
+            f'<button type="button" class="bb-sw tex-{tex}" style="--c:{c}" data-name="{esc(rng)} — {esc(nm)}" data-c="{c}" data-tex="{tex}">'
+            f'<span class="bb-chip"></span><span class="bb-lbl">{esc(nm)}</span></button>'
+            for nm, c in cols)
+        groups += f'<div class="bb-group"><div class="bb-gh">{esc(rng)}</div><div class="bb-grid">{sw}</div></div>'
+    wa = SHOP["wa"]
+    body = f"""{header()}
+<style>
+.bb{{display:grid;grid-template-columns:1fr 1fr;gap:32px;padding:8px 0 64px;align-items:start}}
+@media(max-width:900px){{.bb{{grid-template-columns:1fr}}}}
+.bb-preview{{position:sticky;top:150px}}
+.bb-photo{{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}}
+.bb-photo img{{width:100%;display:block}}
+.bb-chosen{{display:flex;gap:14px;align-items:center;margin-top:16px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}}
+.bb-swatch{{width:74px;height:74px;border-radius:10px;flex:none;border:1px solid rgba(0,0,0,.12);background:var(--soft)}}
+.bb-chosen-name{{font-family:Montserrat;font-weight:800;font-size:16px;text-transform:uppercase;letter-spacing:.02em}}
+.bb-chosen-sub{{color:var(--muted);font-size:13px;margin-top:3px}}
+.bb-feats{{list-style:none;padding:0;margin:16px 0 0;columns:1;font-size:14px;line-height:1.9;color:#333}}
+.bb-feats li{{padding-left:24px;position:relative}}.bb-feats li:before{{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:800}}
+.bb-step{{margin-bottom:26px}}
+.bb-step h3{{font-size:15px;text-transform:uppercase;letter-spacing:.04em;margin:0 0 12px}}
+.bb-sizes{{display:flex;flex-wrap:wrap;gap:8px}}
+.bb-size{{border:1.5px solid var(--line);background:#fff;border-radius:10px;padding:10px 14px;font-weight:700;font-size:13px;cursor:pointer}}
+.bb-size.on{{border-color:var(--orange);color:var(--orange);background:#fff7ef}}
+.bb-group{{margin-bottom:18px}}
+.bb-gh{{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:8px}}
+.bb-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(84px,1fr));gap:10px}}
+.bb-sw{{border:0;background:none;padding:0;cursor:pointer;text-align:center}}
+.bb-chip{{display:block;height:56px;border-radius:9px;border:2px solid transparent;box-shadow:0 0 0 1px rgba(0,0,0,.10) inset}}
+.bb-sw.on .bb-chip{{border-color:var(--orange);box-shadow:0 0 0 1px var(--orange),0 6px 14px rgba(0,0,0,.14)}}
+.bb-lbl{{display:block;font-size:11px;color:#444;margin-top:5px;line-height:1.2}}
+.tex-velvet .bb-chip,.bb-swatch.tex-velvet{{background:
+  radial-gradient(130% 90% at 28% 12%, rgba(255,255,255,.34), rgba(255,255,255,0) 60%),
+  repeating-linear-gradient(90deg, rgba(0,0,0,.07) 0 2px, rgba(255,255,255,.05) 2px 4px), var(--c)}}
+.tex-wool .bb-chip,.bb-swatch.tex-wool{{background:
+  repeating-linear-gradient(45deg, rgba(255,255,255,.10) 0 1px, rgba(0,0,0,.06) 1px 2px),
+  repeating-linear-gradient(-45deg, rgba(255,255,255,.08) 0 1px, rgba(0,0,0,.05) 1px 2px), var(--c)}}
+.tex-weave .bb-chip,.bb-swatch.tex-weave{{background:
+  repeating-linear-gradient(0deg, rgba(0,0,0,.06) 0 1px, rgba(255,255,255,.06) 1px 3px),
+  repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 1px, rgba(255,255,255,.06) 1px 3px), var(--c)}}
+.tex-linen .bb-chip,.bb-swatch.tex-linen{{background:
+  repeating-linear-gradient(0deg, rgba(0,0,0,.05) 0 1px, rgba(255,255,255,.09) 1px 4px),
+  repeating-linear-gradient(90deg, rgba(0,0,0,.05) 0 1px, rgba(255,255,255,.09) 1px 4px), var(--c)}}
+.bb-cta{{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;position:sticky;bottom:0}}
+.bb-summary{{font-weight:700;margin-bottom:12px}}
+.bb-summary b{{color:var(--orange)}}
+.bb-cta .ctabig,.bb-cta .ctacall,.bb-cta .ctarsv{{margin-top:8px}}
+</style>
+<div class="wrap">
+<div class="crumb"><a href="/">Home</a> / <b>Build Your Bed</b></div>
+<div class="page-head"><h1>Build Your Bed</h1><div class="count">Our Ottoman storage bed — handcrafted to order in your choice of fabric. Pick a size and a fabric below, then send us your combination for a price.</div></div>
+<div class="bb">
+  <div class="bb-preview">
+    <div class="bb-photo"><img src="/assets/img/aurora-ottoman-1.jpg" alt="Ottoman storage bed with lift-up base"></div>
+    <div class="bb-chosen">
+      <div class="bb-swatch tex-velvet" id="bbSwatch" style="--c:#3b3d42"></div>
+      <div><div class="bb-chosen-name" id="bbName">Plush Velvet — Charcoal</div><div class="bb-chosen-sub" id="bbSub">Ottoman Storage Bed · King 5′</div></div>
+    </div>
+    <ul class="bb-feats">
+      <li>Smooth-lift ottoman base — full-length storage underneath</li>
+      <li>Handcrafted to order in Ireland</li>
+      <li>Sizes from single up to super king</li>
+      <li>Choose from over 20 fabrics — velvet, wool &amp; weave</li>
+    </ul>
+  </div>
+  <div class="bb-controls">
+    <div class="bb-step"><h3>1 · Choose your size</h3><div class="bb-sizes" id="bbSizes">{size_btns}</div></div>
+    <div class="bb-step"><h3>2 · Choose your fabric</h3>{groups}</div>
+    <div class="bb-cta">
+      <div class="bb-summary" id="bbSummary">Your bed: <b id="bbSum">Ottoman Storage Bed · King 5′ · Plush Velvet — Charcoal</b></div>
+      <a class="ctabig" id="bbWa" href="https://wa.me/{wa}">{WA_SVG} Enquire about this bed</a>
+      <a class="ctacall" href="tel:{SHOP['phone_tel']}">📞 Call {SHOP['phone_display']}</a>
+      <a class="ctarsv" id="bbForm" href="/enquiry/">Send an enquiry form instead</a>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+(function(){{
+  var size="King 5′", fabric="Plush Velvet — Charcoal", fc="#3b3d42", ftex="velvet";
+  var sw=document.getElementById('bbSwatch'), nm=document.getElementById('bbName'),
+      sub=document.getElementById('bbSub'), sum=document.getElementById('bbSum'),
+      wa=document.getElementById('bbWa'), form=document.getElementById('bbForm');
+  function refresh(){{
+    sw.style.setProperty('--c', fc); sw.className='bb-swatch tex-'+ftex;
+    nm.textContent=fabric; sub.textContent='Ottoman Storage Bed · '+size;
+    var line='Ottoman Storage Bed · '+size+' · '+fabric;
+    sum.textContent=line;
+    var msg='Hi, I\\'d like a price on this bed:\\nOttoman Storage Bed\\nSize: '+size+'\\nFabric: '+fabric;
+    wa.href='https://wa.me/{wa}?text='+encodeURIComponent(msg);
+    form.href='/enquiry/?product='+encodeURIComponent('Ottoman Storage Bed — '+size+' — '+fabric);
+  }}
+  document.querySelectorAll('.bb-size').forEach(function(b){{b.addEventListener('click',function(){{
+    document.querySelectorAll('.bb-size').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
+    size=b.dataset.size; refresh();}});}});
+  document.querySelectorAll('.bb-sw').forEach(function(b){{b.addEventListener('click',function(){{
+    document.querySelectorAll('.bb-sw').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
+    fabric=b.dataset.name; fc=b.dataset.c; ftex=b.dataset.tex; refresh();
+    document.querySelector('.bb-preview').scrollIntoView({{block:'nearest',behavior:'smooth'}});}});}});
+  refresh();
+}})();
+</script>
+{footer()}"""
+    write("build-a-bed/index.html", head(f"Build Your Bed | {SHOP['name']}",
+        "Design your Ottoman storage bed — choose your size and fabric, then enquire. Handcrafted to order, at Eddie Maguire, Dundalk.",
+        path="/build-a-bed/") + body)
+    print("  build-a-bed: 1 page")
+
 def build_pages():
     # Content pages from content/pages/*.md (yaml-frontmatter markdown, CMS-editable).
     n = 0
@@ -1165,7 +1298,7 @@ def build_redirects():
 def build_sitemap():
     """XML sitemap + robots.txt with absolute live URLs (no base rewrite needed)."""
     paths = ["/", "/category/"]
-    paths += [f"/{s}/" for s in ("about-us", "contact-us", "enquiry", "delivery-returns",
+    paths += [f"/{s}/" for s in ("build-a-bed", "about-us", "contact-us", "enquiry", "delivery-returns",
               "returns-replacements", "terms-and-conditions", "privacy-policy")]
     paths += [cat_url(c["id"]) for c in C if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP]
     paths += [f"/product/{p['slug']}/" for p in P]
@@ -1203,7 +1336,7 @@ if __name__ == "__main__":
     # clean previous generated output (keep raw, tools, assets)
     for d in ("product", "category", "product-category", "about-us", "contact-us", "enquiry",
               "delivery-returns", "returns-replacements", "terms-and-conditions",
-              "privacy-policy"):
+              "privacy-policy", "build-a-bed"):
         shutil.rmtree(ROOT / d, ignore_errors=True)
     print("Building catalogue…")
     build_home()
@@ -1211,6 +1344,7 @@ if __name__ == "__main__":
     build_categories()
     build_products()
     build_pages()
+    build_bedbuilder()
     build_redirects()
     build_sitemap()
     apply_base(os.environ.get("BASE_PATH", ""))
