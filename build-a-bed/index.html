@@ -86,6 +86,15 @@
 .bb-price-total{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);margin-top:8px;padding-top:8px;font-family:Montserrat;font-weight:800;text-transform:uppercase;letter-spacing:.02em;font-size:14px}
 .bb-price-total b{font-size:22px;color:var(--orange)}
 .bb-price-note{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.45}
+.bb-you{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+@media(max-width:420px){.bb-you{grid-template-columns:1fr}}
+.bb-in{width:100%;border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13.5px;font-family:inherit;background:#fff;box-sizing:border-box}
+.bb-in:focus{outline:0;border-color:var(--orange)}
+.bb-cta .ctabig{padding:12px;font-size:13px;letter-spacing:.05em;border-radius:11px;gap:8px}
+.bb-cta .ctacall{padding:10px;font-size:12px;letter-spacing:.05em;border-radius:11px;background:#fff;color:var(--orange);border:1.5px solid var(--orange)}
+.bb-cta .ctacall:hover{background:#fff7ef}
+.bb-cta .ctarsv{border:0;background:none;padding:8px 4px;margin-top:4px;text-transform:none;letter-spacing:0;font-size:12.5px;font-weight:600;color:var(--muted);text-align:center}
+.bb-cta .ctarsv:hover{color:var(--orange)}
 .bb-cta .ctabig,.bb-cta .ctacall,.bb-cta .ctarsv{margin-top:8px}
 .bb-stage{cursor:zoom-in}
 .bb-zoomhint{position:absolute;right:12px;bottom:12px;background:rgba(26,18,16,.72);color:#fff;font-size:11px;font-weight:700;padding:5px 11px;border-radius:20px;z-index:2;pointer-events:none}
@@ -152,9 +161,13 @@
         <div class="bb-price-total"><span>Estimated total</span><b id="bbPrTotal">€—</b></div>
         <div class="bb-price-note">Guide price — includes your fabric choice. Delivery quoted separately; confirm final price with us when you enquire.</div>
       </div>
-      <a class="ctabig" id="bbWa" href="https://wa.me/353852414790"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire about this bed</a>
-      <a class="ctacall" href="tel:0429332043">📞 Call 042 933 2043</a>
-      <a class="ctarsv" id="bbForm" href="/EME/enquiry/">Send an enquiry form instead</a>
+      <div class="bb-you">
+        <input id="bbYname" class="bb-in" type="text" autocomplete="name" placeholder="Your name">
+        <input id="bbContact" class="bb-in" type="text" autocomplete="tel" placeholder="Phone or email">
+      </div>
+      <a class="ctabig" id="bbWa" href="https://wa.me/353852414790"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire on WhatsApp</a>
+      <a class="ctacall" href="tel:0429332043">Call the shop</a>
+      <a class="ctarsv" id="bbForm" href="/EME/enquiry/">Prefer a form? Send an enquiry →</a>
     </div>
   </div>
 </div>
@@ -175,6 +188,7 @@
       sw=document.getElementById('bbSwatch'), nm=document.getElementById('bbName'),
       sub=document.getElementById('bbSub'), sum=document.getElementById('bbSum'),
       wa=document.getElementById('bbWa'), form=document.getElementById('bbForm'),
+      nameEl=document.getElementById('bbYname'), contactEl=document.getElementById('bbContact'),
       dstep=document.getElementById('bbDrawerStep'), mstep=document.getElementById('bbMount');
   function renumber(){
     var n=1;
@@ -244,7 +258,7 @@
       var cv=document.querySelector('.bb-hbcanvas[data-slug="'+s+'"]'); if(cv) recolorInto(cv,b,c,ft);
     });
   }
-  function refresh(){
+  function refresh(skipPaint){
     var storage=kind==='storage', d=(kind==='standard'?(L+R):0);
     dstep.hidden=storage; feat.style.display=storage?'':'none'; mstep.hidden=(hb==='');
     renumber();
@@ -271,13 +285,19 @@
       document.getElementById('bbPrDw').textContent=eur(cost); }
     document.getElementById('bbPrTotal').textContent=eur(total)+(hbNA?' +':'');
     var priceTxt=eur(total)+(hbNA?' + headboard (price on request)':'');
+    var who=(nameEl.value||'').trim(), contact=(contactEl.value||'').trim();
+    var spec=baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):'')+(hb?(' — '+hb+' headboard ('+mount+')'):'');
     var msg='Hi, I\'m interested in this bed:\n'+baseLabel+'\nSize: '+size+'\nFabric: '+fabric;
     if(!storage) msg+='\nDrawers: '+d+(d>0?(' (+€'+cost+')'):'');
     msg+='\nHeadboard: '+(hb?(hb+' ('+mount+')'+(hbNA?' — price on request':'')):'None');
     msg+='\nEstimated total: '+priceTxt;
+    if(who) msg+='\nName: '+who;
+    if(contact) msg+='\nContact: '+contact;
     wa.href='https://wa.me/353852414790?text='+encodeURIComponent(msg);
-    form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):'')+(hb?(' — '+hb+' headboard ('+mount+')'):'')+' — '+priceTxt);
-    paintBase();
+    form.href='/enquiry/?product='+encodeURIComponent(spec)
+      +(who?('&name='+encodeURIComponent(who)):'')+(contact?('&contact='+encodeURIComponent(contact)):'')
+      +'&msg='+encodeURIComponent('Build a Bed — '+spec+'. Estimated total: '+priceTxt+'.');
+    if(!skipPaint) paintBase();
   }
   // ---- controls ----
   document.querySelectorAll('.bb-size').forEach(function(b){b.addEventListener('click',function(){
@@ -303,6 +323,7 @@
   document.querySelectorAll('.bb-mount').forEach(function(b){b.addEventListener('click',function(){
     document.querySelectorAll('.bb-mount').forEach(function(x){x.classList.remove('on')}); b.classList.add('on');
     mount=b.dataset.mount; refresh();});});
+  [nameEl,contactEl].forEach(function(el){ el.addEventListener('input',function(){ refresh(true); }); });
   // ---- zoom / lightbox ----
   var zoom=document.getElementById('bbZoom'), zoomImg=document.getElementById('bbZoomImg'), zoomCap=document.getElementById('bbZoomCap');
   function openZoom(src,cap){ zoomImg.src=src; zoomCap.textContent=cap||''; zoom.hidden=false; }

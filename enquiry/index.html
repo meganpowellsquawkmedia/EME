@@ -62,8 +62,10 @@
 </div>
 <script>
 (function(){
-  var m = location.search.match(/[?&]product=([^&]*)/);
-  if (m) { try { document.getElementById('f-product').value = decodeURIComponent(m[1].replace(/\+/g,' ')); } catch(e){} }
+  var q=new URLSearchParams(location.search);
+  function set(id,val){ if(val){ var el=document.getElementById(id); if(el) el.value=val; } }
+  set('f-product', q.get('product')); set('f-name', q.get('name'));
+  set('f-contact', q.get('contact')); set('f-msg', q.get('msg'));
 })();
 function v(id){ var el=document.getElementById(id); return el ? (el.value||'').trim() : ''; }
 function enqBody(){
