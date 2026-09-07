@@ -1394,9 +1394,20 @@ def build_bedbuilder():
     }}
     cx.putImageData(out,0,0);
   }}
-  var bank={{}}, hbBank={{}};
+  var bank={{}}, hbBank={{}}, bigBank={{}};
   function baseKey(){{ return (kind==='standard' && (L+R)>0) ? 'drawer' : 'divan'; }}
-  function paintBase(){{ recolorInto(canvas, bank[baseKey()], SW[fslug]||[150,150,150], ftex()); }}
+  function bigHbBank(slug){{
+    if(bigBank[slug]) return bigBank[slug];
+    var img=document.getElementById('hbsrc-'+slug), msk=document.getElementById('hbmsk-'+slug);
+    if(!img||!img.naturalWidth) return null;
+    bigBank[slug]=buildBank(img,msk,1000,1000); return bigBank[slug];  // headboard fit on white 1000²
+  }}
+  function paintPreview(){{
+    // once a headboard is chosen, show a big picture of it (recoloured); else the base
+    if(hbslug){{ var b=bigHbBank(hbslug); if(b){{ recolorInto(canvas, b, SW[fslug]||[150,150,150], ftex()); return; }} }}
+    recolorInto(canvas, bank[baseKey()], SW[fslug]||[150,150,150], ftex());
+  }}
+  function paintBase(){{ paintPreview(); }}
   function paintHeadboards(){{
     var c=SW[fslug]||[150,150,150], ft=ftex();
     HBS.forEach(function(s){{
@@ -1406,10 +1417,10 @@ def build_bedbuilder():
   }}
   function refresh(skipPaint){{
     var storage=kind==='storage', d=(kind==='standard'?(L+R):0);
-    dstep.hidden=storage; feat.style.display=storage?'':'none'; mstep.hidden=(hb==='');
+    dstep.hidden=storage; feat.style.display=(storage&&!hbslug)?'':'none'; mstep.hidden=(hb==='');
     renumber();
     var baseLabel=storage?'Ottoman Storage Bed':'Standard Bed';
-    tag.textContent=storage?'Ottoman storage base':(d>0?'Standard base + drawers':'Standard divan base');
+    tag.textContent=hbslug?(hb+' headboard'):(storage?'Ottoman storage base':(d>0?'Standard base + drawers':'Standard divan base'));
     nm.textContent=fabric; sub.textContent=baseLabel+' · '+size;
     var cost=d*DP;
     var extra=(!storage&&d>0)?(' · '+d+' drawer'+(d>1?'s':'')+' (+€'+cost+')'):(storage?' · lift-up storage':'');
@@ -1479,7 +1490,7 @@ def build_bedbuilder():
   document.addEventListener('keydown',function(e){{ if(e.key==='Escape') closeZoom(); }});
   document.querySelector('.bb-stage').addEventListener('click',function(e){{
     if(e.target===feat){{ openZoom(feat.src,'Ottoman lift-up storage'); return; }}
-    openZoom(canvas.toDataURL('image/jpeg',0.92), fabric+' · '+(kind==='storage'?'Ottoman':'Standard')+' base'); }});
+    openZoom(canvas.toDataURL('image/jpeg',0.92), hbslug?(hb+' — '+fabric):(fabric+' · '+(kind==='storage'?'Ottoman':'Standard')+' base')); }});
   sw.addEventListener('click',function(){{
     var v=getComputedStyle(sw).getPropertyValue('--img').trim();
     var s2=v.slice(v.indexOf('(')+1, v.lastIndexOf(')')).replace(/['"]/g,'').trim();
