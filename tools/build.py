@@ -1157,6 +1157,19 @@ def build_bedbuilder():
             f'<span class="bb-lbl">{esc(c)}</span></button>'
             for c in cols)
         groups += f'<div class="bb-group"><div class="bb-gh">{esc(rng)}</div><div class="bb-grid">{sw}</div></div>'
+    # Headboards — only the styles Eddie Maguire stocks in-store (Aurora brochure)
+    HEADBOARDS = [("Panel", "panel"), ("Florence", "florence"), ("Button Top", "button-top"),
+                  ("Diamond", "diamond"), ("Malaga", "malaga"), ("Roma", "roma"),
+                  ("Verona", "verona"), ("Milan", "milan"), ("Studded", "studded"),
+                  ("Double Studded", "double-studded"), ("Winged", "winged"),
+                  ("Framed", "framed"), ("Sorrento", "sorrento")]
+    hb_tiles = ('<button type="button" class="bb-hb bb-hb-none on" data-hb="">'
+                '<span class="bb-hbimg bb-hbnone">No headboard</span><span class="bb-hblbl">Just the base</span></button>')
+    hb_tiles += "".join(
+        f'<button type="button" class="bb-hb" data-hb="{esc(name)}">'
+        f'<span class="bb-hbimg" style="background-image:url(\'/assets/img/headboard-{slug}.jpg\')"></span>'
+        f'<span class="bb-hblbl">{esc(name)}</span></button>'
+        for name, slug in HEADBOARDS)
     wa = SHOP["wa"]
     body = f"""{header()}
 <style>
@@ -1193,6 +1206,12 @@ def build_bedbuilder():
 .bb-chip{{display:block;height:60px;border-radius:9px;border:2px solid transparent;background:var(--img) center/cover,#ddd;box-shadow:0 0 0 1px rgba(0,0,0,.10) inset}}
 .bb-sw.on .bb-chip{{border-color:var(--orange);box-shadow:0 0 0 1px var(--orange),0 6px 14px rgba(0,0,0,.16)}}
 .bb-lbl{{display:block;font-size:11px;color:#444;margin-top:5px;line-height:1.2}}
+.bb-hbs{{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}}
+.bb-hb{{border:0;background:none;padding:0;cursor:pointer;text-align:center}}
+.bb-hbimg{{display:flex;align-items:center;justify-content:center;height:70px;border-radius:9px;border:2px solid transparent;background:#f4f1ec center/contain no-repeat;box-shadow:0 0 0 1px rgba(0,0,0,.10) inset;font-size:11px;color:var(--muted)}}
+.bb-hb.on .bb-hbimg{{border-color:var(--orange);box-shadow:0 0 0 1px var(--orange),0 6px 14px rgba(0,0,0,.16)}}
+.bb-hbnone{{font-weight:700;letter-spacing:.02em;color:#777}}
+.bb-hblbl{{display:block;font-size:11.5px;color:#444;margin-top:5px;line-height:1.2}}
 .bb-cta{{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:6px}}
 .bb-summary{{font-weight:700;margin-bottom:12px;font-size:14px}}
 .bb-summary b{{color:var(--orange)}}
@@ -1220,15 +1239,16 @@ def build_bedbuilder():
     <img id="mskDrawer" src="/assets/img/mask-drawer.png" hidden alt="">
   </div>
   <div class="bb-controls">
-    <div class="bb-step"><h3>1 · Choose your base</h3><div class="bb-bases">{base_btns}</div></div>
+    <div class="bb-step"><h3><span class="bb-num"></span> · Choose your base</h3><div class="bb-bases">{base_btns}</div></div>
     <div class="bb-step" id="bbDrawerStep" hidden>
-      <h3>2 · Add drawers</h3>
+      <h3><span class="bb-num"></span> · Add drawers</h3>
       <div class="hint">Up to 2 drawers each side · €{DRAWER_PRICE} per drawer.</div>
       <div class="bb-dwr-side"><span class="lab">Left side</span><div class="bb-dwr-row">{side_btns("L")}</div></div>
       <div class="bb-dwr-side"><span class="lab">Right side</span><div class="bb-dwr-row">{side_btns("R")}</div></div>
     </div>
-    <div class="bb-step"><h3><span class="bb-num">2</span> · Choose your size</h3><div class="bb-sizes" id="bbSizes">{size_btns}</div></div>
-    <div class="bb-step"><h3><span class="bb-num">3</span> · Choose your fabric</h3>{groups}</div>
+    <div class="bb-step"><h3><span class="bb-num"></span> · Choose your size</h3><div class="bb-sizes" id="bbSizes">{size_btns}</div></div>
+    <div class="bb-step"><h3><span class="bb-num"></span> · Choose your fabric</h3>{groups}</div>
+    <div class="bb-step"><h3><span class="bb-num"></span> · Choose your headboard <span style="text-transform:none;font-weight:500;color:var(--muted);font-size:12px">(optional)</span></h3><div class="hint">In-store styles — shown for shape; upholstered in your chosen fabric.</div><div class="bb-hbs">{hb_tiles}</div></div>
     <div class="bb-cta">
       <div class="bb-summary">Your bed: <b id="bbSum">Ottoman Storage Bed · King 5′ · Plush Velvet — Charcoal</b></div>
       <a class="ctabig" id="bbWa" href="https://wa.me/{wa}">{WA_SVG} Enquire about this bed</a>
@@ -1242,13 +1262,19 @@ def build_bedbuilder():
 (function(){{
   var SW={sw_json};
   var DP={DRAWER_PRICE};
-  var kind="storage", size="King 5′", fabric="Plush Velvet — Charcoal", fslug="{DEFAULT_SLUG}", L=0, R=0;
+  var kind="storage", size="King 5′", fabric="Plush Velvet — Charcoal", fslug="{DEFAULT_SLUG}", hb="", L=0, R=0;
   var canvas=document.getElementById('bbCanvas'), ctx=canvas.getContext('2d',{{willReadFrequently:true}});
   var feat=document.getElementById('bbFeat'), tag=document.getElementById('bbTag'),
       sw=document.getElementById('bbSwatch'), nm=document.getElementById('bbName'),
       sub=document.getElementById('bbSub'), sum=document.getElementById('bbSum'),
       wa=document.getElementById('bbWa'), form=document.getElementById('bbForm'),
-      dstep=document.getElementById('bbDrawerStep'), nums=document.querySelectorAll('.bb-num');
+      dstep=document.getElementById('bbDrawerStep');
+  function renumber(){{
+    var n=1;
+    document.querySelectorAll('.bb-step').forEach(function(s){{
+      if(s.hidden) return; var el=s.querySelector('.bb-num'); if(el) el.textContent=n++;
+    }});
+  }}
   var bank={{}};   // baseKey -> {{orig, alpha, meanL, w, h}}
   function buildBank(key, imgEl, mskEl){{
     var w=imgEl.naturalWidth, h=imgEl.naturalHeight;
@@ -1287,17 +1313,19 @@ def build_bedbuilder():
     var storage=kind==='storage', d=(kind==='standard'?(L+R):0);
     dstep.hidden=storage;
     feat.style.display = storage ? '' : 'none';
-    nums.forEach(function(n,idx){{ n.textContent = storage ? (idx+2) : (idx+3); }});
+    renumber();
     var baseLabel = storage ? 'Ottoman Storage Bed' : 'Standard Bed';
     tag.textContent = storage ? 'Ottoman storage base' : (d>0 ? 'Standard base + drawers' : 'Standard divan base');
     nm.textContent=fabric; sub.textContent=baseLabel+' · '+size;
     var cost=d*DP;
     var extra=(!storage&&d>0)?(' · '+d+' drawer'+(d>1?'s':'')+' (+€'+cost+')'):(storage?' · lift-up storage':'');
-    sum.textContent=baseLabel+' · '+size+' · '+fabric+extra;
+    var hbTxt = hb ? (' · '+hb+' headboard') : '';
+    sum.textContent=baseLabel+' · '+size+' · '+fabric+extra+hbTxt;
     var msg='Hi, I\\'d like a price on this bed:\\n'+baseLabel+'\\nSize: '+size+'\\nFabric: '+fabric;
     if(!storage) msg+='\\nDrawers: '+d+(d>0?(' (+€'+cost+')'):'');
+    msg+='\\nHeadboard: '+(hb||'None');
     wa.href='https://wa.me/{wa}?text='+encodeURIComponent(msg);
-    form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):''));
+    form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):'')+(hb?(' — '+hb+' headboard'):''));
     paint();
   }}
   // wire controls
@@ -1318,6 +1346,9 @@ def build_bedbuilder():
     fabric=b.dataset.name; fslug=b.dataset.slug;
     sw.style.setProperty('--img', getComputedStyle(b).getPropertyValue('--img'));
     refresh();}});}});
+  document.querySelectorAll('.bb-hb').forEach(function(b){{b.addEventListener('click',function(){{
+    document.querySelectorAll('.bb-hb').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
+    hb=b.dataset.hb; refresh();}});}});
   // load sources then first paint
   var need=[['divan','srcDivan','mskDivan'],['drawer','srcDrawer','mskDrawer']], ready=0;
   function whenReady(){{ if(++ready>=need.length){{ refresh(); }} }}
