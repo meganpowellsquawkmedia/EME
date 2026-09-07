@@ -1322,6 +1322,7 @@ def build_bedbuilder():
 <script>
 (function(){{
   var SW={sw_json}, HBS={hb_json}, DP={DRAWER_PRICE};
+  var HB_FLOOR=['winged','sorrento','framed'];  // floor-standing only — no 27" strutted option
   // Aurora price card (David's in-store prices). Buckets: 3=Single, 46=4'/4'6", 5=King, 6=Super King.
   var PRICE={{
     base:{{ standard:{{'3':149,'46':199,'5':249,'6':279}}, storage:{{'3':419,'46':649,'5':699,'6':799}} }},
@@ -1418,6 +1419,11 @@ def build_bedbuilder():
   function refresh(skipPaint){{
     var storage=kind==='storage', d=(kind==='standard'?(L+R):0);
     dstep.hidden=storage; feat.style.display=(storage&&!hbslug)?'':'none'; mstep.hidden=(hb==='');
+    var floorOnly=HB_FLOOR.indexOf(hbslug)>=0;   // Winged/Sorrento/Framed: floor-standing only
+    var strutBtn=document.querySelector('.bb-mount[data-mount="Strutted"]');
+    if(strutBtn) strutBtn.style.display=floorOnly?'none':'';
+    if(floorOnly && mount!=='Floor-standing 54″'){{ mount='Floor-standing 54″';
+      document.querySelectorAll('.bb-mount').forEach(function(x){{x.classList.toggle('on',x.dataset.mount===mount);}}); }}
     renumber();
     var baseLabel=storage?'Ottoman Storage Bed':'Standard Bed';
     tag.textContent=hbslug?(hb+' headboard'):(storage?'Ottoman storage base':(d>0?'Standard base + drawers':'Standard divan base'));
