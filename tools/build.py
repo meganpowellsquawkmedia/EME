@@ -1167,6 +1167,7 @@ def build_bedbuilder():
                 '<span class="bb-hbimg bb-hbnone">No headboard</span><span class="bb-hblbl">Just the base</span></button>')
     hb_tiles += "".join(
         f'<button type="button" class="bb-hb" data-hb="{esc(name)}" data-slug="{slug}">'
+        f'<span class="bb-zbtn" data-zoom="1" title="Zoom">⤢</span>'
         f'<canvas class="bb-hbcanvas" data-slug="{slug}" width="300" height="200"></canvas>'
         f'<span class="bb-hblbl">{esc(name)}</span></button>'
         for name, slug in HEADBOARDS)
@@ -1223,6 +1224,16 @@ def build_bedbuilder():
 .bb-summary{{font-weight:700;margin-bottom:12px;font-size:14px}}
 .bb-summary b{{color:var(--orange)}}
 .bb-cta .ctabig,.bb-cta .ctacall,.bb-cta .ctarsv{{margin-top:8px}}
+.bb-stage{{cursor:zoom-in}}
+.bb-zoomhint{{position:absolute;right:12px;bottom:12px;background:rgba(26,18,16,.72);color:#fff;font-size:11px;font-weight:700;padding:5px 11px;border-radius:20px;z-index:2;pointer-events:none}}
+.bb-swatch{{cursor:zoom-in}}
+.bb-hb{{position:relative}}
+.bb-zbtn{{position:absolute;top:4px;right:4px;width:24px;height:24px;border:0;border-radius:50%;background:rgba(26,18,16,.55);color:#fff;font-size:13px;line-height:24px;text-align:center;cursor:zoom-in;z-index:3;padding:0}}
+.bb-zbtn:hover{{background:rgba(26,18,16,.85)}}
+#bbZoom{{position:fixed;inset:0;background:rgba(18,14,12,.9);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:99999;padding:24px;cursor:zoom-out}}
+#bbZoom img{{max-width:94vw;max-height:84vh;border-radius:12px;box-shadow:0 24px 70px rgba(0,0,0,.55);background:#fff;object-fit:contain}}
+#bbZoomCap{{color:#fff;font-weight:700;font-size:15px;margin-top:16px;letter-spacing:.02em;text-align:center}}
+#bbZoomX{{position:fixed;top:16px;right:24px;color:#fff;font-size:34px;line-height:1;cursor:pointer;font-weight:300}}
 </style>
 <div class="wrap">
 <div class="crumb"><a href="/">Home</a> / <b>Build Your Bed</b></div>
@@ -1233,6 +1244,7 @@ def build_bedbuilder():
       <canvas id="bbCanvas" width="1000" height="1000"></canvas>
       <img id="bbFeat" class="bb-feat" src="/assets/img/base-ottoman.jpg" alt="Ottoman lift-up storage">
       <div class="bb-tag" id="bbTag">Ottoman storage base</div>
+      <div class="bb-zoomhint">⤢ Tap to zoom</div>
     </div>
     <div class="bb-chosen">
       <div class="bb-swatch" id="bbSwatch" style="--img:url('/assets/img/swatch-{DEFAULT_SLUG}.jpg')"></div>
@@ -1276,6 +1288,7 @@ def build_bedbuilder():
   </div>
 </div>
 </div>
+<div id="bbZoom" hidden><span id="bbZoomX">×</span><img id="bbZoomImg" alt="Zoomed preview"><div id="bbZoomCap"></div></div>
 <script>
 (function(){{
   var SW={sw_json}, HBS={hb_json}, DP={DRAWER_PRICE};
@@ -1311,14 +1324,32 @@ def build_bedbuilder():
     }}
     return {{orig:orig, alpha:alpha, lum:lum, meanL:(cnt?sumL/cnt:160), w:TW, h:TH}};
   }}
-  function recolorInto(cv, b, c){{
+  // fabric family -> how much of the photo's velvet sheen to keep (k) + a subtle
+  // micro-texture so matte fabrics don't read as velvet. Swatch tiles stay the real photo.
+  var FTEX={{velvet:{{k:1.0,lo:0.40,hi:1.62,tex:0,mode:''}}, soft:{{k:0.80,lo:0.50,hi:1.42,tex:0.03,mode:'cord'}},
+    weave:{{k:0.60,lo:0.55,hi:1.30,tex:0.05,mode:'grid'}}, linen:{{k:0.56,lo:0.55,hi:1.28,tex:0.05,mode:'grid'}},
+    wool:{{k:0.50,lo:0.60,hi:1.22,tex:0.07,mode:'noise'}}}};
+  function fam(s){{
+    if(s.indexOf('wool-')===0) return 'wool';
+    if(s.indexOf('linoso-')===0) return 'linen';
+    if(s.indexOf('matiz-')===0||s.indexOf('alessia-')===0) return 'weave';
+    if(s.indexOf('naples-')===0) return 'soft';
+    return 'velvet';
+  }}
+  function ftex(){{ return FTEX[fam(fslug)]; }}
+  function recolorInto(cv, b, c, ft){{
     if(!b) return; if(cv.width!==b.w){{cv.width=b.w;cv.height=b.h;}}
     var cx=cv.getContext('2d'); var src=b.orig.data, out=cx.createImageData(b.w,b.h), o=out.data,
-        al=b.alpha, lum=b.lum, mL=b.meanL;
+        al=b.alpha, lum=b.lum, mL=b.meanL, W=b.w, k=ft.k, tex=ft.tex, mode=ft.mode;
     for(var i=0,p=0;i<o.length;i+=4,p++){{
       var a=al[p];
       if(a<=0.003){{o[i]=src[i];o[i+1]=src[i+1];o[i+2]=src[i+2];o[i+3]=src[i+3];continue;}}
-      var r=lum[p]/mL; if(r<0.35)r=0.35; if(r>1.7)r=1.7;
+      var r=1+(lum[p]/mL-1)*k; if(r<ft.lo)r=ft.lo; if(r>ft.hi)r=ft.hi;
+      if(tex){{ var x=p%W, y=(p/W)|0, t;
+        if(mode==='noise'){{ var hsh=((x*73856093)^(y*19349663))>>>0; t=1+(((hsh&255)/255)-0.5)*tex*2; }}
+        else if(mode==='cord'){{ t=1+((x%3<1)?tex:-tex*0.5); }}
+        else {{ t=1+(((x%4<2)?1:-1)+((y%4<2)?1:-1))*tex*0.5; }}
+        r*=t; }}
       var nr=c[0]*r, ng=c[1]*r, nb=c[2]*r;
       o[i]  =src[i]  *(1-a)+(nr>255?255:nr)*a;
       o[i+1]=src[i+1]*(1-a)+(ng>255?255:ng)*a;
@@ -1329,12 +1360,12 @@ def build_bedbuilder():
   }}
   var bank={{}}, hbBank={{}};
   function baseKey(){{ return (kind==='standard' && (L+R)>0) ? 'drawer' : 'divan'; }}
-  function paintBase(){{ recolorInto(canvas, bank[baseKey()], SW[fslug]||[150,150,150]); }}
+  function paintBase(){{ recolorInto(canvas, bank[baseKey()], SW[fslug]||[150,150,150], ftex()); }}
   function paintHeadboards(){{
-    var c=SW[fslug]||[150,150,150];
+    var c=SW[fslug]||[150,150,150], ft=ftex();
     HBS.forEach(function(s){{
       var b=hbBank[s]; if(!b) return;
-      var cv=document.querySelector('.bb-hbcanvas[data-slug="'+s+'"]'); if(cv) recolorInto(cv,b,c);
+      var cv=document.querySelector('.bb-hbcanvas[data-slug="'+s+'"]'); if(cv) recolorInto(cv,b,c,ft);
     }});
   }}
   function refresh(){{
@@ -1379,6 +1410,30 @@ def build_bedbuilder():
   document.querySelectorAll('.bb-mount').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-mount').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
     mount=b.dataset.mount; refresh();}});}});
+  // ---- zoom / lightbox ----
+  var zoom=document.getElementById('bbZoom'), zoomImg=document.getElementById('bbZoomImg'), zoomCap=document.getElementById('bbZoomCap');
+  function openZoom(src,cap){{ zoomImg.src=src; zoomCap.textContent=cap||''; zoom.hidden=false; }}
+  function closeZoom(){{ zoom.hidden=true; zoomImg.removeAttribute('src'); }}
+  zoom.addEventListener('click',closeZoom);
+  document.getElementById('bbZoomX').addEventListener('click',closeZoom);
+  document.addEventListener('keydown',function(e){{ if(e.key==='Escape') closeZoom(); }});
+  document.querySelector('.bb-stage').addEventListener('click',function(e){{
+    if(e.target===feat){{ openZoom(feat.src,'Ottoman lift-up storage'); return; }}
+    openZoom(canvas.toDataURL('image/jpeg',0.92), fabric+' · '+(kind==='storage'?'Ottoman':'Standard')+' base'); }});
+  sw.addEventListener('click',function(){{
+    var v=getComputedStyle(sw).getPropertyValue('--img').trim();
+    var s2=v.slice(v.indexOf('(')+1, v.lastIndexOf(')')).replace(/['"]/g,'').trim();
+    if(s2) openZoom(s2, fabric); }});
+  function zoomHeadboardSrc(slug){{
+    var img=document.getElementById('hbsrc-'+slug), msk=document.getElementById('hbmsk-'+slug);
+    var W2=Math.min(900,img.naturalWidth), H2=Math.round(img.naturalHeight*W2/img.naturalWidth);
+    var b=buildBank(img,msk,W2,H2);
+    var oc=document.createElement('canvas'); recolorInto(oc,b,SW[fslug]||[150,150,150],ftex());
+    return oc.toDataURL('image/jpeg',0.92);
+  }}
+  document.querySelectorAll('.bb-hb .bb-zbtn').forEach(function(btn){{ btn.addEventListener('click',function(e){{
+    e.stopPropagation(); var tile=btn.closest('.bb-hb'); var slug=tile.dataset.slug;
+    openZoom(zoomHeadboardSrc(slug), tile.dataset.hb+' — '+fabric); }}); }});
   // ---- load images then first paint ----
   function onImg(img, cb){{ if(img.complete && img.naturalWidth) cb(); else img.onload=cb; }}
   var pending=0, started=false;
@@ -1393,7 +1448,7 @@ def build_bedbuilder():
   HBS.forEach(function(s){{
     pending++; var img=document.getElementById('hbsrc-'+s), msk=document.getElementById('hbmsk-'+s), n=0;
     function tb(){{ if(++n>=2){{ hbBank[s]=buildBank(img,msk,300,200);
-      var cv=document.querySelector('.bb-hbcanvas[data-slug="'+s+'"]'); if(cv) recolorInto(cv,hbBank[s],SW[fslug]);
+      var cv=document.querySelector('.bb-hbcanvas[data-slug="'+s+'"]'); if(cv) recolorInto(cv,hbBank[s],SW[fslug],ftex());
       pending--; done(); }} }}
     onImg(img,tb); onImg(msk,tb);
   }});
