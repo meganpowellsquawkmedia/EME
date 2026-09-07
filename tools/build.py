@@ -1148,8 +1148,9 @@ def build_bedbuilder():
                  '<b>Storage</b><span>Ottoman lift-up base</span></button>'
                  '<button type="button" class="bb-base" data-kind="standard">'
                  '<b>Standard</b><span>Divan, optional drawers</span></button>')
+    SIZE_BUCKET = ["3", "46", "46", "5", "6"]  # price bucket per size (Aurora price card)
     size_btns = "".join(
-        f'<button type="button" class="bb-size{" on" if i==3 else ""}" data-size="{esc(nm)}">{esc(nm)}</button>'
+        f'<button type="button" class="bb-size{" on" if i==3 else ""}" data-size="{esc(nm)}" data-bucket="{SIZE_BUCKET[i]}">{esc(nm)}</button>'
         for i, (nm, dim) in enumerate(SIZES))
     def side_btns(side):
         return "".join(f'<button type="button" class="bb-dwr{" on" if k==0 else ""}" data-side="{side}" data-n="{k}">{k}</button>' for k in (0, 1, 2))
@@ -1223,6 +1224,12 @@ def build_bedbuilder():
 .bb-cta{{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:6px}}
 .bb-summary{{font-weight:700;margin-bottom:12px;font-size:14px}}
 .bb-summary b{{color:var(--orange)}}
+.bb-price{{border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:14px;background:var(--soft)}}
+.bb-price-row{{display:flex;justify-content:space-between;font-size:13.5px;color:#444;padding:3px 0}}
+.bb-price-row b{{font-weight:700;color:var(--ink)}}
+.bb-price-total{{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);margin-top:8px;padding-top:8px;font-family:Montserrat;font-weight:800;text-transform:uppercase;letter-spacing:.02em;font-size:14px}}
+.bb-price-total b{{font-size:22px;color:var(--orange)}}
+.bb-price-note{{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.45}}
 .bb-cta .ctabig,.bb-cta .ctacall,.bb-cta .ctarsv{{margin-top:8px}}
 .bb-stage{{cursor:zoom-in}}
 .bb-zoomhint{{position:absolute;right:12px;bottom:12px;background:rgba(26,18,16,.72);color:#fff;font-size:11px;font-weight:700;padding:5px 11px;border-radius:20px;z-index:2;pointer-events:none}}
@@ -1238,7 +1245,7 @@ def build_bedbuilder():
 </style>
 <div class="wrap">
 <div class="crumb"><a href="/">Home</a> / <b>Build Your Bed</b></div>
-<div class="page-head"><h1>Build Your Bed</h1><div class="count">Design your bed — pick the size, base, fabric and headboard, and watch it change colour. Handcrafted to order by Aurora in Ireland; send us your combination and we'll come back with a price.</div></div>
+<div class="page-head"><h1>Build Your Bed</h1><div class="count">Design your bed — pick the size, base, fabric and headboard, and watch it change colour with a live price. Handcrafted to order by Aurora in Ireland — send us your combination to order.</div></div>
 <div class="bb">
   <div class="bb-preview">
     <div class="bb-stage">
@@ -1282,6 +1289,13 @@ def build_bedbuilder():
     </div>
     <div class="bb-cta">
       <div class="bb-summary">Your bed: <b id="bbSum">Ottoman Storage Bed · King 5′ · Plush Velvet — Charcoal</b></div>
+      <div class="bb-price">
+        <div class="bb-price-row"><span id="bbPrBaseLbl">Base</span><b id="bbPrBase">€—</b></div>
+        <div class="bb-price-row" id="bbPrHbRow" hidden><span id="bbPrHbLbl">Headboard</span><b id="bbPrHb">€—</b></div>
+        <div class="bb-price-row" id="bbPrDwRow" hidden><span id="bbPrDwLbl">Drawers</span><b id="bbPrDw">€—</b></div>
+        <div class="bb-price-total"><span>Estimated total</span><b id="bbPrTotal">€—</b></div>
+        <div class="bb-price-note">Guide price — includes your fabric choice. Delivery quoted separately; confirm final price with us when you enquire.</div>
+      </div>
       <a class="ctabig" id="bbWa" href="https://wa.me/{wa}">{WA_SVG} Enquire about this bed</a>
       <a class="ctacall" href="tel:{SHOP['phone_tel']}">📞 Call {SHOP['phone_display']}</a>
       <a class="ctarsv" id="bbForm" href="/enquiry/">Send an enquiry form instead</a>
@@ -1293,7 +1307,12 @@ def build_bedbuilder():
 <script>
 (function(){{
   var SW={sw_json}, HBS={hb_json}, DP={DRAWER_PRICE};
-  var kind="storage", size="King 5′", fabric="Plush Velvet — Charcoal", fslug="{DEFAULT_SLUG}",
+  // Aurora price card (David's in-store prices). Buckets: 3=Single, 46=4'/4'6", 5=King, 6=Super King.
+  var PRICE={{
+    base:{{ standard:{{'3':149,'46':199,'5':249,'6':279}}, storage:{{'3':419,'46':649,'5':699,'6':799}} }},
+    hb:{{ 'Strutted':{{'3':99,'46':129,'5':149,'6':199}}, 'Floor-standing 54″':{{'3':null,'46':219,'5':259,'6':379}} }}
+  }};
+  var kind="storage", size="King 5′", bucket="5", fabric="Plush Velvet — Charcoal", fslug="{DEFAULT_SLUG}",
       hb="", hbslug="", mount="Strutted", L=0, R=0;
   var canvas=document.getElementById('bbCanvas'), ctx=canvas.getContext('2d',{{willReadFrequently:true}});
   var feat=document.getElementById('bbFeat'), tag=document.getElementById('bbTag'),
@@ -1380,17 +1399,34 @@ def build_bedbuilder():
     var extra=(!storage&&d>0)?(' · '+d+' drawer'+(d>1?'s':'')+' (+€'+cost+')'):(storage?' · lift-up storage':'');
     var hbTxt=hb?(' · '+hb+' headboard'+(mount!=='Strutted'?' ('+mount+')':'')):'';
     sum.textContent=baseLabel+' · '+size+' · '+fabric+extra+hbTxt;
-    var msg='Hi, I\\'d like a price on this bed:\\n'+baseLabel+'\\nSize: '+size+'\\nFabric: '+fabric;
+    // ---- live price (Aurora price card) ----
+    var basePrice=PRICE.base[storage?'storage':'standard'][bucket];
+    var hbPrice=hb?PRICE.hb[mount][bucket]:0;   // null = floor-standing not made in Single
+    var hbNA=hb&&(hbPrice===null||hbPrice===undefined);
+    var total=basePrice+(hbNA?0:(hbPrice||0))+cost;
+    function eur(n){{ return '€'+n.toLocaleString('en-IE'); }}
+    document.getElementById('bbPrBaseLbl').textContent=(storage?'Storage base':'Standard base')+' · '+size;
+    document.getElementById('bbPrBase').textContent=eur(basePrice);
+    var hbRow=document.getElementById('bbPrHbRow'); hbRow.hidden=!hb;
+    if(hb){{ document.getElementById('bbPrHbLbl').textContent=hb+(mount!=='Strutted'?' (floor-standing)':'')+' headboard';
+      document.getElementById('bbPrHb').textContent=hbNA?'Ask us':eur(hbPrice); }}
+    var dwRow=document.getElementById('bbPrDwRow'); dwRow.hidden=!(d>0);
+    if(d>0){{ document.getElementById('bbPrDwLbl').textContent=d+' drawer'+(d>1?'s':'')+' (€'+DP+' each)';
+      document.getElementById('bbPrDw').textContent=eur(cost); }}
+    document.getElementById('bbPrTotal').textContent=eur(total)+(hbNA?' +':'');
+    var priceTxt=eur(total)+(hbNA?' + headboard (price on request)':'');
+    var msg='Hi, I\\'m interested in this bed:\\n'+baseLabel+'\\nSize: '+size+'\\nFabric: '+fabric;
     if(!storage) msg+='\\nDrawers: '+d+(d>0?(' (+€'+cost+')'):'');
-    msg+='\\nHeadboard: '+(hb?(hb+' ('+mount+')'):'None');
+    msg+='\\nHeadboard: '+(hb?(hb+' ('+mount+')'+(hbNA?' — price on request':'')):'None');
+    msg+='\\nEstimated total: '+priceTxt;
     wa.href='https://wa.me/{wa}?text='+encodeURIComponent(msg);
-    form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):'')+(hb?(' — '+hb+' headboard ('+mount+')'):''));
+    form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):'')+(hb?(' — '+hb+' headboard ('+mount+')'):'')+' — '+priceTxt);
     paintBase();
   }}
   // ---- controls ----
   document.querySelectorAll('.bb-size').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-size').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
-    size=b.dataset.size; refresh();}});}});
+    size=b.dataset.size; bucket=b.dataset.bucket; refresh();}});}});
   document.querySelectorAll('.bb-base').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-base').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
     kind=b.dataset.kind;
