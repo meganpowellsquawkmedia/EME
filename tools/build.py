@@ -1103,7 +1103,8 @@ def md_to_html(md):
     return "\n".join(out)
 
 def build_bedbuilder():
-    # "Build Your Bed" configurator — Aurora ottoman base, made to order in any fabric.
+    # "Build Your Bed" configurator — Aurora base (Ottoman storage or Standard w/ drawers),
+    # made to order in any fabric. The SVG bed recolours to the chosen fabric on click.
     SIZES = [("Single 3′", "90 × 190 cm"), ("Small Double 4′", "120 × 190 cm"),
              ("Double 4′6″", "135 × 190 cm"), ("King 5′", "150 × 200 cm"), ("Super King 6′", "180 × 200 cm")]
     FABRICS = [
@@ -1118,9 +1119,16 @@ def build_bedbuilder():
         ("Naples", "weave", [("Beige", "#c8bda4"), ("Silver", "#b8bcc0"), ("Cream", "#e5dcc7")]),
         ("Airforce", "velvet", [("Airforce Blue", "#5f7a8c")]),
     ]
+    DRAWER_PRICE = 40
+    base_btns = ('<button type="button" class="bb-base on" data-base="Ottoman Storage" data-kind="storage">'
+                 '<b>Storage</b><span>Ottoman lift-up base</span></button>'
+                 '<button type="button" class="bb-base" data-base="Standard" data-kind="standard">'
+                 '<b>Standard</b><span>Optional drawers</span></button>')
     size_btns = "".join(
-        f'<button type="button" class="bb-size{" on" if i==3 else ""}" data-size="{esc(nm)}" data-dim="{esc(dim)}">{esc(nm)}</button>'
+        f'<button type="button" class="bb-size{" on" if i==3 else ""}" data-size="{esc(nm)}">{esc(nm)}</button>'
         for i, (nm, dim) in enumerate(SIZES))
+    def side_btns(side):
+        return "".join(f'<button type="button" class="bb-dwr{" on" if k==0 else ""}" data-side="{side}" data-n="{k}">{k}</button>' for k in (0, 1, 2))
     groups = ""
     for rng, tex, cols in FABRICS:
         sw = "".join(
@@ -1133,20 +1141,32 @@ def build_bedbuilder():
 <style>
 .bb{{display:grid;grid-template-columns:1fr 1fr;gap:32px;padding:8px 0 64px;align-items:start}}
 @media(max-width:900px){{.bb{{grid-template-columns:1fr}}}}
-.bb-preview{{position:sticky;top:150px}}
-.bb-photo{{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}}
-.bb-photo img{{width:100%;display:block}}
-.bb-chosen{{display:flex;gap:14px;align-items:center;margin-top:16px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}}
-.bb-swatch{{width:74px;height:74px;border-radius:10px;flex:none;border:1px solid rgba(0,0,0,.12);background:var(--soft)}}
-.bb-chosen-name{{font-family:Montserrat;font-weight:800;font-size:16px;text-transform:uppercase;letter-spacing:.02em}}
+@media(min-width:901px){{.bb-preview{{position:sticky;top:150px}}}}
+.bb-stage{{background:linear-gradient(160deg,#fff,#f1ece3);border:1px solid var(--line);border-radius:16px;padding:14px}}
+.bb-bed{{width:100%;height:auto;display:block;filter:drop-shadow(0 14px 20px rgba(0,0,0,.14))}}
+.bb-bed .uph{{fill:var(--fabric,#3b3d42);transition:fill .25s ease}}
+.bb-bed .dwr-f{{stroke:rgba(0,0,0,.30);stroke-width:1.5}}
+.bb-bed .dwr{{display:none}}
+.bb-chosen{{display:flex;gap:14px;align-items:center;margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}}
+.bb-swatch{{width:70px;height:70px;border-radius:10px;flex:none;border:1px solid rgba(0,0,0,.12);background:var(--soft)}}
+.bb-chosen-name{{font-family:Montserrat;font-weight:800;font-size:15px;text-transform:uppercase;letter-spacing:.02em}}
 .bb-chosen-sub{{color:var(--muted);font-size:13px;margin-top:3px}}
-.bb-feats{{list-style:none;padding:0;margin:16px 0 0;columns:1;font-size:14px;line-height:1.9;color:#333}}
-.bb-feats li{{padding-left:24px;position:relative}}.bb-feats li:before{{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:800}}
-.bb-step{{margin-bottom:26px}}
+.bb-realphoto{{margin-top:12px;display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}}
+.bb-realphoto img{{width:78px;height:58px;object-fit:cover;border-radius:8px;border:1px solid var(--line)}}
+.bb-step{{margin-bottom:24px}}
 .bb-step h3{{font-size:15px;text-transform:uppercase;letter-spacing:.04em;margin:0 0 12px}}
-.bb-sizes{{display:flex;flex-wrap:wrap;gap:8px}}
-.bb-size{{border:1.5px solid var(--line);background:#fff;border-radius:10px;padding:10px 14px;font-weight:700;font-size:13px;cursor:pointer}}
-.bb-size.on{{border-color:var(--orange);color:var(--orange);background:#fff7ef}}
+.bb-step .hint{{font-size:12.5px;color:var(--muted);margin:-6px 0 10px}}
+.bb-bases{{display:grid;grid-template-columns:1fr 1fr;gap:10px}}
+.bb-base{{border:1.5px solid var(--line);background:#fff;border-radius:12px;padding:12px 14px;text-align:left;cursor:pointer}}
+.bb-base b{{display:block;font-size:14px;text-transform:uppercase;letter-spacing:.02em}}
+.bb-base span{{font-size:12px;color:var(--muted)}}
+.bb-base.on{{border-color:var(--orange);background:#fff7ef}}
+.bb-sizes,.bb-dwr-row{{display:flex;flex-wrap:wrap;gap:8px}}
+.bb-size,.bb-dwr{{border:1.5px solid var(--line);background:#fff;border-radius:10px;padding:10px 14px;font-weight:700;font-size:13px;cursor:pointer}}
+.bb-size.on,.bb-dwr.on{{border-color:var(--orange);color:var(--orange);background:#fff7ef}}
+.bb-dwr{{min-width:44px;text-align:center}}
+.bb-dwr-side{{display:flex;align-items:center;gap:10px;margin-bottom:8px}}
+.bb-dwr-side .lab{{font-size:12.5px;color:#444;width:74px}}
 .bb-group{{margin-bottom:18px}}
 .bb-gh{{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:8px}}
 .bb-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(84px,1fr));gap:10px}}
@@ -1154,45 +1174,59 @@ def build_bedbuilder():
 .bb-chip{{display:block;height:56px;border-radius:9px;border:2px solid transparent;box-shadow:0 0 0 1px rgba(0,0,0,.10) inset}}
 .bb-sw.on .bb-chip{{border-color:var(--orange);box-shadow:0 0 0 1px var(--orange),0 6px 14px rgba(0,0,0,.14)}}
 .bb-lbl{{display:block;font-size:11px;color:#444;margin-top:5px;line-height:1.2}}
-.tex-velvet .bb-chip,.bb-swatch.tex-velvet{{background:
-  radial-gradient(130% 90% at 28% 12%, rgba(255,255,255,.34), rgba(255,255,255,0) 60%),
-  repeating-linear-gradient(90deg, rgba(0,0,0,.07) 0 2px, rgba(255,255,255,.05) 2px 4px), var(--c)}}
-.tex-wool .bb-chip,.bb-swatch.tex-wool{{background:
-  repeating-linear-gradient(45deg, rgba(255,255,255,.10) 0 1px, rgba(0,0,0,.06) 1px 2px),
-  repeating-linear-gradient(-45deg, rgba(255,255,255,.08) 0 1px, rgba(0,0,0,.05) 1px 2px), var(--c)}}
-.tex-weave .bb-chip,.bb-swatch.tex-weave{{background:
-  repeating-linear-gradient(0deg, rgba(0,0,0,.06) 0 1px, rgba(255,255,255,.06) 1px 3px),
-  repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 1px, rgba(255,255,255,.06) 1px 3px), var(--c)}}
-.tex-linen .bb-chip,.bb-swatch.tex-linen{{background:
-  repeating-linear-gradient(0deg, rgba(0,0,0,.05) 0 1px, rgba(255,255,255,.09) 1px 4px),
-  repeating-linear-gradient(90deg, rgba(0,0,0,.05) 0 1px, rgba(255,255,255,.09) 1px 4px), var(--c)}}
-.bb-cta{{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;position:sticky;bottom:0}}
-.bb-summary{{font-weight:700;margin-bottom:12px}}
+.tex-velvet .bb-chip,.bb-swatch.tex-velvet{{background:radial-gradient(130% 90% at 28% 12%, rgba(255,255,255,.34), rgba(255,255,255,0) 60%),repeating-linear-gradient(90deg, rgba(0,0,0,.07) 0 2px, rgba(255,255,255,.05) 2px 4px), var(--c)}}
+.tex-wool .bb-chip,.bb-swatch.tex-wool{{background:repeating-linear-gradient(45deg, rgba(255,255,255,.10) 0 1px, rgba(0,0,0,.06) 1px 2px),repeating-linear-gradient(-45deg, rgba(255,255,255,.08) 0 1px, rgba(0,0,0,.05) 1px 2px), var(--c)}}
+.tex-weave .bb-chip,.bb-swatch.tex-weave{{background:repeating-linear-gradient(0deg, rgba(0,0,0,.06) 0 1px, rgba(255,255,255,.06) 1px 3px),repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 1px, rgba(255,255,255,.06) 1px 3px), var(--c)}}
+.tex-linen .bb-chip,.bb-swatch.tex-linen{{background:repeating-linear-gradient(0deg, rgba(0,0,0,.05) 0 1px, rgba(255,255,255,.09) 1px 4px),repeating-linear-gradient(90deg, rgba(0,0,0,.05) 0 1px, rgba(255,255,255,.09) 1px 4px), var(--c)}}
+.bb-cta{{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:6px}}
+.bb-summary{{font-weight:700;margin-bottom:12px;font-size:14px}}
 .bb-summary b{{color:var(--orange)}}
 .bb-cta .ctabig,.bb-cta .ctacall,.bb-cta .ctarsv{{margin-top:8px}}
 </style>
 <div class="wrap">
 <div class="crumb"><a href="/">Home</a> / <b>Build Your Bed</b></div>
-<div class="page-head"><h1>Build Your Bed</h1><div class="count">Our Ottoman storage bed — handcrafted to order in your choice of fabric. Pick a size and a fabric below, then send us your combination for a price.</div></div>
+<div class="page-head"><h1>Build Your Bed</h1><div class="count">Design your bed — choose the base, size and fabric, and watch it change. Handcrafted to order; send us your combination for a price.</div></div>
 <div class="bb">
   <div class="bb-preview">
-    <div class="bb-photo"><img src="/assets/img/aurora-ottoman-1.jpg" alt="Ottoman storage bed with lift-up base"></div>
+    <div class="bb-stage">
+      <svg viewBox="0 0 440 300" class="bb-bed" id="bbBed" style="--fabric:#3b3d42" role="img" aria-label="Bed preview">
+        <defs><linearGradient id="bbSheen" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#fff" stop-opacity="0.30"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.05"/><stop offset="1" stop-color="#000" stop-opacity="0.12"/>
+        </linearGradient></defs>
+        <rect class="uph" x="46" y="22" width="348" height="118" rx="14"/>
+        <rect x="46" y="22" width="348" height="118" rx="14" fill="url(#bbSheen)"/>
+        <rect x="82" y="102" width="130" height="46" rx="15" fill="#fbf8f1" stroke="#e6dfce"/>
+        <rect x="228" y="102" width="130" height="46" rx="15" fill="#fbf8f1" stroke="#e6dfce"/>
+        <rect x="60" y="138" width="320" height="40" rx="10" fill="#f4efe4" stroke="#e2dccb"/>
+        <rect class="uph" x="60" y="176" width="320" height="86" rx="9"/>
+        <rect x="60" y="176" width="320" height="86" rx="9" fill="url(#bbSheen)"/>
+        <line class="lifthint" id="bbLift" x1="74" y1="192" x2="366" y2="192" stroke="rgba(255,255,255,.45)" stroke-width="2" stroke-dasharray="4 5"/>
+        <g class="dwr" data-d="L1"><rect x="74" y="190" width="66" height="58" rx="5" class="uph dwr-f"/><rect x="98" y="215" width="18" height="4" rx="2" fill="rgba(255,255,255,.7)"/></g>
+        <g class="dwr" data-d="L2"><rect x="146" y="190" width="66" height="58" rx="5" class="uph dwr-f"/><rect x="170" y="215" width="18" height="4" rx="2" fill="rgba(255,255,255,.7)"/></g>
+        <g class="dwr" data-d="R1"><rect x="228" y="190" width="66" height="58" rx="5" class="uph dwr-f"/><rect x="252" y="215" width="18" height="4" rx="2" fill="rgba(255,255,255,.7)"/></g>
+        <g class="dwr" data-d="R2"><rect x="300" y="190" width="66" height="58" rx="5" class="uph dwr-f"/><rect x="324" y="215" width="18" height="4" rx="2" fill="rgba(255,255,255,.7)"/></g>
+        <rect x="78" y="262" width="14" height="16" rx="3" fill="#2b2b2b"/>
+        <rect x="348" y="262" width="14" height="16" rx="3" fill="#2b2b2b"/>
+      </svg>
+    </div>
     <div class="bb-chosen">
       <div class="bb-swatch tex-velvet" id="bbSwatch" style="--c:#3b3d42"></div>
       <div><div class="bb-chosen-name" id="bbName">Plush Velvet — Charcoal</div><div class="bb-chosen-sub" id="bbSub">Ottoman Storage Bed · King 5′</div></div>
     </div>
-    <ul class="bb-feats">
-      <li>Smooth-lift ottoman base — full-length storage underneath</li>
-      <li>Handcrafted to order in Ireland</li>
-      <li>Sizes from single up to super king</li>
-      <li>Choose from over 20 fabrics — velvet, wool &amp; weave</li>
-    </ul>
+    <div class="bb-realphoto"><img src="/assets/img/aurora-ottoman-1.jpg" alt="Aurora ottoman base"><span>Handcrafted Aurora base — the illustration above shows your chosen fabric &amp; options.</span></div>
   </div>
   <div class="bb-controls">
-    <div class="bb-step"><h3>1 · Choose your size</h3><div class="bb-sizes" id="bbSizes">{size_btns}</div></div>
-    <div class="bb-step"><h3>2 · Choose your fabric</h3>{groups}</div>
+    <div class="bb-step"><h3>1 · Choose your base</h3><div class="bb-bases">{base_btns}</div></div>
+    <div class="bb-step" id="bbDrawerStep" hidden>
+      <h3>2 · Add drawers</h3>
+      <div class="hint">Up to 2 drawers each side · €{DRAWER_PRICE} per drawer.</div>
+      <div class="bb-dwr-side"><span class="lab">Left side</span><div class="bb-dwr-row">{side_btns("L")}</div></div>
+      <div class="bb-dwr-side"><span class="lab">Right side</span><div class="bb-dwr-row">{side_btns("R")}</div></div>
+    </div>
+    <div class="bb-step"><h3><span class="bb-num">2</span> · Choose your size</h3><div class="bb-sizes" id="bbSizes">{size_btns}</div></div>
+    <div class="bb-step"><h3><span class="bb-num">3</span> · Choose your fabric</h3>{groups}</div>
     <div class="bb-cta">
-      <div class="bb-summary" id="bbSummary">Your bed: <b id="bbSum">Ottoman Storage Bed · King 5′ · Plush Velvet — Charcoal</b></div>
+      <div class="bb-summary">Your bed: <b id="bbSum">Ottoman Storage Bed · King 5′ · Plush Velvet — Charcoal</b></div>
       <a class="ctabig" id="bbWa" href="https://wa.me/{wa}">{WA_SVG} Enquire about this bed</a>
       <a class="ctacall" href="tel:{SHOP['phone_tel']}">📞 Call {SHOP['phone_display']}</a>
       <a class="ctarsv" id="bbForm" href="/enquiry/">Send an enquiry form instead</a>
@@ -1202,32 +1236,60 @@ def build_bedbuilder():
 </div>
 <script>
 (function(){{
-  var size="King 5′", fabric="Plush Velvet — Charcoal", fc="#3b3d42", ftex="velvet";
-  var sw=document.getElementById('bbSwatch'), nm=document.getElementById('bbName'),
+  var DP={DRAWER_PRICE};
+  var base="Ottoman Storage", kind="storage", size="King 5′",
+      fabric="Plush Velvet — Charcoal", fc="#3b3d42", ftex="velvet", L=0, R=0;
+  var bed=document.getElementById('bbBed'), lift=document.getElementById('bbLift'),
+      sw=document.getElementById('bbSwatch'), nm=document.getElementById('bbName'),
       sub=document.getElementById('bbSub'), sum=document.getElementById('bbSum'),
-      wa=document.getElementById('bbWa'), form=document.getElementById('bbForm');
+      wa=document.getElementById('bbWa'), form=document.getElementById('bbForm'),
+      dstep=document.getElementById('bbDrawerStep'),
+      nums=document.querySelectorAll('.bb-num');
+  function drawers(){{ return kind==='standard' ? (L+R) : 0; }}
   function refresh(){{
+    bed.style.setProperty('--fabric', fc);
     sw.style.setProperty('--c', fc); sw.className='bb-swatch tex-'+ftex;
-    nm.textContent=fabric; sub.textContent='Ottoman Storage Bed · '+size;
-    var line='Ottoman Storage Bed · '+size+' · '+fabric;
-    sum.textContent=line;
-    var msg='Hi, I\\'d like a price on this bed:\\nOttoman Storage Bed\\nSize: '+size+'\\nFabric: '+fabric;
+    // base visuals
+    var storage = kind==='storage';
+    lift.style.display = storage ? '' : 'none';
+    dstep.hidden = storage;
+    nums.forEach(function(n,idx){{ n.textContent = storage ? (idx+2) : (idx+3); }});
+    document.querySelectorAll('.dwr').forEach(function(g){{
+      var d=g.getAttribute('data-d'); var show=false;
+      if(!storage){{ if(d==='L1')show=L>=1; if(d==='L2')show=L>=2; if(d==='R1')show=R>=1; if(d==='R2')show=R>=2; }}
+      g.style.display = show ? '' : 'none';
+    }});
+    // text
+    nm.textContent = fabric;
+    var d=drawers(), cost=d*DP;
+    var baseLabel = storage ? 'Ottoman Storage Bed' : 'Standard Bed';
+    sub.textContent = baseLabel+' · '+size;
+    var extra = (!storage && d>0) ? (' · '+d+' drawer'+(d>1?'s':'')+' (+€'+cost+')') : (storage ? ' · lift-up storage' : '');
+    sum.textContent = baseLabel+' · '+size+' · '+fabric+extra;
+    var msg='Hi, I\\'d like a price on this bed:\\n'+baseLabel+'\\nSize: '+size+'\\nFabric: '+fabric;
+    if(!storage) msg += '\\nDrawers: '+d+(d>0?(' (+€'+cost+')'):'');
     wa.href='https://wa.me/{wa}?text='+encodeURIComponent(msg);
-    form.href='/enquiry/?product='+encodeURIComponent('Ottoman Storage Bed — '+size+' — '+fabric);
+    form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):''));
   }}
+  document.querySelectorAll('.bb-base').forEach(function(b){{b.addEventListener('click',function(){{
+    document.querySelectorAll('.bb-base').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
+    base=b.dataset.base; kind=b.dataset.kind; if(kind==='storage'){{L=0;R=0;document.querySelectorAll('.bb-dwr').forEach(function(x){{x.classList.toggle('on', x.dataset.n==='0');}});}} refresh();}});}});
+  document.querySelectorAll('.bb-dwr').forEach(function(b){{b.addEventListener('click',function(){{
+    var side=b.dataset.side;
+    document.querySelectorAll('.bb-dwr[data-side="'+side+'"]').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
+    if(side==='L') L=+b.dataset.n; else R=+b.dataset.n; refresh();}});}});
   document.querySelectorAll('.bb-size').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-size').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
     size=b.dataset.size; refresh();}});}});
   document.querySelectorAll('.bb-sw').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-sw').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
-    fabric=b.dataset.name; fc=b.dataset.c; ftex=b.dataset.tex; refresh();
-    document.querySelector('.bb-preview').scrollIntoView({{block:'nearest',behavior:'smooth'}});}});}});
+    fabric=b.dataset.name; fc=b.dataset.c; ftex=b.dataset.tex; refresh();}});}});
   refresh();
 }})();
 </script>
 {footer()}"""
     write("build-a-bed/index.html", head(f"Build Your Bed | {SHOP['name']}",
-        "Design your Ottoman storage bed — choose your size and fabric, then enquire. Handcrafted to order, at Eddie Maguire, Dundalk.",
+        "Design your bed — choose base (ottoman storage or standard with drawers), size and fabric, then enquire. Handcrafted to order at Eddie Maguire, Dundalk.",
         path="/build-a-bed/") + body)
     print("  build-a-bed: 1 page")
 
