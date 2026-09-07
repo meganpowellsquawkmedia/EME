@@ -99,7 +99,7 @@ nav.cats a:hover{color:var(--orange)}
 .banner .go{color:var(--orange);font-weight:700;font-size:11.5px;margin-top:9px;text-transform:uppercase;letter-spacing:.05em}
 .whatsapp-strip{background:var(--ink);color:#fff;border-radius:16px;padding:30px 34px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
 .whatsapp-strip h2{font-size:22px}.whatsapp-strip p{color:#c9c9c9;margin:6px 0 0;font-size:14px}
-.aboutband{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center;margin-top:6px}
+.aboutband{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;text-align:center;margin-top:6px}
 @media(max-width:700px){.aboutband{grid-template-columns:repeat(2,1fr)}}
 .stat{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px}
 .stat .n{font-family:Montserrat;font-weight:800;font-size:30px;color:var(--orange)}
@@ -149,7 +149,7 @@ nav.cats a:hover{color:var(--orange)}
 .price .poa{font-size:16px;color:var(--muted)}
 .vat{font-size:11px;color:var(--muted)}
 .sale-badge{position:absolute;top:14px;left:14px;background:var(--orange);color:#fff;font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:4px 9px;border-radius:6px;z-index:2}
-.cbtns{display:flex;gap:8px;margin-top:12px}
+.cbtns{display:flex;gap:8px;margin-top:auto;padding-top:12px}
 .btn{border:0;border-radius:8px;padding:11px 12px;font-weight:700;font-size:12.5px;cursor:pointer;text-align:center;flex:1;text-transform:uppercase;letter-spacing:.03em}
 .btn-o{background:var(--orange);color:#fff}.btn-o:hover{background:var(--orange-dk)}
 .btn-g{background:#fff;color:var(--ink);border:1.5px solid var(--line)}.btn-g:hover{border-color:#bbb}

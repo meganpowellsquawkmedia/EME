@@ -348,7 +348,7 @@ def blurb(p, fc, brand):
         s = "The %s." % clean_title(p, brand).rstrip(".")
     else:
         s = "%s." % lead
-    return real_desc(p) or (s + " In stock now at our Church Street showroom in Dundalk — call in for a closer look, or message us on WhatsApp and we'll help you choose.").replace("  ", " ")
+    return real_desc(p) or (s + " Call in to our Church Street showroom in Dundalk for a closer look, or message us on WhatsApp and we'll help you choose.").replace("  ", " ")
 
 def glance_html(fc):
     items = [(lbl, fc[k]) for k, lbl in [("Width", "Width"), ("Capacity", "Capacity"),
@@ -442,7 +442,6 @@ def product_ld(p, name, abs_img, price_v):
     if b: data["brand"] = {"@type": "Brand", "name": b}
     if price_v:
         data["offers"] = {"@type": "Offer", "priceCurrency": "EUR", "price": str(price_v),
-                          "availability": "https://schema.org/InStock",
                           "url": SITE_ABS + f"/product/{p['slug']}/",
                           "seller": {"@type": "Organization", "name": SHOP["name"]}}
     return json.dumps(data, ensure_ascii=False)
@@ -450,11 +449,11 @@ def product_ld(p, name, abs_img, price_v):
 WA_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>'
 
 def nav_links():
-    out = ""
-    for slug, lbl in FEATURED:
-        if slug in slug2id and cat_total.get(slug2id[slug]):
-            out += f'<a href="/category/{slug}/">{esc(lbl)}</a>'
-    return out + '<a href="/category/">All Categories</a>'
+    # Top-level shop sections. Only Electrical is stocked today; Home (furniture)
+    # and Garden are coming — point them at the shop for now, retarget when stocked.
+    return ('<a href="/category/">Electrical</a>'
+            '<a href="/category/">Home</a>'
+            '<a href="/category/">Garden</a>')
 
 def header():
     return f"""<div class="tstrip"><div class="wrap">
@@ -520,9 +519,6 @@ def product_card(p):
     chipvals = [v for k, v in fc.items() if k in ("Width", "Capacity", "Storage", "Fuel", "Colour")][:2]
     chips = "".join(f'<span class="chip">{esc(v)}</span>' for v in chipvals)
     dataf = " ".join('data-%s="%s"' % (k.lower(), esc(v)) for k, v in fc.items())
-    instock = p.get("stock_status") == "instock"
-    stock = ('<div class="stock"><span class="dot"></span> In stock in Dundalk</div>' if instock
-             else '<div class="stock out"><span class="dot"></span> Enquire for availability</div>')
     model = f'<div class="model">Model: {esc(p.get("sku"))}</div>' if p.get("sku") else '<div class="model"></div>'
     wa = "https://wa.me/" + SHOP["wa"]
     return f"""<div class="card" data-brand="{esc(brand)}" data-colour="{esc(colour)}" data-price="{pnum}" data-name="{esc(html.unescape(p['name']))}" {dataf}>
@@ -534,7 +530,6 @@ def product_card(p):
   <div class="chips">{chips}</div>
   <div class="price">{price_disp}</div>
   <div class="vat">Price includes VAT</div>
-  {stock}
   <div class="cbtns"><a class="btn btn-o" href="{wa}">Enquire</a><a class="btn btn-g" href="/product/{esc(p['slug'])}/">Details</a></div>
 </div>"""
 
@@ -565,22 +560,6 @@ def build_products():
         price = money(price_v)
         on_sale = sale and reg and sale != reg
         was = f'<span class="was">{money(reg)}</span>' if on_sale else ""
-        is_supplier = p.get("_source") == "supplier"
-        stat = p.get("stock_status")
-        if is_supplier:
-            # dropship line: ordered in, not in-store stock
-            if stat == "instock":
-                stock_html = '<span class="pdp-stock"><span class="dot"></span>In stock — available to order</span>'
-            elif stat == "onbackorder":
-                stock_html = '<span class="pdp-stock"><span class="dot"></span>Available to order — incoming stock</span>'
-            else:
-                stock_html = '<span class="pdp-stock out"><span class="dot"></span>Please enquire for availability</span>'
-            note = (f'🛈 This item is available to order. Message or call us and we\'ll arrange it for you '
-                    f'— collect in store at {esc(SHOP["address"])} or ask about delivery.')
-        else:
-            stock_html = ('<span class="pdp-stock"><span class="dot"></span>In stock — available in store</span>'
-                          if stat == "instock" else '<span class="pdp-stock out"><span class="dot"></span>Please enquire for availability</span>')
-            note = f'🛈 This is our online catalogue. To buy, call us or pop into the store at {esc(SHOP["address"])} — we\'ll sort you out.'
         desc = p.get("description") or p.get("short_description") or ""
         wa_text = f"Hi, I'm interested in: {html.unescape(p['name'])} ({SITE}/product/{p['slug']}/)"
         wa_link = "https://wa.me/" + SHOP["wa"] + "?text=" + re.sub(r"\s+", "%20", wa_text)
@@ -600,22 +579,15 @@ def build_products():
                 for i, im in enumerate(imgs[:6]))
         else:
             thumbs_html = f'<div class="t on"><img src="{esc(main)}" alt=""></div><div class="t">More<br>photos<br>soon</div>'
-        # price + stock
         price_html = (f'<div class="price">{price}{was}</div><div class="vat">Price includes VAT'
                       + (f' · model {esc(p.get("sku"))}' if p.get("sku") else '') + '</div>') if price else \
                      '<div class="price"><span class="poa">Price on request</span></div>'
-        if p.get("stock_status") == "instock":
-            stock_line = '<div class="stock"><span class="dot"></span> In stock now at ' + esc(SHOP["address"]) + '</div>'
-        elif is_supplier and stat == "onbackorder":
-            stock_line = '<div class="stock"><span class="dot"></span> Available to order — incoming stock</div>'
-        else:
-            stock_line = '<div class="stock out"><span class="dot"></span> Please enquire for availability</div>'
         # overview + specs + features (enrich > web data, else generated)
         en = ENRICH.get((p.get("sku") or "").upper())
         lead_txt = en["desc"] if en else blurb(p, fc, brand2)
         if en:
             feats = en["features"]
-            spec = [("Brand", brand2), ("Model number", p.get("sku") or "—"), ("Product type", kind.title())] + list(en["specs"]) + [("Availability", "In stock — " + SHOP["address"])]
+            spec = [("Brand", brand2), ("Model number", p.get("sku") or "—"), ("Product type", kind.title())] + list(en["specs"])
         else:
             feats = []
             if fc.get("Width"): feats.append(f"{fc['Width']} width")
@@ -623,12 +595,12 @@ def build_products():
             if fc.get("Storage"): feats.append(f"{fc['Storage']} storage")
             if fc.get("Fuel"): feats.append({"Dual fuel": "Dual fuel — gas hob with electric oven", "Gas": "Gas cooker — natural gas", "Gas (LPG)": "Gas cooker — LPG / bottled gas", "Electric": "Electric — ceramic hob & fan oven"}.get(fc["Fuel"], fc["Fuel"]))
             if fc.get("Colour"): feats.append(f"{fc['Colour']} finish")
-            feats.append(f"{brand2} — model {p.get('sku') or 'see in store'}" if brand2 else "In stock at our Church Street showroom")
+            feats.append(f"{brand2} — model {p.get('sku') or 'see in store'}" if brand2 else "Part of our range at Eddie Maguire, Dundalk")
             feats.append("Local delivery & setup advice available")
             spec = [("Brand", brand2), ("Model number", p.get("sku") or "—"), ("Product type", kind.title())]
             for kk, lbl in [("Width", "Width"), ("Capacity", "Load capacity"), ("Storage", "Storage"), ("Fuel", "Fuel type"), ("Colour", "Colour")]:
                 if fc.get(kk): spec.append((lbl, fc[kk]))
-            spec += [("Availability", "In stock — " + SHOP["address"]), ("Guarantee", "Manufacturer guarantee — ask in store")]
+            spec += [("Guarantee", "Manufacturer guarantee — ask in store")]
         specnote = "" if en else '<div class="specnote">Specifications shown are compiled from the details we hold; full manufacturer specs are available in store.</div>'
         feat_html = "".join(f"<li>{esc(x)}</li>" for x in feats)
         spec_html = "".join(f"<tr><td>{esc(k)}</td><td>{esc(v)}</td></tr>" for k, v in spec)
@@ -658,9 +630,8 @@ def build_products():
     {glance_html(fc)}
     <div class="pricebox">
       {price_html}
-      {stock_line}
       <div class="delivery">
-        <div class="row"><span class="ic">🏬</span><div><b>Collect in store</b> — reserve today, pick up when ready</div></div>
+        <div class="row"><span class="ic">🏬</span><div><b>Collect in store</b> — reserve by phone or message</div></div>
         <div class="row"><span class="ic">🚚</span><div><b>Local delivery</b> around Dundalk — ask us for a quote</div></div>
         <div class="row"><span class="ic">💬</span><div><b>Questions?</b> Message us and we'll help you choose</div></div>
       </div>
@@ -703,7 +674,7 @@ document.querySelectorAll('.thumbs .t[data-src]').forEach(function(t){{t.addEven
 {footer()}"""
         abs_img = (SITE_ABS + main) if main.startswith("/") else main
         page = head(f"{html.unescape(p['name'])} | {SHOP['name']}",
-                    re.sub('<[^<]+?>', '', html.unescape(p.get('short_description') or p['name']))[:155],
+                    lead_txt[:155],
                     path=f"/product/{p['slug']}/", image=abs_img,
                     jsonld=product_ld(p, html.unescape(p['name']), abs_img, price_v)) + body
         write(f"product/{p['slug']}/index.html", page)
@@ -754,7 +725,7 @@ def build_categories():
 
         def fopts(counter, cls):
             return "".join(
-                f'<label class="fopt"><input type="checkbox" class="{cls}" value="{esc(str(k))}"><span>{esc(str(k))}</span><span class="ct">{v}</span></label>'
+                f'<label class="fopt"><input type="checkbox" class="{cls}" value="{esc(str(k))}"><span>{esc(str(k))}</span></label>'
                 for k, v in sorted(counter.items(), key=lambda x: (-x[1], str(x[0]))))
 
         groups = ""
@@ -780,12 +751,12 @@ def build_categories():
         show_filters = len(prods) >= 4 and (groups or pricegroup)
         dims_js = ",".join(f'"{d}"' for d in dims)
         top_brands = ", ".join(b for b, _ in bc.most_common(4))
-        intro = (f"Our {html.unescape(c['name'])} range — {len(prods)} model{'s' if len(prods)!=1 else ''} in stock now at {SHOP['address']}"
+        intro = (f"Our {html.unescape(c['name'])} range at {SHOP['name']}, Dundalk"
                  + (f", including {top_brands}." if top_brands else ".")
                  + " Not sure which suits you? Message us on WhatsApp and we'll help you choose.")
 
         maincol = f"""<main>
-      <div class="lhead"><div><h1>{cname}</h1><div class="cnt" id="cnt">{ccount}</div></div>
+      <div class="lhead"><div><h1>{cname}</h1></div>
         <div class="sortbar">Sort <select id="sort"><option value="feat">Featured</option><option value="lo">Price: low to high</option><option value="hi">Price: high to low</option><option value="az">Name A–Z</option></select></div>
       </div>
       {subnav}
@@ -818,7 +789,6 @@ def build_categories():
       var shown=cards.filter(function(c){{return c.style.display!=='none'}});
       shown.sort(function(x,y){{return s==='lo'?x.dataset.price-y.dataset.price:s==='hi'?y.dataset.price-x.dataset.price:s==='az'?(x.dataset.name>y.dataset.name?1:-1):0}});
       shown.forEach(function(c){{g.appendChild(c)}});
-      document.getElementById('cnt').textContent=vis+' product'+(vis===1?'':'s');
       var nr=document.getElementById('nores');
       if(!vis){{if(!nr){{nr=document.createElement('div');nr.id='nores';nr.className='nores';nr.textContent='No products match those filters.';g.appendChild(nr)}}}}else if(nr)nr.remove();
     }};
@@ -836,7 +806,7 @@ def build_categories():
 </div>
 {footer()}"""
         page = head(f"{html.unescape(c['name'])} | {SHOP['name']}",
-                    f"Browse {html.unescape(c['name'])} at {SHOP['name']}, Dundalk. {len(prods)} products. Buy in store.",
+                    f"Browse {html.unescape(c['name'])} at {SHOP['name']}, Dundalk. Buy in store.",
                     path=cat_url(c["id"])) + body
         write(f"category/{clean[c['id']]}/index.html", page)
     print(f"  categories: {len(C)} pages")
@@ -849,13 +819,13 @@ def build_category_index():
         cid = slug2id[slug]
         tiles += f"""<a class="tile" href="/category/{slug}/">
   <div class="tw"><img src="{esc(cat_first_image(cid))}" alt="{esc(lbl)}" loading="lazy"></div>
-  <h3>{esc(lbl)}</h3><div class="cnt">{cat_total[cid]} products</div><div class="go">Shop now →</div></a>"""
+  <h3>{esc(lbl)}</h3><div class="go">Shop now →</div></a>"""
     tops = sorted([c for c in children.get(0, []) if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP], key=lambda x: -cat_total[x["id"]])
     deptrow = "".join(f'<a class="subnav-a" href="{cat_url(t["id"])}"></a>' for t in [])  # (kept simple)
     body = f"""{header()}
 <div class="wrap">
 <div class="crumb"><a href="/">Home</a> / <b>Shop</b></div>
-<div class="page-head"><h1>Shop By Category</h1><div class="count">{len(P)} products across {sum(1 for c in C if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP)} departments</div></div>
+<div class="page-head"><h1>Shop By Category</h1><div class="count">Browse our departments</div></div>
 </div>
 <section class="section" style="padding-top:20px"><div class="wrap"><div class="tiles">{tiles}</div></div></section>
 {footer()}"""
@@ -889,7 +859,7 @@ def build_home():
         cid = slug2id[slug]
         tiles += f"""<a class="tile" href="/category/{slug}/">
   <div class="tw"><img src="{esc(cat_first_image(cid))}" alt="{esc(lbl)}" loading="lazy"></div>
-  <h3>{esc(lbl)}</h3><div class="cnt">{cat_total[cid]} products</div><div class="go">Shop now →</div></a>"""
+  <h3>{esc(lbl)}</h3><div class="go">Shop now →</div></a>"""
 
     # popular banners — three photographed products across departments
     banners = ""
@@ -918,7 +888,7 @@ def build_home():
   <div class="hero-copy">
     <div class="eyebrow">Home Appliances &amp; Phones — Dundalk</div>
     <h1>Big Brands.<br>Real Advice.<br>Local Prices.</h1>
-    <p>Your family-run electrical &amp; furniture store on Church St. Browse {total} products online, then call in or message us — we'll help you choose.</p>
+    <p>Your family-run electrical &amp; furniture store on Church St. Browse our full range online, then call in or message us — we'll help you choose.</p>
     <div class="cta"><a class="bigbtn o" href="#cats">Shop All Categories</a><a class="bigbtn w" href="https://wa.me/{SHOP['wa']}">{WA_SVG} Message Us</a></div>
   </div>
   <div class="hero-visual"><img src="{esc(hero_img)}" alt="Featured appliance"></div>
@@ -930,7 +900,7 @@ def build_home():
   <div class="tiles">{tiles}</div>
 </div></section>
 <section class="section" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap">
-  <div class="section-label">In Store Now</div><h2>Popular Right Now</h2>
+  <div class="section-label">Featured</div><h2>Popular Right Now</h2>
   <div class="banners">{banners}</div>
 </div></section>
 <section class="section"><div class="wrap"><div class="whatsapp-strip">
@@ -941,7 +911,6 @@ def build_home():
   <div class="section-label">Who We Are</div><h2>A Family Store, Built On Trust</h2>
   <p style="color:var(--muted);max-width:660px;margin:0 0 24px">Eddie Maguire has served the Dundalk community for years with a carefully chosen range of electrical, appliances and furniture for every home and budget. We're a real shop with real people who know their products.</p>
   <div class="aboutband">
-    <div class="stat"><div class="n">{total}+</div><div class="l">Products in store</div></div>
     <div class="stat"><div class="n">100%</div><div class="l">Irish owned</div></div>
     <div class="stat"><div class="n">30+</div><div class="l">Years in business</div></div>
     <div class="stat"><div class="n">1</div><div class="l">Town — Dundalk</div></div>
@@ -949,7 +918,7 @@ def build_home():
 </div></section>
 {footer()}"""
     write("index.html", head(f"{SHOP['name']} — {SHOP['tagline']} | Dundalk",
-        "Electrical, appliances & furniture in Dundalk. Browse our full range online, buy in store. " + str(len(P)) + " products.",
+        "Electrical, appliances & furniture in Dundalk. Browse our full range online, buy in store.",
         path="/", jsonld=localbusiness_ld()) + body)
     print("  homepage: 1 page")
 
