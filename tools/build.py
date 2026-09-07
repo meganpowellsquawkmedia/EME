@@ -1103,11 +1103,12 @@ def md_to_html(md):
     return "\n".join(out)
 
 def build_bedbuilder():
-    # "Build Your Bed" — Aurora base (Ottoman storage or Standard, with optional drawers),
-    # made to order in Aurora's full fabric range. Real Aurora swatch & base photos.
+    # "Build Your Bed" — Aurora base, made to order in Aurora's full fabric range.
+    # The preview bed recolours LIVE in the browser: the chosen fabric colour is
+    # pushed through the real photo's velvet shading (canvas multiply), so it keeps
+    # genuine folds & sheen. Storage/Standard/drawers switch the base photo + info.
     SIZES = [("Single 3′", "90 × 190 cm"), ("Small Double 4′", "120 × 190 cm"),
              ("Double 4′6″", "135 × 190 cm"), ("King 5′", "150 × 200 cm"), ("Super King 6′", "180 × 200 cm")]
-    # range -> [(colour, slug)] ; swatch photo at /assets/img/swatch-<slug>.jpg
     FABRICS = [
         ("Plush Velvet", ["Charcoal", "China Blue", "Coffee", "Cream", "Emerald", "Pink"]),
         ("Spice Velvet", ["Armour", "Beige", "Denim", "Ivory", "Petrol", "Pink", "Turmeric"]),
@@ -1118,9 +1119,26 @@ def build_bedbuilder():
         ("Linoso", ["Duck Egg", "Midnight Blue"]),
         ("Airforce", ["Blue"]),
     ]
+    # true swatch colours (avg of Aurora studio swatch images) — drive the live recolour
+    SW_RGB = {
+        "plush-velvet-charcoal": (104, 109, 120), "plush-velvet-china-blue": (47, 127, 145),
+        "plush-velvet-coffee": (162, 151, 133), "plush-velvet-cream": (202, 201, 197),
+        "plush-velvet-emerald": (81, 108, 90), "plush-velvet-pink": (197, 187, 188),
+        "spice-velvet-armour": (150, 150, 152), "spice-velvet-beige": (144, 121, 112),
+        "spice-velvet-denim": (57, 77, 112), "spice-velvet-ivory": (199, 196, 192),
+        "spice-velvet-petrol": (142, 155, 153), "spice-velvet-pink": (180, 131, 148),
+        "spice-velvet-turmeric": (152, 102, 44), "wool-clay": (145, 140, 138),
+        "wool-latte": (165, 148, 134), "wool-shadow": (107, 106, 107), "wool-steel": (134, 135, 136),
+        "naples-beige": (172, 154, 136), "naples-cream": (189, 179, 161), "naples-silver": (174, 168, 161),
+        "matiz-beige": (136, 134, 128), "matiz-silver": (130, 131, 132),
+        "alessia-silver": (171, 169, 165), "alessia-smoke": (141, 140, 143),
+        "linoso-duck-egg": (121, 141, 142), "linoso-midnight-blue": (81, 99, 114),
+        "airforce-blue": (89, 107, 122),
+    }
     def fslug(rng, col): return (rng + "-" + col).lower().replace(" ", "-")
     DRAWER_PRICE = 40
     DEFAULT_SLUG = "plush-velvet-charcoal"
+    sw_json = "{" + ",".join(f'"{k}":[{r},{g},{b}]' for k, (r, g, b) in SW_RGB.items()) + "}"
     base_btns = ('<button type="button" class="bb-base on" data-kind="storage">'
                  '<b>Storage</b><span>Ottoman lift-up base</span></button>'
                  '<button type="button" class="bb-base" data-kind="standard">'
@@ -1135,7 +1153,7 @@ def build_bedbuilder():
         sw = "".join(
             f'<button type="button" class="bb-sw{" on" if fslug(rng,c)==DEFAULT_SLUG else ""}" '
             f'style="--img:url(\'/assets/img/swatch-{fslug(rng,c)}.jpg\')" '
-            f'data-name="{esc(rng)} — {esc(c)}"><span class="bb-chip"></span>'
+            f'data-slug="{fslug(rng,c)}" data-name="{esc(rng)} — {esc(c)}"><span class="bb-chip"></span>'
             f'<span class="bb-lbl">{esc(c)}</span></button>'
             for c in cols)
         groups += f'<div class="bb-group"><div class="bb-gh">{esc(rng)}</div><div class="bb-grid">{sw}</div></div>'
@@ -1146,8 +1164,9 @@ def build_bedbuilder():
 @media(max-width:900px){{.bb{{grid-template-columns:1fr}}}}
 @media(min-width:901px){{.bb-preview{{position:sticky;top:150px}}}}
 .bb-stage{{position:relative;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;aspect-ratio:1/1}}
-.bb-stage img{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}}
-.bb-tag{{position:absolute;left:12px;bottom:12px;background:rgba(26,18,16,.82);color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:20px;letter-spacing:.02em}}
+.bb-stage canvas{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}}
+.bb-tag{{position:absolute;left:12px;bottom:12px;background:rgba(26,18,16,.82);color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:20px;letter-spacing:.02em;z-index:2}}
+.bb-feat{{position:absolute;right:12px;top:12px;width:34%;max-width:150px;border-radius:10px;border:2px solid #fff;box-shadow:0 4px 12px rgba(0,0,0,.18);z-index:2}}
 .bb-chosen{{display:flex;gap:14px;align-items:center;margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px}}
 .bb-swatch{{width:72px;height:72px;border-radius:10px;flex:none;border:1px solid rgba(0,0,0,.12);background:var(--img) center/cover,var(--soft)}}
 .bb-chosen-name{{font-family:Montserrat;font-weight:800;font-size:15px;text-transform:uppercase;letter-spacing:.02em}}
@@ -1181,20 +1200,24 @@ def build_bedbuilder():
 </style>
 <div class="wrap">
 <div class="crumb"><a href="/">Home</a> / <b>Build Your Bed</b></div>
-<div class="page-head"><h1>Build Your Bed</h1><div class="count">Design your bed — choose the base, size and fabric. Handcrafted to order by Aurora in Ireland; send us your combination and we'll come back with a price.</div></div>
+<div class="page-head"><h1>Build Your Bed</h1><div class="count">Design your bed — choose the base, size and fabric, and watch it change colour. Handcrafted to order by Aurora in Ireland; send us your combination and we'll come back with a price.</div></div>
 <div class="bb">
   <div class="bb-preview">
     <div class="bb-stage">
-      <img id="bbBaseStorage" src="/assets/img/base-ottoman.jpg" alt="Ottoman storage base">
-      <img id="bbBaseDivan" src="/assets/img/base-standard-divan.jpg" alt="Standard divan base" hidden>
-      <img id="bbBaseDrawer" src="/assets/img/base-standard-drawer.jpg" alt="Standard base with drawers" hidden>
+      <canvas id="bbCanvas" width="1000" height="1000"></canvas>
+      <img id="bbFeat" class="bb-feat" src="/assets/img/base-ottoman.jpg" alt="Ottoman lift-up storage">
       <div class="bb-tag" id="bbTag">Ottoman storage base</div>
     </div>
     <div class="bb-chosen">
       <div class="bb-swatch" id="bbSwatch" style="--img:url('/assets/img/swatch-{DEFAULT_SLUG}.jpg')"></div>
       <div><div class="bb-chosen-name" id="bbName">Plush Velvet — Charcoal</div><div class="bb-chosen-sub" id="bbSub">Ottoman Storage Bed · King 5′</div></div>
     </div>
-    <div class="bb-note">The photos show the Aurora base style; your bed is upholstered to order in the fabric you pick above. Not sure between fabrics? Call in to Church Street and feel the swatches in person.</div>
+    <div class="bb-note">The bed above shows your chosen fabric colour on a real Aurora base; the inset photo shows the ottoman lift. Every bed is upholstered to order — call in to Church Street to feel the swatches in person.</div>
+    <!-- hidden sources for the live recolour (paths get the deploy base path applied) -->
+    <img id="srcDivan" src="/assets/img/base-standard-divan.jpg" hidden alt="">
+    <img id="srcDrawer" src="/assets/img/base-standard-drawer.jpg" hidden alt="">
+    <img id="mskDivan" src="/assets/img/mask-divan.png" hidden alt="">
+    <img id="mskDrawer" src="/assets/img/mask-drawer.png" hidden alt="">
   </div>
   <div class="bb-controls">
     <div class="bb-step"><h3>1 · Choose your base</h3><div class="bb-bases">{base_btns}</div></div>
@@ -1217,37 +1240,67 @@ def build_bedbuilder():
 </div>
 <script>
 (function(){{
+  var SW={sw_json};
   var DP={DRAWER_PRICE};
-  var kind="storage", size="King 5′", fabric="Plush Velvet — Charcoal", L=0, R=0;
-  var imgStorage=document.getElementById('bbBaseStorage'),
-      imgDivan=document.getElementById('bbBaseDivan'),
-      imgDrawer=document.getElementById('bbBaseDrawer'),
-      tag=document.getElementById('bbTag'),
+  var kind="storage", size="King 5′", fabric="Plush Velvet — Charcoal", fslug="{DEFAULT_SLUG}", L=0, R=0;
+  var canvas=document.getElementById('bbCanvas'), ctx=canvas.getContext('2d',{{willReadFrequently:true}});
+  var feat=document.getElementById('bbFeat'), tag=document.getElementById('bbTag'),
       sw=document.getElementById('bbSwatch'), nm=document.getElementById('bbName'),
       sub=document.getElementById('bbSub'), sum=document.getElementById('bbSum'),
       wa=document.getElementById('bbWa'), form=document.getElementById('bbForm'),
       dstep=document.getElementById('bbDrawerStep'), nums=document.querySelectorAll('.bb-num');
-  function drawers(){{ return kind==='standard' ? (L+R) : 0; }}
+  var bank={{}};   // baseKey -> {{orig, alpha, meanL, w, h}}
+  function buildBank(key, imgEl, mskEl){{
+    var w=imgEl.naturalWidth, h=imgEl.naturalHeight;
+    var oc=document.createElement('canvas'); oc.width=w; oc.height=h;
+    var octx=oc.getContext('2d',{{willReadFrequently:true}});
+    octx.drawImage(imgEl,0,0); var orig=octx.getImageData(0,0,w,h);
+    octx.clearRect(0,0,w,h); octx.drawImage(mskEl,0,0,w,h);
+    var md=octx.getImageData(0,0,w,h).data;
+    var alpha=new Float32Array(w*h), lum=new Float32Array(w*h), sumL=0, cnt=0, d=orig.data;
+    for(var i=0,p=0;i<md.length;i+=4,p++){{
+      var a=md[i]/255; alpha[p]=a;
+      var l=0.299*d[i]+0.587*d[i+1]+0.114*d[i+2]; lum[p]=l;
+      if(a>0.5){{ sumL+=l; cnt++; }}
+    }}
+    bank[key]={{orig:orig, alpha:alpha, lum:lum, meanL:(cnt?sumL/cnt:160), w:w, h:h}};
+  }}
+  function baseKey(){{ return (kind==='standard' && (L+R)>0) ? 'drawer' : 'divan'; }}
+  function paint(){{
+    var key=baseKey(), b=bank[key]; if(!b) return;
+    if(canvas.width!==b.w){{canvas.width=b.w;canvas.height=b.h;}}
+    var c=SW[fslug]||[150,150,150];
+    var src=b.orig.data, out=ctx.createImageData(b.w,b.h), o=out.data, al=b.alpha, lum=b.lum, mL=b.meanL;
+    for(var i=0,p=0;i<o.length;i+=4,p++){{
+      var a=al[p];
+      if(a<=0.003){{ o[i]=src[i];o[i+1]=src[i+1];o[i+2]=src[i+2];o[i+3]=255; continue; }}
+      var r=lum[p]/mL; if(r<0.35)r=0.35; if(r>1.7)r=1.7;
+      var nr=c[0]*r, ng=c[1]*r, nb=c[2]*r;
+      o[i]  =src[i]  *(1-a)+ (nr>255?255:nr)*a;
+      o[i+1]=src[i+1]*(1-a)+ (ng>255?255:ng)*a;
+      o[i+2]=src[i+2]*(1-a)+ (nb>255?255:nb)*a;
+      o[i+3]=255;
+    }}
+    ctx.putImageData(out,0,0);
+  }}
   function refresh(){{
-    var storage = kind==='storage', d=drawers();
-    var showDrawerPhoto = (!storage && d>0);
-    imgStorage.hidden = !storage;
-    imgDivan.hidden = !(!storage && d===0);
-    imgDrawer.hidden = !showDrawerPhoto;
-    dstep.hidden = storage;
+    var storage=kind==='storage', d=(kind==='standard'?(L+R):0);
+    dstep.hidden=storage;
+    feat.style.display = storage ? '' : 'none';
     nums.forEach(function(n,idx){{ n.textContent = storage ? (idx+2) : (idx+3); }});
     var baseLabel = storage ? 'Ottoman Storage Bed' : 'Standard Bed';
     tag.textContent = storage ? 'Ottoman storage base' : (d>0 ? 'Standard base + drawers' : 'Standard divan base');
-    nm.textContent = fabric;
-    sub.textContent = baseLabel+' · '+size;
+    nm.textContent=fabric; sub.textContent=baseLabel+' · '+size;
     var cost=d*DP;
-    var extra = (!storage && d>0) ? (' · '+d+' drawer'+(d>1?'s':'')+' (+€'+cost+')') : (storage ? ' · lift-up storage' : '');
-    sum.textContent = baseLabel+' · '+size+' · '+fabric+extra;
+    var extra=(!storage&&d>0)?(' · '+d+' drawer'+(d>1?'s':'')+' (+€'+cost+')'):(storage?' · lift-up storage':'');
+    sum.textContent=baseLabel+' · '+size+' · '+fabric+extra;
     var msg='Hi, I\\'d like a price on this bed:\\n'+baseLabel+'\\nSize: '+size+'\\nFabric: '+fabric;
-    if(!storage) msg += '\\nDrawers: '+d+(d>0?(' (+€'+cost+')'):'');
+    if(!storage) msg+='\\nDrawers: '+d+(d>0?(' (+€'+cost+')'):'');
     wa.href='https://wa.me/{wa}?text='+encodeURIComponent(msg);
     form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):''));
+    paint();
   }}
+  // wire controls
   document.querySelectorAll('.bb-base').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-base').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
     kind=b.dataset.kind;
@@ -1256,21 +1309,29 @@ def build_bedbuilder():
   document.querySelectorAll('.bb-dwr').forEach(function(b){{b.addEventListener('click',function(){{
     var side=b.dataset.side;
     document.querySelectorAll('.bb-dwr[data-side="'+side+'"]').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
-    if(side==='L') L=+b.dataset.n; else R=+b.dataset.n; refresh();}});}});
+    if(side==='L')L=+b.dataset.n; else R=+b.dataset.n; refresh();}});}});
   document.querySelectorAll('.bb-size').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-size').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
     size=b.dataset.size; refresh();}});}});
   document.querySelectorAll('.bb-sw').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-sw').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
-    fabric=b.dataset.name;
+    fabric=b.dataset.name; fslug=b.dataset.slug;
     sw.style.setProperty('--img', getComputedStyle(b).getPropertyValue('--img'));
     refresh();}});}});
-  refresh();
+  // load sources then first paint
+  var need=[['divan','srcDivan','mskDivan'],['drawer','srcDrawer','mskDrawer']], ready=0;
+  function whenReady(){{ if(++ready>=need.length){{ refresh(); }} }}
+  need.forEach(function(t){{
+    var img=document.getElementById(t[1]), msk=document.getElementById(t[2]), n=0;
+    function tryBuild(){{ if(++n>=2 && img.naturalWidth && msk.naturalWidth){{ buildBank(t[0],img,msk); whenReady(); }} }}
+    if(img.complete) tryBuild(); else img.onload=tryBuild;
+    if(msk.complete) tryBuild(); else msk.onload=tryBuild;
+  }});
 }})();
 </script>
 {footer()}"""
     write("build-a-bed/index.html", head(f"Build Your Bed | {SHOP['name']}",
-        "Design your Aurora bed — choose base (ottoman storage or standard with drawers), size and fabric, then enquire. Handcrafted to order, at Eddie Maguire, Dundalk.",
+        "Design your Aurora bed — choose base (ottoman storage or standard with drawers), size and fabric, and watch it change colour. Handcrafted to order, at Eddie Maguire, Dundalk.",
         path="/build-a-bed/") + body)
     print("  build-a-bed: 1 page")
 
