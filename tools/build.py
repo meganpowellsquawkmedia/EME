@@ -682,12 +682,6 @@ def build_products():
 <div class="psection"><h2>Overview</h2><p class="leadp">{esc(lead_txt)}</p><ul class="feat-list">{feat_html}</ul></div>
 <div class="psection"><h2>Specifications</h2><table class="spectab"><tbody>{spec_html}</tbody></table>{specnote}</div>
 {wp_block}
-<div class="psection"><h2>Why Buy From {esc(SHOP['name'])}</h2><ul class="feat-list">
-  <li>A real family shop on Church St — not a faceless website</li>
-  <li>Honest advice from people who know their products</li>
-  <li>Local delivery &amp; help getting set up</li>
-  <li>Part of the Dundalk community for years</li></ul></div>
-<div class="psection"><h2>Ratings &amp; Reviews</h2><div class="emptyrev"><div class="big">★★★★★</div><p>No reviews yet — bought this in store? Tell us how you're getting on.</p></div></div>
 {rel_section}
 </div>
 <div class="stickybar" id="sbar"><div class="wrap">
