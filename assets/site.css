@@ -64,11 +64,11 @@ nav.cats .cats-enq:hover{color:var(--orange-dk)}
 .hero-visual{background:linear-gradient(145deg,#ffffff,#f3e7da);border:1px solid var(--line);border-radius:20px;height:360px;display:flex;align-items:center;justify-content:center;padding:26px;box-shadow:var(--shadow)}
 .hero-visual img{max-height:300px;object-fit:contain;mix-blend-mode:multiply}
 .valprops{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border-bottom:1px solid var(--line)}
-.valprops .vp{padding:20px 22px;display:flex;gap:13px;align-items:center;border-right:1px solid var(--line)}
+.valprops .vp{padding:20px 22px;display:flex;gap:13px;align-items:center;justify-content:center;text-align:center;border-right:1px solid var(--line)}
 .valprops .vp:last-child{border-right:0}
 .vp .ic{font-size:22px;line-height:1}
-.vp b{display:block;font-size:12.5px;text-transform:uppercase;letter-spacing:.04em}
-.vp span{font-size:12.5px;color:var(--muted)}
+.vp b{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.04em;font-weight:800;color:var(--ink)}
+.vp span{font-size:12.5px;color:#3d3d3d;font-weight:500}
 @media(max-width:840px){.valprops{grid-template-columns:repeat(2,1fr)}.valprops .vp:nth-child(2){border-right:0}.valprops .vp:nth-child(-n+2){border-bottom:1px solid var(--line)}}
 .brands-strip{padding:30px 0 6px;text-align:center}
 .brands-strip .lab{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:16px}

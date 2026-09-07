@@ -884,7 +884,7 @@ def build_home():
     brands_row = "".join(f"<span>{esc(b)}</span>" for b, _ in allb.most_common(12))
 
     VP = [("🚚", "Free Local Delivery", "Around Dundalk"), ("🏬", "Buy In Store", esc(SHOP["address"])),
-          ("💬", "Real Advice", "We know our stock"), ("🛠️", "Family Run", "Trusted locally")]
+          ("💬", "Real Advice", "We know our products"), ("🛠️", "Family Run", "Trusted locally")]
     valprops = "".join(f'<div class="vp"><span class="ic">{i}</span><div><b>{t}</b><span>{s}</span></div></div>' for i, t, s in VP)
 
     body = f"""{header()}
