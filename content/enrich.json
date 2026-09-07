@@ -1,162 +1,2963 @@
 {
   "CSG100IX": {
     "desc": "The Nordmende CSG100IX is a 100cm dual-fuel range cooker in stainless steel, built around twin fan ovens and a six-burner gas hob with a separate wok burner — plenty of room for family cooking and entertaining. A double grill, generous storage drawer and cast-iron pan supports round it off, and it carries an A energy rating with a 3-year warranty.",
-    "features": ["Twin fan ovens — cook multiple dishes at once", "Six gas burners plus a dedicated wok burner", "Double grill", "Large storage drawer", "Cast-iron pan supports", "Double-glazed oven doors", "Easy-clean enamel interior", "A energy rating · 3-year warranty"],
-    "specs": [["Dimensions (H×W×D)", "90 × 100 × 60 cm"], ["Energy rating", "A"], ["Ovens", "2 fan ovens"], ["Hob", "6 gas burners + wok burner"], ["Grill", "Double grill"], ["Pan supports", "Cast iron"], ["Warranty", "3 years"]]
+    "features": [
+      "Twin fan ovens — cook multiple dishes at once",
+      "Six gas burners plus a dedicated wok burner",
+      "Double grill",
+      "Large storage drawer",
+      "Cast-iron pan supports",
+      "Double-glazed oven doors",
+      "Easy-clean enamel interior",
+      "A energy rating · 3-year warranty"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 100 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Ovens",
+        "2 fan ovens"
+      ],
+      [
+        "Hob",
+        "6 gas burners + wok burner"
+      ],
+      [
+        "Grill",
+        "Double grill"
+      ],
+      [
+        "Pan supports",
+        "Cast iron"
+      ],
+      [
+        "Warranty",
+        "3 years"
+      ]
+    ]
   },
   "FDC6731S": {
     "desc": "The Beko FDC6731S is a 60cm freestanding electric cooker in silver with a double oven and a 4-zone ceramic hob. Beko's AeroPerfect™ airflow keeps oven temperatures even for consistent baking, a full-width grill sits in the top cavity, and SimplySteam™ makes cleaning easier. A energy rating, with a 10-year parts guarantee.",
-    "features": ["Double oven — 69L main + 36L second cavity", "4-zone ceramic hob", "AeroPerfect™ even-airflow cooking", "Full-width grill in the top oven", "SimplySteam™ easy cleaning", "Touch-control LED display with timer", "A energy rating", "10-year parts guarantee"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A"], ["Main oven capacity", "69 L"], ["Second cavity", "36 L"], ["Hob", "4-zone ceramic"], ["Display", "Touch LED with timer"], ["Weight", "59.8 kg"], ["Installation", "Hardwired (32A supply)"], ["Warranty", "10yr parts / 1yr labour"]]
+    "features": [
+      "Double oven — 69L main + 36L second cavity",
+      "4-zone ceramic hob",
+      "AeroPerfect™ even-airflow cooking",
+      "Full-width grill in the top oven",
+      "SimplySteam™ easy cleaning",
+      "Touch-control LED display with timer",
+      "A energy rating",
+      "10-year parts guarantee"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Main oven capacity",
+        "69 L"
+      ],
+      [
+        "Second cavity",
+        "36 L"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Display",
+        "Touch LED with timer"
+      ],
+      [
+        "Weight",
+        "59.8 kg"
+      ],
+      [
+        "Installation",
+        "Hardwired (32A supply)"
+      ],
+      [
+        "Warranty",
+        "10yr parts / 1yr labour"
+      ]
+    ]
   },
   "KDVC90X": {
     "desc": "The Beko KDVC90X is a 90cm electric range cooker in stainless steel — two fan ovens plus a separate grill give a huge 167-litre combined capacity, ideal for bigger families and batch cooking. Its five-zone ceramic hob has Rapilite fast-heat zones and wipes clean easily, over a grease-proof enamel interior. A/A energy rated.",
-    "features": ["Two fan ovens plus a separate grill — 167L combined", "Five-zone ceramic hob with Rapilite fast heat", "Extra width for larger pots and pans", "Easy-wipe ceramic surface", "Grease-proof enamel interior", "A/A energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 90 × 60 cm"], ["Energy rating", "A/A"], ["Fuel", "Electric"], ["Hob", "5-zone ceramic (Rapilite)"], ["Ovens", "2 fan ovens + grill"], ["Total capacity", "167 L"], ["Finish", "Stainless steel"], ["Warranty", "1 year"]]
+    "features": [
+      "Two fan ovens plus a separate grill — 167L combined",
+      "Five-zone ceramic hob with Rapilite fast heat",
+      "Extra width for larger pots and pans",
+      "Easy-wipe ceramic surface",
+      "Grease-proof enamel interior",
+      "A/A energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 90 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A/A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "5-zone ceramic (Rapilite)"
+      ],
+      [
+        "Ovens",
+        "2 fan ovens + grill"
+      ],
+      [
+        "Total capacity",
+        "167 L"
+      ],
+      [
+        "Finish",
+        "Stainless steel"
+      ],
+      [
+        "Warranty",
+        "1 year"
+      ]
+    ]
   },
   "110EBLK": {
     "desc": "The Belling Cookcentre 110EBLK is a 110cm electric range cooker in black — a real kitchen centrepiece. A 65L main fan oven, 61L conventional second oven and separate 31L grill (157L total) pair with a five-zone ceramic hob featuring a dual zone and a warming zone. Defrost and slow-cook functions and a Maxi-Clock programmer add everyday flexibility. A/A energy rated.",
-    "features": ["110cm range — statement centrepiece", "65L main fan oven + 61L second oven + 31L grill", "Five-zone ceramic hob with dual zone & warming zone", "Defrost and slow-cook functions", "Variable-rate electric grill", "Maxi-Clock™ programmable timer", "Storage compartment", "A/A energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90–93 × 109.6 × 60 cm"], ["Energy rating", "A/A"], ["Fuel", "Electric"], ["Hob", "5-zone ceramic (dual + warming)"], ["Main oven", "65 L fan"], ["Second oven", "61 L conventional"], ["Grill", "31 L separate"], ["Total capacity", "157 L"], ["Finish", "Black"]]
+    "features": [
+      "110cm range — statement centrepiece",
+      "65L main fan oven + 61L second oven + 31L grill",
+      "Five-zone ceramic hob with dual zone & warming zone",
+      "Defrost and slow-cook functions",
+      "Variable-rate electric grill",
+      "Maxi-Clock™ programmable timer",
+      "Storage compartment",
+      "A/A energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90–93 × 109.6 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A/A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "5-zone ceramic (dual + warming)"
+      ],
+      [
+        "Main oven",
+        "65 L fan"
+      ],
+      [
+        "Second oven",
+        "61 L conventional"
+      ],
+      [
+        "Grill",
+        "31 L separate"
+      ],
+      [
+        "Total capacity",
+        "157 L"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
   },
   "LKR655200X": {
     "desc": "The Electrolux LKR655200X is a 60cm freestanding electric cooker in stainless steel with a double oven — a 77L main fan oven and a 39L conventional top oven — so you can cook several dishes at once. HotAir and Ultrafan® spread heat evenly, catalytic liners help keep the oven clean, and a responsive four-zone ceramic hob finishes it. A energy rated, 2-year warranty.",
-    "features": ["Double oven — 77L main fan + 39L top", "Four-zone ceramic hob", "HotAir even heat distribution", "Ultrafan® faster, even cooking", "Catalytic self-cleaning liners", "3D-profile doors", "A energy rating", "2-year parts & labour warranty"],
-    "specs": [["Dimensions (H×W×D)", "89.4–91.2 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "77 L fan"], ["Second oven", "39 L conventional"], ["Cleaning", "Catalytic liners"], ["Finish", "Stainless steel"], ["Warranty", "2 years"]]
+    "features": [
+      "Double oven — 77L main fan + 39L top",
+      "Four-zone ceramic hob",
+      "HotAir even heat distribution",
+      "Ultrafan® faster, even cooking",
+      "Catalytic self-cleaning liners",
+      "3D-profile doors",
+      "A energy rating",
+      "2-year parts & labour warranty"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "89.4–91.2 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "77 L fan"
+      ],
+      [
+        "Second oven",
+        "39 L conventional"
+      ],
+      [
+        "Cleaning",
+        "Catalytic liners"
+      ],
+      [
+        "Finish",
+        "Stainless steel"
+      ],
+      [
+        "Warranty",
+        "2 years"
+      ]
+    ]
   },
   "LKR655200K": {
     "desc": "The Electrolux LKR655200K is a 60cm freestanding electric cooker in black with a double oven — a 77L main fan oven and a 39L conventional top oven — so you can cook several dishes at once. HotAir and Ultrafan® spread heat evenly, catalytic liners help keep the oven clean, and a responsive four-zone ceramic hob finishes it. A energy rated, 2-year warranty.",
-    "features": ["Double oven — 77L main fan + 39L top", "Four-zone ceramic hob", "HotAir even heat distribution", "Ultrafan® faster, even cooking", "Catalytic self-cleaning liners", "3D-profile doors", "A energy rating", "2-year parts & labour warranty"],
-    "specs": [["Dimensions (H×W×D)", "89.4–91.2 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "77 L fan"], ["Second oven", "39 L conventional"], ["Cleaning", "Catalytic liners"], ["Finish", "Black"], ["Warranty", "2 years"]]
+    "features": [
+      "Double oven — 77L main fan + 39L top",
+      "Four-zone ceramic hob",
+      "HotAir even heat distribution",
+      "Ultrafan® faster, even cooking",
+      "Catalytic self-cleaning liners",
+      "3D-profile doors",
+      "A energy rating",
+      "2-year parts & labour warranty"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "89.4–91.2 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "77 L fan"
+      ],
+      [
+        "Second oven",
+        "39 L conventional"
+      ],
+      [
+        "Cleaning",
+        "Catalytic liners"
+      ],
+      [
+        "Finish",
+        "Black"
+      ],
+      [
+        "Warranty",
+        "2 years"
+      ]
+    ]
   },
   "LKI655200X": {
     "desc": "The Electrolux LKI655200X is a 60cm freestanding cooker in stainless steel with a fast, precise induction hob and a double oven (77L main fan + 39L conventional). Induction heats only the base of your pan for quick, efficient and safer cooking, while catalytic liners make the oven easy to keep clean. A energy rated, with up to 5-year warranty on registration.",
-    "features": ["Four-zone induction hob — fast & precise", "Double oven — 77L main fan + 39L top", "Induction heats only the pan base — safer & efficient", "Catalytic self-cleaning liners", "Minute minder timer", "A energy rating", "2-year warranty (up to 5 years on registration)"],
-    "specs": [["Dimensions (H×W×D)", "91.2 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric — induction hob"], ["Hob", "4-zone induction"], ["Main oven", "77 L fan"], ["Second oven", "39 L conventional"], ["Cleaning", "Catalytic liners"], ["Finish", "Stainless steel"], ["Warranty", "2yr (5yr on registration)"]]
+    "features": [
+      "Four-zone induction hob — fast & precise",
+      "Double oven — 77L main fan + 39L top",
+      "Induction heats only the pan base — safer & efficient",
+      "Catalytic self-cleaning liners",
+      "Minute minder timer",
+      "A energy rating",
+      "2-year warranty (up to 5 years on registration)"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "91.2 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric — induction hob"
+      ],
+      [
+        "Hob",
+        "4-zone induction"
+      ],
+      [
+        "Main oven",
+        "77 L fan"
+      ],
+      [
+        "Second oven",
+        "39 L conventional"
+      ],
+      [
+        "Cleaning",
+        "Catalytic liners"
+      ],
+      [
+        "Finish",
+        "Stainless steel"
+      ],
+      [
+        "Warranty",
+        "2yr (5yr on registration)"
+      ]
+    ]
   },
   "LKR655210X": {
     "desc": "The Electrolux LKR655210X is a 60cm freestanding electric cooker in stainless steel with a built-in AirFry function — the benefits of a countertop air fryer, built in. A 77L main fan oven and 39L top oven with grill, PlusSteam baking and a four-zone ceramic hob round it off, with catalytic cleaning in both ovens. A energy rated, 2-year warranty.",
-    "features": ["Built-in AirFry function (uses AirFry tray)", "PlusSteam for better baking", "Double oven — 77L main fan + 39L top with grill", "Four-zone ceramic hob", "HotAir even cooking", "Catalytic cleaning in both ovens", "A energy rating", "2-year parts & labour warranty"],
-    "specs": [["Dimensions (H×W×D)", "89.4–91.2 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "77 L fan"], ["Second oven", "39 L + grill"], ["Special", "AirFry + PlusSteam"], ["Finish", "Stainless steel"], ["Warranty", "2 years"]]
+    "features": [
+      "Built-in AirFry function (uses AirFry tray)",
+      "PlusSteam for better baking",
+      "Double oven — 77L main fan + 39L top with grill",
+      "Four-zone ceramic hob",
+      "HotAir even cooking",
+      "Catalytic cleaning in both ovens",
+      "A energy rating",
+      "2-year parts & labour warranty"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "89.4–91.2 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "77 L fan"
+      ],
+      [
+        "Second oven",
+        "39 L + grill"
+      ],
+      [
+        "Special",
+        "AirFry + PlusSteam"
+      ],
+      [
+        "Finish",
+        "Stainless steel"
+      ],
+      [
+        "Warranty",
+        "2 years"
+      ]
+    ]
   },
   "HDM67V8D2CX/UK": {
     "desc": "The Hotpoint HDM67V8D2CX is a 60cm freestanding electric cooker in inox with two full fan ovens (70L main + 44L top, 114L total) and Multiflow technology for even results across up to five dishes at once. A steam function keeps bakes and roasts succulent, catalytic liners cut down cleaning, and a double display lets you run both ovens independently. A energy rated.",
-    "features": ["Two full fan ovens — 70L main + 44L top (114L)", "Multiflow even cooking — up to 5 dishes at once", "Steam function for succulent results", "Four-zone ceramic hob", "Catalytic self-cleaning liners", "Double display with independent timers", "A energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "70 L fan"], ["Second oven", "44 L fan"], ["Total capacity", "114 L"], ["Finish", "Inox / stainless"]]
+    "features": [
+      "Two full fan ovens — 70L main + 44L top (114L)",
+      "Multiflow even cooking — up to 5 dishes at once",
+      "Steam function for succulent results",
+      "Four-zone ceramic hob",
+      "Catalytic self-cleaning liners",
+      "Double display with independent timers",
+      "A energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "70 L fan"
+      ],
+      [
+        "Second oven",
+        "44 L fan"
+      ],
+      [
+        "Total capacity",
+        "114 L"
+      ],
+      [
+        "Finish",
+        "Inox / stainless"
+      ]
+    ]
   },
   "IDE6VMB": {
     "desc": "The Indesit IDE6VMB is a 60cm freestanding electric cooker in black with a double oven — a 69L main oven and a 36L top oven — and a four-zone ceramic hob with residual-heat indicators. Steam&Clean and Click&Clean make upkeep easy, and a smooth enamel interior stops grease sticking. A energy rated, with a 10-year parts guarantee.",
-    "features": ["Double oven — 69L main + 36L top", "Four-zone ceramic hob", "Residual heat indicators", "Steam&Clean — softens grease in 35 mins", "Click&Clean removable door glass", "Smooth easy-clean enamel", "A energy rating", "10-year parts guarantee"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "69 L"], ["Second oven", "36 L"], ["Cleaning", "Steam&Clean"], ["Finish", "Black"], ["Warranty", "10-year parts"]]
+    "features": [
+      "Double oven — 69L main + 36L top",
+      "Four-zone ceramic hob",
+      "Residual heat indicators",
+      "Steam&Clean — softens grease in 35 mins",
+      "Click&Clean removable door glass",
+      "Smooth easy-clean enamel",
+      "A energy rating",
+      "10-year parts guarantee"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "69 L"
+      ],
+      [
+        "Second oven",
+        "36 L"
+      ],
+      [
+        "Cleaning",
+        "Steam&Clean"
+      ],
+      [
+        "Finish",
+        "Black"
+      ],
+      [
+        "Warranty",
+        "10-year parts"
+      ]
+    ]
   },
   "HD5V92KCB/UK": {
     "desc": "The Hotpoint HD5V92KCB is a compact 50cm freestanding electric cooker in black — a great fit for smaller kitchens without losing a second oven. A twin-cavity design gives a 67L main fan oven and a 33L top oven (100L total), over a four-zone ceramic hob with residual-heat indicators. Catalytic liners help keep it clean. A energy rated.",
-    "features": ["Space-saving 50cm width", "Twin cavity — 67L main fan + 33L top (100L)", "Four-zone ceramic hob", "Residual heat indicators", "Catalytic self-cleaning liners", "Easy-wipe ceramic surface", "A energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 50 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "67 L fan"], ["Second oven", "33 L"], ["Total capacity", "100 L"], ["Finish", "Black"], ["Installation", "Hardwired"]]
+    "features": [
+      "Space-saving 50cm width",
+      "Twin cavity — 67L main fan + 33L top (100L)",
+      "Four-zone ceramic hob",
+      "Residual heat indicators",
+      "Catalytic self-cleaning liners",
+      "Easy-wipe ceramic surface",
+      "A energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 50 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "67 L fan"
+      ],
+      [
+        "Second oven",
+        "33 L"
+      ],
+      [
+        "Total capacity",
+        "100 L"
+      ],
+      [
+        "Finish",
+        "Black"
+      ],
+      [
+        "Installation",
+        "Hardwired"
+      ]
+    ]
   },
   "HDE6VDCASB1": {
     "desc": "The Hotpoint HDE6VDCASB1 is a 60cm freestanding electric cooker in black with a dedicated Air Fry programme and a 75L Multiflow main oven plus a 38L top oven (up to 126L). A fast-heating ceramic hob with a flexible double-ring zone and SteamAssist baking round it off, with catalytic liners for easy cleaning. A energy rated, 10-year parts guarantee.",
-    "features": ["Dedicated Air Fry programme — little to no oil", "75L Multiflow main oven + 38L top (126L)", "Ceramic hob with flexible double-ring zone", "SteamAssist for lighter pastries & golden crusts", "Catalytic self-cleaning liners", "Modern glass control panel", "A energy rating", "10-year parts / 1-year labour guarantee"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "Ceramic (double-ring zone)"], ["Main oven", "75 L Multiflow"], ["Second oven", "38 L"], ["Total capacity", "126 L"], ["Special", "Air Fry + SteamAssist"], ["Finish", "Black"], ["Warranty", "10yr parts / 1yr labour"]]
+    "features": [
+      "Dedicated Air Fry programme — little to no oil",
+      "75L Multiflow main oven + 38L top (126L)",
+      "Ceramic hob with flexible double-ring zone",
+      "SteamAssist for lighter pastries & golden crusts",
+      "Catalytic self-cleaning liners",
+      "Modern glass control panel",
+      "A energy rating",
+      "10-year parts / 1-year labour guarantee"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "Ceramic (double-ring zone)"
+      ],
+      [
+        "Main oven",
+        "75 L Multiflow"
+      ],
+      [
+        "Second oven",
+        "38 L"
+      ],
+      [
+        "Total capacity",
+        "126 L"
+      ],
+      [
+        "Special",
+        "Air Fry + SteamAssist"
+      ],
+      [
+        "Finish",
+        "Black"
+      ],
+      [
+        "Warranty",
+        "10yr parts / 1yr labour"
+      ]
+    ]
   },
   "HDT67V9H2CB/UK": {
     "desc": "The Hotpoint HDT67V9H2CB is a 60cm freestanding electric cooker in black with two ovens (77L main fan + 49L top with variable grill, 126L total) and Multiflow even cooking. A four-zone ceramic hob and catalytic liners in both cavities keep things simple, with programmable digital timers on each oven. A energy rated.",
-    "features": ["Two ovens — 77L main fan + 49L top with grill (126L)", "Multiflow even cooking", "Four-zone ceramic hob", "Catalytic liners in both ovens", "Programmable digital timer on each oven", "A energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "77 L fan"], ["Second oven", "49 L + grill"], ["Total capacity", "126 L"], ["Finish", "Black"]]
+    "features": [
+      "Two ovens — 77L main fan + 49L top with grill (126L)",
+      "Multiflow even cooking",
+      "Four-zone ceramic hob",
+      "Catalytic liners in both ovens",
+      "Programmable digital timer on each oven",
+      "A energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "77 L fan"
+      ],
+      [
+        "Second oven",
+        "49 L + grill"
+      ],
+      [
+        "Total capacity",
+        "126 L"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
   },
   "ITE5VMW": {
     "desc": "The Indesit ITE5VMW is a compact 50cm freestanding electric cooker in white — ideal for smaller kitchens. A twin-cavity layout pairs a 58L main oven with a top grill compartment, over a four-zone ceramic hob. Steam&Clean makes the oven easy to wipe out, and the door lifts off in two steps for cleaning. A energy rated, 10-year parts guarantee.",
-    "features": ["Space-saving 50cm width", "58L main oven + top grill compartment", "Four-zone ceramic hob", "Steam&Clean hydrolytic cleaning", "Removable oven door for easy cleaning", "Oven interior light", "A energy rating", "10-year parts guarantee"],
-    "specs": [["Dimensions (H×W×D)", "90 × 50 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "58 L"], ["Second cavity", "Grill"], ["Cleaning", "Steam&Clean"], ["Finish", "White"], ["Warranty", "10-year parts"]]
+    "features": [
+      "Space-saving 50cm width",
+      "58L main oven + top grill compartment",
+      "Four-zone ceramic hob",
+      "Steam&Clean hydrolytic cleaning",
+      "Removable oven door for easy cleaning",
+      "Oven interior light",
+      "A energy rating",
+      "10-year parts guarantee"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 50 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "58 L"
+      ],
+      [
+        "Second cavity",
+        "Grill"
+      ],
+      [
+        "Cleaning",
+        "Steam&Clean"
+      ],
+      [
+        "Finish",
+        "White"
+      ],
+      [
+        "Warranty",
+        "10-year parts"
+      ]
+    ]
   },
   "BECLA60CEK": {
     "desc": "The Leisure BECLA60CEK is a 60cm freestanding electric cooker in black from the Classic range. Twin ovens — a 75L main fan oven and a 38L conventional second oven with integrated grill — sit over a four-zone ceramic hob with a hot-hob warning light. A fully programmable timer and catalytic liners make it easy to live with. A energy rated.",
-    "features": ["Twin ovens — 75L main fan + 38L second with grill", "Four-zone ceramic hob", "Hot-hob warning indicator", "Triple-glazed main oven window & interior light", "Fully programmable timer with LED display", "Catalytic self-cleaning liners", "A energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 59.5 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "75 L fan"], ["Second oven", "38 L conventional"], ["Cleaning", "Catalytic liners"], ["Finish", "Black"]]
+    "features": [
+      "Twin ovens — 75L main fan + 38L second with grill",
+      "Four-zone ceramic hob",
+      "Hot-hob warning indicator",
+      "Triple-glazed main oven window & interior light",
+      "Fully programmable timer with LED display",
+      "Catalytic self-cleaning liners",
+      "A energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 59.5 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "75 L fan"
+      ],
+      [
+        "Second oven",
+        "38 L conventional"
+      ],
+      [
+        "Cleaning",
+        "Catalytic liners"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
   },
   "CDEC62IX": {
     "desc": "The Nordmende CDEC62IX is a 60cm freestanding electric cooker in stainless steel with twin cavities — a 63L main fan oven and a 36L top oven with grill — over a four-zone ceramic hob. Residual-heat indicators, child lock and a timer add convenience, and an easy-clean enamel interior keeps upkeep low. A energy rated, 3-year warranty on registration.",
-    "features": ["Twin cavity — 63L main fan + 36L top with grill", "Four-zone ceramic hob", "Residual heat indicators & child lock", "Auto-off and timer functions", "Easy-clean enamel interior", "A energy rating", "3-year warranty (on registration)"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "63 L fan"], ["Second oven", "36 L + grill"], ["Finish", "Stainless steel"], ["Warranty", "3 years (on registration)"]]
+    "features": [
+      "Twin cavity — 63L main fan + 36L top with grill",
+      "Four-zone ceramic hob",
+      "Residual heat indicators & child lock",
+      "Auto-off and timer functions",
+      "Easy-clean enamel interior",
+      "A energy rating",
+      "3-year warranty (on registration)"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "63 L fan"
+      ],
+      [
+        "Second oven",
+        "36 L + grill"
+      ],
+      [
+        "Finish",
+        "Stainless steel"
+      ],
+      [
+        "Warranty",
+        "3 years (on registration)"
+      ]
+    ]
   },
   "CTEC53BK": {
     "desc": "The Nordmende CTEC53BK is a compact 50cm twin-cavity electric cooker in black. A 50L main fan oven and a 31L top grill cavity give flexible cooking in a small footprint, over a four-zone ceramic hob with residual-heat indicators. Easy-clean enamel keeps maintenance simple. A energy rated, 3-year warranty.",
-    "features": ["Space-saving 50cm width", "Twin cavity — 50L main fan + 31L grill", "Four-zone ceramic hob", "Residual heat indicators", "Easy-clean enamel interior", "A energy rating", "3-year warranty"],
-    "specs": [["Dimensions (H×W×D)", "90 × 50 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "50 L fan"], ["Second cavity", "31 L grill"], ["Finish", "Black"], ["Warranty", "3 years"]]
+    "features": [
+      "Space-saving 50cm width",
+      "Twin cavity — 50L main fan + 31L grill",
+      "Four-zone ceramic hob",
+      "Residual heat indicators",
+      "Easy-clean enamel interior",
+      "A energy rating",
+      "3-year warranty"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 50 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "50 L fan"
+      ],
+      [
+        "Second cavity",
+        "31 L grill"
+      ],
+      [
+        "Finish",
+        "Black"
+      ],
+      [
+        "Warranty",
+        "3 years"
+      ]
+    ]
   },
   "CTEC62WH": {
     "desc": "The Nordmende CTEC62WH is a 60cm twin-cavity electric cooker in white. A 58L main fan oven and a 35L top grill cavity give two-oven flexibility, over a four-zone ceramic hob with residual-heat indicators. Easy-clean enamel and a mechanical timer keep it straightforward. A energy rated, 3-year warranty on registration.",
-    "features": ["Twin cavity — 58L main fan + 35L grill", "Four-zone ceramic hob", "Residual heat indicators", "Mechanical timer", "Easy-clean enamel interior", "A energy rating", "3-year warranty (on registration)"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "58 L fan"], ["Second cavity", "35 L grill"], ["Finish", "White"], ["Warranty", "3 years (on registration)"]]
+    "features": [
+      "Twin cavity — 58L main fan + 35L grill",
+      "Four-zone ceramic hob",
+      "Residual heat indicators",
+      "Mechanical timer",
+      "Easy-clean enamel interior",
+      "A energy rating",
+      "3-year warranty (on registration)"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "58 L fan"
+      ],
+      [
+        "Second cavity",
+        "35 L grill"
+      ],
+      [
+        "Finish",
+        "White"
+      ],
+      [
+        "Warranty",
+        "3 years (on registration)"
+      ]
+    ]
   },
   "P06C2MDBL": {
     "desc": "The Powerpoint P06C2MDBL is a 60cm freestanding electric cooker in black with a double cavity — a 69L fan main oven and a 38L top oven/grill — over a four-zone ceramic hob with hot-surface indicators. A black enamel coating wipes clean easily, and it ships with a tip-over safety bracket. A energy rated.",
-    "features": ["Double cavity — 69L fan main oven + 38L top/grill", "Four-zone ceramic hob (radiant + highlite)", "Hot-surface & thermostat indicator lights", "Open-door grilling in top cavity", "Easy-clean black enamel", "Tip-over safety bracket included", "Timer control", "A energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Hob", "4-zone ceramic"], ["Main oven", "69 L fan"], ["Second oven", "38 L + grill"], ["Weight", "58 kg"], ["Finish", "Black"]]
+    "features": [
+      "Double cavity — 69L fan main oven + 38L top/grill",
+      "Four-zone ceramic hob (radiant + highlite)",
+      "Hot-surface & thermostat indicator lights",
+      "Open-door grilling in top cavity",
+      "Easy-clean black enamel",
+      "Tip-over safety bracket included",
+      "Timer control",
+      "A energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Hob",
+        "4-zone ceramic"
+      ],
+      [
+        "Main oven",
+        "69 L fan"
+      ],
+      [
+        "Second oven",
+        "38 L + grill"
+      ],
+      [
+        "Weight",
+        "58 kg"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
   },
   "HDM67G8CCB/UK": {
     "desc": "The Hotpoint HDM67G8CCB is a 60cm dual-fuel cooker in black — a four-burner gas hob with two electric ovens (71L multifunction main + 44L top). Multifunction fan cooking, catalytic stay-clean liners and halogen interior lighting make it easy to live with, and the door glass lifts out for cleaning. A/A energy rated.",
-    "features": ["Dual fuel — gas hob with electric ovens", "Two ovens — 71L multifunction main + 44L top", "Four gas burners", "Multifunction fan-assisted main oven", "Catalytic stay-clean liners", "Halogen interior lighting", "Removable door glass", "A/A energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A/A"], ["Fuel", "Dual fuel"], ["Hob", "4 gas burners"], ["Main oven", "71 L multifunction"], ["Second oven", "44 L"], ["Cleaning", "Catalytic liners"], ["Finish", "Black"], ["Weight", "62.4 kg"]]
+    "features": [
+      "Dual fuel — gas hob with electric ovens",
+      "Two ovens — 71L multifunction main + 44L top",
+      "Four gas burners",
+      "Multifunction fan-assisted main oven",
+      "Catalytic stay-clean liners",
+      "Halogen interior lighting",
+      "Removable door glass",
+      "A/A energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A/A"
+      ],
+      [
+        "Fuel",
+        "Dual fuel"
+      ],
+      [
+        "Hob",
+        "4 gas burners"
+      ],
+      [
+        "Main oven",
+        "71 L multifunction"
+      ],
+      [
+        "Second oven",
+        "44 L"
+      ],
+      [
+        "Cleaning",
+        "Catalytic liners"
+      ],
+      [
+        "Finish",
+        "Black"
+      ],
+      [
+        "Weight",
+        "62.4 kg"
+      ]
+    ]
   },
   "HDM67G0C2CB": {
     "desc": "The Hotpoint HDM67G0C2CB is a 60cm double-oven gas cooker in black with two fan ovens (up to 84L of space, six shelf levels). Its four-burner gas hob includes a Triple Crown wok burner that cooks up to 15% faster, with 10-level flame control and a flame-failure safety device. Catalytic liners keep cleaning easy. A+ energy rated.",
-    "features": ["Two gas fan ovens — up to 84L, six shelf levels", "Four-burner gas hob with Triple Crown wok burner", "10-level flame control", "Flame-failure safety device", "Catalytic self-cleaning liners", "Removable door glass", "Digital display timer", "A+ energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A+"], ["Fuel", "Gas (natural)"], ["Hob", "4 gas burners (Triple Crown wok)"], ["Ovens", "2 fan ovens"], ["Capacity", "up to 84 L"], ["Cleaning", "Catalytic liners"], ["Finish", "Black"]]
+    "features": [
+      "Two gas fan ovens — up to 84L, six shelf levels",
+      "Four-burner gas hob with Triple Crown wok burner",
+      "10-level flame control",
+      "Flame-failure safety device",
+      "Catalytic self-cleaning liners",
+      "Removable door glass",
+      "Digital display timer",
+      "A+ energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A+"
+      ],
+      [
+        "Fuel",
+        "Gas (natural)"
+      ],
+      [
+        "Hob",
+        "4 gas burners (Triple Crown wok)"
+      ],
+      [
+        "Ovens",
+        "2 fan ovens"
+      ],
+      [
+        "Capacity",
+        "up to 84 L"
+      ],
+      [
+        "Cleaning",
+        "Catalytic liners"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
   },
   "HDM67G0C2CX/U": {
     "desc": "The Hotpoint HDM67G0C2CX is a 60cm double-oven gas cooker with two fan ovens (up to 84L, six shelf levels) and a four-burner gas hob including a Triple Crown wok burner that cooks up to 15% faster. It's LPG-convertible for homes without natural gas, with 10-level flame control, a flame-failure device and catalytic liners. A+ energy rated.",
-    "features": ["Two gas fan ovens — up to 84L, six shelf levels", "Four-burner gas hob with Triple Crown wok burner", "LPG-convertible (kit) for bottled gas", "10-level flame control", "Flame-failure safety device", "Catalytic self-cleaning liners", "A+ energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A+"], ["Fuel", "Gas (natural) — LPG convertible"], ["Hob", "4 gas burners (Triple Crown wok)"], ["Ovens", "2 fan ovens"], ["Capacity", "up to 84 L"], ["Cleaning", "Catalytic liners"]]
+    "features": [
+      "Two gas fan ovens — up to 84L, six shelf levels",
+      "Four-burner gas hob with Triple Crown wok burner",
+      "LPG-convertible (kit) for bottled gas",
+      "10-level flame control",
+      "Flame-failure safety device",
+      "Catalytic self-cleaning liners",
+      "A+ energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A+"
+      ],
+      [
+        "Fuel",
+        "Gas (natural) — LPG convertible"
+      ],
+      [
+        "Hob",
+        "4 gas burners (Triple Crown wok)"
+      ],
+      [
+        "Ovens",
+        "2 fan ovens"
+      ],
+      [
+        "Capacity",
+        "up to 84 L"
+      ],
+      [
+        "Cleaning",
+        "Catalytic liners"
+      ]
+    ]
   },
   "HTG5GCB": {
     "desc": "The Hotpoint HTG5GCB is a compact 50cm double-oven gas cooker in black — a 59L main oven plus a second grill cavity in a small footprint. Four gas burners with auto-ignition, a fast 5-minute preheat and catalytic liners make everyday cooking easy, and it includes an LPG conversion kit. A+ energy rated.",
-    "features": ["Space-saving 50cm width", "59L main oven + second grill cavity", "Four gas burners with auto-ignition", "Fast Preheat — ready in ~5 minutes", "Catalytic self-cleaning liners", "LPG conversion kit included", "A+ energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 50 × 60 cm"], ["Energy rating", "A+"], ["Fuel", "Gas (natural) — LPG kit included"], ["Hob", "4 gas burners"], ["Main oven", "59 L"], ["Second cavity", "Grill"], ["Cleaning", "Catalytic liners"], ["Finish", "Black"]]
+    "features": [
+      "Space-saving 50cm width",
+      "59L main oven + second grill cavity",
+      "Four gas burners with auto-ignition",
+      "Fast Preheat — ready in ~5 minutes",
+      "Catalytic self-cleaning liners",
+      "LPG conversion kit included",
+      "A+ energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 50 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A+"
+      ],
+      [
+        "Fuel",
+        "Gas (natural) — LPG kit included"
+      ],
+      [
+        "Hob",
+        "4 gas burners"
+      ],
+      [
+        "Main oven",
+        "59 L"
+      ],
+      [
+        "Second cavity",
+        "Grill"
+      ],
+      [
+        "Cleaning",
+        "Catalytic liners"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
   },
   "ID67GOMCB/UK": {
     "desc": "The Indesit ID67G0MCB is a 60cm double-oven gas cooker in black with two gas ovens (84L main + 42L top) and a four-burner gas hob with a lid. A 10-step flame hob gives precise heat, catalytic liners lift out grease as you cook, and the Click&Clean inner door glass removes for easy cleaning. Central display with minute-minder timer.",
-    "features": ["Two gas ovens — 84L main + 42L top", "Four-burner gas hob with lid", "10-step flame control", "Catalytic self-cleaning liners", "Click&Clean removable door glass", "Central display with minute minder", "Gas grill in top cavity"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A/A"], ["Fuel", "Gas (natural)"], ["Hob", "4 gas burners"], ["Main oven", "84 L"], ["Second oven", "42 L"], ["Cleaning", "Catalytic liners"], ["Finish", "Black"]]
+    "features": [
+      "Two gas ovens — 84L main + 42L top",
+      "Four-burner gas hob with lid",
+      "10-step flame control",
+      "Catalytic self-cleaning liners",
+      "Click&Clean removable door glass",
+      "Central display with minute minder",
+      "Gas grill in top cavity"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A/A"
+      ],
+      [
+        "Fuel",
+        "Gas (natural)"
+      ],
+      [
+        "Hob",
+        "4 gas burners"
+      ],
+      [
+        "Main oven",
+        "84 L"
+      ],
+      [
+        "Second oven",
+        "42 L"
+      ],
+      [
+        "Cleaning",
+        "Catalytic liners"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
   },
   "ID67GOMCW/UK": {
     "desc": "The Indesit ID67G0MCW is a 60cm double-oven gas cooker in white with two gas ovens (84L main + 42L top) and a four-burner gas hob with a lid. Mains gas with an LPG conversion kit included, a 10-step flame hob, catalytic liners and a Click&Clean inner door make it easy to run. Central display with minute-minder timer.",
-    "features": ["Two gas ovens — 84L main + 42L top", "Four-burner gas hob with lid", "Mains gas — LPG conversion kit included", "10-step flame control", "Catalytic self-cleaning liners", "Click&Clean removable door glass", "Central display with minute minder"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A/A"], ["Fuel", "Gas (natural) — LPG kit included"], ["Hob", "4 gas burners"], ["Main oven", "84 L"], ["Second oven", "42 L"], ["Cleaning", "Catalytic liners"], ["Finish", "White"]]
+    "features": [
+      "Two gas ovens — 84L main + 42L top",
+      "Four-burner gas hob with lid",
+      "Mains gas — LPG conversion kit included",
+      "10-step flame control",
+      "Catalytic self-cleaning liners",
+      "Click&Clean removable door glass",
+      "Central display with minute minder"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A/A"
+      ],
+      [
+        "Fuel",
+        "Gas (natural) — LPG kit included"
+      ],
+      [
+        "Hob",
+        "4 gas burners"
+      ],
+      [
+        "Main oven",
+        "84 L"
+      ],
+      [
+        "Second oven",
+        "42 L"
+      ],
+      [
+        "Cleaning",
+        "Catalytic liners"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
   },
   "BECLA60GAK": {
     "desc": "The Leisure BECLA60GAK is a 60cm double-oven gas cooker in black from the Classic range. A large 78L main oven, a 34L second conventional oven and a separate full-width gas grill give real flexibility, over four gas burners on cast-iron pan supports with a flame-supervision safety device. LPG-convertible, with an LED display and timer. A energy rated.",
-    "features": ["Large 78L main oven + 34L second oven", "Separate full-width gas grill", "Four gas burners on cast-iron supports", "Flame supervision safety device (FSD)", "LPG-convertible", "Catalytic cook-clean liners", "LED display with timer & auto-off", "A energy rating"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Gas — LPG convertible"], ["Hob", "4 gas burners (cast iron)"], ["Main oven", "78 L"], ["Second oven", "34 L"], ["Grill", "Separate full-width"], ["Finish", "Black"]]
+    "features": [
+      "Large 78L main oven + 34L second oven",
+      "Separate full-width gas grill",
+      "Four gas burners on cast-iron supports",
+      "Flame supervision safety device (FSD)",
+      "LPG-convertible",
+      "Catalytic cook-clean liners",
+      "LED display with timer & auto-off",
+      "A energy rating"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Gas — LPG convertible"
+      ],
+      [
+        "Hob",
+        "4 gas burners (cast iron)"
+      ],
+      [
+        "Main oven",
+        "78 L"
+      ],
+      [
+        "Second oven",
+        "34 L"
+      ],
+      [
+        "Grill",
+        "Separate full-width"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
   },
   "CTG51WH": {
     "desc": "The Nordmende CTG51WH is a compact 50cm twin-cavity natural-gas cooker in white. Four gas burners sit over a 53L main oven with a 29L top grill cavity — flexible cooking for a small kitchen. Enamel pan supports and easy-clean enamel keep upkeep low, with a mechanical timer. A+ energy rated, 3-year warranty.",
-    "features": ["Space-saving 50cm width", "Four gas burners", "53L main oven + 29L top grill cavity", "Enamel pan supports", "Easy-clean enamel interior", "Mechanical timer", "A+ energy rating", "3-year warranty"],
-    "specs": [["Dimensions (H×W×D)", "90 × 50 × 60 cm"], ["Energy rating", "A+"], ["Fuel", "Gas (natural)"], ["Hob", "4 gas burners"], ["Main oven", "53 L"], ["Top cavity", "29 L grill"], ["Finish", "White"], ["Warranty", "3 years"]]
+    "features": [
+      "Space-saving 50cm width",
+      "Four gas burners",
+      "53L main oven + 29L top grill cavity",
+      "Enamel pan supports",
+      "Easy-clean enamel interior",
+      "Mechanical timer",
+      "A+ energy rating",
+      "3-year warranty"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 50 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A+"
+      ],
+      [
+        "Fuel",
+        "Gas (natural)"
+      ],
+      [
+        "Hob",
+        "4 gas burners"
+      ],
+      [
+        "Main oven",
+        "53 L"
+      ],
+      [
+        "Top cavity",
+        "29 L grill"
+      ],
+      [
+        "Finish",
+        "White"
+      ],
+      [
+        "Warranty",
+        "3 years"
+      ]
+    ]
   },
   "CTG52LPGBK": {
     "desc": "The Nordmende CTG52LPGBK is a compact 50cm twin-cavity LPG (bottled-gas) cooker in black. Four gas burners over a 53L main oven with a 29L top grill cavity make it a flexible choice where there's no mains gas. Enamel pan supports, easy-clean enamel and button ignition keep it simple. A+ energy rated, 3-year warranty.",
-    "features": ["Space-saving 50cm width", "Runs on LPG / bottled gas", "Four gas burners", "53L main oven + 29L top grill cavity", "Button ignition", "Easy-clean enamel & enamel pan supports", "A+ energy rating", "3-year warranty"],
-    "specs": [["Dimensions (H×W×D)", "90 × 50 × 60 cm"], ["Energy rating", "A+"], ["Fuel", "Gas (LPG)"], ["Hob", "4 gas burners"], ["Main oven", "53 L"], ["Top cavity", "29 L grill"], ["Finish", "Black"], ["Warranty", "3 years"]]
+    "features": [
+      "Space-saving 50cm width",
+      "Runs on LPG / bottled gas",
+      "Four gas burners",
+      "53L main oven + 29L top grill cavity",
+      "Button ignition",
+      "Easy-clean enamel & enamel pan supports",
+      "A+ energy rating",
+      "3-year warranty"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 50 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A+"
+      ],
+      [
+        "Fuel",
+        "Gas (LPG)"
+      ],
+      [
+        "Hob",
+        "4 gas burners"
+      ],
+      [
+        "Main oven",
+        "53 L"
+      ],
+      [
+        "Top cavity",
+        "29 L grill"
+      ],
+      [
+        "Finish",
+        "Black"
+      ],
+      [
+        "Warranty",
+        "3 years"
+      ]
+    ]
   },
   "CTG61BK": {
     "desc": "The Nordmende CTG61BK is a 60cm twin-cavity natural-gas cooker in black. Four gas burners sit over a roomy 62L main oven with a 33L top grill cavity. Enamel pan supports, easy-clean enamel and button ignition keep it straightforward, with a mechanical timer. A energy rated, 3-year warranty.",
-    "features": ["Four gas burners", "Roomy 62L main oven + 33L top grill cavity", "Button ignition", "Enamel pan supports", "Easy-clean enamel interior", "Mechanical timer", "A energy rating", "3-year warranty"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Energy rating", "A"], ["Fuel", "Gas (natural)"], ["Hob", "4 gas burners"], ["Main oven", "62 L"], ["Top cavity", "33 L grill"], ["Finish", "Black"], ["Warranty", "3 years"]]
+    "features": [
+      "Four gas burners",
+      "Roomy 62L main oven + 33L top grill cavity",
+      "Button ignition",
+      "Enamel pan supports",
+      "Easy-clean enamel interior",
+      "Mechanical timer",
+      "A energy rating",
+      "3-year warranty"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Gas (natural)"
+      ],
+      [
+        "Hob",
+        "4 gas burners"
+      ],
+      [
+        "Main oven",
+        "62 L"
+      ],
+      [
+        "Top cavity",
+        "33 L grill"
+      ],
+      [
+        "Finish",
+        "Black"
+      ],
+      [
+        "Warranty",
+        "3 years"
+      ]
+    ]
   },
   "CTG62LPGBK": {
     "desc": "The Nordmende CTG62LPGBK is a 60cm twin-cavity LPG (bottled-gas) cooker in black, pre-set LPG-ready so no conversion is needed. Four gas burners sit over a 62L main oven with a 33L top grill cavity. Enamel pan supports, easy-clean enamel and button ignition keep it simple. 3-year guarantee.",
-    "features": ["Pre-set LPG-ready — no conversion needed", "Four gas burners", "62L main oven + 33L top grill cavity", "Button ignition", "Easy-clean enamel & enamel pan supports", "Mechanical timer", "Grill pan & 3 shelves included", "3-year guarantee"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Fuel", "Gas (LPG)"], ["Hob", "4 gas burners"], ["Main oven", "62 L"], ["Top cavity", "33 L grill"], ["Ignition", "Button"], ["Finish", "Black"], ["Warranty", "3 years"]]
+    "features": [
+      "Pre-set LPG-ready — no conversion needed",
+      "Four gas burners",
+      "62L main oven + 33L top grill cavity",
+      "Button ignition",
+      "Easy-clean enamel & enamel pan supports",
+      "Mechanical timer",
+      "Grill pan & 3 shelves included",
+      "3-year guarantee"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Fuel",
+        "Gas (LPG)"
+      ],
+      [
+        "Hob",
+        "4 gas burners"
+      ],
+      [
+        "Main oven",
+        "62 L"
+      ],
+      [
+        "Top cavity",
+        "33 L grill"
+      ],
+      [
+        "Ignition",
+        "Button"
+      ],
+      [
+        "Finish",
+        "Black"
+      ],
+      [
+        "Warranty",
+        "3 years"
+      ]
+    ]
   },
   "CTG62LPGWH": {
     "desc": "The Nordmende CTG62LPGWH is a 60cm twin-cavity LPG (bottled-gas) cooker in white, pre-set LPG-ready so no conversion is needed. Four gas burners sit over a 62L main oven with a 33L top grill cavity. Enamel pan supports, easy-clean enamel and button ignition keep it simple. 3-year guarantee.",
-    "features": ["Pre-set LPG-ready — no conversion needed", "Four gas burners", "62L main oven + 33L top grill cavity", "Button ignition", "Easy-clean enamel & enamel pan supports", "Mechanical timer", "Grill pan & 3 shelves included", "3-year guarantee"],
-    "specs": [["Dimensions (H×W×D)", "90 × 60 × 60 cm"], ["Fuel", "Gas (LPG)"], ["Hob", "4 gas burners"], ["Main oven", "62 L"], ["Top cavity", "33 L grill"], ["Ignition", "Button"], ["Finish", "White"], ["Warranty", "3 years"]]
+    "features": [
+      "Pre-set LPG-ready — no conversion needed",
+      "Four gas burners",
+      "62L main oven + 33L top grill cavity",
+      "Button ignition",
+      "Easy-clean enamel & enamel pan supports",
+      "Mechanical timer",
+      "Grill pan & 3 shelves included",
+      "3-year guarantee"
+    ],
+    "specs": [
+      [
+        "Dimensions (H×W×D)",
+        "90 × 60 × 60 cm"
+      ],
+      [
+        "Fuel",
+        "Gas (LPG)"
+      ],
+      [
+        "Hob",
+        "4 gas burners"
+      ],
+      [
+        "Main oven",
+        "62 L"
+      ],
+      [
+        "Top cavity",
+        "33 L grill"
+      ],
+      [
+        "Ignition",
+        "Button"
+      ],
+      [
+        "Finish",
+        "White"
+      ],
+      [
+        "Warranty",
+        "3 years"
+      ]
+    ]
   },
   "EOA5651BAK": {
     "desc": "The Electrolux EOA5651BAK is a built-in single electric oven with a generous 71L cavity and an XL fan with air-guide design for even results on every shelf. A fast heat-up mode, LED display with start/end timer and retractable rotary knobs make it easy to use. A energy rated. (Built-in oven — installs into a tall housing unit; hob not included.)",
-    "features": ["71L single cavity — generous capacity", "XL fan with air-guide for even cooking", "Fast heat-up mode", "LED display with start/end time selection", "Retractable rotary knobs", "Oven interior light", "A energy rating", "Built-in — fits a standard tall housing"],
-    "specs": [["Type", "Built-in single oven"], ["Energy rating", "A"], ["Fuel", "Electric"], ["Capacity", "71 L"], ["Fan", "XL with air-guide"], ["Controls", "LED display + retractable knobs"], ["Weight", "37.5 kg"]]
+    "features": [
+      "71L single cavity — generous capacity",
+      "XL fan with air-guide for even cooking",
+      "Fast heat-up mode",
+      "LED display with start/end time selection",
+      "Retractable rotary knobs",
+      "Oven interior light",
+      "A energy rating",
+      "Built-in — fits a standard tall housing"
+    ],
+    "specs": [
+      [
+        "Type",
+        "Built-in single oven"
+      ],
+      [
+        "Energy rating",
+        "A"
+      ],
+      [
+        "Fuel",
+        "Electric"
+      ],
+      [
+        "Capacity",
+        "71 L"
+      ],
+      [
+        "Fan",
+        "XL with air-guide"
+      ],
+      [
+        "Controls",
+        "LED display + retractable knobs"
+      ],
+      [
+        "Weight",
+        "37.5 kg"
+      ]
+    ]
+  },
+  "KGV33VLEAG": {
+    "desc": "The Bosch KGV33VLEAG is a 60/40 freestanding fridge freezer in stainless steel from the Series 4 range, with a generous 287-litre capacity (193L fridge / 94L freezer). Low Frost technology cuts down on ice build-up and defrosting, and at 39dB it runs quietly. E energy rated.",
+    "features": [
+      "Series 4 — 287L total (193L fridge / 94L freezer)",
+      "60/40 split — more fridge space",
+      "Low Frost — less defrosting",
+      "Quiet 39dB operation",
+      "Freezer at the bottom",
+      "Stainless steel finish",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "287 L"
+      ],
+      [
+        "Fridge / freezer",
+        "193 L / 94 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "176 × 60 × 65 cm"
+      ],
+      [
+        "Defrost",
+        "Low Frost"
+      ],
+      [
+        "Noise",
+        "39 dB"
+      ],
+      [
+        "Finish",
+        "Stainless steel"
+      ]
+    ]
+  },
+  "CCH1S513EWK-1": {
+    "desc": "The Candy CCH1S513EWK-1 is a slim 55cm 50/50 fridge freezer in white — a space-efficient 185-litre design (114L fridge / 71L freezer) for smaller kitchens. It has an XL salad crisper, three freezer drawers and a reversible door. E energy rated.",
+    "features": [
+      "Slim 55cm — 185L (114L fridge / 71L freezer)",
+      "50/50 split",
+      "XL salad crisper",
+      "Three clear freezer drawers",
+      "Reversible door",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "185 L"
+      ],
+      [
+        "Fridge / freezer",
+        "114 L / 71 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "136.2 × 55 × 58 cm"
+      ],
+      [
+        "Defrost",
+        "Manual"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "LNT6ME33KO": {
+    "desc": "The Electrolux LNT6ME33KO is a tall 60/40 frost-free fridge freezer in matt black with a large 230-litre fridge and a 101-litre freezer. TwinTech® dual cooling keeps fridge humidity up so food stays fresh while the freezer stays frost-free. E energy rated.",
+    "features": [
+      "Large capacity — 230L fridge / 101L freezer",
+      "TwinTech® NoFrost dual cooling",
+      "Frost-free — no manual defrosting",
+      "4-star freezer rating",
+      "Matt black finish",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "331 L"
+      ],
+      [
+        "Fridge / freezer",
+        "230 L / 101 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "186 × 60 × 65 cm"
+      ],
+      [
+        "Defrost",
+        "No Frost"
+      ],
+      [
+        "Finish",
+        "Matt black"
+      ]
+    ]
+  },
+  "LNT6NE18S": {
+    "desc": "The Electrolux LNT6NE18S is a 70/30 integrated fridge freezer from the Series 600 range, built in behind a cabinet door with a 195-litre fridge and a 62-litre frost-free freezer. TwinTech® No Frost keeps produce fresh and the freezer ice-free, and at 35dB it's very quiet. E energy rated.",
+    "features": [
+      "Integrated 70/30 — fits behind a cabinet door",
+      "195L fridge / 62L freezer",
+      "TwinTech® No Frost dual cooling",
+      "Very quiet — 35dB",
+      "LED lighting",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "Integrated (built-in)"
+      ],
+      [
+        "Total capacity",
+        "257 L"
+      ],
+      [
+        "Fridge / freezer",
+        "195 L / 62 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "177.2 × 54.6 × 54.9 cm"
+      ],
+      [
+        "Defrost",
+        "No Frost"
+      ],
+      [
+        "Noise",
+        "35 dB"
+      ]
+    ]
+  },
+  "HCR3818ENMG(UK)": {
+    "desc": "The Haier HCR3818ENMG (Cube 83 Series 3) is a four-door American-style fridge freezer in gentle silver, with a huge 467-litre capacity (311L fridge / 156L freezer). Total No Frost, an adjustable My Zone compartment and an inverter compressor make it a quiet, flexible centrepiece. E energy rated, 10-year parts warranty.",
+    "features": [
+      "Four-door American style — 467L (311L / 156L)",
+      "Total No Frost",
+      "Adjustable My Zone compartment",
+      "Inverter compressor — quiet & efficient",
+      "Daylight LED lighting",
+      "E energy rating",
+      "10-year parts warranty"
+    ],
+    "specs": [
+      [
+        "Type",
+        "American 4-door"
+      ],
+      [
+        "Total capacity",
+        "467 L"
+      ],
+      [
+        "Fridge / freezer",
+        "311 L / 156 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "181.5 × 83.3 × 65 cm"
+      ],
+      [
+        "Defrost",
+        "Total No Frost"
+      ],
+      [
+        "Finish",
+        "Silver / inox"
+      ]
+    ]
+  },
+  "HFR5719EWPB": {
+    "desc": "The Haier HFR5719EWPB (FD 70 Series 5) is a four-door American-style fridge freezer in slate black, with a 444-litre capacity (304L fridge / 140L freezer) and a non-plumbed water dispenser. Total No Frost, an adaptable MyZone® compartment and LED lighting round it off. E energy rated.",
+    "features": [
+      "Four-door American style — 444L (304L / 140L)",
+      "Non-plumbed water dispenser",
+      "Total No Frost",
+      "Adaptable MyZone® compartment",
+      "LED interior lighting",
+      "Slate black finish",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "American 4-door"
+      ],
+      [
+        "Total capacity",
+        "444 L"
+      ],
+      [
+        "Fridge / freezer",
+        "304 L / 140 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "190 × 70 × 67.5 cm"
+      ],
+      [
+        "Defrost",
+        "Total No Frost"
+      ],
+      [
+        "Finish",
+        "Slate black"
+      ]
+    ]
+  },
+  "HSW59F18DIMM": {
+    "desc": "The Haier HSW59F18DIMM (SBS 90 Series 5) is a side-by-side American-style fridge freezer in platinum inox with a massive 601-litre capacity (391L fridge / 210L freezer) and a plumbed ice & water dispenser. Total No Frost, inverter cooling and Wi-Fi/hOn app control make it a premium, quiet centrepiece. D energy rated.",
+    "features": [
+      "Side-by-side American style — 601L (391L / 210L)",
+      "Plumbed ice & water dispenser",
+      "Total No Frost",
+      "Inverter compressor — quiet 36dB",
+      "Wi-Fi & hOn app control",
+      "Platinum inox finish",
+      "D energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "American side-by-side"
+      ],
+      [
+        "Total capacity",
+        "601 L"
+      ],
+      [
+        "Fridge / freezer",
+        "391 L / 210 L"
+      ],
+      [
+        "Energy rating",
+        "D"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "177.5 × 90.5 × 72.6 cm"
+      ],
+      [
+        "Defrost",
+        "Total No Frost"
+      ],
+      [
+        "Noise",
+        "36 dB"
+      ]
+    ]
+  },
+  "HTW5618ENMG(UK)": {
+    "desc": "The Haier HTW5618ENMG (3D 60 Series 5) is a 60/40 three-door fridge freezer in stainless steel, with 360 litres (235L fridge / 125L freezer) and easy-access freezer drawers. Total No Frost, a 90%-humidity zone and Wi-Fi/hOn control keep food fresher for longer. E energy rated.",
+    "features": [
+      "Three-door 60/40 — 360L (235L / 125L)",
+      "Total No Frost",
+      "Humidity Zone (HCS) keeps produce fresh",
+      "Easy-access freezer drawers",
+      "Wi-Fi & hOn app control",
+      "Stainless steel finish",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "3-door bottom freezer"
+      ],
+      [
+        "Total capacity",
+        "360 L"
+      ],
+      [
+        "Fridge / freezer",
+        "235 L / 125 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "185 × 59.5 × 66.7 cm"
+      ],
+      [
+        "Defrost",
+        "Total No Frost"
+      ],
+      [
+        "Finish",
+        "Stainless steel"
+      ]
+    ]
+  },
+  "RS694N4IBE": {
+    "desc": "The Hisense RS694N4IBE is an American-style side-by-side fridge freezer in black with a generous 562-litre capacity (371L fridge / 191L freezer) and a plumbed ice & water dispenser. No Frost+ removes manual defrosting, a multi-airflow system keeps temperatures even, and an inverter compressor keeps it quiet. E energy rated.",
+    "features": [
+      "American side-by-side — 562L (371L / 191L)",
+      "Plumbed ice & water dispenser",
+      "No Frost+ — no manual defrosting",
+      "Multi-Airflow even cooling",
+      "Inverter compressor — quiet & efficient",
+      "Black finish",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "American side-by-side"
+      ],
+      [
+        "Total capacity",
+        "562 L"
+      ],
+      [
+        "Fridge / freezer",
+        "371 L / 191 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "178.6 × 91 × 74.3 cm"
+      ],
+      [
+        "Defrost",
+        "No Frost+"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
+  },
+  "HONFQ2T718EXK": {
+    "desc": "The Hoover H-FRIDGE 700 (HONFQ2T718EXK) is a four-door French-style fridge freezer in stainless steel with a 402-litre capacity (262L fridge / 140L freezer). Total No Frost, a My Zone drawer (-3°C to +5°C) and LED lighting make it a flexible family fridge. E energy rated.",
+    "features": [
+      "Four-door French style — 402L (262L / 140L)",
+      "Total No Frost",
+      "My Zone drawer (-3°C to +5°C)",
+      "LED lighting & digital display",
+      "Two freezer drawers + crisper",
+      "Stainless steel finish",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "French door 4-door"
+      ],
+      [
+        "Total capacity",
+        "402 L"
+      ],
+      [
+        "Fridge / freezer",
+        "262 L / 140 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "177.5 × 70 × 68.8 cm"
+      ],
+      [
+        "Defrost",
+        "Total No Frost"
+      ],
+      [
+        "Finish",
+        "Stainless steel"
+      ]
+    ]
+  },
+  "H9C941CW": {
+    "desc": "The Hotpoint H9C941CW is a tall 70/30 fridge freezer in white with a large 335-litre fridge and a 105-litre freezer. Dual No Frost runs independent cooling for fridge and freezer to prevent ice build-up, with Fast Freeze and Active Fresh to keep food at its best. C energy rated.",
+    "features": [
+      "Tall 70/30 — 335L fridge / 105L freezer",
+      "Dual No Frost — independent cooling",
+      "Fast Freeze",
+      "Active Fresh temperature control",
+      "LED interior lighting",
+      "Reversible door",
+      "C energy rating"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "440 L"
+      ],
+      [
+        "Fridge / freezer",
+        "335 L / 105 L"
+      ],
+      [
+        "Energy rating",
+        "C"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "201 × 59.5 × 65.5 cm"
+      ],
+      [
+        "Defrost",
+        "Dual No Frost"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "HTC18D011A1": {
+    "desc": "The Hotpoint HTC18D011A1 is a 70/30 integrated fridge freezer, built in behind a cabinet door with 268 litres (189L fridge / 79L freezer) — room for around 15 shopping bags. Low Frost means less defrosting, Fast Freeze speeds up freezing, and at 34dB it's very quiet. E energy rated.",
+    "features": [
+      "Integrated 70/30 — 268L (189L / 79L)",
+      "Fits behind a cabinet door (sliding hinge)",
+      "Low Frost — less defrosting",
+      "Fast Freeze",
+      "Very quiet — 34dB",
+      "4-star freezer rating",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "Integrated (built-in)"
+      ],
+      [
+        "Total capacity",
+        "268 L"
+      ],
+      [
+        "Fridge / freezer",
+        "189 L / 79 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "177 × 54 × 54.5 cm"
+      ],
+      [
+        "Defrost",
+        "Low Frost"
+      ],
+      [
+        "Noise",
+        "34 dB"
+      ]
+    ]
+  },
+  "INC18D011B1": {
+    "desc": "The Indesit INC18D011B1 is a 70/30 integrated fridge freezer, built in behind a cabinet door with 273 litres (194L fridge / 79L freezer). Low Frost means less defrosting and the Push&Go button gives a quick cooling boost. Quiet at 34dB. E energy rated.",
+    "features": [
+      "Integrated 70/30 — 273L (194L / 79L)",
+      "Fits behind a cabinet door (sliding hinge)",
+      "Low Frost — less defrosting",
+      "Push&Go quick-cool boost",
+      "Very quiet — 34dB",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "Integrated (built-in)"
+      ],
+      [
+        "Total capacity",
+        "273 L"
+      ],
+      [
+        "Fridge / freezer",
+        "194 L / 79 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "177 × 54 cm"
+      ],
+      [
+        "Defrost",
+        "Low Frost"
+      ],
+      [
+        "Noise",
+        "34 dB"
+      ]
+    ]
+  },
+  "KINS1261B4UK": {
+    "desc": "The Indesit KINS1261B4UK is a 50/50 integrated fridge freezer, built in behind a cabinet door with 265 litres (163L fridge / 102L freezer). Low Frost means less defrosting, with a dedicated Fresh Space for fruit and veg and LED lighting. E energy rated.",
+    "features": [
+      "Integrated 50/50 — 265L (163L / 102L)",
+      "Fits behind a cabinet door",
+      "Low Frost — less defrosting",
+      "Fresh Space for fruit & veg",
+      "LED lighting",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "Integrated (built-in)"
+      ],
+      [
+        "Total capacity",
+        "265 L"
+      ],
+      [
+        "Fridge / freezer",
+        "163 L / 102 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "178 × 54.3 × 54.5 cm"
+      ],
+      [
+        "Defrost",
+        "Low Frost"
+      ],
+      [
+        "Noise",
+        "37 dB"
+      ]
+    ]
+  },
+  "SI81QWDUK": {
+    "desc": "The Indesit SI81QWDUK is a tall larder fridge in white — all fridge, no freezer — with a generous 369-litre capacity across six shelves and a salad crisper. Adjustable MySpace shelves take bulkier items, and it has auto defrost, LED lighting and a reversible door. A+ energy rated.",
+    "features": [
+      "Tall larder fridge — 369L, all fridge",
+      "Six shelves + salad crisper",
+      "Adjustable MySpace shelving",
+      "Auto defrost",
+      "LED lighting",
+      "Reversible door",
+      "A+ energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "Tall larder fridge"
+      ],
+      [
+        "Total capacity",
+        "369 L (fridge)"
+      ],
+      [
+        "Energy rating",
+        "A+"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "187.5 × 59.5 × 63 cm"
+      ],
+      [
+        "Defrost",
+        "Auto"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "RFF266WH": {
+    "desc": "The Nordmende RFF266WH is a 54cm top-mount fridge freezer in white with 213 litres (171L fridge / 42L freezer) — freezer on top. It has auto defrost in the fridge, a Fast Freeze setting, reversible doors and LED lighting. E energy rated, 3-year warranty.",
+    "features": [
+      "54cm top-mount — 213L (171L fridge / 42L freezer)",
+      "Auto defrost fridge",
+      "Fast Freeze setting",
+      "Reversible doors",
+      "LED lighting",
+      "E energy rating",
+      "3-year warranty"
+    ],
+    "specs": [
+      [
+        "Type",
+        "Top-mount"
+      ],
+      [
+        "Total capacity",
+        "213 L"
+      ],
+      [
+        "Fridge / freezer",
+        "171 L / 42 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "145 × 54 × 57 cm"
+      ],
+      [
+        "Defrost",
+        "Low Frost"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "P467TTIBMDW": {
+    "desc": "The Powerpoint P467TTIBMDW is a large table-top larder fridge in white with a small ice-box compartment — 65 litres in a compact 44.5cm-wide body that fits on a countertop or under a counter. Reversible door, adjustable leg and two fridge shelves. Ideal for a small kitchen, office or bedroom.",
+    "features": [
+      "Compact table-top / undercounter — 65L",
+      "Small ice-box (1-star) with ice tray",
+      "Two fridge shelves + door bin",
+      "Reversible door",
+      "Adjustable levelling leg",
+      "White finish"
+    ],
+    "specs": [
+      [
+        "Type",
+        "Table-top larder + ice box"
+      ],
+      [
+        "Total capacity",
+        "65 L"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "63 × 44.5 × 51 cm"
+      ],
+      [
+        "Ice box",
+        "1-star"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "P74555SKW": {
+    "desc": "The Powerpoint P74555SKW is a narrow, compact 44cm fridge freezer in white with 170 litres (120L fridge / 50L freezer) — a great fit where space is tight. Three freezer drawers, adjustable shelves, a salad crisper and low-power LED lighting. E energy rated.",
+    "features": [
+      "Narrow 44cm — 170L (120L fridge / 50L freezer)",
+      "Three freezer drawers",
+      "Adjustable shelves + salad crisper",
+      "Low-power (2W) LED lighting",
+      "Reversible door",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "170 L"
+      ],
+      [
+        "Fridge / freezer",
+        "120 L / 50 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "151.8 × 44.4 × 53.6 cm"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "P9383KSS": {
+    "desc": "The Powerpoint P9383KSS is an American-style side-by-side fridge freezer in stainless steel with a 372-litre capacity (230L fridge / 142L freezer). Total No Frost, adjustable shelves, a bottle rack and a salad crisper make it a roomy, low-maintenance centrepiece. E energy rated.",
+    "features": [
+      "American side-by-side — 372L (230L / 142L)",
+      "Total No Frost",
+      "Adjustable shelves + bottle rack",
+      "Salad crisper & dairy compartments",
+      "Recessed handles",
+      "Stainless steel finish",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "American side-by-side"
+      ],
+      [
+        "Total capacity",
+        "372 L"
+      ],
+      [
+        "Fridge / freezer",
+        "230 L / 142 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "171.4 × 78 × 62.8 cm"
+      ],
+      [
+        "Defrost",
+        "Total No Frost"
+      ],
+      [
+        "Finish",
+        "Stainless steel"
+      ]
+    ]
+  },
+  "P9383WDKBL": {
+    "desc": "The Powerpoint P9383WDKBL is an American-style side-by-side fridge freezer in black with a 372-litre capacity (230L fridge / 142L freezer) and a non-plumbed water dispenser. Total No Frost and a Fast Freeze feature keep everything fresh with no manual defrosting. E energy rated, 2-year warranty.",
+    "features": [
+      "American side-by-side — 372L (230L / 142L)",
+      "Non-plumbed water dispenser",
+      "Total No Frost",
+      "Fast Freeze",
+      "Salad crisper & dairy compartments",
+      "Black finish",
+      "E energy rating · 2-year warranty"
+    ],
+    "specs": [
+      [
+        "Type",
+        "American side-by-side"
+      ],
+      [
+        "Total capacity",
+        "372 L"
+      ],
+      [
+        "Fridge / freezer",
+        "230 L / 142 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "171.4 × 78 × 62.8 cm"
+      ],
+      [
+        "Defrost",
+        "Total No Frost"
+      ],
+      [
+        "Water dispenser",
+        "Non-plumbed"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
+  },
+  "RS70F65KETEU": {
+    "desc": "The Samsung RS70F65KETEU (Series 6, SpaceMax) is an American-style side-by-side fridge freezer in matt silver with a huge 640-litre capacity (420L fridge / 220L freezer) and a non-plumbed ice & water dispenser — no plumbing needed. SpaceMax insulation maximises space and a Digital Inverter compressor keeps it quiet. Wi-Fi/SmartThings. E energy rated.",
+    "features": [
+      "American side-by-side — 640L (420L / 220L)",
+      "Non-plumbed ice & water dispenser",
+      "SpaceMax™ — more room, same footprint",
+      "Digital Inverter compressor — quiet 36dB",
+      "No Frost",
+      "Wi-Fi / SmartThings app",
+      "Matt silver finish · E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "American side-by-side"
+      ],
+      [
+        "Total capacity",
+        "640 L"
+      ],
+      [
+        "Fridge / freezer",
+        "420 L / 220 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "178.4 × 91.2 × 72.6 cm"
+      ],
+      [
+        "Defrost",
+        "No Frost"
+      ],
+      [
+        "Water/ice",
+        "Non-plumbed"
+      ],
+      [
+        "Finish",
+        "Matt silver"
+      ]
+    ]
+  },
+  "IB55532BUK": {
+    "desc": "The Indesit IB55532 is a 54cm freestanding fridge freezer in black with 229 litres (143L fridge / 86L freezer) and the freezer at the bottom. Low Frost cuts defrosting, a Fresh Zone keeps produce at its best, and the door is reversible. E energy rated.",
+    "features": [
+      "54cm freestanding — 229L (143L / 86L)",
+      "Low Frost — less defrosting",
+      "Fresh Zone drawer",
+      "Auto defrost fridge",
+      "Reversible door",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "229 L"
+      ],
+      [
+        "Fridge / freezer",
+        "143 L / 86 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "152.5 × 54 × 57.5 cm"
+      ],
+      [
+        "Defrost",
+        "Low Frost"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
+  },
+  "IB55532SUK": {
+    "desc": "The Indesit IB55532 is a 54cm freestanding fridge freezer in silver with 229 litres (143L fridge / 86L freezer) and the freezer at the bottom. Low Frost cuts defrosting, a Fresh Zone keeps produce at its best, and the door is reversible. E energy rated.",
+    "features": [
+      "54cm freestanding — 229L (143L / 86L)",
+      "Low Frost — less defrosting",
+      "Fresh Zone drawer",
+      "Auto defrost fridge",
+      "Reversible door",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "229 L"
+      ],
+      [
+        "Fridge / freezer",
+        "143 L / 86 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "152.5 × 54 × 57.5 cm"
+      ],
+      [
+        "Defrost",
+        "Low Frost"
+      ],
+      [
+        "Finish",
+        "Silver"
+      ]
+    ]
+  },
+  "IB55532WUK": {
+    "desc": "The Indesit IB55532 is a 54cm freestanding fridge freezer in white with 229 litres (143L fridge / 86L freezer) and the freezer at the bottom. Low Frost cuts defrosting, a Fresh Zone keeps produce at its best, and the door is reversible. E energy rated.",
+    "features": [
+      "54cm freestanding — 229L (143L / 86L)",
+      "Low Frost — less defrosting",
+      "Fresh Zone drawer",
+      "Auto defrost fridge",
+      "Reversible door",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "229 L"
+      ],
+      [
+        "Fridge / freezer",
+        "143 L / 86 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "152.5 × 54 × 57.5 cm"
+      ],
+      [
+        "Defrost",
+        "Low Frost"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "INK25322S4UKS": {
+    "desc": "The Indesit INK25322 is a tall 70/30 frost-free fridge freezer in silver with 322 litres (226L fridge / 96L freezer). Total No Frost means no manual defrosting, with height-adjustable shelves and a reversible door. E energy rated.",
+    "features": [
+      "Tall 70/30 — 322L (226L / 96L)",
+      "Total No Frost — no manual defrosting",
+      "4 fridge shelves (3 adjustable)",
+      "Three freezer compartments",
+      "Reversible door",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "322 L"
+      ],
+      [
+        "Fridge / freezer",
+        "226 L / 96 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "183.5 × 59.5 × 63.5 cm"
+      ],
+      [
+        "Defrost",
+        "No Frost"
+      ],
+      [
+        "Finish",
+        "Silver"
+      ]
+    ]
+  },
+  "INK25322W4UKS": {
+    "desc": "The Indesit INK25322 is a tall 70/30 frost-free fridge freezer in white with 322 litres (226L fridge / 96L freezer). Total No Frost means no manual defrosting, with height-adjustable shelves and a reversible door. E energy rated.",
+    "features": [
+      "Tall 70/30 — 322L (226L / 96L)",
+      "Total No Frost — no manual defrosting",
+      "4 fridge shelves (3 adjustable)",
+      "Three freezer compartments",
+      "Reversible door",
+      "E energy rating"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "322 L"
+      ],
+      [
+        "Fridge / freezer",
+        "226 L / 96 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "183.5 × 59.5 × 63.5 cm"
+      ],
+      [
+        "Defrost",
+        "No Frost"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "RFF317NFIXL": {
+    "desc": "The Nordmende RFF317NF is a 55cm 50/50 fridge freezer in inox / silver with 240 litres (142L fridge / 98L freezer). The freezer is No Frost and the fridge is auto-defrost, with a recessed chrome handle and reversible doors. E energy rated, 3-year warranty on registration.",
+    "features": [
+      "55cm 50/50 — 240L (142L / 98L)",
+      "No Frost freezer",
+      "Auto-defrost fridge",
+      "Recessed chrome handle",
+      "Reversible doors",
+      "E energy rating",
+      "3-year warranty (on registration)"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "240 L"
+      ],
+      [
+        "Fridge / freezer",
+        "142 L / 98 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W)",
+        "166 × 55 cm"
+      ],
+      [
+        "Defrost",
+        "No Frost freezer"
+      ],
+      [
+        "Finish",
+        "Inox / silver"
+      ]
+    ]
+  },
+  "RFF317NFWH": {
+    "desc": "The Nordmende RFF317NF is a 55cm 50/50 fridge freezer in white with 240 litres (142L fridge / 98L freezer). The freezer is No Frost and the fridge is auto-defrost, with a recessed chrome handle and reversible doors. E energy rated, 3-year warranty on registration.",
+    "features": [
+      "55cm 50/50 — 240L (142L / 98L)",
+      "No Frost freezer",
+      "Auto-defrost fridge",
+      "Recessed chrome handle",
+      "Reversible doors",
+      "E energy rating",
+      "3-year warranty (on registration)"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "240 L"
+      ],
+      [
+        "Fridge / freezer",
+        "142 L / 98 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W)",
+        "166 × 55 cm"
+      ],
+      [
+        "Defrost",
+        "No Frost freezer"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "RFF60405IXL": {
+    "desc": "The Nordmende RFF60405 is a tall 60/40 fridge freezer in inox with 268 litres (184L fridge / 84L freezer). Auto-defrost fridge and low-frost freezer with reversible doors and a recessed chrome handle. E energy rated, 3-year warranty on registration.",
+    "features": [
+      "Tall 60/40 — 268L (184L / 84L)",
+      "Auto-defrost fridge, low-frost freezer",
+      "Recessed chrome handle",
+      "Reversible doors",
+      "E energy rating",
+      "3-year warranty (on registration)"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "268 L"
+      ],
+      [
+        "Fridge / freezer",
+        "184 L / 84 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "170 × 54 × 59.5 cm"
+      ],
+      [
+        "Defrost",
+        "Low Frost"
+      ],
+      [
+        "Finish",
+        "Inox"
+      ]
+    ]
+  },
+  "RFF60405SL": {
+    "desc": "The Nordmende RFF60405 is a tall 60/40 fridge freezer in silver with 268 litres (184L fridge / 84L freezer). Auto-defrost fridge and low-frost freezer with reversible doors and a recessed chrome handle. E energy rated, 3-year warranty on registration.",
+    "features": [
+      "Tall 60/40 — 268L (184L / 84L)",
+      "Auto-defrost fridge, low-frost freezer",
+      "Recessed chrome handle",
+      "Reversible doors",
+      "E energy rating",
+      "3-year warranty (on registration)"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "268 L"
+      ],
+      [
+        "Fridge / freezer",
+        "184 L / 84 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "170 × 54 × 59.5 cm"
+      ],
+      [
+        "Defrost",
+        "Low Frost"
+      ],
+      [
+        "Finish",
+        "Silver"
+      ]
+    ]
+  },
+  "P74250MLSS-E": {
+    "desc": "The Powerpoint P74250ML is a compact 48cm fridge freezer in stainless steel with 138 litres (98L fridge / 40L freezer) — a space-saver for smaller homes. Manual defrost, mechanical temperature control, a vegetable crisper and a reversible door. A+ energy rated, 2-year warranty.",
+    "features": [
+      "Compact 48cm — 138L (98L fridge / 40L freezer)",
+      "Vegetable crisper",
+      "Mechanical temperature control",
+      "Reversible door",
+      "Adjustable legs",
+      "A+ energy rating",
+      "2-year warranty"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "138 L"
+      ],
+      [
+        "Fridge / freezer",
+        "98 L / 40 L"
+      ],
+      [
+        "Energy rating",
+        "A+"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "128.2 × 47.4 × 52.7 cm"
+      ],
+      [
+        "Defrost",
+        "Manual"
+      ],
+      [
+        "Finish",
+        "Stainless steel"
+      ]
+    ]
+  },
+  "P74250MLW": {
+    "desc": "The Powerpoint P74250ML is a compact 48cm fridge freezer in white with 138 litres (98L fridge / 40L freezer) — a space-saver for smaller homes. Manual defrost, mechanical temperature control, a vegetable crisper and a reversible door. A+ energy rated, 2-year warranty.",
+    "features": [
+      "Compact 48cm — 138L (98L fridge / 40L freezer)",
+      "Vegetable crisper",
+      "Mechanical temperature control",
+      "Reversible door",
+      "Adjustable legs",
+      "A+ energy rating",
+      "2-year warranty"
+    ],
+    "specs": [
+      [
+        "Total capacity",
+        "138 L"
+      ],
+      [
+        "Fridge / freezer",
+        "98 L / 40 L"
+      ],
+      [
+        "Energy rating",
+        "A+"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "128.2 × 47.4 × 52.7 cm"
+      ],
+      [
+        "Defrost",
+        "Manual"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "P75562ML1W": {
+    "desc": "The Powerpoint P75562ML is a 54cm top-mount fridge freezer in white with around 211 litres (roughly 163L fridge / 44L freezer). Glass shelves, a crystal vegetable crisper, four door bins and a 4-star freezer. A+ energy rated.",
+    "features": [
+      "54cm top-mount — approx. 211L",
+      "Two glass fridge shelves",
+      "Crystal vegetable crisper",
+      "Four door bins + egg tray",
+      "4-star freezer rating",
+      "A+ energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "Top-mount"
+      ],
+      [
+        "Total capacity",
+        "~211 L"
+      ],
+      [
+        "Fridge / freezer",
+        "~163 L / 44 L"
+      ],
+      [
+        "Energy rating",
+        "A+"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "143 × 54 × 57 cm"
+      ],
+      [
+        "Defrost",
+        "Manual"
+      ],
+      [
+        "Finish",
+        "White"
+      ]
+    ]
+  },
+  "P75562MLIN-E": {
+    "desc": "The Powerpoint P75562ML is a 54cm top-mount fridge freezer in inox with around 211 litres (roughly 163L fridge / 44L freezer). Glass shelves, a crystal vegetable crisper, four door bins and a 4-star freezer. A+ energy rated.",
+    "features": [
+      "54cm top-mount — approx. 211L",
+      "Two glass fridge shelves",
+      "Crystal vegetable crisper",
+      "Four door bins + egg tray",
+      "4-star freezer rating",
+      "A+ energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "Top-mount"
+      ],
+      [
+        "Total capacity",
+        "~211 L"
+      ],
+      [
+        "Fridge / freezer",
+        "~163 L / 44 L"
+      ],
+      [
+        "Energy rating",
+        "A+"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "143 × 54 × 57 cm"
+      ],
+      [
+        "Defrost",
+        "Manual"
+      ],
+      [
+        "Finish",
+        "Inox"
+      ]
+    ]
+  },
+  "RS70F64KETEU": {
+    "desc": "The Samsung RS70F64KE (Series 6, SpaceMax) is an American-style side-by-side fridge freezer in silver with a huge 640-litre capacity (420L fridge / 220L freezer) and a plumbed ice & water dispenser. SpaceMax thin-wall insulation adds room without bulk, and a Digital Inverter compressor keeps it quiet at 36dB. Wi-Fi/SmartThings. E energy rated.",
+    "features": [
+      "American side-by-side — 640L (420L / 220L)",
+      "Plumbed ice & water dispenser",
+      "SpaceMax™ — more room, same footprint",
+      "Digital Inverter compressor — quiet 36dB",
+      "No Frost",
+      "Wi-Fi / SmartThings app",
+      "Silver finish · E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "American side-by-side"
+      ],
+      [
+        "Total capacity",
+        "640 L"
+      ],
+      [
+        "Fridge / freezer",
+        "420 L / 220 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "178.4 × 91.2 × 72.6 cm"
+      ],
+      [
+        "Defrost",
+        "No Frost"
+      ],
+      [
+        "Water/ice",
+        "Plumbed"
+      ],
+      [
+        "Finish",
+        "Silver"
+      ]
+    ]
+  },
+  "RS70F64KEFEU": {
+    "desc": "The Samsung RS70F64KE (Series 6, SpaceMax) is an American-style side-by-side fridge freezer in black with a huge 640-litre capacity (420L fridge / 220L freezer) and a plumbed ice & water dispenser. SpaceMax thin-wall insulation adds room without bulk, and a Digital Inverter compressor keeps it quiet at 36dB. Wi-Fi/SmartThings. E energy rated.",
+    "features": [
+      "American side-by-side — 640L (420L / 220L)",
+      "Plumbed ice & water dispenser",
+      "SpaceMax™ — more room, same footprint",
+      "Digital Inverter compressor — quiet 36dB",
+      "No Frost",
+      "Wi-Fi / SmartThings app",
+      "Black finish · E energy rating"
+    ],
+    "specs": [
+      [
+        "Type",
+        "American side-by-side"
+      ],
+      [
+        "Total capacity",
+        "640 L"
+      ],
+      [
+        "Fridge / freezer",
+        "420 L / 220 L"
+      ],
+      [
+        "Energy rating",
+        "E"
+      ],
+      [
+        "Dimensions (H×W×D)",
+        "178.4 × 91.2 × 72.6 cm"
+      ],
+      [
+        "Defrost",
+        "No Frost"
+      ],
+      [
+        "Water/ice",
+        "Plumbed"
+      ],
+      [
+        "Finish",
+        "Black"
+      ]
+    ]
   }
 }
