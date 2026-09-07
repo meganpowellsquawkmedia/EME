@@ -483,6 +483,7 @@ def footer():
   <div><h4>Company</h4><ul>
     <li><a href="/about-us/">About Us</a></li>
     <li><a href="/contact-us/">Contact</a></li>
+    <li><a href="/enquiry/">Make an Enquiry</a></li>
     <li><a href="/delivery-returns/">Delivery</a></li>
     <li><a href="/returns-replacements/">Returns</a></li>
     <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
@@ -613,6 +614,7 @@ def build_products():
         related = [q for q in prods_in.get(cats[0]["id"], []) if q["slug"] != p["slug"]][:4] if cats else []
         rel_html = "".join(product_card(q) for q in related)
         rel_section = f'<div class="related"><h2>You Might Also Like</h2><div class="grid">{rel_html}</div></div>' if related else ""
+        enq_q = re.sub(r"\s+", "+", (brand2 + " " + (p.get("sku") or title)).strip())
 
         body = f"""{header()}
 <div class="wrap">
@@ -639,6 +641,7 @@ def build_products():
         <a class="ctabig" href="{wa_link}">{WA_SVG} Enquire on WhatsApp</a>
         <a class="ctacall" href="tel:{SHOP['phone_tel']}">📞 Call {SHOP['phone_display']}</a>
         <a class="ctarsv" href="https://wa.me/{SHOP['wa']}">Reserve for collection</a>
+        <a class="enq-link" href="/enquiry/?product={enq_q}">Prefer a form? Make an enquiry →</a>
       </div>
     </div>
     <div class="trustrow">
@@ -970,6 +973,65 @@ def build_contact():
         f"Contact {SHOP['name']}, {SHOP['address']}. Call {SHOP['phone_display']} or message us on WhatsApp.",
         path="/contact-us/", jsonld=localbusiness_ld()) + body)
 
+def build_enquiry():
+    # Static-site enquiry form: no backend — on submit it composes the message and
+    # hands it to WhatsApp or the customer's email client (they press send).
+    body = f"""{header()}
+<div class="wrap">
+<div class="crumb"><a href="/">Home</a> / <b>Make an Enquiry</b></div>
+<div class="page-head"><h1>Make An Enquiry</h1><div class="count">Tell us what you're after and we'll get back to you. Send it straight to us on WhatsApp, or by email — whichever suits.</div></div>
+<div class="enq-grid">
+  <form class="enq-form" onsubmit="return false" novalidate>
+    <label class="fld"><span>Your name</span><input id="f-name" type="text" autocomplete="name" placeholder="Jane Murphy"></label>
+    <label class="fld"><span>Phone or email <small>(so we can reply)</small></span><input id="f-contact" type="text" autocomplete="tel" placeholder="087 123 4567 or you@email.com"></label>
+    <label class="fld"><span>Product you're interested in <small>(optional)</small></span><input id="f-product" type="text" placeholder="e.g. Beko FDC6731S cooker"></label>
+    <label class="fld"><span>Your message</span><textarea id="f-msg" rows="5" placeholder="Is this in stock? What's your best price? Can you deliver to Dundalk?"></textarea></label>
+    <div class="enq-actions">
+      <button type="button" class="ctabig" onclick="enqSend('wa')">{WA_SVG} Send via WhatsApp</button>
+      <button type="button" class="ctacall" onclick="enqSend('email')">✉️ Send by Email</button>
+    </div>
+    <p class="enq-note">No account needed. Your details are only used to answer your enquiry — nothing is stored on this website.</p>
+  </form>
+  <aside class="enq-side">
+    <h3>Prefer to talk?</h3>
+    <div class="contact-row"><div class="ico">📞</div><div><div class="lbl">Call us</div><div class="val"><a href="tel:{SHOP['phone_tel']}">{SHOP['phone_display']}</a></div></div></div>
+    <div class="contact-row"><div class="ico">💬</div><div><div class="lbl">WhatsApp</div><div class="val"><a href="https://wa.me/{SHOP['wa']}">Message us</a></div></div></div>
+    <div class="contact-row"><div class="ico">✉️</div><div><div class="lbl">Email</div><div class="val"><a href="mailto:{SHOP['email']}">{SHOP['email']}</a></div></div></div>
+    <div class="contact-row"><div class="ico">📍</div><div><div class="lbl">Visit the store</div><div class="val">{esc(SHOP['address'])}</div></div></div>
+    <div class="contact-row"><div class="ico">🕑</div><div><div class="lbl">Opening hours</div><div class="val">{SHOP['hours']}<br>Sun: Closed</div></div></div>
+  </aside>
+</div>
+</div>
+<script>
+(function(){{
+  var m = location.search.match(/[?&]product=([^&]*)/);
+  if (m) {{ try {{ document.getElementById('f-product').value = decodeURIComponent(m[1].replace(/\\+/g,' ')); }} catch(e){{}} }}
+}})();
+function v(id){{ var el=document.getElementById(id); return el ? (el.value||'').trim() : ''; }}
+function enqBody(){{
+  var lines=[]; var n=v('f-name'),c=v('f-contact'),p=v('f-product'),msg=v('f-msg');
+  if(n) lines.push('Name: '+n);
+  if(c) lines.push('Contact: '+c);
+  if(p) lines.push('Product: '+p);
+  if(msg) lines.push('Message: '+msg);
+  return lines.join('\\n');
+}}
+function enqSend(how){{
+  if(!v('f-name') || !v('f-contact')){{ alert('Please add your name and a phone number or email so we can reply.'); return; }}
+  var text = enqBody();
+  if(how==='wa'){{
+    window.open('https://wa.me/{SHOP['wa']}?text='+encodeURIComponent(text), '_blank');
+  }} else {{
+    var subj = 'Website enquiry' + (v('f-product') ? (' — '+v('f-product')) : '');
+    window.location.href = 'mailto:{SHOP['email']}?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(text);
+  }}
+}}
+</script>
+{footer()}"""
+    write("enquiry/index.html", head(f"Make an Enquiry | {SHOP['name']}",
+        f"Send an enquiry to {SHOP['name']}, Dundalk — by WhatsApp or email. We'll get back to you.",
+        path="/enquiry/") + body)
+
 def build_pages():
     by_slug = {p["slug"]: p for p in PAGES}
     # prose pages rendered straight from WP content (skip empty Privacy, commerce pages, Home)
@@ -988,6 +1050,7 @@ def build_pages():
         render_prose_page(slug, title, clean, desc or title)
         n += 1
     build_contact(); n += 1
+    build_enquiry(); n += 1
     # local legal/info pages from content/legal/*.html (e.g. privacy-policy)
     legal_dir = ROOT / "content" / "legal"
     if legal_dir.exists():
@@ -1040,7 +1103,7 @@ def build_redirects():
 def build_sitemap():
     """XML sitemap + robots.txt with absolute live URLs (no base rewrite needed)."""
     paths = ["/", "/category/"]
-    paths += [f"/{s}/" for s in ("about-us", "contact-us", "delivery-returns",
+    paths += [f"/{s}/" for s in ("about-us", "contact-us", "enquiry", "delivery-returns",
               "returns-replacements", "terms-and-conditions", "privacy-policy")]
     paths += [cat_url(c["id"]) for c in C if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP]
     paths += [f"/product/{p['slug']}/" for p in P]
@@ -1076,7 +1139,7 @@ def apply_base(base):
 
 if __name__ == "__main__":
     # clean previous generated output (keep raw, tools, assets)
-    for d in ("product", "category", "product-category", "about-us", "contact-us",
+    for d in ("product", "category", "product-category", "about-us", "contact-us", "enquiry",
               "delivery-returns", "returns-replacements", "terms-and-conditions",
               "privacy-policy"):
         shutil.rmtree(ROOT / d, ignore_errors=True)

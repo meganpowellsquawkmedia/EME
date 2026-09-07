@@ -233,6 +233,22 @@ nav.cats a:hover{color:var(--orange)}
 .contact-row .val a:hover{color:var(--orange)}
 .contact-map{width:100%;height:420px;border:1px solid var(--line);border-radius:var(--radius)}
 
+/* enquiry form */
+.enq-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:24px;padding:8px 0 60px;align-items:start}
+@media(max-width:820px){.enq-grid{grid-template-columns:1fr}}
+.enq-form{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px;display:flex;flex-direction:column;gap:16px}
+.fld{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600;color:#333}
+.fld small{color:var(--muted);font-weight:400}
+.fld input,.fld textarea{border:1.5px solid var(--line);border-radius:9px;padding:11px 13px;font:inherit;font-weight:400;font-size:15px;color:var(--ink);background:#fff;outline:none;resize:vertical}
+.fld input:focus,.fld textarea:focus{border-color:var(--orange)}
+.enq-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:2px}
+.enq-actions button{flex:1;min-width:180px;border:0;cursor:pointer}
+.enq-note{font-size:12px;color:var(--muted);margin:0}
+.enq-side{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.enq-side h3{font-size:15px;margin-bottom:8px}
+.enq-link{display:inline-block;margin-top:4px;text-align:center;font-size:12.5px;font-weight:600;color:var(--muted);text-transform:none;letter-spacing:0}
+.enq-link:hover{color:var(--orange)}
+
 /* footer */
 footer.site{background:var(--ink);color:#cfcfcf;padding:44px 0 34px;font-size:13px;margin-top:20px}
 footer.site .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.1fr;gap:26px}
