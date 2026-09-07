@@ -1103,10 +1103,10 @@ def md_to_html(md):
     return "\n".join(out)
 
 def build_bedbuilder():
-    # "Build Your Bed" — Aurora base, made to order in Aurora's full fabric range.
-    # The preview bed recolours LIVE in the browser: the chosen fabric colour is
-    # pushed through the real photo's velvet shading (canvas multiply), so it keeps
-    # genuine folds & sheen. Storage/Standard/drawers switch the base photo + info.
+    # "Build Your Bed" — Aurora base + in-store headboards, made to order in Aurora's
+    # full fabric range. The preview bed AND every headboard tile recolour LIVE in the
+    # browser: the chosen fabric colour is pushed through each real photo's velvet
+    # shading (canvas), keeping genuine folds, tufting & sheen.
     SIZES = [("Single 3′", "90 × 190 cm"), ("Small Double 4′", "120 × 190 cm"),
              ("Double 4′6″", "135 × 190 cm"), ("King 5′", "150 × 200 cm"), ("Super King 6′", "180 × 200 cm")]
     FABRICS = [
@@ -1119,7 +1119,6 @@ def build_bedbuilder():
         ("Linoso", ["Duck Egg", "Midnight Blue"]),
         ("Airforce", ["Blue"]),
     ]
-    # true swatch colours (avg of Aurora studio swatch images) — drive the live recolour
     SW_RGB = {
         "plush-velvet-charcoal": (104, 109, 120), "plush-velvet-china-blue": (47, 127, 145),
         "plush-velvet-coffee": (162, 151, 133), "plush-velvet-cream": (202, 201, 197),
@@ -1135,10 +1134,16 @@ def build_bedbuilder():
         "linoso-duck-egg": (121, 141, 142), "linoso-midnight-blue": (81, 99, 114),
         "airforce-blue": (89, 107, 122),
     }
+    HEADBOARDS = [("Panel", "panel"), ("Florence", "florence"), ("Button Top", "button-top"),
+                  ("Diamond", "diamond"), ("Malaga", "malaga"), ("Roma", "roma"),
+                  ("Verona", "verona"), ("Milan", "milan"), ("Studded", "studded"),
+                  ("Double Studded", "double-studded"), ("Winged", "winged"),
+                  ("Framed", "framed"), ("Sorrento", "sorrento")]
     def fslug(rng, col): return (rng + "-" + col).lower().replace(" ", "-")
     DRAWER_PRICE = 40
     DEFAULT_SLUG = "plush-velvet-charcoal"
     sw_json = "{" + ",".join(f'"{k}":[{r},{g},{b}]' for k, (r, g, b) in SW_RGB.items()) + "}"
+    hb_json = "[" + ",".join(f'"{s}"' for _, s in HEADBOARDS) + "]"
     base_btns = ('<button type="button" class="bb-base on" data-kind="storage">'
                  '<b>Storage</b><span>Ottoman lift-up base</span></button>'
                  '<button type="button" class="bb-base" data-kind="standard">'
@@ -1157,19 +1162,19 @@ def build_bedbuilder():
             f'<span class="bb-lbl">{esc(c)}</span></button>'
             for c in cols)
         groups += f'<div class="bb-group"><div class="bb-gh">{esc(rng)}</div><div class="bb-grid">{sw}</div></div>'
-    # Headboards — only the styles Eddie Maguire stocks in-store (Aurora brochure)
-    HEADBOARDS = [("Panel", "panel"), ("Florence", "florence"), ("Button Top", "button-top"),
-                  ("Diamond", "diamond"), ("Malaga", "malaga"), ("Roma", "roma"),
-                  ("Verona", "verona"), ("Milan", "milan"), ("Studded", "studded"),
-                  ("Double Studded", "double-studded"), ("Winged", "winged"),
-                  ("Framed", "framed"), ("Sorrento", "sorrento")]
-    hb_tiles = ('<button type="button" class="bb-hb bb-hb-none on" data-hb="">'
+    # headboard tiles: a live-recolour canvas per style + a "no headboard" option
+    hb_tiles = ('<button type="button" class="bb-hb bb-hb-none on" data-hb="" data-slug="">'
                 '<span class="bb-hbimg bb-hbnone">No headboard</span><span class="bb-hblbl">Just the base</span></button>')
     hb_tiles += "".join(
-        f'<button type="button" class="bb-hb" data-hb="{esc(name)}">'
-        f'<span class="bb-hbimg" style="background-image:url(\'/assets/img/headboard-{slug}.jpg\')"></span>'
+        f'<button type="button" class="bb-hb" data-hb="{esc(name)}" data-slug="{slug}">'
+        f'<canvas class="bb-hbcanvas" data-slug="{slug}" width="300" height="200"></canvas>'
         f'<span class="bb-hblbl">{esc(name)}</span></button>'
         for name, slug in HEADBOARDS)
+    # hidden sources + masks for headboard recolour (paths get the deploy base path applied)
+    hb_srcs = "".join(
+        f'<img id="hbsrc-{slug}" src="/assets/img/headboard-{slug}.jpg" hidden alt="">'
+        f'<img id="hbmsk-{slug}" src="/assets/img/hbmask-{slug}.png" hidden alt="">'
+        for _, slug in HEADBOARDS)
     wa = SHOP["wa"]
     body = f"""{header()}
 <style>
@@ -1194,8 +1199,8 @@ def build_bedbuilder():
 .bb-base span{{font-size:12px;color:var(--muted)}}
 .bb-base.on{{border-color:var(--orange);background:#fff7ef}}
 .bb-sizes,.bb-dwr-row{{display:flex;flex-wrap:wrap;gap:8px}}
-.bb-size,.bb-dwr{{border:1.5px solid var(--line);background:#fff;border-radius:10px;padding:10px 14px;font-weight:700;font-size:13px;cursor:pointer}}
-.bb-size.on,.bb-dwr.on{{border-color:var(--orange);color:var(--orange);background:#fff7ef}}
+.bb-size,.bb-dwr,.bb-mount{{border:1.5px solid var(--line);background:#fff;border-radius:10px;padding:10px 14px;font-weight:700;font-size:13px;cursor:pointer}}
+.bb-size.on,.bb-dwr.on,.bb-mount.on{{border-color:var(--orange);color:var(--orange);background:#fff7ef}}
 .bb-dwr{{min-width:44px;text-align:center}}
 .bb-dwr-side{{display:flex;align-items:center;gap:10px;margin-bottom:8px}}
 .bb-dwr-side .lab{{font-size:12.5px;color:#444;width:74px}}
@@ -1208,8 +1213,10 @@ def build_bedbuilder():
 .bb-lbl{{display:block;font-size:11px;color:#444;margin-top:5px;line-height:1.2}}
 .bb-hbs{{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}}
 .bb-hb{{border:0;background:none;padding:0;cursor:pointer;text-align:center}}
-.bb-hbimg{{display:flex;align-items:center;justify-content:center;height:70px;border-radius:9px;border:2px solid transparent;background:#f4f1ec center/contain no-repeat;box-shadow:0 0 0 1px rgba(0,0,0,.10) inset;font-size:11px;color:var(--muted)}}
-.bb-hb.on .bb-hbimg{{border-color:var(--orange);box-shadow:0 0 0 1px var(--orange),0 6px 14px rgba(0,0,0,.16)}}
+.bb-hbimg,.bb-hbcanvas{{display:block;width:100%;height:72px;border-radius:9px;border:2px solid transparent;box-shadow:0 0 0 1px rgba(0,0,0,.10) inset;background:#f4f1ec}}
+.bb-hbimg{{display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--muted)}}
+.bb-hbcanvas{{object-fit:contain}}
+.bb-hb.on .bb-hbimg,.bb-hb.on .bb-hbcanvas{{border-color:var(--orange);box-shadow:0 0 0 1px var(--orange),0 6px 14px rgba(0,0,0,.16)}}
 .bb-hbnone{{font-weight:700;letter-spacing:.02em;color:#777}}
 .bb-hblbl{{display:block;font-size:11.5px;color:#444;margin-top:5px;line-height:1.2}}
 .bb-cta{{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:6px}}
@@ -1219,7 +1226,7 @@ def build_bedbuilder():
 </style>
 <div class="wrap">
 <div class="crumb"><a href="/">Home</a> / <b>Build Your Bed</b></div>
-<div class="page-head"><h1>Build Your Bed</h1><div class="count">Design your bed — choose the base, size and fabric, and watch it change colour. Handcrafted to order by Aurora in Ireland; send us your combination and we'll come back with a price.</div></div>
+<div class="page-head"><h1>Build Your Bed</h1><div class="count">Design your bed — pick the size, base, fabric and headboard, and watch it change colour. Handcrafted to order by Aurora in Ireland; send us your combination and we'll come back with a price.</div></div>
 <div class="bb">
   <div class="bb-preview">
     <div class="bb-stage">
@@ -1231,14 +1238,15 @@ def build_bedbuilder():
       <div class="bb-swatch" id="bbSwatch" style="--img:url('/assets/img/swatch-{DEFAULT_SLUG}.jpg')"></div>
       <div><div class="bb-chosen-name" id="bbName">Plush Velvet — Charcoal</div><div class="bb-chosen-sub" id="bbSub">Ottoman Storage Bed · King 5′</div></div>
     </div>
-    <div class="bb-note">The bed above shows your chosen fabric colour on a real Aurora base; the inset photo shows the ottoman lift. Every bed is upholstered to order — call in to Church Street to feel the swatches in person.</div>
-    <!-- hidden sources for the live recolour (paths get the deploy base path applied) -->
+    <div class="bb-note">The bed and headboards below all preview in your chosen fabric colour on real Aurora pieces; the inset shows the ottoman lift. Every bed is upholstered to order — call in to Church Street to feel the swatches in person.</div>
     <img id="srcDivan" src="/assets/img/base-standard-divan.jpg" hidden alt="">
     <img id="srcDrawer" src="/assets/img/base-standard-drawer.jpg" hidden alt="">
     <img id="mskDivan" src="/assets/img/mask-divan.png" hidden alt="">
     <img id="mskDrawer" src="/assets/img/mask-drawer.png" hidden alt="">
+    {hb_srcs}
   </div>
   <div class="bb-controls">
+    <div class="bb-step"><h3><span class="bb-num"></span> · Choose your size</h3><div class="bb-sizes" id="bbSizes">{size_btns}</div></div>
     <div class="bb-step"><h3><span class="bb-num"></span> · Choose your base</h3><div class="bb-bases">{base_btns}</div></div>
     <div class="bb-step" id="bbDrawerStep" hidden>
       <h3><span class="bb-num"></span> · Add drawers</h3>
@@ -1246,9 +1254,19 @@ def build_bedbuilder():
       <div class="bb-dwr-side"><span class="lab">Left side</span><div class="bb-dwr-row">{side_btns("L")}</div></div>
       <div class="bb-dwr-side"><span class="lab">Right side</span><div class="bb-dwr-row">{side_btns("R")}</div></div>
     </div>
-    <div class="bb-step"><h3><span class="bb-num"></span> · Choose your size</h3><div class="bb-sizes" id="bbSizes">{size_btns}</div></div>
     <div class="bb-step"><h3><span class="bb-num"></span> · Choose your fabric</h3>{groups}</div>
-    <div class="bb-step"><h3><span class="bb-num"></span> · Choose your headboard <span style="text-transform:none;font-weight:500;color:var(--muted);font-size:12px">(optional)</span></h3><div class="hint">In-store styles — shown for shape; upholstered in your chosen fabric.</div><div class="bb-hbs">{hb_tiles}</div></div>
+    <div class="bb-step">
+      <h3><span class="bb-num"></span> · Choose your headboard <span style="text-transform:none;font-weight:500;color:var(--muted);font-size:12px">(optional)</span></h3>
+      <div class="hint">In-store styles — each shown in your chosen fabric.</div>
+      <div class="bb-hbs">{hb_tiles}</div>
+      <div id="bbMount" hidden style="margin-top:14px">
+        <div class="hint" style="margin-bottom:8px">Fitting:</div>
+        <div class="bb-dwr-row">
+          <button type="button" class="bb-mount on" data-mount="Strutted">Strutted</button>
+          <button type="button" class="bb-mount" data-mount="Floor-standing 54″">Floor-standing 54″</button>
+        </div>
+      </div>
+    </div>
     <div class="bb-cta">
       <div class="bb-summary">Your bed: <b id="bbSum">Ottoman Storage Bed · King 5′ · Plush Velvet — Charcoal</b></div>
       <a class="ctabig" id="bbWa" href="https://wa.me/{wa}">{WA_SVG} Enquire about this bed</a>
@@ -1260,75 +1278,87 @@ def build_bedbuilder():
 </div>
 <script>
 (function(){{
-  var SW={sw_json};
-  var DP={DRAWER_PRICE};
-  var kind="storage", size="King 5′", fabric="Plush Velvet — Charcoal", fslug="{DEFAULT_SLUG}", hb="", L=0, R=0;
+  var SW={sw_json}, HBS={hb_json}, DP={DRAWER_PRICE};
+  var kind="storage", size="King 5′", fabric="Plush Velvet — Charcoal", fslug="{DEFAULT_SLUG}",
+      hb="", hbslug="", mount="Strutted", L=0, R=0;
   var canvas=document.getElementById('bbCanvas'), ctx=canvas.getContext('2d',{{willReadFrequently:true}});
   var feat=document.getElementById('bbFeat'), tag=document.getElementById('bbTag'),
       sw=document.getElementById('bbSwatch'), nm=document.getElementById('bbName'),
       sub=document.getElementById('bbSub'), sum=document.getElementById('bbSum'),
       wa=document.getElementById('bbWa'), form=document.getElementById('bbForm'),
-      dstep=document.getElementById('bbDrawerStep');
+      dstep=document.getElementById('bbDrawerStep'), mstep=document.getElementById('bbMount');
   function renumber(){{
     var n=1;
     document.querySelectorAll('.bb-step').forEach(function(s){{
       if(s.hidden) return; var el=s.querySelector('.bb-num'); if(el) el.textContent=n++;
     }});
   }}
-  var bank={{}};   // baseKey -> {{orig, alpha, meanL, w, h}}
-  function buildBank(key, imgEl, mskEl){{
-    var w=imgEl.naturalWidth, h=imgEl.naturalHeight;
-    var oc=document.createElement('canvas'); oc.width=w; oc.height=h;
+  // ---- shared recolour engine ----
+  function buildBank(imgEl, mskEl, TW, TH){{
+    var oc=document.createElement('canvas'); oc.width=TW; oc.height=TH;
     var octx=oc.getContext('2d',{{willReadFrequently:true}});
-    octx.drawImage(imgEl,0,0); var orig=octx.getImageData(0,0,w,h);
-    octx.clearRect(0,0,w,h); octx.drawImage(mskEl,0,0,w,h);
-    var md=octx.getImageData(0,0,w,h).data;
-    var alpha=new Float32Array(w*h), lum=new Float32Array(w*h), sumL=0, cnt=0, d=orig.data;
+    function fit(img){{ var iw=img.naturalWidth,ih=img.naturalHeight,s=Math.min(TW/iw,TH/ih);
+      var w=iw*s,h=ih*s; octx.drawImage(img,(TW-w)/2,(TH-h)/2,w,h); }}
+    octx.fillStyle='#fff'; octx.fillRect(0,0,TW,TH); fit(imgEl);
+    var orig=octx.getImageData(0,0,TW,TH);
+    octx.fillStyle='#000'; octx.fillRect(0,0,TW,TH); fit(mskEl);
+    var md=octx.getImageData(0,0,TW,TH).data;
+    var alpha=new Float32Array(TW*TH), lum=new Float32Array(TW*TH), sumL=0, cnt=0, d=orig.data;
     for(var i=0,p=0;i<md.length;i+=4,p++){{
       var a=md[i]/255; alpha[p]=a;
       var l=0.299*d[i]+0.587*d[i+1]+0.114*d[i+2]; lum[p]=l;
-      if(a>0.5){{ sumL+=l; cnt++; }}
+      if(a>0.5){{sumL+=l;cnt++;}}
     }}
-    bank[key]={{orig:orig, alpha:alpha, lum:lum, meanL:(cnt?sumL/cnt:160), w:w, h:h}};
+    return {{orig:orig, alpha:alpha, lum:lum, meanL:(cnt?sumL/cnt:160), w:TW, h:TH}};
   }}
-  function baseKey(){{ return (kind==='standard' && (L+R)>0) ? 'drawer' : 'divan'; }}
-  function paint(){{
-    var key=baseKey(), b=bank[key]; if(!b) return;
-    if(canvas.width!==b.w){{canvas.width=b.w;canvas.height=b.h;}}
-    var c=SW[fslug]||[150,150,150];
-    var src=b.orig.data, out=ctx.createImageData(b.w,b.h), o=out.data, al=b.alpha, lum=b.lum, mL=b.meanL;
+  function recolorInto(cv, b, c){{
+    if(!b) return; if(cv.width!==b.w){{cv.width=b.w;cv.height=b.h;}}
+    var cx=cv.getContext('2d'); var src=b.orig.data, out=cx.createImageData(b.w,b.h), o=out.data,
+        al=b.alpha, lum=b.lum, mL=b.meanL;
     for(var i=0,p=0;i<o.length;i+=4,p++){{
       var a=al[p];
-      if(a<=0.003){{ o[i]=src[i];o[i+1]=src[i+1];o[i+2]=src[i+2];o[i+3]=255; continue; }}
+      if(a<=0.003){{o[i]=src[i];o[i+1]=src[i+1];o[i+2]=src[i+2];o[i+3]=src[i+3];continue;}}
       var r=lum[p]/mL; if(r<0.35)r=0.35; if(r>1.7)r=1.7;
       var nr=c[0]*r, ng=c[1]*r, nb=c[2]*r;
-      o[i]  =src[i]  *(1-a)+ (nr>255?255:nr)*a;
-      o[i+1]=src[i+1]*(1-a)+ (ng>255?255:ng)*a;
-      o[i+2]=src[i+2]*(1-a)+ (nb>255?255:nb)*a;
+      o[i]  =src[i]  *(1-a)+(nr>255?255:nr)*a;
+      o[i+1]=src[i+1]*(1-a)+(ng>255?255:ng)*a;
+      o[i+2]=src[i+2]*(1-a)+(nb>255?255:nb)*a;
       o[i+3]=255;
     }}
-    ctx.putImageData(out,0,0);
+    cx.putImageData(out,0,0);
+  }}
+  var bank={{}}, hbBank={{}};
+  function baseKey(){{ return (kind==='standard' && (L+R)>0) ? 'drawer' : 'divan'; }}
+  function paintBase(){{ recolorInto(canvas, bank[baseKey()], SW[fslug]||[150,150,150]); }}
+  function paintHeadboards(){{
+    var c=SW[fslug]||[150,150,150];
+    HBS.forEach(function(s){{
+      var b=hbBank[s]; if(!b) return;
+      var cv=document.querySelector('.bb-hbcanvas[data-slug="'+s+'"]'); if(cv) recolorInto(cv,b,c);
+    }});
   }}
   function refresh(){{
     var storage=kind==='storage', d=(kind==='standard'?(L+R):0);
-    dstep.hidden=storage;
-    feat.style.display = storage ? '' : 'none';
+    dstep.hidden=storage; feat.style.display=storage?'':'none'; mstep.hidden=(hb==='');
     renumber();
-    var baseLabel = storage ? 'Ottoman Storage Bed' : 'Standard Bed';
-    tag.textContent = storage ? 'Ottoman storage base' : (d>0 ? 'Standard base + drawers' : 'Standard divan base');
+    var baseLabel=storage?'Ottoman Storage Bed':'Standard Bed';
+    tag.textContent=storage?'Ottoman storage base':(d>0?'Standard base + drawers':'Standard divan base');
     nm.textContent=fabric; sub.textContent=baseLabel+' · '+size;
     var cost=d*DP;
     var extra=(!storage&&d>0)?(' · '+d+' drawer'+(d>1?'s':'')+' (+€'+cost+')'):(storage?' · lift-up storage':'');
-    var hbTxt = hb ? (' · '+hb+' headboard') : '';
+    var hbTxt=hb?(' · '+hb+' headboard'+(mount!=='Strutted'?' ('+mount+')':'')):'';
     sum.textContent=baseLabel+' · '+size+' · '+fabric+extra+hbTxt;
     var msg='Hi, I\\'d like a price on this bed:\\n'+baseLabel+'\\nSize: '+size+'\\nFabric: '+fabric;
     if(!storage) msg+='\\nDrawers: '+d+(d>0?(' (+€'+cost+')'):'');
-    msg+='\\nHeadboard: '+(hb||'None');
+    msg+='\\nHeadboard: '+(hb?(hb+' ('+mount+')'):'None');
     wa.href='https://wa.me/{wa}?text='+encodeURIComponent(msg);
-    form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):'')+(hb?(' — '+hb+' headboard'):''));
-    paint();
+    form.href='/enquiry/?product='+encodeURIComponent(baseLabel+' — '+size+' — '+fabric+(!storage&&d>0?(' — '+d+' drawers'):'')+(hb?(' — '+hb+' headboard ('+mount+')'):''));
+    paintBase();
   }}
-  // wire controls
+  // ---- controls ----
+  document.querySelectorAll('.bb-size').forEach(function(b){{b.addEventListener('click',function(){{
+    document.querySelectorAll('.bb-size').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
+    size=b.dataset.size; refresh();}});}});
   document.querySelectorAll('.bb-base').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-base').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
     kind=b.dataset.kind;
@@ -1338,31 +1368,41 @@ def build_bedbuilder():
     var side=b.dataset.side;
     document.querySelectorAll('.bb-dwr[data-side="'+side+'"]').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
     if(side==='L')L=+b.dataset.n; else R=+b.dataset.n; refresh();}});}});
-  document.querySelectorAll('.bb-size').forEach(function(b){{b.addEventListener('click',function(){{
-    document.querySelectorAll('.bb-size').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
-    size=b.dataset.size; refresh();}});}});
   document.querySelectorAll('.bb-sw').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-sw').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
     fabric=b.dataset.name; fslug=b.dataset.slug;
     sw.style.setProperty('--img', getComputedStyle(b).getPropertyValue('--img'));
-    refresh();}});}});
+    paintHeadboards(); refresh();}});}});
   document.querySelectorAll('.bb-hb').forEach(function(b){{b.addEventListener('click',function(){{
     document.querySelectorAll('.bb-hb').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
-    hb=b.dataset.hb; refresh();}});}});
-  // load sources then first paint
-  var need=[['divan','srcDivan','mskDivan'],['drawer','srcDrawer','mskDrawer']], ready=0;
-  function whenReady(){{ if(++ready>=need.length){{ refresh(); }} }}
-  need.forEach(function(t){{
-    var img=document.getElementById(t[1]), msk=document.getElementById(t[2]), n=0;
-    function tryBuild(){{ if(++n>=2 && img.naturalWidth && msk.naturalWidth){{ buildBank(t[0],img,msk); whenReady(); }} }}
-    if(img.complete) tryBuild(); else img.onload=tryBuild;
-    if(msk.complete) tryBuild(); else msk.onload=tryBuild;
+    hb=b.dataset.hb; hbslug=b.dataset.slug; refresh();}});}});
+  document.querySelectorAll('.bb-mount').forEach(function(b){{b.addEventListener('click',function(){{
+    document.querySelectorAll('.bb-mount').forEach(function(x){{x.classList.remove('on')}}); b.classList.add('on');
+    mount=b.dataset.mount; refresh();}});}});
+  // ---- load images then first paint ----
+  function onImg(img, cb){{ if(img.complete && img.naturalWidth) cb(); else img.onload=cb; }}
+  var pending=0, started=false;
+  function done(){{ if(started && pending<=0) refresh(); }}
+  // base banks
+  [['divan','srcDivan','mskDivan'],['drawer','srcDrawer','mskDrawer']].forEach(function(t){{
+    pending++; var img=document.getElementById(t[1]), msk=document.getElementById(t[2]), n=0;
+    function tb(){{ if(++n>=2){{ bank[t[0]]=buildBank(img,msk,img.naturalWidth,img.naturalHeight); pending--; done(); }} }}
+    onImg(img,tb); onImg(msk,tb);
   }});
+  // headboard banks (normalised 300x200 tiles)
+  HBS.forEach(function(s){{
+    pending++; var img=document.getElementById('hbsrc-'+s), msk=document.getElementById('hbmsk-'+s), n=0;
+    function tb(){{ if(++n>=2){{ hbBank[s]=buildBank(img,msk,300,200);
+      var cv=document.querySelector('.bb-hbcanvas[data-slug="'+s+'"]'); if(cv) recolorInto(cv,hbBank[s],SW[fslug]);
+      pending--; done(); }} }}
+    onImg(img,tb); onImg(msk,tb);
+  }});
+  started=true; done();
 }})();
 </script>
 {footer()}"""
     write("build-a-bed/index.html", head(f"Build Your Bed | {SHOP['name']}",
-        "Design your Aurora bed — choose base (ottoman storage or standard with drawers), size and fabric, and watch it change colour. Handcrafted to order, at Eddie Maguire, Dundalk.",
+        "Design your Aurora bed — pick size, base (ottoman storage or standard with drawers), fabric and headboard, and watch it change colour. Handcrafted to order, at Eddie Maguire, Dundalk.",
         path="/build-a-bed/") + body)
     print("  build-a-bed: 1 page")
 
