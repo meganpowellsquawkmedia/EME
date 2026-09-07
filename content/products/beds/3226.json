@@ -1,0 +1,30 @@
+{
+  "id": 3226,
+  "name": "Sofia King Bed Black",
+  "slug": "sofia-king-bed-black",
+  "sku": "DHF370",
+  "price": "1399",
+  "regular_price": "1399",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 43,
+      "name": "King beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/sofia-king-bed-black.jpg"
+    }
+  ],
+  "description": "This stunningly modern, king size bed is super glamorous. With black velvet upholstery and mock croc detailling with a mirrored frame this bed is an amazing place to rest.",
+  "features": [],
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "137cm x 170cm x 214cm"
+    }
+  ],
+  "hidden": false
+}

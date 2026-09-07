@@ -1,0 +1,25 @@
+{
+  "id": 4115,
+  "name": "Opal Mattress Euro Size 200cm x 90cm",
+  "slug": "opal-mattress-euro-size-200cm-x-90cm",
+  "sku": "",
+  "price": "129",
+  "regular_price": "129",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 72,
+      "name": "MATTRESSES"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/opal-mattress-euro-size-200cm-x-90cm.jpg"
+    }
+  ],
+  "description": "THE OPAL MATTRESS IS DESIGNED FOR COMFORT WITH PRICE IN MIND. IT IS IDEAL FOR SPARE ROOMS OR THE RENTAL MARKET. THE DAMASK FABRIC IS MULTI-QUILTED WITH POLYESTER. THE OPAL INCLUDES A PERIMETER WIRE SUPPORT SYSTEM, 13.5G SPRING, 1200G TOPAZ INSULATOR PADS, TURNABLE AND HAND – TUFTED.",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

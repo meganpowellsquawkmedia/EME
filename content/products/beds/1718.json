@@ -1,0 +1,30 @@
+{
+  "id": 1718,
+  "name": "Sailsbury 4'6 Slatted Bed",
+  "slug": "sailsbury-46-slatted-bed-2",
+  "sku": "G2103",
+  "price": "749",
+  "regular_price": "749",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 1102,
+      "name": "Double beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/sailsbury-46-slatted-bed-2.jpg"
+    }
+  ],
+  "description": "",
+  "features": [],
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "2060 x 1510 x 1140 mm"
+    }
+  ],
+  "hidden": false
+}

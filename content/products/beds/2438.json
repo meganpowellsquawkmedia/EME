@@ -1,0 +1,25 @@
+{
+  "id": 2438,
+  "name": "Swift K Zone Mattress",
+  "slug": "swift-k-zone-mattress",
+  "sku": "",
+  "price": "149",
+  "regular_price": "149",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 72,
+      "name": "MATTRESSES"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/swift-k-zone-mattress.jpg"
+    }
+  ],
+  "description": "Micro-quilted panel Stitchbond fabric 130mm of enhanced high density foam High resilience core Reflex foam Totally hypo-allergenic fillings Specially manufactured for children & teenagers Mattress suitable for kids’ bunk beds 13cm in height Sizes available 3’0, 4’0 & 4’6 Vacuum-packed",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

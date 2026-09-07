@@ -1,0 +1,25 @@
+{
+  "id": 2401,
+  "name": "Backmaster Mattress",
+  "slug": "backmaster-mattress",
+  "sku": "",
+  "price": "249",
+  "regular_price": "249",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 72,
+      "name": "MATTRESSES"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/backmaster-mattress.jpg"
+    }
+  ],
+  "description": "13.5g SPRING. 1200g TOPAZ INSULATOR PADS. DAMASK FABRIC. MULTI-LAYER FILLINGS. TURNABLE. HAND STITCHED BORDER. PERIMETER SUPPORT SYSTEM.",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

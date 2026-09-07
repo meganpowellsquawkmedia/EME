@@ -1,0 +1,30 @@
+{
+  "id": 1712,
+  "name": "Sailsbury Classic Slatted 5' Bed",
+  "slug": "sailsbury-classic-slatted-5-bed-2",
+  "sku": "G1905",
+  "price": "949",
+  "regular_price": "949",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 1103,
+      "name": "King beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/sailsbury-classic-slatted-5-bed-2.jpg"
+    }
+  ],
+  "description": "",
+  "features": [],
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "2195 x 1640 x 1200 mm"
+    }
+  ],
+  "hidden": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": 851,
+  "name": "Triple Bunk Bed",
+  "slug": "triple-bunk-bed",
+  "sku": "",
+  "price": "379",
+  "regular_price": "379",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 1095,
+      "name": "Bunk Beds"
+    },
+    {
+      "id": 1096,
+      "name": "Kids Beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/triple-bunk-bed.jpg"
+    }
+  ],
+  "description": "A wooden honey pine bunk bed. The triple sleeper bunk bed is economical with regards to space. A wooden ladder allows easy access to the top bunk. Dimensions: W 2045 x D 1525 x H 1515 mm",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": 2799,
+  "name": "Sarah Day Bed White",
+  "slug": "sarah-day-bed-white",
+  "sku": "",
+  "price": "399",
+  "regular_price": "599",
+  "sale_price": "399",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 39,
+      "name": "Bunk Beds"
+    },
+    {
+      "id": 38,
+      "name": "Kids Beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/sarah-day-bed-white.jpg"
+    }
+  ],
+  "description": "Product Code: 2338ENS2 2m single bed with reversible shelf panels and underbed drawers Size: 113cm wide x 82cm high x 203cm long Weight: 48 kg Manufacturer: Parisot Storage Solutions: Shelving and drawers",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

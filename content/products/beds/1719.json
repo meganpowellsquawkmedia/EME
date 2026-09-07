@@ -1,0 +1,30 @@
+{
+  "id": 1719,
+  "name": "Salisbury 5' Panelled Bed",
+  "slug": "salisbury-5-panelled-bed-2",
+  "sku": "G2101",
+  "price": "729",
+  "regular_price": "729",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 1103,
+      "name": "King beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/salisbury-5-panelled-bed-2.jpg"
+    }
+  ],
+  "description": "",
+  "features": [],
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "2140 x 1650 x 1140 mm"
+    }
+  ],
+  "hidden": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": 2421,
+  "name": "Imperial Super Luxury Mattress",
+  "slug": "imperial-super-luxury-mattress",
+  "sku": "",
+  "price": "349",
+  "regular_price": "349",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 72,
+      "name": "MATTRESSES"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/imperial-super-luxury-mattress.jpg"
+    }
+  ],
+  "description": "Fast Delivery 2500 Pocket Sprung Technology Foam Encapsulated Hypoallergenic Soft Touch Fabric Luxury Comfort Layers Stitched Borders and Handles Easy to Clean Quality at an Affordable Price",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

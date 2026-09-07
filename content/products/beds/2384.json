@@ -1,0 +1,25 @@
+{
+  "id": 2384,
+  "name": "Opal Mattress",
+  "slug": "opal-mattress",
+  "sku": "",
+  "price": "109",
+  "regular_price": "109",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 72,
+      "name": "MATTRESSES"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/opal-mattress.jpg"
+    }
+  ],
+  "description": "THE OPAL IS DESIGNED FOR COMFORT WITH PRICE IN MIND. IT IS IDEAL FOR SPARE ROOMS OR THE RENTAL MARKET. THE DAMASK FABRIC IS MULTI-QUILTED WITH POLYESTER. THE OPAL INCLUDES A PERIMETER WIRE SUPPORT SYSTEM, 13.5G SPRING, 1200G TOPAZ INSULATOR PADS, TURNABLE AND HAND – TUFTED.",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

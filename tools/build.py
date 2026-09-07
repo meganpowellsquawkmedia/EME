@@ -392,6 +392,7 @@ FEATURED = [
     ("dishwashers", "Dishwashers"),
     ("mobile-phones", "Mobile Phones"),
     ("landline-and-cordless-phones", "Landline & Cordless Phones"),
+    ("furniture", "Beds & Mattresses"),
 ]
 slug2id = {clean[c["id"]]: c["id"] for c in C}
 

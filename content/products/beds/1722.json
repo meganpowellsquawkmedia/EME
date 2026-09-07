@@ -1,0 +1,25 @@
+{
+  "id": 1722,
+  "name": "Salisbury 5' Slatted Bed",
+  "slug": "salisbury-5-slatted-bed-2",
+  "sku": "G2104",
+  "price": "799",
+  "regular_price": "799",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 1103,
+      "name": "King beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/salisbury-5-slatted-bed-2.jpg"
+    }
+  ],
+  "description": "The Salisbury Oak Slatted Bed is available to order in 4’6, 5′ or 6′ mattress sizes only. Full bedroom suite available to order.",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

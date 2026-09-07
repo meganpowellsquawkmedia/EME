@@ -1,0 +1,29 @@
+{
+  "id": 1626,
+  "name": "Swan Midsleeper in White",
+  "slug": "swan-midsleeper-in-white-2",
+  "sku": "",
+  "price": "738",
+  "regular_price": "738",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 1095,
+      "name": "Bunk Beds"
+    },
+    {
+      "id": 1096,
+      "name": "Kids Beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/swan-midsleeper-in-white-2.jpg"
+    }
+  ],
+  "description": "Length: 210 cm Width: 130 cm Height: 132 cm Width including Desk: 213 cm Weight: 146 kg",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

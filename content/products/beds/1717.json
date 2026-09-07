@@ -1,0 +1,25 @@
+{
+  "id": 1717,
+  "name": "Sailsbury Low 3' Bed",
+  "slug": "sailsbury-low-3-bed-2",
+  "sku": "G2097",
+  "price": "439",
+  "regular_price": "439",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 1105,
+      "name": "Single beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/sailsbury-low-3-bed-2.jpg"
+    }
+  ],
+  "description": "Dimensions: W 105 x D 206.5 x H 107 cm Full matching bedroom range available to order.",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

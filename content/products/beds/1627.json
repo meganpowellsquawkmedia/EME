@@ -1,0 +1,29 @@
+{
+  "id": 1627,
+  "name": "Smoozy Highsleeper",
+  "slug": "smoozy-highsleeper-2",
+  "sku": "",
+  "price": "583",
+  "regular_price": "583",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 39,
+      "name": "Bunk Beds"
+    },
+    {
+      "id": 38,
+      "name": "Kids Beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/smoozy-highsleeper-2.jpg"
+    }
+  ],
+  "description": "RoomSmart’s Smoozy High Sleeper bed, combines a bed, desk, bookshelf, and display shelves, all in the compact space of a twin-size bed! A safe, built-in ladder is attached to get up to the loft to sleep. The bed has panel sides, which make it easy for kids to make their bed, and the front panel acts as a guard rail for nighttime! Inside the panel, there is a shelf for nighttime necessities, and outside the panel, there is another shelf for displaying books, stuffed animals or collectibles. Below the bed, there’s a long desk for homework, crafts, school projects, and computer time. There are lots of shelves for displaying treasures, books, and bins of toys, keeping your child’s room organized and tidy! The bed is perfect for a boy or girl, and has rotating accent trim that can convert from bright pink to navy blue! The bed is made from tough, eco-friendly MDF boards, and is put together with heavy-duty steel hardware that keep it sturdy and durable for years of enjoyment!",
+  "features": [],
+  "specs": [],
+  "hidden": false
+}

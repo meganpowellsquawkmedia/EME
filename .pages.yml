@@ -626,3 +626,69 @@ content:
       - { name: regular_price, label: Regular price, type: string }
       - { name: sale_price, label: Sale price, type: string }
       - { name: stock_status, label: Stock status, type: string, default: instock }
+
+  - name: beds
+    label: Beds & Mattresses
+    description: Beds & Mattresses on the site. Search by name or model, then click Edit.
+    type: collection
+    path: content/products/beds
+    format: json
+    filename: "{fields.id}.json"
+    view:
+      fields: [name, sku, price, hidden]
+      primary: name
+      sort: [name, price, sku]
+      search: [name, sku]
+    fields:
+      - name: name
+        label: Product name
+        type: string
+      - name: price
+        label: Price (€)
+        type: string
+        description: "Numbers only — e.g. 599 or 129.99. No € sign."
+      - name: images
+        label: Photo
+        type: object
+        list: true
+        description: "Upload the product photo here (one is enough)."
+        fields:
+          - { name: src, label: Image, type: image }
+      - name: hidden
+        label: Hide from website
+        type: boolean
+        default: false
+        description: "Turn on to take this off the site (e.g. sold out) without deleting it."
+      - name: sku
+        label: Model number
+        type: string
+      - name: description
+        label: Description
+        type: text
+        description: "The paragraph under Overview. Leave blank for the automatic one."
+      - name: features
+        label: Key features
+        type: string
+        list: true
+        description: "Bullet points under Overview — one per line."
+      - name: specs
+        label: Specifications table
+        type: object
+        list: true
+        description: "Rows of the spec table."
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: value, label: Value, type: string }
+      - name: categories
+        label: Category (advanced)
+        type: object
+        list: true
+        description: "Which section it appears in. Usually leave as-is."
+        fields:
+          - { name: id, label: Category ID, type: number }
+          - { name: name, label: Category name, type: string }
+      - { name: id, label: Internal ID (do not change), type: number }
+      - { name: slug, label: URL slug (do not change), type: string }
+      - { name: regular_price, label: Regular price, type: string }
+      - { name: sale_price, label: Sale price, type: string }
+      - { name: stock_status, label: Stock status, type: string, default: instock }

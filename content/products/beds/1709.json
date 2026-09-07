@@ -1,0 +1,30 @@
+{
+  "id": 1709,
+  "name": "Sailsbury Classic Slatted Bed 4'6",
+  "slug": "sailsbury-classic-slatted-bed-46-2",
+  "sku": "G1904",
+  "price": "879",
+  "regular_price": "879",
+  "sale_price": "",
+  "stock_status": "instock",
+  "categories": [
+    {
+      "id": 1102,
+      "name": "Double beds"
+    }
+  ],
+  "images": [
+    {
+      "src": "/assets/img/sailsbury-classic-slatted-bed-46-2.jpg"
+    }
+  ],
+  "description": "",
+  "features": [],
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "2075 x 1490 x 1200 mm"
+    }
+  ],
+  "hidden": false
+}
