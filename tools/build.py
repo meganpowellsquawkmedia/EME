@@ -275,6 +275,115 @@ for c in C:
     cat_total[c["id"]] = len(seen)
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Currys-style enrichment + helpers
+# Web-sourced, sanity-checked detail (desc / features / specs) keyed by SKU.
+ENRICH = {}
+_enf = ROOT / "content" / "enrich.json"
+if _enf.exists():
+    try:
+        for _k, _v in json.load(open(_enf, encoding="utf-8")).items():
+            ENRICH[_k.upper()] = {"desc": _v["desc"], "features": _v["features"],
+                                  "specs": [tuple(x) for x in _v["specs"]]}
+    except Exception as _e:
+        print("  enrich.json load error:", _e)
+
+def clean_title(p, brand):
+    """Descriptive product title with the leading brand + model stripped, for cards/PDP."""
+    t = html.unescape(p["name"]); sku = p.get("sku") or ""
+    if brand: t = re.sub(r"^" + re.escape(brand) + r"\b", "", t, flags=re.I)
+    if sku: t = t.replace(sku, "")
+    t = t.replace("|", " ").replace(":", " ")
+    t = re.sub(r"[—\-]+", " ", t)
+    t = re.sub(r"\s+", " ", t).strip(" -—,|")
+    return t or html.unescape(p["name"])
+
+def kind_of(p):
+    n = html.unescape(p["name"]).lower()
+    cats = " ".join(c.get("name", "").lower() for c in p.get("categories", []))
+    s = n + " " + cats
+    if "washer" in s and "dryer" in s: return "washer dryer"
+    if "tumble" in s or ("dryer" in s and "washer" not in s): return "tumble dryer"
+    if "washing machine" in s or "washing" in cats: return "washing machine"
+    if "dishwash" in s: return "dishwasher"
+    if "fridge" in s or "freezer" in s or "refriger" in s: return "fridge freezer"
+    if "cooker" in s or "oven" in s or "cooking" in cats: return "cooker"
+    if "iphone" in s or "mobile" in cats or "smartphone" in s: return "phone"
+    if "cordless" in s or "landline" in s or "dect" in s or "corded" in s: return "phone"
+    return ""
+
+def facets(p):
+    """Attribute facets parsed from the product name for filters / chips / specs."""
+    name = html.unescape(p["name"]); fc = {}
+    m = re.search(r"(\d{2,3})\s?cm", name);           fc["Width"] = m.group(1) + "cm" if m else None
+    m = re.search(r"(\d{1,2})\s?kg", name, re.I);      fc["Capacity"] = m.group(1) + "kg" if m else None
+    m = re.search(r"(\d{2,4})\s?GB", name, re.I);      fc["Storage"] = m.group(1) + "GB" if m else None
+    if re.search(r"dual[- ]fuel", name, re.I):         fc["Fuel"] = "Dual fuel"
+    elif re.search(r"\bLPG\b", name):                  fc["Fuel"] = "Gas (LPG)"
+    elif re.search(r"\bgas\b", name, re.I):            fc["Fuel"] = "Gas"
+    elif kind_of(p) == "cooker":                       fc["Fuel"] = "Electric"
+    else:                                              fc["Fuel"] = None
+    fc["Colour"] = colour_of(name) or None
+    return {k: v for k, v in fc.items() if v}
+
+def real_desc(p):
+    d = re.sub(r"<[^>]+>", " ", (p.get("description") or p.get("short_description") or ""))
+    d = re.sub(r"\s+", " ", html.unescape(d)).strip()
+    if d.lower().startswith("this ") and "." in d:
+        out = " ".join(re.split(r"(?<=\.)\s", d)[:2]).strip()
+        if 40 < len(out) < 360: return out
+    return ""
+
+def blurb(p, fc, brand):
+    sku = p.get("sku") or ""; lead = ("The %s %s" % (brand, sku)).strip(); k = kind_of(p)
+    if k == "cooker":
+        t = "range cooker" if "range" in p["name"].lower() else ("built-in oven" if "built-in" in p["name"].lower() else "freestanding cooker")
+        s = "%s is a %s%s" % (lead, (fc["Width"] + " " if fc.get("Width") else ""), t)
+        s += {"Dual fuel": " with a gas hob and electric oven", "Gas": " running on natural gas",
+              "Gas (LPG)": " running on LPG / bottled gas", "Electric": " with a ceramic hob and fan oven"}.get(fc.get("Fuel"), "") + "."
+    elif k in ("washing machine", "washer dryer", "tumble dryer"):
+        s = "%s is a %s%s." % (lead, k, (" with a %s load capacity" % fc["Capacity"]) if fc.get("Capacity") else "")
+    elif k == "fridge freezer":
+        s = "%s is a fridge freezer%s." % (lead, (" finished in %s" % fc["Colour"].lower()) if fc.get("Colour") else "")
+    elif k == "phone":
+        s = "The %s." % clean_title(p, brand).rstrip(".")
+    else:
+        s = "%s." % lead
+    return real_desc(p) or (s + " In stock now at our Church Street showroom in Dundalk — call in for a closer look, or message us on WhatsApp and we'll help you choose.").replace("  ", " ")
+
+def glance_html(fc):
+    items = [(lbl, fc[k]) for k, lbl in [("Width", "Width"), ("Capacity", "Capacity"),
+             ("Storage", "Storage"), ("Fuel", "Fuel"), ("Colour", "Colour")] if fc.get(k)][:4]
+    if not items: return ""
+    return '<div class="glance">' + "".join(
+        '<div class="g"><span class="k">%s</span><span class="v">%s</span></div>' % (esc(l), esc(v)) for l, v in items) + '</div>'
+
+STARS = '<span class="stars">★★★★★<span class="rev">No reviews yet</span></span>'
+
+# Featured departments (homepage tiles + top nav). slug -> label; resolved to real categories.
+FEATURED = [
+    ("home-appliances-cooking", "Cookers"),
+    ("refrigeration", "Fridges & Freezers"),
+    ("washing-machines", "Washing Machines"),
+    ("tumble-dryer", "Tumble Dryers"),
+    ("washer-dryer", "Washer Dryers"),
+    ("dishwashers", "Dishwashers"),
+    ("mobile-phones", "Mobile Phones"),
+    ("landline-and-cordless-phones", "Landline & Cordless Phones"),
+]
+slug2id = {clean[c["id"]]: c["id"] for c in C}
+
+def cat_first_image(cid):
+    """A representative image for a category (its own products, then descendants)."""
+    pool = list(prods_in.get(cid, []))
+    for d in _descendants(cid):
+        pool += prods_in.get(d, [])
+    for p in pool:
+        if p.get("images"):
+            src = local_img(p["images"][0]["src"])
+            if src and "placeholder" not in src: return src
+    return CAT_IMAGES.get(clean.get(cid, ""), "/assets/placeholder-product.svg")
+
+# ─────────────────────────────────────────────────────────────────────────────
 # HTML partials
 def head(title, desc, css_path="/assets/site.css", path="/", image=None, jsonld=None):
     canon = SITE_ABS + path
@@ -340,58 +449,65 @@ def product_ld(p, name, abs_img, price_v):
 
 WA_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>'
 
+def nav_links():
+    out = ""
+    for slug, lbl in FEATURED:
+        if slug in slug2id and cat_total.get(slug2id[slug]):
+            out += f'<a href="/category/{slug}/">{esc(lbl)}</a>'
+    return out + '<a href="/category/">All Categories</a>'
+
 def header():
-    return f"""<header>
-  <a href="/" class="logo">
-    <div class="logo-text"><span class="name">{SHOP['name']}</span><span class="sub">{SHOP['tagline']}</span></div>
-  </a>
-  <nav>
-    <a href="/category/">Shop</a>
-    <a href="/about-us/">About</a>
-    <a href="/contact-us/">Contact</a>
-    <a href="https://wa.me/{SHOP['wa']}" class="nav-cta">{WA_SVG} Enquire</a>
-  </nav>
-  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
-</header>"""
+    return f"""<div class="tstrip"><div class="wrap">
+  <span>🚚 <b>Free local delivery</b> around Dundalk</span>
+  <span>🏬 <b>Buy in store</b> — {esc(SHOP['address'])}</span>
+  <span>💬 <b>Ask us anything</b> on WhatsApp</span>
+</div></div>
+<header class="site"><div class="wrap">
+  <a class="brand" href="/">{SHOP['name'].upper()}<small>{SHOP['tagline'].upper()}</small></a>
+  <form class="search" onsubmit="return false"><input placeholder="Search cookers, fridges, washing machines…" aria-label="Search"><button>Search</button></form>
+  <div class="hactions">
+    <a href="tel:{SHOP['phone_tel']}">📞 {SHOP['phone_display']}</a>
+    <a class="wa" href="https://wa.me/{SHOP['wa']}">{WA_SVG} Enquire</a>
+  </div>
+</div></header>
+<nav class="cats"><div class="wrap">{nav_links()}</div></nav>"""
 
 def footer():
-    tops = sorted([c for c in children.get(0, []) if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP], key=lambda x: -cat_total[x["id"]])[:6]
-    shoplinks = "".join(f'<li><a href="{cat_url(c["id"])}">{esc(html.unescape(c["name"]))}</a></li>' for c in tops)
-    return f"""<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a href="/" class="logo"><div class="logo-text"><span class="name">{SHOP['name']}</span><span class="sub">{SHOP['tagline']}</span></div></a>
-      <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
-    </div>
-    <div class="footer-col"><h4>Shop</h4><ul>{shoplinks}<li><a href="/category/">All categories</a></li></ul></div>
-    <div class="footer-col"><h4>Company</h4><ul>
-      <li><a href="/about-us/">About Us</a></li>
-      <li><a href="/contact-us/">Contact</a></li>
-      <li><a href="/delivery-returns/">Delivery</a></li>
-      <li><a href="/returns-replacements/">Returns</a></li>
-      <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
-      <li><a href="/privacy-policy/">Privacy Policy</a></li>
-    </ul></div>
-    <div class="footer-col"><h4>Visit Us</h4><ul>
-      <li><a href="https://maps.google.com/?q={esc(SHOP['address'])}">{esc(SHOP['address'])}</a></li>
-      <li><a href="tel:{SHOP['phone_tel']}">{SHOP['phone_display']}</a></li>
-      <li><a href="mailto:{SHOP['email']}">{SHOP['email']}</a></li>
-      <li style="margin-top:12px;color:var(--orange)">{SHOP['hours']}</li>
-    </ul></div>
+    shoplinks = "".join(f'<li><a href="/category/{slug}/">{esc(lbl)}</a></li>'
+                        for slug, lbl in FEATURED if slug in slug2id and cat_total.get(slug2id[slug]))
+    return f"""<footer class="site"><div class="wrap">
+  <div class="footer-brand">
+    <a href="/" class="brand">{SHOP['name'].upper()}</a>
+    <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
   </div>
-  <div class="footer-bottom">
-    <p>© 2026 {SHOP['name']} {SHOP['tagline']}. All rights reserved.</p>
-    <p>Made with <span>♥</span> in Dundalk</p>
-  </div>
+  <div><h4>Shop</h4><ul>{shoplinks}<li><a href="/category/">All categories</a></li></ul></div>
+  <div><h4>Company</h4><ul>
+    <li><a href="/about-us/">About Us</a></li>
+    <li><a href="/contact-us/">Contact</a></li>
+    <li><a href="/delivery-returns/">Delivery</a></li>
+    <li><a href="/returns-replacements/">Returns</a></li>
+    <li><a href="/terms-and-conditions/">Terms &amp; Conditions</a></li>
+    <li><a href="/privacy-policy/">Privacy Policy</a></li>
+  </ul></div>
+  <div><h4>Visit Us</h4><ul>
+    <li><a href="https://maps.google.com/?q={esc(SHOP['address'])}">{esc(SHOP['address'])}</a></li>
+    <li><a href="tel:{SHOP['phone_tel']}">{SHOP['phone_display']}</a></li>
+    <li><a href="mailto:{SHOP['email']}">{SHOP['email']}</a></li>
+    <li class="footer-hours">{SHOP['hours']}</li>
+  </ul></div>
+</div>
+<div class="wrap footer-bottom">
+  <span>© 2026 {SHOP['name']} {SHOP['tagline']}. All rights reserved.</span>
+  <span>Made with <span>♥</span> in Dundalk</span>
+</div>
 </footer>
 </body></html>"""
 
 def product_card(p):
-    img = local_img(p["images"][0]["src"]) if p.get("images") else ""
+    img = local_img(p["images"][0]["src"]) if p.get("images") else "/assets/placeholder-product.svg"
     brand = brand_of(p)
-    name = html.unescape(p["name"])
-    if brand and name.upper().startswith(brand.upper()):
-        name = name[len(brand):].strip()
+    title = clean_title(p, brand)
+    fc = facets(p)
     price_v, reg, sale = eff_price(p)
     price = money(price_v)
     try: pnum = float(price_v)
@@ -399,16 +515,28 @@ def product_card(p):
     on_sale = sale and reg and sale != reg
     was = f'<span class="was">{money(reg)}</span>' if on_sale else ""
     badge = '<span class="sale-badge">Sale</span>' if on_sale else ""
-    price_disp = f"{price} {was}" if price else '<span class="poa">Price on request</span>'
+    price_disp = f"{price}{was}" if price else '<span class="poa">Price on request</span>'
     colour = colour_of(p["name"])
-    return f"""<a href="/product/{esc(p['slug'])}/" class="product-card" data-brand="{esc(brand.lower())}" data-colour="{esc(colour.lower())}" data-price="{pnum}" data-name="{esc(name.lower())}">
-  <div class="product-thumb-wrap">{badge}<div class="product-thumb"><img src="{esc(img)}" alt="{esc(name)}" loading="lazy"></div></div>
-  <div class="product-info">
-    {f'<div class="product-brand">{esc(brand)}</div>' if brand else ''}
-    <div class="product-name">{esc(name)}</div>
-    <div class="product-price-row"><span class="product-price">{price_disp}</span></div>
-  </div>
-</a>"""
+    chipvals = [v for k, v in fc.items() if k in ("Width", "Capacity", "Storage", "Fuel", "Colour")][:2]
+    chips = "".join(f'<span class="chip">{esc(v)}</span>' for v in chipvals)
+    dataf = " ".join('data-%s="%s"' % (k.lower(), esc(v)) for k, v in fc.items())
+    instock = p.get("stock_status") == "instock"
+    stock = ('<div class="stock"><span class="dot"></span> In stock in Dundalk</div>' if instock
+             else '<div class="stock out"><span class="dot"></span> Enquire for availability</div>')
+    model = f'<div class="model">Model: {esc(p.get("sku"))}</div>' if p.get("sku") else '<div class="model"></div>'
+    wa = "https://wa.me/" + SHOP["wa"]
+    return f"""<div class="card" data-brand="{esc(brand)}" data-colour="{esc(colour)}" data-price="{pnum}" data-name="{esc(html.unescape(p['name']))}" {dataf}>
+  {badge}<div class="imgw"><img src="{esc(img)}" alt="{esc(html.unescape(p['name']))}" loading="lazy"></div>
+  {f'<div class="bd">{esc(brand)}</div>' if brand else '<div class="bd"></div>'}
+  <a class="nm" href="/product/{esc(p['slug'])}/">{esc(title)}</a>
+  {model}
+  {STARS}
+  <div class="chips">{chips}</div>
+  <div class="price">{price_disp}</div>
+  <div class="vat">Price includes VAT</div>
+  {stock}
+  <div class="cbtns"><a class="btn btn-o" href="{wa}">Enquire</a><a class="btn btn-g" href="/product/{esc(p['slug'])}/">Details</a></div>
+</div>"""
 
 def write(path, content):
     full = ROOT / path
@@ -431,9 +559,8 @@ def build_products():
         crumbs += f'<span class="sep">/</span><span class="current">{esc(html.unescape(p["name"])[:40])}</span>'
 
         brand = detect_brand(p["name"])
-        imgs = p.get("images", [])
-        main = local_img(imgs[0]["src"]) if imgs else ""
-        thumbs = "".join(f'<img src="{esc(local_img(i["src"]))}" alt="" onclick="document.getElementById(\'pdpmain\').src=this.src">' for i in imgs[:6])
+        imgs = [i for i in p.get("images", []) if i and i.get("src")]
+        main = local_img(imgs[0]["src"]) if imgs else "/assets/placeholder-product.svg"
         price_v, reg, sale = eff_price(p)
         price = money(price_v)
         on_sale = sale and reg and sale != reg
@@ -458,28 +585,121 @@ def build_products():
         wa_text = f"Hi, I'm interested in: {html.unescape(p['name'])} ({SITE}/product/{p['slug']}/)"
         wa_link = "https://wa.me/" + SHOP["wa"] + "?text=" + re.sub(r"\s+", "%20", wa_text)
 
+        brand2 = brand_of(p)
+        title = clean_title(p, brand2)
+        fc = facets(p); kind = kind_of(p) or "Product"
+        # breadcrumb (new style)
+        crumb = '<a href="/">Home</a> / <a href="/category/">Shop</a>'
+        for cc in chain:
+            crumb += f' / <a href="{cat_url(cc["id"])}">{esc(html.unescape(cc["name"]))}</a>'
+        crumb += f' / <b>{esc(p.get("sku") or title)}</b>'
+        # gallery thumbs
+        if len(imgs) > 1:
+            thumbs_html = "".join(
+                f'<div class="t{" on" if i==0 else ""}" data-src="{esc(local_img(im["src"]))}"><img src="{esc(local_img(im["src"]))}" alt=""></div>'
+                for i, im in enumerate(imgs[:6]))
+        else:
+            thumbs_html = f'<div class="t on"><img src="{esc(main)}" alt=""></div><div class="t">More<br>photos<br>soon</div>'
+        # price + stock
+        price_html = (f'<div class="price">{price}{was}</div><div class="vat">Price includes VAT'
+                      + (f' · model {esc(p.get("sku"))}' if p.get("sku") else '') + '</div>') if price else \
+                     '<div class="price"><span class="poa">Price on request</span></div>'
+        if p.get("stock_status") == "instock":
+            stock_line = '<div class="stock"><span class="dot"></span> In stock now at ' + esc(SHOP["address"]) + '</div>'
+        elif is_supplier and stat == "onbackorder":
+            stock_line = '<div class="stock"><span class="dot"></span> Available to order — incoming stock</div>'
+        else:
+            stock_line = '<div class="stock out"><span class="dot"></span> Please enquire for availability</div>'
+        # overview + specs + features (enrich > web data, else generated)
+        en = ENRICH.get((p.get("sku") or "").upper())
+        lead_txt = en["desc"] if en else blurb(p, fc, brand2)
+        if en:
+            feats = en["features"]
+            spec = [("Brand", brand2), ("Model number", p.get("sku") or "—"), ("Product type", kind.title())] + list(en["specs"]) + [("Availability", "In stock — " + SHOP["address"])]
+        else:
+            feats = []
+            if fc.get("Width"): feats.append(f"{fc['Width']} width")
+            if fc.get("Capacity"): feats.append(f"{fc['Capacity']} load capacity")
+            if fc.get("Storage"): feats.append(f"{fc['Storage']} storage")
+            if fc.get("Fuel"): feats.append({"Dual fuel": "Dual fuel — gas hob with electric oven", "Gas": "Gas cooker — natural gas", "Gas (LPG)": "Gas cooker — LPG / bottled gas", "Electric": "Electric — ceramic hob & fan oven"}.get(fc["Fuel"], fc["Fuel"]))
+            if fc.get("Colour"): feats.append(f"{fc['Colour']} finish")
+            feats.append(f"{brand2} — model {p.get('sku') or 'see in store'}" if brand2 else "In stock at our Church Street showroom")
+            feats.append("Local delivery & setup advice available")
+            spec = [("Brand", brand2), ("Model number", p.get("sku") or "—"), ("Product type", kind.title())]
+            for kk, lbl in [("Width", "Width"), ("Capacity", "Load capacity"), ("Storage", "Storage"), ("Fuel", "Fuel type"), ("Colour", "Colour")]:
+                if fc.get(kk): spec.append((lbl, fc[kk]))
+            spec += [("Availability", "In stock — " + SHOP["address"]), ("Guarantee", "Manufacturer guarantee — ask in store")]
+        specnote = "" if en else '<div class="specnote">Specifications shown are compiled from the details we hold; full manufacturer specs are available in store.</div>'
+        feat_html = "".join(f"<li>{esc(x)}</li>" for x in feats)
+        spec_html = "".join(f"<tr><td>{esc(k)}</td><td>{esc(v)}</td></tr>" for k, v in spec)
+        # a longer WP prose description (kept below, if it adds anything real)
+        wp = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html.unescape(p.get("description") or ""))).strip()
+        wp_block = ""
+        if wp and "call or message" not in wp.lower() and len(wp) > 80 and wp != lead_txt and not en:
+            wp_block = f'<div class="psection"><h2>Product details</h2><div class="pdp-desc-wp">{p.get("description")}</div></div>'
+        # related
+        related = [q for q in prods_in.get(cats[0]["id"], []) if q["slug"] != p["slug"]][:4] if cats else []
+        rel_html = "".join(product_card(q) for q in related)
+        rel_section = f'<div class="related"><h2>You Might Also Like</h2><div class="grid">{rel_html}</div></div>' if related else ""
+
         body = f"""{header()}
-<div class="page-body">
-<div class="crumbs">{crumbs}</div>
+<div class="wrap">
+<div class="crumb">{crumb}</div>
 <div class="pdp">
-  <div>
-    <div class="pdp-gallery"><img id="pdpmain" src="{esc(main)}" alt="{esc(html.unescape(p['name']))}"></div>
-    {f'<div class="pdp-thumbs">{thumbs}</div>' if len(imgs) > 1 else ''}
+  <div class="gallery">
+    <div class="thumbs">{thumbs_html}</div>
+    <div class="gmain"><img id="pdpmain" src="{esc(main)}" alt="{esc(html.unescape(p['name']))}"></div>
   </div>
-  <div>
-    {f'<div class="pdp-brand">{esc(brand)}</div>' if brand else ''}
-    <h1>{esc(html.unescape(p['name']))}</h1>
-    <div class="pdp-price">{f'<span class="now">{price}</span> {was}' if price else '<span class="now poa-now">Price on request</span>'}</div>
-    {stock_html}
-    <div class="pdp-actions">
-      <a href="{wa_link}" class="btn-primary">{WA_SVG} Enquire on WhatsApp</a>
-      <a href="tel:{SHOP['phone_tel']}" class="btn-secondary">Call {SHOP['phone_display']} →</a>
+  <div class="pinfo">
+    {f'<div class="bd">{esc(brand2)}</div>' if brand2 else ''}
+    <h1>{esc(title)}</h1>
+    <div class="pmodel">Model: {esc(p.get('sku') or '—')}</div>
+    {STARS}
+    {glance_html(fc)}
+    <div class="pricebox">
+      {price_html}
+      {stock_line}
+      <div class="delivery">
+        <div class="row"><span class="ic">🏬</span><div><b>Collect in store</b> — reserve today, pick up when ready</div></div>
+        <div class="row"><span class="ic">🚚</span><div><b>Local delivery</b> around Dundalk — ask us for a quote</div></div>
+        <div class="row"><span class="ic">💬</span><div><b>Questions?</b> Message us and we'll help you choose</div></div>
+      </div>
+      <div class="ctas">
+        <a class="ctabig" href="{wa_link}">{WA_SVG} Enquire on WhatsApp</a>
+        <a class="ctacall" href="tel:{SHOP['phone_tel']}">📞 Call {SHOP['phone_display']}</a>
+        <a class="ctarsv" href="https://wa.me/{SHOP['wa']}">Reserve for collection</a>
+      </div>
     </div>
-    <p class="note-instore">{note}</p>
-    <div class="pdp-desc">{desc}</div>
+    <div class="trustrow">
+      <div class="trust"><b>Family run</b>Trusted Dundalk retailer</div>
+      <div class="trust"><b>Real shop</b>See it before you buy</div>
+      <div class="trust"><b>Local advice</b>We know our products</div>
+    </div>
   </div>
 </div>
+<div class="psection"><h2>Overview</h2><p class="leadp">{esc(lead_txt)}</p><ul class="feat-list">{feat_html}</ul></div>
+<div class="psection"><h2>Specifications</h2><table class="spectab"><tbody>{spec_html}</tbody></table>{specnote}</div>
+{wp_block}
+<div class="psection"><h2>Why Buy From {esc(SHOP['name'])}</h2><ul class="feat-list">
+  <li>A real family shop on Church St — not a faceless website</li>
+  <li>Honest advice from people who know their products</li>
+  <li>Local delivery &amp; help getting set up</li>
+  <li>Part of the Dundalk community for years</li></ul></div>
+<div class="psection"><h2>Ratings &amp; Reviews</h2><div class="emptyrev"><div class="big">★★★★★</div><p>No reviews yet — bought this in store? Tell us how you're getting on.</p></div></div>
+{rel_section}
 </div>
+<div class="stickybar" id="sbar"><div class="wrap">
+  <img class="sb-img" src="{esc(main)}" alt="">
+  <div class="sb-nm">{esc(brand2)} {esc(p.get('sku') or title)}</div>
+  <div class="sb-pr">{price if price else ''}</div>
+  <a class="sb-cta" href="{wa_link}">{WA_SVG} Enquire</a>
+</div></div>
+<script>
+(function(){{var b=document.getElementById('sbar');if(b)addEventListener('scroll',function(){{b.classList.toggle('on',scrollY>640)}});
+document.querySelectorAll('.thumbs .t[data-src]').forEach(function(t){{t.addEventListener('click',function(){{
+  document.getElementById('pdpmain').src=t.dataset.src;
+  document.querySelectorAll('.thumbs .t').forEach(function(x){{x.classList.remove('on')}});t.classList.add('on');}})}});}})();
+</script>
 {footer()}"""
         abs_img = (SITE_ABS + main) if main.startswith("/") else main
         page = head(f"{html.unescape(p['name'])} | {SHOP['name']}",
@@ -507,70 +727,113 @@ def build_categories():
         prods.sort(key=lambda p: (p.get("stock_status") != "instock", html.unescape(p["name"])))
 
         chain = crumb_chain(c["id"])
-        crumbs = '<a href="/">Home</a><span class="sep">/</span><a href="/category/">Shop</a>'
+        crumb = '<a href="/">Home</a> / <a href="/category/">Shop</a>'
         for cc in chain[:-1]:
-            crumbs += f'<span class="sep">/</span><a href="{cat_url(cc["id"])}">{esc(html.unescape(cc["name"]))}</a>'
-        crumbs += f'<span class="sep">/</span><span class="current">{esc(html.unescape(c["name"]))}</span>'
+            crumb += f' / <a href="{cat_url(cc["id"])}">{esc(html.unescape(cc["name"]))}</a>'
+        crumb += f' / <b>{esc(html.unescape(c["name"]))}</b>'
 
         subcats = sorted([s for s in children.get(c["id"], []) if cat_total[s["id"]]], key=lambda x: -cat_total[x["id"]])
         subnav = ""
         if subcats:
-            chips = "".join(f'<a href="{cat_url(s["id"])}" class="btn-secondary" style="font-size:13px">{esc(html.unescape(s["name"]))}</a>' for s in subcats)
-            subnav = f'<div style="display:flex;flex-wrap:wrap;gap:14px;padding:8px 48px 0">{chips}</div>'
+            chips = "".join(f'<a href="{cat_url(s["id"])}">{esc(html.unescape(s["name"]))}</a>' for s in subcats)
+            subnav = f'<div class="subnav">{chips}</div>'
 
-        grid = "".join(product_card(p) for p in prods) or '<p style="color:var(--muted);padding:0 48px">No products in this category yet.</p>'
+        cards = "".join(product_card(p) for p in prods) or '<div class="nores">No products in this category yet.</div>'
         cname = esc(html.unescape(c["name"]))
         ccount = f"{len(prods)} product{'s' if len(prods)!=1 else ''}"
 
-        # filter bar (client-side): brand chips + price min/max + sort
-        filterbar = ""
-        if len(prods) >= 4:
-            brands_in = sorted({brand_of(p) for p in prods if brand_of(p)}, key=str.lower)
-            nums = []
-            for p in prods:
-                try: nums.append(float(eff_price(p)[0]))
-                except (TypeError, ValueError): pass
-            pmin = int(min(nums)) if nums else 0
-            pmax = int(max(nums)) + 1 if nums else 0
-            brand_block = ""
-            if len(brands_in) >= 2:
-                chips_html = "".join(f'<button type="button" class="brand-chip" data-b="{esc(b.lower())}">{esc(b)}</button>' for b in brands_in)
-                brand_block = ('<div class="fdrop"><button type="button" class="fdrop-btn">Brand'
-                               '<span class="fdrop-n" data-count="b"></span><span class="caret">▾</span></button>'
-                               f'<div class="fdrop-panel"><div class="brand-chips">{chips_html}</div></div></div>')
-            present_cols = {colour_of(p["name"]) for p in prods}
-            colours_in = [col for col in ("Black", "White", "Silver") if col in present_cols]
-            colour_block = ""
-            if len(colours_in) >= 2:
-                cchips = "".join(f'<button type="button" class="brand-chip" data-c="{col.lower()}">{col}</button>' for col in colours_in)
-                colour_block = ('<div class="fdrop"><button type="button" class="fdrop-btn">Colour'
-                                '<span class="fdrop-n" data-count="c"></span><span class="caret">▾</span></button>'
-                                f'<div class="fdrop-panel"><div class="brand-chips">{cchips}</div></div></div>')
-            filterbar = f'''<div class="filters">
-  {brand_block}
-  {colour_block}
-  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
-    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="{pmin}" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="{pmax}" min="0"></div></div>
-  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
-  <button type="button" id="fclear" class="f-clear">Clear</button>
-  <span class="f-count" id="fcount"></span>
-</div>'''
-        img_ov = CAT_IMAGES.get(clean[c["id"]]) or CAT_IMAGES.get(c["slug"])
-        if img_ov:
-            head_block = (f'<div class="cat-hero"><div class="cat-hero-bg" style="background-image:url(\'{esc(img_ov)}\')"></div>'
-                          f'<div class="cat-hero-overlay"></div>'
-                          f'<div class="cat-hero-content"><h1>{cname}</h1><div class="count">{ccount}</div></div></div>')
+        # ── filter sidebar (client-side): Brand + up to 2 attribute facets + Colour + Price ──
+        from collections import Counter as _Counter
+        bc = _Counter(brand_of(p) for p in prods if brand_of(p))
+        fcounts = {}
+        for p in prods:
+            for k, v in facets(p).items():
+                fcounts.setdefault(k, _Counter())[v] += 1
+        colc = _Counter(colour_of(p["name"]) for p in prods if colour_of(p["name"]))
+        sec = [k for k in ("Fuel", "Capacity", "Width", "Storage") if len(fcounts.get(k, {})) > 1][:2]
+
+        def fopts(counter, cls):
+            return "".join(
+                f'<label class="fopt"><input type="checkbox" class="{cls}" value="{esc(str(k))}"><span>{esc(str(k))}</span><span class="ct">{v}</span></label>'
+                for k, v in sorted(counter.items(), key=lambda x: (-x[1], str(x[0]))))
+
+        groups = ""
+        dims = []
+        if len(bc) > 1:
+            groups += f'<div class="fgroup"><h4>Brand</h4>{fopts(bc, "f-brand")}</div>'; dims.append("brand")
+        for k in sec:
+            groups += f'<div class="fgroup"><h4>{esc(k)}</h4>{fopts(fcounts[k], "f-"+k.lower())}</div>'; dims.append(k.lower())
+        if len(colc) > 1 and "colour" not in dims:
+            groups += f'<div class="fgroup"><h4>Colour</h4>{fopts(colc, "f-colour")}</div>'; dims.append("colour")
+        nums = []
+        for p in prods:
+            try: nums.append(float(eff_price(p)[0]))
+            except (TypeError, ValueError): pass
+        pricegroup = ""
+        if nums:
+            brackets = [(0, 300, "Under €300"), (300, 600, "€300 – €600"), (600, 1000, "€600 – €1,000"), (1000, 10**9, "€1,000+")]
+            present = [(a, z, l) for a, z, l in brackets if any(a <= n < z for n in nums)]
+            if len(present) > 1:
+                opts = "".join(f'<label class="fopt"><input type="radio" name="pr" class="f-price" value="{a}-{z}"><span>{esc(l)}</span></label>' for a, z, l in present)
+                pricegroup = f'<div class="fgroup"><h4>Price</h4>{opts}</div>'
+
+        show_filters = len(prods) >= 4 and (groups or pricegroup)
+        dims_js = ",".join(f'"{d}"' for d in dims)
+        top_brands = ", ".join(b for b, _ in bc.most_common(4))
+        intro = (f"Our {html.unescape(c['name'])} range — {len(prods)} model{'s' if len(prods)!=1 else ''} in stock now at {SHOP['address']}"
+                 + (f", including {top_brands}." if top_brands else ".")
+                 + " Not sure which suits you? Message us on WhatsApp and we'll help you choose.")
+
+        maincol = f"""<main>
+      <div class="lhead"><div><h1>{cname}</h1><div class="cnt" id="cnt">{ccount}</div></div>
+        <div class="sortbar">Sort <select id="sort"><option value="feat">Featured</option><option value="lo">Price: low to high</option><option value="hi">Price: high to low</option><option value="az">Name A–Z</option></select></div>
+      </div>
+      {subnav}
+      <p class="intro">{esc(intro)}</p>
+      <div class="grid" id="grid">{cards}</div>
+    </main>"""
+
+        if show_filters:
+            listing = f"""<div class="plist">
+    <aside class="filters">
+      <div class="fgroup" style="display:flex;justify-content:space-between;align-items:center;padding-bottom:10px"><strong style="font-size:13px;text-transform:uppercase;letter-spacing:.05em">Filter</strong><button class="clearf" type="button" onclick="clearAll()">Clear all</button></div>
+      {groups}{pricegroup}
+    </aside>
+    {maincol}
+  </div>
+  <script>
+  (function(){{
+    var DIMS=[{dims_js}];
+    window.clearAll=function(){{document.querySelectorAll('.filters input').forEach(function(i){{i.checked=false}});applyF()}};
+    function checked(cls){{return Array.from(document.querySelectorAll('.'+cls+':checked')).map(function(x){{return x.value}})}}
+    window.applyF=function(){{
+      var sel={{}};DIMS.forEach(function(d){{sel[d]=checked('f-'+d)}});
+      var pr=(document.querySelector('.f-price:checked')||{{}}).value;
+      var cards=Array.prototype.slice.call(document.querySelectorAll('.card'));var vis=0;
+      cards.forEach(function(c){{var ok=true;
+        DIMS.forEach(function(d){{if(sel[d].length&&sel[d].indexOf(c.dataset[d])<0)ok=false}});
+        if(pr){{var pp=pr.split('-');var v=+c.dataset.price;if(v< +pp[0]||v>= +pp[1])ok=false}}
+        c.style.display=ok?'':'none';if(ok)vis++;}});
+      var s=document.getElementById('sort').value;var g=document.getElementById('grid');
+      var shown=cards.filter(function(c){{return c.style.display!=='none'}});
+      shown.sort(function(x,y){{return s==='lo'?x.dataset.price-y.dataset.price:s==='hi'?y.dataset.price-x.dataset.price:s==='az'?(x.dataset.name>y.dataset.name?1:-1):0}});
+      shown.forEach(function(c){{g.appendChild(c)}});
+      document.getElementById('cnt').textContent=vis+' product'+(vis===1?'':'s');
+      var nr=document.getElementById('nores');
+      if(!vis){{if(!nr){{nr=document.createElement('div');nr.id='nores';nr.className='nores';nr.textContent='No products match those filters.';g.appendChild(nr)}}}}else if(nr)nr.remove();
+    }};
+    document.querySelectorAll('.filters input').forEach(function(i){{i.addEventListener('change',applyF)}});
+    document.getElementById('sort').addEventListener('change',applyF);
+  }})();
+  </script>"""
         else:
-            head_block = f'<div class="page-head"><h1>{cname}</h1><div class="count">{ccount}</div></div>'
+            listing = f'<div style="padding:12px 0 60px">{maincol}</div>'
+
         body = f"""{header()}
-<div class="page-body">
-<div class="crumbs">{crumbs}</div>
-{head_block}
-{subnav}
-{filterbar}
-<div class="product-grid" id="grid">{grid}</div>
+<div class="wrap">
+<div class="crumb">{crumb}</div>
+{listing}
 </div>
-<script src="/assets/filters.js?v={JS_VER}" defer></script>
 {footer()}"""
         page = head(f"{html.unescape(c['name'])} | {SHOP['name']}",
                     f"Browse {html.unescape(c['name'])} at {SHOP['name']}, Dundalk. {len(prods)} products. Buy in store.",
@@ -580,114 +843,110 @@ def build_categories():
 
 # CATEGORY INDEX
 def build_category_index():
+    tiles = ""
+    for slug, lbl in FEATURED:
+        if slug not in slug2id or not cat_total.get(slug2id[slug]): continue
+        cid = slug2id[slug]
+        tiles += f"""<a class="tile" href="/category/{slug}/">
+  <div class="tw"><img src="{esc(cat_first_image(cid))}" alt="{esc(lbl)}" loading="lazy"></div>
+  <h3>{esc(lbl)}</h3><div class="cnt">{cat_total[cid]} products</div><div class="go">Shop now →</div></a>"""
     tops = sorted([c for c in children.get(0, []) if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP], key=lambda x: -cat_total[x["id"]])
-    chips = ""
-    for t in tops:
-        chips += f"""<a href="{cat_url(t['id'])}" class="cat-chip">
-  <h3>{esc(html.unescape(t['name']))}</h3>
-  <div class="sub">{cat_total[t['id']]} products</div>
-</a>"""
+    deptrow = "".join(f'<a class="subnav-a" href="{cat_url(t["id"])}"></a>' for t in [])  # (kept simple)
     body = f"""{header()}
-<div class="page-body">
-<div class="crumbs"><a href="/">Home</a><span class="sep">/</span><span class="current">Shop</span></div>
-<div class="page-head"><h1>Shop by category</h1><div class="count">{len(P)} products across {sum(1 for c in C if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP)} categories</div></div>
-<div class="cat-chip-grid">{chips}</div>
+<div class="wrap">
+<div class="crumb"><a href="/">Home</a> / <b>Shop</b></div>
+<div class="page-head"><h1>Shop By Category</h1><div class="count">{len(P)} products across {sum(1 for c in C if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP)} departments</div></div>
 </div>
+<section class="section" style="padding-top:20px"><div class="wrap"><div class="tiles">{tiles}</div></div></section>
 {footer()}"""
     write("category/index.html", head(f"Shop | {SHOP['name']}", f"Browse all categories at {SHOP['name']}, Dundalk.", path="/category/") + body)
     print("  category index: 1 page")
 
 # HOMEPAGE
 def build_home():
-    tops = sorted([c for c in children.get(0, []) if cat_total[c["id"]] and c["id"] not in HIDDEN_TOP], key=lambda x: -cat_total[x["id"]])[:6]
-    cards = ""
-    for i, t in enumerate(tops):
-        img = CAT_IMAGES.get(clean[t["id"]]) or CAT_IMAGES.get(t["slug"]) or ""
-        if not img:
-            for p in prods_in.get(t["id"], []) or sum((prods_in.get(d["id"], []) for d in children.get(t["id"], [])), []):
-                if p.get("images"): img = local_img(p["images"][0]["src"]); break
-        wide = " wide" if i in (0, 5) else ""
-        subs = sorted([s for s in children.get(t["id"], []) if cat_total[s["id"]]], key=lambda x: -cat_total[x["id"]])[:1]
-        tag = html.unescape(subs[0]["name"]) if subs else f"{cat_total[t['id']]} products"
-        cards += f"""<a href="{cat_url(t['id'])}" class="cat-card{wide}">
-  <div class="cat-card-bg" style="background-image:url('{esc(img)}')"></div>
-  <div class="cat-card-overlay"></div>
-  <div class="cat-card-content"><span class="cat-card-tag">{esc(tag)}</span><div class="cat-card-title">{esc(html.unescape(t['name']))}</div></div>
-  <div class="cat-card-arrow">→</div>
-</a>"""
-    # Circular "browse by category" row — coherent single-type departments only
-    # (no broad "Home Appliances" grab-bag as a destination).
-    FEATURED = [
-        ("cooking",       "Cookers"),
-        ("refrigeration", "Fridges &amp; Freezers"),
-        ("laundry",       "Washing &amp; Drying"),
-        ("dishwashers",   "Dishwashers"),
-        ("mobile-phones", "Phones"),
-    ]
-    browse_items = "".join(
-        f'<a class="browse-item" href="/category/{slug}/">'
-        f'<span class="browse-circle"><img src="/assets/dept/{slug}.png" alt="{lbl}" loading="lazy"></span>'
-        f'<span class="browse-label">{lbl}</span></a>'
-        for slug, lbl in FEATURED
-    ) + ('<a class="browse-item" href="/category/">'
-         '<span class="browse-circle browse-circle--more">→</span>'
-         '<span class="browse-label">All categories</span></a>')
+    total = len(P)
+    # hero visual — prefer a range cooker photo, else any cooker/appliance photo
+    def pick_photo(cid, want=None):
+        pool = list(prods_in.get(cid, []))
+        for d in _descendants(cid): pool += prods_in.get(d, [])
+        if want:
+            for p in pool:
+                if want.lower() in html.unescape(p["name"]).lower() and p.get("images"):
+                    s = local_img(p["images"][0]["src"])
+                    if "placeholder" not in s: return p, s
+        for p in pool:
+            if p.get("images"):
+                s = local_img(p["images"][0]["src"])
+                if "placeholder" not in s: return p, s
+        return None, "/assets/placeholder-product.svg"
+    cook_id = slug2id.get("home-appliances-cooking")
+    _, hero_img = pick_photo(cook_id, "range") if cook_id else (None, "/assets/placeholder-product.svg")
+
+    # category tiles (featured, consistent sizing)
+    tiles = ""
+    for slug, lbl in FEATURED:
+        if slug not in slug2id or not cat_total.get(slug2id[slug]): continue
+        cid = slug2id[slug]
+        tiles += f"""<a class="tile" href="/category/{slug}/">
+  <div class="tw"><img src="{esc(cat_first_image(cid))}" alt="{esc(lbl)}" loading="lazy"></div>
+  <h3>{esc(lbl)}</h3><div class="cnt">{cat_total[cid]} products</div><div class="go">Shop now →</div></a>"""
+
+    # popular banners — three photographed products across departments
+    banners = ""
+    for slug, want in [("mobile-phones", "iPhone"), ("home-appliances-cooking", "Range"), ("refrigeration", None)]:
+        cid = slug2id.get(slug)
+        if not cid: continue
+        p, img = pick_photo(cid, want)
+        if not p: continue
+        b = brand_of(p); t = clean_title(p, b); pr = money(eff_price(p)[0])
+        banners += f"""<a class="banner" href="/product/{esc(p['slug'])}/">
+      <div class="bimg"><img src="{esc(img)}" alt="{esc(html.unescape(p['name']))}"></div>
+      <div class="btext"><div class="bd">{esc(b)}</div><h3>{esc(t)}</h3><div class="pr">{pr}</div><div class="go">View details →</div></div>
+    </a>"""
+
+    # brands strip — top brands by count
+    from collections import Counter as _Counter
+    allb = _Counter(brand_of(p) for p in P if brand_of(p))
+    brands_row = "".join(f"<span>{esc(b)}</span>" for b, _ in allb.most_common(12))
+
+    VP = [("🚚", "Free Local Delivery", "Around Dundalk"), ("🏬", "Buy In Store", esc(SHOP["address"])),
+          ("💬", "Real Advice", "We know our stock"), ("🛠️", "Family Run", "Trusted locally")]
+    valprops = "".join(f'<div class="vp"><span class="ic">{i}</span><div><b>{t}</b><span>{s}</span></div></div>' for i, t, s in VP)
+
     body = f"""{header()}
-<section class="hero2">
-  <div class="hero2-kicker">
-    <div class="hero-eyebrow">Home Appliances — Dundalk</div>
-    <h1>Big brands for every home.</h1>
+<section class="hero"><div class="wrap">
+  <div class="hero-copy">
+    <div class="eyebrow">Home Appliances &amp; Phones — Dundalk</div>
+    <h1>Big Brands.<br>Real Advice.<br>Local Prices.</h1>
+    <p>Your family-run electrical &amp; furniture store on Church St. Browse {total} products online, then call in or message us — we'll help you choose.</p>
+    <div class="cta"><a class="bigbtn o" href="#cats">Shop All Categories</a><a class="bigbtn w" href="https://wa.me/{SHOP['wa']}">{WA_SVG} Message Us</a></div>
   </div>
-  <div class="hero2-panels">
-    <a class="hpanel hpanel--warm" href="/category/cooking/">
-      <div class="hpanel-text">
-        <div class="hpanel-eyebrow">Cooking</div>
-        <h2>The heart of<br>the home.</h2>
-      </div>
-      <img class="hpanel-img" src="/assets/hero-cooker.png" alt="Beko range cooker">
-      <span class="hpanel-cta">Shop Cookers →</span>
-    </a>
-    <a class="hpanel hpanel--cool" href="/category/washing-machines/">
-      <div class="hpanel-text">
-        <div class="hpanel-eyebrow">Laundry</div>
-        <h2>Fresh, sorted.<br>Every load.</h2>
-      </div>
-      <img class="hpanel-img" src="/assets/hero-washer.png" alt="Indesit washing machine">
-      <span class="hpanel-cta">Shop Washing →</span>
-    </a>
+  <div class="hero-visual"><img src="{esc(hero_img)}" alt="Featured appliance"></div>
+</div></section>
+<div class="valprops">{valprops}</div>
+<div class="wrap"><div class="brands-strip"><div class="lab">Trusted Brands We Stock</div><div class="brands-row">{brands_row}</div></div></div>
+<section class="section" id="cats"><div class="wrap">
+  <div class="section-label">What We Stock</div><h2>Shop By Category</h2>
+  <div class="tiles">{tiles}</div>
+</div></section>
+<section class="section" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap">
+  <div class="section-label">In Store Now</div><h2>Popular Right Now</h2>
+  <div class="banners">{banners}</div>
+</div></section>
+<section class="section"><div class="wrap"><div class="whatsapp-strip">
+  <div><h2>Not Sure What You Need?</h2><p>Message us on WhatsApp — we're happy to help you find the right product for your home and budget.</p></div>
+  <a class="bigbtn w" href="https://wa.me/{SHOP['wa']}">{WA_SVG} Message Us On WhatsApp</a>
+</div></div></section>
+<section class="section"><div class="wrap">
+  <div class="section-label">Who We Are</div><h2>A Family Store, Built On Trust</h2>
+  <p style="color:var(--muted);max-width:660px;margin:0 0 24px">Eddie Maguire has served the Dundalk community for years with a carefully chosen range of electrical, appliances and furniture for every home and budget. We're a real shop with real people who know their products.</p>
+  <div class="aboutband">
+    <div class="stat"><div class="n">{total}+</div><div class="l">Products in store</div></div>
+    <div class="stat"><div class="n">100%</div><div class="l">Irish owned</div></div>
+    <div class="stat"><div class="n">30+</div><div class="l">Years in business</div></div>
+    <div class="stat"><div class="n">1</div><div class="l">Town — Dundalk</div></div>
   </div>
-</section>
-<section class="browse" id="categories">
-  <div class="browse-head">
-    <div class="section-label">What we stock</div>
-    <h2 class="section-title">Browse by category</h2>
-  </div>
-  <div class="browse-row">{browse_items}</div>
-</section>
-<div class="whatsapp-strip">
-  <div><h2>Not sure what you're looking for?</h2><p>Message us on WhatsApp — we're happy to help you find the right product.</p></div>
-  <a href="https://wa.me/{SHOP['wa']}" class="btn-whatsapp">{WA_SVG} Message Us on WhatsApp</a>
-</div>
-<section class="about" id="about">
-  <div>
-    <div class="section-label">Who we are</div>
-    <h2 class="section-title">A family<br>store, built<br>on trust.</h2>
-    <div style="margin-top:32px">
-      <p>Eddie Maguire has been serving the Dundalk community for years, offering a carefully chosen range of electrical, appliances and furniture for every home and budget.</p>
-      <p>We're not a faceless website. We're a real shop, with real people who know their products inside out. Come in and browse, or get in touch — we'll point you in the right direction.</p>
-    </div>
-    <div class="about-stats">
-      <div class="stat"><div class="stat-num">{len(P)}+</div><div class="stat-label">Products in store</div></div>
-      <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Irish owned</div></div>
-      <div class="stat"><div class="stat-num">30+</div><div class="stat-label">Years in business</div></div>
-      <div class="stat"><div class="stat-num">1</div><div class="stat-label">Town, Dundalk</div></div>
-    </div>
-  </div>
-  <div class="about-image">
-    <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&auto=format&fit=crop" alt="{SHOP['name']} store interior">
-    <div class="about-image-badge">Est. in Dundalk</div>
-  </div>
-</section>
+</div></section>
 {footer()}"""
     write("index.html", head(f"{SHOP['name']} — {SHOP['tagline']} | Dundalk",
         "Electrical, appliances & furniture in Dundalk. Browse our full range online, buy in store. " + str(len(P)) + " products.",
@@ -709,8 +968,8 @@ def sanitize(content):
 
 def render_prose_page(slug, title, content_html, desc):
     body = f"""{header()}
-<div class="page-body">
-<div class="crumbs"><a href="/">Home</a><span class="sep">/</span><span class="current">{esc(title)}</span></div>
+<div class="wrap">
+<div class="crumb"><a href="/">Home</a> / <b>{esc(title)}</b></div>
 <div class="page-head"><h1>{esc(title)}</h1></div>
 <div class="prose-wrap"><div class="prose">{content_html}</div></div>
 </div>
@@ -720,18 +979,18 @@ def render_prose_page(slug, title, content_html, desc):
 def build_contact():
     maps = f"https://www.google.com/maps?q={esc(SHOP['address'])}&output=embed"
     body = f"""{header()}
-<div class="page-body">
-<div class="crumbs"><a href="/">Home</a><span class="sep">/</span><span class="current">Contact</span></div>
-<div class="page-head"><h1>Get in touch</h1><div class="count">We're here to help — call in, call us, or message us on WhatsApp.</div></div>
+<div class="wrap">
+<div class="crumb"><a href="/">Home</a> / <b>Contact</b></div>
+<div class="page-head"><h1>Get In Touch</h1><div class="count">We're here to help — call in, call us, or message us on WhatsApp.</div></div>
 <div class="contact-grid">
   <div class="contact-block">
     <div class="contact-row"><div class="ico">📍</div><div><div class="lbl">Visit the store</div><div class="val"><a href="https://maps.google.com/?q={esc(SHOP['address'])}">{esc(SHOP['address'])}</a></div></div></div>
     <div class="contact-row"><div class="ico">📞</div><div><div class="lbl">Call us</div><div class="val"><a href="tel:{SHOP['phone_tel']}">{SHOP['phone_display']}</a></div></div></div>
     <div class="contact-row"><div class="ico">✉️</div><div><div class="lbl">Email</div><div class="val"><a href="mailto:{SHOP['email']}">{SHOP['email']}</a></div></div></div>
     <div class="contact-row"><div class="ico">🕑</div><div><div class="lbl">Opening hours</div><div class="val">{SHOP['hours']}<br>Sun: Closed</div></div></div>
-    <div class="pdp-actions" style="margin-top:8px">
-      <a href="https://wa.me/{SHOP['wa']}" class="btn-primary">{WA_SVG} WhatsApp Us</a>
-      <a href="tel:{SHOP['phone_tel']}" class="btn-secondary">Call {SHOP['phone_display']} →</a>
+    <div class="cta" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+      <a href="https://wa.me/{SHOP['wa']}" class="bigbtn w">{WA_SVG} WhatsApp Us</a>
+      <a href="tel:{SHOP['phone_tel']}" class="bigbtn g">Call {SHOP['phone_display']}</a>
     </div>
   </div>
   <iframe class="contact-map" src="{maps}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map to {esc(SHOP['name'])}"></iframe>

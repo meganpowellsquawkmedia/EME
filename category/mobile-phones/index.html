@@ -21,257 +21,396 @@
 <link rel="icon" href="/EME/assets/favicon.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/EME/assets/apple-touch-icon.png">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/EME/assets/site.css?v=d1054c0e">
+<link rel="stylesheet" href="/EME/assets/site.css?v=458bd7b7">
 </head>
-<body><header>
-  <a href="/EME/" class="logo">
-    <div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div>
-  </a>
-  <nav>
-    <a href="/EME/category/">Shop</a>
-    <a href="/EME/about-us/">About</a>
-    <a href="/EME/contact-us/">Contact</a>
-    <a href="https://wa.me/353899776472" class="nav-cta"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
-  </nav>
-  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
-</header>
-<div class="page-body">
-<div class="crumbs"><a href="/EME/">Home</a><span class="sep">/</span><a href="/EME/category/">Shop</a><span class="sep">/</span><span class="current">Mobile Phones</span></div>
-<div class="cat-hero"><div class="cat-hero-bg" style="background-image:url('/EME/assets/cat-telephones.jpg')"></div><div class="cat-hero-overlay"></div><div class="cat-hero-content"><h1>Mobile Phones</h1><div class="count">28 products</div></div></div>
-
-<div class="filters">
-  
-  <div class="fdrop"><button type="button" class="fdrop-btn">Colour<span class="fdrop-n" data-count="c"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-c="black">Black</button><button type="button" class="brand-chip" data-c="silver">Silver</button></div></div></div>
-  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
-    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="29" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="1680" min="0"></div></div>
-  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
-  <button type="button" id="fclear" class="f-clear">Clear</button>
-  <span class="f-count" id="fcount"></span>
+<body><div class="tstrip"><div class="wrap">
+  <span>🚚 <b>Free local delivery</b> around Dundalk</span>
+  <span>🏬 <b>Buy in store</b> — 29 Church St, Dundalk</span>
+  <span>💬 <b>Ask us anything</b> on WhatsApp</span>
+</div></div>
+<header class="site"><div class="wrap">
+  <a class="brand" href="/EME/">EDDIE MAGUIRE<small>ELECTRICAL & FURNITURE</small></a>
+  <form class="search" onsubmit="return false"><input placeholder="Search cookers, fridges, washing machines…" aria-label="Search"><button>Search</button></form>
+  <div class="hactions">
+    <a href="tel:0429332043">📞 042 933 2043</a>
+    <a class="wa" href="https://wa.me/353899776472"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
+  </div>
+</div></header>
+<nav class="cats"><div class="wrap"><a href="/EME/category/home-appliances-cooking/">Cookers</a><a href="/EME/category/refrigeration/">Fridges &amp; Freezers</a><a href="/EME/category/washing-machines/">Washing Machines</a><a href="/EME/category/tumble-dryer/">Tumble Dryers</a><a href="/EME/category/washer-dryer/">Washer Dryers</a><a href="/EME/category/dishwashers/">Dishwashers</a><a href="/EME/category/mobile-phones/">Mobile Phones</a><a href="/EME/category/landline-and-cordless-phones/">Landline &amp; Cordless Phones</a><a href="/EME/category/">All Categories</a></div></nav>
+<div class="wrap">
+<div class="crumb"><a href="/EME/">Home</a> / <a href="/EME/category/">Shop</a> / <b>Mobile Phones</b></div>
+<div class="plist">
+    <aside class="filters">
+      <div class="fgroup" style="display:flex;justify-content:space-between;align-items:center;padding-bottom:10px"><strong style="font-size:13px;text-transform:uppercase;letter-spacing:.05em">Filter</strong><button class="clearf" type="button" onclick="clearAll()">Clear all</button></div>
+      <div class="fgroup"><h4>Storage</h4><label class="fopt"><input type="checkbox" class="f-storage" value="256GB"><span>256GB</span><span class="ct">11</span></label><label class="fopt"><input type="checkbox" class="f-storage" value="128GB"><span>128GB</span><span class="ct">4</span></label><label class="fopt"><input type="checkbox" class="f-storage" value="32GB"><span>32GB</span><span class="ct">1</span></label><label class="fopt"><input type="checkbox" class="f-storage" value="64GB"><span>64GB</span><span class="ct">1</span></label></div><div class="fgroup"><h4>Colour</h4><label class="fopt"><input type="checkbox" class="f-colour" value="Black"><span>Black</span><span class="ct">2</span></label><label class="fopt"><input type="checkbox" class="f-colour" value="Silver"><span>Silver</span><span class="ct">1</span></label></div><div class="fgroup"><h4>Price</h4><label class="fopt"><input type="radio" name="pr" class="f-price" value="0-300"><span>Under €300</span></label><label class="fopt"><input type="radio" name="pr" class="f-price" value="300-600"><span>€300 – €600</span></label><label class="fopt"><input type="radio" name="pr" class="f-price" value="600-1000"><span>€600 – €1,000</span></label><label class="fopt"><input type="radio" name="pr" class="f-price" value="1000-1000000000"><span>€1,000+</span></label></div>
+    </aside>
+    <main>
+      <div class="lhead"><div><h1>Mobile Phones</h1><div class="cnt" id="cnt">28 products</div></div>
+        <div class="sortbar">Sort <select id="sort"><option value="feat">Featured</option><option value="lo">Price: low to high</option><option value="hi">Price: high to low</option><option value="az">Name A–Z</option></select></div>
+      </div>
+      
+      <p class="intro">Our Mobile Phones range — 28 models in stock now at 29 Church St, Dundalk, including Samsung. Not sure which suits you? Message us on WhatsApp and we&#x27;ll help you choose.</p>
+      <div class="grid" id="grid"><div class="card" data-brand="" data-colour="" data-price="29.99" data-name="Apple MagSafe Wireless Charger" >
+  <div class="imgw"><img src="/EME/assets/img/MGD74.jpeg" alt="Apple MagSafe Wireless Charger" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/apple-mx2e2zm-a/">Apple MagSafe Wireless Charger</a>
+  <div class="model">Model: MX2E2ZM/A</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€29.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/apple-mx2e2zm-a/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="929.0" data-name="Apple iPhone 16 128GB" data-storage="128GB">
+  <div class="imgw"><img src="/EME/assets/img/download-1.png" alt="Apple iPhone 16 128GB" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/apple-mye73qn-a/">Apple iPhone 16 128GB</a>
+  <div class="model">Model: MYE73QN/A</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">128GB</span></div>
+  <div class="price">€929</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/apple-mye73qn-a/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="1099.0" data-name="Apple iPhone 17 - Lavender 256GB" data-storage="256GB">
+  <div class="imgw"><img src="/EME/assets/img/iphone-17-1757482031693359200.webp" alt="Apple iPhone 17 - Lavender 256GB" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/apple-mg6n4qn-a/">Apple iPhone 17 Lavender 256GB</a>
+  <div class="model">Model: MG6N4QN/A</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span></div>
+  <div class="price">€1,099</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/apple-mg6n4qn-a/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="1099.0" data-name="Apple iPhone 17 - Sage 256GB" data-storage="256GB">
+  <div class="imgw"><img src="/EME/assets/img/M10290109_green.webp" alt="Apple iPhone 17 - Sage 256GB" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/apple-mg6l4qn-a/">Apple iPhone 17 Sage 256GB</a>
+  <div class="model">Model: MG6L4QN/A</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span></div>
+  <div class="price">€1,099</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/apple-mg6l4qn-a/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="Silver" data-price="1099.0" data-name="Apple iPhone 17 - Silver 256GB" data-storage="256GB" data-colour="Silver">
+  <div class="imgw"><img src="/EME/assets/img/61LFeKye45L._AC_UF1000,1000_QL80_.jpg" alt="Apple iPhone 17 - Silver 256GB" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/apple-mg6j4qn-a/">Apple iPhone 17 Silver 256GB</a>
+  <div class="model">Model: MG6J4QN/A</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span><span class="chip">Silver</span></div>
+  <div class="price">€1,099</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/apple-mg6j4qn-a/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="1499.0" data-name="Apple iPhone 17 Pro 256GB" data-storage="256GB">
+  <div class="imgw"><img src="/EME/assets/img/images.jpeg" alt="Apple iPhone 17 Pro 256GB" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/apple-mg8h4qn-a/">Apple iPhone 17 Pro 256GB</a>
+  <div class="model">Model: MG8H4QN/A</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span></div>
+  <div class="price">€1,499</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/apple-mg8h4qn-a/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="1679.0" data-name="Apple iPhone 17 Pro Max | Deep Blue | 256GB" data-storage="256GB">
+  <div class="imgw"><img src="/EME/assets/img/71ddhabs2mL._AC_SX679_.jpg" alt="Apple iPhone 17 Pro Max | Deep Blue | 256GB" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/apple-mfyn4qn-a/">Apple iPhone 17 Pro Max Deep Blue 256GB</a>
+  <div class="model">Model: MFYN4QN/A</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span></div>
+  <div class="price">€1,679</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/apple-mfyn4qn-a/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="1679.0" data-name="Apple iPhone 17 Pro Max | Orange | 256GB" data-storage="256GB">
+  <div class="imgw"><img src="/EME/assets/img/71cdtM6hgmL._AC_SX679_.jpg" alt="Apple iPhone 17 Pro Max | Orange | 256GB" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/apple-mfym4qn-a/">Apple iPhone 17 Pro Max Orange 256GB</a>
+  <div class="model">Model: MFYM4QN/A</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span></div>
+  <div class="price">€1,679</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/apple-mfym4qn-a/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="Black" data-price="829.0" data-name="Apple iPhone 17e | Black | 256GB" data-storage="256GB" data-colour="Black">
+  <div class="imgw"><img src="/EME/assets/img/iphone-17e-1772517234998067839.webp" alt="Apple iPhone 17e | Black | 256GB" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/apple-mhrx4qn-a/">Apple iPhone 17e Black 256GB</a>
+  <div class="model">Model: MHRX4QN/A</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span><span class="chip">Black</span></div>
+  <div class="price">€829</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/apple-mhrx4qn-a/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="829.0" data-name="Apple iPhone 17e | Soft Pink | 256GB" data-storage="256GB">
+  <div class="imgw"><img src="/EME/assets/img/iphone-17e-1772517226751133214.webp" alt="Apple iPhone 17e | Soft Pink | 256GB" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/apple-mhrv4qn-a/">Apple iPhone 17e Soft Pink 256GB</a>
+  <div class="model">Model: MHRV4QN/A</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span></div>
+  <div class="price">€829</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/apple-mhrv4qn-a/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="99.99" data-name="Emporia 4G Smart Phone" >
+  <div class="imgw"><img src="/EME/assets/img/emporiasmart7lite-e7ltv1bk01-easy-to-use-smart-phone-for-seniors-545-inch-display-black.webp" alt="Emporia 4G Smart Phone" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/emporia-s3m-001/">Emporia 4G Smart Phone</a>
+  <div class="model">Model: S3M-001</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€99.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/emporia-s3m-001/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="54.99" data-name="Emporia F88001 Flip Phone" >
+  <div class="imgw"><img src="/EME/assets/img/emporia-talkglam-f88-flip-mobile-phone-black-or-f88_001__97755.png" alt="Emporia F88001 Flip Phone" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/emporia-f88001uk/">Emporia F88001 Flip Phone</a>
+  <div class="model">Model: F88001UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€54.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/emporia-f88001uk/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="59.99" data-name="Emporia KFT20" >
+  <div class="imgw"><img src="/EME/assets/img/emporia-kft20-uk.webp" alt="Emporia KFT20" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/emporia-kft20-uk/">Emporia KFT20</a>
+  <div class="model">Model: KFT20-UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€59.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/emporia-kft20-uk/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="59.99" data-name="Emporia V27 4G Phone" >
+  <div class="imgw"><img src="/EME/assets/img/emporia-simplicty-v27-v3-negro.jpg" alt="Emporia V27 4G Phone" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/emporia-v27-uk/">Emporia V27 4G Phone</a>
+  <div class="model">Model: V27-UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€59.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/emporia-v27-uk/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="29.0" data-name="Motorola W377 FTC" >
+  <div class="imgw"><img src="/EME/assets/img/41mCAu-m+YL._AC_UF1000,1000_QL80_.jpg" alt="Motorola W377 FTC" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/motorola-w377ftc/">Motorola W377 FTC</a>
+  <div class="model">Model: W377FTC</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€29</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/motorola-w377ftc/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="29.99" data-name="Motorola WX160 Simfree" >
+  <div class="imgw"><img src="/EME/assets/img/motorola-wx160-sim-free-unlocked-mobile-phone-400.jpg" alt="Motorola WX160 Simfree" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/motorola-wx160/">Motorola Simfree</a>
+  <div class="model">Model: WX160</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€29.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/motorola-wx160/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="199.0" data-name="Redmi Note 14" >
+  <div class="imgw"><img src="/EME/assets/img/redmi-mzb0j01eu.jpg" alt="Redmi Note 14" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/redmi-mzb0j01eu/">Redmi Note 14</a>
+  <div class="model">Model: MZB0J01EU</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€199</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/redmi-mzb0j01eu/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="349.99" data-name="Redmi Note 14 Pro 5G" >
+  <div class="imgw"><img src="/EME/assets/img/51gDYES5n+L._AC_SX679_.jpg" alt="Redmi Note 14 Pro 5G" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/redmi-mzb018beu/">Redmi Note 14 Pro 5G</a>
+  <div class="model">Model: MZB018BEU</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€349.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/redmi-mzb018beu/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="199.99" data-name="Redmi Note 15" >
+  <div class="imgw"><img src="/EME/assets/img/Xiaomi_Redmi_Note_15_6GB_128GB_Black_MZB0M8GEU_Keans_Claremorris.webp" alt="Redmi Note 15" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/redmi-mzb0m8geu/">Redmi Note 15</a>
+  <div class="model">Model: MZB0M8GEU</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€199.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/redmi-mzb0m8geu/">Details</a></div>
+</div><div class="card" data-brand="Samsung" data-colour="" data-price="199.0" data-name="Samsung Galaxy A04 32GB" data-storage="32GB">
+  <div class="imgw"><img src="/EME/assets/img/samsung-galaxy-a04s-1673512832.webp" alt="Samsung Galaxy A04 32GB" loading="lazy"></div>
+  <div class="bd">Samsung</div>
+  <a class="nm" href="/EME/product/samsung-sm-a047fzwueub/">Galaxy A04 32GB</a>
+  <div class="model">Model: SM-A047FZWUEUB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">32GB</span></div>
+  <div class="price">€199</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/samsung-sm-a047fzwueub/">Details</a></div>
+</div><div class="card" data-brand="Samsung" data-colour="" data-price="199.0" data-name="Samsung Galaxy A16 | 4GB 128GB" data-storage="128GB">
+  <div class="imgw"><img src="/EME/assets/img/GalaxyA16_700x700.webp" alt="Samsung Galaxy A16 | 4GB 128GB" loading="lazy"></div>
+  <div class="bd">Samsung</div>
+  <a class="nm" href="/EME/product/samsung-sm-a165fzkbeub/">Galaxy A16 4GB 128GB</a>
+  <div class="model">Model: SM-A165FZKBEUB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">128GB</span></div>
+  <div class="price">€199</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/samsung-sm-a165fzkbeub/">Details</a></div>
+</div><div class="card" data-brand="Samsung" data-colour="" data-price="259.99" data-name="Samsung Galaxy A17 | 5G 4GB 128GB" data-storage="128GB">
+  <div class="imgw"><img src="/EME/assets/img/samsung-sm-a176bzkaeub.webp" alt="Samsung Galaxy A17 | 5G 4GB 128GB" loading="lazy"></div>
+  <div class="bd">Samsung</div>
+  <a class="nm" href="/EME/product/samsung-sm-a176bzkaeub/">Galaxy A17 5G 4GB 128GB</a>
+  <div class="model">Model: SM-A176BZKAEUB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">128GB</span></div>
+  <div class="price">€259.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/samsung-sm-a176bzkaeub/">Details</a></div>
+</div><div class="card" data-brand="Samsung" data-colour="" data-price="379.0" data-name="Samsung Galaxy A27 | 6GB 128GB" data-storage="128GB">
+  <div class="imgw"><img src="/EME/assets/img/SM-A276BZKBEUB.webp" alt="Samsung Galaxy A27 | 6GB 128GB" loading="lazy"></div>
+  <div class="bd">Samsung</div>
+  <a class="nm" href="/EME/product/samsung-sm-a276bzkbeub/">Galaxy A27 6GB 128GB</a>
+  <div class="model">Model: SM-A276BZKBEUB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">128GB</span></div>
+  <div class="price">€379</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/samsung-sm-a276bzkbeub/">Details</a></div>
+</div><div class="card" data-brand="Samsung" data-colour="" data-price="479.99" data-name="Samsung Galaxy A36 256GB" data-storage="256GB">
+  <div class="imgw"><img src="/EME/assets/img/Samsung Galaxy A36 256GB.webp" alt="Samsung Galaxy A36 256GB" loading="lazy"></div>
+  <div class="bd">Samsung</div>
+  <a class="nm" href="/EME/product/samsung-sm-a366bzkgeub/">Galaxy A36 256GB</a>
+  <div class="model">Model: SM-A366BZKGEUB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span></div>
+  <div class="price">€479.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/samsung-sm-a366bzkgeub/">Details</a></div>
+</div><div class="card" data-brand="Samsung" data-colour="" data-price="649.0" data-name="Samsung Galaxy A57 8GB 256GB" data-storage="256GB">
+  <div class="imgw"><img src="/EME/assets/img/samsung-sm-a576bdbdeub.png" alt="Samsung Galaxy A57 8GB 256GB" loading="lazy"></div>
+  <div class="bd">Samsung</div>
+  <a class="nm" href="/EME/product/samsung-sm-a576bdbdeub/">Galaxy A57 8GB 256GB</a>
+  <div class="model">Model: SM-A576BDBDEUB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span></div>
+  <div class="price">€649</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/samsung-sm-a576bdbdeub/">Details</a></div>
+</div><div class="card" data-brand="Samsung" data-colour="" data-price="1079.0" data-name="Samsung Galaxy S25 256GB" data-storage="256GB">
+  <div class="imgw"><img src="/EME/assets/img/Samsung Galaxy S25 256GB.webp" alt="Samsung Galaxy S25 256GB" loading="lazy"></div>
+  <div class="bd">Samsung</div>
+  <a class="nm" href="/EME/product/samsung-sm-s942bzkgeub/">Galaxy S25 256GB</a>
+  <div class="model">Model: SM-S942BZKGEUB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">256GB</span></div>
+  <div class="price">€1,079</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/samsung-sm-s942bzkgeub/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="449.0" data-name="Xiaomi 15T" >
+  <div class="imgw"><img src="/EME/assets/img/xiaomi-15t-1772004032297033816.webp" alt="Xiaomi 15T" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/xiaomi-mzb0ky5eu/">Xiaomi 15T</a>
+  <div class="model">Model: MZB0KY5EU</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€449</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/xiaomi-mzb0ky5eu/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="Black" data-price="109.99" data-name="Xiaomi Redmi A5 | 3GB | 64GB | 4G | Midnight Black" data-storage="64GB" data-colour="Black">
+  <div class="imgw"><img src="/EME/assets/img/51EOoykOZbL._AC_SX679_.jpg" alt="Xiaomi Redmi A5 | 3GB | 64GB | 4G | Midnight Black" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/redmi-mzb0jteeu/">Xiaomi Redmi A5 3GB 64GB 4G Midnight Black</a>
+  <div class="model">Model: MZB0JTEEU</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">64GB</span><span class="chip">Black</span></div>
+  <div class="price">€109.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/redmi-mzb0jteeu/">Details</a></div>
+</div></div>
+    </main>
+  </div>
+  <script>
+  (function(){
+    var DIMS=["storage","colour"];
+    window.clearAll=function(){document.querySelectorAll('.filters input').forEach(function(i){i.checked=false});applyF()};
+    function checked(cls){return Array.from(document.querySelectorAll('.'+cls+':checked')).map(function(x){return x.value})}
+    window.applyF=function(){
+      var sel={};DIMS.forEach(function(d){sel[d]=checked('f-'+d)});
+      var pr=(document.querySelector('.f-price:checked')||{}).value;
+      var cards=Array.prototype.slice.call(document.querySelectorAll('.card'));var vis=0;
+      cards.forEach(function(c){var ok=true;
+        DIMS.forEach(function(d){if(sel[d].length&&sel[d].indexOf(c.dataset[d])<0)ok=false});
+        if(pr){var pp=pr.split('-');var v=+c.dataset.price;if(v< +pp[0]||v>= +pp[1])ok=false}
+        c.style.display=ok?'':'none';if(ok)vis++;});
+      var s=document.getElementById('sort').value;var g=document.getElementById('grid');
+      var shown=cards.filter(function(c){return c.style.display!=='none'});
+      shown.sort(function(x,y){return s==='lo'?x.dataset.price-y.dataset.price:s==='hi'?y.dataset.price-x.dataset.price:s==='az'?(x.dataset.name>y.dataset.name?1:-1):0});
+      shown.forEach(function(c){g.appendChild(c)});
+      document.getElementById('cnt').textContent=vis+' product'+(vis===1?'':'s');
+      var nr=document.getElementById('nores');
+      if(!vis){if(!nr){nr=document.createElement('div');nr.id='nores';nr.className='nores';nr.textContent='No products match those filters.';g.appendChild(nr)}}else if(nr)nr.remove();
+    };
+    document.querySelectorAll('.filters input').forEach(function(i){i.addEventListener('change',applyF)});
+    document.getElementById('sort').addEventListener('change',applyF);
+  })();
+  </script>
 </div>
-<div class="product-grid" id="grid"><a href="/EME/product/apple-mx2e2zm-a/" class="product-card" data-brand="" data-colour="" data-price="29.99" data-name="apple magsafe wireless charger">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/MGD74.jpeg" alt="Apple MagSafe Wireless Charger" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Apple MagSafe Wireless Charger</div>
-    <div class="product-price-row"><span class="product-price">€29.99 </span></div>
+<footer class="site"><div class="wrap">
+  <div class="footer-brand">
+    <a href="/EME/" class="brand">EDDIE MAGUIRE</a>
+    <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
   </div>
-</a><a href="/EME/product/apple-mye73qn-a/" class="product-card" data-brand="" data-colour="" data-price="929.0" data-name="apple iphone 16 128gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/download-1.png" alt="Apple iPhone 16 128GB" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Apple iPhone 16 128GB</div>
-    <div class="product-price-row"><span class="product-price">€929 </span></div>
-  </div>
-</a><a href="/EME/product/apple-mg6n4qn-a/" class="product-card" data-brand="" data-colour="" data-price="1099.0" data-name="apple iphone 17 - lavender 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/iphone-17-1757482031693359200.webp" alt="Apple iPhone 17 - Lavender 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Apple iPhone 17 - Lavender 256GB</div>
-    <div class="product-price-row"><span class="product-price">€1,099 </span></div>
-  </div>
-</a><a href="/EME/product/apple-mg6l4qn-a/" class="product-card" data-brand="" data-colour="" data-price="1099.0" data-name="apple iphone 17 - sage 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/M10290109_green.webp" alt="Apple iPhone 17 - Sage 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Apple iPhone 17 - Sage 256GB</div>
-    <div class="product-price-row"><span class="product-price">€1,099 </span></div>
-  </div>
-</a><a href="/EME/product/apple-mg6j4qn-a/" class="product-card" data-brand="" data-colour="silver" data-price="1099.0" data-name="apple iphone 17 - silver 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/61LFeKye45L._AC_UF1000,1000_QL80_.jpg" alt="Apple iPhone 17 - Silver 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Apple iPhone 17 - Silver 256GB</div>
-    <div class="product-price-row"><span class="product-price">€1,099 </span></div>
-  </div>
-</a><a href="/EME/product/apple-mg8h4qn-a/" class="product-card" data-brand="" data-colour="" data-price="1499.0" data-name="apple iphone 17 pro 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/images.jpeg" alt="Apple iPhone 17 Pro 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Apple iPhone 17 Pro 256GB</div>
-    <div class="product-price-row"><span class="product-price">€1,499 </span></div>
-  </div>
-</a><a href="/EME/product/apple-mfyn4qn-a/" class="product-card" data-brand="" data-colour="" data-price="1679.0" data-name="apple iphone 17 pro max | deep blue | 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/71ddhabs2mL._AC_SX679_.jpg" alt="Apple iPhone 17 Pro Max | Deep Blue | 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Apple iPhone 17 Pro Max | Deep Blue | 256GB</div>
-    <div class="product-price-row"><span class="product-price">€1,679 </span></div>
-  </div>
-</a><a href="/EME/product/apple-mfym4qn-a/" class="product-card" data-brand="" data-colour="" data-price="1679.0" data-name="apple iphone 17 pro max | orange | 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/71cdtM6hgmL._AC_SX679_.jpg" alt="Apple iPhone 17 Pro Max | Orange | 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Apple iPhone 17 Pro Max | Orange | 256GB</div>
-    <div class="product-price-row"><span class="product-price">€1,679 </span></div>
-  </div>
-</a><a href="/EME/product/apple-mhrx4qn-a/" class="product-card" data-brand="" data-colour="black" data-price="829.0" data-name="apple iphone 17e | black | 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/iphone-17e-1772517234998067839.webp" alt="Apple iPhone 17e | Black | 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Apple iPhone 17e | Black | 256GB</div>
-    <div class="product-price-row"><span class="product-price">€829 </span></div>
-  </div>
-</a><a href="/EME/product/apple-mhrv4qn-a/" class="product-card" data-brand="" data-colour="" data-price="829.0" data-name="apple iphone 17e | soft pink | 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/iphone-17e-1772517226751133214.webp" alt="Apple iPhone 17e | Soft Pink | 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Apple iPhone 17e | Soft Pink | 256GB</div>
-    <div class="product-price-row"><span class="product-price">€829 </span></div>
-  </div>
-</a><a href="/EME/product/emporia-s3m-001/" class="product-card" data-brand="" data-colour="" data-price="99.99" data-name="emporia 4g smart phone">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/emporiasmart7lite-e7ltv1bk01-easy-to-use-smart-phone-for-seniors-545-inch-display-black.webp" alt="Emporia 4G Smart Phone" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Emporia 4G Smart Phone</div>
-    <div class="product-price-row"><span class="product-price">€99.99 </span></div>
-  </div>
-</a><a href="/EME/product/emporia-f88001uk/" class="product-card" data-brand="" data-colour="" data-price="54.99" data-name="emporia f88001 flip phone">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/emporia-talkglam-f88-flip-mobile-phone-black-or-f88_001__97755.png" alt="Emporia F88001 Flip Phone" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Emporia F88001 Flip Phone</div>
-    <div class="product-price-row"><span class="product-price">€54.99 </span></div>
-  </div>
-</a><a href="/EME/product/emporia-kft20-uk/" class="product-card" data-brand="" data-colour="" data-price="59.99" data-name="emporia kft20">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/emporia-kft20-uk.webp" alt="Emporia KFT20" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Emporia KFT20</div>
-    <div class="product-price-row"><span class="product-price">€59.99 </span></div>
-  </div>
-</a><a href="/EME/product/emporia-v27-uk/" class="product-card" data-brand="" data-colour="" data-price="59.99" data-name="emporia v27 4g phone">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/emporia-simplicty-v27-v3-negro.jpg" alt="Emporia V27 4G Phone" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Emporia V27 4G Phone</div>
-    <div class="product-price-row"><span class="product-price">€59.99 </span></div>
-  </div>
-</a><a href="/EME/product/motorola-w377ftc/" class="product-card" data-brand="" data-colour="" data-price="29.0" data-name="motorola w377 ftc">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/41mCAu-m+YL._AC_UF1000,1000_QL80_.jpg" alt="Motorola W377 FTC" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Motorola W377 FTC</div>
-    <div class="product-price-row"><span class="product-price">€29 </span></div>
-  </div>
-</a><a href="/EME/product/motorola-wx160/" class="product-card" data-brand="" data-colour="" data-price="29.99" data-name="motorola wx160 simfree">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/motorola-wx160-sim-free-unlocked-mobile-phone-400.jpg" alt="Motorola WX160 Simfree" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Motorola WX160 Simfree</div>
-    <div class="product-price-row"><span class="product-price">€29.99 </span></div>
-  </div>
-</a><a href="/EME/product/redmi-mzb0j01eu/" class="product-card" data-brand="" data-colour="" data-price="199.0" data-name="redmi note 14">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/redmi-mzb0j01eu.jpg" alt="Redmi Note 14" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Redmi Note 14</div>
-    <div class="product-price-row"><span class="product-price">€199 </span></div>
-  </div>
-</a><a href="/EME/product/redmi-mzb018beu/" class="product-card" data-brand="" data-colour="" data-price="349.99" data-name="redmi note 14 pro 5g">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/51gDYES5n+L._AC_SX679_.jpg" alt="Redmi Note 14 Pro 5G" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Redmi Note 14 Pro 5G</div>
-    <div class="product-price-row"><span class="product-price">€349.99 </span></div>
-  </div>
-</a><a href="/EME/product/redmi-mzb0m8geu/" class="product-card" data-brand="" data-colour="" data-price="199.99" data-name="redmi note 15">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/Xiaomi_Redmi_Note_15_6GB_128GB_Black_MZB0M8GEU_Keans_Claremorris.webp" alt="Redmi Note 15" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Redmi Note 15</div>
-    <div class="product-price-row"><span class="product-price">€199.99 </span></div>
-  </div>
-</a><a href="/EME/product/samsung-sm-a047fzwueub/" class="product-card" data-brand="samsung" data-colour="" data-price="199.0" data-name="galaxy a04 32gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/samsung-galaxy-a04s-1673512832.webp" alt="Galaxy A04 32GB" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Samsung</div>
-    <div class="product-name">Galaxy A04 32GB</div>
-    <div class="product-price-row"><span class="product-price">€199 </span></div>
-  </div>
-</a><a href="/EME/product/samsung-sm-a165fzkbeub/" class="product-card" data-brand="samsung" data-colour="" data-price="199.0" data-name="galaxy a16 | 4gb 128gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/GalaxyA16_700x700.webp" alt="Galaxy A16 | 4GB 128GB" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Samsung</div>
-    <div class="product-name">Galaxy A16 | 4GB 128GB</div>
-    <div class="product-price-row"><span class="product-price">€199 </span></div>
-  </div>
-</a><a href="/EME/product/samsung-sm-a176bzkaeub/" class="product-card" data-brand="samsung" data-colour="" data-price="259.99" data-name="galaxy a17 | 5g 4gb 128gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/samsung-sm-a176bzkaeub.webp" alt="Galaxy A17 | 5G 4GB 128GB" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Samsung</div>
-    <div class="product-name">Galaxy A17 | 5G 4GB 128GB</div>
-    <div class="product-price-row"><span class="product-price">€259.99 </span></div>
-  </div>
-</a><a href="/EME/product/samsung-sm-a276bzkbeub/" class="product-card" data-brand="samsung" data-colour="" data-price="379.0" data-name="galaxy a27 | 6gb 128gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/SM-A276BZKBEUB.webp" alt="Galaxy A27 | 6GB 128GB" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Samsung</div>
-    <div class="product-name">Galaxy A27 | 6GB 128GB</div>
-    <div class="product-price-row"><span class="product-price">€379 </span></div>
-  </div>
-</a><a href="/EME/product/samsung-sm-a366bzkgeub/" class="product-card" data-brand="samsung" data-colour="" data-price="479.99" data-name="galaxy a36 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/Samsung Galaxy A36 256GB.webp" alt="Galaxy A36 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Samsung</div>
-    <div class="product-name">Galaxy A36 256GB</div>
-    <div class="product-price-row"><span class="product-price">€479.99 </span></div>
-  </div>
-</a><a href="/EME/product/samsung-sm-a576bdbdeub/" class="product-card" data-brand="samsung" data-colour="" data-price="649.0" data-name="galaxy a57 8gb 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/samsung-sm-a576bdbdeub.png" alt="Galaxy A57 8GB 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Samsung</div>
-    <div class="product-name">Galaxy A57 8GB 256GB</div>
-    <div class="product-price-row"><span class="product-price">€649 </span></div>
-  </div>
-</a><a href="/EME/product/samsung-sm-s942bzkgeub/" class="product-card" data-brand="samsung" data-colour="" data-price="1079.0" data-name="galaxy s25 256gb">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/Samsung Galaxy S25 256GB.webp" alt="Galaxy S25 256GB" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Samsung</div>
-    <div class="product-name">Galaxy S25 256GB</div>
-    <div class="product-price-row"><span class="product-price">€1,079 </span></div>
-  </div>
-</a><a href="/EME/product/xiaomi-mzb0ky5eu/" class="product-card" data-brand="" data-colour="" data-price="449.0" data-name="xiaomi 15t">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/xiaomi-15t-1772004032297033816.webp" alt="Xiaomi 15T" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Xiaomi 15T</div>
-    <div class="product-price-row"><span class="product-price">€449 </span></div>
-  </div>
-</a><a href="/EME/product/redmi-mzb0jteeu/" class="product-card" data-brand="" data-colour="black" data-price="109.99" data-name="xiaomi redmi a5 | 3gb | 64gb | 4g | midnight black">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/51EOoykOZbL._AC_SX679_.jpg" alt="Xiaomi Redmi A5 | 3GB | 64GB | 4G | Midnight Black" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Xiaomi Redmi A5 | 3GB | 64GB | 4G | Midnight Black</div>
-    <div class="product-price-row"><span class="product-price">€109.99 </span></div>
-  </div>
-</a></div>
+  <div><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances-cooking/">Cookers</a></li><li><a href="/EME/category/refrigeration/">Fridges &amp; Freezers</a></li><li><a href="/EME/category/washing-machines/">Washing Machines</a></li><li><a href="/EME/category/tumble-dryer/">Tumble Dryers</a></li><li><a href="/EME/category/washer-dryer/">Washer Dryers</a></li><li><a href="/EME/category/dishwashers/">Dishwashers</a></li><li><a href="/EME/category/mobile-phones/">Mobile Phones</a></li><li><a href="/EME/category/landline-and-cordless-phones/">Landline &amp; Cordless Phones</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
+  <div><h4>Company</h4><ul>
+    <li><a href="/EME/about-us/">About Us</a></li>
+    <li><a href="/EME/contact-us/">Contact</a></li>
+    <li><a href="/EME/delivery-returns/">Delivery</a></li>
+    <li><a href="/EME/returns-replacements/">Returns</a></li>
+    <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
+    <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
+  </ul></div>
+  <div><h4>Visit Us</h4><ul>
+    <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>
+    <li><a href="tel:0429332043">042 933 2043</a></li>
+    <li><a href="mailto:info@eddiemaguire.ie">info@eddiemaguire.ie</a></li>
+    <li class="footer-hours">Mon–Fri 9am–6pm · Sat 9am–5:30pm</li>
+  </ul></div>
 </div>
-<script src="/EME/assets/filters.js?v=bb907590" defer></script>
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a href="/EME/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
-      <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
-    </div>
-    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances/">Home Appliances</a></li><li><a href="/EME/category/technology/">Technology</a></li><li><a href="/EME/category/mobile-phones/">Mobile Phones</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
-    <div class="footer-col"><h4>Company</h4><ul>
-      <li><a href="/EME/about-us/">About Us</a></li>
-      <li><a href="/EME/contact-us/">Contact</a></li>
-      <li><a href="/EME/delivery-returns/">Delivery</a></li>
-      <li><a href="/EME/returns-replacements/">Returns</a></li>
-      <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
-      <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
-    </ul></div>
-    <div class="footer-col"><h4>Visit Us</h4><ul>
-      <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>
-      <li><a href="tel:0429332043">042 933 2043</a></li>
-      <li><a href="mailto:info@eddiemaguire.ie">info@eddiemaguire.ie</a></li>
-      <li style="margin-top:12px;color:var(--orange)">Mon–Fri 9am–6pm · Sat 9am–5:30pm</li>
-    </ul></div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2026 Eddie Maguire Electrical & Furniture. All rights reserved.</p>
-    <p>Made with <span>♥</span> in Dundalk</p>
-  </div>
+<div class="wrap footer-bottom">
+  <span>© 2026 Eddie Maguire Electrical & Furniture. All rights reserved.</span>
+  <span>Made with <span>♥</span> in Dundalk</span>
+</div>
 </footer>
 </body></html>

@@ -21,299 +21,462 @@
 <link rel="icon" href="/EME/assets/favicon.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/EME/assets/apple-touch-icon.png">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/EME/assets/site.css?v=d1054c0e">
+<link rel="stylesheet" href="/EME/assets/site.css?v=458bd7b7">
 </head>
-<body><header>
-  <a href="/EME/" class="logo">
-    <div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div>
-  </a>
-  <nav>
-    <a href="/EME/category/">Shop</a>
-    <a href="/EME/about-us/">About</a>
-    <a href="/EME/contact-us/">Contact</a>
-    <a href="https://wa.me/353899776472" class="nav-cta"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
-  </nav>
-  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
-</header>
-<div class="page-body">
-<div class="crumbs"><a href="/EME/">Home</a><span class="sep">/</span><a href="/EME/category/">Shop</a><span class="sep">/</span><a href="/EME/category/home-appliances/">Home Appliances</a><span class="sep">/</span><span class="current">Cooking</span></div>
-<div class="page-head"><h1>Cooking</h1><div class="count">34 products</div></div>
-
-<div class="filters">
-  <div class="fdrop"><button type="button" class="fdrop-btn">Brand<span class="fdrop-n" data-count="b"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-b="beko">Beko</button><button type="button" class="brand-chip" data-b="belling">Belling</button><button type="button" class="brand-chip" data-b="electrolux">Electrolux</button><button type="button" class="brand-chip" data-b="hotpoint">Hotpoint</button><button type="button" class="brand-chip" data-b="indesit">Indesit</button><button type="button" class="brand-chip" data-b="nordmende">Nordmende</button></div></div></div>
-  
-  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
-    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="329" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="1695" min="0"></div></div>
-  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
-  <button type="button" id="fclear" class="f-clear">Clear</button>
-  <span class="f-count" id="fcount"></span>
+<body><div class="tstrip"><div class="wrap">
+  <span>🚚 <b>Free local delivery</b> around Dundalk</span>
+  <span>🏬 <b>Buy in store</b> — 29 Church St, Dundalk</span>
+  <span>💬 <b>Ask us anything</b> on WhatsApp</span>
+</div></div>
+<header class="site"><div class="wrap">
+  <a class="brand" href="/EME/">EDDIE MAGUIRE<small>ELECTRICAL & FURNITURE</small></a>
+  <form class="search" onsubmit="return false"><input placeholder="Search cookers, fridges, washing machines…" aria-label="Search"><button>Search</button></form>
+  <div class="hactions">
+    <a href="tel:0429332043">📞 042 933 2043</a>
+    <a class="wa" href="https://wa.me/353899776472"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
+  </div>
+</div></header>
+<nav class="cats"><div class="wrap"><a href="/EME/category/home-appliances-cooking/">Cookers</a><a href="/EME/category/refrigeration/">Fridges &amp; Freezers</a><a href="/EME/category/washing-machines/">Washing Machines</a><a href="/EME/category/tumble-dryer/">Tumble Dryers</a><a href="/EME/category/washer-dryer/">Washer Dryers</a><a href="/EME/category/dishwashers/">Dishwashers</a><a href="/EME/category/mobile-phones/">Mobile Phones</a><a href="/EME/category/landline-and-cordless-phones/">Landline &amp; Cordless Phones</a><a href="/EME/category/">All Categories</a></div></nav>
+<div class="wrap">
+<div class="crumb"><a href="/EME/">Home</a> / <a href="/EME/category/">Shop</a> / <a href="/EME/category/home-appliances/">Home Appliances</a> / <b>Cooking</b></div>
+<div class="plist">
+    <aside class="filters">
+      <div class="fgroup" style="display:flex;justify-content:space-between;align-items:center;padding-bottom:10px"><strong style="font-size:13px;text-transform:uppercase;letter-spacing:.05em">Filter</strong><button class="clearf" type="button" onclick="clearAll()">Clear all</button></div>
+      <div class="fgroup"><h4>Brand</h4><label class="fopt"><input type="checkbox" class="f-brand" value="Nordmende"><span>Nordmende</span><span class="ct">9</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Hotpoint"><span>Hotpoint</span><span class="ct">8</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Electrolux"><span>Electrolux</span><span class="ct">5</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Indesit"><span>Indesit</span><span class="ct">5</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Beko"><span>Beko</span><span class="ct">2</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Belling"><span>Belling</span><span class="ct">1</span></label></div><div class="fgroup"><h4>Fuel</h4><label class="fopt"><input type="checkbox" class="f-fuel" value="Electric"><span>Electric</span><span class="ct">20</span></label><label class="fopt"><input type="checkbox" class="f-fuel" value="Gas"><span>Gas</span><span class="ct">8</span></label><label class="fopt"><input type="checkbox" class="f-fuel" value="Gas (LPG)"><span>Gas (LPG)</span><span class="ct">4</span></label><label class="fopt"><input type="checkbox" class="f-fuel" value="Dual fuel"><span>Dual fuel</span><span class="ct">2</span></label></div><div class="fgroup"><h4>Width</h4><label class="fopt"><input type="checkbox" class="f-width" value="60cm"><span>60cm</span><span class="ct">15</span></label><label class="fopt"><input type="checkbox" class="f-width" value="50cm"><span>50cm</span><span class="ct">3</span></label><label class="fopt"><input type="checkbox" class="f-width" value="100cm"><span>100cm</span><span class="ct">1</span></label><label class="fopt"><input type="checkbox" class="f-width" value="110cm"><span>110cm</span><span class="ct">1</span></label><label class="fopt"><input type="checkbox" class="f-width" value="90cm"><span>90cm</span><span class="ct">1</span></label></div><div class="fgroup"><h4>Price</h4><label class="fopt"><input type="radio" name="pr" class="f-price" value="300-600"><span>€300 – €600</span></label><label class="fopt"><input type="radio" name="pr" class="f-price" value="600-1000"><span>€600 – €1,000</span></label><label class="fopt"><input type="radio" name="pr" class="f-price" value="1000-1000000000"><span>€1,000+</span></label></div>
+    </aside>
+    <main>
+      <div class="lhead"><div><h1>Cooking</h1><div class="cnt" id="cnt">34 products</div></div>
+        <div class="sortbar">Sort <select id="sort"><option value="feat">Featured</option><option value="lo">Price: low to high</option><option value="hi">Price: high to low</option><option value="az">Name A–Z</option></select></div>
+      </div>
+      
+      <p class="intro">Our Cooking range — 34 models in stock now at 29 Church St, Dundalk, including Nordmende, Hotpoint, Electrolux, Indesit. Not sure which suits you? Message us on WhatsApp and we&#x27;ll help you choose.</p>
+      <div class="grid" id="grid"><div class="card" data-brand="Beko" data-colour="" data-price="599.0" data-name="Beko FDC6731S — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/beko-fdc6731s-cooker.jpg" alt="Beko FDC6731S — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Beko</div>
+  <a class="nm" href="/EME/product/beko-fdc6731s-cooker/">60cm Freestanding Cooker</a>
+  <div class="model">Model: FDC6731S</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€599</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/beko-fdc6731s-cooker/">Details</a></div>
+</div><div class="card" data-brand="Beko" data-colour="" data-price="1044.0" data-name="Beko KDVC90X — 90cm Range Cooker" data-width="90cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/beko-kdvc90x-cooker.jpg" alt="Beko KDVC90X — 90cm Range Cooker" loading="lazy"></div>
+  <div class="bd">Beko</div>
+  <a class="nm" href="/EME/product/beko-kdvc90x-cooker/">90cm Range Cooker</a>
+  <div class="model">Model: KDVC90X</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">90cm</span><span class="chip">Electric</span></div>
+  <div class="price">€1,044</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/beko-kdvc90x-cooker/">Details</a></div>
+</div><div class="card" data-brand="Belling" data-colour="" data-price="1694.0" data-name="Belling 110EBLK — 110cm Cookcentre Range Cooker" data-width="110cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/belling-110eblk-cooker.jpg" alt="Belling 110EBLK — 110cm Cookcentre Range Cooker" loading="lazy"></div>
+  <div class="bd">Belling</div>
+  <a class="nm" href="/EME/product/belling-110eblk-cooker/">110cm Cookcentre Range Cooker</a>
+  <div class="model">Model: 110EBLK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">110cm</span><span class="chip">Electric</span></div>
+  <div class="price">€1,694</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/belling-110eblk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Electrolux" data-colour="" data-price="478.0" data-name="Electrolux EOA5651BAK — Single Built-In Oven" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/electrolux-eoa5651bak-cooker.jpg" alt="Electrolux EOA5651BAK — Single Built-In Oven" loading="lazy"></div>
+  <div class="bd">Electrolux</div>
+  <a class="nm" href="/EME/product/electrolux-eoa5651bak-cooker/">Single Built In Oven</a>
+  <div class="model">Model: EOA5651BAK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Electric</span></div>
+  <div class="price">€478</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/electrolux-eoa5651bak-cooker/">Details</a></div>
+</div><div class="card" data-brand="Electrolux" data-colour="" data-price="999.0" data-name="Electrolux LKI655200X — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/electrolux-lki655200x-cooker.jpg" alt="Electrolux LKI655200X — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Electrolux</div>
+  <a class="nm" href="/EME/product/electrolux-lki655200x-cooker/">60cm Freestanding Cooker</a>
+  <div class="model">Model: LKI655200X</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€999</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/electrolux-lki655200x-cooker/">Details</a></div>
+</div><div class="card" data-brand="Electrolux" data-colour="" data-price="749.0" data-name="Electrolux LKR655200K — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/electrolux-lkr655200k-cooker.jpg" alt="Electrolux LKR655200K — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Electrolux</div>
+  <a class="nm" href="/EME/product/electrolux-lkr655200k-cooker/">60cm Freestanding Cooker</a>
+  <div class="model">Model: LKR655200K</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€749</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/electrolux-lkr655200k-cooker/">Details</a></div>
+</div><div class="card" data-brand="Electrolux" data-colour="" data-price="749.0" data-name="Electrolux LKR655200X — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/electrolux-lkr655200x-cooker.jpg" alt="Electrolux LKR655200X — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Electrolux</div>
+  <a class="nm" href="/EME/product/electrolux-lkr655200x-cooker/">60cm Freestanding Cooker</a>
+  <div class="model">Model: LKR655200X</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€749</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/electrolux-lkr655200x-cooker/">Details</a></div>
+</div><div class="card" data-brand="Electrolux" data-colour="" data-price="849.0" data-name="Electrolux LKR655210X — 60cm Freestanding Cooker — Air Fryer" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/electrolux-lkr655210x-cooker.jpg" alt="Electrolux LKR655210X — 60cm Freestanding Cooker — Air Fryer" loading="lazy"></div>
+  <div class="bd">Electrolux</div>
+  <a class="nm" href="/EME/product/electrolux-lkr655210x-cooker/">60cm Freestanding Cooker Air Fryer</a>
+  <div class="model">Model: LKR655210X</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€849</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/electrolux-lkr655210x-cooker/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="549.0" data-name="Hotpoint HD5V92KCB/UK — 50cm Freestanding Cooker" data-width="50cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-hd5v92kcb-uk-cooker.jpg" alt="Hotpoint HD5V92KCB/UK — 50cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-hd5v92kcb-uk-cooker/">50cm Freestanding Cooker</a>
+  <div class="model">Model: HD5V92KCB/UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">50cm</span><span class="chip">Electric</span></div>
+  <div class="price">€549</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-hd5v92kcb-uk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="699.0" data-name="Hotpoint HDE6VDCASB1 — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-hde6vdcasb1-cooker.jpg" alt="Hotpoint HDE6VDCASB1 — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-hde6vdcasb1-cooker/">60cm Freestanding Cooker</a>
+  <div class="model">Model: HDE6VDCASB1</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€699</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-hde6vdcasb1-cooker/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="799.0" data-name="Hotpoint HDM67G0C2CB — Gas (NG) Freestanding Cooker" data-fuel="Gas">
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-hdm67g0c2cb-cooker.jpg" alt="Hotpoint HDM67G0C2CB — Gas (NG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-hdm67g0c2cb-cooker/">Gas (NG) Freestanding Cooker</a>
+  <div class="model">Model: HDM67G0C2CB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas</span></div>
+  <div class="price">€799</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-hdm67g0c2cb-cooker/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="799.0" data-name="Hotpoint HDM67G0C2CX/U — Gas (NG) Freestanding Cooker — Convertible" data-fuel="Gas">
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-hdm67g0c2cx-u-cooker.jpg" alt="Hotpoint HDM67G0C2CX/U — Gas (NG) Freestanding Cooker — Convertible" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-hdm67g0c2cx-u-cooker/">Gas (NG) Freestanding Cooker Convertible</a>
+  <div class="model">Model: HDM67G0C2CX/U</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas</span></div>
+  <div class="price">€799</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-hdm67g0c2cx-u-cooker/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="899.0" data-name="Hotpoint HDM67G8CCB/UK — 60cm Dual-Fuel Freestanding Cooker" data-width="60cm" data-fuel="Dual fuel">
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-hdm67g8ccb-uk-cooker.jpg" alt="Hotpoint HDM67G8CCB/UK — 60cm Dual-Fuel Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-hdm67g8ccb-uk-cooker/">60cm Dual Fuel Freestanding Cooker</a>
+  <div class="model">Model: HDM67G8CCB/UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Dual fuel</span></div>
+  <div class="price">€899</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-hdm67g8ccb-uk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="899.0" data-name="Hotpoint HDM67V8D2CX/UK — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-hdm67v8d2cx-uk-cooker.jpg" alt="Hotpoint HDM67V8D2CX/UK — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-hdm67v8d2cx-uk-cooker/">60cm Freestanding Cooker</a>
+  <div class="model">Model: HDM67V8D2CX/UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€899</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-hdm67v8d2cx-uk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="794.0" data-name="Hotpoint HDT67V9H2CB/UK — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-hdt67v9h2cb-uk-cooker.jpg" alt="Hotpoint HDT67V9H2CB/UK — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-hdt67v9h2cb-uk-cooker/">60cm Freestanding Cooker</a>
+  <div class="model">Model: HDT67V9H2CB/UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€794</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-hdt67v9h2cb-uk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="499.0" data-name="Hotpoint HTG5GCB — Gas (NG) Freestanding Cooker" data-fuel="Gas">
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-htg5gcb-cooker.jpg" alt="Hotpoint HTG5GCB — Gas (NG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-htg5gcb-cooker/">Gas (NG) Freestanding Cooker</a>
+  <div class="model">Model: HTG5GCB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas</span></div>
+  <div class="price">€499</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-htg5gcb-cooker/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="699.0" data-name="Indesit ID67GOMCB/UK — Gas (NG) Freestanding Cooker" data-fuel="Gas">
+  <div class="imgw"><img src="/EME/assets/img/indesit-id67gomcb-uk-cooker.jpg" alt="Indesit ID67GOMCB/UK — Gas (NG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-id67gomcb-uk-cooker/">Gas (NG) Freestanding Cooker</a>
+  <div class="model">Model: ID67GOMCB/UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas</span></div>
+  <div class="price">€699</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-id67gomcb-uk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="629.0" data-name="Indesit ID67GOMCW/UK — Gas (NG) Freestanding Cooker" data-fuel="Gas">
+  <div class="imgw"><img src="/EME/assets/img/indesit-id67gomcw-uk-cooker.jpg" alt="Indesit ID67GOMCW/UK — Gas (NG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-id67gomcw-uk-cooker/">Gas (NG) Freestanding Cooker</a>
+  <div class="model">Model: ID67GOMCW/UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas</span></div>
+  <div class="price">€629</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-id67gomcw-uk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="499.0" data-name="Indesit IDE6VMB — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/indesit-ide6vmb-cooker.jpg" alt="Indesit IDE6VMB — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-ide6vmb-cooker/">60cm Freestanding Cooker</a>
+  <div class="model">Model: IDE6VMB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€499</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-ide6vmb-cooker/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="449.0" data-name="Indesit ITE5VMW — 50cm Freestanding Cooker" data-width="50cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/indesit-ite5vmw-cooker.png" alt="Indesit ITE5VMW — 50cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-ite5vmw-cooker/">50cm Freestanding Cooker</a>
+  <div class="model">Model: ITE5VMW</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">50cm</span><span class="chip">Electric</span></div>
+  <div class="price">€449</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-ite5vmw-cooker/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="399.0" data-name="Indesit KD3G2SLWIR — Gas (LPG) Freestanding Cooker" data-fuel="Gas (LPG)">
+  <div class="imgw"><img src="/EME/assets/img/indesit-kd3g2slwir-cooker.webp" alt="Indesit KD3G2SLWIR — Gas (LPG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-kd3g2slwir-cooker/">Gas (LPG) Freestanding Cooker</a>
+  <div class="model">Model: KD3G2SLWIR</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas (LPG)</span></div>
+  <div class="price">€399</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-kd3g2slwir-cooker/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="619.0" data-name="Leisure BECLA60CEK — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/leisure-becla60cek-cooker.jpg" alt="Leisure BECLA60CEK — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/leisure-becla60cek-cooker/">Leisure 60cm Freestanding Cooker</a>
+  <div class="model">Model: BECLA60CEK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€619</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/leisure-becla60cek-cooker/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="769.0" data-name="Leisure BECLA60GAK — Gas (NG) Freestanding Cooker" data-fuel="Gas">
+  <div class="imgw"><img src="/EME/assets/img/leisure-becla60gak-cooker.jpg" alt="Leisure BECLA60GAK — Gas (NG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/leisure-becla60gak-cooker/">Leisure Gas (NG) Freestanding Cooker</a>
+  <div class="model">Model: BECLA60GAK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas</span></div>
+  <div class="price">€769</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/leisure-becla60gak-cooker/">Details</a></div>
+</div><div class="card" data-brand="Nordmende" data-colour="" data-price="519.0" data-name="Nordmende CDEC62IX — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/nordmende-cdec62ix-cooker.jpg" alt="Nordmende CDEC62IX — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Nordmende</div>
+  <a class="nm" href="/EME/product/nordmende-cdec62ix-cooker/">60cm Freestanding Cooker</a>
+  <div class="model">Model: CDEC62IX</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€519</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/nordmende-cdec62ix-cooker/">Details</a></div>
+</div><div class="card" data-brand="Nordmende" data-colour="" data-price="1099.0" data-name="Nordmende CSG100IX — 100cm Dual-Fuel Range Cooker" data-width="100cm" data-fuel="Dual fuel">
+  <div class="imgw"><img src="/EME/assets/img/nordmende-csg100ix-cooker.webp" alt="Nordmende CSG100IX — 100cm Dual-Fuel Range Cooker" loading="lazy"></div>
+  <div class="bd">Nordmende</div>
+  <a class="nm" href="/EME/product/nordmende-csg100ix-cooker/">100cm Dual Fuel Range Cooker</a>
+  <div class="model">Model: CSG100IX</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">100cm</span><span class="chip">Dual fuel</span></div>
+  <div class="price">€1,099</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/nordmende-csg100ix-cooker/">Details</a></div>
+</div><div class="card" data-brand="Nordmende" data-colour="" data-price="499.0" data-name="Nordmende CTEC53BK — 50cm Freestanding Cooker" data-width="50cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/nordmende-ctec53bk-cooker.jpg" alt="Nordmende CTEC53BK — 50cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Nordmende</div>
+  <a class="nm" href="/EME/product/nordmende-ctec53bk-cooker/">50cm Freestanding Cooker</a>
+  <div class="model">Model: CTEC53BK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">50cm</span><span class="chip">Electric</span></div>
+  <div class="price">€499</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/nordmende-ctec53bk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Nordmende" data-colour="" data-price="549.0" data-name="Nordmende CTEC62WH — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/img/nordmende-ctec62wh-cooker.webp" alt="Nordmende CTEC62WH — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Nordmende</div>
+  <a class="nm" href="/EME/product/nordmende-ctec62wh-cooker/">60cm Freestanding Cooker</a>
+  <div class="model">Model: CTEC62WH</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€549</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/nordmende-ctec62wh-cooker/">Details</a></div>
+</div><div class="card" data-brand="Nordmende" data-colour="" data-price="449.0" data-name="Nordmende CTG51WH — Gas (NG) Freestanding Cooker" data-fuel="Gas">
+  <div class="imgw"><img src="/EME/assets/img/nordmende-ctg51wh-cooker.jpg" alt="Nordmende CTG51WH — Gas (NG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Nordmende</div>
+  <a class="nm" href="/EME/product/nordmende-ctg51wh-cooker/">Gas (NG) Freestanding Cooker</a>
+  <div class="model">Model: CTG51WH</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas</span></div>
+  <div class="price">€449</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/nordmende-ctg51wh-cooker/">Details</a></div>
+</div><div class="card" data-brand="Nordmende" data-colour="" data-price="499.0" data-name="Nordmende CTG52LPGBK — Gas (LPG) Freestanding Cooker" data-fuel="Gas (LPG)">
+  <div class="imgw"><img src="/EME/assets/img/nordmende-ctg52lpgbk-cooker.jpg" alt="Nordmende CTG52LPGBK — Gas (LPG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Nordmende</div>
+  <a class="nm" href="/EME/product/nordmende-ctg52lpgbk-cooker/">Gas (LPG) Freestanding Cooker</a>
+  <div class="model">Model: CTG52LPGBK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas (LPG)</span></div>
+  <div class="price">€499</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/nordmende-ctg52lpgbk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Nordmende" data-colour="" data-price="519.0" data-name="Nordmende CTG61BK — Gas (NG) Freestanding Cooker" data-fuel="Gas">
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Nordmende CTG61BK — Gas (NG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Nordmende</div>
+  <a class="nm" href="/EME/product/nordmende-ctg61bk-cooker/">Gas (NG) Freestanding Cooker</a>
+  <div class="model">Model: CTG61BK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas</span></div>
+  <div class="price">€519</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/nordmende-ctg61bk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Nordmende" data-colour="" data-price="569.0" data-name="Nordmende CTG62LPGBK — Gas (LPG) Freestanding Cooker" data-fuel="Gas (LPG)">
+  <div class="imgw"><img src="/EME/assets/img/nordmende-ctg62lpgbk-cooker.jpg" alt="Nordmende CTG62LPGBK — Gas (LPG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Nordmende</div>
+  <a class="nm" href="/EME/product/nordmende-ctg62lpgbk-cooker/">Gas (LPG) Freestanding Cooker</a>
+  <div class="model">Model: CTG62LPGBK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas (LPG)</span></div>
+  <div class="price">€569</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/nordmende-ctg62lpgbk-cooker/">Details</a></div>
+</div><div class="card" data-brand="Nordmende" data-colour="" data-price="559.0" data-name="Nordmende CTG62LPGWH — Gas (LPG) Freestanding Cooker" data-fuel="Gas (LPG)">
+  <div class="imgw"><img src="/EME/assets/img/nordmende-ctg62lpgwh-cooker.jpg" alt="Nordmende CTG62LPGWH — Gas (LPG) Freestanding Cooker" loading="lazy"></div>
+  <div class="bd">Nordmende</div>
+  <a class="nm" href="/EME/product/nordmende-ctg62lpgwh-cooker/">Gas (LPG) Freestanding Cooker</a>
+  <div class="model">Model: CTG62LPGWH</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">Gas (LPG)</span></div>
+  <div class="price">€559</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/nordmende-ctg62lpgwh-cooker/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="499.0" data-name="Powerpoint P06C2MDBL — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Powerpoint P06C2MDBL — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/powerpoint-p06c2mdbl-cooker/">Powerpoint 60cm Freestanding Cooker</a>
+  <div class="model">Model: P06C2MDBL</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€499</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/powerpoint-p06c2mdbl-cooker/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="329.0" data-name="Powerpoint P06E2T2W — 60cm Freestanding Cooker" data-width="60cm" data-fuel="Electric">
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Powerpoint P06E2T2W — 60cm Freestanding Cooker" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/powerpoint-p06e2t2w-cooker/">Powerpoint 60cm Freestanding Cooker</a>
+  <div class="model">Model: P06E2T2W</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">60cm</span><span class="chip">Electric</span></div>
+  <div class="price">€329</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/powerpoint-p06e2t2w-cooker/">Details</a></div>
+</div></div>
+    </main>
+  </div>
+  <script>
+  (function(){
+    var DIMS=["brand","fuel","width"];
+    window.clearAll=function(){document.querySelectorAll('.filters input').forEach(function(i){i.checked=false});applyF()};
+    function checked(cls){return Array.from(document.querySelectorAll('.'+cls+':checked')).map(function(x){return x.value})}
+    window.applyF=function(){
+      var sel={};DIMS.forEach(function(d){sel[d]=checked('f-'+d)});
+      var pr=(document.querySelector('.f-price:checked')||{}).value;
+      var cards=Array.prototype.slice.call(document.querySelectorAll('.card'));var vis=0;
+      cards.forEach(function(c){var ok=true;
+        DIMS.forEach(function(d){if(sel[d].length&&sel[d].indexOf(c.dataset[d])<0)ok=false});
+        if(pr){var pp=pr.split('-');var v=+c.dataset.price;if(v< +pp[0]||v>= +pp[1])ok=false}
+        c.style.display=ok?'':'none';if(ok)vis++;});
+      var s=document.getElementById('sort').value;var g=document.getElementById('grid');
+      var shown=cards.filter(function(c){return c.style.display!=='none'});
+      shown.sort(function(x,y){return s==='lo'?x.dataset.price-y.dataset.price:s==='hi'?y.dataset.price-x.dataset.price:s==='az'?(x.dataset.name>y.dataset.name?1:-1):0});
+      shown.forEach(function(c){g.appendChild(c)});
+      document.getElementById('cnt').textContent=vis+' product'+(vis===1?'':'s');
+      var nr=document.getElementById('nores');
+      if(!vis){if(!nr){nr=document.createElement('div');nr.id='nores';nr.className='nores';nr.textContent='No products match those filters.';g.appendChild(nr)}}else if(nr)nr.remove();
+    };
+    document.querySelectorAll('.filters input').forEach(function(i){i.addEventListener('change',applyF)});
+    document.getElementById('sort').addEventListener('change',applyF);
+  })();
+  </script>
 </div>
-<div class="product-grid" id="grid"><a href="/EME/product/beko-fdc6731s-cooker/" class="product-card" data-brand="beko" data-colour="" data-price="599.0" data-name="fdc6731s — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/beko-fdc6731s-cooker.jpg" alt="FDC6731S — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Beko</div>
-    <div class="product-name">FDC6731S — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€599 </span></div>
+<footer class="site"><div class="wrap">
+  <div class="footer-brand">
+    <a href="/EME/" class="brand">EDDIE MAGUIRE</a>
+    <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
   </div>
-</a><a href="/EME/product/beko-kdvc90x-cooker/" class="product-card" data-brand="beko" data-colour="" data-price="1044.0" data-name="kdvc90x — 90cm range cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/beko-kdvc90x-cooker.jpg" alt="KDVC90X — 90cm Range Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Beko</div>
-    <div class="product-name">KDVC90X — 90cm Range Cooker</div>
-    <div class="product-price-row"><span class="product-price">€1,044 </span></div>
-  </div>
-</a><a href="/EME/product/belling-110eblk-cooker/" class="product-card" data-brand="belling" data-colour="" data-price="1694.0" data-name="110eblk — 110cm cookcentre range cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/belling-110eblk-cooker.jpg" alt="110EBLK — 110cm Cookcentre Range Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Belling</div>
-    <div class="product-name">110EBLK — 110cm Cookcentre Range Cooker</div>
-    <div class="product-price-row"><span class="product-price">€1,694 </span></div>
-  </div>
-</a><a href="/EME/product/electrolux-eoa5651bak-cooker/" class="product-card" data-brand="electrolux" data-colour="" data-price="478.0" data-name="eoa5651bak — single built-in oven">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/electrolux-eoa5651bak-cooker.jpg" alt="EOA5651BAK — Single Built-In Oven" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Electrolux</div>
-    <div class="product-name">EOA5651BAK — Single Built-In Oven</div>
-    <div class="product-price-row"><span class="product-price">€478 </span></div>
-  </div>
-</a><a href="/EME/product/electrolux-lki655200x-cooker/" class="product-card" data-brand="electrolux" data-colour="" data-price="999.0" data-name="lki655200x — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/electrolux-lki655200x-cooker.jpg" alt="LKI655200X — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Electrolux</div>
-    <div class="product-name">LKI655200X — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€999 </span></div>
-  </div>
-</a><a href="/EME/product/electrolux-lkr655200k-cooker/" class="product-card" data-brand="electrolux" data-colour="" data-price="749.0" data-name="lkr655200k — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/electrolux-lkr655200k-cooker.jpg" alt="LKR655200K — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Electrolux</div>
-    <div class="product-name">LKR655200K — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€749 </span></div>
-  </div>
-</a><a href="/EME/product/electrolux-lkr655200x-cooker/" class="product-card" data-brand="electrolux" data-colour="" data-price="749.0" data-name="lkr655200x — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/electrolux-lkr655200x-cooker.jpg" alt="LKR655200X — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Electrolux</div>
-    <div class="product-name">LKR655200X — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€749 </span></div>
-  </div>
-</a><a href="/EME/product/electrolux-lkr655210x-cooker/" class="product-card" data-brand="electrolux" data-colour="" data-price="849.0" data-name="lkr655210x — 60cm freestanding cooker — air fryer">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/electrolux-lkr655210x-cooker.jpg" alt="LKR655210X — 60cm Freestanding Cooker — Air Fryer" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Electrolux</div>
-    <div class="product-name">LKR655210X — 60cm Freestanding Cooker — Air Fryer</div>
-    <div class="product-price-row"><span class="product-price">€849 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-hd5v92kcb-uk-cooker/" class="product-card" data-brand="hotpoint" data-colour="" data-price="549.0" data-name="hd5v92kcb/uk — 50cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-hd5v92kcb-uk-cooker.jpg" alt="HD5V92KCB/UK — 50cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">HD5V92KCB/UK — 50cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€549 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-hde6vdcasb1-cooker/" class="product-card" data-brand="hotpoint" data-colour="" data-price="699.0" data-name="hde6vdcasb1 — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-hde6vdcasb1-cooker.jpg" alt="HDE6VDCASB1 — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">HDE6VDCASB1 — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€699 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-hdm67g0c2cb-cooker/" class="product-card" data-brand="hotpoint" data-colour="" data-price="799.0" data-name="hdm67g0c2cb — gas (ng) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-hdm67g0c2cb-cooker.jpg" alt="HDM67G0C2CB — Gas (NG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">HDM67G0C2CB — Gas (NG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€799 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-hdm67g0c2cx-u-cooker/" class="product-card" data-brand="hotpoint" data-colour="" data-price="799.0" data-name="hdm67g0c2cx/u — gas (ng) freestanding cooker — convertible">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-hdm67g0c2cx-u-cooker.jpg" alt="HDM67G0C2CX/U — Gas (NG) Freestanding Cooker — Convertible" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">HDM67G0C2CX/U — Gas (NG) Freestanding Cooker — Convertible</div>
-    <div class="product-price-row"><span class="product-price">€799 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-hdm67g8ccb-uk-cooker/" class="product-card" data-brand="hotpoint" data-colour="" data-price="899.0" data-name="hdm67g8ccb/uk — 60cm dual-fuel freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-hdm67g8ccb-uk-cooker.jpg" alt="HDM67G8CCB/UK — 60cm Dual-Fuel Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">HDM67G8CCB/UK — 60cm Dual-Fuel Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€899 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-hdm67v8d2cx-uk-cooker/" class="product-card" data-brand="hotpoint" data-colour="" data-price="899.0" data-name="hdm67v8d2cx/uk — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-hdm67v8d2cx-uk-cooker.jpg" alt="HDM67V8D2CX/UK — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">HDM67V8D2CX/UK — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€899 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-hdt67v9h2cb-uk-cooker/" class="product-card" data-brand="hotpoint" data-colour="" data-price="794.0" data-name="hdt67v9h2cb/uk — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-hdt67v9h2cb-uk-cooker.jpg" alt="HDT67V9H2CB/UK — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">HDT67V9H2CB/UK — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€794 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-htg5gcb-cooker/" class="product-card" data-brand="hotpoint" data-colour="" data-price="499.0" data-name="htg5gcb — gas (ng) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-htg5gcb-cooker.jpg" alt="HTG5GCB — Gas (NG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">HTG5GCB — Gas (NG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€499 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-id67gomcb-uk-cooker/" class="product-card" data-brand="indesit" data-colour="" data-price="699.0" data-name="id67gomcb/uk — gas (ng) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-id67gomcb-uk-cooker.jpg" alt="ID67GOMCB/UK — Gas (NG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">ID67GOMCB/UK — Gas (NG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€699 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-id67gomcw-uk-cooker/" class="product-card" data-brand="indesit" data-colour="" data-price="629.0" data-name="id67gomcw/uk — gas (ng) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-id67gomcw-uk-cooker.jpg" alt="ID67GOMCW/UK — Gas (NG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">ID67GOMCW/UK — Gas (NG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€629 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-ide6vmb-cooker/" class="product-card" data-brand="indesit" data-colour="" data-price="499.0" data-name="ide6vmb — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-ide6vmb-cooker.jpg" alt="IDE6VMB — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">IDE6VMB — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€499 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-ite5vmw-cooker/" class="product-card" data-brand="indesit" data-colour="" data-price="449.0" data-name="ite5vmw — 50cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-ite5vmw-cooker.png" alt="ITE5VMW — 50cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">ITE5VMW — 50cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€449 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-kd3g2slwir-cooker/" class="product-card" data-brand="indesit" data-colour="" data-price="399.0" data-name="kd3g2slwir — gas (lpg) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-kd3g2slwir-cooker.webp" alt="KD3G2SLWIR — Gas (LPG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">KD3G2SLWIR — Gas (LPG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€399 </span></div>
-  </div>
-</a><a href="/EME/product/leisure-becla60cek-cooker/" class="product-card" data-brand="" data-colour="" data-price="619.0" data-name="leisure becla60cek — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/leisure-becla60cek-cooker.jpg" alt="Leisure BECLA60CEK — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Leisure BECLA60CEK — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€619 </span></div>
-  </div>
-</a><a href="/EME/product/leisure-becla60gak-cooker/" class="product-card" data-brand="" data-colour="" data-price="769.0" data-name="leisure becla60gak — gas (ng) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/leisure-becla60gak-cooker.jpg" alt="Leisure BECLA60GAK — Gas (NG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Leisure BECLA60GAK — Gas (NG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€769 </span></div>
-  </div>
-</a><a href="/EME/product/nordmende-cdec62ix-cooker/" class="product-card" data-brand="nordmende" data-colour="" data-price="519.0" data-name="cdec62ix — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/nordmende-cdec62ix-cooker.jpg" alt="CDEC62IX — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Nordmende</div>
-    <div class="product-name">CDEC62IX — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€519 </span></div>
-  </div>
-</a><a href="/EME/product/nordmende-csg100ix-cooker/" class="product-card" data-brand="nordmende" data-colour="" data-price="1099.0" data-name="csg100ix — 100cm dual-fuel range cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/nordmende-csg100ix-cooker.webp" alt="CSG100IX — 100cm Dual-Fuel Range Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Nordmende</div>
-    <div class="product-name">CSG100IX — 100cm Dual-Fuel Range Cooker</div>
-    <div class="product-price-row"><span class="product-price">€1,099 </span></div>
-  </div>
-</a><a href="/EME/product/nordmende-ctec53bk-cooker/" class="product-card" data-brand="nordmende" data-colour="" data-price="499.0" data-name="ctec53bk — 50cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/nordmende-ctec53bk-cooker.jpg" alt="CTEC53BK — 50cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Nordmende</div>
-    <div class="product-name">CTEC53BK — 50cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€499 </span></div>
-  </div>
-</a><a href="/EME/product/nordmende-ctec62wh-cooker/" class="product-card" data-brand="nordmende" data-colour="" data-price="549.0" data-name="ctec62wh — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/nordmende-ctec62wh-cooker.webp" alt="CTEC62WH — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Nordmende</div>
-    <div class="product-name">CTEC62WH — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€549 </span></div>
-  </div>
-</a><a href="/EME/product/nordmende-ctg51wh-cooker/" class="product-card" data-brand="nordmende" data-colour="" data-price="449.0" data-name="ctg51wh — gas (ng) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/nordmende-ctg51wh-cooker.jpg" alt="CTG51WH — Gas (NG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Nordmende</div>
-    <div class="product-name">CTG51WH — Gas (NG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€449 </span></div>
-  </div>
-</a><a href="/EME/product/nordmende-ctg52lpgbk-cooker/" class="product-card" data-brand="nordmende" data-colour="" data-price="499.0" data-name="ctg52lpgbk — gas (lpg) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/nordmende-ctg52lpgbk-cooker.jpg" alt="CTG52LPGBK — Gas (LPG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Nordmende</div>
-    <div class="product-name">CTG52LPGBK — Gas (LPG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€499 </span></div>
-  </div>
-</a><a href="/EME/product/nordmende-ctg61bk-cooker/" class="product-card" data-brand="nordmende" data-colour="" data-price="519.0" data-name="ctg61bk — gas (ng) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="CTG61BK — Gas (NG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Nordmende</div>
-    <div class="product-name">CTG61BK — Gas (NG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€519 </span></div>
-  </div>
-</a><a href="/EME/product/nordmende-ctg62lpgbk-cooker/" class="product-card" data-brand="nordmende" data-colour="" data-price="569.0" data-name="ctg62lpgbk — gas (lpg) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/nordmende-ctg62lpgbk-cooker.jpg" alt="CTG62LPGBK — Gas (LPG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Nordmende</div>
-    <div class="product-name">CTG62LPGBK — Gas (LPG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€569 </span></div>
-  </div>
-</a><a href="/EME/product/nordmende-ctg62lpgwh-cooker/" class="product-card" data-brand="nordmende" data-colour="" data-price="559.0" data-name="ctg62lpgwh — gas (lpg) freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/nordmende-ctg62lpgwh-cooker.jpg" alt="CTG62LPGWH — Gas (LPG) Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Nordmende</div>
-    <div class="product-name">CTG62LPGWH — Gas (LPG) Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€559 </span></div>
-  </div>
-</a><a href="/EME/product/powerpoint-p06c2mdbl-cooker/" class="product-card" data-brand="" data-colour="" data-price="499.0" data-name="powerpoint p06c2mdbl — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Powerpoint P06C2MDBL — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Powerpoint P06C2MDBL — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€499 </span></div>
-  </div>
-</a><a href="/EME/product/powerpoint-p06e2t2w-cooker/" class="product-card" data-brand="" data-colour="" data-price="329.0" data-name="powerpoint p06e2t2w — 60cm freestanding cooker">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Powerpoint P06E2T2W — 60cm Freestanding Cooker" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Powerpoint P06E2T2W — 60cm Freestanding Cooker</div>
-    <div class="product-price-row"><span class="product-price">€329 </span></div>
-  </div>
-</a></div>
+  <div><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances-cooking/">Cookers</a></li><li><a href="/EME/category/refrigeration/">Fridges &amp; Freezers</a></li><li><a href="/EME/category/washing-machines/">Washing Machines</a></li><li><a href="/EME/category/tumble-dryer/">Tumble Dryers</a></li><li><a href="/EME/category/washer-dryer/">Washer Dryers</a></li><li><a href="/EME/category/dishwashers/">Dishwashers</a></li><li><a href="/EME/category/mobile-phones/">Mobile Phones</a></li><li><a href="/EME/category/landline-and-cordless-phones/">Landline &amp; Cordless Phones</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
+  <div><h4>Company</h4><ul>
+    <li><a href="/EME/about-us/">About Us</a></li>
+    <li><a href="/EME/contact-us/">Contact</a></li>
+    <li><a href="/EME/delivery-returns/">Delivery</a></li>
+    <li><a href="/EME/returns-replacements/">Returns</a></li>
+    <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
+    <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
+  </ul></div>
+  <div><h4>Visit Us</h4><ul>
+    <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>
+    <li><a href="tel:0429332043">042 933 2043</a></li>
+    <li><a href="mailto:info@eddiemaguire.ie">info@eddiemaguire.ie</a></li>
+    <li class="footer-hours">Mon–Fri 9am–6pm · Sat 9am–5:30pm</li>
+  </ul></div>
 </div>
-<script src="/EME/assets/filters.js?v=bb907590" defer></script>
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a href="/EME/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
-      <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
-    </div>
-    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances/">Home Appliances</a></li><li><a href="/EME/category/technology/">Technology</a></li><li><a href="/EME/category/mobile-phones/">Mobile Phones</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
-    <div class="footer-col"><h4>Company</h4><ul>
-      <li><a href="/EME/about-us/">About Us</a></li>
-      <li><a href="/EME/contact-us/">Contact</a></li>
-      <li><a href="/EME/delivery-returns/">Delivery</a></li>
-      <li><a href="/EME/returns-replacements/">Returns</a></li>
-      <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
-      <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
-    </ul></div>
-    <div class="footer-col"><h4>Visit Us</h4><ul>
-      <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>
-      <li><a href="tel:0429332043">042 933 2043</a></li>
-      <li><a href="mailto:info@eddiemaguire.ie">info@eddiemaguire.ie</a></li>
-      <li style="margin-top:12px;color:var(--orange)">Mon–Fri 9am–6pm · Sat 9am–5:30pm</li>
-    </ul></div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2026 Eddie Maguire Electrical & Furniture. All rights reserved.</p>
-    <p>Made with <span>♥</span> in Dundalk</p>
-  </div>
+<div class="wrap footer-bottom">
+  <span>© 2026 Eddie Maguire Electrical & Furniture. All rights reserved.</span>
+  <span>Made with <span>♥</span> in Dundalk</span>
+</div>
 </footer>
 </body></html>

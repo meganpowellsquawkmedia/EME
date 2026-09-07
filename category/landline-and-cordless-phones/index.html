@@ -21,390 +21,574 @@
 <link rel="icon" href="/EME/assets/favicon.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/EME/assets/apple-touch-icon.png">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/EME/assets/site.css?v=d1054c0e">
+<link rel="stylesheet" href="/EME/assets/site.css?v=458bd7b7">
 </head>
-<body><header>
-  <a href="/EME/" class="logo">
-    <div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div>
-  </a>
-  <nav>
-    <a href="/EME/category/">Shop</a>
-    <a href="/EME/about-us/">About</a>
-    <a href="/EME/contact-us/">Contact</a>
-    <a href="https://wa.me/353899776472" class="nav-cta"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
-  </nav>
-  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
-</header>
-<div class="page-body">
-<div class="crumbs"><a href="/EME/">Home</a><span class="sep">/</span><a href="/EME/category/">Shop</a><span class="sep">/</span><a href="/EME/category/technology/">Technology</a><span class="sep">/</span><span class="current">Landline &amp; Cordless Phones</span></div>
-<div class="page-head"><h1>Landline &amp; Cordless Phones</h1><div class="count">47 products</div></div>
-
-<div class="filters">
-  
-  
-  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
-    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="16" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="150" min="0"></div></div>
-  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
-  <button type="button" id="fclear" class="f-clear">Clear</button>
-  <span class="f-count" id="fcount"></span>
+<body><div class="tstrip"><div class="wrap">
+  <span>🚚 <b>Free local delivery</b> around Dundalk</span>
+  <span>🏬 <b>Buy in store</b> — 29 Church St, Dundalk</span>
+  <span>💬 <b>Ask us anything</b> on WhatsApp</span>
+</div></div>
+<header class="site"><div class="wrap">
+  <a class="brand" href="/EME/">EDDIE MAGUIRE<small>ELECTRICAL & FURNITURE</small></a>
+  <form class="search" onsubmit="return false"><input placeholder="Search cookers, fridges, washing machines…" aria-label="Search"><button>Search</button></form>
+  <div class="hactions">
+    <a href="tel:0429332043">📞 042 933 2043</a>
+    <a class="wa" href="https://wa.me/353899776472"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
+  </div>
+</div></header>
+<nav class="cats"><div class="wrap"><a href="/EME/category/home-appliances-cooking/">Cookers</a><a href="/EME/category/refrigeration/">Fridges &amp; Freezers</a><a href="/EME/category/washing-machines/">Washing Machines</a><a href="/EME/category/tumble-dryer/">Tumble Dryers</a><a href="/EME/category/washer-dryer/">Washer Dryers</a><a href="/EME/category/dishwashers/">Dishwashers</a><a href="/EME/category/mobile-phones/">Mobile Phones</a><a href="/EME/category/landline-and-cordless-phones/">Landline &amp; Cordless Phones</a><a href="/EME/category/">All Categories</a></div></nav>
+<div class="wrap">
+<div class="crumb"><a href="/EME/">Home</a> / <a href="/EME/category/">Shop</a> / <a href="/EME/category/technology/">Technology</a> / <b>Landline &amp; Cordless Phones</b></div>
+<div style="padding:12px 0 60px"><main>
+      <div class="lhead"><div><h1>Landline &amp; Cordless Phones</h1><div class="cnt" id="cnt">47 products</div></div>
+        <div class="sortbar">Sort <select id="sort"><option value="feat">Featured</option><option value="lo">Price: low to high</option><option value="hi">Price: high to low</option><option value="az">Name A–Z</option></select></div>
+      </div>
+      
+      <p class="intro">Our Landline &amp; Cordless Phones range — 47 models in stock now at 29 Church St, Dundalk, including Panasonic. Not sure which suits you? Message us on WhatsApp and we&#x27;ll help you choose.</p>
+      <div class="grid" id="grid"><div class="card" data-brand="" data-colour="" data-price="89.99" data-name="Amplicomms BigTel 50 Alarm Plus Big-Button Mobile" >
+  <div class="imgw"><img src="/EME/assets/img/Amplicomms BigTel 50 Alarm Plus Big-Button Mobile.jpg" alt="Amplicomms BigTel 50 Alarm Plus Big-Button Mobile" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/amplicomms-atl1424102/">Amplicomms BigTel 50 Alarm Plus Big Button Mobile</a>
+  <div class="model">Model: ATL1424102</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€89.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/amplicomms-atl1424102/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="18.99" data-name="Bilbao Tel UK 18008B" >
+  <div class="imgw"><img src="/EME/assets/img/ Bilbao Tel UK 18008B.jpg" alt="Bilbao Tel UK 18008B" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/tel-uk-18008b/">Bilbao Tel UK</a>
+  <div class="model">Model: 18008B</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€18.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/tel-uk-18008b/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="39.99" data-name="Doro 311C" >
+  <div class="imgw"><img src="/EME/assets/img/DORO 311C.jpg" alt="Doro 311C" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-311c-2685/">Doro 311C</a>
+  <div class="model">Model: 311C 2685</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€39.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-311c-2685/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="19.99" data-name="Doro 513C Corded Phone" >
+  <div class="imgw"><img src="/EME/assets/img/Doro 513C Corded Phone .jpg" alt="Doro 513C Corded Phone" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-513c/">Doro Corded Phone</a>
+  <div class="model">Model: 513C</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€19.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-513c/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="16.99" data-name="Doro 909C" >
+  <div class="imgw"><img src="/EME/assets/img/Doro 909C.jpg" alt="Doro 909C" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-909c/">Doro</a>
+  <div class="model">Model: 909C</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€16.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-909c/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="26.99" data-name="Doro 913C" >
+  <div class="imgw"><img src="/EME/assets/img/81092ffnYbL._AC_SX679_.jpg" alt="Doro 913C" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-913c/">Doro</a>
+  <div class="model">Model: 913C</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€26.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-913c/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="34.99" data-name="Doro 914C" >
+  <div class="imgw"><img src="/EME/assets/img/images-1.jpeg" alt="Doro 914C" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-914c/">Doro</a>
+  <div class="model">Model: 914C</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€34.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-914c/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="29.99" data-name="Doro Adapto 3 DECT Digital Cordless" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro Adapto 3 DECT Digital Cordless" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-adapto3/">Doro Adapto 3 DECT Digital Cordless</a>
+  <div class="model">Model: ADAPTO3</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€29.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-adapto3/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="34.99" data-name="Doro Adaptor 5R" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro Adaptor 5R" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-adapto5r/">Doro Adaptor 5R</a>
+  <div class="model">Model: ADAPTO5R</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€34.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-adapto5r/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="39.99" data-name="Doro Comfort 3000 Desk Corded" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro Comfort 3000 Desk Corded" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-comfort3000/">Doro Comfort 3000 Desk Corded</a>
+  <div class="model">Model: COMFORT3000</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€39.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-comfort3000/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="79.99" data-name="Doro Comfort 4005 Combo Phone" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro Comfort 4005 Combo Phone" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-4005/">Doro Comfort Combo Phone</a>
+  <div class="model">Model: 4005</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€79.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-4005/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="49.99" data-name="Doro Congress 205" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro Congress 205" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-congress205/">Doro Congress 205</a>
+  <div class="model">Model: CONGRESS205</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€49.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-congress205/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="49.99" data-name="Doro DECT 100W 5543" >
+  <div class="imgw"><img src="/EME/assets/img/doro-5543.jpg" alt="Doro DECT 100W 5543" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-5543/">Doro DECT 100W</a>
+  <div class="model">Model: 5543</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€49.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-5543/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="79.99" data-name="Doro DECT 100W Duo 5551 Twin" >
+  <div class="imgw"><img src="/EME/assets/img/doro-5551.jpg" alt="Doro DECT 100W Duo 5551 Twin" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-5551/">Doro DECT 100W Duo Twin</a>
+  <div class="model">Model: 5551</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€79.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-5551/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="59.99" data-name="Doro DECT 920 Twin Set" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro DECT 920 Twin Set" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-920/">Doro DECT Twin Set</a>
+  <div class="model">Model: 920</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€59.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-920/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="49.99" data-name="Doro Form 30 DECT Digital Cordless" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro Form 30 DECT Digital Cordless" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-form30/">Doro Form 30 DECT Digital Cordless</a>
+  <div class="model">Model: FORM30</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€49.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-form30/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="109.99" data-name="Doro Leva L20" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro Leva L20" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-leva-l20-8744/">Doro Leva L20</a>
+  <div class="model">Model: LEVA L20 8744</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€109.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-leva-l20-8744/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="124.99" data-name="Doro Leva L30" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro Leva L30" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-leva-l30-8747/">Doro Leva L30</a>
+  <div class="model">Model: LEVA L30 8747</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€124.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-leva-l30-8747/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="59.99" data-name="Doro Neobio 15R+1" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro Neobio 15R+1" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-neobio-15r-1/">Doro Neobio 15R+1</a>
+  <div class="model">Model: NEOBIO 15R+1</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€59.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-neobio-15r-1/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="59.99" data-name="Doro Neobio 40" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro Neobio 40" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-neobio-40/">Doro Neobio 40</a>
+  <div class="model">Model: NEOBIO 40</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€59.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-neobio-40/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="59.99" data-name="Doro WT87 Walkie Talkie" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Doro WT87 Walkie Talkie" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/doro-wt87/">Doro Walkie Talkie</a>
+  <div class="model">Model: WT87</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€59.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/doro-wt87/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="49.95" data-name="Eircom 6000S Single" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Eircom 6000S Single" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/eircom-6000s/">Eircom Single</a>
+  <div class="model">Model: 6000S</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€49.95</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/eircom-6000s/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="79.95" data-name="Eircom 6000T Twin Set" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Eircom 6000T Twin Set" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/eircom-6000t/">Eircom Twin Set</a>
+  <div class="model">Model: 6000T</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€79.95</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/eircom-6000t/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="69.99" data-name="Emporia GD61 DECT Phone" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Emporia GD61 DECT Phone" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/emporia-gd61-uk/">Emporia GD61 DECT Phone</a>
+  <div class="model">Model: GD61-UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€69.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/emporia-gd61-uk/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="74.99" data-name="Emporia GD61AB DECT Phone" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Emporia GD61AB DECT Phone" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/emporia-gd61ab-uk/">Emporia GD61AB DECT Phone</a>
+  <div class="model">Model: GD61AB-UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€74.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/emporia-gd61ab-uk/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="99.0" data-name="Emporia TH-21ABB DECT Phone" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Emporia TH-21ABB DECT Phone" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/emporia-th-21abb-uk/">Emporia TH 21ABB DECT Phone</a>
+  <div class="model">Model: TH-21ABB-UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/emporia-th-21abb-uk/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="25.0" data-name="Lelux 203R Babysitter Phone" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Lelux 203R Babysitter Phone" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/lelux-phlel203r/">Lelux 203R Babysitter Phone</a>
+  <div class="model">Model: PHLEL203R</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€25</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/lelux-phlel203r/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="24.99" data-name="Lelux 656 Speakerphone" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Lelux 656 Speakerphone" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/lelux-656/">Lelux Speakerphone</a>
+  <div class="model">Model: 656</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€24.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/lelux-656/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="49.99" data-name="Panasonic KX-TG1100 Single" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Panasonic KX-TG1100 Single" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tg1100/">Single</a>
+  <div class="model">Model: KX-TG1100</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€49.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tg1100/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="59.99" data-name="Panasonic KX-TG6811 DECT" >
+  <div class="imgw"><img src="/EME/assets/img/panasonic-kx-tg6811.jpg" alt="Panasonic KX-TG6811 DECT" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tg6811/">DECT</a>
+  <div class="model">Model: KX-TG6811</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€59.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tg6811/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="99.0" data-name="Panasonic KX-TG6813 DECT Triple" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Panasonic KX-TG6813 DECT Triple" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tg6813/">DECT Triple</a>
+  <div class="model">Model: KX-TG6813</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tg6813/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="74.99" data-name="Panasonic KX-TG6821 DECT" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Panasonic KX-TG6821 DECT" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tg6821/">DECT</a>
+  <div class="model">Model: KX-TG6821</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€74.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tg6821/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="119.99" data-name="Panasonic KX-TG6822 DECT Twin with Answer" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Panasonic KX-TG6822 DECT Twin with Answer" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tg6822/">DECT Twin with Answer</a>
+  <div class="model">Model: KX-TG6822</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€119.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tg6822/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="149.0" data-name="Panasonic KX-TG6824 DECT Quad" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Panasonic KX-TG6824 DECT Quad" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tg6824/">DECT Quad</a>
+  <div class="model">Model: KX-TG6824</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€149</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tg6824/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="39.99" data-name="Panasonic KX-TGB610 DECT" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Panasonic KX-TGB610 DECT" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tgb610/">DECT</a>
+  <div class="model">Model: KX-TGB610</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€39.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tgb610/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="69.99" data-name="Panasonic KX-TGB612 DECT Double" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Panasonic KX-TGB612 DECT Double" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tgb612/">DECT Double</a>
+  <div class="model">Model: KX-TGB612</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€69.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tgb612/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="69.99" data-name="Panasonic KX-TGC222 DECT" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Panasonic KX-TGC222 DECT" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tgc222/">DECT</a>
+  <div class="model">Model: KX-TGC222</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€69.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tgc222/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="54.99" data-name="Panasonic KX-TGC260 DECT" >
+  <div class="imgw"><img src="/EME/assets/img/panasonic-kx-tgc260.jpg" alt="Panasonic KX-TGC260 DECT" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tgc260/">DECT</a>
+  <div class="model">Model: KX-TGC260</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€54.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tgc260/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="79.99" data-name="Panasonic KX-TGC262 DECT" >
+  <div class="imgw"><img src="/EME/assets/img/panasonic-kx-tgc262.png" alt="Panasonic KX-TGC262 DECT" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tgc262/">DECT</a>
+  <div class="model">Model: KX-TGC262</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€79.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tgc262/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="59.99" data-name="Panasonic KX-TGE110 DECT" >
+  <div class="imgw"><img src="/EME/assets/img/panasonic-kx-tge110.jpg" alt="Panasonic KX-TGE110 DECT" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tge110/">DECT</a>
+  <div class="model">Model: KX-TGE110</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€59.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tge110/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="89.99" data-name="Panasonic KX-TGE112 DECT" >
+  <div class="imgw"><img src="/EME/assets/img/panasonic-kx-tge112.jpg" alt="Panasonic KX-TGE112 DECT" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tge112/">DECT</a>
+  <div class="model">Model: KX-TGE112</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€89.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tge112/">Details</a></div>
+</div><div class="card" data-brand="Panasonic" data-colour="" data-price="139.99" data-name="Panasonic KX-TGF320 DECT &amp; Desk" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Panasonic KX-TGF320 DECT &amp; Desk" loading="lazy"></div>
+  <div class="bd">Panasonic</div>
+  <a class="nm" href="/EME/product/panasonic-kx-tgf320/">DECT &amp; Desk</a>
+  <div class="model">Model: KX-TGF320</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€139.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/panasonic-kx-tgf320/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="24.99" data-name="Powerplus 9053" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Powerplus 9053" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/powerplus-9053/">Powerplus</a>
+  <div class="model">Model: 9053</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€24.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/powerplus-9053/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="49.99" data-name="Sagem BT On-Air 2100" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Sagem BT On-Air 2100" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/sagem-bt2100/">Sagem BT On Air 2100</a>
+  <div class="model">Model: BT2100</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€49.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/sagem-bt2100/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="29.99" data-name="Topcom TS-6650" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Topcom TS-6650" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/topcom-ts-6650/">Topcom</a>
+  <div class="model">Model: TS-6650</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€29.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/topcom-ts-6650/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="24.99" data-name="Uniden CE7203" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Uniden CE7203" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/uniden-ce7203/">Uniden</a>
+  <div class="model">Model: CE7203</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€24.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/uniden-ce7203/">Details</a></div>
+</div><div class="card" data-brand="" data-colour="" data-price="19.99" data-name="Uniden CE8102" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Uniden CE8102" loading="lazy"></div>
+  <div class="bd"></div>
+  <a class="nm" href="/EME/product/uniden-ce8102/">Uniden</a>
+  <div class="model">Model: CE8102</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€19.99</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/uniden-ce8102/">Details</a></div>
+</div></div>
+    </main></div>
 </div>
-<div class="product-grid" id="grid"><a href="/EME/product/amplicomms-atl1424102/" class="product-card" data-brand="" data-colour="" data-price="89.99" data-name="amplicomms bigtel 50 alarm plus big-button mobile">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/Amplicomms BigTel 50 Alarm Plus Big-Button Mobile.jpg" alt="Amplicomms BigTel 50 Alarm Plus Big-Button Mobile" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Amplicomms BigTel 50 Alarm Plus Big-Button Mobile</div>
-    <div class="product-price-row"><span class="product-price">€89.99 </span></div>
+<footer class="site"><div class="wrap">
+  <div class="footer-brand">
+    <a href="/EME/" class="brand">EDDIE MAGUIRE</a>
+    <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
   </div>
-</a><a href="/EME/product/tel-uk-18008b/" class="product-card" data-brand="" data-colour="" data-price="18.99" data-name="bilbao tel uk 18008b">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/ Bilbao Tel UK 18008B.jpg" alt="Bilbao Tel UK 18008B" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Bilbao Tel UK 18008B</div>
-    <div class="product-price-row"><span class="product-price">€18.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-311c-2685/" class="product-card" data-brand="" data-colour="" data-price="39.99" data-name="doro 311c">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/DORO 311C.jpg" alt="Doro 311C" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro 311C</div>
-    <div class="product-price-row"><span class="product-price">€39.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-513c/" class="product-card" data-brand="" data-colour="" data-price="19.99" data-name="doro 513c corded phone">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/Doro 513C Corded Phone .jpg" alt="Doro 513C Corded Phone" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro 513C Corded Phone</div>
-    <div class="product-price-row"><span class="product-price">€19.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-909c/" class="product-card" data-brand="" data-colour="" data-price="16.99" data-name="doro 909c">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/Doro 909C.jpg" alt="Doro 909C" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro 909C</div>
-    <div class="product-price-row"><span class="product-price">€16.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-913c/" class="product-card" data-brand="" data-colour="" data-price="26.99" data-name="doro 913c">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/81092ffnYbL._AC_SX679_.jpg" alt="Doro 913C" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro 913C</div>
-    <div class="product-price-row"><span class="product-price">€26.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-914c/" class="product-card" data-brand="" data-colour="" data-price="34.99" data-name="doro 914c">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/images-1.jpeg" alt="Doro 914C" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro 914C</div>
-    <div class="product-price-row"><span class="product-price">€34.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-adapto3/" class="product-card" data-brand="" data-colour="" data-price="29.99" data-name="doro adapto 3 dect digital cordless">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro Adapto 3 DECT Digital Cordless" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro Adapto 3 DECT Digital Cordless</div>
-    <div class="product-price-row"><span class="product-price">€29.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-adapto5r/" class="product-card" data-brand="" data-colour="" data-price="34.99" data-name="doro adaptor 5r">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro Adaptor 5R" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro Adaptor 5R</div>
-    <div class="product-price-row"><span class="product-price">€34.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-comfort3000/" class="product-card" data-brand="" data-colour="" data-price="39.99" data-name="doro comfort 3000 desk corded">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro Comfort 3000 Desk Corded" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro Comfort 3000 Desk Corded</div>
-    <div class="product-price-row"><span class="product-price">€39.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-4005/" class="product-card" data-brand="" data-colour="" data-price="79.99" data-name="doro comfort 4005 combo phone">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro Comfort 4005 Combo Phone" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro Comfort 4005 Combo Phone</div>
-    <div class="product-price-row"><span class="product-price">€79.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-congress205/" class="product-card" data-brand="" data-colour="" data-price="49.99" data-name="doro congress 205">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro Congress 205" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro Congress 205</div>
-    <div class="product-price-row"><span class="product-price">€49.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-5543/" class="product-card" data-brand="" data-colour="" data-price="49.99" data-name="doro dect 100w 5543">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/doro-5543.jpg" alt="Doro DECT 100W 5543" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro DECT 100W 5543</div>
-    <div class="product-price-row"><span class="product-price">€49.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-5551/" class="product-card" data-brand="" data-colour="" data-price="79.99" data-name="doro dect 100w duo 5551 twin">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/doro-5551.jpg" alt="Doro DECT 100W Duo 5551 Twin" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro DECT 100W Duo 5551 Twin</div>
-    <div class="product-price-row"><span class="product-price">€79.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-920/" class="product-card" data-brand="" data-colour="" data-price="59.99" data-name="doro dect 920 twin set">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro DECT 920 Twin Set" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro DECT 920 Twin Set</div>
-    <div class="product-price-row"><span class="product-price">€59.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-form30/" class="product-card" data-brand="" data-colour="" data-price="49.99" data-name="doro form 30 dect digital cordless">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro Form 30 DECT Digital Cordless" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro Form 30 DECT Digital Cordless</div>
-    <div class="product-price-row"><span class="product-price">€49.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-leva-l20-8744/" class="product-card" data-brand="" data-colour="" data-price="109.99" data-name="doro leva l20">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro Leva L20" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro Leva L20</div>
-    <div class="product-price-row"><span class="product-price">€109.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-leva-l30-8747/" class="product-card" data-brand="" data-colour="" data-price="124.99" data-name="doro leva l30">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro Leva L30" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro Leva L30</div>
-    <div class="product-price-row"><span class="product-price">€124.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-neobio-15r-1/" class="product-card" data-brand="" data-colour="" data-price="59.99" data-name="doro neobio 15r+1">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro Neobio 15R+1" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro Neobio 15R+1</div>
-    <div class="product-price-row"><span class="product-price">€59.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-neobio-40/" class="product-card" data-brand="" data-colour="" data-price="59.99" data-name="doro neobio 40">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro Neobio 40" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro Neobio 40</div>
-    <div class="product-price-row"><span class="product-price">€59.99 </span></div>
-  </div>
-</a><a href="/EME/product/doro-wt87/" class="product-card" data-brand="" data-colour="" data-price="59.99" data-name="doro wt87 walkie talkie">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Doro WT87 Walkie Talkie" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Doro WT87 Walkie Talkie</div>
-    <div class="product-price-row"><span class="product-price">€59.99 </span></div>
-  </div>
-</a><a href="/EME/product/eircom-6000s/" class="product-card" data-brand="" data-colour="" data-price="49.95" data-name="eircom 6000s single">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Eircom 6000S Single" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Eircom 6000S Single</div>
-    <div class="product-price-row"><span class="product-price">€49.95 </span></div>
-  </div>
-</a><a href="/EME/product/eircom-6000t/" class="product-card" data-brand="" data-colour="" data-price="79.95" data-name="eircom 6000t twin set">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Eircom 6000T Twin Set" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Eircom 6000T Twin Set</div>
-    <div class="product-price-row"><span class="product-price">€79.95 </span></div>
-  </div>
-</a><a href="/EME/product/emporia-gd61-uk/" class="product-card" data-brand="" data-colour="" data-price="69.99" data-name="emporia gd61 dect phone">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Emporia GD61 DECT Phone" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Emporia GD61 DECT Phone</div>
-    <div class="product-price-row"><span class="product-price">€69.99 </span></div>
-  </div>
-</a><a href="/EME/product/emporia-gd61ab-uk/" class="product-card" data-brand="" data-colour="" data-price="74.99" data-name="emporia gd61ab dect phone">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Emporia GD61AB DECT Phone" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Emporia GD61AB DECT Phone</div>
-    <div class="product-price-row"><span class="product-price">€74.99 </span></div>
-  </div>
-</a><a href="/EME/product/emporia-th-21abb-uk/" class="product-card" data-brand="" data-colour="" data-price="99.0" data-name="emporia th-21abb dect phone">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Emporia TH-21ABB DECT Phone" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Emporia TH-21ABB DECT Phone</div>
-    <div class="product-price-row"><span class="product-price">€99 </span></div>
-  </div>
-</a><a href="/EME/product/lelux-phlel203r/" class="product-card" data-brand="" data-colour="" data-price="25.0" data-name="lelux 203r babysitter phone">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Lelux 203R Babysitter Phone" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Lelux 203R Babysitter Phone</div>
-    <div class="product-price-row"><span class="product-price">€25 </span></div>
-  </div>
-</a><a href="/EME/product/lelux-656/" class="product-card" data-brand="" data-colour="" data-price="24.99" data-name="lelux 656 speakerphone">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Lelux 656 Speakerphone" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Lelux 656 Speakerphone</div>
-    <div class="product-price-row"><span class="product-price">€24.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tg1100/" class="product-card" data-brand="panasonic" data-colour="" data-price="49.99" data-name="kx-tg1100 single">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="KX-TG1100 Single" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TG1100 Single</div>
-    <div class="product-price-row"><span class="product-price">€49.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tg6811/" class="product-card" data-brand="panasonic" data-colour="" data-price="59.99" data-name="kx-tg6811 dect">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/panasonic-kx-tg6811.jpg" alt="KX-TG6811 DECT" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TG6811 DECT</div>
-    <div class="product-price-row"><span class="product-price">€59.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tg6813/" class="product-card" data-brand="panasonic" data-colour="" data-price="99.0" data-name="kx-tg6813 dect triple">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="KX-TG6813 DECT Triple" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TG6813 DECT Triple</div>
-    <div class="product-price-row"><span class="product-price">€99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tg6821/" class="product-card" data-brand="panasonic" data-colour="" data-price="74.99" data-name="kx-tg6821 dect">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="KX-TG6821 DECT" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TG6821 DECT</div>
-    <div class="product-price-row"><span class="product-price">€74.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tg6822/" class="product-card" data-brand="panasonic" data-colour="" data-price="119.99" data-name="kx-tg6822 dect twin with answer">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="KX-TG6822 DECT Twin with Answer" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TG6822 DECT Twin with Answer</div>
-    <div class="product-price-row"><span class="product-price">€119.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tg6824/" class="product-card" data-brand="panasonic" data-colour="" data-price="149.0" data-name="kx-tg6824 dect quad">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="KX-TG6824 DECT Quad" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TG6824 DECT Quad</div>
-    <div class="product-price-row"><span class="product-price">€149 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tgb610/" class="product-card" data-brand="panasonic" data-colour="" data-price="39.99" data-name="kx-tgb610 dect">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="KX-TGB610 DECT" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TGB610 DECT</div>
-    <div class="product-price-row"><span class="product-price">€39.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tgb612/" class="product-card" data-brand="panasonic" data-colour="" data-price="69.99" data-name="kx-tgb612 dect double">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="KX-TGB612 DECT Double" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TGB612 DECT Double</div>
-    <div class="product-price-row"><span class="product-price">€69.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tgc222/" class="product-card" data-brand="panasonic" data-colour="" data-price="69.99" data-name="kx-tgc222 dect">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="KX-TGC222 DECT" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TGC222 DECT</div>
-    <div class="product-price-row"><span class="product-price">€69.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tgc260/" class="product-card" data-brand="panasonic" data-colour="" data-price="54.99" data-name="kx-tgc260 dect">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/panasonic-kx-tgc260.jpg" alt="KX-TGC260 DECT" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TGC260 DECT</div>
-    <div class="product-price-row"><span class="product-price">€54.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tgc262/" class="product-card" data-brand="panasonic" data-colour="" data-price="79.99" data-name="kx-tgc262 dect">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/panasonic-kx-tgc262.png" alt="KX-TGC262 DECT" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TGC262 DECT</div>
-    <div class="product-price-row"><span class="product-price">€79.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tge110/" class="product-card" data-brand="panasonic" data-colour="" data-price="59.99" data-name="kx-tge110 dect">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/panasonic-kx-tge110.jpg" alt="KX-TGE110 DECT" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TGE110 DECT</div>
-    <div class="product-price-row"><span class="product-price">€59.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tge112/" class="product-card" data-brand="panasonic" data-colour="" data-price="89.99" data-name="kx-tge112 dect">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/panasonic-kx-tge112.jpg" alt="KX-TGE112 DECT" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TGE112 DECT</div>
-    <div class="product-price-row"><span class="product-price">€89.99 </span></div>
-  </div>
-</a><a href="/EME/product/panasonic-kx-tgf320/" class="product-card" data-brand="panasonic" data-colour="" data-price="139.99" data-name="kx-tgf320 dect &amp; desk">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="KX-TGF320 DECT &amp; Desk" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Panasonic</div>
-    <div class="product-name">KX-TGF320 DECT &amp; Desk</div>
-    <div class="product-price-row"><span class="product-price">€139.99 </span></div>
-  </div>
-</a><a href="/EME/product/powerplus-9053/" class="product-card" data-brand="" data-colour="" data-price="24.99" data-name="powerplus 9053">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Powerplus 9053" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Powerplus 9053</div>
-    <div class="product-price-row"><span class="product-price">€24.99 </span></div>
-  </div>
-</a><a href="/EME/product/sagem-bt2100/" class="product-card" data-brand="" data-colour="" data-price="49.99" data-name="sagem bt on-air 2100">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Sagem BT On-Air 2100" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Sagem BT On-Air 2100</div>
-    <div class="product-price-row"><span class="product-price">€49.99 </span></div>
-  </div>
-</a><a href="/EME/product/topcom-ts-6650/" class="product-card" data-brand="" data-colour="" data-price="29.99" data-name="topcom ts-6650">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Topcom TS-6650" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Topcom TS-6650</div>
-    <div class="product-price-row"><span class="product-price">€29.99 </span></div>
-  </div>
-</a><a href="/EME/product/uniden-ce7203/" class="product-card" data-brand="" data-colour="" data-price="24.99" data-name="uniden ce7203">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Uniden CE7203" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Uniden CE7203</div>
-    <div class="product-price-row"><span class="product-price">€24.99 </span></div>
-  </div>
-</a><a href="/EME/product/uniden-ce8102/" class="product-card" data-brand="" data-colour="" data-price="19.99" data-name="uniden ce8102">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="Uniden CE8102" loading="lazy"></div></div>
-  <div class="product-info">
-    
-    <div class="product-name">Uniden CE8102</div>
-    <div class="product-price-row"><span class="product-price">€19.99 </span></div>
-  </div>
-</a></div>
+  <div><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances-cooking/">Cookers</a></li><li><a href="/EME/category/refrigeration/">Fridges &amp; Freezers</a></li><li><a href="/EME/category/washing-machines/">Washing Machines</a></li><li><a href="/EME/category/tumble-dryer/">Tumble Dryers</a></li><li><a href="/EME/category/washer-dryer/">Washer Dryers</a></li><li><a href="/EME/category/dishwashers/">Dishwashers</a></li><li><a href="/EME/category/mobile-phones/">Mobile Phones</a></li><li><a href="/EME/category/landline-and-cordless-phones/">Landline &amp; Cordless Phones</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
+  <div><h4>Company</h4><ul>
+    <li><a href="/EME/about-us/">About Us</a></li>
+    <li><a href="/EME/contact-us/">Contact</a></li>
+    <li><a href="/EME/delivery-returns/">Delivery</a></li>
+    <li><a href="/EME/returns-replacements/">Returns</a></li>
+    <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
+    <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
+  </ul></div>
+  <div><h4>Visit Us</h4><ul>
+    <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>
+    <li><a href="tel:0429332043">042 933 2043</a></li>
+    <li><a href="mailto:info@eddiemaguire.ie">info@eddiemaguire.ie</a></li>
+    <li class="footer-hours">Mon–Fri 9am–6pm · Sat 9am–5:30pm</li>
+  </ul></div>
 </div>
-<script src="/EME/assets/filters.js?v=bb907590" defer></script>
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a href="/EME/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
-      <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
-    </div>
-    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances/">Home Appliances</a></li><li><a href="/EME/category/technology/">Technology</a></li><li><a href="/EME/category/mobile-phones/">Mobile Phones</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
-    <div class="footer-col"><h4>Company</h4><ul>
-      <li><a href="/EME/about-us/">About Us</a></li>
-      <li><a href="/EME/contact-us/">Contact</a></li>
-      <li><a href="/EME/delivery-returns/">Delivery</a></li>
-      <li><a href="/EME/returns-replacements/">Returns</a></li>
-      <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
-      <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
-    </ul></div>
-    <div class="footer-col"><h4>Visit Us</h4><ul>
-      <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>
-      <li><a href="tel:0429332043">042 933 2043</a></li>
-      <li><a href="mailto:info@eddiemaguire.ie">info@eddiemaguire.ie</a></li>
-      <li style="margin-top:12px;color:var(--orange)">Mon–Fri 9am–6pm · Sat 9am–5:30pm</li>
-    </ul></div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2026 Eddie Maguire Electrical & Furniture. All rights reserved.</p>
-    <p>Made with <span>♥</span> in Dundalk</p>
-  </div>
+<div class="wrap footer-bottom">
+  <span>© 2026 Eddie Maguire Electrical & Furniture. All rights reserved.</span>
+  <span>Made with <span>♥</span> in Dundalk</span>
+</div>
 </footer>
 </body></html>

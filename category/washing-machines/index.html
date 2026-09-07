@@ -21,250 +21,385 @@
 <link rel="icon" href="/EME/assets/favicon.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/EME/assets/apple-touch-icon.png">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/EME/assets/site.css?v=d1054c0e">
+<link rel="stylesheet" href="/EME/assets/site.css?v=458bd7b7">
 </head>
-<body><header>
-  <a href="/EME/" class="logo">
-    <div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div>
-  </a>
-  <nav>
-    <a href="/EME/category/">Shop</a>
-    <a href="/EME/about-us/">About</a>
-    <a href="/EME/contact-us/">Contact</a>
-    <a href="https://wa.me/353899776472" class="nav-cta"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
-  </nav>
-  <div class="hamburger" onclick="this.closest('header').classList.toggle('menu-open')" aria-label="Menu"><span></span><span></span><span></span></div>
-</header>
-<div class="page-body">
-<div class="crumbs"><a href="/EME/">Home</a><span class="sep">/</span><a href="/EME/category/">Shop</a><span class="sep">/</span><a href="/EME/category/home-appliances/">Home Appliances</a><span class="sep">/</span><a href="/EME/category/laundry/">Laundry</a><span class="sep">/</span><span class="current">Washing Machines</span></div>
-<div class="page-head"><h1>Washing Machines</h1><div class="count">27 products</div></div>
-
-<div class="filters">
-  <div class="fdrop"><button type="button" class="fdrop-btn">Brand<span class="fdrop-n" data-count="b"></span><span class="caret">▾</span></button><div class="fdrop-panel"><div class="brand-chips"><button type="button" class="brand-chip" data-b="beko">Beko</button><button type="button" class="brand-chip" data-b="bosch">Bosch</button><button type="button" class="brand-chip" data-b="candy">Candy</button><button type="button" class="brand-chip" data-b="electrolux">Electrolux</button><button type="button" class="brand-chip" data-b="hisense">Hisense</button><button type="button" class="brand-chip" data-b="hotpoint">Hotpoint</button><button type="button" class="brand-chip" data-b="indesit">Indesit</button><button type="button" class="brand-chip" data-b="miele">Miele</button><button type="button" class="brand-chip" data-b="nordmende">Nordmende</button><button type="button" class="brand-chip" data-b="whirlpool">Whirlpool</button></div></div></div>
-  
-  <div class="fdrop"><button type="button" class="fdrop-btn">Price<span class="caret">▾</span></button>
-    <div class="fdrop-panel price-panel"><input type="number" class="f-price" id="fmin" placeholder="329" min="0"><span class="f-dash">–</span><input type="number" class="f-price" id="fmax" placeholder="1100" min="0"></div></div>
-  <select id="fsort" class="fsort-inline"><option value="">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Name: A–Z</option></select>
-  <button type="button" id="fclear" class="f-clear">Clear</button>
-  <span class="f-count" id="fcount"></span>
+<body><div class="tstrip"><div class="wrap">
+  <span>🚚 <b>Free local delivery</b> around Dundalk</span>
+  <span>🏬 <b>Buy in store</b> — 29 Church St, Dundalk</span>
+  <span>💬 <b>Ask us anything</b> on WhatsApp</span>
+</div></div>
+<header class="site"><div class="wrap">
+  <a class="brand" href="/EME/">EDDIE MAGUIRE<small>ELECTRICAL & FURNITURE</small></a>
+  <form class="search" onsubmit="return false"><input placeholder="Search cookers, fridges, washing machines…" aria-label="Search"><button>Search</button></form>
+  <div class="hactions">
+    <a href="tel:0429332043">📞 042 933 2043</a>
+    <a class="wa" href="https://wa.me/353899776472"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.533 5.856L.054 23.5l5.823-1.454A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.651-.518-5.166-1.42l-.371-.22-3.453.863.927-3.384-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg> Enquire</a>
+  </div>
+</div></header>
+<nav class="cats"><div class="wrap"><a href="/EME/category/home-appliances-cooking/">Cookers</a><a href="/EME/category/refrigeration/">Fridges &amp; Freezers</a><a href="/EME/category/washing-machines/">Washing Machines</a><a href="/EME/category/tumble-dryer/">Tumble Dryers</a><a href="/EME/category/washer-dryer/">Washer Dryers</a><a href="/EME/category/dishwashers/">Dishwashers</a><a href="/EME/category/mobile-phones/">Mobile Phones</a><a href="/EME/category/landline-and-cordless-phones/">Landline &amp; Cordless Phones</a><a href="/EME/category/">All Categories</a></div></nav>
+<div class="wrap">
+<div class="crumb"><a href="/EME/">Home</a> / <a href="/EME/category/">Shop</a> / <a href="/EME/category/home-appliances/">Home Appliances</a> / <a href="/EME/category/laundry/">Laundry</a> / <b>Washing Machines</b></div>
+<div class="plist">
+    <aside class="filters">
+      <div class="fgroup" style="display:flex;justify-content:space-between;align-items:center;padding-bottom:10px"><strong style="font-size:13px;text-transform:uppercase;letter-spacing:.05em">Filter</strong><button class="clearf" type="button" onclick="clearAll()">Clear all</button></div>
+      <div class="fgroup"><h4>Brand</h4><label class="fopt"><input type="checkbox" class="f-brand" value="Indesit"><span>Indesit</span><span class="ct">7</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Hotpoint"><span>Hotpoint</span><span class="ct">6</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Electrolux"><span>Electrolux</span><span class="ct">4</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Beko"><span>Beko</span><span class="ct">3</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Bosch"><span>Bosch</span><span class="ct">2</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Candy"><span>Candy</span><span class="ct">1</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Hisense"><span>Hisense</span><span class="ct">1</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Miele"><span>Miele</span><span class="ct">1</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Nordmende"><span>Nordmende</span><span class="ct">1</span></label><label class="fopt"><input type="checkbox" class="f-brand" value="Whirlpool"><span>Whirlpool</span><span class="ct">1</span></label></div><div class="fgroup"><h4>Capacity</h4><label class="fopt"><input type="checkbox" class="f-capacity" value="10kg"><span>10kg</span><span class="ct">1</span></label><label class="fopt"><input type="checkbox" class="f-capacity" value="7kg"><span>7kg</span><span class="ct">1</span></label><label class="fopt"><input type="checkbox" class="f-capacity" value="8kg"><span>8kg</span><span class="ct">1</span></label></div><div class="fgroup"><h4>Price</h4><label class="fopt"><input type="radio" name="pr" class="f-price" value="300-600"><span>€300 – €600</span></label><label class="fopt"><input type="radio" name="pr" class="f-price" value="600-1000"><span>€600 – €1,000</span></label><label class="fopt"><input type="radio" name="pr" class="f-price" value="1000-1000000000"><span>€1,000+</span></label></div>
+    </aside>
+    <main>
+      <div class="lhead"><div><h1>Washing Machines</h1><div class="cnt" id="cnt">27 products</div></div>
+        <div class="sortbar">Sort <select id="sort"><option value="feat">Featured</option><option value="lo">Price: low to high</option><option value="hi">Price: high to low</option><option value="az">Name A–Z</option></select></div>
+      </div>
+      
+      <p class="intro">Our Washing Machines range — 27 models in stock now at 29 Church St, Dundalk, including Indesit, Hotpoint, Electrolux, Beko. Not sure which suits you? Message us on WhatsApp and we&#x27;ll help you choose.</p>
+      <div class="grid" id="grid"><div class="card" data-brand="Beko" data-colour="Silver" data-price="429.0" data-name="Beko 7KG 1200 Spin Washing Machine - Silver | BM1WT3721S" data-capacity="7kg" data-colour="Silver">
+  <div class="imgw"><img src="/EME/assets/img/Beko BM1WT3721S — Washing Machine.webp" alt="Beko 7KG 1200 Spin Washing Machine - Silver | BM1WT3721S" loading="lazy"></div>
+  <div class="bd">Beko</div>
+  <a class="nm" href="/EME/product/beko-bm1wt3721s-washing-machines/">7KG 1200 Spin Washing Machine Silver</a>
+  <div class="model">Model: BM1WT3721S</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">7kg</span><span class="chip">Silver</span></div>
+  <div class="price">€429</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/beko-bm1wt3721s-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Beko" data-colour="" data-price="429.0" data-name="Beko BM3WT3941B — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/beko-bm3wt3941b-washing-machines.jpg" alt="Beko BM3WT3941B — Washing Machine" loading="lazy"></div>
+  <div class="bd">Beko</div>
+  <a class="nm" href="/EME/product/beko-bm3wt3941b-washing-machines/">Washing Machine</a>
+  <div class="model">Model: BM3WT3941B</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€429</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/beko-bm3wt3941b-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Beko" data-colour="" data-price="399.0" data-name="Beko BM3WT3941W — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/beko-bm3wt3941w-washing-machines.jpg" alt="Beko BM3WT3941W — Washing Machine" loading="lazy"></div>
+  <div class="bd">Beko</div>
+  <a class="nm" href="/EME/product/beko-bm3wt3941w-washing-machines/">Washing Machine</a>
+  <div class="model">Model: BM3WT3941W</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€399</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/beko-bm3wt3941w-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Bosch" data-colour="" data-price="599.0" data-name="Bosch WAN28259GB — Washing Machine" data-storage="8259GB">
+  <div class="imgw"><img src="/EME/assets/img/bosch-wan28259gb-washing-machines.png" alt="Bosch WAN28259GB — Washing Machine" loading="lazy"></div>
+  <div class="bd">Bosch</div>
+  <a class="nm" href="/EME/product/bosch-wan28259gb-washing-machines/">Washing Machine</a>
+  <div class="model">Model: WAN28259GB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">8259GB</span></div>
+  <div class="price">€599</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/bosch-wan28259gb-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Bosch" data-colour="" data-price="699.0" data-name="Bosch WGG254Z1GB — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/bosch-wgg254z1gb-washing-machines.jpg" alt="Bosch WGG254Z1GB — Washing Machine" loading="lazy"></div>
+  <div class="bd">Bosch</div>
+  <a class="nm" href="/EME/product/bosch-wgg254z1gb-washing-machines/">Washing Machine</a>
+  <div class="model">Model: WGG254Z1GB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€699</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/bosch-wgg254z1gb-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Candy" data-colour="" data-price="329.0" data-name="Candy CS148TWBB4/1-80 — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Candy CS148TWBB4/1-80 — Washing Machine" loading="lazy"></div>
+  <div class="bd">Candy</div>
+  <a class="nm" href="/EME/product/candy-cs148twbb4-1-80-washing-machines/">Washing Machine</a>
+  <div class="model">Model: CS148TWBB4/1-80</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€329</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/candy-cs148twbb4-1-80-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Electrolux" data-colour="" data-price="499.0" data-name="Electrolux EFI61141B — 10kg Washing Machine" data-capacity="10kg">
+  <div class="imgw"><img src="/EME/assets/img/electrolux-efi61141b-washing-machines.png" alt="Electrolux EFI61141B — 10kg Washing Machine" loading="lazy"></div>
+  <div class="bd">Electrolux</div>
+  <a class="nm" href="/EME/product/electrolux-efi61141b-washing-machines/">10kg Washing Machine</a>
+  <div class="model">Model: EFI61141B</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">10kg</span></div>
+  <div class="price">€499</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/electrolux-efi61141b-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Electrolux" data-colour="" data-price="449.0" data-name="Electrolux EFI61841B — 8kg Washing Machine" data-capacity="8kg">
+  <div class="imgw"><img src="/EME/assets/img/electrolux-efi61841b-washing-machines.jpg" alt="Electrolux EFI61841B — 8kg Washing Machine" loading="lazy"></div>
+  <div class="bd">Electrolux</div>
+  <a class="nm" href="/EME/product/electrolux-efi61841b-washing-machines/">8kg Washing Machine</a>
+  <div class="model">Model: EFI61841B</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"><span class="chip">8kg</span></div>
+  <div class="price">€449</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/electrolux-efi61841b-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Electrolux" data-colour="" data-price="599.0" data-name="Electrolux EFI62142B — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/electrolux-efi62142b-washing-machines.jpg" alt="Electrolux EFI62142B — Washing Machine" loading="lazy"></div>
+  <div class="bd">Electrolux</div>
+  <a class="nm" href="/EME/product/electrolux-efi62142b-washing-machines/">Washing Machine</a>
+  <div class="model">Model: EFI62142B</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€599</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/electrolux-efi62142b-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Electrolux" data-colour="" data-price="699.0" data-name="Electrolux EFI63142UD — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/electrolux-efi63142ud-washing-machines.jpg" alt="Electrolux EFI63142UD — Washing Machine" loading="lazy"></div>
+  <div class="bd">Electrolux</div>
+  <a class="nm" href="/EME/product/electrolux-efi63142ud-washing-machines/">Washing Machine</a>
+  <div class="model">Model: EFI63142UD</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€699</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/electrolux-efi63142ud-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Hisense" data-colour="" data-price="579.0" data-name="Hisense WF5S1245BB — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/hisense-wf5s1245bb-washing-machines.png" alt="Hisense WF5S1245BB — Washing Machine" loading="lazy"></div>
+  <div class="bd">Hisense</div>
+  <a class="nm" href="/EME/product/hisense-wf5s1245bb-washing-machines/">Washing Machine</a>
+  <div class="model">Model: WF5S1245BB</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€579</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hisense-wf5s1245bb-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="449.0" data-name="Hotpoint H91 Anti Stain IRE — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-h91-anti-stain-ire-washing-machines.jpg" alt="Hotpoint H91 Anti Stain IRE — Washing Machine" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-h91-anti-stain-ire-washing-machines/">Washing Machine</a>
+  <div class="model">Model: H91 Anti Stain IRE</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€449</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-h91-anti-stain-ire-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="469.0" data-name="Hotpoint H91B Anti Stain IRE — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-h91b-anti-stain-ire-washing-machines.jpg" alt="Hotpoint H91B Anti Stain IRE — Washing Machine" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-h91b-anti-stain-ire-washing-machines/">Washing Machine</a>
+  <div class="model">Model: H91B Anti Stain IRE</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€469</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-h91b-anti-stain-ire-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="469.0" data-name="Hotpoint H91G Anti Stain IRE — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Hotpoint H91G Anti Stain IRE — Washing Machine" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-h91g-anti-stain-ire-washing-machines/">Washing Machine</a>
+  <div class="model">Model: H91G Anti Stain IRE</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€469</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-h91g-anti-stain-ire-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="599.0" data-name="Hotpoint HBCA123CAREUK — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-hbca123careuk-washing-machines.jpg" alt="Hotpoint HBCA123CAREUK — Washing Machine" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-hbca123careuk-washing-machines/">Washing Machine</a>
+  <div class="model">Model: HBCA123CAREUK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€599</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-hbca123careuk-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="599.0" data-name="Hotpoint NM11046WCAUK — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Hotpoint NM11046WCAUK — Washing Machine" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-nm11046wcauk-washing-machines/">Washing Machine</a>
+  <div class="model">Model: NM11046WCAUK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€599</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-nm11046wcauk-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Hotpoint" data-colour="" data-price="549.0" data-name="Hotpoint NM111048WCAUK — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/hotpoint-nm111048wcauk-washing-machines.jpg" alt="Hotpoint NM111048WCAUK — Washing Machine" loading="lazy"></div>
+  <div class="bd">Hotpoint</div>
+  <a class="nm" href="/EME/product/hotpoint-nm111048wcauk-washing-machines/">Washing Machine</a>
+  <div class="model">Model: NM111048WCAUK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€549</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/hotpoint-nm111048wcauk-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="449.0" data-name="Indesit BWA81485XSN — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/indesit-bwa81485xsn-washing-machines.jpg" alt="Indesit BWA81485XSN — Washing Machine" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-bwa81485xsn-washing-machines/">Washing Machine</a>
+  <div class="model">Model: BWA81485XSN</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€449</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-bwa81485xsn-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="399.0" data-name="Indesit IM964 MyTime UK — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/placeholder-product.svg" alt="Indesit IM964 MyTime UK — Washing Machine" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-im964-mytime-uk-washing-machines/">Washing Machine</a>
+  <div class="model">Model: IM964 MyTime UK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€399</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-im964-mytime-uk-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="329.0" data-name="Indesit IMA764 MyTime — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/indesit-ima764-mytime-washing-machines.jpg" alt="Indesit IMA764 MyTime — Washing Machine" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-ima764-mytime-washing-machines/">Washing Machine</a>
+  <div class="model">Model: IMA764 MyTime</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€329</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-ima764-mytime-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="349.0" data-name="Indesit IMA864 MyTime — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/indesit-ima864-mytime-washing-machines.jpg" alt="Indesit IMA864 MyTime — Washing Machine" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-ima864-mytime-washing-machines/">Washing Machine</a>
+  <div class="model">Model: IMA864 MyTime</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€349</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-ima864-mytime-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="449.0" data-name="Indesit IP1146 — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/indesit-ip1146-washing-machines.jpg" alt="Indesit IP1146 — Washing Machine" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-ip1146-washing-machines/">Washing Machine</a>
+  <div class="model">Model: IP1146</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€449</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-ip1146-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="399.0" data-name="Indesit IP946 Push &amp; Go — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/indesit-ip946-push-go-washing-machines.jpg" alt="Indesit IP946 Push &amp; Go — Washing Machine" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-ip946-push-go-washing-machines/">Washing Machine</a>
+  <div class="model">Model: IP946 Push &amp; Go</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€399</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-ip946-push-go-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Indesit" data-colour="" data-price="379.0" data-name="Indesit MTWC91495W — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/indesit-mtwc91495w-washing-machines.jpg" alt="Indesit MTWC91495W — Washing Machine" loading="lazy"></div>
+  <div class="bd">Indesit</div>
+  <a class="nm" href="/EME/product/indesit-mtwc91495w-washing-machines/">Washing Machine</a>
+  <div class="model">Model: MTWC91495W</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€379</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/indesit-mtwc91495w-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Miele" data-colour="" data-price="1099.0" data-name="Miele WED665WCS — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/miele-wed665wcs-washing-machines.jpg" alt="Miele WED665WCS — Washing Machine" loading="lazy"></div>
+  <div class="bd">Miele</div>
+  <a class="nm" href="/EME/product/miele-wed665wcs-washing-machines/">Washing Machine</a>
+  <div class="model">Model: WED665WCS</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€1,099</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/miele-wed665wcs-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Nordmende" data-colour="" data-price="379.0" data-name="Nordmende WMA1280MBL — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/nordmende-wma1280mbl-washing-machines.png" alt="Nordmende WMA1280MBL — Washing Machine" loading="lazy"></div>
+  <div class="bd">Nordmende</div>
+  <a class="nm" href="/EME/product/nordmende-wma1280mbl-washing-machines/">Washing Machine</a>
+  <div class="model">Model: WMA1280MBL</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€379</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/nordmende-wma1280mbl-washing-machines/">Details</a></div>
+</div><div class="card" data-brand="Whirlpool" data-colour="" data-price="499.0" data-name="Whirlpool FFB8469WVUK — Washing Machine" >
+  <div class="imgw"><img src="/EME/assets/img/whirlpool-ffb8469wvuk-washing-machines.jpg" alt="Whirlpool FFB8469WVUK — Washing Machine" loading="lazy"></div>
+  <div class="bd">Whirlpool</div>
+  <a class="nm" href="/EME/product/whirlpool-ffb8469wvuk-washing-machines/">Washing Machine</a>
+  <div class="model">Model: FFB8469WVUK</div>
+  <span class="stars">★★★★★<span class="rev">No reviews yet</span></span>
+  <div class="chips"></div>
+  <div class="price">€499</div>
+  <div class="vat">Price includes VAT</div>
+  <div class="stock"><span class="dot"></span> In stock in Dundalk</div>
+  <div class="cbtns"><a class="btn btn-o" href="https://wa.me/353899776472">Enquire</a><a class="btn btn-g" href="/EME/product/whirlpool-ffb8469wvuk-washing-machines/">Details</a></div>
+</div></div>
+    </main>
+  </div>
+  <script>
+  (function(){
+    var DIMS=["brand","capacity"];
+    window.clearAll=function(){document.querySelectorAll('.filters input').forEach(function(i){i.checked=false});applyF()};
+    function checked(cls){return Array.from(document.querySelectorAll('.'+cls+':checked')).map(function(x){return x.value})}
+    window.applyF=function(){
+      var sel={};DIMS.forEach(function(d){sel[d]=checked('f-'+d)});
+      var pr=(document.querySelector('.f-price:checked')||{}).value;
+      var cards=Array.prototype.slice.call(document.querySelectorAll('.card'));var vis=0;
+      cards.forEach(function(c){var ok=true;
+        DIMS.forEach(function(d){if(sel[d].length&&sel[d].indexOf(c.dataset[d])<0)ok=false});
+        if(pr){var pp=pr.split('-');var v=+c.dataset.price;if(v< +pp[0]||v>= +pp[1])ok=false}
+        c.style.display=ok?'':'none';if(ok)vis++;});
+      var s=document.getElementById('sort').value;var g=document.getElementById('grid');
+      var shown=cards.filter(function(c){return c.style.display!=='none'});
+      shown.sort(function(x,y){return s==='lo'?x.dataset.price-y.dataset.price:s==='hi'?y.dataset.price-x.dataset.price:s==='az'?(x.dataset.name>y.dataset.name?1:-1):0});
+      shown.forEach(function(c){g.appendChild(c)});
+      document.getElementById('cnt').textContent=vis+' product'+(vis===1?'':'s');
+      var nr=document.getElementById('nores');
+      if(!vis){if(!nr){nr=document.createElement('div');nr.id='nores';nr.className='nores';nr.textContent='No products match those filters.';g.appendChild(nr)}}else if(nr)nr.remove();
+    };
+    document.querySelectorAll('.filters input').forEach(function(i){i.addEventListener('change',applyF)});
+    document.getElementById('sort').addEventListener('change',applyF);
+  })();
+  </script>
 </div>
-<div class="product-grid" id="grid"><a href="/EME/product/beko-bm1wt3721s-washing-machines/" class="product-card" data-brand="beko" data-colour="silver" data-price="429.0" data-name="7kg 1200 spin washing machine - silver | bm1wt3721s">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/Beko BM1WT3721S — Washing Machine.webp" alt="7KG 1200 Spin Washing Machine - Silver | BM1WT3721S" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Beko</div>
-    <div class="product-name">7KG 1200 Spin Washing Machine - Silver | BM1WT3721S</div>
-    <div class="product-price-row"><span class="product-price">€429 </span></div>
+<footer class="site"><div class="wrap">
+  <div class="footer-brand">
+    <a href="/EME/" class="brand">EDDIE MAGUIRE</a>
+    <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
   </div>
-</a><a href="/EME/product/beko-bm3wt3941b-washing-machines/" class="product-card" data-brand="beko" data-colour="" data-price="429.0" data-name="bm3wt3941b — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/beko-bm3wt3941b-washing-machines.jpg" alt="BM3WT3941B — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Beko</div>
-    <div class="product-name">BM3WT3941B — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€429 </span></div>
-  </div>
-</a><a href="/EME/product/beko-bm3wt3941w-washing-machines/" class="product-card" data-brand="beko" data-colour="" data-price="399.0" data-name="bm3wt3941w — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/beko-bm3wt3941w-washing-machines.jpg" alt="BM3WT3941W — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Beko</div>
-    <div class="product-name">BM3WT3941W — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€399 </span></div>
-  </div>
-</a><a href="/EME/product/bosch-wan28259gb-washing-machines/" class="product-card" data-brand="bosch" data-colour="" data-price="599.0" data-name="wan28259gb — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/bosch-wan28259gb-washing-machines.png" alt="WAN28259GB — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Bosch</div>
-    <div class="product-name">WAN28259GB — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€599 </span></div>
-  </div>
-</a><a href="/EME/product/bosch-wgg254z1gb-washing-machines/" class="product-card" data-brand="bosch" data-colour="" data-price="699.0" data-name="wgg254z1gb — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/bosch-wgg254z1gb-washing-machines.jpg" alt="WGG254Z1GB — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Bosch</div>
-    <div class="product-name">WGG254Z1GB — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€699 </span></div>
-  </div>
-</a><a href="/EME/product/candy-cs148twbb4-1-80-washing-machines/" class="product-card" data-brand="candy" data-colour="" data-price="329.0" data-name="cs148twbb4/1-80 — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="CS148TWBB4/1-80 — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Candy</div>
-    <div class="product-name">CS148TWBB4/1-80 — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€329 </span></div>
-  </div>
-</a><a href="/EME/product/electrolux-efi61141b-washing-machines/" class="product-card" data-brand="electrolux" data-colour="" data-price="499.0" data-name="efi61141b — 10kg washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/electrolux-efi61141b-washing-machines.png" alt="EFI61141B — 10kg Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Electrolux</div>
-    <div class="product-name">EFI61141B — 10kg Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€499 </span></div>
-  </div>
-</a><a href="/EME/product/electrolux-efi61841b-washing-machines/" class="product-card" data-brand="electrolux" data-colour="" data-price="449.0" data-name="efi61841b — 8kg washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/electrolux-efi61841b-washing-machines.jpg" alt="EFI61841B — 8kg Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Electrolux</div>
-    <div class="product-name">EFI61841B — 8kg Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€449 </span></div>
-  </div>
-</a><a href="/EME/product/electrolux-efi62142b-washing-machines/" class="product-card" data-brand="electrolux" data-colour="" data-price="599.0" data-name="efi62142b — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/electrolux-efi62142b-washing-machines.jpg" alt="EFI62142B — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Electrolux</div>
-    <div class="product-name">EFI62142B — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€599 </span></div>
-  </div>
-</a><a href="/EME/product/electrolux-efi63142ud-washing-machines/" class="product-card" data-brand="electrolux" data-colour="" data-price="699.0" data-name="efi63142ud — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/electrolux-efi63142ud-washing-machines.jpg" alt="EFI63142UD — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Electrolux</div>
-    <div class="product-name">EFI63142UD — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€699 </span></div>
-  </div>
-</a><a href="/EME/product/hisense-wf5s1245bb-washing-machines/" class="product-card" data-brand="hisense" data-colour="" data-price="579.0" data-name="wf5s1245bb — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hisense-wf5s1245bb-washing-machines.png" alt="WF5S1245BB — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hisense</div>
-    <div class="product-name">WF5S1245BB — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€579 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-h91-anti-stain-ire-washing-machines/" class="product-card" data-brand="hotpoint" data-colour="" data-price="449.0" data-name="h91 anti stain ire — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-h91-anti-stain-ire-washing-machines.jpg" alt="H91 Anti Stain IRE — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">H91 Anti Stain IRE — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€449 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-h91b-anti-stain-ire-washing-machines/" class="product-card" data-brand="hotpoint" data-colour="" data-price="469.0" data-name="h91b anti stain ire — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-h91b-anti-stain-ire-washing-machines.jpg" alt="H91B Anti Stain IRE — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">H91B Anti Stain IRE — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€469 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-h91g-anti-stain-ire-washing-machines/" class="product-card" data-brand="hotpoint" data-colour="" data-price="469.0" data-name="h91g anti stain ire — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="H91G Anti Stain IRE — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">H91G Anti Stain IRE — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€469 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-hbca123careuk-washing-machines/" class="product-card" data-brand="hotpoint" data-colour="" data-price="599.0" data-name="hbca123careuk — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-hbca123careuk-washing-machines.jpg" alt="HBCA123CAREUK — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">HBCA123CAREUK — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€599 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-nm11046wcauk-washing-machines/" class="product-card" data-brand="hotpoint" data-colour="" data-price="599.0" data-name="nm11046wcauk — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="NM11046WCAUK — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">NM11046WCAUK — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€599 </span></div>
-  </div>
-</a><a href="/EME/product/hotpoint-nm111048wcauk-washing-machines/" class="product-card" data-brand="hotpoint" data-colour="" data-price="549.0" data-name="nm111048wcauk — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/hotpoint-nm111048wcauk-washing-machines.jpg" alt="NM111048WCAUK — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Hotpoint</div>
-    <div class="product-name">NM111048WCAUK — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€549 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-bwa81485xsn-washing-machines/" class="product-card" data-brand="indesit" data-colour="" data-price="449.0" data-name="bwa81485xsn — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-bwa81485xsn-washing-machines.jpg" alt="BWA81485XSN — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">BWA81485XSN — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€449 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-im964-mytime-uk-washing-machines/" class="product-card" data-brand="indesit" data-colour="" data-price="399.0" data-name="im964 mytime uk — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/placeholder-product.svg" alt="IM964 MyTime UK — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">IM964 MyTime UK — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€399 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-ima764-mytime-washing-machines/" class="product-card" data-brand="indesit" data-colour="" data-price="329.0" data-name="ima764 mytime — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-ima764-mytime-washing-machines.jpg" alt="IMA764 MyTime — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">IMA764 MyTime — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€329 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-ima864-mytime-washing-machines/" class="product-card" data-brand="indesit" data-colour="" data-price="349.0" data-name="ima864 mytime — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-ima864-mytime-washing-machines.jpg" alt="IMA864 MyTime — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">IMA864 MyTime — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€349 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-ip1146-washing-machines/" class="product-card" data-brand="indesit" data-colour="" data-price="449.0" data-name="ip1146 — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-ip1146-washing-machines.jpg" alt="IP1146 — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">IP1146 — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€449 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-ip946-push-go-washing-machines/" class="product-card" data-brand="indesit" data-colour="" data-price="399.0" data-name="ip946 push &amp; go — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-ip946-push-go-washing-machines.jpg" alt="IP946 Push &amp; Go — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">IP946 Push &amp; Go — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€399 </span></div>
-  </div>
-</a><a href="/EME/product/indesit-mtwc91495w-washing-machines/" class="product-card" data-brand="indesit" data-colour="" data-price="379.0" data-name="mtwc91495w — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/indesit-mtwc91495w-washing-machines.jpg" alt="MTWC91495W — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Indesit</div>
-    <div class="product-name">MTWC91495W — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€379 </span></div>
-  </div>
-</a><a href="/EME/product/miele-wed665wcs-washing-machines/" class="product-card" data-brand="miele" data-colour="" data-price="1099.0" data-name="wed665wcs — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/miele-wed665wcs-washing-machines.jpg" alt="WED665WCS — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Miele</div>
-    <div class="product-name">WED665WCS — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€1,099 </span></div>
-  </div>
-</a><a href="/EME/product/nordmende-wma1280mbl-washing-machines/" class="product-card" data-brand="nordmende" data-colour="" data-price="379.0" data-name="wma1280mbl — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/nordmende-wma1280mbl-washing-machines.png" alt="WMA1280MBL — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Nordmende</div>
-    <div class="product-name">WMA1280MBL — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€379 </span></div>
-  </div>
-</a><a href="/EME/product/whirlpool-ffb8469wvuk-washing-machines/" class="product-card" data-brand="whirlpool" data-colour="" data-price="499.0" data-name="ffb8469wvuk — washing machine">
-  <div class="product-thumb-wrap"><div class="product-thumb"><img src="/EME/assets/img/whirlpool-ffb8469wvuk-washing-machines.jpg" alt="FFB8469WVUK — Washing Machine" loading="lazy"></div></div>
-  <div class="product-info">
-    <div class="product-brand">Whirlpool</div>
-    <div class="product-name">FFB8469WVUK — Washing Machine</div>
-    <div class="product-price-row"><span class="product-price">€499 </span></div>
-  </div>
-</a></div>
+  <div><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances-cooking/">Cookers</a></li><li><a href="/EME/category/refrigeration/">Fridges &amp; Freezers</a></li><li><a href="/EME/category/washing-machines/">Washing Machines</a></li><li><a href="/EME/category/tumble-dryer/">Tumble Dryers</a></li><li><a href="/EME/category/washer-dryer/">Washer Dryers</a></li><li><a href="/EME/category/dishwashers/">Dishwashers</a></li><li><a href="/EME/category/mobile-phones/">Mobile Phones</a></li><li><a href="/EME/category/landline-and-cordless-phones/">Landline &amp; Cordless Phones</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
+  <div><h4>Company</h4><ul>
+    <li><a href="/EME/about-us/">About Us</a></li>
+    <li><a href="/EME/contact-us/">Contact</a></li>
+    <li><a href="/EME/delivery-returns/">Delivery</a></li>
+    <li><a href="/EME/returns-replacements/">Returns</a></li>
+    <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
+    <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
+  </ul></div>
+  <div><h4>Visit Us</h4><ul>
+    <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>
+    <li><a href="tel:0429332043">042 933 2043</a></li>
+    <li><a href="mailto:info@eddiemaguire.ie">info@eddiemaguire.ie</a></li>
+    <li class="footer-hours">Mon–Fri 9am–6pm · Sat 9am–5:30pm</li>
+  </ul></div>
 </div>
-<script src="/EME/assets/filters.js?v=bb907590" defer></script>
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a href="/EME/" class="logo"><div class="logo-text"><span class="name">Eddie Maguire</span><span class="sub">Electrical & Furniture</span></div></a>
-      <p>Your local electrical &amp; furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.</p>
-    </div>
-    <div class="footer-col"><h4>Shop</h4><ul><li><a href="/EME/category/home-appliances/">Home Appliances</a></li><li><a href="/EME/category/technology/">Technology</a></li><li><a href="/EME/category/mobile-phones/">Mobile Phones</a></li><li><a href="/EME/category/">All categories</a></li></ul></div>
-    <div class="footer-col"><h4>Company</h4><ul>
-      <li><a href="/EME/about-us/">About Us</a></li>
-      <li><a href="/EME/contact-us/">Contact</a></li>
-      <li><a href="/EME/delivery-returns/">Delivery</a></li>
-      <li><a href="/EME/returns-replacements/">Returns</a></li>
-      <li><a href="/EME/terms-and-conditions/">Terms &amp; Conditions</a></li>
-      <li><a href="/EME/privacy-policy/">Privacy Policy</a></li>
-    </ul></div>
-    <div class="footer-col"><h4>Visit Us</h4><ul>
-      <li><a href="https://maps.google.com/?q=29 Church St, Dundalk">29 Church St, Dundalk</a></li>
-      <li><a href="tel:0429332043">042 933 2043</a></li>
-      <li><a href="mailto:info@eddiemaguire.ie">info@eddiemaguire.ie</a></li>
-      <li style="margin-top:12px;color:var(--orange)">Mon–Fri 9am–6pm · Sat 9am–5:30pm</li>
-    </ul></div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2026 Eddie Maguire Electrical & Furniture. All rights reserved.</p>
-    <p>Made with <span>♥</span> in Dundalk</p>
-  </div>
+<div class="wrap footer-bottom">
+  <span>© 2026 Eddie Maguire Electrical & Furniture. All rights reserved.</span>
+  <span>Made with <span>♥</span> in Dundalk</span>
+</div>
 </footer>
 </body></html>
