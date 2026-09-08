@@ -9,17 +9,14 @@
   "footer_blurb": "Your local electrical & furniture store in Dundalk. Family run, community focused, and always happy to help. Browse online, buy in store.",
   "topstrip": [
     {
-      "icon": "🚚",
       "bold": "FREE LOCAL DELIVERY",
       "text": "around Dundalk"
     },
     {
-      "icon": "🏬",
       "bold": "BUY IN STORE",
       "text": "29 Church St, Dundalk"
     },
     {
-      "icon": "💬",
       "bold": "ASK US ANYTHING",
       "text": "on WhatsApp"
     }
