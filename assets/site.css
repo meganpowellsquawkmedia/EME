@@ -45,17 +45,19 @@ nav.cats .cats-enq:hover{color:var(--orange-dk)}
   .tstrip .wrap{display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:0;padding:0;height:32px;align-items:center;overflow:hidden;position:relative;width:100%;max-width:100%}
   .tstrip-track{display:flex;flex:none;gap:36px;padding-right:36px;white-space:nowrap;animation:tstrip-scroll 24s linear infinite;will-change:transform}
   .tstrip .dup{display:flex}
-  header.site .wrap{flex-wrap:wrap;gap:10px;padding:10px 14px}
-  .brand{font-size:17px}
+  header.site .wrap{flex-wrap:nowrap;gap:8px;padding:9px 12px}
+  .brand{font-size:15px}
+  .brand small{font-size:8.5px;letter-spacing:.16em}
   .search{order:3;max-width:none;width:100%;display:none}
   header.site.search-open .search{display:flex}
   .hactions{margin-left:auto;gap:8px}
   .hactions .hphone{width:38px;height:38px;border-radius:999px;background:var(--soft);justify-content:center;gap:0}
   .hactions .hphone-txt{display:none}
-  .hactions .wa{padding:9px 13px;font-size:12.5px}
+  .hactions .wa{padding:9px 12px;font-size:12.5px;gap:6px}
   .hsearch-tgl{display:inline-flex}
   nav.cats .wrap{gap:18px;padding:10px 14px;font-size:12.5px}
 }
+@media(max-width:360px){.hactions .wa .wa-txt{display:none}.hactions .wa{width:38px;height:38px;padding:0;justify-content:center}}
 @keyframes tstrip-scroll{to{transform:translateX(-100%)}}
 @media(prefers-reduced-motion:reduce){.tstrip-track{animation:none}.tstrip .dup{display:none}.tstrip-track span:not(:first-child){display:none}}
 
