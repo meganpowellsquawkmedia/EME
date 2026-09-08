@@ -380,7 +380,6 @@ def glance_html(fc):
     return '<div class="glance">' + "".join(
         '<div class="g"><span class="k">%s</span><span class="v">%s</span></div>' % (esc(l), esc(v)) for l, v in items) + '</div>'
 
-STARS = '<span class="stars">★★★★★<span class="rev">No reviews yet</span></span>'
 
 # Featured departments (homepage tiles + top nav). slug -> label; resolved to real categories.
 FEATURED = [
@@ -479,13 +478,14 @@ def nav_links():
 def header():
     strip = "".join(f'<span>{s.get("icon","")} <b>{esc(s.get("bold",""))}</b> {esc(s.get("text",""))}</span>' for s in TOPSTRIP)
     return f"""<div class="tstrip"><div class="wrap">
-  {strip}
+  <div class="tstrip-track">{strip}</div><div class="tstrip-track dup" aria-hidden="true">{strip}</div>
 </div></div>
 <header class="site"><div class="wrap">
   <a class="brand" href="/">{SHOP['name'].upper()}<small>{SHOP['tagline'].upper()}</small></a>
   <form class="search" onsubmit="return false"><input placeholder="Search cookers, fridges, washing machines…" aria-label="Search"><button>Search</button></form>
   <div class="hactions">
-    <a href="tel:{SHOP['phone_tel']}">📞 {SHOP['phone_display']}</a>
+    <button type="button" class="hsearch-tgl" aria-label="Search" aria-expanded="false" onclick="var h=this.closest('header');var o=h.classList.toggle('search-open');this.setAttribute('aria-expanded',o);if(o)h.querySelector('.search input').focus()"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
+    <a class="hphone" href="tel:{SHOP['phone_tel']}" aria-label="Call {SHOP['phone_display']}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg><span class="hphone-txt">{SHOP['phone_display']}</span></a>
     <a class="wa" href="https://wa.me/{SHOP['wa']}">{WA_SVG} Enquire</a>
   </div>
 </div></header>
@@ -547,7 +547,6 @@ def product_card(p):
   {f'<div class="bd">{esc(brand)}</div>' if brand else '<div class="bd"></div>'}
   <a class="nm" href="/product/{esc(p['slug'])}/">{esc(title)}</a>
   {model}
-  {STARS}
   <div class="chips">{chips}</div>
   <div class="price">{price_disp}</div>
   <div class="vat">Price includes VAT</div>
@@ -656,7 +655,6 @@ def build_products():
     {f'<div class="bd">{esc(brand2)}</div>' if brand2 else ''}
     <h1>{esc(title)}</h1>
     <div class="pmodel">Model: {esc(p.get('sku') or '—')}</div>
-    {STARS}
     {glance_html(fc)}
     <div class="pricebox">
       {price_html}
@@ -667,8 +665,8 @@ def build_products():
       </div>
       <div class="ctas">
         <a class="ctabig" href="{wa_link}">{WA_SVG} Enquire on WhatsApp</a>
-        <a class="ctacall" href="tel:{SHOP['phone_tel']}">📞 Call {SHOP['phone_display']}</a>
-        <a class="ctarsv" href="https://wa.me/{SHOP['wa']}">Reserve for collection</a>
+        <a class="ctacall" href="tel:{SHOP['phone_tel']}">Call the shop</a>
+        <a class="ctarsv" href="https://wa.me/{SHOP['wa']}">Reserve for collection →</a>
         <a class="enq-link" href="/enquiry/?product={enq_q}">Prefer a form? Make an enquiry →</a>
       </div>
     </div>
@@ -1016,7 +1014,7 @@ def build_enquiry():
     <label class="fld"><span>Your message</span><textarea id="f-msg" rows="5" placeholder="Is this in stock? What's your best price? Can you deliver to Dundalk?"></textarea></label>
     <div class="enq-actions">
       <button type="button" class="ctabig" onclick="enqSend('wa')">{WA_SVG} Send via WhatsApp</button>
-      <button type="button" class="ctacall" onclick="enqSend('email')">✉️ Send by Email</button>
+      <button type="button" class="ctacall" onclick="enqSend('email')">Send by Email</button>
     </div>
     <p class="enq-note">No account needed. Your details are only used to answer your enquiry — nothing is stored on this website.</p>
   </form>
