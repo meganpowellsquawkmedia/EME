@@ -14,7 +14,7 @@ h1{letter-spacing:.005em}
 .eyebrow,.bd,.section-label,nav.cats a,.sortbar,.crumb b{text-transform:uppercase;letter-spacing:.06em}
 
 /* top strip + header */
-.tstrip{background:var(--ink);color:#e9e9e9;font-size:12.5px}
+.tstrip{background:var(--ink);color:#e9e9e9;font-size:12.5px;position:relative;overflow:hidden}
 .tstrip .wrap{display:flex;gap:26px;justify-content:center;padding:8px 20px;flex-wrap:wrap}
 .tstrip-track{display:contents}
 .tstrip .dup{display:none}
@@ -42,8 +42,8 @@ nav.cats a:hover{color:var(--orange)}
 nav.cats .cats-enq{margin-left:auto;color:var(--orange)}
 nav.cats .cats-enq:hover{color:var(--orange-dk)}
 @media(max-width:720px){
-  .tstrip .wrap{display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:0;padding:0;height:32px;align-items:center;overflow:hidden}
-  .tstrip-track{display:flex;flex:none;gap:36px;padding-right:36px;white-space:nowrap;animation:tstrip-scroll 24s linear infinite}
+  .tstrip .wrap{display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:0;padding:0;height:32px;align-items:center;overflow:hidden;position:relative;width:100%;max-width:100%}
+  .tstrip-track{display:flex;flex:none;gap:36px;padding-right:36px;white-space:nowrap;animation:tstrip-scroll 24s linear infinite;will-change:transform}
   .tstrip .dup{display:flex}
   header.site .wrap{flex-wrap:wrap;gap:10px;padding:10px 14px}
   .brand{font-size:17px}
@@ -57,7 +57,7 @@ nav.cats .cats-enq:hover{color:var(--orange-dk)}
   nav.cats .wrap{gap:18px;padding:10px 14px;font-size:12.5px}
 }
 @keyframes tstrip-scroll{to{transform:translateX(-100%)}}
-@media(prefers-reduced-motion:reduce){.tstrip-track{animation:none}.tstrip .dup{display:none}}
+@media(prefers-reduced-motion:reduce){.tstrip-track{animation:none}.tstrip .dup{display:none}.tstrip-track span:not(:first-child){display:none}}
 
 /* breadcrumb + page head */
 .crumb{font-size:12.5px;color:var(--muted);padding:16px 0 4px}
@@ -283,6 +283,9 @@ footer.site ul{list-style:none;padding:0;margin:0;line-height:2}
 .footer-hours{color:var(--orange);margin-top:10px}
 .footer-bottom{border-top:1px solid #333;margin-top:30px;padding-top:18px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#9a9a9a;font-size:12.5px}
 .footer-bottom span{color:var(--orange)}
+
+/* mobile guard: never let a stray wide element widen the page (clip keeps sticky working) */
+html,body{overflow-x:clip}
 
 /* a11y: visible keyboard focus */
 :focus-visible{outline:2px solid var(--orange);outline-offset:2px;border-radius:6px}
