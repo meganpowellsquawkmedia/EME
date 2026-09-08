@@ -334,12 +334,28 @@ def kind_of(p):
     if "cordless" in s or "landline" in s or "dect" in s or "corded" in s: return "phone"
     return ""
 
+def storage_of(p, name):
+    """Phone/tablet storage (e.g. "256GB") from the product name or a storage spec.
+    Only a standalone "NNNGB" token counts — never digits inside a SKU/model code
+    (Bosch WAN28259GB would otherwise read as "8259GB"). The largest value wins so
+    a RAM figure like "12GB" in "12GB 512GB" never masquerades as storage."""
+    sku = (p.get("sku") or "").strip()
+    hay = name.replace(sku, " ") if sku else name          # drop the model code first
+    tok = r"(?<![A-Za-z0-9])(\d{2,4})\s?GB\b"               # not glued to a preceding letter/digit
+    vals = [int(x) for x in re.findall(tok, hay, re.I)]
+    for sp in (p.get("specs") or []):
+        lbl, val = (sp.get("label", ""), sp.get("value", "")) if isinstance(sp, dict) else \
+                   (sp[0], sp[1]) if isinstance(sp, (list, tuple)) and len(sp) == 2 else ("", "")
+        if "storage" in str(lbl).lower():
+            vals += [int(x) for x in re.findall(r"\b(\d{2,4})\s?GB\b", str(val), re.I)]
+    return f"{max(vals)}GB" if vals else None
+
 def facets(p):
     """Attribute facets parsed from the product name for filters / chips / specs."""
     name = html.unescape(p["name"]); fc = {}
     m = re.search(r"(\d{2,3})\s?cm", name);           fc["Width"] = m.group(1) + "cm" if m else None
     m = re.search(r"(\d{1,2})\s?kg", name, re.I);      fc["Capacity"] = m.group(1) + "kg" if m else None
-    m = re.search(r"(\d{2,4})\s?GB", name, re.I);      fc["Storage"] = m.group(1) + "GB" if m else None
+    fc["Storage"] = storage_of(p, name)
     if re.search(r"dual[- ]fuel", name, re.I):         fc["Fuel"] = "Dual fuel"
     elif re.search(r"\bLPG\b", name):                  fc["Fuel"] = "Gas (LPG)"
     elif re.search(r"\bgas\b", name, re.I):            fc["Fuel"] = "Gas"
