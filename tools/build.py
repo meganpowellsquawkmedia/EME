@@ -1318,8 +1318,8 @@ def build_bedbuilder():
     <div class="bb-note">The bed — and every headboard below — previews in your chosen fabric on real Aurora pieces. Upholstered to order; call in to Church Street to feel the swatches in person.</div>
     <img id="srcDivan" src="/assets/img/base-standard-divan.jpg" hidden alt="">
     <img id="srcDrawer" src="/assets/img/base-standard-drawer.jpg" hidden alt="">
-    <img id="mskDivan" src="/assets/img/mask-divan.png" hidden alt="">
-    <img id="mskDrawer" src="/assets/img/mask-drawer.png" hidden alt="">
+    <img id="mskDivan" src="/assets/img/mask-divan.png?v=2" hidden alt="">
+    <img id="mskDrawer" src="/assets/img/mask-drawer.png?v=2" hidden alt="">
     {hb_srcs}
   </div>
   <div class="bb-controls">
